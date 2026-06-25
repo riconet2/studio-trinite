@@ -9,7 +9,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
     :root {
       --sand: #f5f0e8;
       --ocean: #1a6b8a;
@@ -19,65 +18,88 @@
       --border: #e5e0d8;
       --white: #ffffff;
     }
+    body { font-family: 'Inter', sans-serif; background: var(--sand); color: var(--text); line-height: 1.6; min-height: 100vh; }
 
-    body { font-family: 'Inter', sans-serif; background: var(--sand); color: var(--text); line-height: 1.6; }
-
-    /* BARRE DE LANGUE */
-    .lang-bar {
-      background: var(--white);
-      border-bottom: 1px solid var(--border);
-      display: flex;
-      justify-content: flex-end;
-      padding: 8px 20px;
-    }
-    .lang-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 6px 14px;
-      background: var(--ocean);
-      color: white;
-      border-radius: 20px;
-      text-decoration: none;
-      font-size: 0.8rem;
-      font-weight: 600;
-      letter-spacing: 0.03em;
-      transition: background 0.2s;
-    }
+    /* LANG */
+    .lang-bar { background: var(--white); border-bottom: 1px solid var(--border); display: flex; justify-content: flex-end; padding: 8px 20px; }
+    .lang-btn { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; background: var(--ocean); color: white; border-radius: 20px; text-decoration: none; font-size: 0.8rem; font-weight: 600; transition: background 0.2s; }
     .lang-btn:hover { background: #145a76; }
 
     /* HERO */
-    .hero { background: var(--ocean); color: white; text-align: center; padding: 48px 24px 40px; }
-    .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.6rem, 5vw, 2.4rem); margin-bottom: 12px; line-height: 1.2; }
-    .hero p { font-size: 0.95rem; opacity: 0.88; max-width: 500px; margin: 0 auto; }
+    .hero { background: var(--ocean); color: white; text-align: center; padding: 36px 24px 32px; }
+    .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.4rem, 5vw, 2.2rem); margin-bottom: 10px; line-height: 1.2; }
+    .hero p { font-size: 0.9rem; opacity: 0.88; max-width: 500px; margin: 0 auto; }
 
-    .hero-photo { width: 100%; max-height: 340px; object-fit: cover; display: block; }
+    .hero-photo { width: 100%; max-height: 280px; object-fit: cover; display: block; }
 
-    main { max-width: 680px; margin: 0 auto; padding: 0 20px 60px; }
+    /* PAGE ACCUEIL */
+    .home-page { display: block; }
+    .content-page { display: none; }
 
-    /* SECTIONS */
-    .section {
-      margin-top: 28px;
+    /* GRILLE BOUTONS CATÉGORIES */
+    .categories {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 28px 20px 60px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    .cat-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 24px 16px;
       background: var(--white);
       border-radius: 16px;
-      padding: 28px 24px;
       border: 1px solid var(--border);
       box-shadow: 0 4px 16px rgba(0,0,0,0.07), 0 1px 4px rgba(0,0,0,0.04);
+      cursor: pointer;
+      transition: transform 0.15s, box-shadow 0.15s, background 0.2s;
+      text-decoration: none;
+      color: var(--text);
     }
+    .cat-btn:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.1); background: var(--ocean-light); }
+    .cat-btn:active { transform: translateY(0); }
+    .cat-icon { font-size: 2rem; line-height: 1; }
+    .cat-label { font-size: 0.82rem; font-weight: 700; color: var(--ocean); text-align: center; line-height: 1.3; }
+
+    /* PAGE CONTENU */
+    .content-page {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    /* BOUTON RETOUR */
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin: 20px 0 4px;
+      padding: 10px 16px;
+      background: var(--white);
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--ocean);
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .back-btn:hover { background: var(--ocean-light); }
+
+    /* SECTIONS */
+    .section { margin-top: 20px; background: var(--white); border-radius: 16px; padding: 28px 24px; border: 1px solid var(--border); box-shadow: 0 4px 16px rgba(0,0,0,0.07), 0 1px 4px rgba(0,0,0,0.04); }
     .section-header { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
     .section-icon { font-size: 1.5rem; line-height: 1; }
     .section-header h2 { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--ocean); }
     .section strong { color: var(--text); font-weight: 600; }
 
     /* CARTOUCHES SABLE */
-    .card {
-      background: var(--sand);
-      border-radius: 12px;
-      padding: 15px 16px;
-      border: 1px solid var(--border);
-      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-      margin-top: 12px;
-    }
+    .card { background: var(--sand); border-radius: 12px; padding: 15px 16px; border: 1px solid var(--border); box-shadow: 0 2px 6px rgba(0,0,0,0.05); margin-top: 12px; }
     .card-header { display: flex; align-items: center; gap: 9px; margin-bottom: 10px; }
     .card-icon { font-size: 1.1rem; }
     .card-title { font-size: 0.78rem; font-weight: 700; color: var(--ocean); text-transform: uppercase; letter-spacing: 0.06em; }
@@ -93,52 +115,17 @@
     .studio-list li { font-size: 0.9rem; padding: 7px 0; border-bottom: 1px solid var(--border); color: var(--text); }
     .studio-list li:last-child { border-bottom: none; }
 
-    /* BOUTONS UTILITAIRES — grande grille mise en valeur */
-    .utility-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 10px;
-      margin-top: 20px;
-    }
-    .utility-btn {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-      padding: 16px 10px;
-      background: var(--ocean);
-      color: white;
-      border-radius: 12px;
-      text-decoration: none;
-      font-size: 0.82rem;
-      font-weight: 600;
-      text-align: center;
-      box-shadow: 0 3px 10px rgba(26,107,138,0.3);
-      transition: background 0.2s, transform 0.15s, box-shadow 0.15s;
-      line-height: 1.3;
-    }
-    .utility-btn:hover { background: #145a76; transform: translateY(-2px); box-shadow: 0 6px 16px rgba(26,107,138,0.35); }
+    /* BOUTONS UTILITAIRES */
+    .utility-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 20px; }
+    .utility-btn { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 16px 10px; background: var(--ocean); color: white; border-radius: 12px; text-decoration: none; font-size: 0.82rem; font-weight: 600; text-align: center; box-shadow: 0 3px 10px rgba(26,107,138,0.3); transition: background 0.2s, transform 0.15s; line-height: 1.3; }
+    .utility-btn:hover { background: #145a76; transform: translateY(-2px); }
     .utility-btn-icon { font-size: 1.4rem; }
     .utility-btn.full { grid-column: 1 / -1; }
 
     /* AGENDA LINKS */
     .agenda-label { font-size: 0.75rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.07em; margin: 16px 0 8px; display: block; }
-    .agenda-link {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      padding: 14px 16px;
-      background: var(--sand);
-      border-radius: 10px;
-      text-decoration: none;
-      color: var(--text);
-      margin-bottom: 8px;
-      border: 1px solid var(--border);
-      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-      transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
-    }
-    .agenda-link:hover { background: var(--ocean-light); box-shadow: 0 4px 12px rgba(0,0,0,0.1); transform: translateY(-1px); }
+    .agenda-link { display: flex; align-items: center; gap: 14px; padding: 14px 16px; background: var(--sand); border-radius: 10px; text-decoration: none; color: var(--text); margin-bottom: 8px; border: 1px solid var(--border); box-shadow: 0 2px 6px rgba(0,0,0,0.05); transition: background 0.2s, transform 0.15s; }
+    .agenda-link:hover { background: var(--ocean-light); transform: translateY(-1px); }
     .agenda-link-icon { font-size: 1.4rem; }
     .agenda-link-text { flex: 1; }
     .agenda-link-title { font-size: 0.9rem; font-weight: 600; color: var(--text); }
@@ -146,36 +133,6 @@
     .agenda-arrow { color: var(--ocean); font-size: 1rem; font-weight: 700; }
 
     footer { text-align: center; font-size: 0.78rem; color: var(--muted); padding: 32px 20px; border-top: 1px solid var(--border); margin-top: 40px; }
-
-    /* MENU NAVIGATION */
-    .nav-menu {
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      background: var(--white);
-      border-bottom: 1px solid var(--border);
-      padding: 0 8px;
-      display: flex;
-      gap: 2px;
-      overflow-x: auto;
-      scrollbar-width: none;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-    }
-    .nav-menu::-webkit-scrollbar { display: none; }
-    .nav-item {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 11px 9px;
-      font-size: 0.72rem;
-      font-weight: 600;
-      color: var(--muted);
-      text-decoration: none;
-      white-space: nowrap;
-      border-bottom: 2px solid transparent;
-      transition: color 0.2s, border-color 0.2s;
-    }
-    .nav-item:hover { color: var(--ocean); border-bottom-color: var(--ocean); }
   </style>
 </head>
 <body>
@@ -196,40 +153,52 @@
           https://cdn.prod.website-files.com/6959264a8397337b442701b7/6a2304ffb5d70ea681b90c45_marais%20salant.jpg 1280w"
   sizes="100vw" alt="Marais salants de La Trinité-sur-Mer" loading="lazy"/>
 
-<nav class="nav-menu">
-  <a href="#arrivee" class="nav-item">🗝️ Arrivée</a>
-  <a href="#studio" class="nav-item">🏡 Studio</a>
-  <a href="#autour" class="nav-item">📍 Autour</a>
-  <a href="#restaurants" class="nav-item">🍽️ Restos</a>
-  <a href="#agenda" class="nav-item">🗓️ Agenda</a>
-  <a href="#aide" class="nav-item">📞 Aide</a>
-</nav>
-
-<main>
-
-  <!-- ARRIVÉE & DÉPART -->
-  <div class="section" id="arrivee">
-    <div class="section-header">
-      <span class="section-icon">🗝️</span>
-      <h2>Arrivée &amp; Départ</h2>
-    </div>
-    <div class="card">
-      <p>🕒 Arrivée possible à partir de <strong>16h</strong><br/>🕚 Départ avant <strong>10h</strong></p>
-    </div>
-    <div class="card">
-      <p>📩 Les instructions détaillées d'arrivée (adresse, accès, boîte à clés) vous seront envoyées la veille de votre arrivée.</p>
-    </div>
-    <div class="card">
-      <p>🙏 Merci de respecter les horaires afin de faciliter le ménage pour les prochains voyageurs.</p>
-    </div>
+<!-- PAGE ACCUEIL : GRILLE CATÉGORIES -->
+<div class="home-page" id="home">
+  <div class="categories">
+    <button class="cat-btn" onclick="showPage('arrivee')">
+      <span class="cat-icon">🗝️</span>
+      <span class="cat-label">Arrivée &amp; Départ</span>
+    </button>
+    <button class="cat-btn" onclick="showPage('studio')">
+      <span class="cat-icon">🏡</span>
+      <span class="cat-label">Le Studio</span>
+    </button>
+    <button class="cat-btn" onclick="showPage('autour')">
+      <span class="cat-icon">📍</span>
+      <span class="cat-label">Autour de vous</span>
+    </button>
+    <button class="cat-btn" onclick="showPage('restaurants')">
+      <span class="cat-icon">🍽️</span>
+      <span class="cat-label">Restaurants</span>
+    </button>
+    <button class="cat-btn" onclick="showPage('agenda')">
+      <span class="cat-icon">🗓️</span>
+      <span class="cat-label">Agenda &amp; Sorties</span>
+    </button>
+    <button class="cat-btn" onclick="showPage('aide')">
+      <span class="cat-icon">📞</span>
+      <span class="cat-label">Besoin d'aide</span>
+    </button>
   </div>
+</div>
 
-  <!-- LE STUDIO -->
-  <div class="section" id="studio">
-    <div class="section-header">
-      <span class="section-icon">🏡</span>
-      <h2>Le studio</h2>
-    </div>
+<!-- ARRIVÉE & DÉPART -->
+<div class="content-page" id="arrivee">
+  <button class="back-btn" onclick="showHome()">← Retour</button>
+  <div class="section">
+    <div class="section-header"><span class="section-icon">🗝️</span><h2>Arrivée &amp; Départ</h2></div>
+    <div class="card"><p>🕒 Arrivée possible à partir de <strong>16h</strong><br/>🕚 Départ avant <strong>10h</strong></p></div>
+    <div class="card"><p>📩 Les instructions détaillées d'arrivée (adresse, accès, boîte à clés) vous seront envoyées la veille de votre arrivée.</p></div>
+    <div class="card"><p>🙏 Merci de respecter les horaires afin de faciliter le ménage pour les prochains voyageurs.</p></div>
+  </div>
+</div>
+
+<!-- LE STUDIO -->
+<div class="content-page" id="studio">
+  <button class="back-btn" onclick="showHome()">← Retour</button>
+  <div class="section">
+    <div class="section-header"><span class="section-icon">🏡</span><h2>Le studio</h2></div>
     <p style="font-size:0.9rem; color:var(--muted);">Studio confortable pour 1 à 2 personnes, idéal pour un séjour à La Trinité-sur-Mer.</p>
     <ul class="studio-list">
       <li>🛋️ Canapé-lit de qualité avec ouverture "rapido"</li>
@@ -241,13 +210,13 @@
     </ul>
     <p style="margin-top:14px; font-size:0.82rem; color:var(--muted);">Les informations pratiques et les modes d'utilisation des équipements sont disponibles sur place.</p>
   </div>
+</div>
 
-  <!-- AUTOUR DE VOUS -->
-  <div class="section" id="autour">
-    <div class="section-header">
-      <span class="section-icon">📍</span>
-      <h2>Autour de vous</h2>
-    </div>
+<!-- AUTOUR DE VOUS -->
+<div class="content-page" id="autour">
+  <button class="back-btn" onclick="showHome()">← Retour</button>
+  <div class="section">
+    <div class="section-header"><span class="section-icon">📍</span><h2>Autour de vous</h2></div>
     <p style="font-size:0.9rem; color:var(--muted);">La Trinité-sur-Mer est un port vivant et authentique, au cœur de la baie de Quiberon.</p>
 
     <div class="card">
@@ -258,12 +227,10 @@
         <li>Les marais salants de La Trinité</li>
       </ul>
     </div>
-
     <div class="card card-coeur">
       <div class="card-header"><span class="card-icon">💙</span><span class="card-title">Coup de cœur</span></div>
       <p>Personnellement, nous aimons beaucoup la plage de Kervilen, idéale pour une balade ou un moment de détente.</p>
     </div>
-
     <div class="card">
       <div class="card-header"><span class="card-icon">🛶</span><span class="card-title">Nautique &amp; activités en mer</span></div>
       <ul>
@@ -274,7 +241,6 @@
         <li>Traversée vers Belle-Île : compagnie régulière ou à la voile (Iliens)</li>
       </ul>
     </div>
-
     <div class="card">
       <div class="card-header"><span class="card-icon">🚴</span><span class="card-title">Vélo</span></div>
       <ul>
@@ -282,7 +248,13 @@
         <li>Circuit conseillé : La Trinité → Locmariaquer (~34 km, piste et chemins intérieurs)</li>
       </ul>
     </div>
-
+    <div class="card">
+      <div class="card-header"><span class="card-icon">👕</span><span class="card-title">Laveries</span></div>
+      <ul>
+        <li>⭐ <strong>Le Salon Lavoir</strong> — notre recommandation — 36 cours des Quais, 7j/7 de 7h à 21h</li>
+        <li>Laverie Raz la Crêpe — Place Voulien <em>(les sèche-linge peuvent être défaillants)</em></li>
+      </ul>
+    </div>
     <div class="card">
       <div class="card-header"><span class="card-icon">🏖️</span><span class="card-title">Sites incontournables à proximité</span></div>
       <ul>
@@ -295,7 +267,6 @@
         <li>Biscuiterie La Trinitaine</li>
       </ul>
     </div>
-
     <div class="card">
       <div class="card-header"><span class="card-icon">🏰</span><span class="card-title">Plus loin — Vannes &amp; Golfe du Morbihan</span></div>
       <ul>
@@ -308,7 +279,6 @@
         <li>City Pass Vannes : réductions et transports inclus</li>
       </ul>
     </div>
-
     <div class="card">
       <div class="card-header"><span class="card-icon">🎶</span><span class="card-title">Lorient &amp; le Festival Interceltique</span></div>
       <ul>
@@ -318,132 +288,108 @@
         <li>La Cité de la Voile Éric Tabarly</li>
       </ul>
     </div>
-
     <div class="utility-grid">
-      <a href="https://www.google.com/maps/search/?api=1&query=La+Trinité-sur-Mer" target="_blank" class="utility-btn">
-        <span class="utility-btn-icon">📍</span>Google Maps
-      </a>
-      <a href="https://meteofrance.com/previsions-meteo-france/la-trinite-sur-mer/56470" target="_blank" class="utility-btn">
-        <span class="utility-btn-icon">🌤️</span>Météo locale
-      </a>
-      <a href="https://marine.meteoconsult.fr/meteo-marine/bulletin-detaille/port-185/previsions-meteo-la-trinite-sur-mer-aujourdhui" target="_blank" class="utility-btn">
-        <span class="utility-btn-icon">⚓</span>Météo marine
-      </a>
-      <a href="https://maree.info/59" target="_blank" class="utility-btn">
-        <span class="utility-btn-icon">🌊</span>Horaires des marées
-      </a>
-
+      <a href="https://www.google.com/maps/search/?api=1&query=La+Trinité-sur-Mer" target="_blank" class="utility-btn"><span class="utility-btn-icon">📍</span>Google Maps</a>
+      <a href="https://meteofrance.com/previsions-meteo-france/la-trinite-sur-mer/56470" target="_blank" class="utility-btn"><span class="utility-btn-icon">🌤️</span>Météo locale</a>
+      <a href="https://marine.meteoconsult.fr/meteo-marine/bulletin-detaille/port-185/previsions-meteo-la-trinite-sur-mer-aujourdhui" target="_blank" class="utility-btn"><span class="utility-btn-icon">⚓</span>Météo marine</a>
+      <a href="https://maree.info/59" target="_blank" class="utility-btn"><span class="utility-btn-icon">🌊</span>Horaires des marées</a>
     </div>
   </div>
+</div>
 
-  <!-- RESTAURANTS -->
-  <div class="section" id="restaurants">
-    <div class="section-header">
-      <span class="section-icon">🍽️</span>
-      <h2>Où manger ?</h2>
-    </div>
+<!-- RESTAURANTS -->
+<div class="content-page" id="restaurants">
+  <button class="back-btn" onclick="showHome()">← Retour</button>
+  <div class="section">
+    <div class="section-header"><span class="section-icon">🍽️</span><h2>Où manger ?</h2></div>
     <p style="font-size:0.9rem; color:var(--muted);">Quelques adresses que nous recommandons à La Trinité-sur-Mer.</p>
-
     <div class="card" style="margin-top:12px;">
       <div class="card-header"><span class="card-icon">💙</span><span class="card-title">Le Quai — Notre coup de cœur</span></div>
       <p>Cuisine maison depuis 1990, produits locaux (pêcheurs, huîtres de Locmariaquer, légumes de Carnac). Vue sur le port, terrasse, ouvert tous les jours.</p>
       <p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">8 cours des Quais · <a href="https://www.lequai56.fr" target="_blank" style="color:var(--ocean);">lequai56.fr</a></p>
     </div>
-
     <div class="card">
       <div class="card-header"><span class="card-icon">🎶</span><span class="card-title">La Marée Douce</span></div>
       <p>Esprit guinguette sur les quais, grande terrasse vue port, cuisine maison. DJ set le soir, cocktails et tapas pour une soirée festive.</p>
       <p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">34 cours des Quais · <a href="https://www.lamareedouce.com" target="_blank" style="color:var(--ocean);">lamareedouce.com</a></p>
     </div>
-
     <div class="card">
       <div class="card-header"><span class="card-icon">🍽️</span><span class="card-title">Itsasoa</span></div>
       <p>Cuisine française raffinée, l'une des meilleures notes de la région. Réservation conseillée en saison.</p>
       <p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">1 rue de Ker Anna, Carnac · <a href="https://www.google.com/maps/search/?api=1&query=Itsasoa+Carnac" target="_blank" style="color:var(--ocean);">Voir sur Maps</a></p>
     </div>
-
     <div class="card">
       <div class="card-header"><span class="card-icon">🦪</span><span class="card-title">Le Mouillage</span></div>
       <p>Face au port de pêche, vue directe sur le chenal. Spécialités de produits de la mer ultra frais.</p>
       <p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">La Trinité-sur-Mer · <a href="https://www.google.com/maps/search/?api=1&query=Le+Mouillage+La+Trinité-sur-Mer" target="_blank" style="color:var(--ocean);">Voir sur Maps</a></p>
     </div>
-
     <div class="card">
       <div class="card-header"><span class="card-icon">🥞</span><span class="card-title">Crêperie Ty Malou</span></div>
       <p>Crêperie bretonne traditionnelle, juste à côté du Quai. Idéale pour un repas simple et authentique.</p>
       <p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">10 cours des Quais · <a href="https://www.google.com/maps/search/?api=1&query=Crêperie+Ty+Malou+La+Trinité-sur-Mer" target="_blank" style="color:var(--ocean);">Voir sur Maps</a></p>
     </div>
-
     <div class="utility-grid" style="margin-top:16px;">
-      <a href="https://www.tripadvisor.fr/Restaurants-g667165-La_Trinite_sur_Mer_Morbihan_Brittany.html" target="_blank" class="utility-btn full">
-        <span class="utility-btn-icon">⭐</span>Tous les restaurants sur Tripadvisor
-      </a>
+      <a href="https://www.tripadvisor.fr/Restaurants-g667165-La_Trinite_sur_Mer_Morbihan_Brittany.html" target="_blank" class="utility-btn full"><span class="utility-btn-icon">⭐</span>Tous les restaurants sur Tripadvisor</a>
     </div>
   </div>
+</div>
 
-  <!-- AGENDA -->
-  <div class="section" id="agenda">
-    <div class="section-header">
-      <span class="section-icon">🗓️</span>
-      <h2>Agenda &amp; Sorties</h2>
-    </div>
+<!-- AGENDA -->
+<div class="content-page" id="agenda">
+  <button class="back-btn" onclick="showHome()">← Retour</button>
+  <div class="section">
+    <div class="section-header"><span class="section-icon">🗓️</span><h2>Agenda &amp; Sorties</h2></div>
     <p style="font-size:0.85rem; color:var(--muted);">Événements à La Trinité et dans tout le Morbihan</p>
-
     <span class="agenda-label">La Trinité-sur-Mer</span>
     <a href="https://www.latrinitesurmer.fr/agenda/" target="_blank" rel="noopener" class="agenda-link">
       <span class="agenda-link-icon">📍</span>
-      <div class="agenda-link-text">
-        <div class="agenda-link-title">Agenda officiel de La Trinité</div>
-        <div class="agenda-link-sub">Fêtes, marchés, animations locales</div>
-      </div>
+      <div class="agenda-link-text"><div class="agenda-link-title">Agenda officiel de La Trinité</div><div class="agenda-link-sub">Fêtes, marchés, animations locales</div></div>
       <span class="agenda-arrow">→</span>
     </a>
-
     <span class="agenda-label">Morbihan &amp; région</span>
     <a href="https://morbihan.com/a-voir-a-faire/agenda/" target="_blank" rel="noopener" class="agenda-link">
       <span class="agenda-link-icon">🌊</span>
-      <div class="agenda-link-text">
-        <div class="agenda-link-title">Agenda Morbihan</div>
-        <div class="agenda-link-sub">Lorient, Vannes, Auray, Quiberon…</div>
-      </div>
+      <div class="agenda-link-text"><div class="agenda-link-title">Agenda Morbihan</div><div class="agenda-link-sub">Lorient, Vannes, Auray, Quiberon…</div></div>
       <span class="agenda-arrow">→</span>
     </a>
     <a href="https://56.agendaculturel.fr/" target="_blank" rel="noopener" class="agenda-link">
       <span class="agenda-link-icon">🎭</span>
-      <div class="agenda-link-text">
-        <div class="agenda-link-title">Agenda culturel Morbihan</div>
-        <div class="agenda-link-sub">Concerts, spectacles, expos, festivals</div>
-      </div>
+      <div class="agenda-link-text"><div class="agenda-link-title">Agenda culturel Morbihan</div><div class="agenda-link-sub">Concerts, spectacles, expos, festivals</div></div>
       <span class="agenda-arrow">→</span>
     </a>
     <a href="https://golfedumorbihan56.com/agenda-evenements/morbihan/" target="_blank" rel="noopener" class="agenda-link">
       <span class="agenda-link-icon">⛵</span>
-      <div class="agenda-link-text">
-        <div class="agenda-link-title">Agenda Golfe du Morbihan</div>
-        <div class="agenda-link-sub">Quiberon, presqu'île, événements nautiques</div>
-      </div>
+      <div class="agenda-link-text"><div class="agenda-link-title">Agenda Golfe du Morbihan</div><div class="agenda-link-sub">Quiberon, presqu'île, événements nautiques</div></div>
       <span class="agenda-arrow">→</span>
     </a>
   </div>
+</div>
 
-  <!-- BESOIN D'AIDE -->
-  <div class="section" id="aide">
-    <div class="section-header">
-      <span class="section-icon">📞</span>
-      <h2>Besoin d'aide</h2>
-    </div>
-    <div class="card">
-      <p>Je reste disponible pendant votre séjour si vous avez la moindre question. Je réponds généralement sous <strong>2h</strong>.</p>
-    </div>
-    <div class="card">
-      <p>📩 Pour toute question, merci de privilégier les <strong>messages Airbnb</strong>.</p>
-    </div>
-    <div class="card">
-      <p>🚨 En cas d'urgence, vous pouvez me contacter directement.</p>
-    </div>
+<!-- BESOIN D'AIDE -->
+<div class="content-page" id="aide">
+  <button class="back-btn" onclick="showHome()">← Retour</button>
+  <div class="section">
+    <div class="section-header"><span class="section-icon">📞</span><h2>Besoin d'aide</h2></div>
+    <div class="card"><p>Je reste disponible pendant votre séjour si vous avez la moindre question. Je réponds généralement sous <strong>2h</strong>.</p></div>
+    <div class="card"><p>📩 Pour toute question, merci de privilégier les <strong>messages Airbnb</strong>.</p></div>
+    <div class="card"><p>🚨 En cas d'urgence, vous pouvez me contacter directement.</p></div>
   </div>
+</div>
 
-</main>
 <footer>Studio · La Trinité-sur-Mer · 56470</footer>
+
+<script>
+  function showPage(id) {
+    document.getElementById('home').style.display = 'none';
+    document.querySelectorAll('.content-page').forEach(p => p.style.display = 'none');
+    document.getElementById(id).style.display = 'block';
+    window.scrollTo(0, 0);
+  }
+  function showHome() {
+    document.querySelectorAll('.content-page').forEach(p => p.style.display = 'none');
+    document.getElementById('home').style.display = 'block';
+    window.scrollTo(0, 0);
+  }
+</script>
 </body>
 </html>
