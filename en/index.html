@@ -6,36 +6,32 @@
   <title>Studio - La Trinité-sur-Mer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Dancing+Script:wght@600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root {
-      --sand: #f5f0e8;
-      --ocean: #1a6b8a;
-      --ocean-light: #eef6fa;
-      --text: #2a2a2a;
-      --muted: #6b7280;
-      --border: #e5e0d8;
-      --white: #ffffff;
-    }
+    :root { --sand: #f5f0e8; --ocean: #1a6b8a; --ocean-light: #eef6fa; --text: #2a2a2a; --muted: #6b7280; --border: #e5e0d8; --white: #ffffff; --coral: #e07b54; }
     body { font-family: 'Inter', sans-serif; background: var(--sand); color: var(--text); line-height: 1.6; min-height: 100vh; }
     .lang-bar { background: var(--white); border-bottom: 1px solid var(--border); display: flex; justify-content: flex-end; padding: 8px 20px; }
     .lang-btn { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; background: var(--ocean); color: white; border-radius: 20px; text-decoration: none; font-size: 0.8rem; font-weight: 600; transition: background 0.2s; }
     .lang-btn:hover { background: #145a76; }
     .hero { background: var(--ocean); color: white; text-align: center; padding: 36px 24px 32px; }
-    .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.4rem, 5vw, 2.2rem); margin-bottom: 10px; line-height: 1.2; }
-    .hero p { font-size: 0.9rem; opacity: 0.88; max-width: 500px; margin: 0 auto; }
+    .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.4rem, 5vw, 2.2rem); margin-bottom: 12px; line-height: 1.2; }
+    .hero p { font-family: 'Dancing Script', cursive; font-size: clamp(1.1rem, 4vw, 1.4rem); opacity: 0.95; max-width: 500px; margin: 0 auto; line-height: 1.5; }
     .hero-photo { width: 100%; max-height: 280px; object-fit: cover; display: block; }
     .home-page { display: block; }
     .content-page { display: none; }
     .categories { max-width: 680px; margin: 0 auto; padding: 28px 20px 60px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
-    .cat-btn { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 24px 16px; background: var(--white); border-radius: 16px; border: 1px solid var(--border); box-shadow: 0 4px 16px rgba(0,0,0,0.07), 0 1px 4px rgba(0,0,0,0.04); cursor: pointer; transition: transform 0.15s, box-shadow 0.15s, background 0.2s; text-decoration: none; color: var(--text); }
+    .cat-btn { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 24px 16px; background: var(--white); border-radius: 16px; border: 1px solid var(--border); box-shadow: 0 4px 16px rgba(0,0,0,0.07), 0 1px 4px rgba(0,0,0,0.04); cursor: pointer; transition: transform 0.15s, box-shadow 0.15s, background 0.2s; color: var(--text); }
     .cat-btn:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.1); background: var(--ocean-light); }
     .cat-icon { font-size: 2rem; line-height: 1; }
     .cat-label { font-size: 0.82rem; font-weight: 700; color: var(--ocean); text-align: center; line-height: 1.3; }
-    .content-page { max-width: 680px; margin: 0 auto; padding: 0 20px 60px; }
-    .back-btn { display: inline-flex; align-items: center; gap: 8px; margin: 20px 0 4px; padding: 10px 16px; background: var(--white); border: 1.5px solid var(--border); border-radius: 10px; font-size: 0.85rem; font-weight: 600; color: var(--ocean); cursor: pointer; transition: background 0.2s; }
-    .back-btn:hover { background: var(--ocean-light); }
+    .content-page { max-width: 680px; margin: 0 auto; padding: 0 20px 80px; }
+    .nav-bar { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin: 16px 0 4px; }
+    .back-btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 20px; background: var(--coral); color: white; border: none; border-radius: 12px; font-size: 0.88rem; font-weight: 700; cursor: pointer; box-shadow: 0 3px 10px rgba(224,123,84,0.35); transition: background 0.2s, transform 0.15s; white-space: nowrap; }
+    .back-btn:hover { background: #c8663e; transform: translateY(-1px); }
+    .nav-arrows { display: flex; gap: 8px; }
+    .arrow-btn { display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 42px; background: var(--white); border: 1.5px solid var(--border); border-radius: 10px; font-size: 1.1rem; cursor: pointer; color: var(--ocean); font-weight: 700; box-shadow: 0 2px 6px rgba(0,0,0,0.06); transition: background 0.2s, transform 0.15s; }
+    .arrow-btn:hover { background: var(--ocean-light); transform: translateY(-1px); }
     .section { margin-top: 20px; background: var(--white); border-radius: 16px; padding: 28px 24px; border: 1px solid var(--border); box-shadow: 0 4px 16px rgba(0,0,0,0.07), 0 1px 4px rgba(0,0,0,0.04); }
     .section-header { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
     .section-icon { font-size: 1.5rem; line-height: 1; }
@@ -91,40 +87,22 @@
 <!-- HOME PAGE -->
 <div class="home-page" id="home">
   <div class="categories">
-    <button class="cat-btn" onclick="showPage('checkin')">
-      <span class="cat-icon">🗝️</span>
-      <span class="cat-label">Check-in &amp; Check-out</span>
-    </button>
-    <button class="cat-btn" onclick="showPage('studio')">
-      <span class="cat-icon">🏡</span>
-      <span class="cat-label">The Studio</span>
-    </button>
-    <button class="cat-btn" onclick="showPage('around')">
-      <span class="cat-icon">📍</span>
-      <span class="cat-label">Around You</span>
-    </button>
-    <button class="cat-btn" onclick="showPage('restaurants')">
-      <span class="cat-icon">🍽️</span>
-      <span class="cat-label">Restaurants</span>
-    </button>
-    <button class="cat-btn" onclick="showPage('events')">
-      <span class="cat-icon">🗓️</span>
-      <span class="cat-label">Events &amp; Outings</span>
-    </button>
-    <button class="cat-btn" onclick="showPage('help')">
-      <span class="cat-icon">📞</span>
-      <span class="cat-label">Need Help?</span>
-    </button>
-    <button class="cat-btn" onclick="showPage('practical')">
-      <span class="cat-icon">🌤️</span>
-      <span class="cat-label">Practical Info</span>
-    </button>
+    <button class="cat-btn" onclick="showPage(0)"><span class="cat-icon">🗝️</span><span class="cat-label">Check-in &amp; Check-out</span></button>
+    <button class="cat-btn" onclick="showPage(1)"><span class="cat-icon">🏡</span><span class="cat-label">The Studio</span></button>
+    <button class="cat-btn" onclick="showPage(2)"><span class="cat-icon">📍</span><span class="cat-label">Around You</span></button>
+    <button class="cat-btn" onclick="showPage(3)"><span class="cat-icon">🍽️</span><span class="cat-label">Restaurants</span></button>
+    <button class="cat-btn" onclick="showPage(4)"><span class="cat-icon">🗓️</span><span class="cat-label">Events &amp; Outings</span></button>
+    <button class="cat-btn" onclick="showPage(5)"><span class="cat-icon">🌤️</span><span class="cat-label">Practical Info</span></button>
+    <button class="cat-btn" onclick="showPage(6)"><span class="cat-icon">📞</span><span class="cat-label">Need Help?</span></button>
   </div>
 </div>
 
-<!-- CHECK-IN & CHECK-OUT -->
-<div class="content-page" id="checkin">
-  <button class="back-btn" onclick="showHome()">← Back</button>
+<!-- CHECK-IN -->
+<div class="content-page" id="page-0">
+  <div class="nav-bar">
+    <button class="back-btn" onclick="showHome()">🏠 Home</button>
+    <div class="nav-arrows"><button class="arrow-btn" onclick="showPage(6)">◀</button><button class="arrow-btn" onclick="showPage(1)">▶</button></div>
+  </div>
   <div class="section">
     <div class="section-header"><span class="section-icon">🗝️</span><h2>Check-in &amp; Check-out</h2></div>
     <div class="card"><p>🕒 Check-in from <strong>4:00 PM</strong><br/>🕚 Check-out before <strong>10:00 AM</strong></p></div>
@@ -134,8 +112,11 @@
 </div>
 
 <!-- THE STUDIO -->
-<div class="content-page" id="studio">
-  <button class="back-btn" onclick="showHome()">← Back</button>
+<div class="content-page" id="page-1">
+  <div class="nav-bar">
+    <button class="back-btn" onclick="showHome()">🏠 Home</button>
+    <div class="nav-arrows"><button class="arrow-btn" onclick="showPage(0)">◀</button><button class="arrow-btn" onclick="showPage(2)">▶</button></div>
+  </div>
   <div class="section">
     <div class="section-header"><span class="section-icon">🏡</span><h2>The Studio</h2></div>
     <p style="font-size:0.9rem; color:var(--muted);">Comfortable studio for 1 to 2 guests, ideal for a stay in La Trinité-sur-Mer.</p>
@@ -152,86 +133,67 @@
 </div>
 
 <!-- AROUND YOU -->
-<div class="content-page" id="around">
-  <button class="back-btn" onclick="showHome()">← Back</button>
+<div class="content-page" id="page-2">
+  <div class="nav-bar">
+    <button class="back-btn" onclick="showHome()">🏠 Home</button>
+    <div class="nav-arrows"><button class="arrow-btn" onclick="showPage(1)">◀</button><button class="arrow-btn" onclick="showPage(3)">▶</button></div>
+  </div>
   <div class="section">
     <div class="section-header"><span class="section-icon">📍</span><h2>Around You</h2></div>
     <p style="font-size:0.9rem; color:var(--muted);">La Trinité-sur-Mer is a vibrant and authentic harbour town, at the heart of the bay of Quiberon.</p>
-    <div class="card">
-      <div class="card-header"><span class="card-icon">🚶</span><span class="card-title">On foot from the studio</span></div>
-      <ul>
-        <li>The harbour, beaches and the coastal path (GR34)</li>
-        <li>Bakeries, shops and restaurants</li>
-        <li>The salt marshes of La Trinité</li>
-      </ul>
-    </div>
-    <div class="card card-coeur">
-      <div class="card-header"><span class="card-icon">💙</span><span class="card-title">Our favourite spot</span></div>
-      <p>We particularly love Kervilen beach — perfect for a stroll or a relaxing moment by the sea.</p>
-    </div>
-    <div class="card">
-      <div class="card-header"><span class="card-icon">🛶</span><span class="card-title">Water sports &amp; sea activities</span></div>
-      <ul>
-        <li>Kayak &amp; paddle: Run'O, Varec'h Kayak, Kerners Kayak &amp; Paddle</li>
-        <li>Electric boats (no licence needed): E.SEA</li>
-        <li>Guided boat tours: Vedettes Angels</li>
-        <li>Lunch/dinner cruises: Navix, Le Passeur des Îles</li>
-        <li>Ferry to Belle-Île island: regular service or sailing (Iliens)</li>
-      </ul>
-    </div>
-    <div class="card">
-      <div class="card-header"><span class="card-icon">🚴</span><span class="card-title">Cycling</span></div>
-      <ul>
-        <li>Le Vélo Trinitain (on site), VéloCarnac, L'Original Location (Erdeven)</li>
-        <li>Recommended route: La Trinité → Locmariaquer (~34 km, bike paths and country lanes)</li>
-      </ul>
-    </div>
-    <div class="card">
-      <div class="card-header"><span class="card-icon">👕</span><span class="card-title">Laundromats</span></div>
-      <ul>
-        <li>⭐ <strong>Le Salon Lavoir</strong> — our recommendation — 36 cours des Quais, open 7/7 from 7am to 9pm</li>
-        <li>Laverie Raz la Crêpe — Place Voulien <em>(dryers may be unreliable)</em></li>
-      </ul>
-    </div>
-    <div class="card">
-      <div class="card-header"><span class="card-icon">🏖️</span><span class="card-title">Must-see sites nearby</span></div>
-      <ul>
-        <li>Carnac standing stones (menhirs and dolmens)</li>
-        <li>Gavrinis (island &amp; neolithic cairn)</li>
-        <li>Penthièvre isthmus &amp; wild coast — sand yachting</li>
-        <li>Thalasso &amp; sea spa in Carnac</li>
-        <li>Saint-Goustan harbour (Auray)</li>
-        <li>Walk along the Bono river (starting at St-Avoye chapel)</li>
-        <li>La Trinitaine biscuit factory</li>
-      </ul>
-    </div>
-    <div class="card">
-      <div class="card-header"><span class="card-icon">🏰</span><span class="card-title">Further afield — Vannes &amp; Gulf of Morbihan</span></div>
-      <ul>
-        <li>Vannes and its historic old town</li>
-        <li>Château de Suscinio · Poul Fétan (reconstructed Breton village)</li>
-        <li>Islands: Île aux Moines, Île d'Arz</li>
-        <li>Traditional boat sailing: Krog e Barz, Voiles du Golfe André &amp; Yvette</li>
-        <li>Eco kayak tours: sentiersmarins.com</li>
-        <li>Helicopter &amp; skydiving at Monterblanc</li>
-        <li>Vannes City Pass: discounts and transport included</li>
-      </ul>
-    </div>
-    <div class="card">
-      <div class="card-header"><span class="card-icon">🎶</span><span class="card-title">Lorient &amp; the Interceltique Festival</span></div>
-      <ul>
-        <li>Lorient, a dynamic port city 45 min from the studio</li>
-        <li>Festival Interceltique (early August): one of the world's largest Celtic festivals</li>
-        <li>Keroman fishing port (France's largest fishing harbour)</li>
-        <li>Cité de la Voile Éric Tabarly sailing museum</li>
-      </ul>
-    </div>
+    <div class="card"><div class="card-header"><span class="card-icon">🚶</span><span class="card-title">On foot from the studio</span></div><ul><li>The harbour, beaches and the coastal path (GR34)</li><li>Bakeries, shops and restaurants</li><li>The salt marshes of La Trinité</li></ul></div>
+    <div class="card card-coeur"><div class="card-header"><span class="card-icon">💙</span><span class="card-title">Our favourite spot</span></div><p>We particularly love Kervilen beach — perfect for a stroll or a relaxing moment by the sea.</p></div>
+    <div class="card"><div class="card-header"><span class="card-icon">🛶</span><span class="card-title">Water sports &amp; sea activities</span></div><ul><li>Kayak &amp; paddle: Run'O, Varec'h Kayak, Kerners Kayak &amp; Paddle</li><li>Electric boats (no licence needed): E.SEA</li><li>Guided boat tours: Vedettes Angels</li><li>Lunch/dinner cruises: Navix, Le Passeur des Îles</li><li>Ferry to Belle-Île island: regular service or sailing (Iliens)</li></ul></div>
+    <div class="card"><div class="card-header"><span class="card-icon">🚴</span><span class="card-title">Cycling</span></div><ul><li>Le Vélo Trinitain (on site), VéloCarnac, L'Original Location (Erdeven)</li><li>Recommended route: La Trinité → Locmariaquer (~34 km, bike paths and country lanes)</li></ul></div>
+    <div class="card"><div class="card-header"><span class="card-icon">👕</span><span class="card-title">Laundromats</span></div><ul><li>⭐ <strong>Le Salon Lavoir</strong> — our recommendation — 36 cours des Quais, open 7/7 from 7am to 9pm</li><li>Laverie Raz la Crêpe — Place Voulien <em>(dryers may be unreliable)</em></li></ul></div>
+    <div class="card"><div class="card-header"><span class="card-icon">🏖️</span><span class="card-title">Must-see sites nearby</span></div><ul><li>Carnac standing stones (menhirs and dolmens)</li><li>Gavrinis (island &amp; neolithic cairn)</li><li>Penthièvre isthmus &amp; wild coast — sand yachting</li><li>Thalasso &amp; sea spa in Carnac</li><li>Saint-Goustan harbour (Auray)</li><li>Walk along the Bono river (starting at St-Avoye chapel)</li><li>La Trinitaine biscuit factory</li></ul></div>
+    <div class="card"><div class="card-header"><span class="card-icon">🏰</span><span class="card-title">Further afield — Vannes &amp; Gulf of Morbihan</span></div><ul><li>Vannes and its historic old town</li><li>Château de Suscinio · Poul Fétan (reconstructed Breton village)</li><li>Islands: Île aux Moines, Île d'Arz</li><li>Traditional boat sailing: Krog e Barz, Voiles du Golfe André &amp; Yvette</li><li>Eco kayak tours: sentiersmarins.com</li><li>Helicopter &amp; skydiving at Monterblanc</li><li>Vannes City Pass: discounts and transport included</li></ul></div>
+    <div class="card"><div class="card-header"><span class="card-icon">🎶</span><span class="card-title">Lorient &amp; the Interceltique Festival</span></div><ul><li>Lorient, a dynamic port city 45 min from the studio</li><li>Festival Interceltique (early August): one of the world's largest Celtic festivals</li><li>Keroman fishing port (France's largest fishing harbour)</li><li>Cité de la Voile Éric Tabarly sailing museum</li></ul></div>
+  </div>
+</div>
+
+<!-- RESTAURANTS -->
+<div class="content-page" id="page-3">
+  <div class="nav-bar">
+    <button class="back-btn" onclick="showHome()">🏠 Home</button>
+    <div class="nav-arrows"><button class="arrow-btn" onclick="showPage(2)">◀</button><button class="arrow-btn" onclick="showPage(4)">▶</button></div>
+  </div>
+  <div class="section">
+    <div class="section-header"><span class="section-icon">🍽️</span><h2>Where to eat?</h2></div>
+    <p style="font-size:0.9rem; color:var(--muted);">A few addresses we recommend in La Trinité-sur-Mer.</p>
+    <div class="card" style="margin-top:12px;"><div class="card-header"><span class="card-icon">💙</span><span class="card-title">Le Quai — Our favourite</span></div><p>Home cooking since 1990, local produce. Port view, terrace, open every day.</p><p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">8 cours des Quais · <a href="https://www.lequai56.fr" target="_blank" style="color:var(--ocean);">lequai56.fr</a></p></div>
+    <div class="card"><div class="card-header"><span class="card-icon">🎶</span><span class="card-title">La Marée Douce</span></div><p>Guinguette spirit, large terrace with port view. DJ sets, cocktails and tapas in the evening.</p><p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">34 cours des Quais · <a href="https://www.lamareedouce.com" target="_blank" style="color:var(--ocean);">lamareedouce.com</a></p></div>
+    <div class="card"><div class="card-header"><span class="card-icon">🍽️</span><span class="card-title">Itsasoa</span></div><p>Refined French cuisine, one of the highest-rated in the region. Booking recommended.</p><p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">1 rue de Ker Anna, Carnac · <a href="https://www.google.com/maps/search/?api=1&query=Itsasoa+Carnac" target="_blank" style="color:var(--ocean);">View on Maps</a></p></div>
+    <div class="card"><div class="card-header"><span class="card-icon">🦪</span><span class="card-title">Le Mouillage</span></div><p>Facing the fishing harbour, direct view over the channel. Ultra-fresh seafood specialities.</p><p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">La Trinité-sur-Mer · <a href="https://www.google.com/maps/search/?api=1&query=Le+Mouillage+La+Trinité-sur-Mer" target="_blank" style="color:var(--ocean);">View on Maps</a></p></div>
+    <div class="card"><div class="card-header"><span class="card-icon">🥞</span><span class="card-title">Crêperie Ty Malou</span></div><p>Traditional Breton crêperie, right next to Le Quai.</p><p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">10 cours des Quais · <a href="https://www.google.com/maps/search/?api=1&query=Crêperie+Ty+Malou+La+Trinité-sur-Mer" target="_blank" style="color:var(--ocean);">View on Maps</a></p></div>
+    <div class="utility-grid" style="margin-top:16px;"><a href="https://www.tripadvisor.fr/Restaurants-g667165-La_Trinite_sur_Mer_Morbihan_Brittany.html" target="_blank" class="utility-btn full"><span class="utility-btn-icon">⭐</span>All restaurants on Tripadvisor</a></div>
+  </div>
+</div>
+
+<!-- EVENTS -->
+<div class="content-page" id="page-4">
+  <div class="nav-bar">
+    <button class="back-btn" onclick="showHome()">🏠 Home</button>
+    <div class="nav-arrows"><button class="arrow-btn" onclick="showPage(3)">◀</button><button class="arrow-btn" onclick="showPage(5)">▶</button></div>
+  </div>
+  <div class="section">
+    <div class="section-header"><span class="section-icon">🗓️</span><h2>Events &amp; Outings</h2></div>
+    <p style="font-size:0.85rem; color:var(--muted);">Events in La Trinité and across the Morbihan region</p>
+    <span class="agenda-label">La Trinité-sur-Mer</span>
+    <a href="https://www.latrinitesurmer.fr/agenda/" target="_blank" rel="noopener" class="agenda-link"><span class="agenda-link-icon">📍</span><div class="agenda-link-text"><div class="agenda-link-title">Official La Trinité agenda</div><div class="agenda-link-sub">Festivals, markets, local events</div></div><span class="agenda-arrow">→</span></a>
+    <span class="agenda-label">Morbihan &amp; region</span>
+    <a href="https://morbihan.com/a-voir-a-faire/agenda/" target="_blank" rel="noopener" class="agenda-link"><span class="agenda-link-icon">🌊</span><div class="agenda-link-text"><div class="agenda-link-title">Morbihan agenda</div><div class="agenda-link-sub">Lorient, Vannes, Auray, Quiberon…</div></div><span class="agenda-arrow">→</span></a>
+    <a href="https://56.agendaculturel.fr/" target="_blank" rel="noopener" class="agenda-link"><span class="agenda-link-icon">🎭</span><div class="agenda-link-text"><div class="agenda-link-title">Cultural agenda Morbihan</div><div class="agenda-link-sub">Concerts, shows, exhibitions, sport</div></div><span class="agenda-arrow">→</span></a>
+    <a href="https://golfedumorbihan56.com/agenda-evenements/morbihan/" target="_blank" rel="noopener" class="agenda-link"><span class="agenda-link-icon">⛵</span><div class="agenda-link-text"><div class="agenda-link-title">Gulf of Morbihan agenda</div><div class="agenda-link-sub">Quiberon, peninsula, nautical events</div></div><span class="agenda-arrow">→</span></a>
   </div>
 </div>
 
 <!-- PRACTICAL INFO -->
-<div class="content-page" id="practical">
-  <button class="back-btn" onclick="showHome()">← Back</button>
+<div class="content-page" id="page-5">
+  <div class="nav-bar">
+    <button class="back-btn" onclick="showHome()">🏠 Home</button>
+    <div class="nav-arrows"><button class="arrow-btn" onclick="showPage(4)">◀</button><button class="arrow-btn" onclick="showPage(6)">▶</button></div>
+  </div>
   <div class="section">
     <div class="section-header"><span class="section-icon">🌤️</span><h2>Practical Info</h2></div>
     <p style="font-size:0.9rem; color:var(--muted); margin-bottom:16px;">Quick access to useful information for your stay.</p>
@@ -244,77 +206,12 @@
   </div>
 </div>
 
-<!-- RESTAURANTS -->
-<div class="content-page" id="restaurants">
-  <button class="back-btn" onclick="showHome()">← Back</button>
-  <div class="section">
-    <div class="section-header"><span class="section-icon">🍽️</span><h2>Where to eat?</h2></div>
-    <p style="font-size:0.9rem; color:var(--muted);">A few addresses we recommend in La Trinité-sur-Mer.</p>
-    <div class="card" style="margin-top:12px;">
-      <div class="card-header"><span class="card-icon">💙</span><span class="card-title">Le Quai — Our favourite</span></div>
-      <p>Home cooking since 1990, local produce (fishermen, oysters from Locmariaquer, vegetables from Carnac). Port view, terrace, open every day.</p>
-      <p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">8 cours des Quais · <a href="https://www.lequai56.fr" target="_blank" style="color:var(--ocean);">lequai56.fr</a></p>
-    </div>
-    <div class="card">
-      <div class="card-header"><span class="card-icon">🎶</span><span class="card-title">La Marée Douce</span></div>
-      <p>Guinguette spirit on the quayside, large terrace with port view, home cooking. DJ sets in the evening, cocktails and tapas for a festive night out.</p>
-      <p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">34 cours des Quais · <a href="https://www.lamareedouce.com" target="_blank" style="color:var(--ocean);">lamareedouce.com</a></p>
-    </div>
-    <div class="card">
-      <div class="card-header"><span class="card-icon">🍽️</span><span class="card-title">Itsasoa</span></div>
-      <p>Refined French cuisine, one of the highest-rated restaurants in the region. Booking recommended in season.</p>
-      <p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">1 rue de Ker Anna, Carnac · <a href="https://www.google.com/maps/search/?api=1&query=Itsasoa+Carnac" target="_blank" style="color:var(--ocean);">View on Maps</a></p>
-    </div>
-    <div class="card">
-      <div class="card-header"><span class="card-icon">🦪</span><span class="card-title">Le Mouillage</span></div>
-      <p>Facing the fishing harbour with a direct view over the channel. Specialities in ultra-fresh seafood.</p>
-      <p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">La Trinité-sur-Mer · <a href="https://www.google.com/maps/search/?api=1&query=Le+Mouillage+La+Trinité-sur-Mer" target="_blank" style="color:var(--ocean);">View on Maps</a></p>
-    </div>
-    <div class="card">
-      <div class="card-header"><span class="card-icon">🥞</span><span class="card-title">Crêperie Ty Malou</span></div>
-      <p>Traditional Breton crêperie, right next to Le Quai. Perfect for a simple, authentic meal.</p>
-      <p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">10 cours des Quais · <a href="https://www.google.com/maps/search/?api=1&query=Crêperie+Ty+Malou+La+Trinité-sur-Mer" target="_blank" style="color:var(--ocean);">View on Maps</a></p>
-    </div>
-    <div class="utility-grid" style="margin-top:16px;">
-      <a href="https://www.tripadvisor.fr/Restaurants-g667165-La_Trinite_sur_Mer_Morbihan_Brittany.html" target="_blank" class="utility-btn full"><span class="utility-btn-icon">⭐</span>All restaurants on Tripadvisor</a>
-    </div>
-  </div>
-</div>
-
-<!-- EVENTS & OUTINGS -->
-<div class="content-page" id="events">
-  <button class="back-btn" onclick="showHome()">← Back</button>
-  <div class="section">
-    <div class="section-header"><span class="section-icon">🗓️</span><h2>Events &amp; Outings</h2></div>
-    <p style="font-size:0.85rem; color:var(--muted);">Events in La Trinité and across the Morbihan region</p>
-    <span class="agenda-label">La Trinité-sur-Mer</span>
-    <a href="https://www.latrinitesurmer.fr/agenda/" target="_blank" rel="noopener" class="agenda-link">
-      <span class="agenda-link-icon">📍</span>
-      <div class="agenda-link-text"><div class="agenda-link-title">Official La Trinité agenda</div><div class="agenda-link-sub">Festivals, markets, local events</div></div>
-      <span class="agenda-arrow">→</span>
-    </a>
-    <span class="agenda-label">Morbihan &amp; region</span>
-    <a href="https://morbihan.com/a-voir-a-faire/agenda/" target="_blank" rel="noopener" class="agenda-link">
-      <span class="agenda-link-icon">🌊</span>
-      <div class="agenda-link-text"><div class="agenda-link-title">Morbihan agenda</div><div class="agenda-link-sub">Lorient, Vannes, Auray, Quiberon…</div></div>
-      <span class="agenda-arrow">→</span>
-    </a>
-    <a href="https://56.agendaculturel.fr/" target="_blank" rel="noopener" class="agenda-link">
-      <span class="agenda-link-icon">🎭</span>
-      <div class="agenda-link-text"><div class="agenda-link-title">Cultural agenda Morbihan</div><div class="agenda-link-sub">Concerts, shows, exhibitions, sport</div></div>
-      <span class="agenda-arrow">→</span>
-    </a>
-    <a href="https://golfedumorbihan56.com/agenda-evenements/morbihan/" target="_blank" rel="noopener" class="agenda-link">
-      <span class="agenda-link-icon">⛵</span>
-      <div class="agenda-link-text"><div class="agenda-link-title">Gulf of Morbihan agenda</div><div class="agenda-link-sub">Quiberon, peninsula, nautical events</div></div>
-      <span class="agenda-arrow">→</span>
-    </a>
-  </div>
-</div>
-
 <!-- NEED HELP -->
-<div class="content-page" id="help">
-  <button class="back-btn" onclick="showHome()">← Back</button>
+<div class="content-page" id="page-6">
+  <div class="nav-bar">
+    <button class="back-btn" onclick="showHome()">🏠 Home</button>
+    <div class="nav-arrows"><button class="arrow-btn" onclick="showPage(5)">◀</button><button class="arrow-btn" onclick="showPage(0)">▶</button></div>
+  </div>
   <div class="section">
     <div class="section-header"><span class="section-icon">📞</span><h2>Need Help?</h2></div>
     <div class="card"><p>I am available throughout your stay for any question. I usually reply within <strong>2 hours</strong>.</p></div>
@@ -326,14 +223,15 @@
 <footer>Studio · La Trinité-sur-Mer · 56470</footer>
 
 <script>
-  function showPage(id) {
+  const pages = ['page-0','page-1','page-2','page-3','page-4','page-5','page-6'];
+  function showPage(idx) {
     document.getElementById('home').style.display = 'none';
-    document.querySelectorAll('.content-page').forEach(p => p.style.display = 'none');
-    document.getElementById(id).style.display = 'block';
+    pages.forEach(p => document.getElementById(p).style.display = 'none');
+    document.getElementById(pages[idx]).style.display = 'block';
     window.scrollTo(0, 0);
   }
   function showHome() {
-    document.querySelectorAll('.content-page').forEach(p => p.style.display = 'none');
+    pages.forEach(p => document.getElementById(p).style.display = 'none');
     document.getElementById('home').style.display = 'block';
     window.scrollTo(0, 0);
   }
