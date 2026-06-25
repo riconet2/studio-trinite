@@ -146,6 +146,36 @@
     .agenda-arrow { color: var(--ocean); font-size: 1rem; font-weight: 700; }
 
     footer { text-align: center; font-size: 0.78rem; color: var(--muted); padding: 32px 20px; border-top: 1px solid var(--border); margin-top: 40px; }
+
+    /* MENU NAVIGATION */
+    .nav-menu {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      padding: 0 8px;
+      display: flex;
+      gap: 2px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    .nav-menu::-webkit-scrollbar { display: none; }
+    .nav-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 11px 9px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: var(--muted);
+      text-decoration: none;
+      white-space: nowrap;
+      border-bottom: 2px solid transparent;
+      transition: color 0.2s, border-color 0.2s;
+    }
+    .nav-item:hover { color: var(--ocean); border-bottom-color: var(--ocean); }
   </style>
 </head>
 <body>
@@ -166,10 +196,19 @@
           https://cdn.prod.website-files.com/6959264a8397337b442701b7/6a2304ffb5d70ea681b90c45_marais%20salant.jpg 1280w"
   sizes="100vw" alt="Marais salants de La Trinité-sur-Mer" loading="lazy"/>
 
+<nav class="nav-menu">
+  <a href="#arrivee" class="nav-item">🗝️ Arrivée</a>
+  <a href="#studio" class="nav-item">🏡 Studio</a>
+  <a href="#autour" class="nav-item">📍 Autour</a>
+  <a href="#restaurants" class="nav-item">🍽️ Restos</a>
+  <a href="#agenda" class="nav-item">🗓️ Agenda</a>
+  <a href="#aide" class="nav-item">📞 Aide</a>
+</nav>
+
 <main>
 
   <!-- ARRIVÉE & DÉPART -->
-  <div class="section">
+  <div class="section" id="arrivee">
     <div class="section-header">
       <span class="section-icon">🗝️</span>
       <h2>Arrivée &amp; Départ</h2>
@@ -186,7 +225,7 @@
   </div>
 
   <!-- LE STUDIO -->
-  <div class="section">
+  <div class="section" id="studio">
     <div class="section-header">
       <span class="section-icon">🏡</span>
       <h2>Le studio</h2>
@@ -204,7 +243,7 @@
   </div>
 
   <!-- AUTOUR DE VOUS -->
-  <div class="section">
+  <div class="section" id="autour">
     <div class="section-header">
       <span class="section-icon">📍</span>
       <h2>Autour de vous</h2>
@@ -293,14 +332,12 @@
       <a href="https://maree.info/59" target="_blank" class="utility-btn">
         <span class="utility-btn-icon">🌊</span>Horaires des marées
       </a>
-      <a href="https://www.google.com/maps/dir/?api=1&origin=14+Rue+Inouarh+Braz,+56470+La+Trinité-sur-Mer&waypoints=8+Cours+des+Quais,+56470+La+Trinité-sur-Mer|34+Cours+des+Quais,+56470+La+Trinité-sur-Mer|10+Cours+des+Quais,+56470+La+Trinité-sur-Mer|36+Cours+des+Quais,+56470+La+Trinité-sur-Mer|Place+Voulien,+56470+La+Trinité-sur-Mer|Plage+de+Kervillen,+56470+La+Trinité-sur-Mer" target="_blank" class="utility-btn full">
-        <span class="utility-btn-icon">🗺️</span>Plan du quartier — nos adresses utiles
-      </a>
+
     </div>
   </div>
 
   <!-- RESTAURANTS -->
-  <div class="section">
+  <div class="section" id="restaurants">
     <div class="section-header">
       <span class="section-icon">🍽️</span>
       <h2>Où manger ?</h2>
@@ -345,7 +382,7 @@
   </div>
 
   <!-- AGENDA -->
-  <div class="section">
+  <div class="section" id="agenda">
     <div class="section-header">
       <span class="section-icon">🗓️</span>
       <h2>Agenda &amp; Sorties</h2>
@@ -390,7 +427,7 @@
   </div>
 
   <!-- BESOIN D'AIDE -->
-  <div class="section">
+  <div class="section" id="aide">
     <div class="section-header">
       <span class="section-icon">📞</span>
       <h2>Besoin d'aide</h2>
