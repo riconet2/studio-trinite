@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Studio - La Trinité-sur-Mer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --sand: #f5f0e8;
+      --ocean: #1a6b8a;
+      --ocean-light: #eef6fa;
+      --text: #2a2a2a;
+      --muted: #6b7280;
+      --border: #e5e0d8;
+      --white: #ffffff;
+    }
+
+    body { font-family: 'Inter', sans-serif; background: var(--sand); color: var(--text); line-height: 1.6; }
+
+    /* BARRE DE LANGUE */
+    .lang-bar {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: flex-end;
+      padding: 8px 20px;
+    }
+    .lang-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      background: var(--ocean);
+      color: white;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      transition: background 0.2s;
+    }
+    .lang-btn:hover { background: #145a76; }
+
+    /* HERO */
+    .hero { background: var(--ocean); color: white; text-align: center; padding: 48px 24px 40px; }
+    .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.6rem, 5vw, 2.4rem); margin-bottom: 12px; line-height: 1.2; }
+    .hero p { font-size: 0.95rem; opacity: 0.88; max-width: 500px; margin: 0 auto; }
+
+    .hero-photo { width: 100%; max-height: 340px; object-fit: cover; display: block; }
+
+    main { max-width: 680px; margin: 0 auto; padding: 0 20px 60px; }
+
+    /* SECTIONS */
+    .section {
+      margin-top: 28px;
+      background: var(--white);
+      border-radius: 16px;
+      padding: 28px 24px;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.07), 0 1px 4px rgba(0,0,0,0.04);
+    }
+    .section-header { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
+    .section-icon { font-size: 1.5rem; line-height: 1; }
+    .section-header h2 { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--ocean); }
+    .section strong { color: var(--text); font-weight: 600; }
+
+    /* CARTOUCHES SABLE */
+    .card {
+      background: var(--sand);
+      border-radius: 12px;
+      padding: 15px 16px;
+      border: 1px solid var(--border);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      margin-top: 12px;
+    }
+    .card-header { display: flex; align-items: center; gap: 9px; margin-bottom: 10px; }
+    .card-icon { font-size: 1.1rem; }
+    .card-title { font-size: 0.78rem; font-weight: 700; color: var(--ocean); text-transform: uppercase; letter-spacing: 0.06em; }
+    .card ul { list-style: none; padding: 0; margin: 0; }
+    .card ul li { font-size: 0.875rem; color: var(--text); padding: 3px 0 3px 14px; position: relative; }
+    .card ul li::before { content: "·"; position: absolute; left: 0; color: var(--ocean); font-weight: 700; font-size: 1.2rem; line-height: 1.3; }
+    .card p { font-size: 0.875rem; color: var(--text); margin: 0; }
+    .card-coeur { background: var(--ocean-light); border-color: #c2dde9; }
+    .card-coeur p { font-style: italic; }
+
+    /* STUDIO LIST */
+    .studio-list { list-style: none; padding: 0; margin-top: 14px; }
+    .studio-list li { font-size: 0.9rem; padding: 7px 0; border-bottom: 1px solid var(--border); color: var(--text); }
+    .studio-list li:last-child { border-bottom: none; }
+
+    /* BOUTONS UTILITAIRES — grande grille mise en valeur */
+    .utility-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .utility-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 16px 10px;
+      background: var(--ocean);
+      color: white;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 600;
+      text-align: center;
+      box-shadow: 0 3px 10px rgba(26,107,138,0.3);
+      transition: background 0.2s, transform 0.15s, box-shadow 0.15s;
+      line-height: 1.3;
+    }
+    .utility-btn:hover { background: #145a76; transform: translateY(-2px); box-shadow: 0 6px 16px rgba(26,107,138,0.35); }
+    .utility-btn-icon { font-size: 1.4rem; }
+    .utility-btn.full { grid-column: 1 / -1; }
+
+    /* AGENDA LINKS */
+    .agenda-label { font-size: 0.75rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.07em; margin: 16px 0 8px; display: block; }
+    .agenda-link {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 14px 16px;
+      background: var(--sand);
+      border-radius: 10px;
+      text-decoration: none;
+      color: var(--text);
+      margin-bottom: 8px;
+      border: 1px solid var(--border);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
+    }
+    .agenda-link:hover { background: var(--ocean-light); box-shadow: 0 4px 12px rgba(0,0,0,0.1); transform: translateY(-1px); }
+    .agenda-link-icon { font-size: 1.4rem; }
+    .agenda-link-text { flex: 1; }
+    .agenda-link-title { font-size: 0.9rem; font-weight: 600; color: var(--text); }
+    .agenda-link-sub { font-size: 0.78rem; color: var(--muted); margin-top: 2px; }
+    .agenda-arrow { color: var(--ocean); font-size: 1rem; font-weight: 700; }
+
+    footer { text-align: center; font-size: 0.78rem; color: var(--muted); padding: 32px 20px; border-top: 1px solid var(--border); margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+<div class="lang-bar">
+  <a href="/" class="lang-btn">🇫🇷 Français</a>
+</div>
+
+<div class="hero">
+  <h1>Welcome to La Trinité-sur-Mer 🌊</h1>
+  <p>We are delighted to welcome you to our studio, perfectly located to enjoy the harbour and the bay of Quiberon.</p>
+</div>
+
+<img class="hero-photo"
+  src="https://cdn.prod.website-files.com/6959264a8397337b442701b7/6a2304ffb5d70ea681b90c45_marais%20salant.jpg"
+  srcset="https://cdn.prod.website-files.com/6959264a8397337b442701b7/6a2304ffb5d70ea681b90c45_marais%20salant-p-500.jpg 500w,
+          https://cdn.prod.website-files.com/6959264a8397337b442701b7/6a2304ffb5d70ea681b90c45_marais%20salant-p-800.jpg 800w,
+          https://cdn.prod.website-files.com/6959264a8397337b442701b7/6a2304ffb5d70ea681b90c45_marais%20salant.jpg 1280w"
+  sizes="100vw" alt="Salt marshes of La Trinité-sur-Mer" loading="lazy"/>
+
+<main>
+
+  <!-- CHECK-IN & CHECK-OUT -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">🗝️</span>
+      <h2>Check-in &amp; Check-out</h2>
+    </div>
+    <div class="card">
+      <p>🕒 Check-in from <strong>4:00 PM</strong><br/>🕚 Check-out before <strong>10:00 AM</strong></p>
+    </div>
+    <div class="card">
+      <p>📩 Detailed arrival instructions (address, access, key box code) will be sent to you the day before your arrival.</p>
+    </div>
+    <div class="card">
+      <p>🙏 Please respect the check-out time to allow cleaning for the next guests.</p>
+    </div>
+  </div>
+
+  <!-- THE STUDIO -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">🏡</span>
+      <h2>The Studio</h2>
+    </div>
+    <p style="font-size:0.9rem; color:var(--muted);">Comfortable studio for 1 to 2 guests, ideal for a stay in La Trinité-sur-Mer.</p>
+    <ul class="studio-list">
+      <li>🛋️ Quality sofa bed with "rapido" opening</li>
+      <li>🍳 Fully equipped kitchen</li>
+      <li>🚿 Private bathroom</li>
+      <li>📺 Television</li>
+      <li>📶 Wi-Fi connection — password displayed in the studio</li>
+      <li>🛏️ Bed linen and towels provided</li>
+    </ul>
+    <p style="margin-top:14px; font-size:0.82rem; color:var(--muted);">Practical information and equipment instructions are available on site.</p>
+  </div>
+
+  <!-- AROUND YOU -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">📍</span>
+      <h2>Around You</h2>
+    </div>
+    <p style="font-size:0.9rem; color:var(--muted);">La Trinité-sur-Mer is a vibrant and authentic harbour town, at the heart of the bay of Quiberon.</p>
+
+    <div class="card">
+      <div class="card-header"><span class="card-icon">🚶</span><span class="card-title">On foot from the studio</span></div>
+      <ul>
+        <li>The harbour, beaches and the coastal path (GR34)</li>
+        <li>Bakeries, shops and restaurants</li>
+        <li>The salt marshes of La Trinité</li>
+      </ul>
+    </div>
+
+    <div class="card card-coeur">
+      <div class="card-header"><span class="card-icon">💙</span><span class="card-title">Our favourite spot</span></div>
+      <p>We particularly love Kervilen beach — perfect for a stroll or a relaxing moment by the sea.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-header"><span class="card-icon">🛶</span><span class="card-title">Water sports &amp; sea activities</span></div>
+      <ul>
+        <li>Kayak &amp; paddle: Run'O, Varec'h Kayak, Kerners Kayak &amp; Paddle</li>
+        <li>Electric boats (no licence needed): E.SEA</li>
+        <li>Guided boat tours: Vedettes Angels</li>
+        <li>Lunch/dinner cruises: Navix, Le Passeur des Îles</li>
+        <li>Ferry to Belle-Île island: regular service or sailing (Iliens)</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="card-header"><span class="card-icon">🚴</span><span class="card-title">Cycling</span></div>
+      <ul>
+        <li>Le Vélo Trinitain (on site), VéloCarnac, L'Original Location (Erdeven)</li>
+        <li>Recommended route: La Trinité → Locmariaquer (~34 km, bike paths and country lanes)</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="card-header"><span class="card-icon">🏖️</span><span class="card-title">Must-see sites nearby</span></div>
+      <ul>
+        <li>Carnac standing stones (menhirs and dolmens)</li>
+        <li>Gavrinis (island &amp; neolithic cairn)</li>
+        <li>Penthièvre isthmus &amp; wild coast — sand yachting</li>
+        <li>Thalasso &amp; sea spa in Carnac</li>
+        <li>Saint-Goustan harbour (Auray)</li>
+        <li>Walk along the Bono river (starting at St-Avoye chapel)</li>
+        <li>La Trinitaine biscuit factory</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="card-header"><span class="card-icon">🏰</span><span class="card-title">Further afield — Vannes &amp; Gulf of Morbihan</span></div>
+      <ul>
+        <li>Vannes and its historic old town</li>
+        <li>Château de Suscinio · Poul Fétan (reconstructed Breton village)</li>
+        <li>Islands: Île aux Moines, Île d'Arz</li>
+        <li>Traditional boat sailing: Krog e Barz, Voiles du Golfe André &amp; Yvette</li>
+        <li>Eco kayak tours: sentiersmarins.com</li>
+        <li>Helicopter &amp; skydiving at Monterblanc</li>
+        <li>Vannes City Pass: discounts and transport included</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="card-header"><span class="card-icon">🎶</span><span class="card-title">Lorient &amp; the Interceltique Festival</span></div>
+      <ul>
+        <li>Lorient, a dynamic port city 45 min from the studio</li>
+        <li>Festival Interceltique (early August): one of the world's largest Celtic festivals</li>
+        <li>Keroman fishing port (France's largest fishing harbour)</li>
+        <li>Cité de la Voile Éric Tabarly sailing museum</li>
+      </ul>
+    </div>
+
+    <div class="utility-grid">
+      <a href="https://www.google.com/maps/search/?api=1&query=La+Trinité-sur-Mer" target="_blank" class="utility-btn">
+        <span class="utility-btn-icon">📍</span>Google Maps
+      </a>
+      <a href="https://meteofrance.com/previsions-meteo-france/la-trinite-sur-mer/56470" target="_blank" class="utility-btn">
+        <span class="utility-btn-icon">🌤️</span>Local weather
+      </a>
+      <a href="https://maree.info/59" target="_blank" class="utility-btn full">
+        <span class="utility-btn-icon">🌊</span>Tide times
+      </a>
+    </div>
+  </div>
+
+  <!-- EVENTS & OUTINGS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">🗓️</span>
+      <h2>Events &amp; Outings</h2>
+    </div>
+    <p style="font-size:0.85rem; color:var(--muted);">Events in La Trinité and across the Morbihan region</p>
+
+    <span class="agenda-label">La Trinité-sur-Mer</span>
+    <a href="https://www.latrinitesurmer.fr/agenda/" target="_blank" rel="noopener" class="agenda-link">
+      <span class="agenda-link-icon">📍</span>
+      <div class="agenda-link-text">
+        <div class="agenda-link-title">Official La Trinité agenda</div>
+        <div class="agenda-link-sub">Festivals, markets, local events</div>
+      </div>
+      <span class="agenda-arrow">→</span>
+    </a>
+
+    <span class="agenda-label">Morbihan &amp; region</span>
+    <a href="https://morbihan.com/a-voir-a-faire/agenda/" target="_blank" rel="noopener" class="agenda-link">
+      <span class="agenda-link-icon">🌊</span>
+      <div class="agenda-link-text">
+        <div class="agenda-link-title">Morbihan agenda</div>
+        <div class="agenda-link-sub">Lorient, Vannes, Auray, Quiberon…</div>
+      </div>
+      <span class="agenda-arrow">→</span>
+    </a>
+    <a href="https://56.agendaculturel.fr/" target="_blank" rel="noopener" class="agenda-link">
+      <span class="agenda-link-icon">🎭</span>
+      <div class="agenda-link-text">
+        <div class="agenda-link-title">Cultural agenda Morbihan</div>
+        <div class="agenda-link-sub">Concerts, shows, exhibitions, sport</div>
+      </div>
+      <span class="agenda-arrow">→</span>
+    </a>
+    <a href="https://golfedumorbihan56.com/agenda-evenements/morbihan/" target="_blank" rel="noopener" class="agenda-link">
+      <span class="agenda-link-icon">⛵</span>
+      <div class="agenda-link-text">
+        <div class="agenda-link-title">Gulf of Morbihan agenda</div>
+        <div class="agenda-link-sub">Quiberon, peninsula, nautical events</div>
+      </div>
+      <span class="agenda-arrow">→</span>
+    </a>
+  </div>
+
+  <!-- NEED HELP -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">📞</span>
+      <h2>Need Help?</h2>
+    </div>
+    <div class="card">
+      <p>I am available throughout your stay for any question. I usually reply within <strong>2 hours</strong>.</p>
+    </div>
+    <div class="card">
+      <p>📩 For any enquiry, please use <strong>Airbnb messages</strong>.</p>
+    </div>
+    <div class="card">
+      <p>🚨 In case of emergency, you can contact me directly.</p>
+    </div>
+  </div>
+
+</main>
+<footer>Studio · La Trinité-sur-Mer · 56470</footer>
+</body>
+</html>
