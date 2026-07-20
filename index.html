@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Studio - La Trinité-sur-Mer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Dancing+Script:wght@600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --sand: #f5f0e8;
+      --ocean: #1a6b8a;
+      --ocean-light: #eef6fa;
+      --text: #2a2a2a;
+      --muted: #6b7280;
+      --border: #e5e0d8;
+      --white: #ffffff;
+      --coral: #e07b54;
+      --coral-light: #f09a77;
+    }
+    body { font-family: 'Inter', sans-serif; background: var(--sand); color: var(--text); line-height: 1.6; min-height: 100vh; transition: background 1.2s ease; }
+
+    /* Teinte du fond selon le moment de la journée (subtil) */
+    body.t-morning { background: linear-gradient(180deg, #faf3e4 0%, #f5f0e8 300px); }
+    body.t-midday  { background: var(--sand); }
+    body.t-evening { background: linear-gradient(180deg, #f7ecdd 0%, #f2e6d2 300px); }
+    body.t-night   { background: linear-gradient(180deg, #ebeff2 0%, #f0ede6 300px); }
+
+    /* LANG */
+    .lang-bar { background: var(--white); border-bottom: 1px solid var(--border); display: flex; justify-content: flex-end; padding: 8px 20px; }
+    .lang-btn { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; background: var(--ocean); color: white; border-radius: 20px; text-decoration: none; font-size: 0.8rem; font-weight: 600; transition: background 0.2s; }
+    .lang-btn:hover { background: #145a76; }
+
+    /* HERO */
+    .hero { background: var(--ocean); color: white; text-align: center; padding: 36px 24px 32px; }
+    .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.4rem, 5vw, 2.2rem); margin-bottom: 12px; line-height: 1.2; }
+    .hero p { font-family: 'Dancing Script', cursive; font-size: clamp(1.1rem, 4vw, 1.4rem); opacity: 0.95; max-width: 500px; margin: 0 auto; line-height: 1.5; }
+
+    .hero-photo { width: 100%; max-height: 280px; object-fit: cover; display: block; }
+
+    /* ===== SABLIER DE SÉJOUR ===== */
+    .sejour-card {
+      display: none; /* affiché uniquement quand les dates sont connues */
+      max-width: 640px;
+      margin: 20px auto 0;
+      background: var(--ocean);
+      border-radius: 18px;
+      padding: 16px 20px;
+      box-shadow: 0 8px 24px rgba(26,107,138,0.28);
+      position: relative;
+      overflow: hidden;
+      color: white;
+    }
+    .sejour-card.visible { display: block; }
+    .sejour-card::before {
+      content:"";
+      position:absolute; inset:0;
+      background: radial-gradient(circle at 85% -10%, rgba(255,255,255,0.12), transparent 55%);
+      pointer-events:none;
+    }
+    @media (max-width: 700px) { .sejour-card { margin-left: 16px; margin-right: 16px; } }
+    .sejour-top { display:flex; justify-content:space-between; align-items:baseline; position:relative; }
+    .sejour-top .label { font-size:0.72rem; letter-spacing:0.06em; text-transform:uppercase; opacity:0.8; }
+    .sejour-top .day-count { font-size:1rem; font-weight:600; }
+    .sejour-row { display:flex; align-items:center; gap:16px; margin-top:8px; position:relative; }
+    .hourglass-svg { flex-shrink:0; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3)); }
+    .sejour-msg { flex:1; font-size:0.9rem; line-height:1.45; }
+    .sejour-msg strong { color:#ffc9ae; font-weight:600; }
+
+    /* PAGE ACCUEIL */
+    .home-page { display: block; }
+    .content-page { display: none; }
+
+    /* GRILLE CATÉGORIES — relief 3D */
+    .categories { max-width: 680px; margin: 0 auto; padding: 28px 20px 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .cat-btn {
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
+      padding: 24px 16px;
+      background: linear-gradient(160deg, #ffffff 0%, #f3eee4 100%);
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      box-shadow:
+        0 1px 0 rgba(255,255,255,0.95) inset,
+        0 -3px 6px rgba(26,107,138,0.05) inset,
+        0 6px 16px rgba(0,0,0,0.10),
+        0 1px 4px rgba(0,0,0,0.05);
+      cursor: pointer;
+      transition: transform 0.15s, box-shadow 0.15s, background 0.2s;
+      text-decoration: none; color: var(--text);
+    }
+    .cat-btn:hover {
+      transform: translateY(-3px);
+      background: linear-gradient(160deg, #ffffff 0%, var(--ocean-light) 100%);
+      box-shadow:
+        0 1px 0 rgba(255,255,255,0.95) inset,
+        0 -3px 6px rgba(26,107,138,0.05) inset,
+        0 10px 24px rgba(0,0,0,0.13),
+        0 2px 6px rgba(0,0,0,0.06);
+    }
+    .cat-btn:active {
+      transform: translateY(2px) scale(0.985);
+      box-shadow:
+        0 2px 6px rgba(26,107,138,0.16) inset,
+        0 -1px 0 rgba(255,255,255,0.5) inset,
+        0 1px 3px rgba(0,0,0,0.08);
+    }
+    .cat-btn.pulse { animation: pulse-soft 2.6s ease-in-out infinite; position: relative; }
+    @keyframes pulse-soft {
+      0%,100% {
+        box-shadow:
+          0 1px 0 rgba(255,255,255,0.95) inset,
+          0 -3px 6px rgba(26,107,138,0.05) inset,
+          0 6px 16px rgba(224,123,84,0.20),
+          0 1px 4px rgba(0,0,0,0.05);
+      }
+      50% {
+        box-shadow:
+          0 1px 0 rgba(255,255,255,0.95) inset,
+          0 -3px 6px rgba(26,107,138,0.05) inset,
+          0 9px 24px rgba(224,123,84,0.42),
+          0 1px 4px rgba(0,0,0,0.05);
+      }
+    }
+    .cat-icon { font-size: 2rem; line-height: 1; filter: drop-shadow(0 1px 1px rgba(0,0,0,0.12)); }
+    .cat-label { font-size: 0.82rem; font-weight: 700; color: var(--ocean); text-align: center; line-height: 1.3; }
+
+    /* ===== COUPS DE CŒUR VOYAGEURS ===== */
+    .finds-widget {
+      max-width: 640px;
+      margin: 0 auto 60px;
+      background: var(--white);
+      border-radius: 16px;
+      padding: 20px 22px;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.07), 0 1px 4px rgba(0,0,0,0.04);
+    }
+    @media (max-width: 700px) { .finds-widget { margin-left: 16px; margin-right: 16px; } }
+    .finds-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
+    .finds-title { font-family:'Playfair Display', serif; font-size:1.05rem; color:var(--ocean); }
+    .add-find-btn {
+      background: var(--coral); color:white; border:none; border-radius:16px;
+      font-size:0.75rem; font-weight:700; padding:7px 14px;
+      box-shadow: 0 3px 8px rgba(224,123,84,0.35); cursor:pointer;
+      transition: transform 0.15s, background 0.2s;
+      font-family:'Inter',sans-serif;
+    }
+    .add-find-btn:hover { background:#c8663e; }
+    .add-find-btn:active { transform: scale(0.95); }
+    .finds-sub { font-size:0.8rem; color:var(--muted); margin-bottom:8px; }
+    .find-item {
+      display:flex; gap:10px; align-items:flex-start;
+      padding:10px 0; border-top:1px solid var(--border);
+      font-size:0.86rem; animation: findFade 0.5s ease;
+    }
+    .find-item:first-of-type { border-top:none; }
+    .find-item .who { font-size:0.68rem; color:var(--ocean); font-weight:700; text-transform:uppercase; letter-spacing:0.04em; }
+    @keyframes findFade { from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:translateY(0);} }
+
+    /* ===== OVERLAYS (formulaires) ===== */
+    .form-overlay {
+      position: fixed; inset:0;
+      background: rgba(26,107,138,0.5);
+      display:flex; align-items:flex-end; justify-content:center;
+      opacity:0; pointer-events:none;
+      transition: opacity 0.25s ease;
+      z-index: 50;
+    }
+    .form-overlay.open { opacity:1; pointer-events:all; }
+    .form-sheet {
+      background: var(--white);
+      width:100%; max-width:520px;
+      border-radius:20px 20px 0 0;
+      padding:22px 22px 28px;
+      transform: translateY(100%);
+      transition: transform 0.3s cubic-bezier(.4,0,.2,1);
+    }
+    .form-overlay.open .form-sheet { transform: translateY(0); }
+    .form-sheet h3 { font-family:'Playfair Display', serif; font-size:1.2rem; color:var(--ocean); margin-bottom:6px; }
+    .form-sheet .form-intro { font-size:0.83rem; color:var(--muted); margin-bottom:4px; }
+    .form-sheet label { display:block; font-size:0.72rem; font-weight:700; text-transform:uppercase; letter-spacing:0.05em; color:var(--ocean); margin:14px 0 5px; }
+    .form-sheet input, .form-sheet select, .form-sheet textarea {
+      width:100%; padding:11px 12px; border-radius:10px;
+      border:1.5px solid var(--border);
+      font-family:'Inter',sans-serif; font-size:0.9rem;
+      background: var(--sand);
+    }
+    .form-sheet input:focus, .form-sheet select:focus, .form-sheet textarea:focus { outline:none; border-color:var(--ocean); }
+    .form-actions { display:flex; gap:10px; margin-top:20px; }
+    .form-actions button {
+      flex:1; padding:12px; border-radius:12px; border:none;
+      font-weight:700; font-size:0.86rem; cursor:pointer;
+      font-family:'Inter',sans-serif;
+      transition: transform 0.15s;
+    }
+    .form-actions button:active { transform: scale(0.97); }
+    .form-cancel { background:transparent; color:var(--ocean); border:1.5px solid var(--border) !important; }
+    .form-submit { background:var(--coral); color:white; box-shadow:0 3px 10px rgba(224,123,84,0.35); }
+
+    /* PAGE CONTENU */
+    .content-page { max-width: 680px; margin: 0 auto; padding: 0 20px 80px; }
+
+    /* BARRE NAVIGATION */
+    .nav-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin: 16px 0 4px;
+    }
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 20px;
+      background: var(--coral);
+      color: white;
+      border: none;
+      border-radius: 12px;
+      font-size: 0.88rem;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 3px 10px rgba(224,123,84,0.35);
+      transition: background 0.2s, transform 0.15s;
+      white-space: nowrap;
+    }
+    .back-btn:hover { background: #c8663e; transform: translateY(-1px); }
+    .back-btn:active { transform: scale(0.96); }
+
+    .nav-arrows { display: flex; gap: 8px; }
+    .arrow-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 42px;
+      height: 42px;
+      background: var(--white);
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      color: var(--ocean);
+      font-weight: 700;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+      transition: background 0.2s, transform 0.15s;
+    }
+    .arrow-btn:hover { background: var(--ocean-light); transform: translateY(-1px); }
+    .arrow-btn:active { transform: translateY(1px) scale(0.95); }
+
+    /* SECTIONS */
+    .section { margin-top: 20px; background: var(--white); border-radius: 16px; padding: 28px 24px; border: 1px solid var(--border); box-shadow: 0 4px 16px rgba(0,0,0,0.07), 0 1px 4px rgba(0,0,0,0.04); }
+    .section-header { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
+    .section-icon { font-size: 1.5rem; line-height: 1; }
+    .section-header h2 { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--ocean); }
+    .section strong { color: var(--text); font-weight: 600; }
+
+    /* CARTOUCHES */
+    .card { background: var(--sand); border-radius: 12px; padding: 15px 16px; border: 1px solid var(--border); box-shadow: 0 2px 6px rgba(0,0,0,0.05); margin-top: 12px; }
+    .card-header { display: flex; align-items: center; gap: 9px; margin-bottom: 10px; }
+    .card-icon { font-size: 1.1rem; }
+    .card-title { font-size: 0.78rem; font-weight: 700; color: var(--ocean); text-transform: uppercase; letter-spacing: 0.06em; }
+    .card ul { list-style: none; padding: 0; margin: 0; }
+    .card ul li { font-size: 0.875rem; color: var(--text); padding: 3px 0 3px 14px; position: relative; }
+    .card ul li::before { content: "·"; position: absolute; left: 0; color: var(--ocean); font-weight: 700; font-size: 1.2rem; line-height: 1.3; }
+    .card p { font-size: 0.875rem; color: var(--text); margin: 0; }
+    .card-coeur { background: var(--ocean-light); border-color: #c2dde9; }
+    .card-coeur p { font-style: italic; }
+
+    /* STUDIO LIST */
+    .studio-list { list-style: none; padding: 0; margin-top: 14px; }
+    .studio-list li { font-size: 0.9rem; padding: 7px 0; border-bottom: 1px solid var(--border); color: var(--text); }
+    .studio-list li:last-child { border-bottom: none; }
+
+    /* BOUTONS UTILITAIRES */
+    .utility-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 20px; }
+    .utility-btn { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 16px 10px; background: var(--ocean); color: white; border-radius: 12px; text-decoration: none; font-size: 0.82rem; font-weight: 600; text-align: center; box-shadow: 0 3px 10px rgba(26,107,138,0.3); transition: background 0.2s, transform 0.15s; line-height: 1.3; }
+    .utility-btn:hover { background: #145a76; transform: translateY(-2px); }
+    .utility-btn:active { transform: scale(0.97); }
+    .utility-btn-icon { font-size: 1.4rem; }
+    .utility-btn.full { grid-column: 1 / -1; }
+
+    /* AGENDA */
+    .agenda-label { font-size: 0.75rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.07em; margin: 16px 0 8px; display: block; }
+    .agenda-link { display: flex; align-items: center; gap: 14px; padding: 14px 16px; background: var(--sand); border-radius: 10px; text-decoration: none; color: var(--text); margin-bottom: 8px; border: 1px solid var(--border); box-shadow: 0 2px 6px rgba(0,0,0,0.05); transition: background 0.2s, transform 0.15s; }
+    .agenda-link:hover { background: var(--ocean-light); transform: translateY(-1px); }
+    .agenda-link-icon { font-size: 1.4rem; }
+    .agenda-link-text { flex: 1; }
+    .agenda-link-title { font-size: 0.9rem; font-weight: 600; color: var(--text); }
+    .agenda-link-sub { font-size: 0.78rem; color: var(--muted); margin-top: 2px; }
+    .agenda-arrow { color: var(--ocean); font-size: 1rem; font-weight: 700; }
+
+    footer { text-align: center; font-size: 0.78rem; color: var(--muted); padding: 32px 20px; border-top: 1px solid var(--border); margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+<div class="lang-bar">
+  <a href="/studio-trinite/en/" class="lang-btn">🇬🇧 English</a>
+</div>
+
+<div class="hero">
+  <h1>Bienvenue à La Trinité-sur-Mer 🌊</h1>
+  <p>Nous sommes ravis de vous accueillir dans notre studio, idéalement situé pour profiter du port et de la baie de Quiberon.</p>
+</div>
+
+<img class="hero-photo"
+  src="https://cdn.prod.website-files.com/6959264a8397337b442701b7/6a2304ffb5d70ea681b90c45_marais%20salant.jpg"
+  srcset="https://cdn.prod.website-files.com/6959264a8397337b442701b7/6a2304ffb5d70ea681b90c45_marais%20salant-p-500.jpg 500w,
+          https://cdn.prod.website-files.com/6959264a8397337b442701b7/6a2304ffb5d70ea681b90c45_marais%20salant-p-800.jpg 800w,
+          https://cdn.prod.website-files.com/6959264a8397337b442701b7/6a2304ffb5d70ea681b90c45_marais%20salant.jpg 1280w"
+  sizes="100vw" alt="Marais salants de La Trinité-sur-Mer" loading="lazy"/>
+
+<!-- ===== SABLIER DE SÉJOUR (visible uniquement quand les dates sont connues) ===== -->
+<div class="sejour-card" id="sejourCard">
+  <div class="sejour-top">
+    <span class="label">Votre séjour</span>
+    <span class="day-count" id="dayCount"></span>
+  </div>
+  <div class="sejour-row">
+    <svg class="hourglass-svg" width="58" height="81" viewBox="0 0 110 154">
+      <defs>
+        <linearGradient id="sandGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#f09a77"/>
+          <stop offset="60%" stop-color="#e07b54"/>
+          <stop offset="100%" stop-color="#c8663e"/>
+        </linearGradient>
+        <linearGradient id="woodGrad" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#8A5A3B"/>
+          <stop offset="45%" stop-color="#B07C50"/>
+          <stop offset="55%" stop-color="#C08A5C"/>
+          <stop offset="100%" stop-color="#7A4E33"/>
+        </linearGradient>
+        <linearGradient id="woodGradV" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#C08A5C"/>
+          <stop offset="50%" stop-color="#9A6642"/>
+          <stop offset="100%" stop-color="#6E442C"/>
+        </linearGradient>
+        <clipPath id="bulbTop">
+          <path d="M30,26 L80,26 C80,26 78,44 68,56 C62,63 57,66 55,72 C53,66 48,63 42,56 C32,44 30,26 30,26 Z"/>
+        </clipPath>
+        <clipPath id="bulbBottom">
+          <path d="M55,82 C57,88 62,91 68,98 C78,110 80,128 80,128 L30,128 C30,128 32,110 42,98 C48,91 53,88 55,82 Z"/>
+        </clipPath>
+      </defs>
+      <rect x="16" y="20" width="7" height="114" rx="3.5" fill="url(#woodGradV)"/>
+      <rect x="87" y="20" width="7" height="114" rx="3.5" fill="url(#woodGradV)"/>
+      <path d="M30,26 L80,26 C80,26 78,44 68,56 C62,63 57,66 55,72 C53,66 48,63 42,56 C32,44 30,26 30,26 Z" fill="rgba(200,230,235,0.10)"/>
+      <path d="M55,82 C57,88 62,91 68,98 C78,110 80,128 80,128 L30,128 C30,128 32,110 42,98 C48,91 53,88 55,82 Z" fill="rgba(200,230,235,0.10)"/>
+      <g clip-path="url(#bulbTop)">
+        <rect id="sandTop" x="26" y="26" width="58" height="46" fill="url(#sandGrad)"/>
+      </g>
+      <g clip-path="url(#bulbBottom)">
+        <rect id="sandBottom" x="26" y="128" width="58" height="0" fill="url(#sandGrad)"/>
+        <ellipse id="sandMound" cx="55" cy="128" rx="22" ry="7" fill="url(#sandGrad)"/>
+      </g>
+      <line id="sandStream" x1="55" y1="73" x2="55" y2="120" stroke="#e07b54" stroke-width="1.6" opacity="0.85" stroke-dasharray="3 2">
+        <animate attributeName="stroke-dashoffset" from="0" to="-10" dur="0.4s" repeatCount="indefinite"/>
+      </line>
+      <path d="M30,26 L80,26 C80,26 78,44 68,56 C62,63 57,66 55,72 C53,66 48,63 42,56 C32,44 30,26 30,26 Z" fill="none" stroke="#ffffff" stroke-width="2" stroke-linejoin="round" opacity="0.85"/>
+      <path d="M55,82 C57,88 62,91 68,98 C78,110 80,128 80,128 L30,128 C30,128 32,110 42,98 C48,91 53,88 55,82 Z" fill="none" stroke="#ffffff" stroke-width="2" stroke-linejoin="round" opacity="0.85"/>
+      <path d="M34,30 C35,42 40,50 45,55" fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M36,100 C33,108 32,118 32,124" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="2.5" stroke-linecap="round"/>
+      <rect x="12" y="12" width="86" height="11" rx="5" fill="url(#woodGrad)"/>
+      <rect x="12" y="10" width="86" height="4" rx="2" fill="#C89468" opacity="0.7"/>
+      <rect x="12" y="131" width="86" height="11" rx="5" fill="url(#woodGrad)"/>
+      <rect x="12" y="140" width="86" height="3" rx="1.5" fill="#5E3A25" opacity="0.6"/>
+    </svg>
+    <div class="sejour-msg" id="sejourMsg"></div>
+  </div>
+</div>
+
+<!-- PAGE ACCUEIL -->
+<div class="home-page" id="home">
+  <div class="categories">
+    <button class="cat-btn" id="cat-0" onclick="showPage(0)"><span class="cat-icon">🗝️</span><span class="cat-label">Arrivée &amp; Départ</span></button>
+    <button class="cat-btn" id="cat-1" onclick="showPage(1)"><span class="cat-icon">🏡</span><span class="cat-label">Le Studio</span></button>
+    <button class="cat-btn" id="cat-2" onclick="showPage(2)"><span class="cat-icon">📍</span><span class="cat-label">Autour de vous</span></button>
+    <button class="cat-btn" id="cat-3" onclick="showPage(3)"><span class="cat-icon">🍽️</span><span class="cat-label">Restaurants</span></button>
+    <button class="cat-btn" id="cat-4" onclick="showPage(4)"><span class="cat-icon">🗓️</span><span class="cat-label">Agenda &amp; Sorties</span></button>
+    <button class="cat-btn" id="cat-5" onclick="showPage(5)"><span class="cat-icon">🌤️</span><span class="cat-label">Infos pratiques</span></button>
+    <button class="cat-btn" id="cat-6" onclick="showPage(6)"><span class="cat-icon">📞</span><span class="cat-label">Besoin d'aide</span></button>
+  </div>
+
+  <!-- ===== COUPS DE CŒUR VOYAGEURS ===== -->
+  <div class="finds-widget">
+    <div class="finds-header">
+      <span class="finds-title">💙 Coups de cœur voyageurs</span>
+      <button class="add-find-btn" id="openFindForm">+ Partager</button>
+    </div>
+    <p class="finds-sub">Les belles découvertes partagées par nos voyageurs.</p>
+    <div id="findsList">
+      <div class="find-item">
+        <span>🌅</span>
+        <div><span class="who">Un voyageur · Juin</span><br>Coucher de soleil magnifique depuis la pointe de Kerbihan, à ne pas manquer.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ARRIVÉE & DÉPART -->
+<div class="content-page" id="page-0">
+  <div class="nav-bar">
+    <button class="back-btn" onclick="showHome()">🏠 Accueil</button>
+    <div class="nav-arrows">
+      <button class="arrow-btn" onclick="showPage(6)" title="Précédent">◀</button>
+      <button class="arrow-btn" onclick="showPage(1)" title="Suivant">▶</button>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-header"><span class="section-icon">🗝️</span><h2>Arrivée &amp; Départ</h2></div>
+    <div class="card"><p>🕒 Arrivée possible à partir de <strong>16h</strong><br/>🕚 Départ avant <strong>10h</strong></p></div>
+    <div class="card"><p>📩 Les instructions détaillées d'arrivée (adresse, accès, boîte à clés) vous seront envoyées la veille de votre arrivée.</p></div>
+    <div class="card"><p>🙏 Merci de respecter les horaires afin de faciliter le ménage pour les prochains voyageurs.</p></div>
+  </div>
+</div>
+
+<!-- LE STUDIO -->
+<div class="content-page" id="page-1">
+  <div class="nav-bar">
+    <button class="back-btn" onclick="showHome()">🏠 Accueil</button>
+    <div class="nav-arrows">
+      <button class="arrow-btn" onclick="showPage(0)">◀</button>
+      <button class="arrow-btn" onclick="showPage(2)">▶</button>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-header"><span class="section-icon">🏡</span><h2>Le studio</h2></div>
+    <p style="font-size:0.9rem; color:var(--muted);">Studio confortable pour 1 à 2 personnes, idéal pour un séjour à La Trinité-sur-Mer.</p>
+    <ul class="studio-list">
+      <li>🛋️ Canapé-lit de qualité avec ouverture "rapido"</li>
+      <li>🍳 Cuisine équipée</li>
+      <li>🚿 Salle de bain privative</li>
+      <li>📺 Télévision</li>
+      <li>📶 Connexion Wi-Fi — mot de passe affiché dans le studio</li>
+      <li>🛏️ Linge de lit et serviettes fournis</li>
+    </ul>
+    <p style="margin-top:14px; font-size:0.82rem; color:var(--muted);">Les informations pratiques et les modes d'utilisation des équipements sont disponibles sur place.</p>
+  </div>
+</div>
+
+<!-- AUTOUR DE VOUS -->
+<div class="content-page" id="page-2">
+  <div class="nav-bar">
+    <button class="back-btn" onclick="showHome()">🏠 Accueil</button>
+    <div class="nav-arrows">
+      <button class="arrow-btn" onclick="showPage(1)">◀</button>
+      <button class="arrow-btn" onclick="showPage(3)">▶</button>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-header"><span class="section-icon">📍</span><h2>Autour de vous</h2></div>
+    <p style="font-size:0.9rem; color:var(--muted);">La Trinité-sur-Mer est un port vivant et authentique, au cœur de la baie de Quiberon.</p>
+    <div class="card"><div class="card-header"><span class="card-icon">🚶</span><span class="card-title">À pied depuis le studio</span></div><ul><li>Le port, les plages et le chemin des douaniers (GR34)</li><li>Boulangeries, commerces et restaurants</li><li>Les marais salants de La Trinité</li></ul></div>
+    <div class="card card-coeur"><div class="card-header"><span class="card-icon">💙</span><span class="card-title">Coup de cœur</span></div><p>Personnellement, nous aimons beaucoup la plage de Kervilen, idéale pour une balade ou un moment de détente.</p></div>
+    <div class="card"><div class="card-header"><span class="card-icon">🛶</span><span class="card-title">Nautique &amp; activités en mer</span></div><ul><li>Kayak &amp; paddle : Run'O, Varec'h Kayak, Kerners Kayak &amp; Paddle</li><li>Bateaux électriques sans permis : E.SEA</li><li>Croisières commentées : Vedettes Angels</li><li>Déjeuner/dîner croisière : Navix, Le Passeur des Îles</li><li>Traversée vers Belle-Île : compagnie régulière ou à la voile (Iliens)</li></ul></div>
+    <div class="card"><div class="card-header"><span class="card-icon">🚴</span><span class="card-title">Vélo</span></div><ul><li>Le Vélo Trinitain (sur place), VéloCarnac, L'Original Location (Erdeven)</li><li>Circuit conseillé : La Trinité → Locmariaquer (~34 km, piste et chemins intérieurs)</li></ul></div>
+    <div class="card"><div class="card-header"><span class="card-icon">👕</span><span class="card-title">Laveries</span></div><ul><li>⭐ <strong>Le Salon Lavoir</strong> — notre recommandation — 36 cours des Quais, 7j/7 de 7h à 21h</li><li>Laverie Raz la Crêpe — Place Voulien <em>(les sèche-linge peuvent être défaillants)</em></li></ul></div>
+    <div class="card"><div class="card-header"><span class="card-icon">🏖️</span><span class="card-title">Sites incontournables à proximité</span></div><ul><li>Alignements de Carnac (menhirs et dolmens)</li><li>Gavrinis (île &amp; cairn néolithique)</li><li>Isthme de Penthièvre &amp; côte sauvage — char à voile</li><li>Thalasso &amp; spa marin de Carnac</li><li>Port de Saint-Goustan (Auray)</li><li>Balade le long de la rivière du Bono (départ chapelle St-Avoye)</li><li>Biscuiterie La Trinitaine</li></ul></div>
+    <div class="card"><div class="card-header"><span class="card-icon">🏰</span><span class="card-title">Plus loin — Vannes &amp; Golfe du Morbihan</span></div><ul><li>Vannes et sa vieille ville historique</li><li>Château de Suscinio · Poul Fétan (village breton reconstitué)</li><li>Îles : Île aux Moines, Île d'Arz</li><li>Navigation sur anciens bateaux : Krog e Barz, Voiles du Golfe André &amp; Yvette</li><li>Éco-balade en kayak : sentiersmarins.com</li><li>Hélicoptère &amp; saut en parachute à Monterblanc</li><li>City Pass Vannes : réductions et transports inclus</li></ul></div>
+    <div class="card"><div class="card-header"><span class="card-icon">🎶</span><span class="card-title">Lorient &amp; le Festival Interceltique</span></div><ul><li>Lorient, ville portuaire dynamique à 45 min du studio</li><li>Festival Interceltique (début août) : l'un des plus grands festivals celtiques au monde</li><li>Le port de pêche de Keroman (le plus grand port de pêche de France)</li><li>La Cité de la Voile Éric Tabarly</li></ul></div>
+  </div>
+</div>
+
+<!-- RESTAURANTS -->
+<div class="content-page" id="page-3">
+  <div class="nav-bar">
+    <button class="back-btn" onclick="showHome()">🏠 Accueil</button>
+    <div class="nav-arrows">
+      <button class="arrow-btn" onclick="showPage(2)">◀</button>
+      <button class="arrow-btn" onclick="showPage(4)">▶</button>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-header"><span class="section-icon">🍽️</span><h2>Où manger ?</h2></div>
+    <p style="font-size:0.9rem; color:var(--muted);">Quelques adresses que nous recommandons à La Trinité-sur-Mer.</p>
+    <div class="card" style="margin-top:12px;"><div class="card-header"><span class="card-icon">💙</span><span class="card-title">Le Quai — Notre coup de cœur</span></div><p>Cuisine maison depuis 1990, produits locaux. Vue sur le port, terrasse, ouvert tous les jours.</p><p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">8 cours des Quais · <a href="https://www.lequai56.fr" target="_blank" style="color:var(--ocean);">lequai56.fr</a></p></div>
+    <div class="card"><div class="card-header"><span class="card-icon">🎶</span><span class="card-title">La Marée Douce</span></div><p>Esprit guinguette, grande terrasse vue port. DJ set le soir, cocktails et tapas.</p><p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">34 cours des Quais · <a href="https://www.lamareedouce.com" target="_blank" style="color:var(--ocean);">lamareedouce.com</a></p></div>
+    <div class="card"><div class="card-header"><span class="card-icon">🍽️</span><span class="card-title">Itsasoa</span></div><p>Cuisine française raffinée, l'une des meilleures notes de la région. Réservation conseillée.</p><p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">1 rue de Ker Anna, Carnac · <a href="https://www.google.com/maps/search/?api=1&query=Itsasoa+Carnac" target="_blank" style="color:var(--ocean);">Voir sur Maps</a></p></div>
+    <div class="card"><div class="card-header"><span class="card-icon">🦪</span><span class="card-title">Le Mouillage</span></div><p>Face au port de pêche, vue sur le chenal. Spécialités de produits de la mer ultra frais.</p><p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">La Trinité-sur-Mer · <a href="https://www.google.com/maps/search/?api=1&query=Le+Mouillage+La+Trinité-sur-Mer" target="_blank" style="color:var(--ocean);">Voir sur Maps</a></p></div>
+    <div class="card"><div class="card-header"><span class="card-icon">🥞</span><span class="card-title">Crêperie Ty Malou</span></div><p>Crêperie bretonne traditionnelle, juste à côté du Quai.</p><p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">10 cours des Quais · <a href="https://www.google.com/maps/search/?api=1&query=Crêperie+Ty+Malou+La+Trinité-sur-Mer" target="_blank" style="color:var(--ocean);">Voir sur Maps</a></p></div>
+    <div class="utility-grid" style="margin-top:16px;"><a href="https://www.tripadvisor.fr/Restaurants-g667165-La_Trinite_sur_Mer_Morbihan_Brittany.html" target="_blank" class="utility-btn full"><span class="utility-btn-icon">⭐</span>Tous les restaurants sur Tripadvisor</a></div>
+  </div>
+</div>
+
+<!-- AGENDA -->
+<div class="content-page" id="page-4">
+  <div class="nav-bar">
+    <button class="back-btn" onclick="showHome()">🏠 Accueil</button>
+    <div class="nav-arrows">
+      <button class="arrow-btn" onclick="showPage(3)">◀</button>
+      <button class="arrow-btn" onclick="showPage(5)">▶</button>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-header"><span class="section-icon">🗓️</span><h2>Agenda &amp; Sorties</h2></div>
+    <p style="font-size:0.85rem; color:var(--muted);">Événements à La Trinité et dans tout le Morbihan</p>
+    <span class="agenda-label">La Trinité-sur-Mer</span>
+    <a href="https://www.latrinitesurmer.fr/agenda/" target="_blank" rel="noopener" class="agenda-link"><span class="agenda-link-icon">📍</span><div class="agenda-link-text"><div class="agenda-link-title">Agenda officiel de La Trinité</div><div class="agenda-link-sub">Fêtes, marchés, animations locales</div></div><span class="agenda-arrow">→</span></a>
+    <span class="agenda-label">Morbihan &amp; région</span>
+    <a href="https://morbihan.com/a-voir-a-faire/agenda/" target="_blank" rel="noopener" class="agenda-link"><span class="agenda-link-icon">🌊</span><div class="agenda-link-text"><div class="agenda-link-title">Agenda Morbihan</div><div class="agenda-link-sub">Lorient, Vannes, Auray, Quiberon…</div></div><span class="agenda-arrow">→</span></a>
+    <a href="https://56.agendaculturel.fr/" target="_blank" rel="noopener" class="agenda-link"><span class="agenda-link-icon">🎭</span><div class="agenda-link-text"><div class="agenda-link-title">Agenda culturel Morbihan</div><div class="agenda-link-sub">Concerts, spectacles, expos, festivals</div></div><span class="agenda-arrow">→</span></a>
+    <a href="https://golfedumorbihan56.com/agenda-evenements/morbihan/" target="_blank" rel="noopener" class="agenda-link"><span class="agenda-link-icon">⛵</span><div class="agenda-link-text"><div class="agenda-link-title">Agenda Golfe du Morbihan</div><div class="agenda-link-sub">Quiberon, presqu'île, événements nautiques</div></div><span class="agenda-arrow">→</span></a>
+  </div>
+</div>
+
+<!-- INFOS PRATIQUES -->
+<div class="content-page" id="page-5">
+  <div class="nav-bar">
+    <button class="back-btn" onclick="showHome()">🏠 Accueil</button>
+    <div class="nav-arrows">
+      <button class="arrow-btn" onclick="showPage(4)">◀</button>
+      <button class="arrow-btn" onclick="showPage(6)">▶</button>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-header"><span class="section-icon">🌤️</span><h2>Infos pratiques</h2></div>
+    <p style="font-size:0.9rem; color:var(--muted); margin-bottom:16px;">Accès rapide aux informations utiles pour votre séjour.</p>
+    <div class="utility-grid">
+      <a href="https://www.google.com/maps/search/?api=1&query=La+Trinité-sur-Mer" target="_blank" class="utility-btn"><span class="utility-btn-icon">📍</span>Google Maps</a>
+      <a href="https://meteofrance.com/previsions-meteo-france/la-trinite-sur-mer/56470" target="_blank" class="utility-btn"><span class="utility-btn-icon">🌤️</span>Météo locale</a>
+      <a href="https://marine.meteoconsult.fr/meteo-marine/bulletin-detaille/port-185/previsions-meteo-la-trinite-sur-mer-aujourdhui" target="_blank" class="utility-btn"><span class="utility-btn-icon">⚓</span>Météo marine</a>
+      <a href="https://maree.info/59" target="_blank" class="utility-btn"><span class="utility-btn-icon">🌊</span>Horaires des marées</a>
+    </div>
+  </div>
+</div>
+
+<!-- BESOIN D'AIDE -->
+<div class="content-page" id="page-6">
+  <div class="nav-bar">
+    <button class="back-btn" onclick="showHome()">🏠 Accueil</button>
+    <div class="nav-arrows">
+      <button class="arrow-btn" onclick="showPage(5)">◀</button>
+      <button class="arrow-btn" onclick="showPage(0)">▶</button>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-header"><span class="section-icon">📞</span><h2>Besoin d'aide</h2></div>
+    <div class="card"><p>Je reste disponible pendant votre séjour si vous avez la moindre question. Je réponds généralement sous <strong>2h</strong>.</p></div>
+    <div class="card"><p>📩 Pour toute question, merci de privilégier les <strong>messages Airbnb</strong>.</p></div>
+    <div class="card"><p>🚨 En cas d'urgence, vous pouvez me contacter directement.</p></div>
+  </div>
+</div>
+
+<footer>Studio · La Trinité-sur-Mer · 56470</footer>
+
+<!-- ===== OVERLAY : SAISIE DES DATES DE SÉJOUR ===== -->
+<div class="form-overlay" id="datesOverlay">
+  <div class="form-sheet">
+    <h3>Bienvenue ! Vos dates de séjour ?</h3>
+    <p class="form-intro">Pour personnaliser votre page jour après jour (une seule fois).</p>
+    <label>Arrivée</label>
+    <input type="date" id="dateArrivee">
+    <label>Départ</label>
+    <input type="date" id="dateDepart">
+    <div class="form-actions">
+      <button class="form-cancel" id="skipDates">Plus tard</button>
+      <button class="form-submit" id="saveDates">Valider</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== OVERLAY : PARTAGER UNE TROUVAILLE ===== -->
+<div class="form-overlay" id="findOverlay">
+  <div class="form-sheet">
+    <h3>Partagez votre trouvaille</h3>
+    <p class="form-intro">Votre découverte sera visible par les prochains voyageurs.</p>
+    <label>Quel lieu ?</label>
+    <input type="text" id="findName" placeholder="Ex : Crêperie Ty Malou">
+    <label>Type</label>
+    <select id="findType">
+      <option>🍽️ Restaurant</option>
+      <option>🏖️ Plage / nature</option>
+      <option>✨ Autre bon plan</option>
+    </select>
+    <label>Un mot pour les prochains voyageurs</label>
+    <textarea rows="2" id="findNote" placeholder="Ce qui vous a plu..."></textarea>
+    <div class="form-actions">
+      <button class="form-cancel" id="cancelFind">Annuler</button>
+      <button class="form-submit" id="submitFind">Envoyer</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  /* ================= NAVIGATION (inchangée) ================= */
+  const pages = ['page-0','page-1','page-2','page-3','page-4','page-5','page-6'];
+  function showPage(idx) {
+    document.getElementById('home').style.display = 'none';
+    pages.forEach(p => document.getElementById(p).style.display = 'none');
+    document.getElementById(pages[idx]).style.display = 'block';
+    window.scrollTo(0, 0);
+  }
+  function showHome() {
+    pages.forEach(p => document.getElementById(p).style.display = 'none');
+    document.getElementById('home').style.display = 'block';
+    window.scrollTo(0, 0);
+  }
+
+  /* ================= TEINTE SELON L'HEURE ================= */
+  (function(){
+    const h = new Date().getHours();
+    let t = 't-midday';
+    if (h >= 6 && h < 11) t = 't-morning';
+    else if (h >= 18 && h < 22) t = 't-evening';
+    else if (h >= 22 || h < 6) t = 't-night';
+    document.body.classList.add(t);
+  })();
+
+  /* ================= SABLIER : DATES DU SÉJOUR =================
+     Priorité : 1) URL ?arrivee=YYYY-MM-DD&depart=YYYY-MM-DD
+                2) dates mémorisées dans le navigateur
+                3) saisie manuelle (proposée une seule fois)
+     Sans dates : le sablier reste masqué, la page fonctionne normalement. */
+
+  function sauverDates(a, d){
+    try { localStorage.setItem('sejour-trinite', JSON.stringify({ arrivee: a, depart: d })); } catch(e) {}
+  }
+
+  function lireDatesSejour(){
+    const params = new URLSearchParams(window.location.search);
+    const a = params.get('arrivee');
+    const d = params.get('depart');
+    if (a && d) { sauverDates(a, d); return { arrivee: a, depart: d }; }
+    try {
+      const saved = localStorage.getItem('sejour-trinite');
+      if (saved) return JSON.parse(saved);
+    } catch(e) {}
+    return null;
+  }
+
+  function messagePourJour(jour, total){
+    if (jour === 1) return "Bienvenue à La Trinité ! <strong>🗝️ Consultez la rubrique Arrivée</strong> pour bien démarrer.";
+    if (jour >= total) return "Départ avant 10h demain <strong>👋 merci et bon retour !</strong>";
+    if (jour === total - 1) return "Dernier soir approche : <strong>🍽️ avez-vous testé nos adresses coup de cœur ?</strong>";
+    if (jour === 2) return "Belle journée à La Trinité <strong>🌊 pensez à consulter les horaires des marées</strong>";
+    return "Profitez bien de votre séjour <strong>📍 explorez la rubrique Autour de vous</strong>";
+  }
+
+  /* Bouton mis en avant selon le jour (index de la grille catégories) */
+  function categorieDuJour(jour, total){
+    if (jour === 1) return 0;          // Arrivée & Départ
+    if (jour >= total) return 0;       // Arrivée & Départ (consignes départ)
+    if (jour === total - 1) return 3;  // Restaurants
+    if (jour === 2) return 5;          // Infos pratiques (marées, météo)
+    return 2;                          // Autour de vous
+  }
+
+  function appliquerDatesReelles(dates){
+    const arrivee = new Date(dates.arrivee + 'T00:00:00');
+    const depart = new Date(dates.depart + 'T00:00:00');
+    const aujourdhui = new Date();
+    aujourdhui.setHours(0,0,0,0);
+
+    const totalJours = Math.round((depart - arrivee) / 86400000);
+    const jourActuel = Math.round((aujourdhui - arrivee) / 86400000) + 1;
+
+    if (jourActuel < 1 || jourActuel > totalJours || totalJours < 1) return false;
+
+    const frac = totalJours > 1 ? (jourActuel - 1) / (totalJours - 1) : 1;
+    const fill = 0.10 + frac * 0.85;
+
+    document.getElementById('dayCount').textContent = `Jour ${jourActuel} sur ${totalJours}`;
+    document.getElementById('sejourMsg').innerHTML = messagePourJour(jourActuel, totalJours);
+
+    const topFrac = 1 - fill;
+    const topH = 46 * topFrac;
+    const sandTop = document.getElementById('sandTop');
+    sandTop.setAttribute('height', topH);
+    sandTop.setAttribute('y', 72 - topH);
+
+    const bottomH = 44 * fill;
+    const sandBottom = document.getElementById('sandBottom');
+    sandBottom.setAttribute('height', bottomH);
+    sandBottom.setAttribute('y', 128 - bottomH);
+
+    const mound = document.getElementById('sandMound');
+    mound.setAttribute('cy', 128 - bottomH);
+    mound.setAttribute('rx', 10 + 14 * fill);
+    mound.setAttribute('ry', 4 + 4 * fill);
+
+    document.getElementById('sandStream').style.display = jourActuel >= totalJours ? 'none' : 'block';
+
+    document.getElementById('sejourCard').classList.add('visible');
+
+    // Met en avant la catégorie du jour
+    document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('pulse'));
+    const catBtn = document.getElementById('cat-' + categorieDuJour(jourActuel, totalJours));
+    if (catBtn) catBtn.classList.add('pulse');
+
+    return true;
+  }
+
+  /* Overlay de saisie des dates */
+  const datesOverlay = document.getElementById('datesOverlay');
+  document.getElementById('saveDates').onclick = () => {
+    const a = document.getElementById('dateArrivee').value;
+    const d = document.getElementById('dateDepart').value;
+    if (a && d && d > a) {
+      sauverDates(a, d);
+      appliquerDatesReelles({ arrivee: a, depart: d });
+      datesOverlay.classList.remove('open');
+    }
+  };
+  document.getElementById('skipDates').onclick = () => {
+    datesOverlay.classList.remove('open');
+    try { localStorage.setItem('sejour-trinite-skip', '1'); } catch(e) {}
+  };
+
+  /* Au chargement */
+  const datesSejour = lireDatesSejour();
+  let sablierActif = false;
+  if (datesSejour) {
+    sablierActif = appliquerDatesReelles(datesSejour);
+  }
+  if (!sablierActif) {
+    // Propose la saisie une seule fois (sauf si le voyageur a déjà cliqué "Plus tard")
+    let dejaRefuse = false;
+    try { dejaRefuse = localStorage.getItem('sejour-trinite-skip') === '1'; } catch(e) {}
+    if (!dejaRefuse && !datesSejour) {
+      setTimeout(() => datesOverlay.classList.add('open'), 1200);
+    }
+  }
+
+  /* ================= COUPS DE CŒUR VOYAGEURS =================
+     Fonctionnement actuel : les trouvailles sont enregistrées dans le
+     navigateur du voyageur (visibles par lui pendant son séjour).
+     Pour les partager entre TOUS les voyageurs, il faudra brancher un
+     Google Form + Sheet publié en CSV : renseigner l'URL ci-dessous. */
+  const CSV_TROUVAILLES = ''; // ex : 'https://docs.google.com/spreadsheets/d/e/.../pub?output=csv'
+
+  const findOverlay = document.getElementById('findOverlay');
+  document.getElementById('openFindForm').onclick = () => findOverlay.classList.add('open');
+  document.getElementById('cancelFind').onclick = () => findOverlay.classList.remove('open');
+
+  function afficherTrouvaille(emoji, who, texte, enTete){
+    const item = document.createElement('div');
+    item.className = 'find-item';
+    item.innerHTML = `<span>${emoji}</span><div><span class="who">${who}</span><br>${texte}</div>`;
+    const list = document.getElementById('findsList');
+    enTete ? list.prepend(item) : list.appendChild(item);
+  }
+
+  document.getElementById('submitFind').onclick = () => {
+    const name = document.getElementById('findName').value.trim();
+    const note = document.getElementById('findNote').value.trim();
+    if (!name) return;
+    const type = document.getElementById('findType').value;
+    const emoji = type.split(' ')[0];
+    const mois = new Date().toLocaleDateString('fr-FR', { month: 'long' });
+    const texte = note ? `${name} — ${note}` : name;
+
+    afficherTrouvaille(emoji, 'Vous · ' + mois, texte, true);
+
+    // Mémorise localement
+    try {
+      const saved = JSON.parse(localStorage.getItem('trouvailles-locales') || '[]');
+      saved.unshift({ emoji, mois, texte });
+      localStorage.setItem('trouvailles-locales', JSON.stringify(saved.slice(0, 10)));
+    } catch(e) {}
+
+    document.getElementById('findName').value = '';
+    document.getElementById('findNote').value = '';
+    findOverlay.classList.remove('open');
+  };
+
+  /* Réaffiche les trouvailles mémorisées localement */
+  try {
+    const saved = JSON.parse(localStorage.getItem('trouvailles-locales') || '[]');
+    saved.forEach(t => afficherTrouvaille(t.emoji, 'Vous · ' + t.mois, t.texte, true));
+  } catch(e) {}
+
+  /* Charge les trouvailles partagées si un Google Sheet est configuré */
+  if (CSV_TROUVAILLES) {
+    fetch(CSV_TROUVAILLES)
+      .then(r => r.text())
+      .then(csv => {
+        csv.split('\n').slice(1).forEach(ligne => {
+          const cols = ligne.split(',');
+          if (cols.length >= 3 && cols[1]) {
+            afficherTrouvaille(cols[2].trim().split(' ')[0] || '✨', 'Un voyageur', cols[1].trim() + (cols[3] ? ' — ' + cols[3].trim() : ''), false);
+          }
+        });
+      })
+      .catch(() => {});
+  }
+</script>
+</body>
+</html>
