@@ -1,617 +1,854 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Studio - La Trinité-sur-Mer</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+  <meta name="theme-color" content="#1d3147"/>
+  <title>La Trinité-sur-Mer · Votre carnet de séjour</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Dancing+Script:wght@600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
   <style>
+    /* =====================================================================
+       CARNET DE SÉJOUR · V2 (étape 2 : design + navigation)
+       ===================================================================== */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --sand: #f5f0e8;
-      --ocean: #1a6b8a;
-      --ocean-light: #eef6fa;
-      --text: #2a2a2a;
-      --muted: #6b7280;
-      --border: #e5e0d8;
-      --white: #ffffff;
-      --coral: #e07b54;
-      --coral-light: #f09a77;
+      --navy: #1d3147;        /* bleu marine profond */
+      --navy-deep: #15253a;
+      --ocean: #45697f;       /* bleu gris / océan */
+      --ocean-soft: #e5edf1;
+      --sand: #f3eee5;        /* sable très clair */
+      --sand-deep: #e7dfd1;
+      --paper: #fcfaf6;       /* blanc cassé */
+      --text: #2c3136;        /* gris foncé */
+      --muted: #687078;
+      --line: #e3dccf;
+      --brass: #9a7a4f;       /* accent discret pour les coups de cœur */
+      --brass-soft: #f3ece0;
+      --radius-lg: 18px;
+      --radius: 12px;
+      --radius-sm: 8px;
+      --shadow: 0 1px 2px rgba(29,49,71,.04), 0 8px 24px rgba(29,49,71,.06);
+      --nav-h: 64px;
+      --serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+      --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
     }
-    body { font-family: 'Inter', sans-serif; background: var(--sand); color: var(--text); line-height: 1.6; min-height: 100vh; transition: background 1.2s ease; }
-
-    /* Teinte du fond selon le moment de la journée (subtil) */
-    body.t-morning { background: linear-gradient(180deg, #faf3e4 0%, #f5f0e8 300px); }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      font-family: var(--sans); background: var(--sand); color: var(--text);
+      line-height: 1.6; font-size: 16px; min-height: 100vh;
+      padding-bottom: calc(var(--nav-h) + env(safe-area-inset-bottom));
+      transition: background 1.2s ease; overflow-x: hidden;
+    }
+    /* Teinte du fond selon le moment de la journée (conservée, adoucie) */
+    body.t-morning { background: linear-gradient(180deg, #f6efe2 0%, var(--sand) 520px); }
     body.t-midday  { background: var(--sand); }
-    body.t-evening { background: linear-gradient(180deg, #f7ecdd 0%, #f2e6d2 300px); }
-    body.t-night   { background: linear-gradient(180deg, #ebeff2 0%, #f0ede6 300px); }
+    body.t-evening { background: linear-gradient(180deg, #f1e7d8 0%, var(--sand) 520px); }
+    body.t-night   { background: linear-gradient(180deg, #e8ecef 0%, var(--sand) 520px); }
 
-    /* LANG */
-    .lang-bar { background: var(--white); border-bottom: 1px solid var(--border); display: flex; justify-content: flex-end; padding: 8px 20px; }
-    .lang-btn { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; background: var(--ocean); color: white; border-radius: 20px; text-decoration: none; font-size: 0.8rem; font-weight: 600; transition: background 0.2s; }
-    .lang-btn:hover { background: #145a76; }
+    a { color: var(--ocean); }
+    button { font: inherit; color: inherit; }
+    :focus-visible { outline: 2px solid var(--ocean); outline-offset: 2px; border-radius: 6px; }
+    .ic { width: 22px; height: 22px; flex: none; stroke: currentColor; fill: none; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+    .ic-sm { width: 18px; height: 18px; }
+    .wrap { max-width: 680px; margin: 0 auto; padding: 0 18px; }
+    .block { margin-top: 40px; }
+    .block-title { font-family: var(--serif); font-weight: 500; font-size: 1.35rem; color: var(--navy); line-height: 1.25; margin-bottom: 4px; }
+    .block-sub { color: var(--muted); font-size: .9rem; margin-bottom: 16px; }
 
-    /* HERO */
-    .hero { background: var(--ocean); color: white; text-align: center; padding: 36px 24px 32px; }
-    .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.4rem, 5vw, 2.2rem); margin-bottom: 12px; line-height: 1.2; }
-    .hero p { font-family: 'Dancing Script', cursive; font-size: clamp(1.1rem, 4vw, 1.4rem); opacity: 0.95; max-width: 500px; margin: 0 auto; line-height: 1.5; }
+    /* ---------- HERO ---------- */
+    .hero { position: relative; min-height: min(62vh, 480px); display: flex; align-items: flex-end; color: #fff; overflow: hidden; background: var(--navy); }
+    .hero-photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+    .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(21,37,58,.15) 0%, rgba(21,37,58,.35) 45%, rgba(21,37,58,.88) 100%); }
+    .hero-inner { position: relative; z-index: 1; width: 100%; max-width: 680px; margin: 0 auto; padding: 0 22px 34px; }
+    .hero-place { font-size: .72rem; letter-spacing: .24em; font-weight: 600; opacity: .9; }
+    .hero h1 { font-family: var(--serif); font-weight: 500; font-size: clamp(2.1rem, 9vw, 3rem); line-height: 1.05; margin: 10px 0 12px; }
+    .hero-tagline { font-family: var(--serif); font-style: italic; font-size: clamp(1rem, 4.2vw, 1.2rem); opacity: .92; }
+    .hero-tide { display: block; width: 64px; height: 10px; margin-top: 18px; stroke: rgba(255,255,255,.7); fill: none; stroke-width: 1.5; }
+    .lang-btn { position: absolute; z-index: 2; top: calc(12px + env(safe-area-inset-top)); right: 14px; display: inline-flex; align-items: center; min-height: 36px; padding: 6px 14px; border-radius: 999px; background: rgba(21,37,58,.45); border: 1px solid rgba(255,255,255,.35); color: #fff; text-decoration: none; font-size: .78rem; font-weight: 500; backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
 
-    .hero-photo { width: 100%; max-height: 280px; object-fit: cover; display: block; }
+    .intro { text-align: center; color: var(--muted); font-size: .95rem; max-width: 30em; margin: 26px auto 0; }
 
-    /* ===== SABLIER DE SÉJOUR ===== */
-    .sejour-card {
-      display: none; /* affiché uniquement quand les dates sont connues */
-      max-width: 640px;
-      margin: 20px auto 0;
-      background: var(--ocean);
-      border-radius: 18px;
-      padding: 16px 20px;
-      box-shadow: 0 8px 24px rgba(26,107,138,0.28);
-      position: relative;
-      overflow: hidden;
-      color: white;
-    }
-    .sejour-card.visible { display: block; }
-    .sejour-card::before {
-      content:"";
-      position:absolute; inset:0;
-      background: radial-gradient(circle at 85% -10%, rgba(255,255,255,0.12), transparent 55%);
-      pointer-events:none;
-    }
-    @media (max-width: 700px) { .sejour-card { margin-left: 16px; margin-right: 16px; } }
-    .sejour-top { display:flex; justify-content:space-between; align-items:baseline; position:relative; }
-    .sejour-top .label { font-size:0.72rem; letter-spacing:0.06em; text-transform:uppercase; opacity:0.8; }
-    .sejour-top .day-count { font-size:1rem; font-weight:600; }
-    .sejour-row { display:flex; align-items:center; gap:16px; margin-top:8px; position:relative; }
-    .hourglass-svg { flex-shrink:0; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3)); }
-    .sejour-msg { flex:1; font-size:0.9rem; line-height:1.45; }
-    .sejour-msg strong { color:#ffc9ae; font-weight:600; }
+    /* ---------- ACCÈS RAPIDE ---------- */
+    .quick { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 24px; }
+    .quick-btn { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; min-height: 72px; padding: 10px 4px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper); color: var(--navy); font-size: .74rem; font-weight: 500; line-height: 1.2; text-align: center; cursor: pointer; box-shadow: 0 1px 2px rgba(29,49,71,.025); transition: transform .16s ease, background .16s ease, border-color .16s ease, box-shadow .16s ease; }
+    .quick-btn:hover { border-color: #cfc4b3; background: #fffdf9; box-shadow: var(--shadow); transform: translateY(-1px); }
+    .quick-btn:active { background: var(--ocean-soft); transform: scale(.98); }
+    .quick-btn .ic { color: var(--ocean); }
 
-    /* ===== WIDGET MÉTÉO & MARÉE DU JOUR ===== */
-    .meteo-widget {
-      max-width: 640px;
-      margin: 16px auto 0;
-      background: var(--white);
-      border-radius: 16px;
-      padding: 16px 18px;
-      border: 1px solid var(--border);
-      box-shadow: 0 4px 16px rgba(0,0,0,0.07), 0 1px 4px rgba(0,0,0,0.04);
-    }
-    @media (max-width: 700px) { .meteo-widget { margin-left: 16px; margin-right: 16px; } }
-    .meteo-title { font-size:0.72rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); margin-bottom:10px; font-weight:700; }
-    .skeleton {
-      height: 14px; border-radius: 6px;
-      background: linear-gradient(90deg, #ede8dd 25%, #f7f3ea 37%, #ede8dd 63%);
-      background-size: 400% 100%;
-      animation: shimmer 1.4s ease infinite;
-      margin-bottom: 8px;
-    }
-    @keyframes shimmer { 0%{background-position:100% 0;} 100%{background-position:0 0;} }
-    .meteo-data { display:none; align-items:center; gap:14px; }
-    .meteo-data.show { display:flex; animation: findFade 0.5s ease; }
-    .meteo-data .big { font-size:2rem; line-height:1; }
-    .meteo-data .txt { flex:1; font-size:0.85rem; line-height:1.45; color:var(--text); }
-    .maree-vignette {
-      margin-top: 12px;
-      display: flex;
-      justify-content: center;
-      overflow-x: auto;
-    }
-    .maree-btn {
-      display:flex; align-items:center; justify-content:center; gap:6px;
-      background: var(--ocean); color:white;
-      border-radius:10px; padding:10px 14px;
-      text-decoration:none; font-size:0.78rem; font-weight:700;
-      box-shadow: 0 3px 8px rgba(26,107,138,0.3);
-      transition: background 0.2s, transform 0.15s;
-      white-space:nowrap;
-      margin-top: 12px;
-    }
-    .maree-btn:hover { background:#145a76; transform:translateY(-1px); }
-    .maree-btn:active { transform:scale(0.96); }
+    /* ---------- VOTRE SÉJOUR ---------- */
+    .sejour-card { background: var(--navy); color: #fff; border-radius: var(--radius-lg); padding: 22px 20px; box-shadow: var(--shadow); scroll-margin-top: 16px; }
+    .sejour-top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+    .sejour-label { font-size: .8rem; opacity: .75; }
+    .day-count { font-size: .78rem; padding: 3px 10px; border-radius: 999px; background: rgba(255,255,255,.12); white-space: nowrap; }
+    .day-count:empty { display: none; }
+    .sejour-dates { font-family: var(--serif); font-size: clamp(1.6rem, 7vw, 2rem); font-weight: 500; line-height: 1.15; margin-top: 6px; }
+    .sejour-today { margin-top: 14px; padding-top: 14px; border-top: 1px solid rgba(255,255,255,.14); }
+    .sejour-today small { display: block; font-size: .78rem; opacity: .7; }
+    .sejour-today strong { font-family: var(--serif); font-weight: 500; font-size: 1.2rem; }
+    .sejour-row { display: flex; align-items: center; gap: 16px; margin-top: 14px; }
+    .hourglass-svg { flex: none; }
+    .sejour-msg { font-size: .92rem; line-height: 1.5; opacity: .95; }
+    .sejour-msg strong { font-weight: 600; }
+    .sejour-actions { margin-top: 18px; display: flex; gap: 10px; flex-wrap: wrap; }
+    .btn-light { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 10px 16px; border-radius: 999px; border: 1px solid rgba(255,255,255,.35); background: transparent; color: #fff; font-size: .88rem; font-weight: 500; cursor: pointer; }
+    .btn-light.primary { background: #fff; color: var(--navy); border-color: #fff; }
+    [hidden] { display: none !important; }
 
-    /* PAGE ACCUEIL */
-    .home-page { display: block; }
-    .content-page { display: none; }
+    /* ---------- AUJOURD'HUI : MÉTÉO & MARÉE ---------- */
+    .today-date { font-family: var(--serif); font-size: 1.35rem; font-weight: 500; color: var(--navy); }
+    .today-grid { display: grid; gap: 12px; margin-top: 14px; }
+    .panel { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 18px; box-shadow: var(--shadow); scroll-margin-top: 16px; }
+    .panel-head { display: flex; align-items: center; gap: 8px; color: var(--ocean); font-size: .82rem; font-weight: 600; margin-bottom: 10px; }
+    .skeleton { height: 14px; border-radius: 6px; background: linear-gradient(90deg, var(--sand-deep) 25%, var(--sand) 50%, var(--sand-deep) 75%); background-size: 200% 100%; animation: shimmer 1.4s infinite; margin: 8px 0; }
+    @keyframes shimmer { to { background-position: -200% 0; } }
+    .meteo-data { display: none; align-items: center; gap: 16px; }
+    .meteo-data.show { display: flex; }
+    .meteo-icon { font-size: 2.2rem; line-height: 1; }
+    .meteo-temp { font-family: var(--serif); font-size: 2.1rem; font-weight: 500; color: var(--navy); line-height: 1; }
+    .meteo-label { font-size: .95rem; margin-top: 4px; }
+    .meteo-wind { font-size: .84rem; color: var(--muted); }
+    .maree-vignette { display: flex; justify-content: center; overflow-x: auto; max-width: 100%; }
+    .maree-vignette iframe, .maree-vignette img, .maree-vignette > * { max-width: 100%; }
+    .link-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 48px; margin-top: 12px; padding: 10px 14px; border-radius: var(--radius); background: var(--ocean-soft); color: var(--navy); text-decoration: none; font-size: .88rem; font-weight: 500; }
 
-    /* GRILLE CATÉGORIES — relief 3D */
-    .categories { max-width: 680px; margin: 0 auto; padding: 28px 20px 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
-    .cat-btn {
-      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
-      padding: 24px 16px;
-      background: linear-gradient(160deg, #ffffff 0%, #f3eee4 100%);
-      border-radius: 16px;
-      border: 1px solid var(--border);
-      box-shadow:
-        0 1px 0 rgba(255,255,255,0.95) inset,
-        0 -3px 6px rgba(26,107,138,0.05) inset,
-        0 6px 16px rgba(0,0,0,0.10),
-        0 1px 4px rgba(0,0,0,0.05);
-      cursor: pointer;
-      transition: transform 0.15s, box-shadow 0.15s, background 0.2s;
-      text-decoration: none; color: var(--text);
-    }
-    .cat-btn:hover {
-      transform: translateY(-3px);
-      background: linear-gradient(160deg, #ffffff 0%, var(--ocean-light) 100%);
-      box-shadow:
-        0 1px 0 rgba(255,255,255,0.95) inset,
-        0 -3px 6px rgba(26,107,138,0.05) inset,
-        0 10px 24px rgba(0,0,0,0.13),
-        0 2px 6px rgba(0,0,0,0.06);
-    }
-    .cat-btn:active {
-      transform: translateY(2px) scale(0.985);
-      box-shadow:
-        0 2px 6px rgba(26,107,138,0.16) inset,
-        0 -1px 0 rgba(255,255,255,0.5) inset,
-        0 1px 3px rgba(0,0,0,0.08);
-    }
-    .cat-btn.pulse { animation: pulse-soft 2.6s ease-in-out infinite; position: relative; }
-    @keyframes pulse-soft {
-      0%,100% {
-        box-shadow:
-          0 1px 0 rgba(255,255,255,0.95) inset,
-          0 -3px 6px rgba(26,107,138,0.05) inset,
-          0 6px 16px rgba(224,123,84,0.20),
-          0 1px 4px rgba(0,0,0,0.05);
-      }
-      50% {
-        box-shadow:
-          0 1px 0 rgba(255,255,255,0.95) inset,
-          0 -3px 6px rgba(26,107,138,0.05) inset,
-          0 9px 24px rgba(224,123,84,0.42),
-          0 1px 4px rgba(0,0,0,0.05);
-      }
-    }
-    .cat-icon { font-size: 2rem; line-height: 1; filter: drop-shadow(0 1px 1px rgba(0,0,0,0.12)); }
-    .cat-label { font-size: 0.82rem; font-weight: 700; color: var(--ocean); text-align: center; line-height: 1.3; }
+    /* ---------- RUBRIQUES (accueil) ---------- */
+    .categories { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .cat-btn { position: relative; display: flex; flex-direction: column; align-items: flex-start; gap: 14px; min-height: 124px; padding: 16px; border: 1px solid var(--line); border-radius: var(--radius-lg); background: var(--paper); box-shadow: var(--shadow); text-align: left; cursor: pointer; transition: border-color .2s ease, transform .16s ease, box-shadow .16s ease, background .16s ease; }
+    .cat-btn:hover { border-color: #cfc4b3; box-shadow: 0 10px 28px rgba(29,49,71,.09); transform: translateY(-2px); }
+    .cat-btn:active { transform: scale(.985); box-shadow: var(--shadow); }
+    .cat-btn.wide { overflow: hidden; }
+    .cat-btn.wide::before { content: ""; position: absolute; right: -28px; bottom: -38px; width: 110px; height: 110px; border-radius: 50%; background: var(--ocean-soft); opacity: .55; pointer-events: none; }
+    .cat-ic { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 50%; background: var(--ocean-soft); color: var(--navy); }
+    .cat-label { display: block; font-family: var(--serif); font-size: 1.12rem; font-weight: 500; color: var(--navy); line-height: 1.2; }
+    .cat-sub { display: block; font-size: .78rem; color: var(--muted); margin-top: 2px; line-height: 1.35; }
+    .cat-btn.wide { grid-column: 1 / -1; flex-direction: row; align-items: center; min-height: 0; }
+    /* Rubrique conseillée du jour (classe "pulse" conservée) */
+    .cat-btn.pulse { border-color: var(--navy); }
+    .cat-btn.pulse::after { content: "Conseillé aujourd'hui"; position: absolute; top: 12px; right: 12px; font-size: .66rem; font-weight: 600; padding: 3px 8px; border-radius: 999px; background: var(--navy); color: #fff; }
+    .cat-btn.pulse .cat-ic { animation: soft-pulse 2.4s ease-in-out 3; }
+    @keyframes soft-pulse { 50% { box-shadow: 0 0 0 7px rgba(69,105,127,.15); } }
 
-    /* ===== COUPS DE CŒUR VOYAGEURS ===== */
-    .finds-widget {
-      max-width: 640px;
-      margin: 0 auto 60px;
-      background: var(--white);
-      border-radius: 16px;
-      padding: 20px 22px;
-      border: 1px solid var(--border);
-      box-shadow: 0 4px 16px rgba(0,0,0,0.07), 0 1px 4px rgba(0,0,0,0.04);
-    }
-    @media (max-width: 700px) { .finds-widget { margin-left: 16px; margin-right: 16px; } }
-    .finds-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
-    .finds-title { font-family:'Playfair Display', serif; font-size:1.05rem; color:var(--ocean); }
-    .add-find-btn {
-      background: var(--coral); color:white; border:none; border-radius:16px;
-      font-size:0.75rem; font-weight:700; padding:7px 14px;
-      box-shadow: 0 3px 8px rgba(224,123,84,0.35); cursor:pointer;
-      transition: transform 0.15s, background 0.2s;
-      font-family:'Inter',sans-serif;
-    }
-    .add-find-btn:hover { background:#c8663e; }
-    .add-find-btn:active { transform: scale(0.95); }
-    .finds-sub { font-size:0.8rem; color:var(--muted); margin-bottom:8px; }
-    .find-item {
-      display:flex; gap:10px; align-items:flex-start;
-      padding:10px 0; border-top:1px solid var(--border);
-      font-size:0.86rem; animation: findFade 0.5s ease;
-    }
-    .find-item:first-of-type { border-top:none; }
-    .find-item .who { font-size:0.68rem; color:var(--ocean); font-weight:700; text-transform:uppercase; letter-spacing:0.04em; }
-    @keyframes findFade { from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:translateY(0);} }
+    /* ---------- COUPS DE CŒUR VOYAGEURS ---------- */
+    .finds-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+    .btn-outline { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 8px 16px; border-radius: 999px; border: 1px solid var(--navy); background: transparent; color: var(--navy); font-size: .86rem; font-weight: 500; cursor: pointer; white-space: nowrap; }
+    .find-item { display: flex; gap: 12px; padding: 14px 0; border-top: 1px solid var(--line); font-size: .92rem; }
+    .find-item:first-child { border-top: 0; padding-top: 4px; }
+    .find-emoji { font-size: 1.2rem; line-height: 1.4; }
+    .find-item .who { font-size: .76rem; color: var(--muted); }
+    .tag-example { display: inline-block; font-size: .66rem; font-weight: 600; padding: 1px 7px; border-radius: 999px; background: var(--sand-deep); color: var(--muted); margin-right: 6px; vertical-align: 1px; }
 
-    /* ===== OVERLAYS (formulaires) ===== */
-    .form-overlay {
-      position: fixed; inset:0;
-      background: rgba(26,107,138,0.5);
-      display:flex; align-items:flex-end; justify-content:center;
-      opacity:0; pointer-events:none;
-      transition: opacity 0.25s ease;
-      z-index: 50;
+    /* ---------- PAGES DE RUBRIQUE ---------- */
+    .content-page { display: none; min-height: calc(100vh - var(--nav-h)); animation: page-in .22s ease-out; }
+    .page-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: calc(12px + env(safe-area-inset-top)) 0 0; position: relative; }
+    @keyframes page-in { from { opacity: .72; transform: translateY(5px); } to { opacity: 1; transform: none; } }
+    .back-btn { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 8px 14px 8px 8px; border: 0; border-radius: 999px; background: transparent; color: var(--navy); font-size: .92rem; font-weight: 500; cursor: pointer; transition: background .16s ease, transform .16s ease; }
+    .back-btn:hover { background: rgba(69,105,127,.08); }
+    .back-btn:active { transform: translateX(-2px); }
+    .nav-arrows { display: flex; gap: 6px; }
+    .arrow-btn { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line); background: var(--paper); color: var(--navy); cursor: pointer; transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease; }
+    .arrow-btn:hover { border-color: #cfc4b3; box-shadow: 0 6px 16px rgba(29,49,71,.07); transform: translateY(-1px); }
+    .arrow-btn:active { transform: scale(.95); }
+    .page-head { margin: 18px 0 24px; }
+    .page-head h2 { font-family: var(--serif); font-weight: 500; font-size: clamp(1.9rem, 8vw, 2.4rem); line-height: 1.1; color: var(--navy); }
+    .page-head p { color: var(--muted); margin-top: 8px; font-size: .95rem; }
+    .stack { display: grid; gap: 14px; }
+    .card { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 18px; box-shadow: var(--shadow); }
+    .card h3 { font-family: var(--serif); font-weight: 500; font-size: 1.15rem; color: var(--navy); line-height: 1.25; }
+    .card p + p { margin-top: 8px; }
+    .card ul { list-style: none; margin-top: 8px; }
+    .card li { position: relative; padding: 7px 0 7px 16px; font-size: .93rem; border-top: 1px solid var(--line); }
+    .card li:first-child { border-top: 0; }
+    .card li::before { content: ""; position: absolute; left: 2px; top: 16px; width: 5px; height: 5px; border-radius: 50%; background: var(--ocean); opacity: .6; }
+    .card-row { display: flex; gap: 14px; align-items: flex-start; }
+    .card-row .ic { color: var(--ocean); margin-top: 2px; }
+    .note { font-size: .85rem; color: var(--muted); }
+
+    /* Label coup de cœur des propriétaires */
+    .coeur { background: var(--brass-soft); border-color: #e2d4bd; }
+    .label-coeur { display: inline-flex; align-items: center; gap: 6px; font-size: .74rem; font-weight: 600; color: var(--brass); margin-bottom: 8px; }
+    .label-coeur .ic { width: 15px; height: 15px; }
+    .coeur h3 { font-size: 1.3rem; }
+
+    /* Arrivée & départ */
+    .times { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .time-box { background: var(--navy); color: #fff; border-radius: var(--radius-lg); padding: 18px; }
+    .time-box small { display: block; font-size: .8rem; opacity: .75; }
+    .time-box strong { display: block; font-family: var(--serif); font-weight: 500; font-size: 2.2rem; line-height: 1.1; margin-top: 4px; }
+    .time-box span { font-size: .82rem; opacity: .8; }
+    .time-box.light { background: var(--paper); color: var(--navy); border: 1px solid var(--line); }
+
+    /* Le studio */
+    .equip-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .equip { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 16px; }
+    .equip .ic { color: var(--ocean); width: 26px; height: 26px; }
+    .equip h3 { font-family: var(--serif); font-weight: 500; font-size: 1.05rem; color: var(--navy); margin: 10px 0 4px; }
+    .equip p { font-size: .86rem; color: var(--muted); line-height: 1.45; }
+    .equip.wide { grid-column: 1 / -1; }
+
+    /* À découvrir : sommaire + cartes dépliables */
+    .toc { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 6px; margin: -8px -18px 20px; padding-left: 18px; padding-right: 18px; scrollbar-width: none; }
+    .toc::-webkit-scrollbar { display: none; }
+    .toc button { flex: none; min-height: 40px; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--paper); color: var(--navy); font-size: .82rem; cursor: pointer; }
+    details.theme { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg); box-shadow: var(--shadow); scroll-margin-top: 16px; }
+    details.theme summary { list-style: none; cursor: pointer; padding: 18px; display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; align-items: center; }
+    details.theme summary::-webkit-details-marker { display: none; }
+    .theme-ic { grid-row: 1 / 3; display: grid; place-items: center; width: 46px; height: 46px; border-radius: 50%; background: var(--ocean-soft); color: var(--navy); }
+    .theme-title { font-family: var(--serif); font-weight: 500; font-size: 1.15rem; color: var(--navy); line-height: 1.2; }
+    .theme-sub { font-size: .82rem; color: var(--muted); line-height: 1.4; }
+    .theme-more { grid-column: 1 / -1; justify-self: start; margin-top: 10px; display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--navy); color: var(--navy); font-size: .84rem; font-weight: 500; }
+    .theme-more .ic { width: 16px; height: 16px; transition: transform .2s; }
+    details[open] .theme-more .ic { transform: rotate(90deg); }
+    details[open] .more-open { display: inline; } .more-open { display: none; }
+    details[open] .more-closed { display: none; }
+    .theme-body { padding: 0 18px 16px; }
+    .theme-body ul { list-style: none; }
+    .theme-body li { position: relative; padding: 9px 0 9px 16px; border-top: 1px solid var(--line); font-size: .93rem; }
+    .theme-body li::before { content: ""; position: absolute; left: 2px; top: 19px; width: 5px; height: 5px; border-radius: 50%; background: var(--ocean); opacity: .6; }
+    .theme-body h4 { font-size: .85rem; font-weight: 600; color: var(--ocean); margin: 14px 0 2px; }
+
+    /* Restaurants */
+    .resto .resto-meta { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; margin: 6px 0 10px; font-size: .8rem; color: var(--muted); }
+    .chip { display: inline-block; padding: 2px 9px; border-radius: 999px; background: var(--ocean-soft); color: var(--navy); font-size: .74rem; font-weight: 500; }
+    .resto p { font-size: .93rem; }
+    .btns { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .btn { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 8px 16px; border-radius: 999px; border: 1px solid var(--navy); color: var(--navy); background: transparent; text-decoration: none; font-size: .86rem; font-weight: 500; }
+    .btn.solid { background: var(--navy); color: #fff; }
+    .btn .ic { width: 16px; height: 16px; }
+
+    /* Agenda (contenu inchangé, habillage seulement) */
+    .agenda-label { display: block; font-size: .82rem; font-weight: 600; color: var(--ocean); margin: 22px 0 10px; }
+    .agenda-link { display: flex; align-items: center; gap: 14px; min-height: 64px; padding: 14px 16px; margin-bottom: 10px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg); text-decoration: none; color: var(--text); box-shadow: var(--shadow); }
+    .agenda-link-icon { font-size: 1.2rem; width: 36px; height: 36px; display: grid; place-items: center; border-radius: 50%; background: var(--ocean-soft); flex: none; }
+    .agenda-link-text { flex: 1; min-width: 0; }
+    .agenda-link-title { font-family: var(--serif); font-size: 1.02rem; color: var(--navy); line-height: 1.25; }
+    .agenda-link-sub { font-size: .8rem; color: var(--muted); }
+    .agenda-arrow { color: var(--ocean); flex: none; }
+
+    /* Infos pratiques */
+    .utility-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .utility-btn { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; min-height: 96px; padding: 16px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg); text-decoration: none; color: var(--navy); font-weight: 500; font-size: .92rem; line-height: 1.25; box-shadow: var(--shadow); }
+    .utility-btn .ic { color: var(--ocean); }
+    .utility-btn.full { grid-column: 1 / -1; flex-direction: row; align-items: center; min-height: 56px; }
+
+    /* Besoin d'aide */
+    .help-main { background: var(--navy); color: #fff; border-radius: var(--radius-lg); padding: 22px 20px; }
+    .help-main h3 { font-family: var(--serif); font-weight: 500; font-size: 1.35rem; line-height: 1.25; margin: 10px 0 6px; }
+    .help-main p { opacity: .9; font-size: .93rem; }
+
+    footer { text-align: center; padding: 48px 20px 28px; font-size: .78rem; color: var(--muted); }
+
+    /* ---------- BARRE DE NAVIGATION BASSE ---------- */
+    .bottom-nav { position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; display: grid; grid-template-columns: repeat(4, 1fr); height: calc(var(--nav-h) + env(safe-area-inset-bottom)); padding-bottom: env(safe-area-inset-bottom); background: rgba(252,250,246,.94); border-top: 1px solid var(--line); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+    .bn-btn { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; border: 0; background: transparent; color: var(--muted); font-size: .7rem; font-weight: 500; cursor: pointer; }
+    .bn-btn .ic { width: 22px; height: 22px; }
+    .bn-btn.active { color: var(--navy); font-weight: 600; }
+    .bn-btn.active::before { content: ""; position: absolute; top: 0; left: 30%; right: 30%; height: 2px; border-radius: 0 0 2px 2px; background: var(--navy); }
+    .bn-btn.active .ic { stroke-width: 2; }
+    @media (min-width: 720px) { .bottom-nav { max-width: 520px; left: 50%; transform: translateX(-50%); bottom: 14px; border: 1px solid var(--line); border-radius: 999px; height: var(--nav-h); padding-bottom: 0; box-shadow: var(--shadow); } }
+
+    /* ---------- FORMULAIRES (overlays) ---------- */
+    .form-overlay { position: fixed; inset: 0; z-index: 100; display: none; align-items: flex-end; justify-content: center; background: rgba(21,37,58,.5); }
+    .form-overlay.open { display: flex; }
+    .form-sheet { width: 100%; max-width: 520px; max-height: 92vh; overflow-y: auto; background: var(--paper); border-radius: 22px 22px 0 0; padding: 24px 20px calc(22px + env(safe-area-inset-bottom)); animation: sheet-up .25s ease-out; }
+    @keyframes sheet-up { from { transform: translateY(24px); opacity: 0; } }
+    @media (min-width: 560px) { .form-overlay { align-items: center; } .form-sheet { border-radius: 22px; } }
+    .form-sheet h3 { font-family: var(--serif); font-weight: 500; font-size: 1.35rem; color: var(--navy); line-height: 1.25; }
+    .form-intro { font-size: .88rem; color: var(--muted); margin: 6px 0 14px; }
+    .form-sheet label { display: block; font-size: .82rem; font-weight: 500; margin: 12px 0 6px; }
+    .form-sheet input, .form-sheet select, .form-sheet textarea { width: 100%; min-height: 48px; padding: 10px 12px; border: 1px solid var(--line); border-radius: var(--radius-sm); background: #fff; font: inherit; font-size: 16px; color: var(--text); }
+    .form-error { color: #9b3b2e; font-size: .84rem; margin-top: 10px; }
+    .form-actions { display: flex; gap: 10px; margin-top: 20px; }
+    .form-actions button { flex: 1; min-height: 48px; border-radius: 999px; font-weight: 500; cursor: pointer; }
+    .form-cancel { border: 1px solid var(--line); background: transparent; }
+    .form-submit { border: 1px solid var(--navy); background: var(--navy); color: #fff; }
+
+    @media (hover: none) {
+      .quick-btn:hover, .cat-btn:hover, .arrow-btn:hover, .back-btn:hover { transform: none; box-shadow: inherit; }
     }
-    .form-overlay.open { opacity:1; pointer-events:all; }
-    .form-sheet {
-      background: var(--white);
-      width:100%; max-width:520px;
-      border-radius:20px 20px 0 0;
-      padding:22px 22px 28px;
-      transform: translateY(100%);
-      transition: transform 0.3s cubic-bezier(.4,0,.2,1);
+
+    @media (min-width: 560px) {
+      .today-grid { grid-template-columns: 1fr 1fr; }
+      .categories { grid-template-columns: repeat(3, 1fr); }
+      .cat-btn.wide { grid-column: auto; flex-direction: column; align-items: flex-start; min-height: 124px; }
     }
-    .form-overlay.open .form-sheet { transform: translateY(0); }
-    .form-sheet h3 { font-family:'Playfair Display', serif; font-size:1.2rem; color:var(--ocean); margin-bottom:6px; }
-    .form-sheet .form-intro { font-size:0.83rem; color:var(--muted); margin-bottom:4px; }
-    .form-sheet label { display:block; font-size:0.72rem; font-weight:700; text-transform:uppercase; letter-spacing:0.05em; color:var(--ocean); margin:14px 0 5px; }
-    .form-sheet input, .form-sheet select, .form-sheet textarea {
-      width:100%; padding:11px 12px; border-radius:10px;
-      border:1.5px solid var(--border);
-      font-family:'Inter',sans-serif; font-size:0.9rem;
-      background: var(--sand);
+    @media (max-width: 359px) {
+      .wrap { padding: 0 14px; }
+      .quick-btn { font-size: .68rem; }
+      .cat-btn { padding: 14px; }
+      .cat-btn.pulse::after { position: static; order: 3; }
+      .time-box strong { font-size: 1.8rem; }
+      .equip-grid, .utility-grid { gap: 10px; }
+      .toc { margin-left: -14px; margin-right: -14px; padding-left: 14px; padding-right: 14px; }
     }
-    .form-sheet input:focus, .form-sheet select:focus, .form-sheet textarea:focus { outline:none; border-color:var(--ocean); }
-    .form-actions { display:flex; gap:10px; margin-top:20px; }
-    .form-actions button {
-      flex:1; padding:12px; border-radius:12px; border:none;
-      font-weight:700; font-size:0.86rem; cursor:pointer;
-      font-family:'Inter',sans-serif;
-      transition: transform 0.15s;
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
     }
-    .form-actions button:active { transform: scale(0.97); }
-    .form-cancel { background:transparent; color:var(--ocean); border:1.5px solid var(--border) !important; }
-    .form-submit { background:var(--coral); color:white; box-shadow:0 3px 10px rgba(224,123,84,0.35); }
-
-    /* PAGE CONTENU */
-    .content-page { max-width: 680px; margin: 0 auto; padding: 0 20px 80px; }
-
-    /* BARRE NAVIGATION */
-    .nav-bar {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 10px;
-      margin: 16px 0 4px;
-    }
-    .back-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 12px 20px;
-      background: var(--coral);
-      color: white;
-      border: none;
-      border-radius: 12px;
-      font-size: 0.88rem;
-      font-weight: 700;
-      cursor: pointer;
-      box-shadow: 0 3px 10px rgba(224,123,84,0.35);
-      transition: background 0.2s, transform 0.15s;
-      white-space: nowrap;
-    }
-    .back-btn:hover { background: #c8663e; transform: translateY(-1px); }
-    .back-btn:active { transform: scale(0.96); }
-
-    .nav-arrows { display: flex; gap: 8px; }
-    .arrow-btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 42px;
-      height: 42px;
-      background: var(--white);
-      border: 1.5px solid var(--border);
-      border-radius: 10px;
-      font-size: 1.1rem;
-      cursor: pointer;
-      color: var(--ocean);
-      font-weight: 700;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.06);
-      transition: background 0.2s, transform 0.15s;
-    }
-    .arrow-btn:hover { background: var(--ocean-light); transform: translateY(-1px); }
-    .arrow-btn:active { transform: translateY(1px) scale(0.95); }
-
-    /* SECTIONS */
-    .section { margin-top: 20px; background: var(--white); border-radius: 16px; padding: 28px 24px; border: 1px solid var(--border); box-shadow: 0 4px 16px rgba(0,0,0,0.07), 0 1px 4px rgba(0,0,0,0.04); }
-    .section-header { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
-    .section-icon { font-size: 1.5rem; line-height: 1; }
-    .section-header h2 { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--ocean); }
-    .section strong { color: var(--text); font-weight: 600; }
-
-    /* CARTOUCHES */
-    .card { background: var(--sand); border-radius: 12px; padding: 15px 16px; border: 1px solid var(--border); box-shadow: 0 2px 6px rgba(0,0,0,0.05); margin-top: 12px; }
-    .card-header { display: flex; align-items: center; gap: 9px; margin-bottom: 10px; }
-    .card-icon { font-size: 1.1rem; }
-    .card-title { font-size: 0.78rem; font-weight: 700; color: var(--ocean); text-transform: uppercase; letter-spacing: 0.06em; }
-    .card ul { list-style: none; padding: 0; margin: 0; }
-    .card ul li { font-size: 0.875rem; color: var(--text); padding: 3px 0 3px 14px; position: relative; }
-    .card ul li::before { content: "·"; position: absolute; left: 0; color: var(--ocean); font-weight: 700; font-size: 1.2rem; line-height: 1.3; }
-    .card p { font-size: 0.875rem; color: var(--text); margin: 0; }
-    .card-coeur { background: var(--ocean-light); border-color: #c2dde9; }
-    .card-coeur p { font-style: italic; }
-
-    /* STUDIO LIST */
-    .studio-list { list-style: none; padding: 0; margin-top: 14px; }
-    .studio-list li { font-size: 0.9rem; padding: 7px 0; border-bottom: 1px solid var(--border); color: var(--text); }
-    .studio-list li:last-child { border-bottom: none; }
-
-    /* BOUTONS UTILITAIRES */
-    .utility-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 20px; }
-    .utility-btn { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 16px 10px; background: var(--ocean); color: white; border-radius: 12px; text-decoration: none; font-size: 0.82rem; font-weight: 600; text-align: center; box-shadow: 0 3px 10px rgba(26,107,138,0.3); transition: background 0.2s, transform 0.15s; line-height: 1.3; }
-    .utility-btn:hover { background: #145a76; transform: translateY(-2px); }
-    .utility-btn:active { transform: scale(0.97); }
-    .utility-btn-icon { font-size: 1.4rem; }
-    .utility-btn.full { grid-column: 1 / -1; }
-
-    /* AGENDA */
-    .agenda-label { font-size: 0.75rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.07em; margin: 16px 0 8px; display: block; }
-    .agenda-link { display: flex; align-items: center; gap: 14px; padding: 14px 16px; background: var(--sand); border-radius: 10px; text-decoration: none; color: var(--text); margin-bottom: 8px; border: 1px solid var(--border); box-shadow: 0 2px 6px rgba(0,0,0,0.05); transition: background 0.2s, transform 0.15s; }
-    .agenda-link:hover { background: var(--ocean-light); transform: translateY(-1px); }
-    .agenda-link-icon { font-size: 1.4rem; }
-    .agenda-link-text { flex: 1; }
-    .agenda-link-title { font-size: 0.9rem; font-weight: 600; color: var(--text); }
-    .agenda-link-sub { font-size: 0.78rem; color: var(--muted); margin-top: 2px; }
-    .agenda-arrow { color: var(--ocean); font-size: 1rem; font-weight: 700; }
-
-    footer { text-align: center; font-size: 0.78rem; color: var(--muted); padding: 32px 20px; border-top: 1px solid var(--border); margin-top: 40px; }
   </style>
 </head>
 <body>
 
-<div class="lang-bar">
-  <a href="/studio-trinite/en/" class="lang-btn">🇬🇧 English</a>
-</div>
+<!-- Icônes (dessin au trait, réutilisées dans la page) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="M11 12l9-9M17 6l3 3M15 8l2 2"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></symbol>
+  <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol>
+  <symbol id="i-fork" viewBox="0 0 24 24"><path d="M7 3v8M4 3v5a3 3 0 0 0 6 0V3M7 11v10M17 3c-2 0-3 2-3 6s1 5 3 5v7"/></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+  <symbol id="i-wave" viewBox="0 0 24 24"><path d="M2 9c2.5-3 5-3 7.5 0s5 3 7.5 0 3.5-2 5 0M2 16c2.5-3 5-3 7.5 0s5 3 7.5 0 3.5-2 5 0"/></symbol>
+  <symbol id="i-anchor" viewBox="0 0 24 24"><circle cx="12" cy="5" r="2"/><path d="M12 7v14M5 13a7 7 0 0 0 14 0M8 11h8"/></symbol>
+  <symbol id="i-hourglass" viewBox="0 0 24 24"><path d="M6 3h12M6 21h12M7 3c0 5 5 6 5 9s-5 4-5 9M17 3c0 5-5 6-5 9s5 4 5 9"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></symbol>
+  <symbol id="i-bed" viewBox="0 0 24 24"><path d="M3 18V7M3 14h18v4M21 14v-2a3 3 0 0 0-3-3h-7v5"/><circle cx="7" cy="11" r="1.6"/></symbol>
+  <symbol id="i-pot" viewBox="0 0 24 24"><path d="M4 10h16v4a6 6 0 0 1-6 6h-4a6 6 0 0 1-6-6zM2 10h2M20 10h2M9 7c0-1 1-1.5 1-3M14 7c0-1 1-1.5 1-3"/></symbol>
+  <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></symbol>
+  <symbol id="i-tv" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M8 21h8M9 2l3 4 3-4"/></symbol>
+  <symbol id="i-wifi" viewBox="0 0 24 24"><path d="M2.5 9a14 14 0 0 1 19 0M5.5 12.5a9.5 9.5 0 0 1 13 0M8.5 16a5 5 0 0 1 7 0"/><circle cx="12" cy="19.2" r=".9"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></symbol>
+  <symbol id="i-walk" viewBox="0 0 24 24"><circle cx="13" cy="4" r="1.8"/><path d="M9 21l3-7 3 3v4M8 11l3-4 3 1 2 4M12 14l-1-4"/></symbol>
+  <symbol id="i-boat" viewBox="0 0 24 24"><path d="M3 16h18l-2.5 4h-13zM12 3v13M12 4l6 9h-6"/></symbol>
+  <symbol id="i-bike" viewBox="0 0 24 24"><circle cx="6" cy="16" r="3.5"/><circle cx="18" cy="16" r="3.5"/><path d="M6 16l4-7h6l2 7M10 9l3 7h-7M9 6h3"/></symbol>
+  <symbol id="i-stone" viewBox="0 0 24 24"><path d="M5 21V9c0-3 1.5-6 3-6s3 3 3 6v12M14 21v-8c0-2 1-4 2.5-4S19 11 19 13v8M3 21h18"/></symbol>
+  <symbol id="i-map" viewBox="0 0 24 24"><path d="M9 4l6 2 6-2v16l-6 2-6-2-6 2V6zM9 4v16M15 6v16"/></symbol>
+  <symbol id="i-castle" viewBox="0 0 24 24"><path d="M4 21V8h3V5h2v3h6V5h2v3h3v13zM10 21v-4a2 2 0 0 1 4 0v4"/></symbol>
+  <symbol id="i-laundry" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><circle cx="12" cy="13" r="4.5"/><path d="M8 6.5h.5"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3l9.5 17h-19z"/><path d="M12 10v4M12 17v.5"/></symbol>
+  <symbol id="i-edit" viewBox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16z"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></symbol>
+  <symbol id="i-ext" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+  <symbol id="i-chev" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
+  <symbol id="i-chev-l" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+</svg>
 
-<div class="hero">
-  <h1>Bienvenue à La Trinité-sur-Mer 🌊</h1>
-  <p>Nous sommes ravis de vous accueillir dans notre studio, idéalement situé pour profiter du port et de la baie de Quiberon.</p>
-</div>
-
-<img class="hero-photo"
-  src="https://cdn.prod.website-files.com/6959264a8397337b442701b7/6a2304ffb5d70ea681b90c45_marais%20salant.jpg"
-  srcset="https://cdn.prod.website-files.com/6959264a8397337b442701b7/6a2304ffb5d70ea681b90c45_marais%20salant-p-500.jpg 500w,
-          https://cdn.prod.website-files.com/6959264a8397337b442701b7/6a2304ffb5d70ea681b90c45_marais%20salant-p-800.jpg 800w,
-          https://cdn.prod.website-files.com/6959264a8397337b442701b7/6a2304ffb5d70ea681b90c45_marais%20salant.jpg 1280w"
-  sizes="100vw" alt="Marais salants de La Trinité-sur-Mer" loading="lazy"/>
-
-<!-- ===== SABLIER DE SÉJOUR (visible uniquement quand les dates sont connues) ===== -->
-<div class="sejour-card" id="sejourCard">
-  <div class="sejour-top">
-    <span class="label">Votre séjour</span>
-    <span class="day-count" id="dayCount"></span>
-  </div>
-  <div class="sejour-row">
-    <svg class="hourglass-svg" width="58" height="81" viewBox="0 0 110 154">
-      <defs>
-        <linearGradient id="sandGrad" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="#f09a77"/>
-          <stop offset="60%" stop-color="#e07b54"/>
-          <stop offset="100%" stop-color="#c8663e"/>
-        </linearGradient>
-        <linearGradient id="woodGrad" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0%" stop-color="#8A5A3B"/>
-          <stop offset="45%" stop-color="#B07C50"/>
-          <stop offset="55%" stop-color="#C08A5C"/>
-          <stop offset="100%" stop-color="#7A4E33"/>
-        </linearGradient>
-        <linearGradient id="woodGradV" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="#C08A5C"/>
-          <stop offset="50%" stop-color="#9A6642"/>
-          <stop offset="100%" stop-color="#6E442C"/>
-        </linearGradient>
-        <clipPath id="bulbTop">
-          <path d="M30,26 L80,26 C80,26 78,44 68,56 C62,63 57,66 55,72 C53,66 48,63 42,56 C32,44 30,26 30,26 Z"/>
-        </clipPath>
-        <clipPath id="bulbBottom">
-          <path d="M55,82 C57,88 62,91 68,98 C78,110 80,128 80,128 L30,128 C30,128 32,110 42,98 C48,91 53,88 55,82 Z"/>
-        </clipPath>
-      </defs>
-      <rect x="16" y="20" width="7" height="114" rx="3.5" fill="url(#woodGradV)"/>
-      <rect x="87" y="20" width="7" height="114" rx="3.5" fill="url(#woodGradV)"/>
-      <path d="M30,26 L80,26 C80,26 78,44 68,56 C62,63 57,66 55,72 C53,66 48,63 42,56 C32,44 30,26 30,26 Z" fill="rgba(200,230,235,0.10)"/>
-      <path d="M55,82 C57,88 62,91 68,98 C78,110 80,128 80,128 L30,128 C30,128 32,110 42,98 C48,91 53,88 55,82 Z" fill="rgba(200,230,235,0.10)"/>
-      <g clip-path="url(#bulbTop)">
-        <rect id="sandTop" x="26" y="26" width="58" height="46" fill="url(#sandGrad)"/>
-      </g>
-      <g clip-path="url(#bulbBottom)">
-        <rect id="sandBottom" x="26" y="128" width="58" height="0" fill="url(#sandGrad)"/>
-        <ellipse id="sandMound" cx="55" cy="128" rx="22" ry="7" fill="url(#sandGrad)"/>
-      </g>
-      <line id="sandStream" x1="55" y1="73" x2="55" y2="120" stroke="#e07b54" stroke-width="1.6" opacity="0.85" stroke-dasharray="3 2">
-        <animate attributeName="stroke-dashoffset" from="0" to="-10" dur="0.4s" repeatCount="indefinite"/>
-      </line>
-      <path d="M30,26 L80,26 C80,26 78,44 68,56 C62,63 57,66 55,72 C53,66 48,63 42,56 C32,44 30,26 30,26 Z" fill="none" stroke="#ffffff" stroke-width="2" stroke-linejoin="round" opacity="0.85"/>
-      <path d="M55,82 C57,88 62,91 68,98 C78,110 80,128 80,128 L30,128 C30,128 32,110 42,98 C48,91 53,88 55,82 Z" fill="none" stroke="#ffffff" stroke-width="2" stroke-linejoin="round" opacity="0.85"/>
-      <path d="M34,30 C35,42 40,50 45,55" fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="2.5" stroke-linecap="round"/>
-      <path d="M36,100 C33,108 32,118 32,124" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="2.5" stroke-linecap="round"/>
-      <rect x="12" y="12" width="86" height="11" rx="5" fill="url(#woodGrad)"/>
-      <rect x="12" y="10" width="86" height="4" rx="2" fill="#C89468" opacity="0.7"/>
-      <rect x="12" y="131" width="86" height="11" rx="5" fill="url(#woodGrad)"/>
-      <rect x="12" y="140" width="86" height="3" rx="1.5" fill="#5E3A25" opacity="0.6"/>
-    </svg>
-    <div class="sejour-msg" id="sejourMsg"></div>
-  </div>
-</div>
-
-<!-- ===== WIDGET MÉTÉO & MARÉE DU JOUR ===== -->
-<div class="meteo-widget">
-  <div class="meteo-title">Météo & marée du jour · La Trinité-sur-Mer</div>
-  <div class="skeleton" style="width:70%" id="skMeteo1"></div>
-  <div class="skeleton" style="width:45%" id="skMeteo2"></div>
-  <div class="meteo-data" id="meteoData">
-    <div class="big" id="meteoIcon">⛅️</div>
-    <div class="txt" id="meteoTxt"></div>
-  </div>
-  <!-- Vignette officielle SHOM : marées 24h, hauteurs & coefficients (mise à jour automatique) -->
-  <div class="maree-vignette">
-    <script src="https://services.data.shom.fr/hdm/vignette/petite/LA_TRINITE-SUR-MER?locale=fr"></script>
-  </div>
-  <a class="maree-btn" href="https://maree.info/59" target="_blank" rel="noopener">🌊 Marées des prochains jours</a>
-</div>
-
-<!-- PAGE ACCUEIL -->
+<!-- =================================================================== -->
+<!-- PAGE ACCUEIL                                                         -->
+<!-- =================================================================== -->
 <div class="home-page" id="home">
-  <div class="categories">
-    <button class="cat-btn" id="cat-0" onclick="showPage(0)"><span class="cat-icon">🗝️</span><span class="cat-label">Arrivée &amp; Départ</span></button>
-    <button class="cat-btn" id="cat-1" onclick="showPage(1)"><span class="cat-icon">🏡</span><span class="cat-label">Le Studio</span></button>
-    <button class="cat-btn" id="cat-2" onclick="showPage(2)"><span class="cat-icon">📍</span><span class="cat-label">Autour de vous</span></button>
-    <button class="cat-btn" id="cat-3" onclick="showPage(3)"><span class="cat-icon">🍽️</span><span class="cat-label">Restaurants</span></button>
-    <button class="cat-btn" id="cat-4" onclick="showPage(4)"><span class="cat-icon">🗓️</span><span class="cat-label">Agenda &amp; Sorties</span></button>
-    <button class="cat-btn" id="cat-5" onclick="showPage(5)"><span class="cat-icon">🌤️</span><span class="cat-label">Infos pratiques</span></button>
-    <button class="cat-btn" id="cat-6" onclick="showPage(6)"><span class="cat-icon">📞</span><span class="cat-label">Besoin d'aide</span></button>
-  </div>
 
-  <!-- ===== COUPS DE CŒUR VOYAGEURS ===== -->
-  <div class="finds-widget">
-    <div class="finds-header">
-      <span class="finds-title">💙 Coups de cœur voyageurs</span>
-      <button class="add-find-btn" id="openFindForm">+ Partager</button>
+  <header class="hero">
+    <img class="hero-photo"
+      src="https://cdn.prod.website-files.com/6959264a8397337b442701b7/6a2304ffb5d70ea681b90c45_marais%20salant.jpg"
+      srcset="https://cdn.prod.website-files.com/6959264a8397337b442701b7/6a2304ffb5d70ea681b90c45_marais%20salant-p-500.jpg 500w,
+              https://cdn.prod.website-files.com/6959264a8397337b442701b7/6a2304ffb5d70ea681b90c45_marais%20salant-p-800.jpg 800w,
+              https://cdn.prod.website-files.com/6959264a8397337b442701b7/6a2304ffb5d70ea681b90c45_marais%20salant.jpg 1280w"
+      sizes="100vw" alt="Marais salants de La Trinité-sur-Mer" fetchpriority="high"/>
+    <a href="/studio-trinite/en/" class="lang-btn" lang="en">English</a>
+    <div class="hero-inner">
+      <div class="hero-place">LA TRINITÉ-SUR-MER</div>
+      <h1>Votre carnet de séjour</h1>
+      <p class="hero-tagline">« Entre port, plages et baie de Quiberon »</p>
+      <svg class="hero-tide" viewBox="0 0 64 10" aria-hidden="true"><path d="M0 5c5-6 11-6 16 0s11 6 16 0 11-6 16 0 11 6 16 0"/></svg>
     </div>
-    <p class="finds-sub">Les belles découvertes partagées par nos voyageurs.</p>
-    <div id="findsList">
-      <div class="find-item">
-        <span>🌅</span>
-        <div><span class="who">Un voyageur · Juin</span><br>Coucher de soleil magnifique depuis la pointe de Kerbihan, à ne pas manquer.</div>
+  </header>
+
+  <div class="wrap">
+    <p class="intro">Nous sommes ravis de vous accueillir dans notre studio, idéalement situé pour profiter du port et de la baie de Quiberon.</p>
+
+    <!-- Accès rapide -->
+    <nav class="quick" aria-label="Accès rapide">
+      <button class="quick-btn" data-scroll="sejourCard"><svg class="ic"><use href="#i-hourglass"/></svg>Votre séjour</button>
+      <button class="quick-btn" data-scroll="today"><svg class="ic"><use href="#i-cal"/></svg>Aujourd'hui</button>
+      <button class="quick-btn" data-scroll="meteoPanel"><svg class="ic"><use href="#i-sun"/></svg>Météo</button>
+      <button class="quick-btn" data-scroll="mareePanel"><svg class="ic"><use href="#i-wave"/></svg>Marées</button>
+    </nav>
+
+    <!-- ===== VOTRE SÉJOUR (sablier conservé) ===== -->
+    <section class="block">
+      <div class="sejour-card" id="sejourCard">
+        <div class="sejour-top">
+          <span class="sejour-label">Votre séjour</span>
+          <span class="day-count" id="dayCount"></span>
+        </div>
+        <div class="sejour-dates" id="sejourDates">Bienvenue</div>
+
+        <div class="sejour-today" id="sejourToday" hidden>
+          <small>Aujourd'hui</small>
+          <strong id="sejourTodayDate"></strong>
+        </div>
+
+        <div class="sejour-row">
+          <svg class="hourglass-svg" id="hourglass" width="52" height="73" viewBox="0 0 110 154" aria-hidden="true" hidden>
+            <defs>
+              <linearGradient id="sandGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#ecd9b8"/>
+                <stop offset="60%" stop-color="#d8bd90"/>
+                <stop offset="100%" stop-color="#bf9f6e"/>
+              </linearGradient>
+              <linearGradient id="woodGrad" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#8A5A3B"/>
+                <stop offset="45%" stop-color="#B07C50"/>
+                <stop offset="55%" stop-color="#C08A5C"/>
+                <stop offset="100%" stop-color="#7A4E33"/>
+              </linearGradient>
+              <linearGradient id="woodGradV" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#C08A5C"/>
+                <stop offset="50%" stop-color="#9A6642"/>
+                <stop offset="100%" stop-color="#6E442C"/>
+              </linearGradient>
+              <clipPath id="bulbTop">
+                <path d="M30,26 L80,26 C80,26 78,44 68,56 C62,63 57,66 55,72 C53,66 48,63 42,56 C32,44 30,26 30,26 Z"/>
+              </clipPath>
+              <clipPath id="bulbBottom">
+                <path d="M55,82 C57,88 62,91 68,98 C78,110 80,128 80,128 L30,128 C30,128 32,110 42,98 C48,91 53,88 55,82 Z"/>
+              </clipPath>
+            </defs>
+            <rect x="16" y="20" width="7" height="114" rx="3.5" fill="url(#woodGradV)"/>
+            <rect x="87" y="20" width="7" height="114" rx="3.5" fill="url(#woodGradV)"/>
+            <path d="M30,26 L80,26 C80,26 78,44 68,56 C62,63 57,66 55,72 C53,66 48,63 42,56 C32,44 30,26 30,26 Z" fill="rgba(200,230,235,0.10)"/>
+            <path d="M55,82 C57,88 62,91 68,98 C78,110 80,128 80,128 L30,128 C30,128 32,110 42,98 C48,91 53,88 55,82 Z" fill="rgba(200,230,235,0.10)"/>
+            <g clip-path="url(#bulbTop)">
+              <rect id="sandTop" x="26" y="26" width="58" height="46" fill="url(#sandGrad)"/>
+            </g>
+            <g clip-path="url(#bulbBottom)">
+              <rect id="sandBottom" x="26" y="128" width="58" height="0" fill="url(#sandGrad)"/>
+              <ellipse id="sandMound" cx="55" cy="128" rx="22" ry="7" fill="url(#sandGrad)"/>
+            </g>
+            <line id="sandStream" x1="55" y1="73" x2="55" y2="120" stroke="#d8bd90" stroke-width="1.6" opacity="0.9" stroke-dasharray="3 2">
+              <animate attributeName="stroke-dashoffset" from="0" to="-10" dur="0.4s" repeatCount="indefinite"/>
+            </line>
+            <path d="M30,26 L80,26 C80,26 78,44 68,56 C62,63 57,66 55,72 C53,66 48,63 42,56 C32,44 30,26 30,26 Z" fill="none" stroke="#ffffff" stroke-width="2" stroke-linejoin="round" opacity="0.85"/>
+            <path d="M55,82 C57,88 62,91 68,98 C78,110 80,128 80,128 L30,128 C30,128 32,110 42,98 C48,91 53,88 55,82 Z" fill="none" stroke="#ffffff" stroke-width="2" stroke-linejoin="round" opacity="0.85"/>
+            <path d="M34,30 C35,42 40,50 45,55" fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M36,100 C33,108 32,118 32,124" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="2.5" stroke-linecap="round"/>
+            <rect x="12" y="12" width="86" height="11" rx="5" fill="url(#woodGrad)"/>
+            <rect x="12" y="10" width="86" height="4" rx="2" fill="#C89468" opacity="0.7"/>
+            <rect x="12" y="131" width="86" height="11" rx="5" fill="url(#woodGrad)"/>
+            <rect x="12" y="140" width="86" height="3" rx="1.5" fill="#5E3A25" opacity="0.6"/>
+          </svg>
+          <div class="sejour-msg" id="sejourMsg">Indiquez vos dates pour personnaliser ce carnet jour après jour.</div>
+        </div>
+
+        <div class="sejour-actions">
+          <button class="btn-light primary" id="addDatesBtn"><svg class="ic ic-sm"><use href="#i-cal"/></svg>Indiquer mes dates</button>
+          <button class="btn-light" id="editDatesBtn" hidden><svg class="ic ic-sm"><use href="#i-edit"/></svg>Modifier les dates</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== AUJOURD'HUI : MÉTÉO & MARÉE ===== -->
+    <section class="block" id="today" style="scroll-margin-top:16px">
+      <div class="block-sub" style="margin-bottom:0">Aujourd'hui à La Trinité-sur-Mer</div>
+      <div class="today-date" id="todayDate"></div>
+
+      <div class="today-grid">
+        <div class="panel" id="meteoPanel">
+          <div class="panel-head"><svg class="ic ic-sm"><use href="#i-sun"/></svg>Météo</div>
+          <div class="skeleton" style="width:70%" id="skMeteo1"></div>
+          <div class="skeleton" style="width:45%" id="skMeteo2"></div>
+          <div class="meteo-data" id="meteoData">
+            <div class="meteo-icon" id="meteoIcon" aria-hidden="true">⛅️</div>
+            <div>
+              <div class="meteo-temp" id="meteoTemp"></div>
+              <div class="meteo-label" id="meteoLabel"></div>
+              <div class="meteo-wind" id="meteoWind"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel" id="mareePanel">
+          <div class="panel-head"><svg class="ic ic-sm"><use href="#i-wave"/></svg>Marée</div>
+          <!-- Vignette officielle SHOM : marées 24h, hauteurs & coefficients (mise à jour automatique) -->
+          <div class="maree-vignette">
+            <script src="https://services.data.shom.fr/hdm/vignette/petite/LA_TRINITE-SUR-MER?locale=fr"></script>
+          </div>
+          <a class="link-row maree-btn" href="https://maree.info/59" target="_blank" rel="noopener">Marées des prochains jours<svg class="ic ic-sm"><use href="#i-ext"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== RUBRIQUES ===== -->
+    <section class="block">
+      <h2 class="block-title">Le carnet</h2>
+      <p class="block-sub">Tout ce qu'il faut pour votre séjour.</p>
+      <div class="categories">
+        <button class="cat-btn" id="cat-0" onclick="showPage(0)"><span class="cat-ic"><svg class="ic"><use href="#i-key"/></svg></span><span><span class="cat-label">Arriver</span><span class="cat-sub">Horaires et instructions</span></span></button>
+        <button class="cat-btn" id="cat-1" onclick="showPage(1)"><span class="cat-ic"><svg class="ic"><use href="#i-home"/></svg></span><span><span class="cat-label">Le studio</span><span class="cat-sub">Équipements</span></span></button>
+        <button class="cat-btn" id="cat-2" onclick="showPage(2)"><span class="cat-ic"><svg class="ic"><use href="#i-compass"/></svg></span><span><span class="cat-label">À découvrir</span><span class="cat-sub">Balades, mer, patrimoine</span></span></button>
+        <button class="cat-btn" id="cat-4" onclick="showPage(4)"><span class="cat-ic"><svg class="ic"><use href="#i-cal"/></svg></span><span><span class="cat-label">Agenda</span><span class="cat-sub">Sorties et événements</span></span></button>
+        <button class="cat-btn" id="cat-3" onclick="showPage(3)"><span class="cat-ic"><svg class="ic"><use href="#i-fork"/></svg></span><span><span class="cat-label">Où manger</span><span class="cat-sub">Nos adresses</span></span></button>
+        <button class="cat-btn" id="cat-5" onclick="showPage(5)"><span class="cat-ic"><svg class="ic"><use href="#i-info"/></svg></span><span><span class="cat-label">Infos pratiques</span><span class="cat-sub">Cartes, météo, laveries</span></span></button>
+        <button class="cat-btn wide" id="cat-6" onclick="showPage(6)"><span class="cat-ic"><svg class="ic"><use href="#i-chat"/></svg></span><span><span class="cat-label">Besoin d'aide</span><span class="cat-sub">Nous contacter pendant le séjour</span></span></button>
+      </div>
+    </section>
+
+    <!-- ===== COUPS DE CŒUR VOYAGEURS ===== -->
+    <section class="block">
+      <div class="panel">
+        <div class="finds-head">
+          <div>
+            <h2 class="block-title">Coups de cœur voyageurs</h2>
+            <p class="block-sub" style="margin-bottom:10px">Notez vos belles découvertes. Pour l'instant, elles restent enregistrées sur votre téléphone.</p>
+          </div>
+          <button class="btn-outline" id="openFindForm"><svg class="ic ic-sm"><use href="#i-plus"/></svg>Partager</button>
+        </div>
+        <div id="findsList">
+          <div class="find-item">
+            <span class="find-emoji">🌅</span>
+            <div><span class="who"><span class="tag-example">Exemple</span>Un voyageur · Juin</span><br>Coucher de soleil magnifique depuis la pointe de Kerbihan, à ne pas manquer.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<!-- =================================================================== -->
+<!-- ARRIVÉE & DÉPART (page-0)                                            -->
+<!-- =================================================================== -->
+<div class="content-page" id="page-0">
+  <div class="wrap">
+    <div class="page-top">
+      <button class="back-btn" onclick="showHome()"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg>Accueil</button>
+      <div class="nav-arrows">
+        <button class="arrow-btn" onclick="showPage(6)" aria-label="Rubrique précédente"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg></button>
+        <button class="arrow-btn" onclick="showPage(1)" aria-label="Rubrique suivante"><svg class="ic ic-sm"><use href="#i-chev"/></svg></button>
       </div>
     </div>
-  </div>
-</div>
+    <header class="page-head"><h2>Arrivée &amp; départ</h2></header>
 
-<!-- ARRIVÉE & DÉPART -->
-<div class="content-page" id="page-0">
-  <div class="nav-bar">
-    <button class="back-btn" onclick="showHome()">🏠 Accueil</button>
-    <div class="nav-arrows">
-      <button class="arrow-btn" onclick="showPage(6)" title="Précédent">◀</button>
-      <button class="arrow-btn" onclick="showPage(1)" title="Suivant">▶</button>
+    <div class="stack">
+      <div class="times">
+        <div class="time-box"><small>Arrivée</small><strong>16h</strong><span>possible à partir de</span></div>
+        <div class="time-box light"><small>Départ</small><strong>10h</strong><span>au plus tard, avant</span></div>
+      </div>
+      <div class="card card-row"><svg class="ic"><use href="#i-mail"/></svg><p>Les instructions détaillées d'arrivée (adresse, accès, boîte à clés) vous seront envoyées <strong>la veille de votre arrivée</strong>.</p></div>
+      <div class="card card-row"><svg class="ic"><use href="#i-clock"/></svg><p>Merci de respecter les horaires afin de faciliter le ménage pour les prochains voyageurs.</p></div>
     </div>
   </div>
-  <div class="section">
-    <div class="section-header"><span class="section-icon">🗝️</span><h2>Arrivée &amp; Départ</h2></div>
-    <div class="card"><p>🕒 Arrivée possible à partir de <strong>16h</strong><br/>🕚 Départ avant <strong>10h</strong></p></div>
-    <div class="card"><p>📩 Les instructions détaillées d'arrivée (adresse, accès, boîte à clés) vous seront envoyées la veille de votre arrivée.</p></div>
-    <div class="card"><p>🙏 Merci de respecter les horaires afin de faciliter le ménage pour les prochains voyageurs.</p></div>
-  </div>
 </div>
 
-<!-- LE STUDIO -->
+<!-- =================================================================== -->
+<!-- LE STUDIO (page-1)                                                   -->
+<!-- =================================================================== -->
 <div class="content-page" id="page-1">
-  <div class="nav-bar">
-    <button class="back-btn" onclick="showHome()">🏠 Accueil</button>
-    <div class="nav-arrows">
-      <button class="arrow-btn" onclick="showPage(0)">◀</button>
-      <button class="arrow-btn" onclick="showPage(2)">▶</button>
+  <div class="wrap">
+    <div class="page-top">
+      <button class="back-btn" onclick="showHome()"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg>Accueil</button>
+      <div class="nav-arrows">
+        <button class="arrow-btn" onclick="showPage(0)" aria-label="Rubrique précédente"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg></button>
+        <button class="arrow-btn" onclick="showPage(2)" aria-label="Rubrique suivante"><svg class="ic ic-sm"><use href="#i-chev"/></svg></button>
+      </div>
     </div>
-  </div>
-  <div class="section">
-    <div class="section-header"><span class="section-icon">🏡</span><h2>Le studio</h2></div>
-    <p style="font-size:0.9rem; color:var(--muted);">Studio confortable pour 1 à 2 personnes, idéal pour un séjour à La Trinité-sur-Mer.</p>
-    <ul class="studio-list">
-      <li>🛋️ Canapé-lit de qualité avec ouverture "rapido"</li>
-      <li>🍳 Cuisine équipée</li>
-      <li>🚿 Salle de bain privative</li>
-      <li>📺 Télévision</li>
-      <li>📶 Connexion Wi-Fi — mot de passe affiché dans le studio</li>
-      <li>🛏️ Linge de lit et serviettes fournis</li>
-    </ul>
-    <p style="margin-top:14px; font-size:0.82rem; color:var(--muted);">Les informations pratiques et les modes d'utilisation des équipements sont disponibles sur place.</p>
+    <header class="page-head"><h2>Le studio</h2><p>Studio confortable pour 1 à 2 personnes, idéal pour un séjour à La Trinité-sur-Mer.</p></header>
+
+    <div class="equip-grid">
+      <div class="equip"><svg class="ic"><use href="#i-pot"/></svg><h3>Cuisine</h3><p>Cuisine équipée</p></div>
+      <div class="equip"><svg class="ic"><use href="#i-drop"/></svg><h3>Salle de bain</h3><p>Salle de bain privative</p></div>
+      <div class="equip wide"><svg class="ic"><use href="#i-bed"/></svg><h3>Literie</h3><p>Canapé-lit de qualité avec ouverture « rapido ». Linge de lit et serviettes fournis.</p></div>
+      <div class="equip"><svg class="ic"><use href="#i-tv"/></svg><h3>Télévision</h3><p>Télévision</p></div>
+      <div class="equip"><svg class="ic"><use href="#i-wifi"/></svg><h3>Wi-Fi</h3><p>Mot de passe affiché dans le studio</p></div>
+    </div>
+    <p class="note" style="margin-top:18px">Les informations pratiques et les modes d'utilisation des équipements sont disponibles sur place.</p>
   </div>
 </div>
 
-<!-- AUTOUR DE VOUS -->
+<!-- =================================================================== -->
+<!-- À DÉCOUVRIR / AUTOUR DE VOUS (page-2)                                -->
+<!-- =================================================================== -->
 <div class="content-page" id="page-2">
-  <div class="nav-bar">
-    <button class="back-btn" onclick="showHome()">🏠 Accueil</button>
-    <div class="nav-arrows">
-      <button class="arrow-btn" onclick="showPage(1)">◀</button>
-      <button class="arrow-btn" onclick="showPage(3)">▶</button>
+  <div class="wrap">
+    <div class="page-top">
+      <button class="back-btn" onclick="showHome()"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg>Accueil</button>
+      <div class="nav-arrows">
+        <button class="arrow-btn" onclick="showPage(1)" aria-label="Rubrique précédente"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg></button>
+        <button class="arrow-btn" onclick="showPage(3)" aria-label="Rubrique suivante"><svg class="ic ic-sm"><use href="#i-chev"/></svg></button>
+      </div>
     </div>
-  </div>
-  <div class="section">
-    <div class="section-header"><span class="section-icon">📍</span><h2>Autour de vous</h2></div>
-    <p style="font-size:0.9rem; color:var(--muted);">La Trinité-sur-Mer est un port vivant et authentique, au cœur de la baie de Quiberon.</p>
-    <div class="card"><div class="card-header"><span class="card-icon">🚶</span><span class="card-title">À pied depuis le studio</span></div><ul><li>Le port, les plages et le chemin des douaniers (GR34)</li><li>Boulangeries, commerces et restaurants</li><li>Les marais salants de La Trinité</li></ul></div>
-    <div class="card card-coeur"><div class="card-header"><span class="card-icon">💙</span><span class="card-title">Coup de cœur</span></div><p>Personnellement, nous aimons beaucoup la plage de Kervilen, idéale pour une balade ou un moment de détente.</p></div>
-    <div class="card"><div class="card-header"><span class="card-icon">🛶</span><span class="card-title">Nautique &amp; activités en mer</span></div><ul><li>Kayak &amp; paddle : Run'O, Varec'h Kayak, Kerners Kayak &amp; Paddle</li><li>Bateaux électriques sans permis : E.SEA</li><li>Croisières commentées : Vedettes Angels</li><li>Déjeuner/dîner croisière : Navix, Le Passeur des Îles</li><li>Traversée vers Belle-Île : compagnie régulière ou à la voile (Iliens)</li></ul></div>
-    <div class="card"><div class="card-header"><span class="card-icon">🚴</span><span class="card-title">Vélo</span></div><ul><li>Le Vélo Trinitain (sur place), VéloCarnac, L'Original Location (Erdeven)</li><li>Circuit conseillé : La Trinité → Locmariaquer (~34 km, piste et chemins intérieurs)</li></ul></div>
-    <div class="card"><div class="card-header"><span class="card-icon">👕</span><span class="card-title">Laveries</span></div><ul><li>⭐ <strong>Le Salon Lavoir</strong> — notre recommandation — 36 cours des Quais, 7j/7 de 7h à 21h</li><li>Laverie Raz la Crêpe — Place Voulien <em>(les sèche-linge peuvent être défaillants)</em></li></ul></div>
-    <div class="card"><div class="card-header"><span class="card-icon">🏖️</span><span class="card-title">Sites incontournables à proximité</span></div><ul><li>Alignements de Carnac (menhirs et dolmens)</li><li>Gavrinis (île &amp; cairn néolithique)</li><li>Isthme de Penthièvre &amp; côte sauvage — char à voile</li><li>Thalasso &amp; spa marin de Carnac</li><li>Port de Saint-Goustan (Auray)</li><li>Balade le long de la rivière du Bono (départ chapelle St-Avoye)</li><li>Biscuiterie La Trinitaine</li></ul></div>
-    <div class="card"><div class="card-header"><span class="card-icon">🏰</span><span class="card-title">Plus loin — Vannes &amp; Golfe du Morbihan</span></div><ul><li>Vannes et sa vieille ville historique</li><li>Château de Suscinio · Poul Fétan (village breton reconstitué)</li><li>Îles : Île aux Moines, Île d'Arz</li><li>Navigation sur anciens bateaux : Krog e Barz, Voiles du Golfe André &amp; Yvette</li><li>Éco-balade en kayak : sentiersmarins.com</li><li>Hélicoptère &amp; saut en parachute à Monterblanc</li><li>City Pass Vannes : réductions et transports inclus</li></ul></div>
-    <div class="card"><div class="card-header"><span class="card-icon">🎶</span><span class="card-title">Lorient &amp; le Festival Interceltique</span></div><ul><li>Lorient, ville portuaire dynamique à 45 min du studio</li><li>Festival Interceltique (début août) : l'un des plus grands festivals celtiques au monde</li><li>Le port de pêche de Keroman (le plus grand port de pêche de France)</li><li>La Cité de la Voile Éric Tabarly</li></ul></div>
+    <header class="page-head"><h2>À découvrir</h2><p>La Trinité-sur-Mer est un port vivant et authentique, au cœur de la baie de Quiberon.</p></header>
+
+    <div class="toc" aria-label="Thèmes">
+      <button data-scroll="th-balades">Plages &amp; balades</button>
+      <button data-scroll="th-eau">Sur l'eau</button>
+      <button data-scroll="th-velo">À vélo</button>
+      <button data-scroll="th-patrimoine">Patrimoine</button>
+      <button data-scroll="th-proximite">À proximité</button>
+      <button data-scroll="th-golfe">Golfe du Morbihan</button>
+    </div>
+
+    <div class="stack">
+      <!-- Notre coup de cœur -->
+      <div class="card coeur">
+        <div class="label-coeur"><svg class="ic"><use href="#i-heart"/></svg>Notre coup de cœur</div>
+        <h3>La plage de Kervilen</h3>
+        <p>Personnellement, nous aimons beaucoup la plage de Kervilen, idéale pour une balade ou un moment de détente.</p>
+      </div>
+
+      <details class="theme" id="th-balades">
+        <summary>
+          <span class="theme-ic"><svg class="ic"><use href="#i-walk"/></svg></span>
+          <span class="theme-title">Plages &amp; balades</span>
+          <span class="theme-sub">À pied depuis le studio : port, plages, GR34, marais salants</span>
+          <span class="theme-more"><span class="more-closed">Découvrir</span><span class="more-open">Refermer</span><svg class="ic"><use href="#i-chev"/></svg></span>
+        </summary>
+        <div class="theme-body"><ul>
+          <li>Le port, les plages et le chemin des douaniers (GR34)</li>
+          <li>Boulangeries, commerces et restaurants</li>
+          <li>Les marais salants de La Trinité</li>
+        </ul></div>
+      </details>
+
+      <details class="theme" id="th-eau">
+        <summary>
+          <span class="theme-ic"><svg class="ic"><use href="#i-boat"/></svg></span>
+          <span class="theme-title">Sur l'eau</span>
+          <span class="theme-sub">Kayak, paddle, bateaux, croisières, Belle-Île</span>
+          <span class="theme-more"><span class="more-closed">Découvrir</span><span class="more-open">Refermer</span><svg class="ic"><use href="#i-chev"/></svg></span>
+        </summary>
+        <div class="theme-body"><ul>
+          <li>Kayak &amp; paddle : Run'O, Varec'h Kayak, Kerners Kayak &amp; Paddle</li>
+          <li>Bateaux électriques sans permis : E.SEA</li>
+          <li>Croisières commentées : Vedettes Angels</li>
+          <li>Déjeuner/dîner croisière : Navix, Le Passeur des Îles</li>
+          <li>Traversée vers Belle-Île : compagnie régulière ou à la voile (Iliens)</li>
+        </ul></div>
+      </details>
+
+      <details class="theme" id="th-velo">
+        <summary>
+          <span class="theme-ic"><svg class="ic"><use href="#i-bike"/></svg></span>
+          <span class="theme-title">À vélo</span>
+          <span class="theme-sub">Locations et circuit conseillé vers Locmariaquer</span>
+          <span class="theme-more"><span class="more-closed">Découvrir</span><span class="more-open">Refermer</span><svg class="ic"><use href="#i-chev"/></svg></span>
+        </summary>
+        <div class="theme-body"><ul>
+          <li>Le Vélo Trinitain (sur place), VéloCarnac, L'Original Location (Erdeven)</li>
+          <li>Circuit conseillé : La Trinité → Locmariaquer (~34 km, piste et chemins intérieurs)</li>
+        </ul></div>
+      </details>
+
+      <details class="theme" id="th-patrimoine">
+        <summary>
+          <span class="theme-ic"><svg class="ic"><use href="#i-stone"/></svg></span>
+          <span class="theme-title">Patrimoine</span>
+          <span class="theme-sub">Carnac, Gavrinis, Saint-Goustan</span>
+          <span class="theme-more"><span class="more-closed">Découvrir</span><span class="more-open">Refermer</span><svg class="ic"><use href="#i-chev"/></svg></span>
+        </summary>
+        <div class="theme-body"><ul>
+          <li>Alignements de Carnac (menhirs et dolmens)</li>
+          <li>Gavrinis (île &amp; cairn néolithique)</li>
+          <li>Port de Saint-Goustan (Auray)</li>
+        </ul></div>
+      </details>
+
+      <details class="theme" id="th-proximite">
+        <summary>
+          <span class="theme-ic"><svg class="ic"><use href="#i-map"/></svg></span>
+          <span class="theme-title">À proximité</span>
+          <span class="theme-sub">Côte sauvage, Carnac, le Bono, Lorient</span>
+          <span class="theme-more"><span class="more-closed">Découvrir</span><span class="more-open">Refermer</span><svg class="ic"><use href="#i-chev"/></svg></span>
+        </summary>
+        <div class="theme-body">
+          <ul>
+            <li>Isthme de Penthièvre &amp; côte sauvage — char à voile</li>
+            <li>Thalasso &amp; spa marin de Carnac</li>
+            <li>Balade le long de la rivière du Bono (départ chapelle St-Avoye)</li>
+            <li>Biscuiterie La Trinitaine</li>
+          </ul>
+          <h4>Lorient &amp; le Festival Interceltique</h4>
+          <ul>
+            <li>Lorient, ville portuaire dynamique à 45 min du studio</li>
+            <li>Festival Interceltique (début août) : l'un des plus grands festivals celtiques au monde</li>
+            <li>Le port de pêche de Keroman (le plus grand port de pêche de France)</li>
+            <li>La Cité de la Voile Éric Tabarly</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="theme" id="th-golfe">
+        <summary>
+          <span class="theme-ic"><svg class="ic"><use href="#i-castle"/></svg></span>
+          <span class="theme-title">Golfe du Morbihan</span>
+          <span class="theme-sub">Plus loin : Vannes, Suscinio, les îles</span>
+          <span class="theme-more"><span class="more-closed">Découvrir</span><span class="more-open">Refermer</span><svg class="ic"><use href="#i-chev"/></svg></span>
+        </summary>
+        <div class="theme-body"><ul>
+          <li>Vannes et sa vieille ville historique</li>
+          <li>Château de Suscinio · Poul Fétan (village breton reconstitué)</li>
+          <li>Îles : Île aux Moines, Île d'Arz</li>
+          <li>Navigation sur anciens bateaux : Krog e Barz, Voiles du Golfe André &amp; Yvette</li>
+          <li>Éco-balade en kayak : sentiersmarins.com</li>
+          <li>Hélicoptère &amp; saut en parachute à Monterblanc</li>
+          <li>City Pass Vannes : réductions et transports inclus</li>
+        </ul></div>
+      </details>
+    </div>
   </div>
 </div>
 
-<!-- RESTAURANTS -->
+<!-- =================================================================== -->
+<!-- RESTAURANTS (page-3)                                                 -->
+<!-- =================================================================== -->
 <div class="content-page" id="page-3">
-  <div class="nav-bar">
-    <button class="back-btn" onclick="showHome()">🏠 Accueil</button>
-    <div class="nav-arrows">
-      <button class="arrow-btn" onclick="showPage(2)">◀</button>
-      <button class="arrow-btn" onclick="showPage(4)">▶</button>
+  <div class="wrap">
+    <div class="page-top">
+      <button class="back-btn" onclick="showHome()"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg>Accueil</button>
+      <div class="nav-arrows">
+        <button class="arrow-btn" onclick="showPage(2)" aria-label="Rubrique précédente"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg></button>
+        <button class="arrow-btn" onclick="showPage(4)" aria-label="Rubrique suivante"><svg class="ic ic-sm"><use href="#i-chev"/></svg></button>
+      </div>
     </div>
-  </div>
-  <div class="section">
-    <div class="section-header"><span class="section-icon">🍽️</span><h2>Où manger ?</h2></div>
-    <p style="font-size:0.9rem; color:var(--muted);">Quelques adresses que nous recommandons à La Trinité-sur-Mer.</p>
-    <div class="card" style="margin-top:12px;"><div class="card-header"><span class="card-icon">💙</span><span class="card-title">Le Quai — Notre coup de cœur</span></div><p>Cuisine maison depuis 1990, produits locaux. Vue sur le port, terrasse, ouvert tous les jours.</p><p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">8 cours des Quais · <a href="https://www.lequai56.fr" target="_blank" style="color:var(--ocean);">lequai56.fr</a></p></div>
-    <div class="card"><div class="card-header"><span class="card-icon">🎶</span><span class="card-title">La Marée Douce</span></div><p>Esprit guinguette, grande terrasse vue port. DJ set le soir, cocktails et tapas.</p><p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">34 cours des Quais · <a href="https://www.lamareedouce.com" target="_blank" style="color:var(--ocean);">lamareedouce.com</a></p></div>
-    <div class="card"><div class="card-header"><span class="card-icon">🍽️</span><span class="card-title">Itsasoa</span></div><p>Cuisine française raffinée, l'une des meilleures notes de la région. Réservation conseillée.</p><p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">1 rue de Ker Anna, Carnac · <a href="https://www.google.com/maps/search/?api=1&query=Itsasoa+Carnac" target="_blank" style="color:var(--ocean);">Voir sur Maps</a></p></div>
-    <div class="card"><div class="card-header"><span class="card-icon">🦪</span><span class="card-title">Le Mouillage</span></div><p>Face au port de pêche, vue sur le chenal. Spécialités de produits de la mer ultra frais.</p><p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">La Trinité-sur-Mer · <a href="https://www.google.com/maps/search/?api=1&query=Le+Mouillage+La+Trinité-sur-Mer" target="_blank" style="color:var(--ocean);">Voir sur Maps</a></p></div>
-    <div class="card"><div class="card-header"><span class="card-icon">🥞</span><span class="card-title">Crêperie Ty Malou</span></div><p>Crêperie bretonne traditionnelle, juste à côté du Quai.</p><p style="margin-top:6px; font-size:0.8rem; color:var(--muted);">10 cours des Quais · <a href="https://www.google.com/maps/search/?api=1&query=Crêperie+Ty+Malou+La+Trinité-sur-Mer" target="_blank" style="color:var(--ocean);">Voir sur Maps</a></p></div>
-    <div class="utility-grid" style="margin-top:16px;"><a href="https://www.tripadvisor.fr/Restaurants-g667165-La_Trinite_sur_Mer_Morbihan_Brittany.html" target="_blank" class="utility-btn full"><span class="utility-btn-icon">⭐</span>Tous les restaurants sur Tripadvisor</a></div>
+    <header class="page-head"><h2>Où manger ?</h2><p>Quelques adresses que nous recommandons à La Trinité-sur-Mer.</p></header>
+
+    <div class="stack">
+      <article class="card resto coeur">
+        <div class="label-coeur"><svg class="ic"><use href="#i-heart"/></svg>Notre coup de cœur</div>
+        <h3>Le Quai</h3>
+        <div class="resto-meta"><span class="chip">Cuisine maison</span><span>8 cours des Quais</span></div>
+        <p>Cuisine maison depuis 1990, produits locaux. Vue sur le port, terrasse, ouvert tous les jours.</p>
+        <div class="btns">
+          <a class="btn solid" href="https://www.google.com/maps/search/?api=1&query=Le+Quai+8+cours+des+Quais+La+Trinité-sur-Mer" target="_blank" rel="noopener"><svg class="ic"><use href="#i-pin"/></svg>Voir sur Maps</a>
+          <a class="btn" href="https://www.lequai56.fr" target="_blank" rel="noopener"><svg class="ic"><use href="#i-ext"/></svg>Site web</a>
+        </div>
+      </article>
+
+      <article class="card resto">
+        <h3>La Marée Douce</h3>
+        <div class="resto-meta"><span class="chip">Guinguette · tapas</span><span>34 cours des Quais</span></div>
+        <p>Esprit guinguette, grande terrasse vue port. DJ set le soir, cocktails et tapas.</p>
+        <div class="btns">
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&query=La+Marée+Douce+34+cours+des+Quais+La+Trinité-sur-Mer" target="_blank" rel="noopener"><svg class="ic"><use href="#i-pin"/></svg>Voir sur Maps</a>
+          <a class="btn" href="https://www.lamareedouce.com" target="_blank" rel="noopener"><svg class="ic"><use href="#i-ext"/></svg>Site web</a>
+        </div>
+      </article>
+
+      <article class="card resto">
+        <h3>Itsasoa</h3>
+        <div class="resto-meta"><span class="chip">Cuisine française</span><span>1 rue de Ker Anna, Carnac</span></div>
+        <p>Cuisine française raffinée, l'une des meilleures notes de la région. Réservation conseillée.</p>
+        <div class="btns">
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Itsasoa+Carnac" target="_blank" rel="noopener"><svg class="ic"><use href="#i-pin"/></svg>Voir sur Maps</a>
+        </div>
+      </article>
+
+      <article class="card resto">
+        <h3>Le Mouillage</h3>
+        <div class="resto-meta"><span class="chip">Produits de la mer</span><span>La Trinité-sur-Mer</span></div>
+        <p>Face au port de pêche, vue sur le chenal. Spécialités de produits de la mer ultra frais.</p>
+        <div class="btns">
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Le+Mouillage+La+Trinité-sur-Mer" target="_blank" rel="noopener"><svg class="ic"><use href="#i-pin"/></svg>Voir sur Maps</a>
+        </div>
+      </article>
+
+      <article class="card resto">
+        <h3>Crêperie Ty Malou</h3>
+        <div class="resto-meta"><span class="chip">Crêperie</span><span>10 cours des Quais</span></div>
+        <p>Crêperie bretonne traditionnelle, juste à côté du Quai.</p>
+        <div class="btns">
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Crêperie+Ty+Malou+La+Trinité-sur-Mer" target="_blank" rel="noopener"><svg class="ic"><use href="#i-pin"/></svg>Voir sur Maps</a>
+        </div>
+      </article>
+
+      <div class="utility-grid"><a href="https://www.tripadvisor.fr/Restaurants-g667165-La_Trinite_sur_Mer_Morbihan_Brittany.html" target="_blank" rel="noopener" class="utility-btn full"><svg class="ic"><use href="#i-star"/></svg>Tous les restaurants sur Tripadvisor</a></div>
+    </div>
   </div>
 </div>
 
-<!-- AGENDA -->
+<!-- =================================================================== -->
+<!-- AGENDA (page-4) — contenu inchangé, agenda dynamique à l'étape 3     -->
+<!-- =================================================================== -->
 <div class="content-page" id="page-4">
-  <div class="nav-bar">
-    <button class="back-btn" onclick="showHome()">🏠 Accueil</button>
-    <div class="nav-arrows">
-      <button class="arrow-btn" onclick="showPage(3)">◀</button>
-      <button class="arrow-btn" onclick="showPage(5)">▶</button>
+  <div class="wrap">
+    <div class="page-top">
+      <button class="back-btn" onclick="showHome()"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg>Accueil</button>
+      <div class="nav-arrows">
+        <button class="arrow-btn" onclick="showPage(3)" aria-label="Rubrique précédente"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg></button>
+        <button class="arrow-btn" onclick="showPage(5)" aria-label="Rubrique suivante"><svg class="ic ic-sm"><use href="#i-chev"/></svg></button>
+      </div>
     </div>
-  </div>
-  <div class="section">
-    <div class="section-header"><span class="section-icon">🗓️</span><h2>Agenda &amp; Sorties</h2></div>
-    <p style="font-size:0.85rem; color:var(--muted);">Événements à La Trinité et dans tout le Morbihan</p>
+    <header class="page-head"><h2>Agenda &amp; sorties</h2><p>Événements à La Trinité et dans tout le Morbihan</p></header>
+
     <span class="agenda-label">La Trinité-sur-Mer</span>
-    <a href="https://www.latrinitesurmer.fr/agenda/" target="_blank" rel="noopener" class="agenda-link"><span class="agenda-link-icon">📍</span><div class="agenda-link-text"><div class="agenda-link-title">Agenda officiel de La Trinité</div><div class="agenda-link-sub">Fêtes, marchés, animations locales</div></div><span class="agenda-arrow">→</span></a>
+    <a href="https://www.latrinitesurmer.fr/agenda/" target="_blank" rel="noopener" class="agenda-link"><span class="agenda-link-icon">📍</span><div class="agenda-link-text"><div class="agenda-link-title">Agenda officiel de La Trinité</div><div class="agenda-link-sub">Fêtes, marchés, animations locales</div></div><svg class="ic ic-sm agenda-arrow"><use href="#i-ext"/></svg></a>
     <span class="agenda-label">Morbihan &amp; région</span>
-    <a href="https://morbihan.com/a-voir-a-faire/agenda/" target="_blank" rel="noopener" class="agenda-link"><span class="agenda-link-icon">🌊</span><div class="agenda-link-text"><div class="agenda-link-title">Agenda Morbihan</div><div class="agenda-link-sub">Lorient, Vannes, Auray, Quiberon…</div></div><span class="agenda-arrow">→</span></a>
-    <a href="https://56.agendaculturel.fr/" target="_blank" rel="noopener" class="agenda-link"><span class="agenda-link-icon">🎭</span><div class="agenda-link-text"><div class="agenda-link-title">Agenda culturel Morbihan</div><div class="agenda-link-sub">Concerts, spectacles, expos, festivals</div></div><span class="agenda-arrow">→</span></a>
-    <a href="https://golfedumorbihan56.com/agenda-evenements/morbihan/" target="_blank" rel="noopener" class="agenda-link"><span class="agenda-link-icon">⛵</span><div class="agenda-link-text"><div class="agenda-link-title">Agenda Golfe du Morbihan</div><div class="agenda-link-sub">Quiberon, presqu'île, événements nautiques</div></div><span class="agenda-arrow">→</span></a>
+    <a href="https://morbihan.com/a-voir-a-faire/agenda/" target="_blank" rel="noopener" class="agenda-link"><span class="agenda-link-icon">🌊</span><div class="agenda-link-text"><div class="agenda-link-title">Agenda Morbihan</div><div class="agenda-link-sub">Lorient, Vannes, Auray, Quiberon…</div></div><svg class="ic ic-sm agenda-arrow"><use href="#i-ext"/></svg></a>
+    <a href="https://56.agendaculturel.fr/" target="_blank" rel="noopener" class="agenda-link"><span class="agenda-link-icon">🎭</span><div class="agenda-link-text"><div class="agenda-link-title">Agenda culturel Morbihan</div><div class="agenda-link-sub">Concerts, spectacles, expos, festivals</div></div><svg class="ic ic-sm agenda-arrow"><use href="#i-ext"/></svg></a>
+    <a href="https://golfedumorbihan56.com/agenda-evenements/morbihan/" target="_blank" rel="noopener" class="agenda-link"><span class="agenda-link-icon">⛵</span><div class="agenda-link-text"><div class="agenda-link-title">Agenda Golfe du Morbihan</div><div class="agenda-link-sub">Quiberon, presqu'île, événements nautiques</div></div><svg class="ic ic-sm agenda-arrow"><use href="#i-ext"/></svg></a>
   </div>
 </div>
 
-<!-- INFOS PRATIQUES -->
+<!-- =================================================================== -->
+<!-- INFOS PRATIQUES (page-5)                                             -->
+<!-- =================================================================== -->
 <div class="content-page" id="page-5">
-  <div class="nav-bar">
-    <button class="back-btn" onclick="showHome()">🏠 Accueil</button>
-    <div class="nav-arrows">
-      <button class="arrow-btn" onclick="showPage(4)">◀</button>
-      <button class="arrow-btn" onclick="showPage(6)">▶</button>
+  <div class="wrap">
+    <div class="page-top">
+      <button class="back-btn" onclick="showHome()"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg>Accueil</button>
+      <div class="nav-arrows">
+        <button class="arrow-btn" onclick="showPage(4)" aria-label="Rubrique précédente"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg></button>
+        <button class="arrow-btn" onclick="showPage(6)" aria-label="Rubrique suivante"><svg class="ic ic-sm"><use href="#i-chev"/></svg></button>
+      </div>
     </div>
-  </div>
-  <div class="section">
-    <div class="section-header"><span class="section-icon">🌤️</span><h2>Infos pratiques</h2></div>
-    <p style="font-size:0.9rem; color:var(--muted); margin-bottom:16px;">Accès rapide aux informations utiles pour votre séjour.</p>
+    <header class="page-head"><h2>Infos pratiques</h2><p>Accès rapide aux informations utiles pour votre séjour.</p></header>
+
     <div class="utility-grid">
-      <a href="https://www.google.com/maps/search/?api=1&query=La+Trinité-sur-Mer" target="_blank" class="utility-btn"><span class="utility-btn-icon">📍</span>Google Maps</a>
-      <a href="https://meteofrance.com/previsions-meteo-france/la-trinite-sur-mer/56470" target="_blank" class="utility-btn"><span class="utility-btn-icon">🌤️</span>Météo locale</a>
-      <a href="https://marine.meteoconsult.fr/meteo-marine/bulletin-detaille/port-185/previsions-meteo-la-trinite-sur-mer-aujourdhui" target="_blank" class="utility-btn"><span class="utility-btn-icon">⚓</span>Météo marine</a>
-      <a href="https://maree.info/59" target="_blank" class="utility-btn"><span class="utility-btn-icon">🌊</span>Horaires des marées</a>
+      <a href="https://www.google.com/maps/search/?api=1&query=La+Trinité-sur-Mer" target="_blank" rel="noopener" class="utility-btn"><svg class="ic"><use href="#i-pin"/></svg>Google Maps</a>
+      <a href="https://meteofrance.com/previsions-meteo-france/la-trinite-sur-mer/56470" target="_blank" rel="noopener" class="utility-btn"><svg class="ic"><use href="#i-sun"/></svg>Météo locale</a>
+      <a href="https://marine.meteoconsult.fr/meteo-marine/bulletin-detaille/port-185/previsions-meteo-la-trinite-sur-mer-aujourdhui" target="_blank" rel="noopener" class="utility-btn"><svg class="ic"><use href="#i-anchor"/></svg>Météo marine</a>
+      <a href="https://maree.info/59" target="_blank" rel="noopener" class="utility-btn"><svg class="ic"><use href="#i-wave"/></svg>Horaires des marées</a>
+    </div>
+
+    <div class="card" style="margin-top:14px">
+      <div class="card-row"><svg class="ic"><use href="#i-laundry"/></svg><h3>Laveries</h3></div>
+      <ul>
+        <li><strong>Le Salon Lavoir</strong> — notre recommandation — 36 cours des Quais, 7j/7 de 7h à 21h</li>
+        <li>Laverie Raz la Crêpe — Place Voulien <em>(les sèche-linge peuvent être défaillants)</em></li>
+      </ul>
     </div>
   </div>
 </div>
 
-<!-- BESOIN D'AIDE -->
+<!-- =================================================================== -->
+<!-- BESOIN D'AIDE (page-6)                                               -->
+<!-- =================================================================== -->
 <div class="content-page" id="page-6">
-  <div class="nav-bar">
-    <button class="back-btn" onclick="showHome()">🏠 Accueil</button>
-    <div class="nav-arrows">
-      <button class="arrow-btn" onclick="showPage(5)">◀</button>
-      <button class="arrow-btn" onclick="showPage(0)">▶</button>
+  <div class="wrap">
+    <div class="page-top">
+      <button class="back-btn" onclick="showHome()"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg>Accueil</button>
+      <div class="nav-arrows">
+        <button class="arrow-btn" onclick="showPage(5)" aria-label="Rubrique précédente"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg></button>
+        <button class="arrow-btn" onclick="showPage(0)" aria-label="Rubrique suivante"><svg class="ic ic-sm"><use href="#i-chev"/></svg></button>
+      </div>
     </div>
-  </div>
-  <div class="section">
-    <div class="section-header"><span class="section-icon">📞</span><h2>Besoin d'aide</h2></div>
-    <div class="card"><p>Je reste disponible pendant votre séjour si vous avez la moindre question. Je réponds généralement sous <strong>2h</strong>.</p></div>
-    <div class="card"><p>📩 Pour toute question, merci de privilégier les <strong>messages Airbnb</strong>.</p></div>
-    <div class="card"><p>🚨 En cas d'urgence, vous pouvez me contacter directement.</p></div>
+    <header class="page-head"><h2>Besoin d'aide</h2><p>Je reste disponible pendant votre séjour si vous avez la moindre question.</p></header>
+
+    <div class="stack">
+      <div class="help-main">
+        <svg class="ic"><use href="#i-mail"/></svg>
+        <h3>Pour toute question, privilégiez les messages Airbnb.</h3>
+        <p>Je réponds généralement sous <strong>2h</strong>.</p>
+      </div>
+      <div class="card card-row"><svg class="ic"><use href="#i-alert"/></svg><p><strong>En cas d'urgence</strong>, vous pouvez me contacter directement.</p></div>
+    </div>
   </div>
 </div>
 
 <footer>Studio · La Trinité-sur-Mer · 56470</footer>
 
+<!-- ===== BARRE DE NAVIGATION BASSE ===== -->
+<nav class="bottom-nav" aria-label="Navigation principale">
+  <button class="bn-btn" data-nav="-1"><svg class="ic"><use href="#i-home"/></svg>Accueil</button>
+  <button class="bn-btn" data-nav="2"><svg class="ic"><use href="#i-compass"/></svg>Découvrir</button>
+  <button class="bn-btn" data-nav="4"><svg class="ic"><use href="#i-cal"/></svg>Agenda</button>
+  <button class="bn-btn" data-nav="5"><svg class="ic"><use href="#i-info"/></svg>Infos</button>
+</nav>
+
 <!-- ===== OVERLAY : SAISIE DES DATES DE SÉJOUR ===== -->
 <div class="form-overlay" id="datesOverlay">
-  <div class="form-sheet">
-    <h3>Bienvenue ! Vos dates de séjour ?</h3>
-    <p class="form-intro">Pour personnaliser votre page jour après jour (une seule fois).</p>
-    <label>Arrivée</label>
+  <div class="form-sheet" role="dialog" aria-modal="true" aria-labelledby="datesTitle">
+    <h3 id="datesTitle">Bienvenue ! Vos dates de séjour ?</h3>
+    <p class="form-intro" id="datesIntro">Pour personnaliser votre page jour après jour (une seule fois).</p>
+    <label for="dateArrivee">Arrivée</label>
     <input type="date" id="dateArrivee">
-    <label>Départ</label>
+    <label for="dateDepart">Départ</label>
     <input type="date" id="dateDepart">
+    <p class="form-error" id="datesError" hidden>La date de départ doit être après la date d'arrivée.</p>
     <div class="form-actions">
       <button class="form-cancel" id="skipDates">Plus tard</button>
       <button class="form-submit" id="saveDates">Valider</button>
@@ -621,42 +858,113 @@
 
 <!-- ===== OVERLAY : PARTAGER UNE TROUVAILLE ===== -->
 <div class="form-overlay" id="findOverlay">
-  <div class="form-sheet">
-    <h3>Partagez votre trouvaille</h3>
-    <p class="form-intro">Votre découverte sera visible par les prochains voyageurs.</p>
-    <label>Quel lieu ?</label>
+  <div class="form-sheet" role="dialog" aria-modal="true" aria-labelledby="findTitle">
+    <h3 id="findTitle">Partagez votre trouvaille</h3>
+    <p class="form-intro">Votre découverte est enregistrée sur cet appareil.</p>
+    <label for="findName">Quel lieu ?</label>
     <input type="text" id="findName" placeholder="Ex : Crêperie Ty Malou">
-    <label>Type</label>
+    <label for="findType">Type</label>
     <select id="findType">
       <option>🍽️ Restaurant</option>
       <option>🏖️ Plage / nature</option>
       <option>✨ Autre bon plan</option>
     </select>
-    <label>Un mot pour les prochains voyageurs</label>
+    <label for="findNote">Un mot sur ce lieu</label>
     <textarea rows="2" id="findNote" placeholder="Ce qui vous a plu..."></textarea>
     <div class="form-actions">
       <button class="form-cancel" id="cancelFind">Annuler</button>
-      <button class="form-submit" id="submitFind">Envoyer</button>
+      <button class="form-submit" id="submitFind">Enregistrer</button>
     </div>
   </div>
 </div>
 
 <script>
-  /* ================= NAVIGATION (inchangée) ================= */
+  /* ================= NAVIGATION + BOUTON RETOUR =================
+     Les rubriques restent page-0 … page-6 et showPage(n) / showHome()
+     fonctionnent comme avant. Chaque changement de rubrique est ajouté
+     à l'historique du navigateur : le bouton retour du téléphone revient
+     à la rubrique précédente au lieu de quitter le site. */
   const pages = ['page-0','page-1','page-2','page-3','page-4','page-5','page-6'];
-  function showPage(idx) {
-    document.getElementById('home').style.display = 'none';
-    pages.forEach(p => document.getElementById(p).style.display = 'none');
-    document.getElementById(pages[idx]).style.display = 'block';
-    window.scrollTo(0, 0);
+  const slugs = ['arrivee','studio','decouvrir','restaurants','agenda','infos','aide'];
+  let pageCourante = -1; // -1 = accueil
+
+  function urlAccueil(){ return location.pathname + location.search; }
+
+  function fermerOverlays(){
+    document.querySelectorAll('.form-overlay.open').forEach(o => o.classList.remove('open'));
   }
-  function showHome() {
-    pages.forEach(p => document.getElementById(p).style.display = 'none');
-    document.getElementById('home').style.display = 'block';
+
+  function majBarreNav(){
+    // Rubrique -> onglet actif de la barre du bas
+    const onglet = { '-1': -1, 0: -1, 1: -1, 2: 2, 3: 2, 4: 4, 5: 5, 6: 5 }[pageCourante];
+    document.querySelectorAll('.bn-btn').forEach(b => {
+      const actif = Number(b.dataset.nav) === onglet;
+      b.classList.toggle('active', actif);
+      if (actif) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current');
+    });
+  }
+
+  function afficher(idx){
+    fermerOverlays();
+    document.getElementById('home').style.display = idx === -1 ? 'block' : 'none';
+    pages.forEach((p, i) => document.getElementById(p).style.display = i === idx ? 'block' : 'none');
+    pageCourante = idx;
+    majBarreNav();
     window.scrollTo(0, 0);
   }
 
-  /* ================= TEINTE SELON L'HEURE ================= */
+  function showPage(idx, depuisHistorique) {
+    if (idx === pageCourante) { window.scrollTo({ top: 0, behavior: 'smooth' }); return; }
+    afficher(idx);
+    if (!depuisHistorique) {
+      try { history.pushState({ p: idx }, '', '#' + slugs[idx]); } catch(e) {}
+    }
+  }
+
+  function showHome(depuisHistorique) {
+    if (pageCourante === -1) { window.scrollTo({ top: 0, behavior: 'smooth' }); return; }
+    afficher(-1);
+    if (!depuisHistorique) {
+      try { history.pushState({ p: -1 }, '', urlAccueil()); } catch(e) {}
+    }
+  }
+
+  window.addEventListener('popstate', e => {
+    let idx = (e.state && typeof e.state.p === 'number') ? e.state.p : slugs.indexOf(location.hash.slice(1));
+    afficher(idx);
+  });
+
+  // Au chargement : l'accueil est toujours la première étape de l'historique.
+  (function initNavigation(){
+    const initiale = slugs.indexOf(location.hash.slice(1));
+    try { history.replaceState({ p: -1 }, '', urlAccueil()); } catch(e) {}
+    if (initiale >= 0) {
+      afficher(initiale);
+      try { history.pushState({ p: initiale }, '', '#' + slugs[initiale]); } catch(e) {}
+    } else {
+      pageCourante = -1;
+      majBarreNav();
+    }
+  })();
+
+  document.querySelectorAll('.bn-btn').forEach(b => {
+    b.addEventListener('click', () => {
+      const n = Number(b.dataset.nav);
+      n === -1 ? showHome() : showPage(n);
+    });
+  });
+
+  // Défilement vers une zone de la page (accès rapide, thèmes)
+  document.querySelectorAll('[data-scroll]').forEach(b => {
+    b.addEventListener('click', () => {
+      const cible = document.getElementById(b.dataset.scroll);
+      if (!cible) return;
+      if (cible.tagName === 'DETAILS') cible.open = true;
+      cible.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+
+  /* ================= TEINTE SELON L'HEURE (conservée) ================= */
   (function(){
     const h = new Date().getHours();
     let t = 't-midday';
@@ -666,11 +974,25 @@
     document.body.classList.add(t);
   })();
 
+  /* ================= OUTILS DATES ================= */
+  function majuscule(s){ return s.charAt(0).toUpperCase() + s.slice(1); }
+  function jourComplet(d){ return majuscule(d.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' })); }
+  function jourMois(d){ return d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' }); }
+  function plageDates(a, d){
+    if (a.getMonth() === d.getMonth() && a.getFullYear() === d.getFullYear()) {
+      return `${a.getDate()} → ${d.getDate()} ${d.toLocaleDateString('fr-FR', { month: 'long' })}`;
+    }
+    return `${jourMois(a)} → ${jourMois(d)}`;
+  }
+  function dateValide(s){ return typeof s === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(s) && !isNaN(new Date(s + 'T00:00:00')); }
+
+  document.getElementById('todayDate').textContent = jourComplet(new Date());
+
   /* ================= SABLIER : DATES DU SÉJOUR =================
-     Priorité : 1) URL ?arrivee=YYYY-MM-DD&depart=YYYY-MM-DD
-                2) dates mémorisées dans le navigateur
-                3) saisie manuelle (proposée une seule fois)
-     Sans dates : le sablier reste masqué, la page fonctionne normalement. */
+     Priorité (inchangée) :
+       1) URL ?arrivee=YYYY-MM-DD&depart=YYYY-MM-DD (lien de l'app resa)
+       2) dates mémorisées dans le navigateur (localStorage "sejour-trinite")
+       3) saisie manuelle (proposée une seule fois)                       */
 
   function sauverDates(a, d){
     try { localStorage.setItem('sejour-trinite', JSON.stringify({ arrivee: a, depart: d })); } catch(e) {}
@@ -689,23 +1011,64 @@
   }
 
   function messagePourJour(jour, total){
-    if (jour === 1) return "Bienvenue à La Trinité ! <strong>🗝️ Consultez la rubrique Arrivée</strong> pour bien démarrer.";
-    if (jour >= total) return "Départ avant 10h demain <strong>👋 merci et bon retour !</strong>";
-    if (jour === total - 1) return "Dernier soir approche : <strong>🍽️ avez-vous testé nos adresses coup de cœur ?</strong>";
-    if (jour === 2) return "Belle journée à La Trinité <strong>🌊 pensez à consulter les horaires des marées</strong>";
-    return "Profitez bien de votre séjour <strong>📍 explorez la rubrique Autour de vous</strong>";
+    if (jour === 1) return "Bienvenue à La Trinité ! Consultez la rubrique <strong>Arriver</strong> pour bien démarrer.";
+    if (jour >= total) return "Départ avant 10h demain. <strong>Merci et bon retour !</strong>";
+    if (jour === total - 1) return "Le dernier soir approche : <strong>avez-vous testé nos adresses coup de cœur ?</strong>";
+    if (jour === 2) return "Belle journée à La Trinité. <strong>Pensez à consulter les horaires des marées.</strong>";
+    return "Profitez bien de votre séjour : <strong>explorez la rubrique À découvrir.</strong>";
   }
 
-  /* Bouton mis en avant selon le jour (index de la grille catégories) */
+  /* Rubrique mise en avant selon le jour (index des pages, inchangé) */
   function categorieDuJour(jour, total){
-    if (jour === 1) return 0;          // Arrivée & Départ
-    if (jour >= total) return 0;       // Arrivée & Départ (consignes départ)
+    if (jour === 1) return 0;          // Arrivée & départ
+    if (jour >= total) return 0;       // Arrivée & départ (consignes départ)
     if (jour === total - 1) return 3;  // Restaurants
     if (jour === 2) return 5;          // Infos pratiques (marées, météo)
-    return 2;                          // Autour de vous
+    return 2;                          // À découvrir
   }
 
+  function remplirSablier(fill, ecoulement){
+    const topH = 46 * (1 - fill);
+    const sandTop = document.getElementById('sandTop');
+    sandTop.setAttribute('height', topH);
+    sandTop.setAttribute('y', 72 - topH);
+    const bottomH = 44 * fill;
+    const sandBottom = document.getElementById('sandBottom');
+    sandBottom.setAttribute('height', bottomH);
+    sandBottom.setAttribute('y', 128 - bottomH);
+    const mound = document.getElementById('sandMound');
+    mound.setAttribute('cy', 128 - bottomH);
+    mound.setAttribute('rx', 10 + 14 * fill);
+    mound.setAttribute('ry', 4 + 4 * fill);
+    document.getElementById('sandStream').style.display = ecoulement ? 'block' : 'none';
+  }
+
+  function mettreEnAvant(idx){
+    document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('pulse'));
+    if (idx === null) return;
+    const catBtn = document.getElementById('cat-' + idx);
+    if (catBtn) catBtn.classList.add('pulse');
+  }
+
+  /* Affiche la carte séjour dans tous les cas (sans dates, avant, pendant,
+     jour du départ, après). Renvoie true si le voyageur est en séjour. */
   function appliquerDatesReelles(dates){
+    const el = id => document.getElementById(id);
+    const avecDates = dates && dateValide(dates.arrivee) && dateValide(dates.depart) && dates.depart > dates.arrivee;
+
+    el('addDatesBtn').hidden = !!avecDates;
+    el('editDatesBtn').hidden = !avecDates;
+    el('sejourToday').hidden = true;
+    el('hourglass').hidden = true;
+    el('dayCount').textContent = '';
+    mettreEnAvant(null);
+
+    if (!avecDates) {
+      el('sejourDates').textContent = 'Bienvenue';
+      el('sejourMsg').textContent = 'Indiquez vos dates pour personnaliser ce carnet jour après jour.';
+      return false;
+    }
+
     const arrivee = new Date(dates.arrivee + 'T00:00:00');
     const depart = new Date(dates.depart + 'T00:00:00');
     const aujourdhui = new Date();
@@ -714,51 +1077,79 @@
     const totalJours = Math.round((depart - arrivee) / 86400000);
     const jourActuel = Math.round((aujourdhui - arrivee) / 86400000) + 1;
 
-    if (jourActuel < 1 || jourActuel > totalJours || totalJours < 1) return false;
+    el('sejourDates').textContent = plageDates(arrivee, depart);
 
-    const frac = totalJours > 1 ? (jourActuel - 1) / (totalJours - 1) : 1;
-    const fill = 0.10 + frac * 0.85;
+    // Avant l'arrivée
+    if (jourActuel < 1) {
+      const n = 1 - jourActuel;
+      el('dayCount').textContent = n === 1 ? 'Arrivée demain' : `Arrivée dans ${n} jours`;
+      el('sejourMsg').innerHTML = "Arrivée possible à partir de <strong>16h</strong>. Les instructions détaillées vous seront envoyées la veille de votre arrivée.";
+      return false;
+    }
 
-    document.getElementById('dayCount').textContent = `Jour ${jourActuel} sur ${totalJours}`;
-    document.getElementById('sejourMsg').innerHTML = messagePourJour(jourActuel, totalJours);
+    el('sejourToday').hidden = false;
+    el('sejourTodayDate').textContent = jourComplet(aujourdhui);
 
-    const topFrac = 1 - fill;
-    const topH = 46 * topFrac;
-    const sandTop = document.getElementById('sandTop');
-    sandTop.setAttribute('height', topH);
-    sandTop.setAttribute('y', 72 - topH);
+    // Pendant le séjour (logique d'origine)
+    if (jourActuel <= totalJours) {
+      const frac = totalJours > 1 ? (jourActuel - 1) / (totalJours - 1) : 1;
+      remplirSablier(0.10 + frac * 0.85, jourActuel < totalJours);
+      el('hourglass').hidden = false;
+      el('dayCount').textContent = `Jour ${jourActuel} sur ${totalJours}`;
+      el('sejourMsg').innerHTML = messagePourJour(jourActuel, totalJours);
+      mettreEnAvant(categorieDuJour(jourActuel, totalJours));
+      return true;
+    }
 
-    const bottomH = 44 * fill;
-    const sandBottom = document.getElementById('sandBottom');
-    sandBottom.setAttribute('height', bottomH);
-    sandBottom.setAttribute('y', 128 - bottomH);
+    // Jour du départ
+    if (jourActuel === totalJours + 1) {
+      remplirSablier(0.95, false);
+      el('hourglass').hidden = false;
+      el('dayCount').textContent = 'Jour du départ';
+      el('sejourMsg').innerHTML = "Départ avant <strong>10h</strong>. Merci et bon retour !";
+      mettreEnAvant(0);
+      return true;
+    }
 
-    const mound = document.getElementById('sandMound');
-    mound.setAttribute('cy', 128 - bottomH);
-    mound.setAttribute('rx', 10 + 14 * fill);
-    mound.setAttribute('ry', 4 + 4 * fill);
-
-    document.getElementById('sandStream').style.display = jourActuel >= totalJours ? 'none' : 'block';
-
-    document.getElementById('sejourCard').classList.add('visible');
-
-    // Met en avant la catégorie du jour
-    document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('pulse'));
-    const catBtn = document.getElementById('cat-' + categorieDuJour(jourActuel, totalJours));
-    if (catBtn) catBtn.classList.add('pulse');
-
-    return true;
+    // Séjour terminé
+    el('sejourToday').hidden = true;
+    el('dayCount').textContent = 'Séjour terminé';
+    el('sejourMsg').innerHTML = "Merci et bon retour !";
+    return false;
   }
 
   /* Overlay de saisie des dates */
   const datesOverlay = document.getElementById('datesOverlay');
+
+  function ouvrirDates(modification){
+    const actuelles = lireDatesSejour();
+    document.getElementById('datesTitle').textContent = modification ? 'Modifier vos dates' : 'Bienvenue ! Vos dates de séjour ?';
+    document.getElementById('datesIntro').textContent = modification
+      ? 'Les nouvelles dates sont enregistrées sur cet appareil.'
+      : 'Pour personnaliser votre page jour après jour (une seule fois).';
+    document.getElementById('skipDates').textContent = modification ? 'Annuler' : 'Plus tard';
+    document.getElementById('dateArrivee').value = actuelles && dateValide(actuelles.arrivee) ? actuelles.arrivee : '';
+    document.getElementById('dateDepart').value = actuelles && dateValide(actuelles.depart) ? actuelles.depart : '';
+    document.getElementById('datesError').hidden = true;
+    datesOverlay.classList.add('open');
+  }
+
+  document.getElementById('addDatesBtn').onclick = () => ouvrirDates(false);
+  document.getElementById('editDatesBtn').onclick = () => ouvrirDates(true);
+
   document.getElementById('saveDates').onclick = () => {
     const a = document.getElementById('dateArrivee').value;
     const d = document.getElementById('dateDepart').value;
     if (a && d && d > a) {
       sauverDates(a, d);
+      // Retire les dates de l'URL pour qu'elles ne reprennent pas le dessus au rechargement
+      if (location.search.includes('arrivee')) {
+        try { history.replaceState(history.state, '', location.pathname + location.hash); } catch(e) {}
+      }
       appliquerDatesReelles({ arrivee: a, depart: d });
       datesOverlay.classList.remove('open');
+    } else {
+      document.getElementById('datesError').hidden = false;
     }
   };
   document.getElementById('skipDates').onclick = () => {
@@ -768,17 +1159,12 @@
 
   /* Au chargement */
   const datesSejour = lireDatesSejour();
-  let sablierActif = false;
-  if (datesSejour) {
-    sablierActif = appliquerDatesReelles(datesSejour);
-  }
-  if (!sablierActif) {
-    // Propose la saisie une seule fois (sauf si le voyageur a déjà cliqué "Plus tard")
+  appliquerDatesReelles(datesSejour);
+  // Propose la saisie une seule fois (sauf si le voyageur a déjà cliqué "Plus tard")
+  if (!datesSejour && pageCourante === -1) {
     let dejaRefuse = false;
     try { dejaRefuse = localStorage.getItem('sejour-trinite-skip') === '1'; } catch(e) {}
-    if (!dejaRefuse && !datesSejour) {
-      setTimeout(() => datesOverlay.classList.add('open'), 1200);
-    }
+    if (!dejaRefuse) setTimeout(() => { if (pageCourante === -1) ouvrirDates(false); }, 1200);
   }
 
   /* ================= MÉTÉO RÉELLE (Open-Meteo, gratuit sans clé) ================= */
@@ -813,11 +1199,13 @@
       return dirs[Math.round(deg / 45) % 8];
     }
 
-    function afficherMeteo(html, icone){
+    function afficherMeteo(temp, libelleHtml, vent, icone){
       document.getElementById('skMeteo1').style.display = 'none';
       document.getElementById('skMeteo2').style.display = 'none';
       document.getElementById('meteoIcon').textContent = icone;
-      document.getElementById('meteoTxt').innerHTML = html;
+      document.getElementById('meteoTemp').textContent = temp;
+      document.getElementById('meteoLabel').innerHTML = libelleHtml;
+      document.getElementById('meteoWind').textContent = vent;
       document.getElementById('meteoData').classList.add('show');
     }
 
@@ -827,20 +1215,20 @@
         const c = data.current;
         const code = c.weather_code;
         afficherMeteo(
-          `<strong>${Math.round(c.temperature_2m)}°C</strong> — ${libelles[code] || 'Météo du jour'}<br>` +
+          `${Math.round(c.temperature_2m)}°C`,
+          libelles[code] || 'Météo du jour',
           `Vent ${Math.round(c.wind_speed_10m)} km/h ${directionVent(c.wind_direction_10m)}`,
           icones[code] || '🌤️'
         );
       })
       .catch(() => {
-        // En cas d'échec : on affiche quand même le bouton marées avec un lien météo
-        afficherMeteo('Météo indisponible pour le moment — <a href="https://meteofrance.com/previsions-meteo-france/la-trinite-sur-mer/56470" target="_blank" style="color:var(--ocean);">voir Météo France</a>', '🌤️');
+        afficherMeteo('', 'Météo indisponible pour le moment — <a href="https://meteofrance.com/previsions-meteo-france/la-trinite-sur-mer/56470" target="_blank" rel="noopener">voir Météo France</a>', '', '🌤️');
       });
   })();
 
   /* ================= COUPS DE CŒUR VOYAGEURS =================
      Fonctionnement actuel : les trouvailles sont enregistrées dans le
-     navigateur du voyageur (visibles par lui pendant son séjour).
+     navigateur du voyageur (visibles par lui seul pendant son séjour).
      Pour les partager entre TOUS les voyageurs, il faudra brancher un
      Google Form + Sheet publié en CSV : renseigner l'URL ci-dessous. */
   const CSV_TROUVAILLES = ''; // ex : 'https://docs.google.com/spreadsheets/d/e/.../pub?output=csv'
@@ -849,10 +1237,14 @@
   document.getElementById('openFindForm').onclick = () => findOverlay.classList.add('open');
   document.getElementById('cancelFind').onclick = () => findOverlay.classList.remove('open');
 
+  function echapper(s){
+    return String(s).replace(/[&<>"']/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
+  }
+
   function afficherTrouvaille(emoji, who, texte, enTete){
     const item = document.createElement('div');
     item.className = 'find-item';
-    item.innerHTML = `<span>${emoji}</span><div><span class="who">${who}</span><br>${texte}</div>`;
+    item.innerHTML = `<span class="find-emoji">${echapper(emoji)}</span><div><span class="who">${echapper(who)}</span><br>${echapper(texte)}</div>`;
     const list = document.getElementById('findsList');
     enTete ? list.prepend(item) : list.appendChild(item);
   }
@@ -860,7 +1252,7 @@
   document.getElementById('submitFind').onclick = () => {
     const name = document.getElementById('findName').value.trim();
     const note = document.getElementById('findNote').value.trim();
-    if (!name) return;
+    if (!name) { document.getElementById('findName').focus(); return; }
     const type = document.getElementById('findType').value;
     const emoji = type.split(' ')[0];
     const mois = new Date().toLocaleDateString('fr-FR', { month: 'long' });
@@ -868,7 +1260,6 @@
 
     afficherTrouvaille(emoji, 'Vous · ' + mois, texte, true);
 
-    // Mémorise localement
     try {
       const saved = JSON.parse(localStorage.getItem('trouvailles-locales') || '[]');
       saved.unshift({ emoji, mois, texte });
@@ -883,7 +1274,7 @@
   /* Réaffiche les trouvailles mémorisées localement */
   try {
     const saved = JSON.parse(localStorage.getItem('trouvailles-locales') || '[]');
-    saved.forEach(t => afficherTrouvaille(t.emoji, 'Vous · ' + t.mois, t.texte, true));
+    saved.slice().reverse().forEach(t => afficherTrouvaille(t.emoji, 'Vous · ' + t.mois, t.texte, true));
   } catch(e) {}
 
   /* Charge les trouvailles partagées si un Google Sheet est configuré */
@@ -900,6 +1291,11 @@
       })
       .catch(() => {});
   }
+
+  /* Fermer un formulaire en touchant le fond */
+  document.querySelectorAll('.form-overlay').forEach(o => {
+    o.addEventListener('click', e => { if (e.target === o) o.classList.remove('open'); });
+  });
 </script>
 </body>
 </html>
