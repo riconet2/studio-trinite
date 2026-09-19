@@ -1,0 +1,1631 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+  <meta name="theme-color" content="#1d3147"/>
+  <title id="pageTitle">La Trinité-sur-Mer · Votre carnet de séjour</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <style>
+    /* =====================================================================
+       CARNET DE SÉJOUR · V2 (étape 2 : design + navigation)
+       ===================================================================== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy: #1d3147;        /* bleu marine profond */
+      --navy-deep: #15253a;
+      --ocean: #45697f;       /* bleu gris / océan */
+      --ocean-soft: #e5edf1;
+      --sand: #f3eee5;        /* sable très clair */
+      --sand-deep: #e7dfd1;
+      --paper: #fcfaf6;       /* blanc cassé */
+      --text: #2c3136;        /* gris foncé */
+      --muted: #687078;
+      --line: #e3dccf;
+      --brass: #9a7a4f;       /* accent discret pour les coups de cœur */
+      --brass-soft: #f3ece0;
+      --radius-lg: 18px;
+      --radius: 12px;
+      --radius-sm: 8px;
+      --shadow: 0 1px 2px rgba(29,49,71,.04), 0 8px 24px rgba(29,49,71,.06);
+      --nav-h: 64px;
+      --serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+      --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      font-family: var(--sans); background: var(--sand); color: var(--text);
+      line-height: 1.6; font-size: 16px; min-height: 100vh;
+      padding-bottom: calc(var(--nav-h) + env(safe-area-inset-bottom));
+      transition: background 1.2s ease; overflow-x: hidden;
+    }
+    /* Teinte du fond selon le moment de la journée (conservée, adoucie) */
+    body.t-morning { background: linear-gradient(180deg, #f6efe2 0%, var(--sand) 520px); }
+    body.t-midday  { background: var(--sand); }
+    body.t-evening { background: linear-gradient(180deg, #f1e7d8 0%, var(--sand) 520px); }
+    body.t-night   { background: linear-gradient(180deg, #e8ecef 0%, var(--sand) 520px); }
+
+    a { color: var(--ocean); }
+    button { font: inherit; color: inherit; }
+    :focus-visible { outline: 2px solid var(--ocean); outline-offset: 2px; border-radius: 6px; }
+    .ic { width: 22px; height: 22px; flex: none; stroke: currentColor; fill: none; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+    .ic-sm { width: 18px; height: 18px; }
+    .wrap { max-width: 680px; margin: 0 auto; padding: 0 18px; }
+    .block { margin-top: 40px; }
+    .block-title { font-family: var(--serif); font-weight: 500; font-size: 1.35rem; color: var(--navy); line-height: 1.25; margin-bottom: 4px; }
+    .block-sub { color: var(--muted); font-size: .9rem; margin-bottom: 16px; }
+
+    /* ---------- HERO ---------- */
+    .hero { position: relative; min-height: min(62vh, 480px); display: flex; align-items: flex-end; color: #fff; overflow: hidden; background: var(--navy); }
+    .hero-photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+    .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(21,37,58,.15) 0%, rgba(21,37,58,.35) 45%, rgba(21,37,58,.88) 100%); }
+    .hero-inner { position: relative; z-index: 1; width: 100%; max-width: 680px; margin: 0 auto; padding: 0 22px 34px; }
+    .hero-place { font-size: .72rem; letter-spacing: .24em; font-weight: 600; opacity: .9; }
+    .hero h1 { font-family: var(--serif); font-weight: 500; font-size: clamp(2.1rem, 9vw, 3rem); line-height: 1.05; margin: 10px 0 12px; }
+    .hero-tagline { font-family: var(--serif); font-style: italic; font-size: clamp(1rem, 4.2vw, 1.2rem); opacity: .92; }
+    .hero-tide { display: block; width: 64px; height: 10px; margin-top: 18px; stroke: rgba(255,255,255,.7); fill: none; stroke-width: 1.5; }
+    .lang-btn { position: absolute; z-index: 2; top: calc(12px + env(safe-area-inset-top)); right: 14px; display: inline-flex; align-items: center; min-height: 36px; padding: 6px 14px; border-radius: 999px; background: rgba(21,37,58,.45); border: 1px solid rgba(255,255,255,.35); color: #fff; text-decoration: none; font-size: .78rem; font-weight: 500; backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); cursor: pointer; appearance: none; -webkit-appearance: none; font-family: inherit; }
+
+    .intro { text-align: center; color: var(--muted); font-size: .95rem; max-width: 30em; margin: 26px auto 0; }
+
+    /* ---------- VOTRE SÉJOUR (simplifié) ---------- */
+    .sejour-card { background: var(--navy); color: #fff; border-radius: var(--radius-lg); padding: 26px 22px; box-shadow: var(--shadow); scroll-margin-top: 16px; text-align: center; }
+    .sejour-label { display: block; font-size: .8rem; opacity: .75; letter-spacing: .04em; }
+    .sejour-dates { font-family: var(--serif); font-size: clamp(1.7rem, 7.5vw, 2.2rem); font-weight: 500; line-height: 1.15; margin-top: 8px; }
+    .sejour-msg { font-size: .95rem; line-height: 1.6; opacity: .95; margin-top: 14px; }
+    .sejour-msg strong { font-weight: 600; }
+    [hidden] { display: none !important; }
+
+    /* ---------- AUJOURD'HUI : météo & marée réunies ---------- */
+    .today-card { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 22px 20px; box-shadow: var(--shadow); scroll-margin-top: 16px; }
+    .today-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 18px; }
+    .today-date { font-family: var(--serif); font-size: 1.1rem; font-weight: 500; color: var(--ocean); }
+    .skeleton { height: 14px; border-radius: 6px; background: linear-gradient(90deg, var(--sand-deep) 25%, var(--sand) 50%, var(--sand-deep) 75%); background-size: 200% 100%; animation: shimmer 1.4s infinite; margin: 8px 0; }
+    @keyframes shimmer { to { background-position: -200% 0; } }
+    .weather-periods { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .wp-item { display: flex; flex-direction: column; align-items: center; gap: 3px; padding: 14px 6px; border-radius: var(--radius); background: var(--ocean-soft); }
+    .wp-label { font-size: .68rem; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: var(--ocean); }
+    .wp-icon { font-size: 1.6rem; line-height: 1; margin: 3px 0; }
+    .wp-temp { font-family: var(--serif); font-size: 1.3rem; font-weight: 500; color: var(--navy); line-height: 1; }
+    .wp-hour { font-size: .72rem; color: var(--muted); }
+    .tide-mini { margin-top: 20px; padding-top: 18px; border-top: 1px solid var(--line); }
+    .tide-head { display: flex; align-items: center; gap: 8px; font-weight: 600; color: var(--navy); font-size: .92rem; margin-bottom: 10px; }
+    .tide-list { display: flex; flex-direction: column; gap: 6px; margin-bottom: 12px; }
+    .tide-row { display: flex; align-items: center; justify-content: space-between; padding: 9px 12px; border-radius: var(--radius-sm); background: var(--ocean-soft); font-size: .88rem; }
+    .tide-type { font-weight: 600; color: var(--navy); }
+    .tide-time { font-family: var(--serif); font-weight: 500; color: var(--navy); }
+    .tide-height { color: var(--muted); font-size: .84rem; }
+    .maree-vignette { display: flex; justify-content: center; overflow-x: auto; max-width: 100%; }
+    .maree-vignette iframe, .maree-vignette img, .maree-vignette > * { max-width: 100%; }
+    .link-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 48px; margin-top: 12px; padding: 10px 14px; border-radius: var(--radius); background: var(--ocean-soft); color: var(--navy); text-decoration: none; font-size: .88rem; font-weight: 500; }
+    .today-highlight { margin-top: 16px; }
+    .today-event-line { display: flex; align-items: center; gap: 10px; width: 100%; min-height: 48px; padding: 12px 14px; border-radius: var(--radius); border: 1px solid #e2d4bd; background: var(--brass-soft); color: var(--navy); font: inherit; font-size: .86rem; font-weight: 500; text-align: left; cursor: pointer; }
+    .panel { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 18px; box-shadow: var(--shadow); scroll-margin-top: 16px; }
+    .panel-head { display: flex; align-items: center; gap: 8px; color: var(--ocean); font-size: .82rem; font-weight: 600; margin-bottom: 10px; }
+
+    /* ---------- ENVIE DE... (grille 2x3, intégrée à Aujourd'hui) ---------- */
+    .mood-section { margin-top: 20px; padding-top: 18px; border-top: 1px solid var(--line); }
+    .mood-title { font-family: var(--serif); font-weight: 500; font-size: 1.02rem; color: var(--navy); margin-bottom: 12px; }
+    .moods { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .mood-chip { display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 58px; padding: 10px; border-radius: var(--radius); border: 1px solid var(--line); background: var(--paper); color: var(--text); font-size: .86rem; font-weight: 500; cursor: pointer; text-align: center; line-height: 1.25; }
+    .mood-chip:active { background: var(--ocean-soft); }
+    .mood-reveal { margin-top: 14px; padding: 14px 16px; border-radius: var(--radius); background: var(--ocean-soft); }
+    .mood-reveal-list { list-style: none; }
+    .mood-reveal-list li { position: relative; padding: 6px 0 6px 16px; font-size: .9rem; }
+    .mood-reveal-list li::before { content: ""; position: absolute; left: 2px; top: 15px; width: 5px; height: 5px; border-radius: 50%; background: var(--ocean); opacity: .6; }
+
+    /* ---------- RUBRIQUES (accueil) ---------- */
+    .categories { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .cat-btn { position: relative; display: flex; flex-direction: column; align-items: flex-start; gap: 14px; min-height: 124px; padding: 16px; border: 1px solid var(--line); border-radius: var(--radius-lg); background: var(--paper); box-shadow: var(--shadow); text-align: left; cursor: pointer; transition: border-color .2s ease, transform .16s ease, box-shadow .16s ease, background .16s ease; }
+    .cat-btn:hover { border-color: #cfc4b3; box-shadow: 0 10px 28px rgba(29,49,71,.09); transform: translateY(-2px); }
+    .cat-btn:active { transform: scale(.985); box-shadow: var(--shadow); }
+    .cat-btn.wide { overflow: hidden; }
+    .cat-btn.wide::before { content: ""; position: absolute; right: -28px; bottom: -38px; width: 110px; height: 110px; border-radius: 50%; background: var(--ocean-soft); opacity: .55; pointer-events: none; }
+    .cat-ic { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 50%; background: var(--ocean-soft); color: var(--navy); }
+    .cat-label { display: block; font-family: var(--serif); font-size: 1.12rem; font-weight: 500; color: var(--navy); line-height: 1.2; }
+    .cat-sub { display: block; font-size: .78rem; color: var(--muted); margin-top: 2px; line-height: 1.35; }
+    .cat-btn.wide { grid-column: 1 / -1; flex-direction: row; align-items: center; min-height: 0; }
+
+    /* ---------- PAGES DE RUBRIQUE ---------- */
+    .content-page { display: none; min-height: calc(100vh - var(--nav-h)); animation: page-in .22s ease-out; }
+    .page-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: calc(12px + env(safe-area-inset-top)) 0 0; position: relative; }
+    @keyframes page-in { from { opacity: .72; transform: translateY(5px); } to { opacity: 1; transform: none; } }
+    .back-btn { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 8px 14px 8px 8px; border: 0; border-radius: 999px; background: transparent; color: var(--navy); font-size: .92rem; font-weight: 500; cursor: pointer; transition: background .16s ease, transform .16s ease; }
+    .back-btn:hover { background: rgba(69,105,127,.08); }
+    .back-btn:active { transform: translateX(-2px); }
+    .nav-arrows { display: flex; gap: 6px; }
+    .arrow-btn { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line); background: var(--paper); color: var(--navy); cursor: pointer; transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease; }
+    .arrow-btn:hover { border-color: #cfc4b3; box-shadow: 0 6px 16px rgba(29,49,71,.07); transform: translateY(-1px); }
+    .arrow-btn:active { transform: scale(.95); }
+    .page-head { margin: 18px 0 24px; }
+    .page-head h2 { font-family: var(--serif); font-weight: 500; font-size: clamp(1.9rem, 8vw, 2.4rem); line-height: 1.1; color: var(--navy); }
+    .page-head p { color: var(--muted); margin-top: 8px; font-size: .95rem; }
+    .stack { display: grid; gap: 14px; }
+    .card { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 18px; box-shadow: var(--shadow); }
+    .card h3 { font-family: var(--serif); font-weight: 500; font-size: 1.15rem; color: var(--navy); line-height: 1.25; }
+    .card p + p { margin-top: 8px; }
+    .card ul { list-style: none; margin-top: 8px; }
+    .card li { position: relative; padding: 7px 0 7px 16px; font-size: .93rem; border-top: 1px solid var(--line); }
+    .card li:first-child { border-top: 0; }
+    .card li::before { content: ""; position: absolute; left: 2px; top: 16px; width: 5px; height: 5px; border-radius: 50%; background: var(--ocean); opacity: .6; }
+    .card-row { display: flex; gap: 14px; align-items: flex-start; }
+    .card-row .ic { color: var(--ocean); margin-top: 2px; }
+    .note { font-size: .85rem; color: var(--muted); }
+    a.locname { color: var(--ocean); text-decoration: none; border-bottom: 1px dotted var(--ocean); }
+    a.locname:hover { border-bottom-style: solid; }
+    .walk-card { border-top: 1px solid var(--line); padding: 14px 0; }
+    .walk-card:first-of-type { border-top: 0; padding-top: 4px; }
+    .walk-card h4 { font-family: var(--serif); font-weight: 500; font-size: 1.05rem; color: var(--navy); margin-bottom: 6px; }
+    .walk-meta { display: flex; flex-wrap: wrap; gap: 6px 12px; font-size: .78rem; color: var(--muted); margin-bottom: 8px; }
+    .walk-meta span { padding: 2px 9px; border-radius: 999px; background: var(--ocean-soft); color: var(--navy); font-weight: 500; }
+    .walk-card p { font-size: .9rem; margin-bottom: 6px; }
+    .walk-card .btn { margin-top: 8px; }
+
+    /* Label coup de cœur des propriétaires */
+    .coeur { background: var(--brass-soft); border-color: #e2d4bd; }
+    .label-coeur { display: inline-flex; align-items: center; gap: 6px; font-size: .74rem; font-weight: 600; color: var(--brass); margin-bottom: 8px; }
+    .label-coeur .ic { width: 15px; height: 15px; }
+    .coeur h3 { font-size: 1.3rem; }
+
+    /* Arrivée & départ */
+    .times { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .time-box { background: var(--navy); color: #fff; border-radius: var(--radius-lg); padding: 18px; }
+    .time-box small { display: block; font-size: .8rem; opacity: .75; }
+    .time-box strong { display: block; font-family: var(--serif); font-weight: 500; font-size: 2.2rem; line-height: 1.1; margin-top: 4px; }
+    .time-box span { font-size: .82rem; opacity: .8; }
+    .time-box.light { background: var(--paper); color: var(--navy); border: 1px solid var(--line); }
+
+    /* Le studio */
+    .equip-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .equip { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 16px; }
+    .equip .ic { color: var(--ocean); width: 26px; height: 26px; }
+    .equip h3 { font-family: var(--serif); font-weight: 500; font-size: 1.05rem; color: var(--navy); margin: 10px 0 4px; }
+    .equip p { font-size: .86rem; color: var(--muted); line-height: 1.45; }
+    .equip.wide { grid-column: 1 / -1; }
+
+    /* À découvrir : sommaire + cartes dépliables */
+    .toc { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 6px; margin: -8px -18px 20px; padding-left: 18px; padding-right: 18px; scrollbar-width: none; }
+    .toc::-webkit-scrollbar { display: none; }
+    .toc button { flex: none; min-height: 40px; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--paper); color: var(--navy); font-size: .82rem; cursor: pointer; }
+    details.theme { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg); box-shadow: var(--shadow); scroll-margin-top: 16px; }
+    details.theme summary { list-style: none; cursor: pointer; padding: 18px; display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; align-items: center; }
+    details.theme summary::-webkit-details-marker { display: none; }
+    .theme-ic { grid-row: 1 / 3; display: grid; place-items: center; width: 46px; height: 46px; border-radius: 50%; background: var(--ocean-soft); color: var(--navy); }
+    .theme-title { font-family: var(--serif); font-weight: 500; font-size: 1.15rem; color: var(--navy); line-height: 1.2; }
+    .theme-sub { font-size: .82rem; color: var(--muted); line-height: 1.4; }
+    .theme-more { grid-column: 1 / -1; justify-self: start; margin-top: 10px; display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--navy); color: var(--navy); font-size: .84rem; font-weight: 500; }
+    .theme-more .ic { width: 16px; height: 16px; transition: transform .2s; }
+    details[open] .theme-more .ic { transform: rotate(90deg); }
+    details[open] .more-open { display: inline; } .more-open { display: none; }
+    details[open] .more-closed { display: none; }
+    .theme-body { padding: 0 18px 16px; }
+    .theme-body ul { list-style: none; }
+    .theme-body li { position: relative; padding: 9px 0 9px 16px; border-top: 1px solid var(--line); font-size: .93rem; }
+    .theme-body li::before { content: ""; position: absolute; left: 2px; top: 19px; width: 5px; height: 5px; border-radius: 50%; background: var(--ocean); opacity: .6; }
+    .theme-body h4 { font-size: .85rem; font-weight: 600; color: var(--ocean); margin: 14px 0 2px; }
+
+    /* Restaurants */
+    .resto .resto-meta { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; margin: 6px 0 10px; font-size: .8rem; color: var(--muted); }
+    .chip { display: inline-block; padding: 2px 9px; border-radius: 999px; background: var(--ocean-soft); color: var(--navy); font-size: .74rem; font-weight: 500; }
+    .resto p { font-size: .93rem; }
+    .btns { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .btn { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 8px 16px; border-radius: 999px; border: 1px solid var(--navy); color: var(--navy); background: transparent; text-decoration: none; font-size: .86rem; font-weight: 500; }
+    .btn.solid { background: var(--navy); color: #fff; }
+    .btn .ic { width: 16px; height: 16px; }
+
+    /* Agenda (contenu inchangé, habillage seulement) */
+    .agenda-label { display: block; font-size: .82rem; font-weight: 600; color: var(--ocean); margin: 22px 0 10px; }
+    .agenda-link { display: flex; align-items: center; gap: 14px; min-height: 64px; padding: 14px 16px; margin-bottom: 10px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg); text-decoration: none; color: var(--text); box-shadow: var(--shadow); }
+    .agenda-link-icon { font-size: 1.2rem; width: 36px; height: 36px; display: grid; place-items: center; border-radius: 50%; background: var(--ocean-soft); flex: none; }
+    .agenda-link-text { flex: 1; min-width: 0; }
+    .agenda-link-title { font-family: var(--serif); font-size: 1.02rem; color: var(--navy); line-height: 1.25; }
+    .agenda-link-sub { font-size: .8rem; color: var(--muted); }
+    .agenda-arrow { color: var(--ocean); flex: none; }
+    .agenda-loading, .agenda-empty { padding: 18px 16px; margin-bottom: 14px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg); color: var(--muted); box-shadow: var(--shadow); }
+    .agenda-group { margin-bottom: 18px; }
+    .agenda-event { display: grid; grid-template-columns: 58px 1fr auto; gap: 12px; align-items: center; padding: 13px 14px; margin-bottom: 9px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg); text-decoration: none; color: var(--text); box-shadow: var(--shadow); }
+    .agenda-date { text-align: center; border-right: 1px solid var(--line); padding-right: 10px; }
+    .agenda-date-day { display:block; font-family: var(--serif); font-size: 1.35rem; line-height: 1; color: var(--navy); }
+    .agenda-date-month { display:block; margin-top: 4px; font-size:.68rem; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); }
+    .agenda-event-title { font-family:var(--serif); font-size:1rem; line-height:1.25; color:var(--navy); }
+    .agenda-event-meta { margin-top:4px; font-size:.78rem; color:var(--muted); }
+    .agenda-event-arrow { color:var(--ocean); }
+    .agenda-badge { display:inline-block; margin-top:6px; padding:3px 7px; border-radius:999px; background:var(--ocean-soft); color:var(--ocean); font-size:.68rem; font-weight:600; }
+    .agenda-sources { margin-top: 8px; }
+    @media (max-width: 420px){ .agenda-event{grid-template-columns:50px 1fr auto;gap:9px;padding:12px}.agenda-event-title{font-size:.95rem}.agenda-date-day{font-size:1.2rem} }
+
+    /* Infos pratiques */
+    .utility-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .utility-btn { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; min-height: 96px; padding: 16px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg); text-decoration: none; color: var(--navy); font-weight: 500; font-size: .92rem; line-height: 1.25; box-shadow: var(--shadow); }
+    .utility-btn .ic { color: var(--ocean); }
+    .utility-btn.full { grid-column: 1 / -1; flex-direction: row; align-items: center; min-height: 56px; }
+    .health-emergency { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 4px 0 14px; }
+    .health-num { text-align: center; padding: 12px 6px; border-radius: var(--radius); background: #fbeceb; }
+    .health-num strong { display: block; font-family: var(--serif); font-size: 1.6rem; color: #9b3b2e; line-height: 1; }
+    .health-num span { display: block; font-size: .68rem; color: var(--muted); margin-top: 4px; }
+
+    /* Besoin d'aide */
+    .help-main { background: var(--navy); color: #fff; border-radius: var(--radius-lg); padding: 22px 20px; }
+    .help-main h3 { font-family: var(--serif); font-weight: 500; font-size: 1.35rem; line-height: 1.25; margin: 10px 0 6px; }
+    .help-main p { opacity: .9; font-size: .93rem; }
+
+    footer { text-align: center; padding: 48px 20px 28px; font-size: .78rem; color: var(--muted); }
+
+    /* ---------- BARRE DE NAVIGATION BASSE ---------- */
+    .bottom-nav { position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; display: grid; grid-template-columns: repeat(4, 1fr); height: calc(var(--nav-h) + env(safe-area-inset-bottom)); padding-bottom: env(safe-area-inset-bottom); background: rgba(252,250,246,.94); border-top: 1px solid var(--line); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+    .bn-btn { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; border: 0; background: transparent; color: var(--muted); font-size: .7rem; font-weight: 500; cursor: pointer; }
+    .bn-btn .ic { width: 22px; height: 22px; }
+    .bn-btn.active { color: var(--navy); font-weight: 600; }
+    .bn-btn.active::before { content: ""; position: absolute; top: 0; left: 30%; right: 30%; height: 2px; border-radius: 0 0 2px 2px; background: var(--navy); }
+    .bn-btn.active .ic { stroke-width: 2; }
+    @media (min-width: 720px) { .bottom-nav { max-width: 520px; left: 50%; transform: translateX(-50%); bottom: 14px; border: 1px solid var(--line); border-radius: 999px; height: var(--nav-h); padding-bottom: 0; box-shadow: var(--shadow); } }
+
+    /* ---------- FORMULAIRES (overlays) ---------- */
+    .form-overlay { position: fixed; inset: 0; z-index: 100; display: none; align-items: flex-end; justify-content: center; background: rgba(21,37,58,.5); }
+    .form-overlay.open { display: flex; }
+    .form-sheet { width: 100%; max-width: 520px; max-height: 92vh; overflow-y: auto; background: var(--paper); border-radius: 22px 22px 0 0; padding: 24px 20px calc(22px + env(safe-area-inset-bottom)); animation: sheet-up .25s ease-out; }
+    @keyframes sheet-up { from { transform: translateY(24px); opacity: 0; } }
+    @media (min-width: 560px) { .form-overlay { align-items: center; } .form-sheet { border-radius: 22px; } }
+    .form-sheet h3 { font-family: var(--serif); font-weight: 500; font-size: 1.35rem; color: var(--navy); line-height: 1.25; }
+    .form-intro { font-size: .88rem; color: var(--muted); margin: 6px 0 14px; }
+    .form-sheet label { display: block; font-size: .82rem; font-weight: 500; margin: 12px 0 6px; }
+    .form-sheet input, .form-sheet select, .form-sheet textarea { width: 100%; min-height: 48px; padding: 10px 12px; border: 1px solid var(--line); border-radius: var(--radius-sm); background: #fff; font: inherit; font-size: 16px; color: var(--text); }
+    .form-error { color: #9b3b2e; font-size: .84rem; margin-top: 10px; }
+    .form-actions { display: flex; gap: 10px; margin-top: 20px; }
+    .form-actions button { flex: 1; min-height: 48px; border-radius: 999px; font-weight: 500; cursor: pointer; }
+    .form-cancel { border: 1px solid var(--line); background: transparent; }
+    .form-submit { border: 1px solid var(--navy); background: var(--navy); color: #fff; }
+
+    @media (hover: none) {
+      .cat-btn:hover, .arrow-btn:hover, .back-btn:hover { transform: none; box-shadow: inherit; }
+    }
+
+    @media (min-width: 560px) {
+      .categories { grid-template-columns: repeat(3, 1fr); }
+      .cat-btn.wide { grid-column: auto; flex-direction: column; align-items: flex-start; min-height: 124px; }
+    }
+    @media (max-width: 359px) {
+      .wrap { padding: 0 14px; }
+      .cat-btn { padding: 14px; }
+      .time-box strong { font-size: 1.8rem; }
+      .equip-grid, .utility-grid { gap: 10px; }
+      .toc { margin-left: -14px; margin-right: -14px; padding-left: 14px; padding-right: 14px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Icônes (dessin au trait, réutilisées dans la page) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="M11 12l9-9M17 6l3 3M15 8l2 2"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></symbol>
+  <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol>
+  <symbol id="i-fork" viewBox="0 0 24 24"><path d="M7 3v8M4 3v5a3 3 0 0 0 6 0V3M7 11v10M17 3c-2 0-3 2-3 6s1 5 3 5v7"/></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+  <symbol id="i-wave" viewBox="0 0 24 24"><path d="M2 9c2.5-3 5-3 7.5 0s5 3 7.5 0 3.5-2 5 0M2 16c2.5-3 5-3 7.5 0s5 3 7.5 0 3.5-2 5 0"/></symbol>
+  <symbol id="i-anchor" viewBox="0 0 24 24"><circle cx="12" cy="5" r="2"/><path d="M12 7v14M5 13a7 7 0 0 0 14 0M8 11h8"/></symbol>
+  <symbol id="i-hourglass" viewBox="0 0 24 24"><path d="M6 3h12M6 21h12M7 3c0 5 5 6 5 9s-5 4-5 9M17 3c0 5-5 6-5 9s5 4 5 9"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></symbol>
+  <symbol id="i-bed" viewBox="0 0 24 24"><path d="M3 18V7M3 14h18v4M21 14v-2a3 3 0 0 0-3-3h-7v5"/><circle cx="7" cy="11" r="1.6"/></symbol>
+  <symbol id="i-pot" viewBox="0 0 24 24"><path d="M4 10h16v4a6 6 0 0 1-6 6h-4a6 6 0 0 1-6-6zM2 10h2M20 10h2M9 7c0-1 1-1.5 1-3M14 7c0-1 1-1.5 1-3"/></symbol>
+  <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></symbol>
+  <symbol id="i-tv" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M8 21h8M9 2l3 4 3-4"/></symbol>
+  <symbol id="i-wifi" viewBox="0 0 24 24"><path d="M2.5 9a14 14 0 0 1 19 0M5.5 12.5a9.5 9.5 0 0 1 13 0M8.5 16a5 5 0 0 1 7 0"/><circle cx="12" cy="19.2" r=".9"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></symbol>
+  <symbol id="i-walk" viewBox="0 0 24 24"><circle cx="13" cy="4" r="1.8"/><path d="M9 21l3-7 3 3v4M8 11l3-4 3 1 2 4M12 14l-1-4"/></symbol>
+  <symbol id="i-boat" viewBox="0 0 24 24"><path d="M3 16h18l-2.5 4h-13zM12 3v13M12 4l6 9h-6"/></symbol>
+  <symbol id="i-bike" viewBox="0 0 24 24"><circle cx="6" cy="16" r="3.5"/><circle cx="18" cy="16" r="3.5"/><path d="M6 16l4-7h6l2 7M10 9l3 7h-7M9 6h3"/></symbol>
+  <symbol id="i-stone" viewBox="0 0 24 24"><path d="M5 21V9c0-3 1.5-6 3-6s3 3 3 6v12M14 21v-8c0-2 1-4 2.5-4S19 11 19 13v8M3 21h18"/></symbol>
+  <symbol id="i-map" viewBox="0 0 24 24"><path d="M9 4l6 2 6-2v16l-6 2-6-2-6 2V6zM9 4v16M15 6v16"/></symbol>
+  <symbol id="i-castle" viewBox="0 0 24 24"><path d="M4 21V8h3V5h2v3h6V5h2v3h3v13zM10 21v-4a2 2 0 0 1 4 0v4"/></symbol>
+  <symbol id="i-laundry" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><circle cx="12" cy="13" r="4.5"/><path d="M8 6.5h.5"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3l9.5 17h-19z"/><path d="M12 10v4M12 17v.5"/></symbol>
+  <symbol id="i-edit" viewBox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16z"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></symbol>
+  <symbol id="i-ext" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+  <symbol id="i-chev" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
+  <symbol id="i-chev-l" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-bag" viewBox="0 0 24 24"><path d="M6 8h12l-1 12a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></symbol>
+</svg>
+
+<!-- =================================================================== -->
+<!-- PAGE ACCUEIL                                                         -->
+<!-- =================================================================== -->
+<div class="home-page" id="home">
+
+  <header class="hero">
+    <img class="hero-photo"
+      src="https://cdn.prod.website-files.com/6959264a8397337b442701b7/6a2304ffb5d70ea681b90c45_marais%20salant.jpg"
+      srcset="https://cdn.prod.website-files.com/6959264a8397337b442701b7/6a2304ffb5d70ea681b90c45_marais%20salant-p-500.jpg 500w,
+              https://cdn.prod.website-files.com/6959264a8397337b442701b7/6a2304ffb5d70ea681b90c45_marais%20salant-p-800.jpg 800w,
+              https://cdn.prod.website-files.com/6959264a8397337b442701b7/6a2304ffb5d70ea681b90c45_marais%20salant.jpg 1280w"
+      sizes="100vw" alt="Marais salants de La Trinité-sur-Mer" fetchpriority="high"/>
+    <button type="button" class="lang-btn" id="langBtn">English</button>
+    <div class="hero-inner">
+      <div class="hero-place">LA TRINITÉ-SUR-MER</div>
+      <h1 data-i18n="hero_title">Votre carnet de séjour</h1>
+      <p class="hero-tagline" data-i18n="hero_tagline">« Entre port, plages et baie de Quiberon »</p>
+      <svg class="hero-tide" viewBox="0 0 64 10" aria-hidden="true"><path d="M0 5c5-6 11-6 16 0s11 6 16 0 11-6 16 0 11 6 16 0"/></svg>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <p class="intro" data-i18n="intro_text">Nous sommes ravis de vous accueillir dans notre studio, idéalement situé pour profiter du port et de la baie de Quiberon.</p>
+
+    <!-- ===== VOTRE SÉJOUR ===== -->
+    <section class="block">
+      <div class="sejour-card" id="sejourCard">
+        <span class="sejour-label" data-i18n="quick_stay">Votre séjour</span>
+        <div class="sejour-dates" id="sejourDates" data-i18n="sejour_dates_welcome">Bienvenue</div>
+        <div class="sejour-msg" id="sejourMsg" data-i18n="sejour_msg_default">Vos dates de séjour s'affichent ici automatiquement dès que vous ouvrez le lien envoyé par votre hôte.</div>
+      </div>
+    </section>
+
+    <!-- ===== AUJOURD'HUI : météo & marée réunies ===== -->
+    <section class="block" id="today">
+      <div class="today-card">
+        <div class="today-head">
+          <span class="block-title" data-i18n="today_heading">Aujourd'hui à La Trinité-sur-Mer</span>
+          <span class="today-date" id="todayDate"></span>
+        </div>
+
+        <div class="weather-periods" id="weatherPeriods">
+          <div class="skeleton" style="height:78px;width:100%"></div>
+        </div>
+
+        <div class="tide-mini">
+          <div class="tide-head">🌊 <span data-i18n="tide_today_title">Marées aujourd'hui</span></div>
+          <div class="tide-list" id="tideList">
+            <div class="skeleton" style="height:60px;width:100%"></div>
+          </div>
+          <div class="maree-vignette" id="tideVignetteHome"></div>
+          <a class="link-row" href="https://maree.info/59" target="_blank" rel="noopener" data-i18n="tide_more_link">Voir les marées des prochains jours<svg class="ic ic-sm"><use href="#i-ext"/></svg></a>
+        </div>
+
+        <div class="today-highlight" id="todayHighlight" hidden></div>
+
+        <div class="mood-section">
+          <div class="mood-title" data-i18n="mood_question">Que voulez-vous faire aujourd'hui ?</div>
+          <div class="moods" aria-label="Idées selon l'envie du moment">
+            <button type="button" class="mood-chip" data-target="th-balades,th-velo,th-eau">☀️ <span data-i18n="mood_sun">Grand soleil</span></button>
+            <button type="button" class="mood-chip" data-target="th-mauvaise-meteo">🌥️ <span data-i18n="mood_grey">Temps gris</span></button>
+            <button type="button" class="mood-chip" data-target="th-balades">🥾 <span data-i18n="mood_walk">Envie de marcher</span></button>
+            <button type="button" class="mood-chip" data-target="th-velo,th-eau">🚲 <span data-i18n="mood_bike">Envie de bouger</span></button>
+            <button type="button" class="mood-chip" id="moodCoupleBtn">❤️ <span data-i18n="mood_couple">À deux</span></button>
+            <button type="button" class="mood-chip" id="moodFoodBtn">🍽️ <span data-i18n="mood_food">Envie de bien manger</span></button>
+          </div>
+
+          <div class="mood-reveal" id="moodCoupleReveal" hidden>
+            <ul class="mood-reveal-list">
+              <li data-i18n="couple_li1">Balade jusqu'à la plage de Kervilen</li>
+              <li data-i18n="couple_li2">Coucher de soleil depuis la pointe de Kerbihan</li>
+              <li data-i18n="couple_li3">Promenade sur le port en fin de journée</li>
+              <li data-i18n="couple_li4">Excursion dans le golfe du Morbihan en bateau</li>
+              <li data-i18n="couple_li5">Dîner au Quai ou à l'Itsasoa</li>
+            </ul>
+          </div>
+          <div class="mood-reveal" id="moodFoodReveal" hidden>
+            <p class="note" data-i18n="food_reveal_intro">Nos quelques adresses préférées selon l'envie du moment :</p>
+            <ul class="mood-reveal-list">
+              <li data-i18n="food_pick1">Le Quai — cuisine maison, vue sur le port</li>
+              <li data-i18n="food_pick2">Crêperie Ty Malou — crêperie traditionnelle</li>
+              <li data-i18n="food_pick3">Le Mouillage — produits de la mer</li>
+              <li data-i18n="food_pick4">On se met à table (Plescop) — une escapade gourmande</li>
+            </ul>
+            <button type="button" class="btn-outline" style="width:100%;justify-content:center;margin-top:6px" onclick="showPage(3)"><span data-i18n="food_see_all">Voir toutes nos adresses →</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== RUBRIQUES ===== -->
+    <section class="block">
+      <h2 class="block-title" data-i18n="carnet_title">Le carnet</h2>
+      <p class="block-sub" data-i18n="carnet_sub">Tout ce qu'il faut pour votre séjour.</p>
+      <div class="categories">
+        <button class="cat-btn" id="cat-0" onclick="showPage(0)"><span class="cat-ic"><svg class="ic"><use href="#i-key"/></svg></span><span><span class="cat-label" data-i18n="cat0_label">Arriver</span><span class="cat-sub" data-i18n="cat0_sub">Horaires et instructions</span></span></button>
+        <button class="cat-btn" id="cat-1" onclick="showPage(1)"><span class="cat-ic"><svg class="ic"><use href="#i-home"/></svg></span><span><span class="cat-label" data-i18n="cat1_label">Le studio</span><span class="cat-sub" data-i18n="cat1_sub">Équipements</span></span></button>
+        <button class="cat-btn" id="cat-2" onclick="showPage(2)"><span class="cat-ic"><svg class="ic"><use href="#i-compass"/></svg></span><span><span class="cat-label" data-i18n="cat2_label">À découvrir</span><span class="cat-sub" data-i18n="cat2_sub">Trinité, baie, golfe, escapades</span></span></button>
+        <button class="cat-btn" id="cat-4" onclick="showPage(4)"><span class="cat-ic"><svg class="ic"><use href="#i-cal"/></svg></span><span><span class="cat-label" data-i18n="cat4_label">Agenda</span><span class="cat-sub" data-i18n="cat4_sub">Sorties et événements</span></span></button>
+        <button class="cat-btn" id="cat-3" onclick="showPage(3)"><span class="cat-ic"><svg class="ic"><use href="#i-fork"/></svg></span><span><span class="cat-label" data-i18n="cat3_label">Où manger</span><span class="cat-sub" data-i18n="cat3_sub">Nos adresses</span></span></button>
+        <button class="cat-btn" id="cat-5" onclick="showPage(5)"><span class="cat-ic"><svg class="ic"><use href="#i-info"/></svg></span><span><span class="cat-label" data-i18n="cat5_label">Infos pratiques</span><span class="cat-sub" data-i18n="cat5_sub">Cartes, laveries</span></span></button>
+        <button class="cat-btn wide" id="cat-6" onclick="showPage(6)"><span class="cat-ic"><svg class="ic"><use href="#i-chat"/></svg></span><span><span class="cat-label" data-i18n="cat6_label">Besoin d'aide</span><span class="cat-sub" data-i18n="cat6_sub">Nous contacter pendant le séjour</span></span></button>
+      </div>
+    </section>
+  </div>
+</div>
+
+<!-- =================================================================== -->
+<!-- ARRIVÉE & DÉPART (page-0)                                            -->
+<!-- =================================================================== -->
+<div class="content-page" id="page-0">
+  <div class="wrap">
+    <div class="page-top">
+      <button class="back-btn" onclick="showHome()"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg><span data-i18n="nav_home">Accueil</span></button>
+      <div class="nav-arrows">
+        <button class="arrow-btn" onclick="showPage(6)" aria-label="Rubrique précédente" data-i18n-aria="aria_prev"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg></button>
+        <button class="arrow-btn" onclick="showPage(1)" aria-label="Rubrique suivante" data-i18n-aria="aria_next"><svg class="ic ic-sm"><use href="#i-chev"/></svg></button>
+      </div>
+    </div>
+    <header class="page-head"><h2 data-i18n="page0_h2">Arrivée &amp; départ</h2></header>
+
+    <div class="stack">
+      <div class="times">
+        <div class="time-box"><small data-i18n="time_arrival_label">Arrivée</small><strong data-i18n="time_arrival_value">16h</strong><span data-i18n="time_arrival_note">possible à partir de</span></div>
+        <div class="time-box light"><small data-i18n="time_departure_label">Départ</small><strong data-i18n="time_departure_value">10h</strong><span data-i18n="time_departure_note">au plus tard, avant</span></div>
+      </div>
+      <div class="card card-row"><svg class="ic"><use href="#i-mail"/></svg><p data-i18n-html="page0_card1">Les instructions détaillées d'arrivée (adresse, accès, boîte à clés) vous seront envoyées <strong>la veille de votre arrivée</strong>.</p></div>
+      <div class="card">
+        <h3 data-i18n="page0_card2_h3">🧳 Pour votre départ</h3>
+        <p data-i18n-html="page0_card2">Merci de libérer le studio au plus tard à <strong>10h</strong>, afin que nous puissions préparer sereinement le logement pour les prochains voyageurs.</p>
+        <p data-i18n="page0_card2_wink">Promis, on aimerait bien vous garder un peu plus longtemps… mais les prochains arrivent&nbsp;! 😉</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- =================================================================== -->
+<!-- LE STUDIO (page-1)                                                   -->
+<!-- =================================================================== -->
+<div class="content-page" id="page-1">
+  <div class="wrap">
+    <div class="page-top">
+      <button class="back-btn" onclick="showHome()"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg><span data-i18n="nav_home">Accueil</span></button>
+      <div class="nav-arrows">
+        <button class="arrow-btn" onclick="showPage(0)" aria-label="Rubrique précédente" data-i18n-aria="aria_prev"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg></button>
+        <button class="arrow-btn" onclick="showPage(2)" aria-label="Rubrique suivante" data-i18n-aria="aria_next"><svg class="ic ic-sm"><use href="#i-chev"/></svg></button>
+      </div>
+    </div>
+    <header class="page-head"><h2 data-i18n="page1_h2">Le studio</h2><p data-i18n="page1_sub">Studio confortable pour 1 à 2 personnes, idéal pour un séjour à La Trinité-sur-Mer.</p></header>
+
+    <div class="equip-grid">
+      <div class="equip"><svg class="ic"><use href="#i-pot"/></svg><h3 data-i18n="equip_kitchen_h">Cuisine</h3><p data-i18n="equip_kitchen_p">Cuisine équipée</p></div>
+      <div class="equip"><svg class="ic"><use href="#i-drop"/></svg><h3 data-i18n="equip_bath_h">Salle de bain</h3><p data-i18n="equip_bath_p">Salle de bain privative</p></div>
+      <div class="equip wide"><svg class="ic"><use href="#i-bed"/></svg><h3 data-i18n="equip_bed_h">Literie</h3><p data-i18n="equip_bed_p">Canapé-lit de qualité avec ouverture « rapido ». Linge de lit et serviettes fournis.</p></div>
+      <div class="equip"><svg class="ic"><use href="#i-tv"/></svg><h3 data-i18n="equip_tv_h">Télévision</h3><p data-i18n="equip_tv_p">Télévision</p></div>
+      <div class="equip"><svg class="ic"><use href="#i-wifi"/></svg><h3 data-i18n="equip_wifi_h">Wi-Fi</h3><p data-i18n="equip_wifi_p">Mot de passe affiché dans le studio</p></div>
+    </div>
+    <p class="note" style="margin-top:18px" data-i18n-html="page1_note">Des QR Codes sont disponibles dans le livre d'accueil pour accéder directement aux vidéos explicatives des principaux équipements du studio.</p>
+  </div>
+</div>
+
+<!-- =================================================================== -->
+<!-- À DÉCOUVRIR / AUTOUR DE VOUS (page-2)                                -->
+<!-- =================================================================== -->
+<div class="content-page" id="page-2">
+  <div class="wrap">
+    <div class="page-top">
+      <button class="back-btn" onclick="showHome()"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg><span data-i18n="nav_home">Accueil</span></button>
+      <div class="nav-arrows">
+        <button class="arrow-btn" onclick="showPage(1)" aria-label="Rubrique précédente" data-i18n-aria="aria_prev"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg></button>
+        <button class="arrow-btn" onclick="showPage(3)" aria-label="Rubrique suivante" data-i18n-aria="aria_next"><svg class="ic ic-sm"><use href="#i-chev"/></svg></button>
+      </div>
+    </div>
+    <header class="page-head"><h2 data-i18n="page2_h2">À découvrir</h2><p data-i18n="page2_sub">La Trinité-sur-Mer est un port vivant et authentique, au cœur de la baie de Quiberon.</p></header>
+
+    <div class="toc" aria-label="Thèmes">
+      <button data-scroll="th-balades" data-i18n="th_balades_title">Balades &amp; plages</button>
+      <button data-scroll="th-velo" data-i18n="th_velo_title">Vélo</button>
+      <button data-scroll="th-eau" data-i18n="th_eau_title">Sur l'eau</button>
+      <button data-scroll="th-maritime" data-i18n="th_maritime_title">Vie maritime</button>
+      <button data-scroll="th-baie" data-i18n="th_baie_title">Autour de la baie</button>
+      <button data-scroll="th-golfe" data-i18n="th_golfe_title">Golfe du Morbihan</button>
+      <button data-scroll="th-escapades" data-i18n="th_escapades_title">Escapades</button>
+      <button data-scroll="th-mauvaise-meteo" data-i18n="th_meteo_title">Mauvaise météo ?</button>
+      <button data-scroll="th-commerces" data-i18n="th_commerces_title">Commerces &amp; services</button>
+    </div>
+
+    <div class="stack">
+      <!-- Notre coup de cœur -->
+      <div class="card coeur" id="coeur-kervilen">
+        <div class="label-coeur"><svg class="ic"><use href="#i-heart"/></svg><span data-i18n="label_our_pick">Notre coup de cœur</span></div>
+        <h3 data-i18n="kervilen_h3">La plage de Kervilen</h3>
+        <p data-i18n="kervilen_p">Personnellement, nous aimons beaucoup la plage de Kervilen, idéale pour une balade ou un moment de détente.</p>
+      </div>
+
+      <!-- A. À LA TRINITÉ-SUR-MER -->
+      <details class="theme" id="th-balades" open>
+        <summary>
+          <span class="theme-ic"><svg class="ic"><use href="#i-walk"/></svg></span>
+          <span class="theme-title" data-i18n="th_balades_title">Balades &amp; plages</span>
+          <span class="theme-sub" data-i18n="th_balades_sub">Promenades, sentiers, GR34 et plages, à pied depuis le studio</span>
+          <span class="theme-more"><span class="more-closed" data-i18n="more_closed">Découvrir</span><span class="more-open" data-i18n="more_open">Refermer</span><svg class="ic"><use href="#i-chev"/></svg></span>
+        </summary>
+        <div class="theme-body">
+          <p class="note" data-i18n="th_balades_intro">Deux idées de sorties à pied, avec un lien vers l'itinéraire dans votre navigateur — aucune application à installer.</p>
+
+          <div class="walk-card">
+            <h4 data-i18n="walk1_title">Le Sentier des Douaniers</h4>
+            <div class="walk-meta">
+              <span data-i18n="walk_dist">7,5 km</span>
+              <span data-i18n="walk1_time">environ 2h</span>
+              <span data-i18n="walk_easy">Facile</span>
+            </div>
+            <p data-i18n="walk1_desc">Boucle au départ du port : plage de Men Allen, bois d'Amour, pointe de Kerbihan et son panorama sur la baie de Quiberon, plage et marais salants de Kervillen.</p>
+            <p class="note" data-i18n="walk1_start">Départ : port de La Trinité-sur-Mer</p>
+            <a class="btn" href="https://visorando.com/en/walk-le-sentier-des-douaniers-de-la-trinite-s/" target="_blank" rel="noopener"><svg class="ic"><use href="#i-ext"/></svg><span data-i18n="walk_see">Voir l'itinéraire</span></a>
+          </div>
+
+          <div class="walk-card">
+            <h4 data-i18n="walk2_title">Boucle courte de Kervilen</h4>
+            <div class="walk-meta">
+              <span data-i18n="walk2_dist">3,5 km</span>
+              <span data-i18n="walk2_time">environ 1h</span>
+              <span data-i18n="walk_veasy">Très facile</span>
+            </div>
+            <p data-i18n="walk2_desc">La première moitié du Sentier des Douaniers : port, plages de Men Allen et Kerbihan, plage et marais salants de Kervillen, puis retour par le même chemin.</p>
+            <p class="note" data-i18n="walk1_start">Départ : port de La Trinité-sur-Mer</p>
+            <a class="btn" href="https://www.google.com/maps/dir/?api=1&origin=Port+de+La+Trinité-sur-Mer&destination=Marais+salants+de+Kervillen+La+Trinité-sur-Mer&travelmode=walking" target="_blank" rel="noopener"><svg class="ic"><use href="#i-ext"/></svg><span data-i18n="walk_see">Voir l'itinéraire</span></a>
+          </div>
+
+          <p class="note" style="margin-top:4px" data-i18n-html="th_balades_more">D'autres idées de balades dans la région : <a class="locname" href="https://visorando.com/randonnee-saint-philibert-morbihan.html" target="_blank" rel="noopener">circuits autour de Locmariaquer et Saint-Philibert</a>.</p>
+        </div>
+      </details>
+
+      <details class="theme" id="th-velo">
+        <summary>
+          <span class="theme-ic"><svg class="ic"><use href="#i-bike"/></svg></span>
+          <span class="theme-title" data-i18n="th_velo_title">Vélo</span>
+          <span class="theme-sub" data-i18n="th_velo_sub">Location sur place et circuit conseillé vers Locmariaquer</span>
+          <span class="theme-more"><span class="more-closed" data-i18n="more_closed">Découvrir</span><span class="more-open" data-i18n="more_open">Refermer</span><svg class="ic"><use href="#i-chev"/></svg></span>
+        </summary>
+        <div class="theme-body"><ul>
+          <li data-i18n-html="th_trinite_li7"><a class="locname" href="https://www.google.com/maps/search/?api=1&query=Le+Vélo+Trinitain+La+Trinité-sur-Mer" target="_blank" rel="noopener">Le Vélo Trinitain</a> (sur place), <a class="locname" href="https://www.google.com/maps/search/?api=1&query=VéloCarnac" target="_blank" rel="noopener">VéloCarnac</a>, <a class="locname" href="https://www.google.com/maps/search/?api=1&query=L%27Original+Location+Erdeven" target="_blank" rel="noopener">L'Original Location</a> (Erdeven)</li>
+        </ul>
+        <p class="note" style="margin-top:10px" data-i18n="th_trinite_note">Circuit conseillé : La Trinité → Locmariaquer (~34 km, piste et chemins intérieurs).</p>
+        </div>
+      </details>
+
+      <details class="theme" id="th-eau">
+        <summary>
+          <span class="theme-ic"><svg class="ic"><use href="#i-boat"/></svg></span>
+          <span class="theme-title" data-i18n="th_eau_title">Sur l'eau</span>
+          <span class="theme-sub" data-i18n="th_eau_sub">Kayak, paddle, bateaux électriques, croisières commentées</span>
+          <span class="theme-more"><span class="more-closed" data-i18n="more_closed">Découvrir</span><span class="more-open" data-i18n="more_open">Refermer</span><svg class="ic"><use href="#i-chev"/></svg></span>
+        </summary>
+        <div class="theme-body"><ul>
+          <li data-i18n-html="th_trinite_li8">Kayak &amp; paddle : <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Run%27O+12+bis+rue+des+Résistants+La+Trinité-sur-Mer" target="_blank" rel="noopener">Run'O</a>, <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Varec%27h+Kayak+Baden" target="_blank" rel="noopener">Varec'h Kayak</a>, <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Kerners+Kayak+%26+Paddle+Arzon" target="_blank" rel="noopener">Kerners Kayak &amp; Paddle</a></li>
+          <li data-i18n-html="th_trinite_li9">Bateaux électriques sans permis : <a class="locname" href="https://www.google.com/maps/search/?api=1&query=E.SEA+La+Trinité-sur-Mer" target="_blank" rel="noopener">E.SEA</a></li>
+          <li data-i18n-html="th_trinite_li10">Croisières commentées : <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Vedettes+Angels+La+Trinité-sur-Mer" target="_blank" rel="noopener">Vedettes Angels</a></li>
+        </ul></div>
+      </details>
+
+      <details class="theme" id="th-maritime">
+        <summary>
+          <span class="theme-ic"><svg class="ic"><use href="#i-anchor"/></svg></span>
+          <span class="theme-title" data-i18n="th_maritime_title">Vie maritime</span>
+          <span class="theme-sub" data-i18n="th_maritime_sub">Le port, l'ostréiculture et l'histoire maritime locale</span>
+          <span class="theme-more"><span class="more-closed" data-i18n="more_closed">Découvrir</span><span class="more-open" data-i18n="more_open">Refermer</span><svg class="ic"><use href="#i-chev"/></svg></span>
+        </summary>
+        <div class="theme-body"><ul>
+          <li data-i18n-html="th_trinite_li11">Les <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Rivière+de+Crac%27h" target="_blank" rel="noopener">barges ostréicoles de la rivière de Crac'h</a>, témoins de la tradition ostréicole locale</li>
+          <li data-i18n-html="th_maritime_li2">Le <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Port+de+La+Trinité-sur-Mer" target="_blank" rel="noopener">port de plaisance</a>, où fut construit le Pen Duick II d'Éric Tabarly</li>
+        </ul></div>
+      </details>
+
+      <!-- B. AUTOUR DE LA BAIE -->
+      <details class="theme" id="th-baie">
+        <summary>
+          <span class="theme-ic"><svg class="ic"><use href="#i-map"/></svg></span>
+          <span class="theme-title" data-i18n="th_baie_title">Autour de la baie</span>
+          <span class="theme-sub" data-i18n="th_baie_sub">Carnac, Locmariaquer, Auray, Le Bono, Quiberon</span>
+          <span class="theme-more"><span class="more-closed" data-i18n="more_closed">Découvrir</span><span class="more-open" data-i18n="more_open">Refermer</span><svg class="ic"><use href="#i-chev"/></svg></span>
+        </summary>
+        <div class="theme-body"><ul>
+          <li data-i18n-html="th_baie_li1"><a class="locname" href="https://www.google.com/maps/search/?api=1&query=Alignements+de+Carnac" target="_blank" rel="noopener">Alignements de Carnac</a> (menhirs et dolmens)</li>
+          <li data-i18n-html="th_baie_li2"><a class="locname" href="https://www.google.com/maps/search/?api=1&query=Site+mégalithique+de+Locmariaquer" target="_blank" rel="noopener">Locmariaquer</a> et ses mégalithes (Grand Menhir Brisé, table des Marchands)</li>
+          <li data-i18n-html="th_baie_li3"><a class="locname" href="https://www.google.com/maps/search/?api=1&query=Saint-Philibert+Morbihan" target="_blank" rel="noopener">Saint-Philibert</a>, où l'on visite la biscuiterie La Trinitaine</li>
+          <li data-i18n-html="th_baie_li4"><a class="locname" href="https://www.google.com/maps/search/?api=1&query=Port+de+Saint-Goustan+Auray" target="_blank" rel="noopener">Auray et le port de Saint-Goustan</a></li>
+          <li data-i18n-html="th_baie_li5">Le Bono : balade le long de la rivière (départ <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Chapelle+Saint-Avoye+Le+Bono" target="_blank" rel="noopener">chapelle St-Avoye</a>)</li>
+          <li data-i18n-html="th_baie_li6"><a class="locname" href="https://www.google.com/maps/search/?api=1&query=Isthme+de+Penthièvre" target="_blank" rel="noopener">Quiberon, la presqu'île et la Côte Sauvage</a></li>
+          <li data-i18n-html="th_baie_li7"><a class="locname" href="https://www.google.com/maps/search/?api=1&query=Thalasso+Carnac" target="_blank" rel="noopener">Thalasso &amp; spa marin de Carnac</a></li>
+        </ul>
+        <p class="note" style="margin-top:10px" data-i18n="th_baie_note">Le Pass des Mégalithes donne accès à plusieurs sites (Carnac, Locmariaquer, Gavrinis).</p>
+        </div>
+      </details>
+
+      <!-- C. GOLFE DU MORBIHAN -->
+      <details class="theme" id="th-golfe">
+        <summary>
+          <span class="theme-ic"><svg class="ic"><use href="#i-castle"/></svg></span>
+          <span class="theme-title" data-i18n="th_golfe_title">Golfe du Morbihan</span>
+          <span class="theme-sub" data-i18n="th_golfe_sub">Vannes, îles, Gavrinis, presqu'île de Rhuys</span>
+          <span class="theme-more"><span class="more-closed" data-i18n="more_closed">Découvrir</span><span class="more-open" data-i18n="more_open">Refermer</span><svg class="ic"><use href="#i-chev"/></svg></span>
+        </summary>
+        <div class="theme-body"><ul>
+          <li data-i18n-html="th_golfe_li1"><a class="locname" href="https://www.google.com/maps/search/?api=1&query=Vieille+ville+de+Vannes" target="_blank" rel="noopener">Vannes et sa vieille ville historique</a></li>
+          <li data-i18n-html="th_golfe_li3">Îles : <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Île+aux+Moines" target="_blank" rel="noopener">Île aux Moines</a>, <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Île+d%27Arz" target="_blank" rel="noopener">Île d'Arz</a></li>
+          <li data-i18n-html="th_golfe_li_gavrinis"><a class="locname" href="https://www.google.com/maps/search/?api=1&query=Cairn+de+Gavrinis" target="_blank" rel="noopener">Gavrinis</a> (île &amp; cairn néolithique)</li>
+          <li data-i18n-html="th_golfe_li_rhuys">La presqu'île de Rhuys et le <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Château+de+Suscinio" target="_blank" rel="noopener">château de Suscinio</a></li>
+          <li data-i18n-html="th_golfe_li4">Navigation sur anciens bateaux : <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Krog+e+Barz+Golfe+du+Morbihan" target="_blank" rel="noopener">Krog e Barz</a>, <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Voiles+du+Golfe+André+et+Yvette" target="_blank" rel="noopener">Voiles du Golfe André &amp; Yvette</a></li>
+          <li data-i18n-html="th_golfe_li5">Éco-balade en kayak : <a class="locname" href="https://sentiersmarins.com" target="_blank" rel="noopener">sentiersmarins.com</a></li>
+          <li data-i18n-html="th_golfe_li6">Hélicoptère &amp; saut en parachute à <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Monterblanc" target="_blank" rel="noopener">Monterblanc</a></li>
+          <li data-i18n="th_golfe_li7">City Pass Vannes : réductions et transports inclus</li>
+        </ul></div>
+      </details>
+
+      <!-- D. ESCAPADES -->
+      <details class="theme" id="th-escapades">
+        <summary>
+          <span class="theme-ic"><svg class="ic"><use href="#i-stone"/></svg></span>
+          <span class="theme-title" data-i18n="th_escapades_title">Escapades</span>
+          <span class="theme-sub" data-i18n="th_escapades_sub">Lorient et Belle-Île, pour une journée entière</span>
+          <span class="theme-more"><span class="more-closed" data-i18n="more_closed">Découvrir</span><span class="more-open" data-i18n="more_open">Refermer</span><svg class="ic"><use href="#i-chev"/></svg></span>
+        </summary>
+        <div class="theme-body">
+          <h4 data-i18n="th_escapades_h4_lorient">Lorient</h4>
+          <ul>
+            <li data-i18n-html="th_escapades_li1">Le <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Port+de+pêche+de+Keroman+Lorient" target="_blank" rel="noopener">port de pêche de Keroman</a> (le plus grand port de pêche de France)</li>
+            <li data-i18n-html="th_escapades_li2">La <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Cité+de+la+Voile+Éric+Tabarly+Lorient" target="_blank" rel="noopener">Cité de la Voile Éric Tabarly</a></li>
+            <li data-i18n="th_escapades_li3">Festival Interceltique (début août) : l'un des plus grands festivals celtiques au monde</li>
+          </ul>
+          <h4 data-i18n="th_escapades_h4_belleile">Belle-Île</h4>
+          <ul>
+            <li data-i18n-html="th_escapades_li4">Traversée régulière ou à la voile (<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Iliens+voile+Belle-Île" target="_blank" rel="noopener">Iliens</a>)</li>
+            <li data-i18n-html="th_escapades_li5">Liaisons et croisières : <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Navix+La+Trinité-sur-Mer" target="_blank" rel="noopener">Navix</a>, <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Le+Passeur+des+Îles+La+Trinité-sur-Mer" target="_blank" rel="noopener">Le Passeur des Îles</a></li>
+          </ul>
+          <h4 data-i18n="th_escapades_h4_other">Autre escapade</h4>
+          <ul>
+            <li data-i18n-html="th_escapades_li6"><a class="locname" href="https://www.google.com/maps/search/?api=1&query=Poul+Fétan" target="_blank" rel="noopener">Poul Fétan</a>, village breton reconstitué</li>
+          </ul>
+        </div>
+      </details>
+
+      <!-- MAUVAISE MÉTÉO -->
+      <details class="theme" id="th-mauvaise-meteo">
+        <summary>
+          <span class="theme-ic"><svg class="ic"><use href="#i-drop"/></svg></span>
+          <span class="theme-title" data-i18n="th_meteo_title">Mauvaise météo ?</span>
+          <span class="theme-sub" data-i18n="th_meteo_sub">Musées, patrimoine couvert, thalasso, gourmandises</span>
+          <span class="theme-more"><span class="more-closed" data-i18n="more_closed">Découvrir</span><span class="more-open" data-i18n="more_open">Refermer</span><svg class="ic"><use href="#i-chev"/></svg></span>
+        </summary>
+        <div class="theme-body"><ul>
+          <li data-i18n-html="th_meteo_li1">La <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Maison+des+Mégalithes+Carnac" target="_blank" rel="noopener">Maison des Mégalithes</a> à Carnac : expositions et vidéos, accès libre et gratuit</li>
+          <li data-i18n-html="th_meteo_li2">Le <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Musée+de+Préhistoire+Carnac" target="_blank" rel="noopener">musée de Préhistoire</a> de Carnac</li>
+          <li data-i18n-html="th_meteo_li3">La <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Cité+de+la+Voile+Éric+Tabarly+Lorient" target="_blank" rel="noopener">Cité de la Voile Éric Tabarly</a>, à Lorient</li>
+          <li data-i18n-html="th_meteo_li4"><a class="locname" href="https://www.google.com/maps/search/?api=1&query=Thalasso+Carnac" target="_blank" rel="noopener">Thalasso &amp; spa marin de Carnac</a></li>
+          <li data-i18n-html="th_meteo_li5">La <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Biscuiterie+La+Trinitaine+Saint-Philibert" target="_blank" rel="noopener">biscuiterie La Trinitaine</a>, à Saint-Philibert</li>
+        </ul>
+        <button type="button" class="locname" style="background:none;border:none;padding:9px 0;font:inherit;cursor:pointer;display:block" onclick="showPage(3)" data-i18n="th_meteo_food">🍽️ Envie de bien manger : voir notre sélection</button>
+        </div>
+      </details>
+
+      <!-- COMMERCES & SERVICES -->
+      <details class="theme" id="th-commerces">
+        <summary>
+          <span class="theme-ic"><svg class="ic"><use href="#i-bag"/></svg></span>
+          <span class="theme-title" data-i18n="th_commerces_title">Commerces &amp; services</span>
+          <span class="theme-sub" data-i18n="th_commerces_sub">Boulangeries, marché, pharmacie et essentiels du quotidien</span>
+          <span class="theme-more"><span class="more-closed" data-i18n="more_closed">Découvrir</span><span class="more-open" data-i18n="more_open">Refermer</span><svg class="ic"><use href="#i-chev"/></svg></span>
+        </summary>
+        <div class="theme-body">
+          <h4 data-i18n="th_commerces_h4_bakery">Boulangeries</h4>
+          <ul>
+            <li data-i18n-html="th_commerces_li3"><a class="locname" href="https://www.google.com/maps/search/?api=1&query=Boulangerie+La+Trinitaine+Cours+des+Quais+La+Trinité-sur-Mer" target="_blank" rel="noopener">La Trinitaine</a>, Cours des Quais</li>
+          <li data-i18n-html="th_commerces_marreedouce"><a class="locname" href="https://www.google.com/maps/search/?api=1&query=La+Marée+Douce+34+cours+des+Quais+La+Trinité-sur-Mer" target="_blank" rel="noopener">La Marée Douce</a>, boulangerie-pâtisserie, 34 cours des Quais</li>
+          </ul>
+          <h4 data-i18n="th_commerces_h4_food">Courses &amp; marché</h4>
+          <ul>
+            <li data-i18n-html="th_commerces_li1"><a class="locname" href="https://www.google.com/maps/search/?api=1&query=Place+du+Voulien+La+Trinité-sur-Mer" target="_blank" rel="noopener">Marché</a> : place du Voulien, mardi et vendredi de 8h à 13h</li>
+            <li data-i18n-html="th_commerces_li2"><a class="locname" href="https://www.google.com/maps/search/?api=1&query=Halle+aux+poissons+Cours+des+Quais+La+Trinité-sur-Mer" target="_blank" rel="noopener">Halle aux poissons</a> : Cours des Quais, tous les jours de 8h30 à 12h30, produits de la mer</li>
+            <li data-i18n-html="th_commerces_li4">Épicerie fine : <a class="locname" href="https://www.google.com/maps/search/?api=1&query=L%27Épicerie+du+Port+24+cours+des+Quais+La+Trinité-sur-Mer" target="_blank" rel="noopener">L'Épicerie du Port</a>, 24 cours des Quais</li>
+          </ul>
+          <h4 data-i18n="th_commerces_h4_services">Services</h4>
+          <ul>
+            <li data-i18n-html="th_commerces_li5"><a class="locname" href="https://www.google.com/maps/search/?api=1&query=Pharmacie+21+cours+des+Quais+La+Trinité-sur-Mer" target="_blank" rel="noopener">Pharmacie de La Trinité-sur-Mer</a> : 21 cours des Quais, tél. 02 97 55 72 38</li>
+            <li data-i18n-html="th_commerces_li6"><a class="locname" href="https://www.google.com/maps/search/?api=1&query=Office+de+tourisme+30+cours+des+Quais+La+Trinité-sur-Mer" target="_blank" rel="noopener">Office de tourisme</a> : 30 cours des Quais</li>
+          </ul>
+          <p class="note" style="margin-top:10px" data-i18n="th_commerces_note">Horaires susceptibles de varier selon la saison.</p>
+        </div>
+      </details>
+    </div>
+  </div>
+</div>
+
+<!-- =================================================================== -->
+<!-- RESTAURANTS (page-3)                                                 -->
+<!-- =================================================================== -->
+<div class="content-page" id="page-3">
+  <div class="wrap">
+    <div class="page-top">
+      <button class="back-btn" onclick="showHome()"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg><span data-i18n="nav_home">Accueil</span></button>
+      <div class="nav-arrows">
+        <button class="arrow-btn" onclick="showPage(2)" aria-label="Rubrique précédente" data-i18n-aria="aria_prev"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg></button>
+        <button class="arrow-btn" onclick="showPage(4)" aria-label="Rubrique suivante" data-i18n-aria="aria_next"><svg class="ic ic-sm"><use href="#i-chev"/></svg></button>
+      </div>
+    </div>
+    <header class="page-head"><h2 data-i18n="page3_h2">Où manger ?</h2><p data-i18n="page3_sub">Quelques adresses que nous recommandons à La Trinité-sur-Mer.</p></header>
+
+    <div class="stack">
+      <div>
+        <span class="agenda-label" data-i18n="resto_group_close">À deux pas</span>
+      </div>
+      <article class="card resto coeur">
+        <div class="label-coeur"><svg class="ic"><use href="#i-heart"/></svg><span data-i18n="label_our_pick">Notre coup de cœur</span></div>
+        <h3>Le Quai</h3>
+        <div class="resto-meta"><span class="chip" data-i18n="resto_lequai_chip">Cuisine maison</span><span>8 cours des Quais</span></div>
+        <p data-i18n="resto_lequai_p">Cuisine maison depuis 1990, produits locaux. Vue sur le port, terrasse, ouvert tous les jours.</p>
+        <div class="btns">
+          <a class="btn solid" href="https://www.google.com/maps/search/?api=1&query=Le+Quai+8+cours+des+Quais+La+Trinité-sur-Mer" target="_blank" rel="noopener"><svg class="ic"><use href="#i-pin"/></svg><span data-i18n="btn_maps">Voir sur Maps</span></a>
+          <a class="btn" href="https://www.lequai56.fr" target="_blank" rel="noopener"><svg class="ic"><use href="#i-ext"/></svg><span data-i18n="btn_website">Site web</span></a>
+        </div>
+      </article>
+
+      <article class="card resto">
+        <h3>Le Mouillage</h3>
+        <div class="resto-meta"><span class="chip" data-i18n="resto_mouillage_chip">Produits de la mer</span><span>La Trinité-sur-Mer</span></div>
+        <p data-i18n="resto_mouillage_p">Face au port de pêche, vue sur le chenal. Spécialités de produits de la mer ultra frais.</p>
+        <div class="btns">
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Le+Mouillage+La+Trinité-sur-Mer" target="_blank" rel="noopener"><svg class="ic"><use href="#i-pin"/></svg><span data-i18n="btn_maps">Voir sur Maps</span></a>
+        </div>
+      </article>
+
+      <article class="card resto">
+        <h3>Crêperie Ty Malou</h3>
+        <div class="resto-meta"><span class="chip" data-i18n="resto_typmalou_chip">Crêperie</span><span>10 cours des Quais</span></div>
+        <p data-i18n="resto_typmalou_p">Crêperie bretonne traditionnelle, juste à côté du Quai.</p>
+        <div class="btns">
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Crêperie+Ty+Malou+La+Trinité-sur-Mer" target="_blank" rel="noopener"><svg class="ic"><use href="#i-pin"/></svg><span data-i18n="btn_maps">Voir sur Maps</span></a>
+        </div>
+      </article>
+
+      <div style="margin-top:8px">
+        <span class="agenda-label" data-i18n="resto_group_excursion">Le temps d'une excursion</span>
+      </div>
+
+      <article class="card resto">
+        <h3>Itsasoa</h3>
+        <div class="resto-meta"><span class="chip" data-i18n="resto_itsasoa_chip">Cuisine française</span><span>1 rue de Ker Anna, Carnac</span></div>
+        <p data-i18n="resto_itsasoa_p">Cuisine française raffinée, dans une ambiance soignée. Réservation conseillée.</p>
+        <div class="btns">
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Itsasoa+Carnac" target="_blank" rel="noopener"><svg class="ic"><use href="#i-pin"/></svg><span data-i18n="btn_maps">Voir sur Maps</span></a>
+        </div>
+      </article>
+
+      <article class="card resto">
+        <h3>On se met à table</h3>
+        <div class="resto-meta"><span class="chip" data-i18n="resto_osmat_chip">Cuisine artisanale</span><span data-i18n="resto_osmat_loc">Plescop</span></div>
+        <p data-i18n="resto_osmat_p">Une adresse un peu à l'écart des circuits touristiques, dans une petite zone commerciale. Ne vous fiez pas à l'environnement : le chef propose une cuisine raffinée et accessible, à base de produits frais et de saison. Une bonne surprise pour ceux qui aiment les adresses confidentielles.</p>
+        <p class="note" data-i18n="resto_osmat_note">Réservation conseillée. À associer à une journée ou une excursion vers Vannes.</p>
+        <div class="btns">
+          <a class="btn solid" href="https://onsemetatable.bzh" target="_blank" rel="noopener"><svg class="ic"><use href="#i-mail"/></svg><span data-i18n="btn_book">Réserver</span></a>
+          <a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=On+se+met+à+table+Plescop&travelmode=driving" target="_blank" rel="noopener"><svg class="ic"><use href="#i-pin"/></svg><span data-i18n="btn_directions">Itinéraire</span></a>
+          <a class="btn" href="https://onsemetatable.bzh" target="_blank" rel="noopener"><svg class="ic"><use href="#i-ext"/></svg><span data-i18n="btn_website">Site web</span></a>
+        </div>
+      </article>
+
+      <div class="utility-grid"><a href="https://www.tripadvisor.fr/Restaurants-g667165-La_Trinite_sur_Mer_Morbihan_Brittany.html" target="_blank" rel="noopener" class="utility-btn full"><svg class="ic"><use href="#i-star"/></svg><span data-i18n="tripadvisor_link">Tous les restaurants sur Tripadvisor</span></a></div>
+    </div>
+  </div>
+</div>
+
+<!-- =================================================================== -->
+<!-- AGENDA (page-4) — agenda dynamique alimenté par agenda.json         -->
+<!-- =================================================================== -->
+<div class="content-page" id="page-4">
+  <div class="wrap">
+    <div class="page-top">
+      <button class="back-btn" onclick="showHome()"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg><span data-i18n="nav_home">Accueil</span></button>
+      <div class="nav-arrows">
+        <button class="arrow-btn" onclick="showPage(3)" aria-label="Rubrique précédente" data-i18n-aria="aria_prev"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg></button>
+        <button class="arrow-btn" onclick="showPage(5)" aria-label="Rubrique suivante" data-i18n-aria="aria_next"><svg class="ic ic-sm"><use href="#i-chev"/></svg></button>
+      </div>
+    </div>
+    <header class="page-head"><h2 data-i18n="page4_h2">Agenda &amp; sorties</h2><p data-i18n="page4_sub">Événements à La Trinité et dans tout le Morbihan</p></header>
+
+    <div id="agendaDynamic" aria-live="polite">
+      <div class="agenda-loading" data-i18n="agenda_loading">Chargement des événements…</div>
+    </div>
+
+    <div class="agenda-sources">
+      <span class="agenda-label" data-i18n="agenda_more_label">Pour aller plus loin</span>
+      <a href="https://www.latrinitesurmer.fr/agenda/" target="_blank" rel="noopener" class="agenda-link"><span class="agenda-link-icon">📍</span><div class="agenda-link-text"><div class="agenda-link-title" data-i18n="agenda_link1_title">Agenda officiel de La Trinité</div><div class="agenda-link-sub" data-i18n="agenda_link1_sub">Fêtes, marchés, animations locales</div></div><svg class="ic ic-sm agenda-arrow"><use href="#i-ext"/></svg></a>
+      <a href="https://morbihan.com/a-voir-a-faire/agenda/" target="_blank" rel="noopener" class="agenda-link"><span class="agenda-link-icon">🌊</span><div class="agenda-link-text"><div class="agenda-link-title" data-i18n="agenda_link2_title">Agenda Morbihan</div><div class="agenda-link-sub" data-i18n="agenda_link2_sub">Lorient, Vannes, Auray, Quiberon…</div></div><svg class="ic ic-sm agenda-arrow"><use href="#i-ext"/></svg></a>
+      <a href="https://56.agendaculturel.fr/" target="_blank" rel="noopener" class="agenda-link"><span class="agenda-link-icon">🎭</span><div class="agenda-link-text"><div class="agenda-link-title" data-i18n="agenda_link3_title">Agenda culturel Morbihan</div><div class="agenda-link-sub" data-i18n="agenda_link3_sub">Concerts, spectacles, expos, festivals</div></div><svg class="ic ic-sm agenda-arrow"><use href="#i-ext"/></svg></a>
+      <a href="https://golfedumorbihan56.com/agenda-evenements/morbihan/" target="_blank" rel="noopener" class="agenda-link"><span class="agenda-link-icon">⛵</span><div class="agenda-link-text"><div class="agenda-link-title" data-i18n="agenda_link4_title">Agenda Golfe du Morbihan</div><div class="agenda-link-sub" data-i18n="agenda_link4_sub">Quiberon, presqu'île, événements nautiques</div></div><svg class="ic ic-sm agenda-arrow"><use href="#i-ext"/></svg></a>
+    </div>
+  </div>
+</div>
+
+<!-- =================================================================== -->
+<!-- INFOS PRATIQUES (page-5)                                             -->
+<!-- =================================================================== -->
+<div class="content-page" id="page-5">
+  <div class="wrap">
+    <div class="page-top">
+      <button class="back-btn" onclick="showHome()"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg><span data-i18n="nav_home">Accueil</span></button>
+      <div class="nav-arrows">
+        <button class="arrow-btn" onclick="showPage(4)" aria-label="Rubrique précédente" data-i18n-aria="aria_prev"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg></button>
+        <button class="arrow-btn" onclick="showPage(6)" aria-label="Rubrique suivante" data-i18n-aria="aria_next"><svg class="ic ic-sm"><use href="#i-chev"/></svg></button>
+      </div>
+    </div>
+    <header class="page-head"><h2 data-i18n="page5_h2">Infos pratiques</h2><p data-i18n="page5_sub">Accès rapide aux informations utiles pour votre séjour.</p></header>
+
+    <div class="utility-grid">
+      <a href="https://www.google.com/maps/search/?api=1&query=La+Trinité-sur-Mer" target="_blank" rel="noopener" class="utility-btn"><svg class="ic"><use href="#i-pin"/></svg><span data-i18n="google_maps_link">Google Maps</span></a>
+    </div>
+
+    <div class="card" style="margin-top:14px">
+      <div class="card-row"><svg class="ic"><use href="#i-laundry"/></svg><h3 data-i18n="laundry_title">Laveries</h3></div>
+      <ul>
+        <li data-i18n-html="laundry_li1"><strong>Le Salon Lavoir</strong> — notre recommandation — 36 cours des Quais, 7j/7 de 7h à 21h</li>
+        <li data-i18n-html="laundry_li2">Laverie Raz la Crêpe — Place Voulien <em>(les sèche-linge peuvent être défaillants)</em></li>
+      </ul>
+    </div>
+
+    <div class="card" style="margin-top:14px">
+      <div class="card-row"><svg class="ic"><use href="#i-alert"/></svg><h3 data-i18n="health_title">🩺 Santé &amp; urgences</h3></div>
+      <div class="health-emergency">
+        <div class="health-num"><strong>15</strong><span data-i18n="health_samu">SAMU</span></div>
+        <div class="health-num"><strong>18</strong><span data-i18n="health_firemen">Pompiers</span></div>
+        <div class="health-num"><strong>112</strong><span data-i18n="health_eu">Urgence européenne</span></div>
+      </div>
+      <ul>
+        <li data-i18n-html="health_li1">Urgences (SAMU/SAU) : <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Centre+Hospitalier+Bretagne+Atlantique+Vannes" target="_blank" rel="noopener">CHBA Vannes</a>, 20 bd du Général Maurice Guillaudot</li>
+        <li data-i18n-html="health_li2">Site le plus proche : <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Centre+Hospitalier+Bretagne+Atlantique+Auray" target="_blank" rel="noopener">CHBA Auray</a>, 2 rue du Pratel</li>
+        <li data-i18n-html="health_li3">Médecins, dentistes, pharmacies : <a class="locname" href="https://annuairesante.ameli.fr/recherche.html" target="_blank" rel="noopener">Annuaire Santé (Assurance Maladie)</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- =================================================================== -->
+<!-- BESOIN D'AIDE (page-6)                                               -->
+<!-- =================================================================== -->
+<div class="content-page" id="page-6">
+  <div class="wrap">
+    <div class="page-top">
+      <button class="back-btn" onclick="showHome()"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg><span data-i18n="nav_home">Accueil</span></button>
+      <div class="nav-arrows">
+        <button class="arrow-btn" onclick="showPage(5)" aria-label="Rubrique précédente" data-i18n-aria="aria_prev"><svg class="ic ic-sm"><use href="#i-chev-l"/></svg></button>
+        <button class="arrow-btn" onclick="showPage(0)" aria-label="Rubrique suivante" data-i18n-aria="aria_next"><svg class="ic ic-sm"><use href="#i-chev"/></svg></button>
+      </div>
+    </div>
+    <header class="page-head"><h2 data-i18n="page6_h2">Besoin d'aide</h2><p data-i18n="page6_sub">Je reste disponible pendant votre séjour si vous avez la moindre question.</p></header>
+
+    <div class="stack">
+      <div class="help-main">
+        <svg class="ic"><use href="#i-mail"/></svg>
+        <h3 data-i18n="help_h3">Pour toute question, privilégiez les messages Airbnb.</h3>
+        <p data-i18n-html="help_p">Je réponds généralement sous <strong>2h</strong>.</p>
+      </div>
+      <div class="card card-row"><svg class="ic"><use href="#i-alert"/></svg><p data-i18n-html="help_emergency"><strong>En cas d'urgence</strong>, vous pouvez me contacter directement.</p></div>
+    </div>
+  </div>
+</div>
+
+<footer>Studio · La Trinité-sur-Mer · 56470</footer>
+
+<!-- ===== BARRE DE NAVIGATION BASSE ===== -->
+<nav class="bottom-nav" aria-label="Navigation principale">
+  <button class="bn-btn" data-nav="-1"><svg class="ic"><use href="#i-home"/></svg><span data-i18n="nav_home">Accueil</span></button>
+  <button class="bn-btn" data-nav="2"><svg class="ic"><use href="#i-compass"/></svg><span data-i18n="nav_discover">Découvrir</span></button>
+  <button class="bn-btn" data-nav="4"><svg class="ic"><use href="#i-cal"/></svg><span data-i18n="nav_agenda">Agenda</span></button>
+  <button class="bn-btn" data-nav="5"><svg class="ic"><use href="#i-info"/></svg><span data-i18n="nav_info">Infos</span></button>
+</nav>
+
+<script>
+  /* ================= NAVIGATION + BOUTON RETOUR =================
+     Les rubriques restent page-0 … page-6 et showPage(n) / showHome()
+     fonctionnent comme avant. Chaque changement de rubrique est ajouté
+     à l'historique du navigateur : le bouton retour du téléphone revient
+     à la rubrique précédente au lieu de quitter le site. */
+  const pages = ['page-0','page-1','page-2','page-3','page-4','page-5','page-6'];
+  const slugs = ['arrivee','studio','decouvrir','restaurants','agenda','infos','aide'];
+  let pageCourante = -1; // -1 = accueil
+  let currentLang = (localStorage.getItem('lang-trinite') === 'en') ? 'en' : 'fr';
+
+  const I18N = {
+    doc_title: { fr: "La Trinité-sur-Mer · Votre carnet de séjour", en: "La Trinité-sur-Mer · Your Stay Guide" },
+    hero_title: { fr: "Votre carnet de séjour", en: "Your stay guide" },
+    hero_tagline: { fr: "« Entre port, plages et baie de Quiberon »", en: "“Between the harbour, beaches and Quiberon bay”" },
+    intro_text: { fr: "Nous sommes ravis de vous accueillir dans notre studio, idéalement situé pour profiter du port et de la baie de Quiberon.", en: "We're delighted to welcome you to our studio, ideally located to enjoy the harbour and Quiberon bay." },
+    quick_stay: { fr: "Votre séjour", en: "Your stay" },
+    sejour_dates_welcome: { fr: "Bienvenue", en: "Welcome" },
+    sejour_msg_default: { fr: "Vos dates de séjour s'affichent ici automatiquement dès que vous ouvrez le lien envoyé par votre hôte.", en: "Your stay dates appear here automatically as soon as you open the link sent by your host." },
+    sejour_welcome_msg: { fr: "Bienvenue à La Trinité-sur-Mer !<br>Nous vous souhaitons un très agréable séjour.", en: "Welcome to La Trinité-sur-Mer!<br>We wish you a wonderful stay." },
+    carnet_title: { fr: "Le carnet", en: "The guide" },
+    carnet_sub: { fr: "Tout ce qu'il faut pour votre séjour.", en: "Everything you need for your stay." },
+    today_heading: { fr: "Aujourd'hui à La Trinité-sur-Mer", en: "Today in La Trinité-sur-Mer" },
+    tide_today_title: { fr: "Marées aujourd'hui", en: "Tides today" },
+    tide_high: { fr: "Pleine mer", en: "High tide" },
+    tide_low: { fr: "Basse mer", en: "Low tide" },
+    tide_unavailable: { fr: "Horaires momentanément indisponibles — voir la vignette ci-dessous.", en: "Times temporarily unavailable — see the chart below." },
+    mood_question: { fr: "Que voulez-vous faire aujourd'hui ?", en: "What would you like to do today?" },
+    couple_li1: { fr: "Balade jusqu'à la plage de Kervilen", en: "A walk to Kervilen beach" },
+    couple_li2: { fr: "Coucher de soleil depuis la pointe de Kerbihan", en: "Sunset from Kerbihan point" },
+    couple_li3: { fr: "Promenade sur le port en fin de journée", en: "An evening stroll along the harbour" },
+    couple_li4: { fr: "Excursion dans le golfe du Morbihan en bateau", en: "A boat trip on the Gulf of Morbihan" },
+    couple_li5: { fr: "Dîner au Quai ou à l'Itsasoa", en: "Dinner at Le Quai or Itsasoa" },
+    food_reveal_intro: { fr: "Nos quelques adresses préférées selon l'envie du moment :", en: "A few of our favourite addresses, depending on the mood:" },
+    food_pick1: { fr: "Le Quai — cuisine maison, vue sur le port", en: "Le Quai — home cooking, harbour view" },
+    food_pick2: { fr: "Crêperie Ty Malou — crêperie traditionnelle", en: "Crêperie Ty Malou — traditional crêperie" },
+    food_pick3: { fr: "Le Mouillage — produits de la mer", en: "Le Mouillage — fresh seafood" },
+    food_pick4: { fr: "On se met à table (Plescop) — une escapade gourmande", en: "On se met à table (Plescop) — a gourmet day trip" },
+    food_see_all: { fr: "Voir toutes nos adresses →", en: "See all our addresses →" },
+    period_morning: { fr: "Matin", en: "Morning" },
+    period_midday: { fr: "Midi", en: "Midday" },
+    period_evening: { fr: "Soir", en: "Evening" },
+    mood_sun: { fr: "Grand soleil", en: "Sunny day" },
+    mood_grey: { fr: "Temps gris", en: "Grey skies" },
+    mood_walk: { fr: "Envie de marcher", en: "Feel like walking" },
+    mood_bike: { fr: "Envie de bouger", en: "Feel like moving" },
+    mood_couple: { fr: "À deux", en: "As a couple" },
+    mood_food: { fr: "Envie de bien manger", en: "Feel like eating well" },
+    weather_unavailable: { fr: 'Météo indisponible pour le moment — <a href="https://meteofrance.com/previsions-meteo-france/la-trinite-sur-mer/56470" target="_blank" rel="noopener">voir Météo France</a>', en: 'Weather unavailable right now — <a href="https://meteofrance.com/previsions-meteo-france/la-trinite-sur-mer/56470" target="_blank" rel="noopener">check Météo France</a>' },
+    tide_more_link: { fr: "Voir les marées des prochains jours", en: "See the tide times for the coming days" },
+    cat0_label: { fr: "Arriver", en: "Arrival" },
+    cat0_sub: { fr: "Horaires et instructions", en: "Times & instructions" },
+    cat1_label: { fr: "Le studio", en: "The studio" },
+    cat1_sub: { fr: "Équipements", en: "Amenities" },
+    cat2_label: { fr: "À découvrir", en: "To explore" },
+    cat2_sub: { fr: "Trinité, baie, golfe, escapades", en: "Trinité, bay, gulf, day trips" },
+    cat4_label: { fr: "Agenda", en: "Agenda" },
+    cat4_sub: { fr: "Sorties et événements", en: "Events nearby" },
+    cat3_label: { fr: "Où manger", en: "Where to eat" },
+    cat3_sub: { fr: "Nos adresses", en: "Our picks" },
+    cat5_label: { fr: "Infos pratiques", en: "Practical info" },
+    cat5_sub: { fr: "Cartes, laveries, santé", en: "Maps, laundry, health" },
+    cat6_label: { fr: "Besoin d'aide", en: "Need help" },
+    cat6_sub: { fr: "Nous contacter pendant le séjour", en: "Contact us during your stay" },
+    nav_home: { fr: "Accueil", en: "Home" },
+    nav_discover: { fr: "Découvrir", en: "Explore" },
+    nav_agenda: { fr: "Agenda", en: "Agenda" },
+    nav_info: { fr: "Infos", en: "Info" },
+    aria_prev: { fr: "Rubrique précédente", en: "Previous section" },
+    aria_next: { fr: "Rubrique suivante", en: "Next section" },
+    page0_h2: { fr: "Arrivée & départ", en: "Arrival & departure" },
+    time_arrival_label: { fr: "Arrivée", en: "Arrival" },
+    time_arrival_value: { fr: "16h", en: "4:00 PM" },
+    time_arrival_note: { fr: "possible à partir de", en: "from" },
+    time_departure_label: { fr: "Départ", en: "Departure" },
+    time_departure_value: { fr: "10h", en: "10:00 AM" },
+    time_departure_note: { fr: "au plus tard, avant", en: "by" },
+    page0_card1: { fr: "Les instructions détaillées d'arrivée (adresse, accès, boîte à clés) vous seront envoyées <strong>la veille de votre arrivée</strong>.", en: "Detailed arrival instructions (address, access, key box) will be sent to you <strong>the day before you arrive</strong>." },
+    page0_card2_h3: { fr: "🧳 Pour votre départ", en: "🧳 Before you leave" },
+    page0_card2: { fr: "Merci de libérer le studio au plus tard à <strong>10h</strong>, afin que nous puissions préparer sereinement le logement pour les prochains voyageurs.", en: "Please leave the studio by <strong>10:00 AM</strong>, so we can get everything ready for the next guests." },
+    page0_card2_wink: { fr: "Promis, on aimerait bien vous garder un peu plus longtemps… mais les prochains arrivent !", en: "We'd happily keep you a little longer… but the next guests are already on their way!" },
+    page1_h2: { fr: "Le studio", en: "The studio" },
+    page1_sub: { fr: "Studio confortable pour 1 à 2 personnes, idéal pour un séjour à La Trinité-sur-Mer.", en: "Cosy studio for 1–2 guests, perfect for a stay in La Trinité-sur-Mer." },
+    equip_kitchen_h: { fr: "Cuisine", en: "Kitchen" },
+    equip_kitchen_p: { fr: "Cuisine équipée", en: "Fully equipped kitchen" },
+    equip_bath_h: { fr: "Salle de bain", en: "Bathroom" },
+    equip_bath_p: { fr: "Salle de bain privative", en: "Private bathroom" },
+    equip_bed_h: { fr: "Literie", en: "Bedding" },
+    equip_bed_p: { fr: "Canapé-lit de qualité avec ouverture « rapido ». Linge de lit et serviettes fournis.", en: "Quality sofa bed with quick 'rapido' opening. Bed linen and towels provided." },
+    equip_tv_h: { fr: "Télévision", en: "Television" },
+    equip_tv_p: { fr: "Télévision", en: "Television" },
+    equip_wifi_h: { fr: "Wi-Fi", en: "Wi-Fi" },
+    equip_wifi_p: { fr: "Mot de passe affiché dans le studio", en: "Password displayed in the studio" },
+    page1_note: { fr: "Des QR Codes sont disponibles dans le livre d'accueil pour accéder directement aux vidéos explicatives des principaux équipements du studio.", en: "QR codes are available in the welcome book, giving direct access to video guides for the studio's main appliances." },
+    page2_h2: { fr: "À découvrir", en: "To explore" },
+    page2_sub: { fr: "La Trinité-sur-Mer est un port vivant et authentique, au cœur de la baie de Quiberon.", en: "La Trinité-sur-Mer is a lively, authentic harbour town at the heart of Quiberon bay." },
+    label_our_pick: { fr: "Notre coup de cœur", en: "Our favourite" },
+    kervilen_h3: { fr: "La plage de Kervilen", en: "Kervilen beach" },
+    kervilen_p: { fr: "Personnellement, nous aimons beaucoup la plage de Kervilen, idéale pour une balade ou un moment de détente.", en: "We're especially fond of Kervilen beach — perfect for a stroll or a relaxed moment by the sea." },
+    more_closed: { fr: "Découvrir", en: "Discover" },
+    more_open: { fr: "Refermer", en: "Close" },
+    th_balades_title: { fr: "Balades & plages", en: "Walks & beaches" },
+    th_balades_sub: { fr: "Promenades, sentiers, GR34 et plages, à pied depuis le studio", en: "Walks, coastal paths, the GR34 and beaches, on foot from the studio" },
+    th_balades_intro: { fr: "Deux idées de sorties à pied, avec un lien vers l'itinéraire dans votre navigateur — aucune application à installer.", en: "Two walking ideas, each with a route link that opens in your browser — no app to install." },
+    walk1_title: { fr: "Le Sentier des Douaniers", en: "The Customs Officers' Path" },
+    walk_dist: { fr: "7,5 km", en: "7.5 km" },
+    walk1_time: { fr: "environ 2h", en: "about 2h" },
+    walk_easy: { fr: "Facile", en: "Easy" },
+    walk1_desc: { fr: "Boucle au départ du port : plage de Men Allen, bois d'Amour, pointe de Kerbihan et son panorama sur la baie de Quiberon, plage et marais salants de Kervillen.", en: "A loop from the harbour: Men Allen beach, the Bois d'Amour woods, Kerbihan point with its view over Quiberon bay, and Kervillen beach and salt marshes." },
+    walk1_start: { fr: "Départ : port de La Trinité-sur-Mer", en: "Starting point: La Trinité-sur-Mer harbour" },
+    walk_see: { fr: "Voir l'itinéraire", en: "See the route" },
+    walk2_title: { fr: "Boucle courte de Kervilen", en: "Short Kervilen loop" },
+    walk2_dist: { fr: "3,5 km", en: "3.5 km" },
+    walk2_time: { fr: "environ 1h", en: "about 1h" },
+    walk_veasy: { fr: "Très facile", en: "Very easy" },
+    walk2_desc: { fr: "La première moitié du Sentier des Douaniers : port, plages de Men Allen et Kerbihan, plage et marais salants de Kervillen, puis retour par le même chemin.", en: "The first half of the Customs Officers' Path: the harbour, Men Allen and Kerbihan beaches, Kervillen beach and salt marshes, then back the same way." },
+    th_balades_more: { fr: 'D\'autres idées de balades dans la région : <a class="locname" href="https://visorando.com/randonnee-saint-philibert-morbihan.html" target="_blank" rel="noopener">circuits autour de Locmariaquer et Saint-Philibert</a>.', en: 'More walking ideas nearby: <a class="locname" href="https://visorando.com/randonnee-saint-philibert-morbihan.html" target="_blank" rel="noopener">routes around Locmariaquer and Saint-Philibert</a>.' },
+    th_velo_title: { fr: "Vélo", en: "Cycling" },
+    th_velo_sub: { fr: "Location sur place et circuit conseillé vers Locmariaquer", en: "Bike hire on site and a recommended route to Locmariaquer" },
+    th_trinite_li7: { fr: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Le+Vélo+Trinitain+La+Trinité-sur-Mer" target="_blank" rel="noopener">Le Vélo Trinitain</a> (sur place), <a class="locname" href="https://www.google.com/maps/search/?api=1&query=VéloCarnac" target="_blank" rel="noopener">VéloCarnac</a>, <a class="locname" href="https://www.google.com/maps/search/?api=1&query=L%27Original+Location+Erdeven" target="_blank" rel="noopener">L\'Original Location</a> (Erdeven)', en: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Le+Vélo+Trinitain+La+Trinité-sur-Mer" target="_blank" rel="noopener">Le Vélo Trinitain</a> (on site), <a class="locname" href="https://www.google.com/maps/search/?api=1&query=VéloCarnac" target="_blank" rel="noopener">VéloCarnac</a>, <a class="locname" href="https://www.google.com/maps/search/?api=1&query=L%27Original+Location+Erdeven" target="_blank" rel="noopener">L\'Original Location</a> (Erdeven)' },
+    th_eau_title: { fr: "Sur l'eau", en: "On the water" },
+    th_eau_sub: { fr: "Kayak, paddle, bateaux électriques, croisières commentées", en: "Kayak, paddleboard, electric boats, guided boat trips" },
+    th_trinite_li8: { fr: 'Kayak &amp; paddle : <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Run%27O+12+bis+rue+des+Résistants+La+Trinité-sur-Mer" target="_blank" rel="noopener">Run\'O</a>, <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Varec%27h+Kayak+Baden" target="_blank" rel="noopener">Varec\'h Kayak</a>, <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Kerners+Kayak+%26+Paddle+Arzon" target="_blank" rel="noopener">Kerners Kayak &amp; Paddle</a>', en: 'Kayak &amp; paddleboard: <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Run%27O+12+bis+rue+des+Résistants+La+Trinité-sur-Mer" target="_blank" rel="noopener">Run\'O</a>, <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Varec%27h+Kayak+Baden" target="_blank" rel="noopener">Varec\'h Kayak</a>, <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Kerners+Kayak+%26+Paddle+Arzon" target="_blank" rel="noopener">Kerners Kayak &amp; Paddle</a>' },
+    th_trinite_li9: { fr: 'Bateaux électriques sans permis : <a class="locname" href="https://www.google.com/maps/search/?api=1&query=E.SEA+La+Trinité-sur-Mer" target="_blank" rel="noopener">E.SEA</a>', en: 'Licence-free electric boats: <a class="locname" href="https://www.google.com/maps/search/?api=1&query=E.SEA+La+Trinité-sur-Mer" target="_blank" rel="noopener">E.SEA</a>' },
+    th_trinite_li10: { fr: 'Croisières commentées : <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Vedettes+Angels+La+Trinité-sur-Mer" target="_blank" rel="noopener">Vedettes Angels</a>', en: 'Guided boat trips: <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Vedettes+Angels+La+Trinité-sur-Mer" target="_blank" rel="noopener">Vedettes Angels</a>' },
+    th_maritime_title: { fr: "Vie maritime", en: "Maritime life" },
+    th_maritime_sub: { fr: "Le port, l'ostréiculture et l'histoire maritime locale", en: "The harbour, oyster farming and local maritime history" },
+    th_trinite_li11: { fr: 'Les <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Rivière+de+Crac%27h" target="_blank" rel="noopener">barges ostréicoles de la rivière de Crac\'h</a>, témoins de la tradition ostréicole locale', en: 'The <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Rivière+de+Crac%27h" target="_blank" rel="noopener">oyster barges on the Crac\'h river</a>, a living trace of the local oyster-farming tradition' },
+    th_maritime_li2: { fr: 'Le <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Port+de+La+Trinité-sur-Mer" target="_blank" rel="noopener">port de plaisance</a>, où fut construit le Pen Duick II d\'Éric Tabarly', en: 'The <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Port+de+La+Trinité-sur-Mer" target="_blank" rel="noopener">marina</a>, where Éric Tabarly\'s Pen Duick II was built' },
+    th_trinite_note: { fr: "Circuit conseillé : La Trinité → Locmariaquer (~34 km, piste et chemins intérieurs).", en: "Recommended route: La Trinité → Locmariaquer (~34 km, cycle path and inland tracks)." },
+
+    th_baie_title: { fr: "Autour de la baie", en: "Around the bay" },
+    th_baie_sub: { fr: "Carnac, Locmariaquer, Auray, Le Bono, Quiberon", en: "Carnac, Locmariaquer, Auray, Le Bono, Quiberon" },
+    th_baie_li1: { fr: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Alignements+de+Carnac" target="_blank" rel="noopener">Alignements de Carnac</a> (menhirs et dolmens)', en: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Alignements+de+Carnac" target="_blank" rel="noopener">The Carnac standing stones</a> (menhirs and dolmens)' },
+    th_baie_li2: { fr: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Site+mégalithique+de+Locmariaquer" target="_blank" rel="noopener">Locmariaquer</a> et ses mégalithes (Grand Menhir Brisé, table des Marchands)', en: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Site+mégalithique+de+Locmariaquer" target="_blank" rel="noopener">Locmariaquer</a> and its megaliths (Grand Menhir Brisé, Table des Marchands)' },
+    th_baie_li3: { fr: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Saint-Philibert+Morbihan" target="_blank" rel="noopener">Saint-Philibert</a>, où l\'on visite la biscuiterie La Trinitaine', en: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Saint-Philibert+Morbihan" target="_blank" rel="noopener">Saint-Philibert</a>, home to the La Trinitaine biscuit factory' },
+    th_baie_li4: { fr: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Port+de+Saint-Goustan+Auray" target="_blank" rel="noopener">Auray et le port de Saint-Goustan</a>', en: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Port+de+Saint-Goustan+Auray" target="_blank" rel="noopener">Auray and Saint-Goustan harbour</a>' },
+    th_baie_li5: { fr: 'Le Bono : balade le long de la rivière (départ <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Chapelle+Saint-Avoye+Le+Bono" target="_blank" rel="noopener">chapelle St-Avoye</a>)', en: 'Le Bono: a walk along the river (starting at <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Chapelle+Saint-Avoye+Le+Bono" target="_blank" rel="noopener">St-Avoye chapel</a>)' },
+    th_baie_li6: { fr: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Isthme+de+Penthièvre" target="_blank" rel="noopener">Quiberon, la presqu\'île et la Côte Sauvage</a>', en: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Isthme+de+Penthièvre" target="_blank" rel="noopener">Quiberon, the peninsula and the Côte Sauvage</a>' },
+    th_baie_li7: { fr: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Thalasso+Carnac" target="_blank" rel="noopener">Thalasso &amp; spa marin de Carnac</a>', en: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Thalasso+Carnac" target="_blank" rel="noopener">Carnac thalassotherapy &amp; sea spa</a>' },
+    th_baie_note: { fr: "Le Pass des Mégalithes donne accès à plusieurs sites (Carnac, Locmariaquer, Gavrinis).", en: "The Pass des Mégalithes gives access to several sites (Carnac, Locmariaquer, Gavrinis)." },
+
+    th_golfe_title: { fr: "Golfe du Morbihan", en: "Gulf of Morbihan" },
+    th_golfe_sub: { fr: "Vannes, îles, Gavrinis, presqu'île de Rhuys", en: "Vannes, islands, Gavrinis, the Rhuys peninsula" },
+    th_golfe_li1: { fr: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Vieille+ville+de+Vannes" target="_blank" rel="noopener">Vannes et sa vieille ville historique</a>', en: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Vieille+ville+de+Vannes" target="_blank" rel="noopener">Vannes and its historic old town</a>' },
+    th_golfe_li3: { fr: 'Îles : <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Île+aux+Moines" target="_blank" rel="noopener">Île aux Moines</a>, <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Île+d%27Arz" target="_blank" rel="noopener">Île d\'Arz</a>', en: 'Islands: <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Île+aux+Moines" target="_blank" rel="noopener">Île aux Moines</a>, <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Île+d%27Arz" target="_blank" rel="noopener">Île d\'Arz</a>' },
+    th_golfe_li_gavrinis: { fr: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Cairn+de+Gavrinis" target="_blank" rel="noopener">Gavrinis</a> (île &amp; cairn néolithique)', en: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Cairn+de+Gavrinis" target="_blank" rel="noopener">Gavrinis</a> (island &amp; Neolithic cairn)' },
+    th_golfe_li_rhuys: { fr: 'La presqu\'île de Rhuys et le <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Château+de+Suscinio" target="_blank" rel="noopener">château de Suscinio</a>', en: 'The Rhuys peninsula and <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Château+de+Suscinio" target="_blank" rel="noopener">Suscinio castle</a>' },
+    th_golfe_li4: { fr: 'Navigation sur anciens bateaux : <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Krog+e+Barz+Golfe+du+Morbihan" target="_blank" rel="noopener">Krog e Barz</a>, <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Voiles+du+Golfe+André+et+Yvette" target="_blank" rel="noopener">Voiles du Golfe André &amp; Yvette</a>', en: 'Sailing on traditional boats: <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Krog+e+Barz+Golfe+du+Morbihan" target="_blank" rel="noopener">Krog e Barz</a>, <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Voiles+du+Golfe+André+et+Yvette" target="_blank" rel="noopener">Voiles du Golfe André &amp; Yvette</a>' },
+    th_golfe_li5: { fr: 'Éco-balade en kayak : <a class="locname" href="https://sentiersmarins.com" target="_blank" rel="noopener">sentiersmarins.com</a>', en: 'Eco-friendly kayak tours: <a class="locname" href="https://sentiersmarins.com" target="_blank" rel="noopener">sentiersmarins.com</a>' },
+    th_golfe_li6: { fr: 'Hélicoptère &amp; saut en parachute à <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Monterblanc" target="_blank" rel="noopener">Monterblanc</a>', en: 'Helicopter flights &amp; skydiving at <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Monterblanc" target="_blank" rel="noopener">Monterblanc</a>' },
+    th_golfe_li7: { fr: "City Pass Vannes : réductions et transports inclus", en: "Vannes City Pass: discounts and transport included" },
+
+    th_escapades_title: { fr: "Escapades", en: "Day trips" },
+    th_escapades_sub: { fr: "Lorient et Belle-Île, pour une journée entière", en: "Lorient and Belle-Île, for a full day out" },
+    th_escapades_h4_lorient: { fr: "Lorient", en: "Lorient" },
+    th_escapades_li1: { fr: 'Le <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Port+de+pêche+de+Keroman+Lorient" target="_blank" rel="noopener">port de pêche de Keroman</a> (le plus grand port de pêche de France)', en: 'The <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Port+de+pêche+de+Keroman+Lorient" target="_blank" rel="noopener">Keroman fishing port</a> (France\'s largest fishing port)' },
+    th_escapades_li2: { fr: 'La <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Cité+de+la+Voile+Éric+Tabarly+Lorient" target="_blank" rel="noopener">Cité de la Voile Éric Tabarly</a>', en: 'La <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Cité+de+la+Voile+Éric+Tabarly+Lorient" target="_blank" rel="noopener">Cité de la Voile Éric Tabarly</a> (sailing museum)' },
+    th_escapades_li3: { fr: "Festival Interceltique (début août) : l'un des plus grands festivals celtiques au monde", en: "Interceltic Festival (early August): one of the world's largest Celtic festivals" },
+    th_escapades_h4_belleile: { fr: "Belle-Île", en: "Belle-Île" },
+    th_escapades_li4: { fr: 'Traversée régulière ou à la voile (<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Iliens+voile+Belle-Île" target="_blank" rel="noopener">Iliens</a>)', en: 'Regular ferry or under sail (<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Iliens+voile+Belle-Île" target="_blank" rel="noopener">Iliens</a>)' },
+    th_escapades_li5: { fr: 'Liaisons et croisières : <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Navix+La+Trinité-sur-Mer" target="_blank" rel="noopener">Navix</a>, <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Le+Passeur+des+Îles+La+Trinité-sur-Mer" target="_blank" rel="noopener">Le Passeur des Îles</a>', en: 'Crossings and cruises: <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Navix+La+Trinité-sur-Mer" target="_blank" rel="noopener">Navix</a>, <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Le+Passeur+des+Îles+La+Trinité-sur-Mer" target="_blank" rel="noopener">Le Passeur des Îles</a>' },
+    th_escapades_h4_other: { fr: "Autre escapade", en: "Another day trip" },
+    th_escapades_li6: { fr: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Poul+Fétan" target="_blank" rel="noopener">Poul Fétan</a>, village breton reconstitué', en: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Poul+Fétan" target="_blank" rel="noopener">Poul Fétan</a>, a reconstructed Breton village' },
+
+    th_meteo_title: { fr: "Mauvaise météo ?", en: "Bad weather?" },
+    th_meteo_sub: { fr: "Musées, patrimoine couvert, thalasso, gourmandises", en: "Museums, indoor heritage, thalassotherapy, treats" },
+    th_meteo_li1: { fr: 'La <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Maison+des+Mégalithes+Carnac" target="_blank" rel="noopener">Maison des Mégalithes</a> à Carnac : expositions et vidéos, accès libre et gratuit', en: 'The <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Maison+des+Mégalithes+Carnac" target="_blank" rel="noopener">Maison des Mégalithes</a> in Carnac: exhibitions and videos, free entry' },
+    th_meteo_li2: { fr: 'Le <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Musée+de+Préhistoire+Carnac" target="_blank" rel="noopener">musée de Préhistoire</a> de Carnac', en: 'The <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Musée+de+Préhistoire+Carnac" target="_blank" rel="noopener">Museum of Prehistory</a> in Carnac' },
+    th_meteo_li3: { fr: 'La <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Cité+de+la+Voile+Éric+Tabarly+Lorient" target="_blank" rel="noopener">Cité de la Voile Éric Tabarly</a>, à Lorient', en: 'La <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Cité+de+la+Voile+Éric+Tabarly+Lorient" target="_blank" rel="noopener">Cité de la Voile Éric Tabarly</a>, in Lorient' },
+    th_meteo_li4: { fr: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Thalasso+Carnac" target="_blank" rel="noopener">Thalasso &amp; spa marin de Carnac</a>', en: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Thalasso+Carnac" target="_blank" rel="noopener">Carnac thalassotherapy &amp; sea spa</a>' },
+    th_meteo_li5: { fr: 'La <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Biscuiterie+La+Trinitaine+Saint-Philibert" target="_blank" rel="noopener">biscuiterie La Trinitaine</a>, à Saint-Philibert', en: 'The <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Biscuiterie+La+Trinitaine+Saint-Philibert" target="_blank" rel="noopener">La Trinitaine biscuit factory</a>, in Saint-Philibert' },
+    th_meteo_food: { fr: "🍽️ Envie de bien manger : voir notre sélection", en: "🍽️ Feel like eating well: see our picks" },
+
+    th_commerces_title: { fr: "Commerces & services", en: "Shops & services" },
+    th_commerces_sub: { fr: "Boulangeries, marché, pharmacie et essentiels du quotidien", en: "Bakeries, market, pharmacy and everyday essentials" },
+    th_commerces_h4_bakery: { fr: "Boulangeries", en: "Bakeries" },
+    th_commerces_li3: { fr: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Boulangerie+La+Trinitaine+Cours+des+Quais+La+Trinité-sur-Mer" target="_blank" rel="noopener">La Trinitaine</a>, Cours des Quais', en: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Boulangerie+La+Trinitaine+Cours+des+Quais+La+Trinité-sur-Mer" target="_blank" rel="noopener">La Trinitaine</a>, Cours des Quais' },
+    th_commerces_marreedouce: { fr: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=La+Marée+Douce+34+cours+des+Quais+La+Trinité-sur-Mer" target="_blank" rel="noopener">La Marée Douce</a>, boulangerie-pâtisserie, 34 cours des Quais', en: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=La+Marée+Douce+34+cours+des+Quais+La+Trinité-sur-Mer" target="_blank" rel="noopener">La Marée Douce</a>, bakery, 34 cours des Quais' },
+    th_commerces_h4_food: { fr: "Courses & marché", en: "Groceries & market" },
+    th_commerces_li1: { fr: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Place+du+Voulien+La+Trinité-sur-Mer" target="_blank" rel="noopener">Marché</a> : place du Voulien, mardi et vendredi de 8h à 13h', en: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Place+du+Voulien+La+Trinité-sur-Mer" target="_blank" rel="noopener">Market</a>: Place du Voulien, Tuesdays and Fridays, 8am–1pm' },
+    th_commerces_li2: { fr: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Halle+aux+poissons+Cours+des+Quais+La+Trinité-sur-Mer" target="_blank" rel="noopener">Halle aux poissons</a> : Cours des Quais, tous les jours de 8h30 à 12h30, produits de la mer', en: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Halle+aux+poissons+Cours+des+Quais+La+Trinité-sur-Mer" target="_blank" rel="noopener">Fish market hall</a>: Cours des Quais, daily 8:30am–12:30pm, fresh seafood' },
+    th_commerces_li4: { fr: 'Épicerie fine : <a class="locname" href="https://www.google.com/maps/search/?api=1&query=L%27Épicerie+du+Port+24+cours+des+Quais+La+Trinité-sur-Mer" target="_blank" rel="noopener">L\'Épicerie du Port</a>, 24 cours des Quais', en: 'Fine grocery: <a class="locname" href="https://www.google.com/maps/search/?api=1&query=L%27Épicerie+du+Port+24+cours+des+Quais+La+Trinité-sur-Mer" target="_blank" rel="noopener">L\'Épicerie du Port</a>, 24 cours des Quais' },
+    th_commerces_h4_services: { fr: "Services", en: "Services" },
+    th_commerces_li5: { fr: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Pharmacie+21+cours+des+Quais+La+Trinité-sur-Mer" target="_blank" rel="noopener">Pharmacie de La Trinité-sur-Mer</a> : 21 cours des Quais, tél. 02 97 55 72 38', en: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Pharmacie+21+cours+des+Quais+La+Trinité-sur-Mer" target="_blank" rel="noopener">La Trinité-sur-Mer pharmacy</a>: 21 cours des Quais, tel. +33 2 97 55 72 38' },
+    th_commerces_li6: { fr: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Office+de+tourisme+30+cours+des+Quais+La+Trinité-sur-Mer" target="_blank" rel="noopener">Office de tourisme</a> : 30 cours des Quais', en: '<a class="locname" href="https://www.google.com/maps/search/?api=1&query=Office+de+tourisme+30+cours+des+Quais+La+Trinité-sur-Mer" target="_blank" rel="noopener">Tourist office</a>: 30 cours des Quais' },
+    th_commerces_note: { fr: "Horaires susceptibles de varier selon la saison.", en: "Opening hours may vary by season." },
+    page3_h2: { fr: "Où manger ?", en: "Where to eat" },
+    page3_sub: { fr: "Quelques adresses que nous recommandons à La Trinité-sur-Mer.", en: "A few addresses we recommend in La Trinité-sur-Mer." },
+    btn_maps: { fr: "Voir sur Maps", en: "View on Maps" },
+    btn_website: { fr: "Site web", en: "Website" },
+    resto_lequai_chip: { fr: "Cuisine maison", en: "Home cooking" },
+    resto_lequai_p: { fr: "Cuisine maison depuis 1990, produits locaux. Vue sur le port, terrasse, ouvert tous les jours.", en: "Home cooking since 1990, local produce. Harbour view, terrace, open every day." },
+    resto_itsasoa_chip: { fr: "Cuisine française", en: "French cuisine" },
+    resto_itsasoa_p: { fr: "Cuisine française raffinée, dans une ambiance soignée. Réservation conseillée.", en: "Refined French cuisine, in a polished setting. Booking recommended." },
+    resto_mouillage_chip: { fr: "Produits de la mer", en: "Seafood" },
+    resto_mouillage_p: { fr: "Face au port de pêche, vue sur le chenal. Spécialités de produits de la mer ultra frais.", en: "Facing the fishing harbour, view over the channel. Ultra-fresh seafood specialities." },
+    resto_group_close: { fr: "À deux pas", en: "Right nearby" },
+    resto_group_excursion: { fr: "Le temps d'une excursion", en: "Worth the detour" },
+    resto_osmat_chip: { fr: "Cuisine artisanale", en: "Artisanal cooking" },
+    resto_osmat_loc: { fr: "Plescop", en: "Plescop" },
+    resto_osmat_p: { fr: "Une adresse un peu à l'écart des circuits touristiques, dans une petite zone commerciale. Ne vous fiez pas à l'environnement : le chef propose une cuisine raffinée et accessible, à base de produits frais et de saison. Une bonne surprise pour ceux qui aiment les adresses confidentielles.", en: "An address a little off the tourist track, in a small commercial area. Don't judge it by its surroundings: the chef serves refined, approachable cooking made with fresh, seasonal produce. A pleasant surprise for lovers of hidden gems." },
+    resto_osmat_note: { fr: "Réservation conseillée. À associer à une journée ou une excursion vers Vannes.", en: "Booking recommended. Best paired with a day out or a trip to Vannes." },
+    btn_book: { fr: "Réserver", en: "Book" },
+    btn_directions: { fr: "Itinéraire", en: "Directions" },
+    resto_typmalou_chip: { fr: "Crêperie", en: "Crêperie" },
+    resto_typmalou_p: { fr: "Crêperie bretonne traditionnelle, juste à côté du Quai.", en: "Traditional Breton crêperie, right next to Le Quai." },
+    tripadvisor_link: { fr: "Tous les restaurants sur Tripadvisor", en: "All restaurants on Tripadvisor" },
+    page4_h2: { fr: "Agenda & sorties", en: "What's on" },
+    page4_sub: { fr: "Événements à La Trinité et dans tout le Morbihan", en: "Events in La Trinité and across the Morbihan" },
+    agenda_loading: { fr: "Chargement des événements…", en: "Loading events…" },
+    agenda_empty_title: { fr: "Pas d'événement sélectionné pour vos dates.", en: "No events match your dates." },
+    agenda_empty_sub: { fr: "Consultez les agendas locaux ci-dessous pour voir les animations à jour.", en: "Check the local listings below for up-to-date events." },
+    agenda_unavailable_title: { fr: "Agenda personnalisé indisponible.", en: "Personalised agenda unavailable." },
+    agenda_unavailable_sub: { fr: "Les agendas officiels ci-dessous restent accessibles.", en: "The official listings below remain available." },
+    agenda_more_label: { fr: "Pour aller plus loin", en: "For more" },
+    agenda_link1_title: { fr: "Agenda officiel de La Trinité", en: "La Trinité official events" },
+    agenda_link1_sub: { fr: "Fêtes, marchés, animations locales", en: "Festivals, markets, local events" },
+    agenda_link2_title: { fr: "Agenda Morbihan", en: "Morbihan events" },
+    agenda_link2_sub: { fr: "Lorient, Vannes, Auray, Quiberon…", en: "Lorient, Vannes, Auray, Quiberon…" },
+    agenda_link3_title: { fr: "Agenda culturel Morbihan", en: "Morbihan cultural events" },
+    agenda_link3_sub: { fr: "Concerts, spectacles, expos, festivals", en: "Concerts, shows, exhibitions, festivals" },
+    agenda_link4_title: { fr: "Agenda Golfe du Morbihan", en: "Gulf of Morbihan events" },
+    agenda_link4_sub: { fr: "Quiberon, presqu'île, événements nautiques", en: "Quiberon, the peninsula, sailing events" },
+    mois_abrev: { fr: ['janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'], en: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'] },
+    page5_h2: { fr: "Infos pratiques", en: "Practical info" },
+    page5_sub: { fr: "Accès rapide aux informations utiles pour votre séjour.", en: "Quick access to useful information for your stay." },
+    google_maps_link: { fr: "Google Maps", en: "Google Maps" },
+    laundry_title: { fr: "Laveries", en: "Laundry" },
+    laundry_li1: { fr: "<strong>Le Salon Lavoir</strong> — notre recommandation — 36 cours des Quais, 7j/7 de 7h à 21h", en: "<strong>Le Salon Lavoir</strong> — our recommendation — 36 cours des Quais, open daily 7am–9pm" },
+    laundry_li2: { fr: "Laverie Raz la Crêpe — Place Voulien <em>(les sèche-linge peuvent être défaillants)</em>", en: "Laverie Raz la Crêpe — Place Voulien <em>(the dryers can be unreliable)</em>" },
+    health_title: { fr: "🩺 Santé & urgences", en: "🩺 Health & emergencies" },
+    health_samu: { fr: "SAMU", en: "Emergency medical" },
+    health_firemen: { fr: "Pompiers", en: "Fire brigade" },
+    health_eu: { fr: "Urgence européenne", en: "EU emergency number" },
+    health_li1: { fr: 'Urgences (SAMU/SAU) : <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Centre+Hospitalier+Bretagne+Atlantique+Vannes" target="_blank" rel="noopener">CHBA Vannes</a>, 20 bd du Général Maurice Guillaudot', en: 'Emergency department (SAMU/SAU): <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Centre+Hospitalier+Bretagne+Atlantique+Vannes" target="_blank" rel="noopener">CHBA Vannes</a>, 20 bd du Général Maurice Guillaudot' },
+    health_li2: { fr: 'Site le plus proche : <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Centre+Hospitalier+Bretagne+Atlantique+Auray" target="_blank" rel="noopener">CHBA Auray</a>, 2 rue du Pratel', en: 'Nearest site: <a class="locname" href="https://www.google.com/maps/search/?api=1&query=Centre+Hospitalier+Bretagne+Atlantique+Auray" target="_blank" rel="noopener">CHBA Auray</a>, 2 rue du Pratel' },
+    health_li3: { fr: 'Médecins, dentistes, pharmacies : <a class="locname" href="https://annuairesante.ameli.fr/recherche.html" target="_blank" rel="noopener">Annuaire Santé (Assurance Maladie)</a>', en: 'Doctors, dentists, pharmacies: <a class="locname" href="https://annuairesante.ameli.fr/recherche.html" target="_blank" rel="noopener">Annuaire Santé (French health insurance directory)</a>' },
+    page6_h2: { fr: "Besoin d'aide", en: "Need help" },
+    page6_sub: { fr: "Je reste disponible pendant votre séjour si vous avez la moindre question.", en: "I'm available during your stay for any question at all." },
+    help_h3: { fr: "Pour toute question, privilégiez les messages Airbnb.", en: "For any question, please message me through Airbnb." },
+    help_p: { fr: "Je réponds généralement sous <strong>2h</strong>.", en: "I usually reply within <strong>2 hours</strong>." },
+    help_emergency: { fr: "<strong>En cas d'urgence</strong>, vous pouvez me contacter directement.", en: "<strong>In case of emergency</strong>, you can contact me directly." },
+  };
+
+  function applyLang(lang){
+    currentLang = lang;
+    document.documentElement.lang = lang;
+    try { localStorage.setItem('lang-trinite', lang); } catch(e) {}
+    document.querySelectorAll('[data-i18n]').forEach(elt => {
+      const k = elt.getAttribute('data-i18n');
+      if (I18N[k]) elt.textContent = I18N[k][lang];
+    });
+    document.querySelectorAll('[data-i18n-html]').forEach(elt => {
+      const k = elt.getAttribute('data-i18n-html');
+      if (I18N[k]) elt.innerHTML = I18N[k][lang];
+    });
+    document.querySelectorAll('[data-i18n-ph]').forEach(elt => {
+      const k = elt.getAttribute('data-i18n-ph');
+      if (I18N[k]) elt.setAttribute('placeholder', I18N[k][lang]);
+    });
+    document.querySelectorAll('[data-i18n-aria]').forEach(elt => {
+      const k = elt.getAttribute('data-i18n-aria');
+      if (I18N[k]) elt.setAttribute('aria-label', I18N[k][lang]);
+    });
+    const titleEl = document.getElementById('pageTitle');
+    if (titleEl) titleEl.textContent = I18N.doc_title[lang];
+    const langBtn = document.getElementById('langBtn');
+    if (langBtn) langBtn.textContent = (lang === 'fr') ? 'English' : 'Français';
+    if (window.lastWeatherPeriods && window.renderMeteo) window.renderMeteo();
+    if (window.injectTideVignette) window.injectTideVignette();
+    if (window.lastTideEvents && window.renderTideList) window.renderTideList();
+    if (window.renderAgendaForLang) window.renderAgendaForLang();
+    if (window.renderTodayHighlight) window.renderTodayHighlight();
+    if (typeof lireDatesSejour === 'function' && typeof appliquerDatesReelles === 'function') {
+      appliquerDatesReelles(lireDatesSejour());
+    }
+    const todayDateEl = document.getElementById('todayDate');
+    if (todayDateEl && typeof jourComplet === 'function') todayDateEl.textContent = jourComplet(new Date());
+  }
+
+  function urlAccueil(){ return location.pathname + location.search; }
+
+  function fermerOverlays(){
+    document.querySelectorAll('.form-overlay.open').forEach(o => o.classList.remove('open'));
+  }
+
+  function majBarreNav(){
+    // Rubrique -> onglet actif de la barre du bas
+    const onglet = { '-1': -1, 0: -1, 1: -1, 2: 2, 3: 2, 4: 4, 5: 5, 6: 5 }[pageCourante];
+    document.querySelectorAll('.bn-btn').forEach(b => {
+      const actif = Number(b.dataset.nav) === onglet;
+      b.classList.toggle('active', actif);
+      if (actif) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current');
+    });
+  }
+
+  function afficher(idx){
+    fermerOverlays();
+    document.getElementById('home').style.display = idx === -1 ? 'block' : 'none';
+    pages.forEach((p, i) => document.getElementById(p).style.display = i === idx ? 'block' : 'none');
+    pageCourante = idx;
+    majBarreNav();
+    window.scrollTo(0, 0);
+  }
+
+  function showPage(idx, depuisHistorique) {
+    if (idx === pageCourante) { window.scrollTo({ top: 0, behavior: 'smooth' }); return; }
+    afficher(idx);
+    if (!depuisHistorique) {
+      try { history.pushState({ p: idx }, '', '#' + slugs[idx]); } catch(e) {}
+    }
+  }
+
+  function showHome(depuisHistorique) {
+    if (pageCourante === -1) { window.scrollTo({ top: 0, behavior: 'smooth' }); return; }
+    afficher(-1);
+    if (!depuisHistorique) {
+      try { history.pushState({ p: -1 }, '', urlAccueil()); } catch(e) {}
+    }
+  }
+
+  window.addEventListener('popstate', e => {
+    let idx = (e.state && typeof e.state.p === 'number') ? e.state.p : slugs.indexOf(location.hash.slice(1));
+    afficher(idx);
+  });
+
+  // Au chargement : l'accueil est toujours la première étape de l'historique.
+  (function initNavigation(){
+    const initiale = slugs.indexOf(location.hash.slice(1));
+    try { history.replaceState({ p: -1 }, '', urlAccueil()); } catch(e) {}
+    if (initiale >= 0) {
+      afficher(initiale);
+      try { history.pushState({ p: initiale }, '', '#' + slugs[initiale]); } catch(e) {}
+    } else {
+      pageCourante = -1;
+      majBarreNav();
+    }
+  })();
+
+  document.querySelectorAll('.bn-btn').forEach(b => {
+    b.addEventListener('click', () => {
+      const n = Number(b.dataset.nav);
+      n === -1 ? showHome() : showPage(n);
+    });
+  });
+
+  // Défilement vers une zone de la page (accès rapide, thèmes)
+  document.querySelectorAll('[data-scroll]').forEach(b => {
+    b.addEventListener('click', () => {
+      const cible = document.getElementById(b.dataset.scroll);
+      if (!cible) return;
+      if (cible.tagName === 'DETAILS') cible.open = true;
+      cible.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+
+  /* ================= TEINTE SELON L'HEURE (conservée) ================= */
+  (function(){
+    const h = new Date().getHours();
+    let t = 't-midday';
+    if (h >= 6 && h < 11) t = 't-morning';
+    else if (h >= 18 && h < 22) t = 't-evening';
+    else if (h >= 22 || h < 6) t = 't-night';
+    document.body.classList.add(t);
+  })();
+
+  /* ================= OUTILS DATES ================= */
+  function localeCourante(){ return currentLang === 'en' ? 'en-GB' : 'fr-FR'; }
+  function majuscule(s){ return s.charAt(0).toUpperCase() + s.slice(1); }
+  function jourComplet(d){ return majuscule(d.toLocaleDateString(localeCourante(), { weekday: 'long', day: 'numeric', month: 'long' })); }
+  function jourMois(d){ return d.toLocaleDateString(localeCourante(), { day: 'numeric', month: 'long' }); }
+  function plageDates(a, d){
+    if (a.getMonth() === d.getMonth() && a.getFullYear() === d.getFullYear()) {
+      return `${a.getDate()} → ${d.getDate()} ${d.toLocaleDateString(localeCourante(), { month: 'long' })}`;
+    }
+    return `${jourMois(a)} → ${jourMois(d)}`;
+  }
+  function dateValide(s){ return typeof s === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(s) && !isNaN(new Date(s + 'T00:00:00')); }
+
+  const todayDateEl = document.getElementById('todayDate');
+  if (todayDateEl) todayDateEl.textContent = jourComplet(new Date());
+
+  /* ================= DATES DU SÉJOUR (simplifié) =================
+     Les dates sont renseignées par l'hôte dans le lien envoyé au voyageur :
+     ?arrivee=YYYY-MM-DD&depart=YYYY-MM-DD
+     Aucune saisie n'est demandée au voyageur. Plus de décompte de jours ni
+     de messages de progression : uniquement les dates et un mot de bienvenue. */
+
+  function lireDatesSejour(){
+    const params = new URLSearchParams(window.location.search);
+    const a = params.get('arrivee');
+    const d = params.get('depart');
+    return (a && d) ? { arrivee: a, depart: d } : null;
+  }
+
+  /* Affiche la carte séjour : sans dates (message d'accueil générique)
+     ou avec dates (plage de dates + mot de bienvenue). */
+  function appliquerDatesReelles(dates){
+    const el = id => document.getElementById(id);
+    const avecDates = dates && dateValide(dates.arrivee) && dateValide(dates.depart) && dates.depart > dates.arrivee;
+
+    if (!avecDates) {
+      el('sejourDates').textContent = I18N.sejour_dates_welcome[currentLang];
+      el('sejourMsg').textContent = I18N.sejour_msg_default[currentLang];
+      return false;
+    }
+
+    const arrivee = new Date(dates.arrivee + 'T00:00:00');
+    const depart = new Date(dates.depart + 'T00:00:00');
+    el('sejourDates').textContent = plageDates(arrivee, depart);
+    el('sejourMsg').innerHTML = I18N.sejour_welcome_msg[currentLang];
+    return true;
+  }
+
+  /* ================= AGENDA DYNAMIQUE =================
+     Les événements sont lus dans agenda.json placé à la racine du site.
+     Le filtre tient compte des dates de séjour si elles sont renseignées.
+     Sans dates, on affiche les prochains événements disponibles.
+     Si le fichier est absent ou vide, les liens de référence restent visibles. */
+  (function(){
+    const cible = document.getElementById('agendaDynamic');
+    if (!cible) return;
+
+    const mois = (I18N.mois_abrev[currentLang]);
+
+    const parseDate = s => /^\d{4}-\d{2}-\d{2}$/.test(String(s||'')) ? new Date(s + 'T00:00:00') : null;
+    const debutDuJour = d => { const x = new Date(d); x.setHours(0,0,0,0); return x; };
+    const finDuJour = d => { const x = new Date(d); x.setHours(23,59,59,999); return x; };
+    const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    const formatDate = d => `<span class="agenda-date-day">${d.getDate()}</span><span class="agenda-date-month">${(I18N.mois_abrev[currentLang])[d.getMonth()]}</span>`;
+
+    /* La période du séjour est désormais lue une seule fois via lireDatesSejour()
+       (même source que le sablier), au lieu d\'une logique dupliquée avec un ancien
+       stockage localStorage qui n\'était jamais réellement alimenté. */
+    function periodeSejour(){
+      const dates = lireDatesSejour();
+      if (!dates) return null;
+      const a = parseDate(dates.arrivee), d = parseDate(dates.depart);
+      return a && d && d > a ? {a:debutDuJour(a), d:finDuJour(d)} : null;
+    }
+
+    let cachedEvents = [];
+    let agendaMode = 'loading';
+    let rawEvents = [];
+
+    function afficher(events){
+      cachedEvents = events;
+      agendaMode = events.length ? 'ok' : 'empty';
+      if (!events.length) {
+        cible.innerHTML = `<div class="agenda-empty"><strong>${I18N.agenda_empty_title[currentLang]}</strong><br>${I18N.agenda_empty_sub[currentLang]}</div>`;
+        return;
+      }
+      const groupes = new Map();
+      events.forEach(e => {
+        const d = parseDate(e.date);
+        const cle = e.zone || 'La Trinité-sur-Mer';
+        if (!groupes.has(cle)) groupes.set(cle, []);
+        groupes.get(cle).push({...e, _date:d});
+      });
+      let html='';
+      groupes.forEach((items, zone) => {
+        html += `<div class="agenda-group"><span class="agenda-label">${esc(zone)}</span>`;
+        items.forEach(e => {
+          const lieu = e.lieu ? `📍 ${esc(e.lieu)}` : '';
+          const type = e.type ? `<span class="agenda-badge">${esc(e.type)}</span>` : '';
+          const href = e.url || '#';
+          html += `<a class="agenda-event" href="${esc(href)}" target="_blank" rel="noopener">`+
+            `<span class="agenda-date">${formatDate(e._date)}</span>`+
+            `<span><span class="agenda-event-title">${esc(e.titre)}</span><span class="agenda-event-meta">${lieu}${lieu && e.horaire ? ' · ' : ''}${esc(e.horaire || '')}</span>${type}</span>`+
+            `<svg class="ic ic-sm agenda-event-arrow"><use href="#i-ext"/></svg></a>`;
+        });
+        html += '</div>';
+      });
+      cible.innerHTML = html;
+    }
+
+    fetch('./agenda.json', {cache:'no-store'})
+      .then(r => { if (!r.ok) throw new Error('agenda.json indisponible'); return r.json(); })
+      .then(data => {
+        const liste = Array.isArray(data) ? data : (Array.isArray(data.events) ? data.events : []);
+        const maintenant = debutDuJour(new Date());
+        const sejour = periodeSejour();
+        let events = liste.map(e => ({...e, _date:parseDate(e.date)})).filter(e => e._date && e.titre);
+        rawEvents = events;
+        if (sejour) {
+          events = events.filter(e => e._date >= sejour.a && e._date <= sejour.d);
+          if (events.length) {
+            events.sort((a,b) => a._date-b._date);
+          }
+        } else {
+          events = events.filter(e => e._date >= maintenant).sort((a,b) => a._date-b._date).slice(0, 12);
+        }
+        afficher(events);
+        window.renderTodayHighlight();
+      })
+      .catch(() => {
+        agendaMode = 'unavailable';
+        cible.innerHTML = `<div class="agenda-empty"><strong>${I18N.agenda_unavailable_title[currentLang]}</strong><br>${I18N.agenda_unavailable_sub[currentLang]}</div>`;
+        if (window.renderTodayHighlight) window.renderTodayHighlight();
+      });
+
+    window.renderAgendaForLang = function(){
+      if (agendaMode === 'loading') { cible.innerHTML = `<div class="agenda-loading">${I18N.agenda_loading[currentLang]}</div>`; }
+      else if (agendaMode === 'unavailable') { cible.innerHTML = `<div class="agenda-empty"><strong>${I18N.agenda_unavailable_title[currentLang]}</strong><br>${I18N.agenda_unavailable_sub[currentLang]}</div>`; }
+      else { afficher(cachedEvents); }
+    };
+
+    /* Rappel discret dans la cartouche "Aujourd'hui" : un seul événement du
+       jour s'il y en a un, à partir des mêmes données que la page Agenda
+       (pas de second fetch). Pas de doublon avec la page Agenda complète. */
+    window.renderTodayHighlight = function(){
+      const zone = document.getElementById('todayHighlight');
+      if (!zone) return;
+      if (agendaMode !== 'ok') { zone.hidden = true; return; }
+      const jour0 = debutDuJour(new Date());
+      const today = rawEvents.filter(e => e._date.getTime() === jour0.getTime()).sort((a,b) => (a.horaire||'').localeCompare(b.horaire||''));
+      if (!today.length) { zone.hidden = true; return; }
+      const premier = today[0];
+      const reste = today.length - 1;
+      const lieu = premier.lieu ? ` · ${esc(premier.lieu)}` : '';
+      const horaire = premier.horaire ? ` · ${esc(premier.horaire)}` : '';
+      const suffixe = reste > 0 ? ` (+${reste})` : '';
+      zone.innerHTML = `<button type="button" class="today-event-line" onclick="showPage(4)">🎉 <span>${esc(premier.titre)}${horaire}${lieu}${suffixe}</span></button>`;
+      zone.hidden = false;
+    };
+  })();
+
+  /* ================= MÉTÉO RÉELLE PAR PÉRIODES (Open-Meteo, gratuit sans clé) =================
+     Matin / midi / soir à partir des prévisions horaires réelles (9h, 13h, 19h) :
+     aucune donnée inventée, uniquement ce que fournit l'API pour aujourd'hui. */
+  (function(){
+    const lat = 47.585, lon = -3.028; // La Trinité-sur-Mer
+    const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&hourly=temperature_2m,weather_code&timezone=Europe%2FParis&forecast_days=1`;
+    const HEURES = [9, 13, 19];
+    const pad = n => String(n).padStart(2, '0');
+
+    const icones = {
+      0:'☀️', 1:'🌤️', 2:'⛅️', 3:'☁️',
+      45:'🌫️', 48:'🌫️',
+      51:'🌦️', 53:'🌦️', 55:'🌧️',
+      61:'🌧️', 63:'🌧️', 65:'🌧️',
+      66:'🌧️', 67:'🌧️',
+      71:'🌨️', 73:'🌨️', 75:'🌨️', 77:'🌨️',
+      80:'🌦️', 81:'🌧️', 82:'⛈️',
+      85:'🌨️', 86:'🌨️',
+      95:'⛈️', 96:'⛈️', 99:'⛈️'
+    };
+    window.lastWeatherPeriods = null;
+
+    window.renderMeteo = function(){
+      const zone = document.getElementById('weatherPeriods');
+      const periods = window.lastWeatherPeriods;
+      if (!zone || !periods) return;
+      if (periods.erreur) {
+        zone.innerHTML = `<div class="note">${I18N.weather_unavailable[currentLang]}</div>`;
+        return;
+      }
+      const labels = [I18N.period_morning[currentLang], I18N.period_midday[currentLang], I18N.period_evening[currentLang]];
+      zone.innerHTML = periods.map((p, i) => {
+        if (!p) return '';
+        return `<div class="wp-item"><span class="wp-label">${labels[i]}</span><span class="wp-icon" aria-hidden="true">${icones[p.code] || '🌤️'}</span><span class="wp-temp">${p.temp}°C</span><span class="wp-hour">${pad(p.hour)}h</span></div>`;
+      }).join('');
+    };
+
+    fetch(url)
+      .then(r => r.json())
+      .then(data => {
+        const times = data.hourly.time;
+        const temps = data.hourly.temperature_2m;
+        const codes = data.hourly.weather_code;
+        const now = new Date();
+        const todayStr = `${now.getFullYear()}-${pad(now.getMonth()+1)}-${pad(now.getDate())}`;
+        const periods = HEURES.map(h => {
+          const idx = times.indexOf(`${todayStr}T${pad(h)}:00`);
+          return idx === -1 ? null : { hour: h, temp: Math.round(temps[idx]), code: codes[idx] };
+        });
+        window.lastWeatherPeriods = periods;
+        window.renderMeteo();
+      })
+      .catch(() => {
+        window.lastWeatherPeriods = { erreur: true };
+        window.renderMeteo();
+      });
+  })();
+
+  /* ================= MARÉE : vignette SHOM intégrée directement dans "Aujourd'hui" =================
+     Chargée automatiquement dès l'arrivée sur la page : le voyageur n'a plus
+     aucun clic à faire pour voir la marée du jour. */
+  (function(){
+    const zone = document.getElementById('tideVignetteHome');
+    if (!zone) return;
+    window.injectTideVignette = function(){
+      zone.innerHTML = '';
+      const s = document.createElement('script');
+      s.src = 'https://services.data.shom.fr/hdm/vignette/petite/LA_TRINITE-SUR-MER?locale=' + (currentLang === 'en' ? 'en' : 'fr');
+      zone.appendChild(s);
+    };
+    window.injectTideVignette();
+  })();
+
+  /* ================= MARÉES EXPLICITES (Open-Meteo Marine, gratuit sans clé) =================
+     La vignette SHOM ci-dessus reste affichée, mais elle peut parfois ne pas
+     se charger (réseau, bloqueur...). Cette liste texte, calculée à partir de
+     la hauteur d'eau horaire réelle (modèle Météo-France SMOC), s'affiche
+     systématiquement afin que la cartouche ne soit jamais vide. Les heures et
+     hauteurs des pleines/basses mers sont détectées par extremums locaux,
+     affinées par interpolation parabolique — aucune donnée n'est inventée. */
+  (function(){
+    const lat = 47.585, lon = -3.028;
+    const url = `https://marine-api.open-meteo.com/v1/marine?latitude=${lat}&longitude=${lon}&hourly=sea_level_height_msl&timezone=Europe%2FParis&forecast_days=2`;
+    const pad = n => String(n).padStart(2, '0');
+
+    window.lastTideEvents = null;
+
+    window.renderTideList = function(){
+      const zone = document.getElementById('tideList');
+      const events = window.lastTideEvents;
+      if (!zone || !events) return;
+      if (events.erreur || !events.length) {
+        zone.innerHTML = `<p class="note">${I18N.tide_unavailable[currentLang]}</p>`;
+        return;
+      }
+      zone.innerHTML = events.map(e => {
+        const label = e.type === 'haute' ? I18N.tide_high[currentLang] : I18N.tide_low[currentLang];
+        const h = pad(e.date.getHours()) + ':' + pad(e.date.getMinutes());
+        const height = e.height.toFixed(1).replace('.', currentLang === 'fr' ? ',' : '.');
+        return `<div class="tide-row"><span class="tide-type">${label}</span><span class="tide-time">${h}</span><span class="tide-height">${height} m</span></div>`;
+      }).join('');
+    };
+
+    fetch(url)
+      .then(r => r.json())
+      .then(data => {
+        const times = data.hourly.time;
+        const heights = data.hourly.sea_level_height_msl;
+        const now = new Date();
+        const todayStr = `${now.getFullYear()}-${pad(now.getMonth()+1)}-${pad(now.getDate())}`;
+
+        const events = [];
+        for (let i = 1; i < heights.length - 1; i++) {
+          const prev = heights[i-1], cur = heights[i], next = heights[i+1];
+          const isMax = cur > prev && cur > next;
+          const isMin = cur < prev && cur < next;
+          if (!isMax && !isMin) continue;
+          const denom = (prev - 2 * cur + next);
+          let offset = denom !== 0 ? 0.5 * (prev - next) / denom : 0;
+          offset = Math.max(-0.5, Math.min(0.5, offset));
+          const refinedHeight = cur - 0.25 * (prev - next) * offset;
+          const baseDate = new Date(times[i]);
+          const refinedDate = new Date(baseDate.getTime() + offset * 3600000);
+          events.push({ date: refinedDate, height: refinedHeight, type: isMax ? 'haute' : 'basse' });
+        }
+        const todayEvents = events
+          .filter(e => `${e.date.getFullYear()}-${pad(e.date.getMonth()+1)}-${pad(e.date.getDate())}` === todayStr)
+          .sort((a, b) => a.date - b.date);
+
+        window.lastTideEvents = todayEvents;
+        window.renderTideList();
+      })
+      .catch(() => {
+        window.lastTideEvents = { erreur: true };
+        window.renderTideList();
+      });
+  })();
+
+  /* Fermer un formulaire en touchant le fond (overlays restants : formulaires éventuels) */
+  document.querySelectorAll('.form-overlay').forEach(o => {
+    o.addEventListener('click', e => { if (e.target === o) o.classList.remove('open'); });
+  });
+
+  /* ================= ENVIE DE... : raccourcis ciblés vers le contenu existant =================
+     Un raccourci peut viser plusieurs rubriques (séparées par une virgule) :
+     la première reçoit le défilement, toutes sont ouvertes. */
+  document.querySelectorAll('.mood-chip[data-target], .mood-chip[data-nav]').forEach(chip => {
+    chip.addEventListener('click', () => {
+      const nav = chip.dataset.nav;
+      if (nav !== undefined) { showPage(Number(nav)); return; }
+      const cibles = chip.dataset.target.split(',');
+      showPage(2);
+      requestAnimationFrame(() => {
+        const elements = cibles.map(id => document.getElementById(id)).filter(Boolean);
+        elements.forEach(el => { if (el.tagName === 'DETAILS') el.open = true; });
+        if (elements[0]) elements[0].scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+  });
+
+  /* "À deux" et "Envie de bien manger" : sélection courte affichée sur place,
+     sans quitter l'accueil (une seule fenêtre ouverte à la fois). */
+  function basculerReveal(id, autres){
+    const el = document.getElementById(id);
+    const ouvrir = el.hidden;
+    autres.forEach(o => { document.getElementById(o).hidden = true; });
+    el.hidden = !ouvrir;
+    if (!el.hidden) el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+  const moodCoupleBtn = document.getElementById('moodCoupleBtn');
+  const moodFoodBtn = document.getElementById('moodFoodBtn');
+  if (moodCoupleBtn) moodCoupleBtn.addEventListener('click', () => basculerReveal('moodCoupleReveal', ['moodFoodReveal']));
+  if (moodFoodBtn) moodFoodBtn.addEventListener('click', () => basculerReveal('moodFoodReveal', ['moodCoupleReveal']));
+
+  /* ================= LANGUE : bouton bascule FR / EN ================= */
+  const langBtn = document.getElementById('langBtn');
+  if (langBtn) {
+    langBtn.addEventListener('click', () => applyLang(currentLang === 'fr' ? 'en' : 'fr'));
+  }
+
+  /* Applique la langue mémorisée (ou le français par défaut) une fois que
+     tout le reste (dates, météo, agenda) a été initialisé ci-dessus. */
+  applyLang(currentLang);
+</script>
+</body>
+</html>
