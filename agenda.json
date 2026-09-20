@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-20T16:46:26Z",
+  "generated_at": "2026-09-20T16:57:04Z",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -9,16 +9,17 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 261,
+    "total": 274,
     "by_proximity": {
-      "near": 198,
-      "immediate": 55,
+      "near": 200,
+      "immediate": 66,
       "daytrip": 8
     }
   },
   "events": [
     {
       "id": "dt-08399ac65d",
+      "series_id": "dt-1adf5f4d31",
       "title": "Marché aux halles d'Auray",
       "start": "2026-01-01T08:00",
       "end": "2026-12-31T13:00",
@@ -35,6 +36,7 @@
     },
     {
       "id": "dt-228c5c4b25",
+      "series_id": "dt-8ad746dd8c",
       "title": "Grave ton menhir !",
       "start": "2026-06-08",
       "end": "2027-06-06",
@@ -51,6 +53,7 @@
     },
     {
       "id": "dt-bfe4ac99cd",
+      "series_id": "dt-6b219d87cb",
       "title": "Exposition: Opération collections",
       "start": "2026-06-13",
       "end": "2027-12-31",
@@ -67,6 +70,7 @@
     },
     {
       "id": "dt-18f60f7b94",
+      "series_id": "dt-07a67c05d5",
       "title": "Exposition Sonorités d'Été",
       "start": "2026-06-13T10:30",
       "end": "2026-09-20T12:00",
@@ -83,6 +87,7 @@
     },
     {
       "id": "dt-f476b85566",
+      "series_id": "dt-07a67c05d5",
       "title": "Exposition Sonorités d'Été",
       "start": "2026-06-13T14:00",
       "end": "2026-09-20T18:00",
@@ -99,6 +104,7 @@
     },
     {
       "id": "dt-36036d66b2",
+      "series_id": "dt-b8fcc0fb88",
       "title": "Exposition photos à la Pointe de Kerbihan",
       "start": "2026-06-20",
       "end": "2026-09-30",
@@ -115,6 +121,7 @@
     },
     {
       "id": "dt-50cd3f4a86",
+      "series_id": "dt-6e1fb90c44",
       "title": "Escales photos",
       "start": "2026-07-01",
       "end": "2026-10-31",
@@ -131,6 +138,7 @@
     },
     {
       "id": "dt-d1c558b085",
+      "series_id": "dt-d2f4678690",
       "title": "Visite découverte dans les Alignements",
       "start": "2026-08-21T15:00",
       "end": "2026-09-30T16:00",
@@ -147,6 +155,7 @@
     },
     {
       "id": "dt-a0eb574005",
+      "series_id": "dt-8ba4f8ad52",
       "title": "Le Défi Azimut",
       "start": "2026-09-15",
       "end": "2026-09-20",
@@ -163,6 +172,7 @@
     },
     {
       "id": "dt-a146217dd8",
+      "series_id": "dt-49f9ce5d56",
       "title": "JEP - Exposition \"Gustanais.ses & alréen.nes : souvenirs des années 1950 et 1960\"",
       "start": "2026-09-19",
       "end": "2026-09-20",
@@ -179,6 +189,7 @@
     },
     {
       "id": "dt-3967447f6b",
+      "series_id": "dt-452e515f21",
       "title": "Raid catamaran",
       "start": "2026-09-19",
       "end": "2026-09-20",
@@ -195,6 +206,7 @@
     },
     {
       "id": "dt-bec5c04515",
+      "series_id": "dt-f3e1b46c2a",
       "title": "Journées Européennes du Patrimoine",
       "start": "2026-09-19T09:30",
       "end": "2026-09-20T17:30",
@@ -211,6 +223,7 @@
     },
     {
       "id": "dt-9c6edac563",
+      "series_id": "dt-947e5de999",
       "title": "Plantes en fête",
       "start": "2026-09-19T09:30",
       "end": "2026-09-20T18:00",
@@ -227,6 +240,7 @@
     },
     {
       "id": "dt-a4af63a8b7",
+      "series_id": "dt-cebd142c3d",
       "title": "JEP - Patrimoine photographique",
       "start": "2026-09-20",
       "end": null,
@@ -243,6 +257,7 @@
     },
     {
       "id": "dt-9753197e38",
+      "series_id": "dt-a0e71c9180",
       "title": "JEP - Visite libre et commentée - Découverte des bateaux d’intérêt patrimonial",
       "start": "2026-09-20",
       "end": null,
@@ -259,6 +274,7 @@
     },
     {
       "id": "dt-3dd958c813",
+      "series_id": "dt-66041cb7b1",
       "title": "Journées Européennes du Patrimoine aux aligements de carnac",
       "start": "2026-09-20",
       "end": null,
@@ -275,6 +291,7 @@
     },
     {
       "id": "dt-b631e124ce",
+      "series_id": "dt-ab47ccb576",
       "title": "Bric à brac du Gumenen",
       "start": "2026-09-20T09:00",
       "end": "2026-09-20T18:00",
@@ -291,6 +308,7 @@
     },
     {
       "id": "dt-d53f3d2e56",
+      "series_id": "dt-009769f33a",
       "title": "JEP - Visite guidée en canoë - A l'abordage architectes !",
       "start": "2026-09-20T09:00",
       "end": "2026-09-20T10:30",
@@ -307,6 +325,7 @@
     },
     {
       "id": "dt-2edee9fec4",
+      "series_id": "dt-bc785e088f",
       "title": "Le chantier des collections",
       "start": "2026-09-20T09:30",
       "end": "2026-09-20T17:30",
@@ -323,6 +342,7 @@
     },
     {
       "id": "dt-de74b9ddec",
+      "series_id": "dt-a412d0d3f3",
       "title": "Que sont devenus les mégalithes à l'époque gallo-romaine ?",
       "start": "2026-09-20T09:30",
       "end": "2026-09-20T17:30",
@@ -339,6 +359,7 @@
     },
     {
       "id": "dt-4970ec1ebb",
+      "series_id": "dt-048d663472",
       "title": "Trésors de la villa gallo-romaine des Bosséno",
       "start": "2026-09-20T09:30",
       "end": "2026-09-20T17:30",
@@ -355,6 +376,7 @@
     },
     {
       "id": "dt-2a6e4da30d",
+      "series_id": "dt-0a3df9dbc3",
       "title": "JEP - Jeux anciens en bois",
       "start": "2026-09-20T10:00",
       "end": "2026-09-20T12:00",
@@ -371,6 +393,7 @@
     },
     {
       "id": "dt-6ed8114aaf",
+      "series_id": "dt-c1644dca5c",
       "title": "JEP - Visite libre  - Le Mausolée de Cadoudal",
       "start": "2026-09-20T10:00",
       "end": "2026-09-20T12:00",
@@ -387,6 +410,7 @@
     },
     {
       "id": "dt-b274f550e0",
+      "series_id": "dt-fe61370c40",
       "title": "JEP - Visite libre - L'Eglise Saint-Sauveur",
       "start": "2026-09-20T10:00",
       "end": "2026-09-20T12:00",
@@ -403,6 +427,7 @@
     },
     {
       "id": "dt-cd0f4c58e5",
+      "series_id": "dt-475028145f",
       "title": "JEP - Visite libre - La Chapelle Notre Dame de Lourdes",
       "start": "2026-09-20T10:00",
       "end": "2026-09-20T12:00",
@@ -419,6 +444,7 @@
     },
     {
       "id": "dt-1b5f5b5172",
+      "series_id": "dt-0dee472abc",
       "title": "Journées du Patrimoine au Musée de la Chouannerie",
       "start": "2026-09-20T10:00",
       "end": "2026-09-20T19:00",
@@ -435,6 +461,7 @@
     },
     {
       "id": "dt-bcebf09281",
+      "series_id": "dt-c6b47caf94",
       "title": "Journées européennes du Patrimoine :  Visite du bunker musée et du site du \"Mur de l'Atlantique\"",
       "start": "2026-09-20T10:00",
       "end": "2026-09-20T18:00",
@@ -451,6 +478,7 @@
     },
     {
       "id": "dt-ffb1863d9a",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-09-20T10:00",
       "end": "2026-09-20T12:30",
@@ -467,6 +495,7 @@
     },
     {
       "id": "dt-7ca34674d1",
+      "series_id": "dt-8698985d48",
       "title": "Journées européennes du Patrimoine 2026",
       "start": "2026-09-20T10:00",
       "end": "2026-09-20T12:00",
@@ -483,6 +512,7 @@
     },
     {
       "id": "dt-29ada94233",
+      "series_id": "dt-bebf884e6a",
       "title": "Journées européennes du Patrimoine au sous-marin Flore-S645 & son musée",
       "start": "2026-09-20T10:00",
       "end": "2026-09-20T18:00",
@@ -499,6 +529,7 @@
     },
     {
       "id": "dt-ba537b5956",
+      "series_id": "dt-9343c34345",
       "title": "Journées européennes du Patrimoine à la Cité de la Voile Eric Tabarly",
       "start": "2026-09-20T10:00",
       "end": "2026-09-20T18:00",
@@ -515,6 +546,7 @@
     },
     {
       "id": "dt-f53b225410",
+      "series_id": "dt-514caa22ce",
       "title": "Pardon de Kergroix",
       "start": "2026-09-20T10:30",
       "end": "2026-09-20T20:00",
@@ -531,6 +563,7 @@
     },
     {
       "id": "dt-e1d65dbfc2",
+      "series_id": "dt-59d125a1e2",
       "title": "Conservation domestique : prenez soin de vos trésors !",
       "start": "2026-09-20T10:30",
       "end": null,
@@ -547,6 +580,7 @@
     },
     {
       "id": "dt-6479851e2d",
+      "series_id": "dt-009769f33a",
       "title": "JEP - Visite guidée en canoë - A l'abordage architectes !",
       "start": "2026-09-20T10:45",
       "end": "2026-09-20T12:15",
@@ -563,6 +597,7 @@
     },
     {
       "id": "dt-17ffdf0fb4",
+      "series_id": "dt-59d125a1e2",
       "title": "Conservation domestique : prenez soin de vos trésors !",
       "start": "2026-09-20T14:00",
       "end": null,
@@ -579,6 +614,7 @@
     },
     {
       "id": "dt-7f740c518c",
+      "series_id": "dt-0a3df9dbc3",
       "title": "JEP - Jeux anciens en bois",
       "start": "2026-09-20T14:00",
       "end": "2026-09-20T18:00",
@@ -595,6 +631,7 @@
     },
     {
       "id": "dt-4cf0199e8c",
+      "series_id": "dt-c1644dca5c",
       "title": "JEP - Visite libre  - Le Mausolée de Cadoudal",
       "start": "2026-09-20T14:00",
       "end": "2026-09-20T18:00",
@@ -611,6 +648,7 @@
     },
     {
       "id": "dt-3526e4d8f4",
+      "series_id": "dt-2c99344862",
       "title": "JEP - Visite libre - Commanderie du Saint-Esprit",
       "start": "2026-09-20T14:00",
       "end": "2026-09-20T18:00",
@@ -627,6 +665,7 @@
     },
     {
       "id": "dt-0b67769114",
+      "series_id": "dt-73447cb94a",
       "title": "JEP - Visite libre - L'Eglise Saint-Gildas",
       "start": "2026-09-20T14:00",
       "end": "2026-09-20T18:00",
@@ -643,6 +682,7 @@
     },
     {
       "id": "dt-c29584fc5e",
+      "series_id": "dt-475028145f",
       "title": "JEP - Visite libre - La Chapelle Notre Dame de Lourdes",
       "start": "2026-09-20T14:00",
       "end": "2026-09-20T18:00",
@@ -659,6 +699,7 @@
     },
     {
       "id": "dt-963e577d86",
+      "series_id": "dt-9d471b70e7",
       "title": "JEP - Visite libre - La Chapelle Saint-Cado",
       "start": "2026-09-20T14:00",
       "end": "2026-09-20T18:00",
@@ -675,6 +716,7 @@
     },
     {
       "id": "dt-33be376faa",
+      "series_id": "dt-9bd9eeaa26",
       "title": "Nettoyage de Plage de Sainte Barbe",
       "start": "2026-09-20T14:00",
       "end": "2026-09-20T17:00",
@@ -691,6 +733,7 @@
     },
     {
       "id": "dt-fa3872d83e",
+      "series_id": "dt-3257317904",
       "title": "Visite approfondie \"mémoire de pierre et de terre\"",
       "start": "2026-09-20T14:00",
       "end": "2026-09-20T17:00",
@@ -707,6 +750,7 @@
     },
     {
       "id": "dt-60ecf1cef8",
+      "series_id": "dt-26995011d9",
       "title": "Journées européennes du Patrimoine 2026",
       "start": "2026-09-20T14:00",
       "end": "2026-09-20T18:00",
@@ -723,6 +767,7 @@
     },
     {
       "id": "dt-c7dc465982",
+      "series_id": "dt-8698985d48",
       "title": "Journées européennes du Patrimoine 2026",
       "start": "2026-09-20T14:00",
       "end": "2026-09-20T18:00",
@@ -738,39 +783,8 @@
       "distance_km": 21.7
     },
     {
-      "id": "dt-61c13700fe",
-      "title": "Atelier d'écriture",
-      "start": "2026-09-20T14:30",
-      "end": "2026-09-20T17:00",
-      "location": "Galerie Terra Initia",
-      "city": "Carnac",
-      "description": "À 14h30 Pour celles et ceux qui ont envie de jouer avec les mots, novices ou expérimentés, cet atelier est une invitation à écrire librement, à explorer, ressentir, imaginer. Un moment vivant, spontané et inspirant, à partager ensemble autour du plaisir d'écrire.",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
-    },
-    {
-      "id": "dt-c19fbf2900",
-      "title": "Ateliers en familles \"Apprentis bâtisseurs\"",
-      "start": "2026-09-20T14:30",
-      "end": "2026-09-20T17:00",
-      "location": "Maison des Mégalithes",
-      "city": "Carnac",
-      "description": "Devenez apprenti bâtisseur du Néolithique pour percer les secrets de construction des menhirs. Après la visite guidée des Alignements et du dolmen de Kermario, expérimentez plusieurs techniques archéo-compatibles de déplacement et de levage de mégalithes.",
-      "url": "https://www.menhirs-carnac.fr/",
-      "category": "patrimoine",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.2
-    },
-    {
       "id": "dt-c98d7fc888",
+      "series_id": "dt-67425ed25d",
       "title": "Dévernissage de l'exposition \"Sonorités d'été\"",
       "start": "2026-09-20T14:30",
       "end": "2026-09-20T16:30",
@@ -787,6 +801,7 @@
     },
     {
       "id": "dt-e9f08c79a9",
+      "series_id": "dt-7591fd8ede",
       "title": "JEP - Visite sonore - Exposition Sonorités d'Été",
       "start": "2026-09-20T14:30",
       "end": "2026-09-20T16:30",
@@ -802,7 +817,25 @@
       "distance_km": 9.5
     },
     {
+      "id": "dt-c19fbf2900",
+      "series_id": "dt-811e19dadd",
+      "title": "Ateliers en familles \"Apprentis bâtisseurs\"",
+      "start": "2026-09-20T14:30",
+      "end": "2026-09-20T17:00",
+      "location": "Maison des Mégalithes",
+      "city": "Carnac",
+      "description": "Devenez apprenti bâtisseur du Néolithique pour percer les secrets de construction des menhirs. Après la visite guidée des Alignements et du dolmen de Kermario, expérimentez plusieurs techniques archéo-compatibles de déplacement et de levage de mégalithes.",
+      "url": "https://www.menhirs-carnac.fr/",
+      "category": "patrimoine",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.2
+    },
+    {
       "id": "dt-edc1d0f763",
+      "series_id": "dt-59d125a1e2",
       "title": "Conservation domestique : prenez soin de vos trésors !",
       "start": "2026-09-20T15:30",
       "end": null,
@@ -819,6 +852,7 @@
     },
     {
       "id": "dt-1a9c6fc5a2",
+      "series_id": "dt-cbb9cb8d56",
       "title": "JEP - Découverte musicale de l'orgue de Saint-Gildas",
       "start": "2026-09-20T16:00",
       "end": "2026-09-20T17:00",
@@ -835,6 +869,7 @@
     },
     {
       "id": "dt-47ed0fae08",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-09-21T10:00",
       "end": "2026-09-21T12:30",
@@ -851,6 +886,7 @@
     },
     {
       "id": "dt-3c8eda53c8",
+      "series_id": "dt-25191fc9c8",
       "title": "Chantier participatif : construction d'une guinguette",
       "start": "2026-09-21T18:30",
       "end": "2026-09-21T20:30",
@@ -867,6 +903,7 @@
     },
     {
       "id": "dt-25dfd8dea1",
+      "series_id": "dt-34afd6df25",
       "title": "Exposition : le développement durable pour les enfants",
       "start": "2026-09-22",
       "end": "2026-10-17",
@@ -883,6 +920,7 @@
     },
     {
       "id": "dt-dac88333ff",
+      "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
       "start": "2026-09-22T08:00",
       "end": "2026-09-22T13:00",
@@ -899,6 +937,7 @@
     },
     {
       "id": "dt-4be78fa6ae",
+      "series_id": "dt-323fb05a73",
       "title": "Expérience Zen",
       "start": "2026-09-22T10:00",
       "end": "2026-09-22T11:00",
@@ -914,23 +953,8 @@
       "distance_km": 3.9
     },
     {
-      "id": "dt-a0d4d1fc0c",
-      "title": "Atelier Presse papote",
-      "start": "2026-09-22T11:00",
-      "end": "2026-09-22T12:00",
-      "location": "La Cabanatous",
-      "city": "Auray",
-      "description": "Choix collectif d'actions pour favoriser l'estime de soi entre femmes Analyse collective et critique des informations actuelles",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.1
-    },
-    {
       "id": "dt-4bf30a4e9e",
+      "series_id": "dt-e06e68ef84",
       "title": "Séance photo découverte",
       "start": "2026-09-22T19:30",
       "end": null,
@@ -947,6 +971,7 @@
     },
     {
       "id": "dt-944e1cc158",
+      "series_id": "dt-23a5704fbf",
       "title": "Expérience Fitness",
       "start": "2026-09-23T10:00",
       "end": "2026-09-23T11:00",
@@ -963,6 +988,7 @@
     },
     {
       "id": "dt-fff141db7e",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-09-23T10:00",
       "end": "2026-09-23T12:30",
@@ -979,6 +1005,7 @@
     },
     {
       "id": "dt-8970a882db",
+      "series_id": "dt-050bb8cc61",
       "title": "Conférence : \"Entre terre et mer, un nouveau regard sur Er Lannic\"",
       "start": "2026-09-23T20:30",
       "end": null,
@@ -995,6 +1022,7 @@
     },
     {
       "id": "dt-271c68300b",
+      "series_id": "dt-bee8816ec5",
       "title": "Sur les épaules du géant : le tumulus Saint-Michel à Carnac",
       "start": "2026-09-23T20:30",
       "end": null,
@@ -1011,6 +1039,7 @@
     },
     {
       "id": "dt-2ba9532760",
+      "series_id": "dt-01656b3159",
       "title": "Marché hebdomadaire à Crac'h",
       "start": "2026-09-24T09:00",
       "end": "2026-09-24T13:00",
@@ -1026,7 +1055,42 @@
       "distance_km": 4.0
     },
     {
+      "id": "dt-886a140d3f",
+      "series_id": "dt-09b966ff66",
+      "title": "Marché hebdomadaire à La Trinité-sur-Mer",
+      "start": "2026-09-25T08:00",
+      "end": "2026-09-25T13:00",
+      "location": "Place du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Le marché hebdomadaire se tient le mardi et le vendredi matin de 8h à 13h sur la place du Voulien.",
+      "url": null,
+      "category": "marche",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 0.6
+    },
+    {
+      "id": "dt-527f01babb",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition TR'ÂMES",
+      "start": "2026-09-25T10:00",
+      "end": "2026-09-25T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0
+    },
+    {
       "id": "dt-1a7cd7bcf4",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-09-25T15:00",
       "end": "2026-09-25T18:30",
@@ -1043,6 +1107,7 @@
     },
     {
       "id": "dt-f0e70bdc30",
+      "series_id": "dt-f8a7b23ee4",
       "title": "Mad in Finland, cirque sous chapiteau",
       "start": "2026-09-25T17:00",
       "end": "2026-10-25T18:30",
@@ -1059,6 +1124,7 @@
     },
     {
       "id": "dt-208f758135",
+      "series_id": "dt-d0c7316d86",
       "title": "Soirée jeux",
       "start": "2026-09-25T18:30",
       "end": "2026-09-25T20:00",
@@ -1075,6 +1141,7 @@
     },
     {
       "id": "dt-5cc405097f",
+      "series_id": "dt-a1bcbbcb64",
       "title": "Ouverture de saison à La Trinité-sur-Mer avec Ours/Charles Souchon",
       "start": "2026-09-25T21:00",
       "end": "2026-09-25T22:30",
@@ -1091,6 +1158,7 @@
     },
     {
       "id": "dt-bf6c21c68e",
+      "series_id": "dt-e06e68ef84",
       "title": "Séance photo découverte",
       "start": "2026-09-26T08:00",
       "end": null,
@@ -1107,6 +1175,7 @@
     },
     {
       "id": "dt-0075bbb976",
+      "series_id": "dt-72147faf7b",
       "title": "Enquête : Code Néolithique",
       "start": "2026-09-26T09:30",
       "end": "2026-09-26T17:30",
@@ -1123,6 +1192,7 @@
     },
     {
       "id": "dt-ea92425af8",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-09-26T10:00",
       "end": "2026-09-26T12:30",
@@ -1139,6 +1209,7 @@
     },
     {
       "id": "dt-d0c5f9640b",
+      "series_id": "dt-35ff0aaf95",
       "title": "Découverte de l'estran et initiation à la pêche à pied",
       "start": "2026-09-26T10:30",
       "end": "2026-09-26T12:30",
@@ -1155,6 +1226,7 @@
     },
     {
       "id": "dt-341de77a58",
+      "series_id": "dt-7428b73b4e",
       "title": "Concours de pétanque",
       "start": "2026-09-26T13:00",
       "end": null,
@@ -1171,6 +1243,7 @@
     },
     {
       "id": "dt-467f9a4098",
+      "series_id": "dt-6db3868710",
       "title": "Alré' Rose",
       "start": "2026-09-26T14:00",
       "end": null,
@@ -1187,6 +1260,7 @@
     },
     {
       "id": "dt-5e96939800",
+      "series_id": "dt-4701c5eadc",
       "title": "Ouverture de saison 26 - 27 à Auray",
       "start": "2026-09-26T15:30",
       "end": null,
@@ -1203,6 +1277,7 @@
     },
     {
       "id": "dt-352bdac0db",
+      "series_id": "dt-d0a23668b7",
       "title": "Concert au Restaurant du Casino Circus",
       "start": "2026-09-26T19:00",
       "end": "2026-09-26T23:59",
@@ -1219,6 +1294,7 @@
     },
     {
       "id": "dt-7a24ce219f",
+      "series_id": "dt-17e9a78722",
       "title": "Pardon Saint Antoine et Saint Eloi",
       "start": "2026-09-27",
       "end": null,
@@ -1235,6 +1311,7 @@
     },
     {
       "id": "dt-dd8ef61417",
+      "series_id": "dt-72147faf7b",
       "title": "Enquête : Code Néolithique",
       "start": "2026-09-27T09:30",
       "end": "2026-09-27T17:30",
@@ -1251,6 +1328,7 @@
     },
     {
       "id": "dt-2f04b6155e",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-09-27T10:00",
       "end": "2026-09-27T12:30",
@@ -1267,6 +1345,7 @@
     },
     {
       "id": "dt-19e2c5643f",
+      "series_id": "dt-70fa7ed692",
       "title": "Festival de chorales",
       "start": "2026-09-27T17:00",
       "end": null,
@@ -1283,6 +1362,7 @@
     },
     {
       "id": "dt-d15a179d33",
+      "series_id": "dt-e06e68ef84",
       "title": "Séance photo découverte",
       "start": "2026-09-27T19:30",
       "end": null,
@@ -1298,7 +1378,25 @@
       "distance_km": 4.1
     },
     {
+      "id": "dt-f2da30c96b",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition TR'ÂMES",
+      "start": "2026-09-28T10:00",
+      "end": "2026-09-28T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0
+    },
+    {
       "id": "dt-57e609cffb",
+      "series_id": "dt-25191fc9c8",
       "title": "Chantier participatif : construction d'une guinguette",
       "start": "2026-09-28T14:00",
       "end": "2026-09-28T18:00",
@@ -1314,23 +1412,25 @@
       "distance_km": 10.0
     },
     {
-      "id": "dt-4dcb546490",
-      "title": "Atelier Presse papote",
-      "start": "2026-09-29T11:00",
-      "end": "2026-09-29T12:00",
-      "location": "La Cabanatous",
-      "city": "Auray",
-      "description": "Choix collectif d'actions pour favoriser l'estime de soi entre femmes Analyse collective et critique des informations actuelles",
+      "id": "dt-e6ab0c0c51",
+      "series_id": "dt-09b966ff66",
+      "title": "Marché hebdomadaire à La Trinité-sur-Mer",
+      "start": "2026-09-29T08:00",
+      "end": "2026-09-29T13:00",
+      "location": "Place du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Le marché hebdomadaire se tient le mardi et le vendredi matin de 8h à 13h sur la place du Voulien.",
       "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
+      "category": "marche",
+      "priority": 1,
+      "proximity": "immediate",
       "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.1
+      "source_name": "ADT 56",
+      "distance_km": 0.6
     },
     {
       "id": "dt-3400c91ce7",
+      "series_id": "dt-83db915db2",
       "title": "Cercles de femmes",
       "start": "2026-09-29T20:00",
       "end": "2026-09-29T22:00",
@@ -1346,23 +1446,8 @@
       "distance_km": 3.8
     },
     {
-      "id": "dt-b2b2765c79",
-      "title": "Atelier Cuisinons dans les rues",
-      "start": "2026-09-30T10:00",
-      "end": "2026-09-30T14:00",
-      "location": "Guinguette du Bel Air",
-      "city": "Auray",
-      "description": "Atelier de cuisine autour de produits locaux et de saison. Venez y rencontrer une diététicienne",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.0
-    },
-    {
       "id": "dt-45dcb14afa",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-09-30T10:00",
       "end": "2026-09-30T12:30",
@@ -1378,7 +1463,25 @@
       "distance_km": 4.0
     },
     {
+      "id": "dt-b2b2765c79",
+      "series_id": "dt-e58480b034",
+      "title": "Atelier Cuisinons dans les rues",
+      "start": "2026-09-30T10:00",
+      "end": "2026-09-30T14:00",
+      "location": "Guinguette du Bel Air",
+      "city": "Auray",
+      "description": "Atelier de cuisine autour de produits locaux et de saison. Venez y rencontrer une diététicienne",
+      "url": null,
+      "category": "gastronomie",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.0
+    },
+    {
       "id": "dt-bd78b7296e",
+      "series_id": "dt-e06e68ef84",
       "title": "Séance photo découverte",
       "start": "2026-09-30T19:30",
       "end": null,
@@ -1395,6 +1498,7 @@
     },
     {
       "id": "dt-b27f5d8e7e",
+      "series_id": "dt-c2b378c5ff",
       "title": "Kevin, avec Arnaud Hoedt et Jérôme Piron / Cie Chantal & Bernadette",
       "start": "2026-09-30T20:30",
       "end": "2026-09-30T22:00",
@@ -1411,6 +1515,7 @@
     },
     {
       "id": "dt-7a93e990e4",
+      "series_id": "dt-01656b3159",
       "title": "Marché hebdomadaire à Crac'h",
       "start": "2026-10-01T09:00",
       "end": "2026-10-01T13:00",
@@ -1427,6 +1532,7 @@
     },
     {
       "id": "dt-3c98365760",
+      "series_id": "dt-1d964ff2be",
       "title": "L'Ayurvéda, science de la vie",
       "start": "2026-10-01T18:00",
       "end": null,
@@ -1443,6 +1549,7 @@
     },
     {
       "id": "dt-c1f2a6a786",
+      "series_id": "dt-c2b378c5ff",
       "title": "Kevin, avec Arnaud Hoedt et Jérôme Piron / Cie Chantal & Bernadette",
       "start": "2026-10-01T20:30",
       "end": "2026-10-01T22:00",
@@ -1459,6 +1566,7 @@
     },
     {
       "id": "dt-809550199f",
+      "series_id": "dt-f9aae310c2",
       "title": "Journées Nationales des Artistes",
       "start": "2026-10-02",
       "end": "2026-10-04",
@@ -1474,23 +1582,25 @@
       "distance_km": 21.7
     },
     {
-      "id": "dt-3acf90bae1",
-      "title": "Retrouvez-nous près de chez vous",
-      "start": "2026-10-02T10:00",
-      "end": "2026-10-02T12:00",
-      "location": null,
-      "city": "Auray",
-      "description": "Un café associatif qu vient vous voir Atelier FIL : couture, tricot et crochet de 14h à 16h30 Un atelier collectif où chacun.e vient apprendre et transmettre Le vendredi 4 septembre - Place Notre Dame - Centre ville d'Auray Le vendredi 18 septembre - Square Casterbar - Saint…",
+      "id": "dt-fcd46f2a81",
+      "series_id": "dt-09b966ff66",
+      "title": "Marché hebdomadaire à La Trinité-sur-Mer",
+      "start": "2026-10-02T08:00",
+      "end": "2026-10-02T13:00",
+      "location": "Place du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Le marché hebdomadaire se tient le mardi et le vendredi matin de 8h à 13h sur la place du Voulien.",
       "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
+      "category": "marche",
+      "priority": 1,
+      "proximity": "immediate",
       "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6
+      "source_name": "ADT 56",
+      "distance_km": 0.6
     },
     {
       "id": "dt-af97b26316",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-10-02T10:00",
       "end": "2026-10-02T12:30",
@@ -1506,7 +1616,25 @@
       "distance_km": 4.0
     },
     {
+      "id": "dt-de54c05f19",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition TR'ÂMES",
+      "start": "2026-10-02T15:00",
+      "end": "2026-10-02T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0
+    },
+    {
       "id": "dt-1714797d8d",
+      "series_id": "dt-e06e68ef84",
       "title": "Séance photo découverte",
       "start": "2026-10-02T19:00",
       "end": null,
@@ -1523,6 +1651,7 @@
     },
     {
       "id": "dt-91bacceacd",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-10-03T10:00",
       "end": "2026-10-03T12:30",
@@ -1539,6 +1668,7 @@
     },
     {
       "id": "dt-e9427b2636",
+      "series_id": "dt-79c7817d3e",
       "title": "Picto Néo !",
       "start": "2026-10-03T11:00",
       "end": null,
@@ -1555,6 +1685,7 @@
     },
     {
       "id": "dt-35823f6d84",
+      "series_id": "dt-79c7817d3e",
       "title": "Picto Néo !",
       "start": "2026-10-03T14:30",
       "end": null,
@@ -1571,6 +1702,7 @@
     },
     {
       "id": "dt-7e4ea862fc",
+      "series_id": "dt-c78436f24f",
       "title": "Rando zen et créative",
       "start": "2026-10-04T10:00",
       "end": "2026-10-04T12:00",
@@ -1587,6 +1719,7 @@
     },
     {
       "id": "dt-9f75aa5873",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-10-04T10:00",
       "end": "2026-10-04T12:30",
@@ -1603,6 +1736,7 @@
     },
     {
       "id": "dt-f4108b2925",
+      "series_id": "dt-79c7817d3e",
       "title": "Picto Néo !",
       "start": "2026-10-04T11:00",
       "end": null,
@@ -1619,6 +1753,7 @@
     },
     {
       "id": "dt-dd5f2ffb05",
+      "series_id": "dt-79c7817d3e",
       "title": "Picto Néo !",
       "start": "2026-10-04T14:30",
       "end": null,
@@ -1635,6 +1770,7 @@
     },
     {
       "id": "dt-7a24825054",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-10-05T10:00",
       "end": "2026-10-05T12:30",
@@ -1651,6 +1787,7 @@
     },
     {
       "id": "dt-417a8a3a9c",
+      "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
       "start": "2026-10-06T08:00",
       "end": "2026-10-06T13:00",
@@ -1667,6 +1804,7 @@
     },
     {
       "id": "dt-28074ea5ed",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-10-07T10:00",
       "end": "2026-10-07T12:30",
@@ -1683,6 +1821,7 @@
     },
     {
       "id": "dt-2ef566cf2d",
+      "series_id": "dt-01656b3159",
       "title": "Marché hebdomadaire à Crac'h",
       "start": "2026-10-08T09:00",
       "end": "2026-10-08T13:00",
@@ -1699,6 +1838,7 @@
     },
     {
       "id": "dt-e5d48e1f22",
+      "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
       "start": "2026-10-09T08:00",
       "end": "2026-10-09T13:00",
@@ -1714,7 +1854,25 @@
       "distance_km": 0.6
     },
     {
+      "id": "dt-7deeea2f9f",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition TR'ÂMES",
+      "start": "2026-10-09T10:00",
+      "end": "2026-10-09T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0
+    },
+    {
       "id": "dt-81b8ce6a9a",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-10-09T15:00",
       "end": "2026-10-09T18:30",
@@ -1731,6 +1889,7 @@
     },
     {
       "id": "dt-3e9ef4df93",
+      "series_id": "dt-93c0905a62",
       "title": "Spectacle : cowboy ou indien ?",
       "start": "2026-10-09T20:30",
       "end": "2026-10-09T22:00",
@@ -1747,6 +1906,7 @@
     },
     {
       "id": "dt-b8804371e1",
+      "series_id": "dt-1b1b4b1e36",
       "title": "Fête de la Science : rencontre avec Pascal Picq, Paléoanthropologue",
       "start": "2026-10-09T20:30",
       "end": null,
@@ -1763,6 +1923,7 @@
     },
     {
       "id": "dt-edf694d897",
+      "series_id": "dt-b25a4d548a",
       "title": "Challenge d’automne",
       "start": "2026-10-10",
       "end": "2026-10-11",
@@ -1779,6 +1940,7 @@
     },
     {
       "id": "dt-3d2e7135b0",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-10-10T10:00",
       "end": "2026-10-10T12:30",
@@ -1795,6 +1957,7 @@
     },
     {
       "id": "dt-9ea0c943ee",
+      "series_id": "dt-79c7817d3e",
       "title": "Picto Néo !",
       "start": "2026-10-10T11:00",
       "end": null,
@@ -1811,6 +1974,7 @@
     },
     {
       "id": "dt-182a418809",
+      "series_id": "dt-dc1f42a905",
       "title": "Visite guidée : L'ancienne prison royale",
       "start": "2026-10-10T11:00",
       "end": null,
@@ -1827,6 +1991,7 @@
     },
     {
       "id": "dt-560e1b6b2f",
+      "series_id": "dt-79c7817d3e",
       "title": "Picto Néo !",
       "start": "2026-10-10T14:30",
       "end": null,
@@ -1842,7 +2007,25 @@
       "distance_km": 3.8
     },
     {
+      "id": "dt-03a9699520",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition TR'ÂMES",
+      "start": "2026-10-11T10:00",
+      "end": "2026-10-11T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0
+    },
+    {
       "id": "dt-4407f669e6",
+      "series_id": "dt-79c7817d3e",
       "title": "Picto Néo !",
       "start": "2026-10-11T11:00",
       "end": null,
@@ -1859,6 +2042,7 @@
     },
     {
       "id": "dt-ff00b30d3b",
+      "series_id": "dt-79c7817d3e",
       "title": "Picto Néo !",
       "start": "2026-10-11T14:30",
       "end": null,
@@ -1875,6 +2059,7 @@
     },
     {
       "id": "dt-7b418659dc",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-10-12T10:00",
       "end": "2026-10-12T12:30",
@@ -1891,6 +2076,7 @@
     },
     {
       "id": "dt-a56335b271",
+      "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
       "start": "2026-10-13T08:00",
       "end": "2026-10-13T13:00",
@@ -1906,23 +2092,8 @@
       "distance_km": 0.6
     },
     {
-      "id": "dt-6cbd29d8e1",
-      "title": "Les ateliers du mercredi",
-      "start": "2026-10-14T09:30",
-      "end": "2026-10-14T11:30",
-      "location": "La petite forêt",
-      "city": "Auray",
-      "description": "Une nouvelle saison commence aux explorations des Herminons, en compagnie de Sabine Les rendez-vous du mercredi matin se poursuivent pour les plus jeunes, avec de nouveaux thèmes et toujours la même envie : apprendre, manipuler, créer et découvrir le vivant.",
-      "url": "https://explorationsherminons.fr/",
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6
-    },
-    {
       "id": "dt-31f67856d0",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-10-14T10:00",
       "end": "2026-10-14T12:30",
@@ -1939,6 +2110,7 @@
     },
     {
       "id": "dt-696c595f53",
+      "series_id": "dt-79ee07596f",
       "title": "Conférence: Comprendre et agir sur l’image corporelle",
       "start": "2026-10-14T19:00",
       "end": "2026-10-14T20:00",
@@ -1955,6 +2127,7 @@
     },
     {
       "id": "dt-122d391772",
+      "series_id": "dt-bfb7dbdc9f",
       "title": "Conférence : Néolithique et art contemporain",
       "start": "2026-10-14T20:30",
       "end": null,
@@ -1971,6 +2144,7 @@
     },
     {
       "id": "dt-2826d3d4cd",
+      "series_id": "dt-01656b3159",
       "title": "Marché hebdomadaire à Crac'h",
       "start": "2026-10-15T09:00",
       "end": "2026-10-15T13:00",
@@ -1987,6 +2161,7 @@
     },
     {
       "id": "dt-2ba9f725f0",
+      "series_id": "dt-0b82d6dcaf",
       "title": "Les coulisses des archives",
       "start": "2026-10-15T12:30",
       "end": "2026-10-15T13:00",
@@ -2003,6 +2178,7 @@
     },
     {
       "id": "dt-b2700bc6e0",
+      "series_id": "dt-74f6dcfb53",
       "title": "Le problème lapin, cartographie 7",
       "start": "2026-10-15T20:30",
       "end": "2026-10-15T22:00",
@@ -2019,6 +2195,7 @@
     },
     {
       "id": "dt-ce3876ac5b",
+      "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
       "start": "2026-10-16T08:00",
       "end": "2026-10-16T13:00",
@@ -2034,7 +2211,25 @@
       "distance_km": 0.6
     },
     {
+      "id": "dt-a7683d9ce0",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition TR'ÂMES",
+      "start": "2026-10-16T10:00",
+      "end": "2026-10-16T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0
+    },
+    {
       "id": "dt-1a6baf5846",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-10-16T15:00",
       "end": "2026-10-16T18:30",
@@ -2051,6 +2246,7 @@
     },
     {
       "id": "dt-0394cb5bed",
+      "series_id": "dt-68f75aba3a",
       "title": "Fest Noz",
       "start": "2026-10-16T20:30",
       "end": null,
@@ -2067,6 +2263,7 @@
     },
     {
       "id": "dt-9e7158f302",
+      "series_id": "dt-bef6d5b120",
       "title": "Les fous - aux pieds bleus 'EXTRA', performance et rencontre dansée, jouée, parlée",
       "start": "2026-10-16T20:30",
       "end": "2026-10-16T21:30",
@@ -2083,6 +2280,7 @@
     },
     {
       "id": "dt-3c4a5da237",
+      "series_id": "dt-6187f9ab58",
       "title": "Rêvons la Préhistoire en poésie",
       "start": "2026-10-16T20:30",
       "end": "2026-10-16T22:00",
@@ -2099,6 +2297,7 @@
     },
     {
       "id": "dt-3c860efbaa",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-10-17T10:00",
       "end": "2026-10-17T12:30",
@@ -2115,6 +2314,7 @@
     },
     {
       "id": "dt-b28c2c864b",
+      "series_id": "dt-6187f9ab58",
       "title": "Rêvons la Préhistoire en poésie",
       "start": "2026-10-17T11:00",
       "end": "2026-10-17T12:30",
@@ -2131,6 +2331,7 @@
     },
     {
       "id": "dt-9902ca9b3c",
+      "series_id": "dt-bef6d5b120",
       "title": "Les fous - aux pieds bleus 'EXTRA', performance et rencontre dansée, jouée, parlée",
       "start": "2026-10-17T15:00",
       "end": "2026-10-17T16:30",
@@ -2147,6 +2348,7 @@
     },
     {
       "id": "dt-34a1746b4f",
+      "series_id": "dt-bef6d5b120",
       "title": "Les fous - aux pieds bleus 'EXTRA', performance et rencontre dansée, jouée, parlée",
       "start": "2026-10-17T19:00",
       "end": null,
@@ -2163,6 +2365,7 @@
     },
     {
       "id": "dt-02c94cb597",
+      "series_id": "dt-185fe1a13f",
       "title": "Festival du Livre Jeunesse",
       "start": "2026-10-18T10:00",
       "end": "2026-10-18T18:00",
@@ -2179,6 +2382,7 @@
     },
     {
       "id": "dt-a945014a59",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-10-18T10:00",
       "end": "2026-10-18T12:30",
@@ -2195,6 +2399,7 @@
     },
     {
       "id": "dt-02e10d266f",
+      "series_id": "dt-ceeb893b0e",
       "title": "Conférence: la voix et ses fréquences",
       "start": "2026-10-18T14:00",
       "end": "2026-10-18T18:00",
@@ -2210,23 +2415,8 @@
       "distance_km": 9.6
     },
     {
-      "id": "dt-c04618f322",
-      "title": "Atelier d'écriture",
-      "start": "2026-10-18T14:30",
-      "end": "2026-10-18T17:00",
-      "location": "Galerie Terra Initia",
-      "city": "Carnac",
-      "description": "À 14h30 Pour celles et ceux qui ont envie de jouer avec les mots, novices ou expérimentés, cet atelier est une invitation à écrire librement, à explorer, ressentir, imaginer. Un moment vivant, spontané et inspirant, à partager ensemble autour du plaisir d'écrire.",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
-    },
-    {
       "id": "dt-1577585240",
+      "series_id": "dt-d708adcc76",
       "title": "Atelier en forêt",
       "start": "2026-10-18T15:00",
       "end": "2026-10-18T17:00",
@@ -2234,8 +2424,8 @@
       "city": "Carnac",
       "description": "Atelier en forêt pour les tout-petits à 10h Découvrez la nature avec Soline et construisez un village pour les petits animaux. Les enfants jouent et participent à diverses activités au cœur de la nature : exploration, observation des petits animaux à la loupe, construction de…",
       "url": null,
-      "category": "culture",
-      "priority": 2,
+      "category": "plein_air",
+      "priority": 3,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
@@ -2243,6 +2433,7 @@
     },
     {
       "id": "dt-305d5862f8",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-10-19T10:00",
       "end": "2026-10-19T12:30",
@@ -2259,6 +2450,7 @@
     },
     {
       "id": "dt-edeb4d06a4",
+      "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
       "start": "2026-10-20T08:00",
       "end": "2026-10-20T13:00",
@@ -2275,6 +2467,7 @@
     },
     {
       "id": "dt-107f6188ef",
+      "series_id": "dt-9a067d7a68",
       "title": "Les Croc'Archi : le yacht-club de Carnac",
       "start": "2026-10-20T12:30",
       "end": "2026-10-20T13:15",
@@ -2290,7 +2483,25 @@
       "distance_km": 4.1
     },
     {
+      "id": "dt-28b6522f4e",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition TR'ÂMES",
+      "start": "2026-10-21T10:00",
+      "end": "2026-10-21T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0
+    },
+    {
       "id": "dt-3bed3abb05",
+      "series_id": "dt-bc5aa3c8ff",
       "title": "Les rives du Loc'h - Nature en musique",
       "start": "2026-10-21T14:00",
       "end": null,
@@ -2307,6 +2518,7 @@
     },
     {
       "id": "dt-3d28a3b92e",
+      "series_id": "dt-e3aec3efb7",
       "title": "Heure du conte",
       "start": "2026-10-21T15:00",
       "end": "2026-10-21T15:40",
@@ -2323,6 +2535,7 @@
     },
     {
       "id": "dt-3218fd0563",
+      "series_id": "dt-01656b3159",
       "title": "Marché hebdomadaire à Crac'h",
       "start": "2026-10-22T09:00",
       "end": "2026-10-22T13:00",
@@ -2339,6 +2552,7 @@
     },
     {
       "id": "dt-dfde64a04f",
+      "series_id": "dt-f0362586bd",
       "title": "Découverte du joli monde des champignons",
       "start": "2026-10-22T10:00",
       "end": "2026-10-22T12:30",
@@ -2354,7 +2568,25 @@
       "distance_km": 1.2
     },
     {
+      "id": "dt-dd0c058722",
+      "series_id": "dt-09b966ff66",
+      "title": "Marché hebdomadaire à La Trinité-sur-Mer",
+      "start": "2026-10-23T08:00",
+      "end": "2026-10-23T13:00",
+      "location": "Place du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Le marché hebdomadaire se tient le mardi et le vendredi matin de 8h à 13h sur la place du Voulien.",
+      "url": null,
+      "category": "marche",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 0.6
+    },
+    {
       "id": "dt-058f0a6acc",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-10-23T10:00",
       "end": "2026-10-23T12:30",
@@ -2371,6 +2603,7 @@
     },
     {
       "id": "dt-b4de17d69a",
+      "series_id": "dt-f8a7b23ee4",
       "title": "Mad in Finland, cirque sous chapiteau",
       "start": "2026-10-23T15:00",
       "end": "2026-10-23T16:30",
@@ -2387,6 +2620,7 @@
     },
     {
       "id": "dt-17bc05d058",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-10-23T15:00",
       "end": "2026-10-23T18:30",
@@ -2403,6 +2637,7 @@
     },
     {
       "id": "dt-2339ba03f4",
+      "series_id": "dt-9cb2440d79",
       "title": "Les Tréteaux Trinitains présentent \"Le noir te va si bien\"",
       "start": "2026-10-23T20:30",
       "end": null,
@@ -2419,6 +2654,7 @@
     },
     {
       "id": "dt-3f71131a3b",
+      "series_id": "dt-b25a4d548a",
       "title": "Challenge d’automne",
       "start": "2026-10-24",
       "end": "2026-10-25",
@@ -2435,6 +2671,7 @@
     },
     {
       "id": "dt-1215b39bed",
+      "series_id": "dt-2efd846dee",
       "title": "Foire aux Vins et Produits Gourmands",
       "start": "2026-10-24T10:00",
       "end": "2026-10-25T18:00",
@@ -2451,6 +2688,7 @@
     },
     {
       "id": "dt-d6de9303ae",
+      "series_id": "dt-bf674c6850",
       "title": "Sortie découverte botanique et sensorielle",
       "start": "2026-10-24T10:00",
       "end": "2026-10-24T12:30",
@@ -2467,6 +2705,7 @@
     },
     {
       "id": "dt-e33561cd28",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-10-24T10:00",
       "end": "2026-10-24T12:30",
@@ -2483,6 +2722,7 @@
     },
     {
       "id": "dt-38d32d7e23",
+      "series_id": "dt-a4fb9ac290",
       "title": "Festival Presqu’île Breizh",
       "start": "2026-10-24T11:30",
       "end": null,
@@ -2499,6 +2739,7 @@
     },
     {
       "id": "dt-4fdbdb3f7c",
+      "series_id": "dt-f8a7b23ee4",
       "title": "Mad in Finland, cirque sous chapiteau",
       "start": "2026-10-24T19:00",
       "end": "2026-10-24T20:30",
@@ -2515,6 +2756,7 @@
     },
     {
       "id": "dt-951bcdfaa7",
+      "series_id": "dt-0531a3cb28",
       "title": "Fest Noz",
       "start": "2026-10-24T20:00",
       "end": null,
@@ -2531,6 +2773,7 @@
     },
     {
       "id": "dt-3bf45411af",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-10-25T10:00",
       "end": "2026-10-25T12:30",
@@ -2547,6 +2790,7 @@
     },
     {
       "id": "dt-e53a376272",
+      "series_id": "dt-a4fb9ac290",
       "title": "Festival Presqu’île Breizh",
       "start": "2026-10-25T15:00",
       "end": null,
@@ -2563,6 +2807,7 @@
     },
     {
       "id": "dt-049d537232",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-10-26T10:00",
       "end": "2026-10-26T12:30",
@@ -2579,6 +2824,7 @@
     },
     {
       "id": "dt-1f6c519a1a",
+      "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
       "start": "2026-10-27T08:00",
       "end": "2026-10-27T13:00",
@@ -2595,6 +2841,7 @@
     },
     {
       "id": "dt-9768a1f570",
+      "series_id": "dt-35ff0aaf95",
       "title": "Découverte de l'estran et initiation à la pêche à pied",
       "start": "2026-10-27T10:30",
       "end": "2026-10-27T12:30",
@@ -2611,6 +2858,7 @@
     },
     {
       "id": "dt-dc3459becf",
+      "series_id": "dt-00774cb163",
       "title": "Place aux Mômes - Qui a coupé l’eau ?",
       "start": "2026-10-27T15:30",
       "end": "2026-10-27T16:30",
@@ -2626,7 +2874,25 @@
       "distance_km": 4.4
     },
     {
+      "id": "dt-2b4821f13a",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition TR'ÂMES",
+      "start": "2026-10-28T10:00",
+      "end": "2026-10-28T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0
+    },
+    {
       "id": "dt-b4dabed98d",
+      "series_id": "dt-bc5aa3c8ff",
       "title": "Les rives du Loc'h - Nature en musique",
       "start": "2026-10-28T14:00",
       "end": null,
@@ -2643,6 +2909,7 @@
     },
     {
       "id": "dt-425f5361c9",
+      "series_id": "dt-1a40ea5590",
       "title": "La fabuleuse histoire de BasarKus",
       "start": "2026-10-28T15:00",
       "end": "2026-10-28T15:30",
@@ -2659,6 +2926,7 @@
     },
     {
       "id": "dt-3ed5016400",
+      "series_id": "dt-6bb254e5ac",
       "title": "Heure du conte",
       "start": "2026-10-28T15:00",
       "end": "2026-10-28T15:40",
@@ -2675,6 +2943,7 @@
     },
     {
       "id": "dt-86f475cdff",
+      "series_id": "dt-1a40ea5590",
       "title": "La fabuleuse histoire de BasarKus",
       "start": "2026-10-28T17:30",
       "end": "2026-10-28T18:00",
@@ -2691,6 +2960,7 @@
     },
     {
       "id": "dt-06c91a86df",
+      "series_id": "dt-01656b3159",
       "title": "Marché hebdomadaire à Crac'h",
       "start": "2026-10-29T09:00",
       "end": "2026-10-29T13:00",
@@ -2707,6 +2977,7 @@
     },
     {
       "id": "dt-1b7e29c4cf",
+      "series_id": "dt-631a0aa8ab",
       "title": "Initiation à la pêche à pied",
       "start": "2026-10-29T10:30",
       "end": null,
@@ -2723,6 +2994,7 @@
     },
     {
       "id": "dt-6d8a26d2dd",
+      "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
       "start": "2026-10-30T08:00",
       "end": "2026-10-30T13:00",
@@ -2739,6 +3011,7 @@
     },
     {
       "id": "dt-b061b74f6a",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-10-30T10:00",
       "end": "2026-10-30T12:30",
@@ -2754,7 +3027,25 @@
       "distance_km": 4.0
     },
     {
+      "id": "dt-8396eee239",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition TR'ÂMES",
+      "start": "2026-10-30T15:00",
+      "end": "2026-10-30T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0
+    },
+    {
       "id": "dt-84d607919d",
+      "series_id": "dt-bfb2390b81",
       "title": "Théâtre : Hold up & bras cassés",
       "start": "2026-10-30T20:00",
       "end": null,
@@ -2771,6 +3062,7 @@
     },
     {
       "id": "dt-a13d1f2cc0",
+      "series_id": "dt-ab6441872d",
       "title": "Concert d’automne Mathias Lévy et Lou Tavano « Chant Song »",
       "start": "2026-10-30T20:30",
       "end": "2026-10-30T22:30",
@@ -2787,6 +3079,7 @@
     },
     {
       "id": "dt-4410612ac1",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-10-31T10:00",
       "end": "2026-10-31T12:30",
@@ -2803,6 +3096,7 @@
     },
     {
       "id": "dt-05b7a436e4",
+      "series_id": "dt-d708adcc76",
       "title": "Atelier en forêt",
       "start": "2026-10-31T15:00",
       "end": "2026-10-31T17:00",
@@ -2810,8 +3104,8 @@
       "city": "Carnac",
       "description": "Atelier en forêt pour les tout-petits à 10h Découvrez la nature avec Soline et construisez un village pour les petits animaux. Les enfants jouent et participent à diverses activités au cœur de la nature : exploration, observation des petits animaux à la loupe, construction de…",
       "url": null,
-      "category": "culture",
-      "priority": 2,
+      "category": "plein_air",
+      "priority": 3,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
@@ -2819,6 +3113,7 @@
     },
     {
       "id": "dt-da477ecb4a",
+      "series_id": "dt-bfb2390b81",
       "title": "Théâtre : Hold up & bras cassés",
       "start": "2026-10-31T18:00",
       "end": null,
@@ -2835,6 +3130,7 @@
     },
     {
       "id": "dt-4ad66e487d",
+      "series_id": "dt-4d46838b3a",
       "title": "Feu d'artifice du festival Trini'Kids",
       "start": "2026-10-31T19:00",
       "end": null,
@@ -2851,6 +3147,7 @@
     },
     {
       "id": "dt-d54f710dc2",
+      "series_id": "dt-bfb2390b81",
       "title": "Théâtre : Hold up & bras cassés",
       "start": "2026-10-31T20:00",
       "end": null,
@@ -2867,6 +3164,7 @@
     },
     {
       "id": "dt-dd85a44437",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-11-01T10:00",
       "end": "2026-11-01T12:30",
@@ -2883,6 +3181,7 @@
     },
     {
       "id": "dt-ffea2570d1",
+      "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
       "start": "2026-11-02T10:00",
       "end": "2026-11-02T12:30",
@@ -2898,7 +3197,25 @@
       "distance_km": 4.0
     },
     {
+      "id": "dt-f703ba54bc",
+      "series_id": "dt-09b966ff66",
+      "title": "Marché hebdomadaire à La Trinité-sur-Mer",
+      "start": "2026-11-03T08:00",
+      "end": "2026-11-03T13:00",
+      "location": "Place du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Le marché hebdomadaire se tient le mardi et le vendredi matin de 8h à 13h sur la place du Voulien.",
+      "url": null,
+      "category": "marche",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 0.6
+    },
+    {
       "id": "dt-058ef45bf3",
+      "series_id": "dt-cf77ee1356",
       "title": "Les IndisciplinéEs Festival",
       "start": "2026-11-04",
       "end": "2026-11-14",
@@ -2915,6 +3232,7 @@
     },
     {
       "id": "dt-871c365d09",
+      "series_id": "dt-ea2768c7fa",
       "title": "Théâtre Bulle de poésie: Parce que les vers n'ont pas besoin de pieds pour s'envoler",
       "start": "2026-11-04T10:00",
       "end": "2026-11-04T10:30",
@@ -2931,6 +3249,7 @@
     },
     {
       "id": "dt-13d582bb6d",
+      "series_id": "dt-ea2768c7fa",
       "title": "Théâtre Bulle de poésie: Parce que les vers n'ont pas besoin de pieds pour s'envoler",
       "start": "2026-11-04T11:30",
       "end": "2026-11-04T12:00",
@@ -2947,6 +3266,7 @@
     },
     {
       "id": "dt-fd10a5beda",
+      "series_id": "dt-ea2768c7fa",
       "title": "Théâtre Bulle de poésie: Parce que les vers n'ont pas besoin de pieds pour s'envoler",
       "start": "2026-11-04T15:00",
       "end": "2026-11-04T15:30",
@@ -2963,6 +3283,7 @@
     },
     {
       "id": "dt-011f57290f",
+      "series_id": "dt-ea2768c7fa",
       "title": "Théâtre Bulle de poésie: Parce que les vers n'ont pas besoin de pieds pour s'envoler",
       "start": "2026-11-04T16:30",
       "end": "2026-11-04T17:00",
@@ -2979,6 +3300,7 @@
     },
     {
       "id": "dt-55e70f30b0",
+      "series_id": "dt-01656b3159",
       "title": "Marché hebdomadaire à Crac'h",
       "start": "2026-11-05T09:00",
       "end": "2026-11-05T13:00",
@@ -2995,6 +3317,7 @@
     },
     {
       "id": "dt-3ed9d4b506",
+      "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
       "start": "2026-11-06T08:00",
       "end": "2026-11-06T13:00",
@@ -3011,6 +3334,7 @@
     },
     {
       "id": "dt-8b7183b474",
+      "series_id": "dt-b25a4d548a",
       "title": "Challenge d’automne",
       "start": "2026-11-07",
       "end": "2026-11-08",
@@ -3027,6 +3351,7 @@
     },
     {
       "id": "dt-0c5409479e",
+      "series_id": "dt-8cf2f76fef",
       "title": "Trail de la Baie de Quiberon",
       "start": "2026-11-07T07:30",
       "end": null,
@@ -3043,6 +3368,7 @@
     },
     {
       "id": "dt-24049778a3",
+      "series_id": "dt-63d6975e62",
       "title": "Visite guidée : Le Monument aux Morts",
       "start": "2026-11-07T11:00",
       "end": "2026-11-07T12:30",
@@ -3059,6 +3385,7 @@
     },
     {
       "id": "dt-db744ce433",
+      "series_id": "dt-35ff0aaf95",
       "title": "Découverte de l'estran et initiation à la pêche à pied",
       "start": "2026-11-08T10:00",
       "end": "2026-11-08T12:00",
@@ -3075,6 +3402,7 @@
     },
     {
       "id": "dt-d2dfe23b11",
+      "series_id": "dt-9cb2440d79",
       "title": "Les Tréteaux Trinitains présentent \"Le noir te va si bien\"",
       "start": "2026-11-08T15:00",
       "end": null,
@@ -3091,6 +3419,7 @@
     },
     {
       "id": "dt-43d8163e06",
+      "series_id": "dt-d708adcc76",
       "title": "Atelier en forêt",
       "start": "2026-11-08T15:00",
       "end": "2026-11-08T17:00",
@@ -3098,8 +3427,8 @@
       "city": "Carnac",
       "description": "Atelier en forêt pour les tout-petits à 10h Découvrez la nature avec Soline et construisez un village pour les petits animaux. Les enfants jouent et participent à diverses activités au cœur de la nature : exploration, observation des petits animaux à la loupe, construction de…",
       "url": null,
-      "category": "culture",
-      "priority": 2,
+      "category": "plein_air",
+      "priority": 3,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
@@ -3107,6 +3436,7 @@
     },
     {
       "id": "dt-46f8037442",
+      "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
       "start": "2026-11-10T08:00",
       "end": "2026-11-10T13:00",
@@ -3123,6 +3453,7 @@
     },
     {
       "id": "dt-926cf48dc8",
+      "series_id": "dt-9cb2440d79",
       "title": "Les Tréteaux Trinitains présentent \"Le noir te va si bien\"",
       "start": "2026-11-11T15:00",
       "end": null,
@@ -3139,6 +3470,7 @@
     },
     {
       "id": "dt-b756593be2",
+      "series_id": "dt-01656b3159",
       "title": "Marché hebdomadaire à Crac'h",
       "start": "2026-11-12T09:00",
       "end": "2026-11-12T13:00",
@@ -3155,6 +3487,7 @@
     },
     {
       "id": "dt-25972b1c53",
+      "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
       "start": "2026-11-13T08:00",
       "end": "2026-11-13T13:00",
@@ -3170,7 +3503,25 @@
       "distance_km": 0.6
     },
     {
+      "id": "dt-fd848d8147",
+      "series_id": "dt-09b966ff66",
+      "title": "Marché hebdomadaire à La Trinité-sur-Mer",
+      "start": "2026-11-17T08:00",
+      "end": "2026-11-17T13:00",
+      "location": "Place du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Le marché hebdomadaire se tient le mardi et le vendredi matin de 8h à 13h sur la place du Voulien.",
+      "url": null,
+      "category": "marche",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 0.6
+    },
+    {
       "id": "dt-eb0656aac9",
+      "series_id": "dt-1b289c0945",
       "title": "Concert Jeune public - Mini·Maxi",
       "start": "2026-11-18T10:00",
       "end": "2026-11-18T10:30",
@@ -3187,6 +3538,7 @@
     },
     {
       "id": "dt-ae46139dbd",
+      "series_id": "dt-01656b3159",
       "title": "Marché hebdomadaire à Crac'h",
       "start": "2026-11-19T09:00",
       "end": "2026-11-19T13:00",
@@ -3203,6 +3555,7 @@
     },
     {
       "id": "dt-b265fd49ae",
+      "series_id": "dt-0b82d6dcaf",
       "title": "Les coulisses des archives",
       "start": "2026-11-19T12:30",
       "end": "2026-11-19T13:00",
@@ -3219,6 +3572,7 @@
     },
     {
       "id": "dt-d84f9ecda6",
+      "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
       "start": "2026-11-20T08:00",
       "end": "2026-11-20T13:00",
@@ -3235,6 +3589,7 @@
     },
     {
       "id": "dt-5f20a7b62c",
+      "series_id": "dt-b25a4d548a",
       "title": "Challenge d’automne",
       "start": "2026-11-21",
       "end": "2026-11-22",
@@ -3251,6 +3606,7 @@
     },
     {
       "id": "dt-c15dff35f7",
+      "series_id": "dt-2479c0ae44",
       "title": "Chevaleresses",
       "start": "2026-11-21T20:30",
       "end": "2026-11-21T22:00",
@@ -3266,23 +3622,8 @@
       "distance_km": 0.1
     },
     {
-      "id": "dt-db2a022851",
-      "title": "Atelier d'écriture",
-      "start": "2026-11-22T14:30",
-      "end": "2026-11-22T17:00",
-      "location": "Galerie Terra Initia",
-      "city": "Carnac",
-      "description": "À 14h30 Pour celles et ceux qui ont envie de jouer avec les mots, novices ou expérimentés, cet atelier est une invitation à écrire librement, à explorer, ressentir, imaginer. Un moment vivant, spontané et inspirant, à partager ensemble autour du plaisir d'écrire.",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
-    },
-    {
       "id": "dt-b6a4757ab2",
+      "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
       "start": "2026-11-24T08:00",
       "end": "2026-11-24T13:00",
@@ -3299,6 +3640,7 @@
     },
     {
       "id": "dt-995ee8b8fe",
+      "series_id": "dt-01656b3159",
       "title": "Marché hebdomadaire à Crac'h",
       "start": "2026-11-26T09:00",
       "end": "2026-11-26T13:00",
@@ -3315,6 +3657,7 @@
     },
     {
       "id": "dt-b9771bd9f0",
+      "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
       "start": "2026-11-27T08:00",
       "end": "2026-11-27T13:00",
@@ -3330,7 +3673,25 @@
       "distance_km": 0.6
     },
     {
+      "id": "dt-ca6d47145b",
+      "series_id": "dt-09b966ff66",
+      "title": "Marché hebdomadaire à La Trinité-sur-Mer",
+      "start": "2026-12-01T08:00",
+      "end": "2026-12-01T13:00",
+      "location": "Place du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Le marché hebdomadaire se tient le mardi et le vendredi matin de 8h à 13h sur la place du Voulien.",
+      "url": null,
+      "category": "marche",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 0.6
+    },
+    {
       "id": "dt-f787ff15a8",
+      "series_id": "dt-73ecab1d64",
       "title": "Où va le son quand il nous quitte ?",
       "start": "2026-12-02T20:30",
       "end": "2026-12-02T22:00",
@@ -3347,6 +3708,7 @@
     },
     {
       "id": "dt-50c14d9b51",
+      "series_id": "dt-01656b3159",
       "title": "Marché hebdomadaire à Crac'h",
       "start": "2026-12-03T09:00",
       "end": "2026-12-03T13:00",
@@ -3363,6 +3725,7 @@
     },
     {
       "id": "dt-75bbf6a185",
+      "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
       "start": "2026-12-04T08:00",
       "end": "2026-12-04T13:00",
@@ -3379,6 +3742,7 @@
     },
     {
       "id": "dt-0146ecd23c",
+      "series_id": "dt-71a9834829",
       "title": "Concert de jazz Daoud",
       "start": "2026-12-04T20:30",
       "end": "2026-12-04T22:00",
@@ -3395,6 +3759,7 @@
     },
     {
       "id": "dt-13a5da2a27",
+      "series_id": "dt-8d6fc8551b",
       "title": "Cirque - théâtre sous yourte - Si c'est sûr c'est pas peut-être",
       "start": "2026-12-05T15:00",
       "end": "2026-12-05T16:00",
@@ -3411,6 +3776,7 @@
     },
     {
       "id": "dt-54eff05068",
+      "series_id": "dt-8d6fc8551b",
       "title": "Cirque - théâtre sous yourte - Si c'est sûr c'est pas peut-être",
       "start": "2026-12-05T19:00",
       "end": "2026-12-05T20:00",
@@ -3427,6 +3793,7 @@
     },
     {
       "id": "dt-531e7fe718",
+      "series_id": "dt-8d6fc8551b",
       "title": "Cirque - théâtre sous yourte - Si c'est sûr c'est pas peut-être",
       "start": "2026-12-06T11:00",
       "end": "2026-12-06T12:00",
@@ -3443,6 +3810,7 @@
     },
     {
       "id": "dt-370002f9c9",
+      "series_id": "dt-8d6fc8551b",
       "title": "Cirque - théâtre sous yourte - Si c'est sûr c'est pas peut-être",
       "start": "2026-12-06T17:00",
       "end": "2026-12-06T18:00",
@@ -3458,7 +3826,25 @@
       "distance_km": 9.5
     },
     {
+      "id": "dt-999a0c038b",
+      "series_id": "dt-09b966ff66",
+      "title": "Marché hebdomadaire à La Trinité-sur-Mer",
+      "start": "2026-12-08T08:00",
+      "end": "2026-12-08T13:00",
+      "location": "Place du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Le marché hebdomadaire se tient le mardi et le vendredi matin de 8h à 13h sur la place du Voulien.",
+      "url": null,
+      "category": "marche",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 0.6
+    },
+    {
       "id": "dt-0e5a7b1a24",
+      "series_id": "dt-8d6fc8551b",
       "title": "Cirque - théâtre sous yourte - Si c'est sûr c'est pas peut-être",
       "start": "2026-12-08T20:30",
       "end": "2026-12-08T21:30",
@@ -3475,6 +3861,7 @@
     },
     {
       "id": "dt-742523999d",
+      "series_id": "dt-8d6fc8551b",
       "title": "Cirque - théâtre sous yourte - Si c'est sûr c'est pas peut-être",
       "start": "2026-12-09T15:00",
       "end": "2026-12-09T16:00",
@@ -3491,6 +3878,7 @@
     },
     {
       "id": "dt-6c97bb0126",
+      "series_id": "dt-8d6fc8551b",
       "title": "Cirque - théâtre sous yourte - Si c'est sûr c'est pas peut-être",
       "start": "2026-12-09T19:00",
       "end": "2026-12-09T20:00",
@@ -3507,6 +3895,7 @@
     },
     {
       "id": "dt-a41e43693a",
+      "series_id": "dt-01656b3159",
       "title": "Marché hebdomadaire à Crac'h",
       "start": "2026-12-10T09:00",
       "end": "2026-12-10T13:00",
@@ -3523,6 +3912,7 @@
     },
     {
       "id": "dt-aa2c83cdb6",
+      "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
       "start": "2026-12-11T08:00",
       "end": "2026-12-11T13:00",
@@ -3539,6 +3929,7 @@
     },
     {
       "id": "dt-00564b33c9",
+      "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
       "start": "2026-12-15T08:00",
       "end": "2026-12-15T13:00",
@@ -3555,6 +3946,7 @@
     },
     {
       "id": "dt-2f7160eb78",
+      "series_id": "dt-01656b3159",
       "title": "Marché hebdomadaire à Crac'h",
       "start": "2026-12-17T09:00",
       "end": "2026-12-17T13:00",
@@ -3570,7 +3962,25 @@
       "distance_km": 4.0
     },
     {
+      "id": "dt-08faff9379",
+      "series_id": "dt-09b966ff66",
+      "title": "Marché hebdomadaire à La Trinité-sur-Mer",
+      "start": "2026-12-18T08:00",
+      "end": "2026-12-18T13:00",
+      "location": "Place du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Le marché hebdomadaire se tient le mardi et le vendredi matin de 8h à 13h sur la place du Voulien.",
+      "url": null,
+      "category": "marche",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 0.6
+    },
+    {
       "id": "dt-fdc41dfb75",
+      "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
       "start": "2026-12-22T08:00",
       "end": "2026-12-22T13:00",
@@ -3587,6 +3997,7 @@
     },
     {
       "id": "dt-3aaea45c79",
+      "series_id": "dt-01656b3159",
       "title": "Marché hebdomadaire à Crac'h",
       "start": "2026-12-24T09:00",
       "end": "2026-12-24T13:00",
@@ -3603,6 +4014,7 @@
     },
     {
       "id": "dt-2eb681982f",
+      "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
       "start": "2026-12-25T08:00",
       "end": "2026-12-25T13:00",
@@ -3618,7 +4030,25 @@
       "distance_km": 0.6
     },
     {
+      "id": "dt-de2fc1f851",
+      "series_id": "dt-09b966ff66",
+      "title": "Marché hebdomadaire à La Trinité-sur-Mer",
+      "start": "2026-12-29T08:00",
+      "end": "2026-12-29T13:00",
+      "location": "Place du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Le marché hebdomadaire se tient le mardi et le vendredi matin de 8h à 13h sur la place du Voulien.",
+      "url": null,
+      "category": "marche",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 0.6
+    },
+    {
       "id": "dt-8ae1c1e25c",
+      "series_id": "dt-01656b3159",
       "title": "Marché hebdomadaire à Crac'h",
       "start": "2026-12-31T09:00",
       "end": "2026-12-31T13:00",
@@ -3635,6 +4065,7 @@
     },
     {
       "id": "dt-eeb2161778",
+      "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
       "start": "2027-01-01T08:00",
       "end": "2027-01-01T13:00",
@@ -3650,7 +4081,25 @@
       "distance_km": 0.6
     },
     {
+      "id": "dt-dd69905bda",
+      "series_id": "dt-09b966ff66",
+      "title": "Marché hebdomadaire à La Trinité-sur-Mer",
+      "start": "2027-01-05T08:00",
+      "end": "2027-01-05T13:00",
+      "location": "Place du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Le marché hebdomadaire se tient le mardi et le vendredi matin de 8h à 13h sur la place du Voulien.",
+      "url": null,
+      "category": "marche",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 0.6
+    },
+    {
       "id": "dt-6253671ebd",
+      "series_id": "dt-eeeefdcb45",
       "title": "Concert de jazz Antonio Lizana",
       "start": "2027-01-17T17:00",
       "end": "2027-01-17T18:30",
@@ -3667,6 +4116,7 @@
     },
     {
       "id": "dt-ce6abd159c",
+      "series_id": "dt-dc9ab832d8",
       "title": "Rouge Courroux",
       "start": "2027-01-20T15:00",
       "end": "2027-01-20T16:00",
@@ -3683,6 +4133,7 @@
     },
     {
       "id": "dt-01a550bcaa",
+      "series_id": "dt-3eb2d720b8",
       "title": "Marionnettes et magie nouvelle - L'Affaire est grave !",
       "start": "2027-01-30T15:00",
       "end": "2027-01-30T16:00",
@@ -3699,6 +4150,7 @@
     },
     {
       "id": "dt-13ac095f1a",
+      "series_id": "dt-3eb2d720b8",
       "title": "Marionnettes et magie nouvelle - L'Affaire est grave !",
       "start": "2027-01-30T19:00",
       "end": "2027-01-30T20:00",
@@ -3715,6 +4167,7 @@
     },
     {
       "id": "dt-2b4abe90ae",
+      "series_id": "dt-3eb2d720b8",
       "title": "Marionnettes et magie nouvelle - L'Affaire est grave !",
       "start": "2027-01-31T11:00",
       "end": "2027-01-31T12:00",
@@ -3731,6 +4184,7 @@
     },
     {
       "id": "dt-0372206b90",
+      "series_id": "dt-3eb2d720b8",
       "title": "Marionnettes et magie nouvelle - L'Affaire est grave !",
       "start": "2027-01-31T17:00",
       "end": "2027-01-31T18:00",
@@ -3747,6 +4201,7 @@
     },
     {
       "id": "dt-2dccae70a5",
+      "series_id": "dt-a5c6175673",
       "title": "Cirque et théâtre musical - Ballroom - à Arlequin",
       "start": "2027-02-03T15:00",
       "end": "2027-02-03T15:30",
@@ -3763,6 +4218,7 @@
     },
     {
       "id": "dt-55693f9811",
+      "series_id": "dt-a5c6175673",
       "title": "Cirque et théâtre musical - Ballroom - à Arlequin",
       "start": "2027-02-03T19:00",
       "end": "2027-02-03T19:30",
@@ -3779,6 +4235,7 @@
     },
     {
       "id": "dt-4139aed8a0",
+      "series_id": "dt-a5c6175673",
       "title": "Cirque et théâtre musical - Ballroom - à Arlequin",
       "start": "2027-02-03T20:30",
       "end": "2027-02-03T21:00",
@@ -3795,6 +4252,7 @@
     },
     {
       "id": "dt-6ec2e2f577",
+      "series_id": "dt-a5c6175673",
       "title": "Cirque et théâtre musical - Ballroom - à Arlequin",
       "start": "2027-02-04T19:00",
       "end": "2027-02-04T19:30",
@@ -3811,6 +4269,7 @@
     },
     {
       "id": "dt-1e39bd3ad8",
+      "series_id": "dt-a5c6175673",
       "title": "Cirque et théâtre musical - Ballroom - à Arlequin",
       "start": "2027-02-04T20:30",
       "end": "2027-02-04T21:00",
@@ -3827,6 +4286,7 @@
     },
     {
       "id": "dt-f34d2328bc",
+      "series_id": "dt-e6189320ba",
       "title": "Cirque et théâtre musical: Ballroom -au Loch",
       "start": "2027-02-05T19:00",
       "end": "2027-02-05T19:30",
@@ -3843,6 +4303,7 @@
     },
     {
       "id": "dt-144d23b34e",
+      "series_id": "dt-e6189320ba",
       "title": "Cirque et théâtre musical: Ballroom -au Loch",
       "start": "2027-02-05T20:30",
       "end": "2027-02-05T21:00",
@@ -3859,6 +4320,7 @@
     },
     {
       "id": "dt-e75fca23e7",
+      "series_id": "dt-72d95f7040",
       "title": "Atelier Couture \"zéro chute\"",
       "start": "2027-02-06T10:00",
       "end": "2027-02-06T13:00",
@@ -3866,8 +4328,8 @@
       "city": "La Trinité-sur-Mer",
       "description": "Bords de scènes : autour de la pièce \" Fast\" qui sera jouée à la Vigie le 9 février à 20h30 Avec Delphine Barré (Du Vent dans ta jupe) Réalisez un objet textile à partir de chutes de tissus grâce à la technique du patronage sans chutes.",
       "url": null,
-      "category": "culture",
-      "priority": 2,
+      "category": "autre",
+      "priority": 3,
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
@@ -3875,6 +4337,7 @@
     },
     {
       "id": "dt-7e89124a68",
+      "series_id": "dt-e6189320ba",
       "title": "Cirque et théâtre musical: Ballroom -au Loch",
       "start": "2027-02-06T11:00",
       "end": "2027-02-06T11:30",
@@ -3891,6 +4354,7 @@
     },
     {
       "id": "dt-3f736502ea",
+      "series_id": "dt-e6189320ba",
       "title": "Cirque et théâtre musical: Ballroom -au Loch",
       "start": "2027-02-06T15:00",
       "end": "2027-02-06T15:30",
@@ -3907,6 +4371,7 @@
     },
     {
       "id": "dt-797d20301f",
+      "series_id": "dt-e6189320ba",
       "title": "Cirque et théâtre musical: Ballroom -au Loch",
       "start": "2027-02-06T19:00",
       "end": "2027-02-06T19:30",
@@ -3923,6 +4388,7 @@
     },
     {
       "id": "dt-a117895db5",
+      "series_id": "dt-cb7909193f",
       "title": "Fast, ou peut-on se réapproprier nos désirs dans une société de consommation ?",
       "start": "2027-02-09T20:30",
       "end": "2027-02-09T21:30",
@@ -3939,6 +4405,7 @@
     },
     {
       "id": "dt-89d539592f",
+      "series_id": "dt-448bf7dc51",
       "title": "Concert debout et Rap - LE LAB : Les Nuits Soniques x Athéna avec 8ruki et Surprise",
       "start": "2027-02-13T20:00",
       "end": null,
@@ -3955,6 +4422,7 @@
     },
     {
       "id": "dt-75e4952d02",
+      "series_id": "dt-ac270b45d0",
       "title": "Théâtre d'ombres, objets et contes: Filles & Soie pour toutes & tous",
       "start": "2027-02-17T15:00",
       "end": "2027-02-17T15:45",
@@ -3971,6 +4439,7 @@
     },
     {
       "id": "dt-d95a516252",
+      "series_id": "dt-f487c88f00",
       "title": "Concert jazz Caloé et Le Voyageur",
       "start": "2027-03-06T20:30",
       "end": "2027-03-06T22:00",
@@ -3987,6 +4456,7 @@
     },
     {
       "id": "dt-23f20760d0",
+      "series_id": "dt-6ac446a5e7",
       "title": "Théâtre-Polar: Article 353 du code pénal",
       "start": "2027-04-02T20:30",
       "end": null,
@@ -4003,6 +4473,7 @@
     },
     {
       "id": "dt-e20106cb78",
+      "series_id": "dt-41cc440f7a",
       "title": "Dark, Bruital Compagnie",
       "start": "2027-04-03T20:30",
       "end": "2027-04-03T22:00",
@@ -4019,6 +4490,7 @@
     },
     {
       "id": "dt-379d35f3c5",
+      "series_id": "dt-229421e5e8",
       "title": "Musique et arts numériques: La tête mi-Pneu mi-Punk",
       "start": "2027-04-07T15:00",
       "end": "2027-04-07T16:00",
@@ -4035,6 +4507,7 @@
     },
     {
       "id": "dt-1cbc063076",
+      "series_id": "dt-3634c6de8b",
       "title": "Concert : Wolfgang Valbrun",
       "start": "2027-04-08T20:30",
       "end": "2027-04-08T22:00",
@@ -4051,6 +4524,7 @@
     },
     {
       "id": "dt-7ccc90069e",
+      "series_id": "dt-ad91458edf",
       "title": "Rencontre avec Magali Mougel",
       "start": "2027-04-10T10:00",
       "end": "2027-04-10T12:00",
@@ -4067,6 +4541,7 @@
     },
     {
       "id": "dt-796c3b67a6",
+      "series_id": "dt-d50f10889b",
       "title": "Cirque: Rêves",
       "start": "2027-04-10T20:30",
       "end": "2027-04-10T21:15",
@@ -4083,6 +4558,7 @@
     },
     {
       "id": "dt-59bc536940",
+      "series_id": "dt-d50f10889b",
       "title": "Cirque: Rêves",
       "start": "2027-04-11T17:00",
       "end": "2027-04-11T18:15",
@@ -4099,6 +4575,7 @@
     },
     {
       "id": "dt-21c14ff48b",
+      "series_id": "dt-3e65366b3f",
       "title": "Théâtre: Elle pas princesse, Lui pas héros",
       "start": "2027-04-14T19:00",
       "end": "2027-04-14T20:00",
@@ -4115,6 +4592,7 @@
     },
     {
       "id": "dt-f5a74b5480",
+      "series_id": "dt-a7cb289fb4",
       "title": "Exposition: Pourtant on peut l'ouvrir",
       "start": "2027-05-04T09:00",
       "end": "2027-05-28T18:00",
@@ -4131,6 +4609,7 @@
     },
     {
       "id": "dt-d56fe33a80",
+      "series_id": "dt-598ec9d533",
       "title": "Concert jazz et musique du monde: Célia Kameni",
       "start": "2027-05-11T20:30",
       "end": null,
@@ -4147,6 +4626,7 @@
     },
     {
       "id": "dt-1c3efe9608",
+      "series_id": "dt-12864d9c90",
       "title": "Théâtre: Pourtant on peut l’ouvrir",
       "start": "2027-05-21T19:00",
       "end": "2027-05-21T20:00",
@@ -4163,6 +4643,7 @@
     },
     {
       "id": "dt-67c294f757",
+      "series_id": "dt-65b53487b8",
       "title": "Visite de La Trinité-sur-Mer: patrimoine et langue bretonne",
       "start": "2027-05-22T10:00",
       "end": null,
@@ -4179,6 +4660,7 @@
     },
     {
       "id": "dt-023721f635",
+      "series_id": "dt-2d111c9392",
       "title": "Spectacles, concerts, ateliers: Athéna en fête",
       "start": "2027-05-29T15:00",
       "end": null,
@@ -4187,7 +4669,7 @@
       "description": "Pour célébrer la fin de saison 2026‑2027, Athéna vous invite à un temps festif, joyeux et partagé. Une journée pour se retrouver, célébrer les projets participatifs et créations de l’année et vivre ensemble le spectacle vivant sous toutes ses formes.",
       "url": "https://www.auray.fr/culture-loisirs/centre-culturel-athena/saison-2026-2027/les-spectacles-de-la-saison-26-27/athena-en-fete",
       "category": "musique",
-      "priority": 2,
+      "priority": 3,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
