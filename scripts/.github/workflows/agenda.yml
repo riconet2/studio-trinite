@@ -1,0 +1,63 @@
+name: Mise à jour de l'agenda
+
+on:
+  schedule:
+    # Tous les jours à 04:17 UTC (≈ 06:17 à Paris en été, 05:17 en hiver)
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "normal = génère et publie | essai = calcule sans rien écrire | diagnostic = affiche la structure d'une réponse"
+        type: choice
+        options: [normal, essai, diagnostic]
+        default: normal
+
+permissions:
+  contents: write   # pour enregistrer agenda.json
+  pages: write      # pour demander la reconstruction du site si besoin
+
+concurrency:
+  group: agenda
+  cancel-in-progress: false
+
+jobs:
+  agenda:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Générer agenda.json
+        env:
+          # La clé n'existe que dans les « Secrets » GitHub du dépôt. Elle est masquée dans les journaux.
+          DATATOURISME_API_KEY: ${{ secrets.DATATOURISME_API_KEY }}
+          MODE: ${{ inputs.mode }}
+        run: |
+          case "$MODE" in
+            essai)      python3 scripts/build_agenda.py --dry-run ;;
+            diagnostic) python3 scripts/build_agenda.py --probe ;;
+            *)          python3 scripts/build_agenda.py ;;
+          esac
+
+      - name: Enregistrer agenda.json s'il a changé
+        id: commit
+        if: ${{ inputs.mode != 'essai' && inputs.mode != 'diagnostic' }}
+        run: |
+          if [ -z "$(git status --porcelain -- agenda.json)" ]; then
+            echo "agenda.json inchangé : rien à publier."
+            exit 0
+          fi
+          git config user.name "agenda-bot"
+          git config user.email "agenda-bot@users.noreply.github.com"
+          git add agenda.json
+          git commit -m "Agenda : mise à jour automatique"
+          git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Demander la reconstruction de GitHub Pages (sécurité)
+        if: ${{ steps.commit.outputs.pushed == 'true' }}
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds"
