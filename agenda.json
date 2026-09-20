@@ -1,6 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-20T17:08:20Z",
+  "generated_at": "2026-09-20T18:54:25Z",
+  "data_updated_at": "2026-09-19",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -9,9 +10,9 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 406,
+    "total": 434,
     "by_proximity": {
-      "near": 332,
+      "near": 360,
       "immediate": 66,
       "daytrip": 8
     }
@@ -32,7 +33,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.7
+      "distance_km": 9.7,
+      "last_update": "2026-02-12"
     },
     {
       "id": "dt-45671331cd",
@@ -49,7 +51,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.2
+      "distance_km": 14.2,
+      "last_update": "2026-06-28"
     },
     {
       "id": "dt-de8c541edd",
@@ -66,7 +69,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.4
+      "distance_km": 13.4,
+      "last_update": "2026-07-20"
     },
     {
       "id": "dt-6c2b5724dd",
@@ -83,7 +87,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 11.4
+      "distance_km": 11.4,
+      "last_update": "2026-07-30"
     },
     {
       "id": "dt-3a37f34fc7",
@@ -100,7 +105,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.3
+      "distance_km": 15.3,
+      "last_update": "2026-06-22"
     },
     {
       "id": "dt-5c87fca246",
@@ -117,7 +123,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.0
+      "distance_km": 13.0,
+      "last_update": "2026-07-10"
     },
     {
       "id": "dt-b619227f8e",
@@ -134,7 +141,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 11.4
+      "distance_km": 11.4,
+      "last_update": "2026-07-30"
     },
     {
       "id": "dt-228c5c4b25",
@@ -151,7 +159,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.9
+      "distance_km": 3.9,
+      "last_update": "2026-06-03"
     },
     {
       "id": "dt-0584fc2a3d",
@@ -168,7 +177,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 11.4
+      "distance_km": 11.4,
+      "last_update": "2026-07-30"
     },
     {
       "id": "dt-bfe4ac99cd",
@@ -185,7 +195,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 3.8
+      "distance_km": 3.8,
+      "last_update": "2026-08-27"
     },
     {
       "id": "dt-18f60f7b94",
@@ -202,7 +213,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.5
+      "distance_km": 9.5,
+      "last_update": "2026-06-22"
     },
     {
       "id": "dt-f476b85566",
@@ -219,7 +231,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.5
+      "distance_km": 9.5,
+      "last_update": "2026-06-22"
     },
     {
       "id": "dt-517022a2cb",
@@ -236,7 +249,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 11.1
+      "distance_km": 11.1,
+      "last_update": "2026-07-21"
     },
     {
       "id": "dt-94419f522d",
@@ -253,7 +267,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 11.4
+      "distance_km": 11.4,
+      "last_update": "2026-07-30"
     },
     {
       "id": "dt-36036d66b2",
@@ -270,7 +285,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-06-23"
     },
     {
       "id": "dt-c28797104e",
@@ -287,7 +303,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 11.4
+      "distance_km": 11.4,
+      "last_update": "2026-07-30"
     },
     {
       "id": "dt-84f99a0636",
@@ -304,7 +321,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.4
+      "distance_km": 8.4,
+      "last_update": "2026-08-11"
     },
     {
       "id": "dt-0963cdb2d7",
@@ -321,7 +339,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 11.5
+      "distance_km": 11.5,
+      "last_update": "2026-07-30"
     },
     {
       "id": "dt-17d0d07ebe",
@@ -338,7 +357,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.4
+      "distance_km": 14.4,
+      "last_update": "2026-05-29"
     },
     {
       "id": "dt-3851eb5676",
@@ -355,7 +375,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.4
+      "distance_km": 14.4,
+      "last_update": "2026-05-29"
     },
     {
       "id": "dt-50cd3f4a86",
@@ -372,7 +393,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 6.5
+      "distance_km": 6.5,
+      "last_update": "2026-06-30"
     },
     {
       "id": "dt-9440dac89f",
@@ -389,7 +411,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 11.4
+      "distance_km": 11.4,
+      "last_update": "2026-07-30"
     },
     {
       "id": "dt-d1c558b085",
@@ -406,7 +429,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-08-31"
     },
     {
       "id": "dt-556799faae",
@@ -423,7 +447,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 12.9
+      "distance_km": 12.9,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-c1412e10e0",
@@ -440,7 +465,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 12.9
+      "distance_km": 12.9,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-9551e432d3",
@@ -457,7 +483,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 12.8
+      "distance_km": 12.8,
+      "last_update": "2026-09-02"
     },
     {
       "id": "dt-3843308ac9",
@@ -474,7 +501,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.2
+      "distance_km": 13.2,
+      "last_update": "2026-08-26"
     },
     {
       "id": "dt-aff962900d",
@@ -491,7 +519,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.8
+      "distance_km": 15.8,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-550a704af4",
@@ -508,7 +537,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.2
+      "distance_km": 8.2,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-c510917b0f",
@@ -525,7 +555,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 12.3
+      "distance_km": 12.3,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-a0eb574005",
@@ -542,7 +573,8 @@
       "proximity": "daytrip",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 30.7
+      "distance_km": 30.7,
+      "last_update": "2026-07-10"
     },
     {
       "id": "dt-fff27a9b30",
@@ -559,7 +591,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 12.9
+      "distance_km": 12.9,
+      "last_update": "2026-08-18"
     },
     {
       "id": "dt-703a526d0b",
@@ -567,7 +600,7 @@
       "title": "Exposition photographique « ExtraOrdinaire »",
       "start": "2026-09-17",
       "end": "2026-10-31",
-      "location": "Rue Georges Cadoudal",
+      "location": "Centre culturel Maison blanche",
       "city": "Brech",
       "description": "Découvrez l’exposition photographique « ExtraOrdinaire » de Kourtney Roy, réalisée en pays d’Auray. Avec son univers rétro-pop teinté d’étrangeté, la photographe Kourtney Roy transforme l’architecture en véritable décor de cinéma !",
       "url": null,
@@ -576,7 +609,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.3
+      "distance_km": 15.3,
+      "last_update": "2026-08-11"
     },
     {
       "id": "dt-a146217dd8",
@@ -593,7 +627,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.7
+      "distance_km": 9.7,
+      "last_update": "2026-08-05"
     },
     {
       "id": "dt-876d762987",
@@ -610,7 +645,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.8
+      "distance_km": 15.8,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-3967447f6b",
@@ -627,7 +663,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-07-28"
     },
     {
       "id": "dt-e766610e00",
@@ -644,7 +681,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.8
+      "distance_km": 15.8,
+      "last_update": "2026-09-16"
     },
     {
       "id": "dt-bec5c04515",
@@ -661,7 +699,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-9c6edac563",
@@ -678,7 +717,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.0
+      "distance_km": 10.0,
+      "last_update": "2026-09-11"
     },
     {
       "id": "dt-a4af63a8b7",
@@ -695,7 +735,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6
+      "distance_km": 9.6,
+      "last_update": "2026-07-21"
     },
     {
       "id": "dt-9753197e38",
@@ -712,7 +753,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6
+      "distance_km": 9.6,
+      "last_update": "2026-08-05"
     },
     {
       "id": "dt-3dd958c813",
@@ -729,7 +771,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 4.2
+      "distance_km": 4.2,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-8c48acb60b",
@@ -746,7 +789,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.6
+      "distance_km": 14.6,
+      "last_update": "2026-09-18"
     },
     {
       "id": "dt-b631e124ce",
@@ -763,7 +807,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.5
+      "distance_km": 9.5,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-d53f3d2e56",
@@ -780,7 +825,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.7
+      "distance_km": 9.7,
+      "last_update": "2026-08-05"
     },
     {
       "id": "dt-2edee9fec4",
@@ -797,7 +843,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.8
+      "distance_km": 3.8,
+      "last_update": "2026-09-18"
     },
     {
       "id": "dt-de74b9ddec",
@@ -814,7 +861,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.8
+      "distance_km": 3.8,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-4970ec1ebb",
@@ -831,7 +879,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.8
+      "distance_km": 3.8,
+      "last_update": "2026-09-14"
     },
     {
       "id": "dt-2a6e4da30d",
@@ -848,7 +897,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.5
+      "distance_km": 9.5,
+      "last_update": "2026-08-05"
     },
     {
       "id": "dt-6ed8114aaf",
@@ -865,7 +915,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.8
+      "distance_km": 8.8,
+      "last_update": "2026-08-05"
     },
     {
       "id": "dt-b274f550e0",
@@ -882,7 +933,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.7
+      "distance_km": 9.7,
+      "last_update": "2026-08-05"
     },
     {
       "id": "dt-cd0f4c58e5",
@@ -899,7 +951,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.7
+      "distance_km": 9.7,
+      "last_update": "2026-08-05"
     },
     {
       "id": "dt-1b5f5b5172",
@@ -916,7 +969,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 7.9
+      "distance_km": 7.9,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-bcebf09281",
@@ -933,7 +987,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 7.9
+      "distance_km": 7.9,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-ffb1863d9a",
@@ -950,7 +1005,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-4d6496b3e6",
@@ -967,7 +1023,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 12.3
+      "distance_km": 12.3,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-7ca34674d1",
@@ -984,7 +1041,8 @@
       "proximity": "daytrip",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 21.7
+      "distance_km": 21.7,
+      "last_update": "2026-08-07"
     },
     {
       "id": "dt-29ada94233",
@@ -1001,7 +1059,8 @@
       "proximity": "daytrip",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 30.5
+      "distance_km": 30.5,
+      "last_update": "2026-09-16"
     },
     {
       "id": "dt-ba537b5956",
@@ -1018,7 +1077,8 @@
       "proximity": "daytrip",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 30.6
+      "distance_km": 30.6,
+      "last_update": "2026-09-16"
     },
     {
       "id": "dt-f53b225410",
@@ -1035,7 +1095,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 5.9
+      "distance_km": 5.9,
+      "last_update": "2026-08-28"
     },
     {
       "id": "dt-e1d65dbfc2",
@@ -1052,7 +1113,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.8
+      "distance_km": 3.8,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-6c48385143",
@@ -1069,7 +1131,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.4
+      "distance_km": 14.4,
+      "last_update": "2026-08-11"
     },
     {
       "id": "dt-6479851e2d",
@@ -1086,7 +1149,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.7
+      "distance_km": 9.7,
+      "last_update": "2026-08-05"
     },
     {
       "id": "dt-0311220cc2",
@@ -1103,7 +1167,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.0
+      "distance_km": 13.0,
+      "last_update": "2026-08-27"
     },
     {
       "id": "dt-17ffdf0fb4",
@@ -1120,7 +1185,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.8
+      "distance_km": 3.8,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-7f740c518c",
@@ -1137,7 +1203,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.5
+      "distance_km": 9.5,
+      "last_update": "2026-08-05"
     },
     {
       "id": "dt-4cf0199e8c",
@@ -1154,7 +1221,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.8
+      "distance_km": 8.8,
+      "last_update": "2026-08-05"
     },
     {
       "id": "dt-3526e4d8f4",
@@ -1171,7 +1239,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.5
+      "distance_km": 9.5,
+      "last_update": "2026-08-05"
     },
     {
       "id": "dt-0b67769114",
@@ -1188,7 +1257,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6
+      "distance_km": 9.6,
+      "last_update": "2026-08-05"
     },
     {
       "id": "dt-c29584fc5e",
@@ -1205,7 +1275,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.7
+      "distance_km": 9.7,
+      "last_update": "2026-08-05"
     },
     {
       "id": "dt-963e577d86",
@@ -1222,7 +1293,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.1
+      "distance_km": 9.1,
+      "last_update": "2026-08-05"
     },
     {
       "id": "dt-f73efd12fb",
@@ -1239,7 +1311,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.1
+      "distance_km": 14.1,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-33be376faa",
@@ -1256,7 +1329,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.4
+      "distance_km": 9.4,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-fa3872d83e",
@@ -1273,7 +1347,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-60ecf1cef8",
@@ -1290,7 +1365,8 @@
       "proximity": "daytrip",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 31.3
+      "distance_km": 31.3,
+      "last_update": "2026-08-07"
     },
     {
       "id": "dt-c7dc465982",
@@ -1307,7 +1383,8 @@
       "proximity": "daytrip",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 21.7
+      "distance_km": 21.7,
+      "last_update": "2026-08-07"
     },
     {
       "id": "dt-c98d7fc888",
@@ -1324,7 +1401,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.5
+      "distance_km": 9.5,
+      "last_update": "2026-05-06"
     },
     {
       "id": "dt-f1ce5490e0",
@@ -1341,7 +1419,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.4
+      "distance_km": 14.4,
+      "last_update": "2026-08-11"
     },
     {
       "id": "dt-e9f08c79a9",
@@ -1358,7 +1437,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.5
+      "distance_km": 9.5,
+      "last_update": "2026-08-05"
     },
     {
       "id": "dt-c19fbf2900",
@@ -1375,7 +1455,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.2
+      "distance_km": 4.2,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-edc1d0f763",
@@ -1392,7 +1473,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.8
+      "distance_km": 3.8,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-1a9c6fc5a2",
@@ -1409,7 +1491,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6
+      "distance_km": 9.6,
+      "last_update": "2026-08-05"
     },
     {
       "id": "dt-47ed0fae08",
@@ -1426,7 +1509,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-3c8eda53c8",
@@ -1443,7 +1527,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.0
+      "distance_km": 10.0,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-25dfd8dea1",
@@ -1460,7 +1545,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-dac88333ff",
@@ -1477,7 +1563,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-4be78fa6ae",
@@ -1494,7 +1581,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 3.9
+      "distance_km": 3.9,
+      "last_update": "2026-06-25"
     },
     {
       "id": "dt-4bf30a4e9e",
@@ -1511,7 +1599,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-944e1cc158",
@@ -1528,7 +1617,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 3.9
+      "distance_km": 3.9,
+      "last_update": "2026-06-25"
     },
     {
       "id": "dt-fff141db7e",
@@ -1545,7 +1635,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-7e55925791",
@@ -1562,7 +1653,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.6
+      "distance_km": 15.6,
+      "last_update": "2026-08-25"
     },
     {
       "id": "dt-8970a882db",
@@ -1579,7 +1671,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.6
+      "distance_km": 3.6,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-271c68300b",
@@ -1596,7 +1689,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-2ba9532760",
@@ -1613,7 +1707,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-3e09f38ceb",
@@ -1630,7 +1725,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.3
+      "distance_km": 13.3,
+      "last_update": "2026-07-25"
     },
     {
       "id": "dt-36ee0b870e",
@@ -1647,7 +1743,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.4
+      "distance_km": 14.4,
+      "last_update": "2026-05-29"
     },
     {
       "id": "dt-5cb8d70f80",
@@ -1664,7 +1761,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.7
+      "distance_km": 13.7,
+      "last_update": "2026-08-19"
     },
     {
       "id": "dt-2ddc705104",
@@ -1681,7 +1779,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "CRT Bretagne_",
-      "distance_km": 13.5
+      "distance_km": 13.5,
+      "last_update": "2026-08-19"
     },
     {
       "id": "dt-886a140d3f",
@@ -1698,7 +1797,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-527f01babb",
@@ -1715,7 +1815,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-8a2c266ff8",
@@ -1732,7 +1833,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.6
+      "distance_km": 15.6,
+      "last_update": "2026-08-25"
     },
     {
       "id": "dt-1a7cd7bcf4",
@@ -1749,7 +1851,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-f0e70bdc30",
@@ -1757,7 +1860,7 @@
       "title": "Mad in Finland, cirque sous chapiteau",
       "start": "2026-09-25T17:00",
       "end": "2026-10-25T18:30",
-      "location": "Rue du Moulin",
+      "location": "Espace Bel Air",
       "city": "Auray",
       "description": "Entre prouesses de cirque, humour décapant et musique folklorique, Mad in Finland est une satire fantasque et chaleureuse de la culture finlandaise.",
       "url": "https://athena-auray.mapado.com/event/793005-mad-in-finland",
@@ -1766,7 +1869,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.0
+      "distance_km": 10.0,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-fccbc0b964",
@@ -1783,7 +1887,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.3
+      "distance_km": 13.3,
+      "last_update": "2026-07-25"
     },
     {
       "id": "dt-eed9eaffe8",
@@ -1800,7 +1905,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.3
+      "distance_km": 15.3,
+      "last_update": "2026-08-28"
     },
     {
       "id": "dt-208f758135",
@@ -1817,7 +1923,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-3c039dc7fd",
@@ -1834,7 +1941,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.7
+      "distance_km": 13.7,
+      "last_update": "2026-04-30"
     },
     {
       "id": "dt-5cc405097f",
@@ -1851,7 +1959,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-04"
     },
     {
       "id": "dt-4102db23e1",
@@ -1868,7 +1977,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.4
+      "distance_km": 13.4,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-bf6c21c68e",
@@ -1885,7 +1995,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-b0d5146038",
@@ -1902,7 +2013,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 11.4
+      "distance_km": 11.4,
+      "last_update": "2026-09-12"
     },
     {
       "id": "dt-0075bbb976",
@@ -1919,7 +2031,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 3.8
+      "distance_km": 3.8,
+      "last_update": "2026-08-25"
     },
     {
       "id": "dt-ea92425af8",
@@ -1936,7 +2049,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-965363db54",
@@ -1953,7 +2067,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.2
+      "distance_km": 15.2,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-d0c5f9640b",
@@ -1970,7 +2085,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-02"
     },
     {
       "id": "dt-341de77a58",
@@ -1987,7 +2103,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.1
+      "distance_km": 10.1,
+      "last_update": "2026-07-24"
     },
     {
       "id": "dt-467f9a4098",
@@ -2004,7 +2121,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.5
+      "distance_km": 9.5,
+      "last_update": "2026-09-16"
     },
     {
       "id": "dt-5e96939800",
@@ -2021,7 +2139,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6
+      "distance_km": 9.6,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-352bdac0db",
@@ -2038,7 +2157,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 3.9
+      "distance_km": 3.9,
+      "last_update": "2026-08-28"
     },
     {
       "id": "dt-7a24ce219f",
@@ -2055,7 +2175,26 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.2
+      "distance_km": 8.2,
+      "last_update": "2026-07-25"
+    },
+    {
+      "id": "dt-7588d6c44f",
+      "series_id": "dt-5e8814b643",
+      "title": "Brocante des focales",
+      "start": "2026-09-27T08:00",
+      "end": "2026-09-27T18:00",
+      "location": "Criée -",
+      "city": "Étel",
+      "description": "L'association \"Les Focales photos festival \" organise une brocante et un vide grenier sous la criée d'Etel. Entrée 1€ (gratuit -12 ans)",
+      "url": "https://www.lesfocalesbretagnesud.com/",
+      "category": "marche",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.6,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-5a58f28f52",
@@ -2072,7 +2211,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.2
+      "distance_km": 8.2,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-dd8ef61417",
@@ -2089,7 +2229,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 3.8
+      "distance_km": 3.8,
+      "last_update": "2026-08-25"
     },
     {
       "id": "dt-2f04b6155e",
@@ -2106,7 +2247,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-d50dffcdf7",
@@ -2123,7 +2265,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.6
+      "distance_km": 13.6,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-19e2c5643f",
@@ -2140,7 +2283,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-d15a179d33",
@@ -2157,7 +2301,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-f2da30c96b",
@@ -2174,7 +2319,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-57e609cffb",
@@ -2191,7 +2337,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.0
+      "distance_km": 10.0,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-e6ab0c0c51",
@@ -2208,7 +2355,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-3400c91ce7",
@@ -2225,7 +2373,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.8
+      "distance_km": 3.8,
+      "last_update": "2026-09-15"
     },
     {
       "id": "dt-45dcb14afa",
@@ -2242,7 +2391,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-d64faa7b2e",
@@ -2259,7 +2409,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.6
+      "distance_km": 15.6,
+      "last_update": "2026-08-25"
     },
     {
       "id": "dt-b2b2765c79",
@@ -2276,7 +2427,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.0
+      "distance_km": 10.0,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-bd78b7296e",
@@ -2293,7 +2445,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-b27f5d8e7e",
@@ -2310,7 +2463,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-04"
     },
     {
       "id": "dt-7a93e990e4",
@@ -2327,7 +2481,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-3c98365760",
@@ -2344,7 +2499,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-c1f2a6a786",
@@ -2361,7 +2517,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-04"
     },
     {
       "id": "dt-809550199f",
@@ -2378,7 +2535,8 @@
       "proximity": "daytrip",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 21.7
+      "distance_km": 21.7,
+      "last_update": "2026-09-16"
     },
     {
       "id": "dt-fcd46f2a81",
@@ -2395,7 +2553,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-af97b26316",
@@ -2412,7 +2571,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-75aa11e704",
@@ -2429,7 +2589,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.6
+      "distance_km": 15.6,
+      "last_update": "2026-08-25"
     },
     {
       "id": "dt-de54c05f19",
@@ -2446,7 +2607,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-1714797d8d",
@@ -2463,7 +2625,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-48649a7d46",
@@ -2480,7 +2643,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.7
+      "distance_km": 13.7,
+      "last_update": "2026-04-30"
     },
     {
       "id": "dt-9b144ee324",
@@ -2497,7 +2661,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.4
+      "distance_km": 13.4,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-91bacceacd",
@@ -2514,7 +2679,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-e9427b2636",
@@ -2531,7 +2697,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.8
+      "distance_km": 3.8,
+      "last_update": "2026-09-18"
     },
     {
       "id": "dt-35823f6d84",
@@ -2548,7 +2715,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.8
+      "distance_km": 3.8,
+      "last_update": "2026-09-18"
     },
     {
       "id": "dt-3f3ef9df3e",
@@ -2565,7 +2733,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.3
+      "distance_km": 15.3,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-7e4ea862fc",
@@ -2582,7 +2751,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-9f75aa5873",
@@ -2599,7 +2769,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-f4108b2925",
@@ -2616,7 +2787,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.8
+      "distance_km": 3.8,
+      "last_update": "2026-09-18"
     },
     {
       "id": "dt-e6a6741df9",
@@ -2633,7 +2805,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.0
+      "distance_km": 14.0,
+      "last_update": "2026-05-30"
     },
     {
       "id": "dt-9e4a87e24e",
@@ -2650,7 +2823,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.2
+      "distance_km": 8.2,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-dd5f2ffb05",
@@ -2667,7 +2841,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.8
+      "distance_km": 3.8,
+      "last_update": "2026-09-18"
     },
     {
       "id": "dt-bfdc53be1e",
@@ -2684,7 +2859,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.2
+      "distance_km": 15.2,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-7a24825054",
@@ -2701,7 +2877,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-417a8a3a9c",
@@ -2718,7 +2895,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-34f21642ad",
@@ -2735,7 +2913,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.2
+      "distance_km": 8.2,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-28074ea5ed",
@@ -2752,7 +2931,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-02d32e85c4",
@@ -2769,7 +2949,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 12.5
+      "distance_km": 12.5,
+      "last_update": "2026-03-02"
     },
     {
       "id": "dt-5b6f5145b6",
@@ -2786,7 +2967,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.2
+      "distance_km": 15.2,
+      "last_update": "2026-05-30"
     },
     {
       "id": "dt-2ef566cf2d",
@@ -2803,7 +2985,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-e5d48e1f22",
@@ -2820,7 +3003,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-7deeea2f9f",
@@ -2837,7 +3021,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-81b8ce6a9a",
@@ -2854,7 +3039,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-cb73c10482",
@@ -2871,7 +3057,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.2
+      "distance_km": 13.2,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-97035bd088",
@@ -2888,7 +3075,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.7
+      "distance_km": 13.7,
+      "last_update": "2026-04-30"
     },
     {
       "id": "dt-3e9ef4df93",
@@ -2905,7 +3093,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-04"
     },
     {
       "id": "dt-b8804371e1",
@@ -2922,7 +3111,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.7
+      "distance_km": 3.7,
+      "last_update": "2026-09-18"
     },
     {
       "id": "dt-edf694d897",
@@ -2939,7 +3129,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-08-21"
     },
     {
       "id": "dt-810d7c1c80",
@@ -2956,7 +3147,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.4
+      "distance_km": 13.4,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-3d2e7135b0",
@@ -2973,7 +3165,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-9ea0c943ee",
@@ -2990,7 +3183,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.8
+      "distance_km": 3.8,
+      "last_update": "2026-09-18"
     },
     {
       "id": "dt-182a418809",
@@ -3007,7 +3201,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6
+      "distance_km": 9.6,
+      "last_update": "2026-09-11"
     },
     {
       "id": "dt-560e1b6b2f",
@@ -3024,7 +3219,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.8
+      "distance_km": 3.8,
+      "last_update": "2026-09-18"
     },
     {
       "id": "dt-aed36bf828",
@@ -3041,7 +3237,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.0
+      "distance_km": 13.0,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-2e86893498",
@@ -3049,7 +3246,7 @@
       "title": "Octobre rose et bleu – course solidaire",
       "start": "2026-10-11T09:30",
       "end": null,
-      "location": "26 Rue du Grand Large",
+      "location": "Complexe sportif -",
       "city": "Erdeven",
       "description": "Vélo, marche ou course ? Venez soutenir l’octobre rose et bleu le dimanche 11 octobre 2026 ! En vélo : - Circuit cyclo de 20km départ 10h00 au complexe sportif du Grand Large. En marchant : - Circuit de 10km départ à 9h30 au complexe sportif du Grand Large.",
       "url": null,
@@ -3058,7 +3255,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 11.8
+      "distance_km": 11.8,
+      "last_update": "2026-09-12"
     },
     {
       "id": "dt-03a9699520",
@@ -3075,7 +3273,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-4407f669e6",
@@ -3092,7 +3291,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.8
+      "distance_km": 3.8,
+      "last_update": "2026-09-18"
     },
     {
       "id": "dt-4c25d29061",
@@ -3109,7 +3309,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.2
+      "distance_km": 8.2,
+      "last_update": "2026-09-14"
     },
     {
       "id": "dt-ff00b30d3b",
@@ -3126,7 +3327,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.8
+      "distance_km": 3.8,
+      "last_update": "2026-09-18"
     },
     {
       "id": "dt-7b418659dc",
@@ -3143,7 +3345,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-a56335b271",
@@ -3160,7 +3363,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-31f67856d0",
@@ -3177,7 +3381,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-696c595f53",
@@ -3194,7 +3399,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6
+      "distance_km": 9.6,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-122d391772",
@@ -3211,7 +3417,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.6
+      "distance_km": 3.6,
+      "last_update": "2026-09-18"
     },
     {
       "id": "dt-2826d3d4cd",
@@ -3228,7 +3435,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-2ba9f725f0",
@@ -3245,7 +3453,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.4
+      "distance_km": 9.4,
+      "last_update": "2026-09-11"
     },
     {
       "id": "dt-b2700bc6e0",
@@ -3262,7 +3471,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-ce3876ac5b",
@@ -3279,7 +3489,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-a7683d9ce0",
@@ -3296,7 +3507,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-1a6baf5846",
@@ -3313,7 +3525,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-3e19a3ee15",
@@ -3330,7 +3543,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.0
+      "distance_km": 13.0,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-9c1e58560a",
@@ -3347,7 +3561,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.7
+      "distance_km": 13.7,
+      "last_update": "2026-04-30"
     },
     {
       "id": "dt-0394cb5bed",
@@ -3364,7 +3579,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-9e7158f302",
@@ -3381,7 +3597,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.5
+      "distance_km": 9.5,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-3c4a5da237",
@@ -3398,7 +3615,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.8
+      "distance_km": 3.8,
+      "last_update": "2026-09-18"
     },
     {
       "id": "dt-5d4ba5a020",
@@ -3415,7 +3633,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.4
+      "distance_km": 13.4,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-fe8790b412",
@@ -3432,7 +3651,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 12.5
+      "distance_km": 12.5,
+      "last_update": "2026-03-02"
     },
     {
       "id": "dt-3c860efbaa",
@@ -3449,7 +3669,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-b28c2c864b",
@@ -3466,7 +3687,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.8
+      "distance_km": 3.8,
+      "last_update": "2026-09-18"
     },
     {
       "id": "dt-55a2bd5dee",
@@ -3483,7 +3705,26 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.3
+      "distance_km": 14.3,
+      "last_update": "2026-09-17"
+    },
+    {
+      "id": "dt-5809e8ad2f",
+      "series_id": "dt-611e55b02a",
+      "title": "Pierres de légende",
+      "start": "2026-10-17T14:30",
+      "end": "2026-10-17T15:30",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Les pierres de Carnac recèlent bien des énigmes… À travers le musée suivez votre guide en costume breton. Elle vous racontera à sa manière l’histoire de ces vieilles pierres. Visite guidée | Dès 6 ans | durée 1h | sur réservation sur www.museedecarnac.fr",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-9902ca9b3c",
@@ -3500,7 +3741,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.5
+      "distance_km": 9.5,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-34a1746b4f",
@@ -3517,7 +3759,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.5
+      "distance_km": 9.5,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-26f0afbbfd",
@@ -3534,7 +3777,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.0
+      "distance_km": 13.0,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-02c94cb597",
@@ -3551,7 +3795,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-8e2dfc3bc5",
@@ -3568,7 +3813,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.3
+      "distance_km": 14.3,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-a945014a59",
@@ -3585,7 +3831,26 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
+    },
+    {
+      "id": "dt-19a52cef90",
+      "series_id": "dt-2193289823",
+      "title": "Visite flash \"Les bretons face aux géants de pierre\"",
+      "start": "2026-10-18T11:00",
+      "end": "2026-10-18T11:20",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-02e10d266f",
@@ -3602,7 +3867,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6
+      "distance_km": 9.6,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-81b36a350b",
@@ -3619,7 +3885,26 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.2
+      "distance_km": 8.2,
+      "last_update": "2026-09-07"
+    },
+    {
+      "id": "dt-83389ed933",
+      "series_id": "dt-611e55b02a",
+      "title": "Pierres de légende",
+      "start": "2026-10-18T14:30",
+      "end": "2026-10-18T15:30",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Les pierres de Carnac recèlent bien des énigmes… À travers le musée suivez votre guide en costume breton. Elle vous racontera à sa manière l’histoire de ces vieilles pierres. Visite guidée | Dès 6 ans | durée 1h | sur réservation sur www.museedecarnac.fr",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-1577585240",
@@ -3636,7 +3921,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-03"
     },
     {
       "id": "dt-305d5862f8",
@@ -3653,7 +3939,26 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
+    },
+    {
+      "id": "dt-a761f79eef",
+      "series_id": "dt-1e1386b787",
+      "title": "Atelier \"Poterie néolithique\"",
+      "start": "2026-10-19T10:00",
+      "end": "2026-10-19T12:00",
+      "location": "10 Place de la Chapelle",
+      "city": "Carnac",
+      "description": "Repérez les vestiges en terre cuite parmi les collections. Identifiez le travail du restaurateur. Puis testez différentes techniques pour monter un pot en argile comme au Néolithique ! Atelier dès 6 ans | durée 2h | sur réservation sur www.museedecarnac.com",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-4a64cadbd1",
@@ -3670,7 +3975,26 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.1
+      "distance_km": 14.1,
+      "last_update": "2026-06-16"
+    },
+    {
+      "id": "dt-751b259374",
+      "series_id": "dt-611e55b02a",
+      "title": "Pierres de légende",
+      "start": "2026-10-19T14:30",
+      "end": "2026-10-19T15:30",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Les pierres de Carnac recèlent bien des énigmes… À travers le musée suivez votre guide en costume breton. Elle vous racontera à sa manière l’histoire de ces vieilles pierres. Visite guidée | Dès 6 ans | durée 1h | sur réservation sur www.museedecarnac.fr",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-edeb4d06a4",
@@ -3687,7 +4011,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-53d5f71865",
@@ -3704,7 +4029,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.1
+      "distance_km": 14.1,
+      "last_update": "2026-04-22"
     },
     {
       "id": "dt-6bf3fd5caf",
@@ -3721,7 +4047,26 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.1
+      "distance_km": 14.1,
+      "last_update": "2026-04-22"
+    },
+    {
+      "id": "dt-02e6e7c420",
+      "series_id": "dt-b7bdcbc4e5",
+      "title": "La Préhistoire à travers les contes",
+      "start": "2026-10-20T10:00",
+      "end": "2026-10-20T11:00",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Histoires, légendes et objets préhistoriques s’entrelacent pour vous faire rêver. Une immersion unique au cœur des légendes carnacoises. Visite guidée à petits pas | dès 3 ans | durée 1h | réservation sur www.museedecarnac.com",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-107f6188ef",
@@ -3738,7 +4083,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-09"
     },
     {
       "id": "dt-cf3b18f881",
@@ -3755,7 +4101,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.2
+      "distance_km": 15.2,
+      "last_update": "2026-08-28"
     },
     {
       "id": "dt-7a61547dd1",
@@ -3772,7 +4119,26 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.1
+      "distance_km": 14.1,
+      "last_update": "2026-04-22"
+    },
+    {
+      "id": "dt-79b079491d",
+      "series_id": "dt-611e55b02a",
+      "title": "Pierres de légende",
+      "start": "2026-10-20T14:30",
+      "end": "2026-10-20T15:30",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Les pierres de Carnac recèlent bien des énigmes… À travers le musée suivez votre guide en costume breton. Elle vous racontera à sa manière l’histoire de ces vieilles pierres. Visite guidée | Dès 6 ans | durée 1h | sur réservation sur www.museedecarnac.fr",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-0274129e1a",
@@ -3789,7 +4155,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.4
+      "distance_km": 13.4,
+      "last_update": "2026-04-22"
     },
     {
       "id": "dt-28b6522f4e",
@@ -3806,7 +4173,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-75492a0d98",
@@ -3823,7 +4191,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.4
+      "distance_km": 14.4,
+      "last_update": "2026-04-17"
     },
     {
       "id": "dt-3bed3abb05",
@@ -3840,7 +4209,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6
+      "distance_km": 9.6,
+      "last_update": "2026-05-18"
     },
     {
       "id": "dt-3d28a3b92e",
@@ -3857,7 +4227,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-3218fd0563",
@@ -3874,7 +4245,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-dfde64a04f",
@@ -3891,7 +4263,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 1.2
+      "distance_km": 1.2,
+      "last_update": "2026-09-05"
     },
     {
       "id": "dt-554809361a",
@@ -3908,7 +4281,26 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.3
+      "distance_km": 13.3,
+      "last_update": "2026-04-23"
+    },
+    {
+      "id": "dt-57f778288f",
+      "series_id": "dt-1e1386b787",
+      "title": "Atelier \"Poterie néolithique\"",
+      "start": "2026-10-22T10:00",
+      "end": "2026-10-22T12:00",
+      "location": "10 Place de la Chapelle",
+      "city": "Carnac",
+      "description": "Repérez les vestiges en terre cuite parmi les collections. Identifiez le travail du restaurateur. Puis testez différentes techniques pour monter un pot en argile comme au Néolithique ! Atelier dès 6 ans | durée 2h | sur réservation sur www.museedecarnac.com",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-24c8737888",
@@ -3925,7 +4317,26 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.3
+      "distance_km": 13.3,
+      "last_update": "2026-04-23"
+    },
+    {
+      "id": "dt-b274b40e54",
+      "series_id": "dt-611e55b02a",
+      "title": "Pierres de légende",
+      "start": "2026-10-22T14:30",
+      "end": "2026-10-22T15:30",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Les pierres de Carnac recèlent bien des énigmes… À travers le musée suivez votre guide en costume breton. Elle vous racontera à sa manière l’histoire de ces vieilles pierres. Visite guidée | Dès 6 ans | durée 1h | sur réservation sur www.museedecarnac.fr",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-83733228a1",
@@ -3942,7 +4353,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.1
+      "distance_km": 13.1,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-124839ed16",
@@ -3959,7 +4371,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.6
+      "distance_km": 13.6,
+      "last_update": "2026-08-14"
     },
     {
       "id": "dt-a6485a3079",
@@ -3976,7 +4389,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 11.5
+      "distance_km": 11.5,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-dd0c058722",
@@ -3993,7 +4407,26 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-3debacf21e",
+      "series_id": "dt-b7bdcbc4e5",
+      "title": "La Préhistoire à travers les contes",
+      "start": "2026-10-23T10:00",
+      "end": "2026-10-23T11:00",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Histoires, légendes et objets préhistoriques s’entrelacent pour vous faire rêver. Une immersion unique au cœur des légendes carnacoises. Visite guidée à petits pas | dès 3 ans | durée 1h | réservation sur www.museedecarnac.com",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-058f0a6acc",
@@ -4010,7 +4443,26 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
+    },
+    {
+      "id": "dt-f2f45562de",
+      "series_id": "dt-611e55b02a",
+      "title": "Pierres de légende",
+      "start": "2026-10-23T14:30",
+      "end": "2026-10-23T15:30",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Les pierres de Carnac recèlent bien des énigmes… À travers le musée suivez votre guide en costume breton. Elle vous racontera à sa manière l’histoire de ces vieilles pierres. Visite guidée | Dès 6 ans | durée 1h | sur réservation sur www.museedecarnac.fr",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-b4de17d69a",
@@ -4018,7 +4470,7 @@
       "title": "Mad in Finland, cirque sous chapiteau",
       "start": "2026-10-23T15:00",
       "end": "2026-10-23T16:30",
-      "location": "Rue du Moulin",
+      "location": "Espace Bel Air",
       "city": "Auray",
       "description": "Entre prouesses de cirque, humour décapant et musique folklorique, Mad in Finland est une satire fantasque et chaleureuse de la culture finlandaise.",
       "url": "https://athena-auray.mapado.com/event/793005-mad-in-finland",
@@ -4027,7 +4479,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.0
+      "distance_km": 10.0,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-17bc05d058",
@@ -4044,7 +4497,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-f6f07a2654",
@@ -4061,7 +4515,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.7
+      "distance_km": 13.7,
+      "last_update": "2026-04-30"
     },
     {
       "id": "dt-2339ba03f4",
@@ -4078,7 +4533,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-08-21"
     },
     {
       "id": "dt-3f71131a3b",
@@ -4095,7 +4551,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-08-21"
     },
     {
       "id": "dt-ff416f4ebd",
@@ -4112,7 +4569,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.4
+      "distance_km": 13.4,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-1215b39bed",
@@ -4129,7 +4587,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-d6de9303ae",
@@ -4146,7 +4605,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-02"
     },
     {
       "id": "dt-e33561cd28",
@@ -4163,7 +4623,26 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
+    },
+    {
+      "id": "dt-3c72a44c81",
+      "series_id": "dt-2193289823",
+      "title": "Visite flash \"Les bretons face aux géants de pierre\"",
+      "start": "2026-10-24T11:00",
+      "end": "2026-10-24T11:20",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-38d32d7e23",
@@ -4180,7 +4659,26 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-07"
+    },
+    {
+      "id": "dt-f3acc06167",
+      "series_id": "dt-2193289823",
+      "title": "Visite flash \"Les bretons face aux géants de pierre\"",
+      "start": "2026-10-24T14:30",
+      "end": "2026-10-24T14:50",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-0a96721c5b",
@@ -4197,7 +4695,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.0
+      "distance_km": 13.0,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-4fdbdb3f7c",
@@ -4205,7 +4704,7 @@
       "title": "Mad in Finland, cirque sous chapiteau",
       "start": "2026-10-24T19:00",
       "end": "2026-10-24T20:30",
-      "location": "Rue du Moulin",
+      "location": "Espace Bel Air",
       "city": "Auray",
       "description": "Entre prouesses de cirque, humour décapant et musique folklorique, Mad in Finland est une satire fantasque et chaleureuse de la culture finlandaise.",
       "url": "https://athena-auray.mapado.com/event/793005-mad-in-finland",
@@ -4214,7 +4713,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.0
+      "distance_km": 10.0,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-951bcdfaa7",
@@ -4231,7 +4731,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-3bf45411af",
@@ -4248,7 +4749,26 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
+    },
+    {
+      "id": "dt-09080a2793",
+      "series_id": "dt-2193289823",
+      "title": "Visite flash \"Les bretons face aux géants de pierre\"",
+      "start": "2026-10-25T11:00",
+      "end": "2026-10-25T11:20",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-d6932607e3",
@@ -4265,7 +4785,26 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.4
+      "distance_km": 13.4,
+      "last_update": "2026-09-07"
+    },
+    {
+      "id": "dt-ad2bcd677f",
+      "series_id": "dt-2193289823",
+      "title": "Visite flash \"Les bretons face aux géants de pierre\"",
+      "start": "2026-10-25T14:30",
+      "end": "2026-10-25T14:50",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-e53a376272",
@@ -4282,7 +4821,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-049d537232",
@@ -4299,7 +4839,44 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
+    },
+    {
+      "id": "dt-0549328137",
+      "series_id": "dt-1e1386b787",
+      "title": "Atelier \"Poterie néolithique\"",
+      "start": "2026-10-26T10:00",
+      "end": "2026-10-26T12:00",
+      "location": "10 Place de la Chapelle",
+      "city": "Carnac",
+      "description": "Repérez les vestiges en terre cuite parmi les collections. Identifiez le travail du restaurateur. Puis testez différentes techniques pour monter un pot en argile comme au Néolithique ! Atelier dès 6 ans | durée 2h | sur réservation sur www.museedecarnac.com",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
+    },
+    {
+      "id": "dt-c59734697f",
+      "series_id": "dt-2193289823",
+      "title": "Visite flash \"Les bretons face aux géants de pierre\"",
+      "start": "2026-10-26T14:30",
+      "end": "2026-10-26T14:50",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-1f6c519a1a",
@@ -4316,7 +4893,26 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-133fdbfd1c",
+      "series_id": "dt-b7bdcbc4e5",
+      "title": "La Préhistoire à travers les contes",
+      "start": "2026-10-27T10:00",
+      "end": "2026-10-27T11:00",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Histoires, légendes et objets préhistoriques s’entrelacent pour vous faire rêver. Une immersion unique au cœur des légendes carnacoises. Visite guidée à petits pas | dès 3 ans | durée 1h | réservation sur www.museedecarnac.com",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-9768a1f570",
@@ -4333,7 +4929,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-02"
     },
     {
       "id": "dt-7069401326",
@@ -4350,7 +4947,26 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.2
+      "distance_km": 15.2,
+      "last_update": "2026-08-28"
+    },
+    {
+      "id": "dt-ff9858f0fa",
+      "series_id": "dt-2193289823",
+      "title": "Visite flash \"Les bretons face aux géants de pierre\"",
+      "start": "2026-10-27T14:30",
+      "end": "2026-10-27T14:50",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-dc3459becf",
@@ -4367,7 +4983,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.4
+      "distance_km": 4.4,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-62668a062a",
@@ -4384,7 +5001,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.4
+      "distance_km": 13.4,
+      "last_update": "2026-04-22"
     },
     {
       "id": "dt-2b4821f13a",
@@ -4401,7 +5019,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-b4dabed98d",
@@ -4418,7 +5037,26 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6
+      "distance_km": 9.6,
+      "last_update": "2026-05-18"
+    },
+    {
+      "id": "dt-4c93387e81",
+      "series_id": "dt-2193289823",
+      "title": "Visite flash \"Les bretons face aux géants de pierre\"",
+      "start": "2026-10-28T14:30",
+      "end": "2026-10-28T14:50",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-425f5361c9",
@@ -4435,7 +5073,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-6f0f6ed415",
@@ -4452,7 +5091,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 7.2
+      "distance_km": 7.2,
+      "last_update": "2026-07-28"
     },
     {
       "id": "dt-3ed5016400",
@@ -4469,7 +5109,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-8bb6378b4b",
@@ -4486,7 +5127,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.2
+      "distance_km": 15.2,
+      "last_update": "2026-08-28"
     },
     {
       "id": "dt-86f475cdff",
@@ -4503,7 +5145,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-42fbcb044e",
@@ -4520,7 +5163,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.0
+      "distance_km": 13.0,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-06c91a86df",
@@ -4537,7 +5181,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-1f013a6345",
@@ -4554,7 +5199,26 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.3
+      "distance_km": 13.3,
+      "last_update": "2026-04-23"
+    },
+    {
+      "id": "dt-1a1aff057d",
+      "series_id": "dt-1e1386b787",
+      "title": "Atelier \"Poterie néolithique\"",
+      "start": "2026-10-29T10:00",
+      "end": "2026-10-29T12:00",
+      "location": "10 Place de la Chapelle",
+      "city": "Carnac",
+      "description": "Repérez les vestiges en terre cuite parmi les collections. Identifiez le travail du restaurateur. Puis testez différentes techniques pour monter un pot en argile comme au Néolithique ! Atelier dès 6 ans | durée 2h | sur réservation sur www.museedecarnac.com",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-1b7e29c4cf",
@@ -4571,7 +5235,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-09-01"
     },
     {
       "id": "dt-2c2b57331f",
@@ -4588,7 +5253,26 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.3
+      "distance_km": 13.3,
+      "last_update": "2026-04-23"
+    },
+    {
+      "id": "dt-01ca387710",
+      "series_id": "dt-2193289823",
+      "title": "Visite flash \"Les bretons face aux géants de pierre\"",
+      "start": "2026-10-29T14:30",
+      "end": "2026-10-29T14:50",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-6d8a26d2dd",
@@ -4605,7 +5289,26 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-9d184d4a45",
+      "series_id": "dt-b7bdcbc4e5",
+      "title": "La Préhistoire à travers les contes",
+      "start": "2026-10-30T10:00",
+      "end": "2026-10-30T11:00",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Histoires, légendes et objets préhistoriques s’entrelacent pour vous faire rêver. Une immersion unique au cœur des légendes carnacoises. Visite guidée à petits pas | dès 3 ans | durée 1h | réservation sur www.museedecarnac.com",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-b061b74f6a",
@@ -4622,7 +5325,26 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
+    },
+    {
+      "id": "dt-ecb8b626a5",
+      "series_id": "dt-2193289823",
+      "title": "Visite flash \"Les bretons face aux géants de pierre\"",
+      "start": "2026-10-30T14:30",
+      "end": "2026-10-30T14:50",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-8396eee239",
@@ -4639,7 +5361,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-647112e5a4",
@@ -4656,7 +5379,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.7
+      "distance_km": 13.7,
+      "last_update": "2026-04-30"
     },
     {
       "id": "dt-84d607919d",
@@ -4673,7 +5397,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-a13d1f2cc0",
@@ -4690,7 +5415,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-640b310e5f",
@@ -4707,7 +5433,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.4
+      "distance_km": 13.4,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-4410612ac1",
@@ -4724,7 +5451,44 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
+    },
+    {
+      "id": "dt-1035b4022e",
+      "series_id": "dt-2193289823",
+      "title": "Visite flash \"Les bretons face aux géants de pierre\"",
+      "start": "2026-10-31T11:00",
+      "end": "2026-10-31T11:20",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
+    },
+    {
+      "id": "dt-674bb31b47",
+      "series_id": "dt-2193289823",
+      "title": "Visite flash \"Les bretons face aux géants de pierre\"",
+      "start": "2026-10-31T14:30",
+      "end": "2026-10-31T14:50",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-2f2de37b5b",
@@ -4741,7 +5505,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.1
+      "distance_km": 14.1,
+      "last_update": "2026-04-22"
     },
     {
       "id": "dt-05b7a436e4",
@@ -4758,7 +5523,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-03"
     },
     {
       "id": "dt-da477ecb4a",
@@ -4775,7 +5541,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-4ad66e487d",
@@ -4792,7 +5559,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-d54f710dc2",
@@ -4809,7 +5577,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-dd85a44437",
@@ -4826,7 +5595,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-8d73c8af37",
@@ -4843,7 +5613,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.4
+      "distance_km": 13.4,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-a209a48737",
@@ -4860,7 +5631,26 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.2
+      "distance_km": 8.2,
+      "last_update": "2026-09-07"
+    },
+    {
+      "id": "dt-c87304811b",
+      "series_id": "dt-2193289823",
+      "title": "Visite flash \"Les bretons face aux géants de pierre\"",
+      "start": "2026-11-01T14:30",
+      "end": "2026-11-01T14:50",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-19"
     },
     {
       "id": "dt-ffea2570d1",
@@ -4877,7 +5667,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-08-13"
     },
     {
       "id": "dt-f703ba54bc",
@@ -4894,7 +5685,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-058ef45bf3",
@@ -4911,7 +5703,8 @@
       "proximity": "daytrip",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 30.5
+      "distance_km": 30.5,
+      "last_update": "2026-07-10"
     },
     {
       "id": "dt-871c365d09",
@@ -4928,7 +5721,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.5
+      "distance_km": 10.5,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-13d582bb6d",
@@ -4945,7 +5739,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.5
+      "distance_km": 10.5,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-fd10a5beda",
@@ -4962,7 +5757,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.5
+      "distance_km": 10.5,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-011f57290f",
@@ -4979,7 +5775,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.5
+      "distance_km": 10.5,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-55e70f30b0",
@@ -4996,7 +5793,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-3ed9d4b506",
@@ -5013,7 +5811,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-8b4c219cf8",
@@ -5030,7 +5829,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.7
+      "distance_km": 13.7,
+      "last_update": "2026-04-30"
     },
     {
       "id": "dt-8b7183b474",
@@ -5047,7 +5847,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-08-21"
     },
     {
       "id": "dt-59d79c60a2",
@@ -5064,7 +5865,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.8
+      "distance_km": 13.8,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-0c5409479e",
@@ -5081,7 +5883,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-49f031c1c4",
@@ -5098,7 +5901,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.4
+      "distance_km": 13.4,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-24049778a3",
@@ -5115,7 +5919,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.4
+      "distance_km": 9.4,
+      "last_update": "2026-09-11"
     },
     {
       "id": "dt-db744ce433",
@@ -5132,7 +5937,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-02"
     },
     {
       "id": "dt-d2dfe23b11",
@@ -5149,7 +5955,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-08-21"
     },
     {
       "id": "dt-43d8163e06",
@@ -5166,7 +5973,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 4.1
+      "distance_km": 4.1,
+      "last_update": "2026-09-03"
     },
     {
       "id": "dt-46f8037442",
@@ -5183,7 +5991,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-926cf48dc8",
@@ -5200,7 +6009,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-08-21"
     },
     {
       "id": "dt-b756593be2",
@@ -5217,7 +6027,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-25972b1c53",
@@ -5234,7 +6045,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-afb1176022",
@@ -5251,7 +6063,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.0
+      "distance_km": 13.0,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-4a7e4f4383",
@@ -5268,7 +6081,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.7
+      "distance_km": 13.7,
+      "last_update": "2026-04-30"
     },
     {
       "id": "dt-41387760e2",
@@ -5285,7 +6099,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.4
+      "distance_km": 13.4,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-84a912e9a6",
@@ -5302,7 +6117,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.3
+      "distance_km": 15.3,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-29c1efe7ef",
@@ -5319,7 +6135,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.3
+      "distance_km": 15.3,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-8e1284510b",
@@ -5336,7 +6153,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.2
+      "distance_km": 8.2,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-1b96b7f694",
@@ -5353,7 +6171,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.2
+      "distance_km": 8.2,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-a5b95ebde7",
@@ -5370,7 +6189,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.3
+      "distance_km": 15.3,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-fd848d8147",
@@ -5387,7 +6207,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-eb0656aac9",
@@ -5404,7 +6225,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.0
+      "distance_km": 10.0,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-ae46139dbd",
@@ -5421,7 +6243,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-b265fd49ae",
@@ -5438,7 +6261,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.4
+      "distance_km": 9.4,
+      "last_update": "2026-09-11"
     },
     {
       "id": "dt-d84f9ecda6",
@@ -5455,7 +6279,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-b582d522fc",
@@ -5472,7 +6297,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.7
+      "distance_km": 13.7,
+      "last_update": "2026-04-30"
     },
     {
       "id": "dt-5f20a7b62c",
@@ -5489,7 +6315,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-08-21"
     },
     {
       "id": "dt-143c88af04",
@@ -5506,7 +6333,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.4
+      "distance_km": 13.4,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-c15dff35f7",
@@ -5523,7 +6351,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-b6a4757ab2",
@@ -5540,7 +6369,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-995ee8b8fe",
@@ -5557,7 +6387,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-b9771bd9f0",
@@ -5574,7 +6405,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-9493e68e71",
@@ -5591,7 +6423,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.7
+      "distance_km": 13.7,
+      "last_update": "2026-04-30"
     },
     {
       "id": "dt-9c236797b3",
@@ -5608,7 +6441,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.4
+      "distance_km": 13.4,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-c30eb8cd29",
@@ -5625,7 +6459,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 11.5
+      "distance_km": 11.5,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-ca6d47145b",
@@ -5642,7 +6477,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-f787ff15a8",
@@ -5659,7 +6495,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-50c14d9b51",
@@ -5676,7 +6513,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-75bbf6a185",
@@ -5693,7 +6531,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-8b1a64cbd5",
@@ -5710,7 +6549,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.0
+      "distance_km": 13.0,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-7dc2ec92fd",
@@ -5727,7 +6567,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.7
+      "distance_km": 13.7,
+      "last_update": "2026-04-30"
     },
     {
       "id": "dt-0146ecd23c",
@@ -5744,7 +6585,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-fb2c13958b",
@@ -5761,7 +6603,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.4
+      "distance_km": 13.4,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-13a5da2a27",
@@ -5778,7 +6621,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.5
+      "distance_km": 9.5,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-54eff05068",
@@ -5795,7 +6639,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.5
+      "distance_km": 9.5,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-531e7fe718",
@@ -5812,7 +6657,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.5
+      "distance_km": 9.5,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-097776e7a6",
@@ -5829,7 +6675,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 11.5
+      "distance_km": 11.5,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-370002f9c9",
@@ -5846,7 +6693,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.5
+      "distance_km": 9.5,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-999a0c038b",
@@ -5863,7 +6711,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-0e5a7b1a24",
@@ -5880,7 +6729,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.5
+      "distance_km": 9.5,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-742523999d",
@@ -5897,7 +6747,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.5
+      "distance_km": 9.5,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-6c97bb0126",
@@ -5914,7 +6765,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.5
+      "distance_km": 9.5,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-a41e43693a",
@@ -5931,7 +6783,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-aa2c83cdb6",
@@ -5948,7 +6801,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-1b742cd833",
@@ -5965,7 +6819,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.7
+      "distance_km": 13.7,
+      "last_update": "2026-04-30"
     },
     {
       "id": "dt-1989c758a8",
@@ -5982,7 +6837,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.4
+      "distance_km": 13.4,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-0eaae7d55f",
@@ -5999,7 +6855,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.2
+      "distance_km": 8.2,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-00564b33c9",
@@ -6016,7 +6873,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-2f7160eb78",
@@ -6033,7 +6891,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-08faff9379",
@@ -6050,7 +6909,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-c3e359d2fe",
@@ -6067,7 +6927,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.7
+      "distance_km": 13.7,
+      "last_update": "2026-04-30"
     },
     {
       "id": "dt-38207e4588",
@@ -6084,7 +6945,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.4
+      "distance_km": 13.4,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-fdc41dfb75",
@@ -6101,7 +6963,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-3aaea45c79",
@@ -6118,7 +6981,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-2eb681982f",
@@ -6135,7 +6999,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-b8f48e58bc",
@@ -6152,7 +7017,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.4
+      "distance_km": 13.4,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-de2fc1f851",
@@ -6169,7 +7035,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-fa413e801e",
@@ -6186,7 +7053,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.2
+      "distance_km": 15.2,
+      "last_update": "2026-09-12"
     },
     {
       "id": "dt-8ae1c1e25c",
@@ -6203,7 +7071,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 4.0
+      "distance_km": 4.0,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-eeb2161778",
@@ -6220,7 +7089,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-30fabc4392",
@@ -6237,7 +7107,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 13.4
+      "distance_km": 13.4,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-dd69905bda",
@@ -6254,7 +7125,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 0.6
+      "distance_km": 0.6,
+      "last_update": "2026-01-05"
     },
     {
       "id": "dt-e8676ba0e5",
@@ -6271,7 +7143,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.2
+      "distance_km": 8.2,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-6253671ebd",
@@ -6288,7 +7161,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-ce6abd159c",
@@ -6305,7 +7179,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-94162fb324",
@@ -6322,7 +7197,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 11.5
+      "distance_km": 11.5,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-01a550bcaa",
@@ -6330,7 +7206,7 @@
       "title": "Marionnettes et magie nouvelle - L'Affaire est grave !",
       "start": "2027-01-30T15:00",
       "end": "2027-01-30T16:00",
-      "location": "Rue du Moulin",
+      "location": "Espace Bel Air",
       "city": "Auray",
       "description": "Dans le cadre du Temps fort PUNCH marionnettes Adapté de la bande dessinée Politique Étrangère de Lewis Trondheim et Jochen Gerner, L'affaire est grave ! mêle marionnette, cirque et magie nouvelle dans une fable absurde et mordante.",
       "url": "https://athena-auray.mapado.com/event/793096-laffaire-est-grave",
@@ -6339,7 +7215,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.0
+      "distance_km": 10.0,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-13ac095f1a",
@@ -6347,7 +7224,7 @@
       "title": "Marionnettes et magie nouvelle - L'Affaire est grave !",
       "start": "2027-01-30T19:00",
       "end": "2027-01-30T20:00",
-      "location": "Rue du Moulin",
+      "location": "Espace Bel Air",
       "city": "Auray",
       "description": "Dans le cadre du Temps fort PUNCH marionnettes Adapté de la bande dessinée Politique Étrangère de Lewis Trondheim et Jochen Gerner, L'affaire est grave ! mêle marionnette, cirque et magie nouvelle dans une fable absurde et mordante.",
       "url": "https://athena-auray.mapado.com/event/793096-laffaire-est-grave",
@@ -6356,7 +7233,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.0
+      "distance_km": 10.0,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-2b4abe90ae",
@@ -6364,7 +7242,7 @@
       "title": "Marionnettes et magie nouvelle - L'Affaire est grave !",
       "start": "2027-01-31T11:00",
       "end": "2027-01-31T12:00",
-      "location": "Rue du Moulin",
+      "location": "Espace Bel Air",
       "city": "Auray",
       "description": "Dans le cadre du Temps fort PUNCH marionnettes Adapté de la bande dessinée Politique Étrangère de Lewis Trondheim et Jochen Gerner, L'affaire est grave ! mêle marionnette, cirque et magie nouvelle dans une fable absurde et mordante.",
       "url": "https://athena-auray.mapado.com/event/793096-laffaire-est-grave",
@@ -6373,7 +7251,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.0
+      "distance_km": 10.0,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-0372206b90",
@@ -6381,7 +7260,7 @@
       "title": "Marionnettes et magie nouvelle - L'Affaire est grave !",
       "start": "2027-01-31T17:00",
       "end": "2027-01-31T18:00",
-      "location": "Rue du Moulin",
+      "location": "Espace Bel Air",
       "city": "Auray",
       "description": "Dans le cadre du Temps fort PUNCH marionnettes Adapté de la bande dessinée Politique Étrangère de Lewis Trondheim et Jochen Gerner, L'affaire est grave ! mêle marionnette, cirque et magie nouvelle dans une fable absurde et mordante.",
       "url": "https://athena-auray.mapado.com/event/793096-laffaire-est-grave",
@@ -6390,7 +7269,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.0
+      "distance_km": 10.0,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-2dccae70a5",
@@ -6407,7 +7287,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6
+      "distance_km": 9.6,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-55693f9811",
@@ -6424,7 +7305,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6
+      "distance_km": 9.6,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-4139aed8a0",
@@ -6441,7 +7323,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6
+      "distance_km": 9.6,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-6ec2e2f577",
@@ -6458,7 +7341,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6
+      "distance_km": 9.6,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-1e39bd3ad8",
@@ -6475,7 +7359,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6
+      "distance_km": 9.6,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-f34d2328bc",
@@ -6492,7 +7377,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.4
+      "distance_km": 9.4,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-144d23b34e",
@@ -6509,7 +7395,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.4
+      "distance_km": 9.4,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-e75fca23e7",
@@ -6526,7 +7413,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-7e89124a68",
@@ -6543,7 +7431,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.4
+      "distance_km": 9.4,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-3f736502ea",
@@ -6560,7 +7449,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.4
+      "distance_km": 9.4,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-797d20301f",
@@ -6577,7 +7467,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.4
+      "distance_km": 9.4,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-a117895db5",
@@ -6594,7 +7485,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-89d539592f",
@@ -6611,7 +7503,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.5
+      "distance_km": 9.5,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-e4a3c2f0af",
@@ -6628,7 +7521,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.2
+      "distance_km": 8.2,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-6378e8b7f0",
@@ -6645,7 +7539,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 11.5
+      "distance_km": 11.5,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-75e4952d02",
@@ -6662,7 +7557,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.0
+      "distance_km": 10.0,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-d95a516252",
@@ -6673,13 +7569,14 @@
       "location": "Espace culturel de la Vigie",
       "city": "La Trinité-sur-Mer",
       "description": "Caloé présente Le Voyageur, son album paru en 2024, qui mêle jazz et pop autour d'un personnage imaginaire et intègre des passages de scat maîtrisés par la chanteuse.",
-      "url": "https://athena-auray.mapado.com/event/798388-caloe",
+      "url": "https://www.caloe.net/",
       "category": "musique",
       "priority": 1,
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-702138bebe",
@@ -6696,7 +7593,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 11.5
+      "distance_km": 11.5,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-23f20760d0",
@@ -6713,7 +7611,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.4
+      "distance_km": 9.4,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-e20106cb78",
@@ -6730,7 +7629,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-379d35f3c5",
@@ -6747,7 +7647,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.4
+      "distance_km": 9.4,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-1cbc063076",
@@ -6764,7 +7665,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-07"
     },
     {
       "id": "dt-7ccc90069e",
@@ -6781,7 +7683,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6
+      "distance_km": 9.6,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-796c3b67a6",
@@ -6798,7 +7701,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.4
+      "distance_km": 9.4,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-59bc536940",
@@ -6815,7 +7719,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.4
+      "distance_km": 9.4,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-21c14ff48b",
@@ -6832,7 +7737,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.4
+      "distance_km": 9.4,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-f5a74b5480",
@@ -6849,7 +7755,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-d56fe33a80",
@@ -6866,7 +7773,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.4
+      "distance_km": 9.4,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-1c3efe9608",
@@ -6883,7 +7791,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-67c294f757",
@@ -6900,7 +7809,8 @@
       "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1
+      "distance_km": 0.1,
+      "last_update": "2026-09-17"
     },
     {
       "id": "dt-023721f635",
@@ -6917,7 +7827,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.4
+      "distance_km": 9.4,
+      "last_update": "2026-09-17"
     }
   ]
 }
