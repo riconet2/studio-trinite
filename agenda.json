@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-21T09:59:51Z",
+  "generated_at": "2026-09-22T09:20:35Z",
   "data_updated_at": "2026-09-19",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
@@ -10,9 +10,9 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 378,
+    "total": 376,
     "by_proximity": {
-      "near": 310,
+      "near": 308,
       "immediate": 66,
       "daytrip": 2
     }
@@ -485,42 +485,6 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.3,
       "last_update": "2026-08-11"
-    },
-    {
-      "id": "dt-47ed0fae08",
-      "series_id": "dt-fa57efa204",
-      "title": "Terra Initia - Exposition TR'ÂMES",
-      "start": "2026-09-21T10:00",
-      "end": "2026-09-21T12:30",
-      "location": "Galerie Terra Initia",
-      "city": "Carnac",
-      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.0,
-      "last_update": "2026-08-13"
-    },
-    {
-      "id": "dt-3c8eda53c8",
-      "series_id": "dt-25191fc9c8",
-      "title": "Chantier participatif : construction d'une guinguette",
-      "start": "2026-09-21T18:30",
-      "end": "2026-09-21T20:30",
-      "location": "Stade du Bel Air",
-      "city": "Auray",
-      "description": "Construction de bacs végétalisés et de décorations sur la guinguette du Bel Air",
-      "url": null,
-      "category": "musique",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.0,
-      "last_update": "2026-09-07"
     },
     {
       "id": "dt-25dfd8dea1",
@@ -2238,7 +2202,7 @@
       "title": "Octobre rose et bleu – course solidaire",
       "start": "2026-10-11T09:30",
       "end": null,
-      "location": "Complexe sportif -",
+      "location": "26 Rue du Grand Large",
       "city": "Erdeven",
       "description": "Vélo, marche ou course ? Venez soutenir l’octobre rose et bleu le dimanche 11 octobre 2026 ! En vélo : - Circuit cyclo de 20km départ 10h00 au complexe sportif du Grand Large. En marchant : - Circuit de 10km départ à 9h30 au complexe sportif du Grand Large.",
       "url": null,
