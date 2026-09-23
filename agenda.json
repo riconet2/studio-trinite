@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-22T09:20:35Z",
-  "data_updated_at": "2026-09-19",
+  "generated_at": "2026-09-23T09:21:01Z",
+  "data_updated_at": "2026-09-21",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -10,10 +10,10 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 376,
+    "total": 400,
     "by_proximity": {
-      "near": 308,
-      "immediate": 66,
+      "near": 333,
+      "immediate": 65,
       "daytrip": 2
     }
   },
@@ -503,60 +503,6 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
       "last_update": "2026-09-07"
-    },
-    {
-      "id": "dt-dac88333ff",
-      "series_id": "dt-09b966ff66",
-      "title": "Marché hebdomadaire à La Trinité-sur-Mer",
-      "start": "2026-09-22T08:00",
-      "end": "2026-09-22T13:00",
-      "location": "Place du Voulien",
-      "city": "La Trinité-sur-Mer",
-      "description": "Le marché hebdomadaire se tient le mardi et le vendredi matin de 8h à 13h sur la place du Voulien.",
-      "url": null,
-      "category": "marche",
-      "priority": 1,
-      "proximity": "immediate",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 0.6,
-      "last_update": "2026-01-05"
-    },
-    {
-      "id": "dt-4be78fa6ae",
-      "series_id": "dt-323fb05a73",
-      "title": "Expérience Zen",
-      "start": "2026-09-22T10:00",
-      "end": "2026-09-22T11:00",
-      "location": "Grande Plage côté Yacht Club",
-      "city": "Carnac",
-      "description": "A 10h tous les mardis de Juin à Septembre. Séance forme et Zen sur la plage. On se détend, c'est les vacances ! Objectif : apprendre des outils simples pour relaxer notre corps et notre mental tout en cultivant la vitalité.",
-      "url": "https://www.ot-carnac.fr/evenement/experience-zen",
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 3.9,
-      "last_update": "2026-06-25"
-    },
-    {
-      "id": "dt-4bf30a4e9e",
-      "series_id": "dt-e06e68ef84",
-      "title": "Séance photo découverte",
-      "start": "2026-09-22T19:30",
-      "end": null,
-      "location": "lieu communiqué à la réservation",
-      "city": "Carnac",
-      "description": "Mini-séance photo \"aquatique\" au coucher du soleil Faites l'expérience d'une mise en lumière naturelle, sensible et immersive, sur la plage ou dans l’eau, à la lumière douce du coucher de soleil.",
-      "url": null,
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.1,
-      "last_update": "2026-09-17"
     },
     {
       "id": "dt-944e1cc158",
@@ -1675,6 +1621,24 @@
       "last_update": "2026-09-18"
     },
     {
+      "id": "dt-b4d47c882f",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-10-03T16:00",
+      "end": "2026-10-03T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
+    },
+    {
       "id": "dt-3f3ef9df3e",
       "series_id": "dt-c640467683",
       "title": "Randos la Brechvelomarch'",
@@ -1817,6 +1781,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
       "last_update": "2026-09-17"
+    },
+    {
+      "id": "dt-e43988aae5",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-10-04T16:00",
+      "end": "2026-10-04T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
     },
     {
       "id": "dt-7a24825054",
@@ -1999,6 +1981,42 @@
       "last_update": "2026-08-13"
     },
     {
+      "id": "dt-525c67d739",
+      "series_id": "dt-8543ade63c",
+      "title": "Marché de l’automne et bal des petits monstres",
+      "start": "2026-10-09T16:15",
+      "end": null,
+      "location": "Salle du Groez Ven",
+      "city": "Ploemel",
+      "description": "Venez profiter d’une vente en direct de produits du terroir à l'occasion du Marché de l'automne organisé par l' Amicale laïque du Groez Ven. Un bal des petits monstres débutera à 18h00 :Venez nombreux et déguisés pour danser au rythme du DJ.",
+      "url": null,
+      "category": "marche",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 8.2,
+      "last_update": "2026-09-21"
+    },
+    {
+      "id": "dt-eb7b27af04",
+      "series_id": "dt-8543ade63c",
+      "title": "Marché de l’automne et bal des petits monstres",
+      "start": "2026-10-09T18:00",
+      "end": null,
+      "location": "Salle du Groez Ven",
+      "city": "Ploemel",
+      "description": "Venez profiter d’une vente en direct de produits du terroir à l'occasion du Marché de l'automne organisé par l' Amicale laïque du Groez Ven. Un bal des petits monstres débutera à 18h00 :Venez nombreux et déguisés pour danser au rythme du DJ.",
+      "url": null,
+      "category": "marche",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 8.2,
+      "last_update": "2026-09-21"
+    },
+    {
       "id": "dt-cb73c10482",
       "series_id": "dt-c310bdb42c",
       "title": "Spactacle : Entrez de Secours !",
@@ -2068,7 +2086,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.7,
-      "last_update": "2026-09-18"
+      "last_update": "2026-09-21"
     },
     {
       "id": "dt-edf694d897",
@@ -2179,6 +2197,24 @@
       "last_update": "2026-09-18"
     },
     {
+      "id": "dt-be01f3958b",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-10-10T16:00",
+      "end": "2026-10-10T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
+    },
+    {
       "id": "dt-aed36bf828",
       "series_id": "dt-6535055fd5",
       "title": "Preskill débarque au Tchou-Tchou",
@@ -2197,6 +2233,24 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-c9f64b159c",
+      "series_id": "dt-a512bbc8ab",
+      "title": "Randonnée Vélo-Gravel : Nature et Océan",
+      "start": "2026-10-11T08:30",
+      "end": "2026-10-11T10:00",
+      "location": "Parc Mané Bogad",
+      "city": "Ploemel",
+      "description": "L’Amicale du Groez-ven de Ploemel organise la 1ère édition de la sortie Vélo-Gravel Ouverte à tous, de la randonnée familiale à la course entre amis, 5 circuits vont conduiront à la découverte des menhirs, de la nature et de l’océan, sur des chemins divers et variés :route…",
+      "url": null,
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 8.2,
+      "last_update": "2026-09-21"
+    },
+    {
       "id": "dt-2e86893498",
       "series_id": "dt-8dc5e849cc",
       "title": "Octobre rose et bleu – course solidaire",
@@ -2213,6 +2267,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.8,
       "last_update": "2026-09-12"
+    },
+    {
+      "id": "dt-07bc2e02bd",
+      "series_id": "dt-a512bbc8ab",
+      "title": "Randonnée Vélo-Gravel : Nature et Océan",
+      "start": "2026-10-11T10:00",
+      "end": null,
+      "location": "Parc Mané Bogad",
+      "city": "Ploemel",
+      "description": "L’Amicale du Groez-ven de Ploemel organise la 1ère édition de la sortie Vélo-Gravel Ouverte à tous, de la randonnée familiale à la course entre amis, 5 circuits vont conduiront à la découverte des menhirs, de la nature et de l’océan, sur des chemins divers et variés :route…",
+      "url": null,
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 8.2,
+      "last_update": "2026-09-21"
     },
     {
       "id": "dt-03a9699520",
@@ -2287,6 +2359,24 @@
       "last_update": "2026-09-18"
     },
     {
+      "id": "dt-25d425e577",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-10-11T16:00",
+      "end": "2026-10-11T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
+    },
+    {
       "id": "dt-7b418659dc",
       "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
@@ -2339,6 +2429,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 4.0,
       "last_update": "2026-08-13"
+    },
+    {
+      "id": "dt-d32179004c",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-10-14T16:00",
+      "end": "2026-10-14T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
     },
     {
       "id": "dt-696c595f53",
@@ -2413,6 +2521,24 @@
       "last_update": "2026-09-11"
     },
     {
+      "id": "dt-374f43adf6",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-10-15T16:00",
+      "end": "2026-10-15T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
+    },
+    {
       "id": "dt-b2700bc6e0",
       "series_id": "dt-74f6dcfb53",
       "title": "Le problème lapin, cartographie 7",
@@ -2483,6 +2609,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 4.0,
       "last_update": "2026-08-13"
+    },
+    {
+      "id": "dt-5c9f13ec1f",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-10-16T16:00",
+      "end": "2026-10-16T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
     },
     {
       "id": "dt-3e19a3ee15",
@@ -2701,6 +2845,24 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-d08b815d23",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-10-17T16:00",
+      "end": "2026-10-17T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
+    },
+    {
       "id": "dt-34a1746b4f",
       "series_id": "dt-bef6d5b120",
       "title": "Les fous - aux pieds bleus 'EXTRA', performance et rencontre dansée, jouée, parlée",
@@ -2881,6 +3043,24 @@
       "last_update": "2026-09-03"
     },
     {
+      "id": "dt-0b1ad7102b",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-10-18T16:00",
+      "end": "2026-10-18T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
+    },
+    {
       "id": "dt-305d5862f8",
       "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
@@ -2951,6 +3131,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-19"
+    },
+    {
+      "id": "dt-ec242d0a5f",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-10-19T16:00",
+      "end": "2026-10-19T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
     },
     {
       "id": "dt-edeb4d06a4",
@@ -3097,6 +3295,24 @@
       "last_update": "2026-09-19"
     },
     {
+      "id": "dt-ad1070dcda",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-10-20T16:00",
+      "end": "2026-10-20T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
+    },
+    {
       "id": "dt-0274129e1a",
       "series_id": "dt-5ad05eea69",
       "title": "Quiberon, le charme d'une station centenaire et d'un ancien port sardinier",
@@ -3185,6 +3401,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
       "last_update": "2026-09-17"
+    },
+    {
+      "id": "dt-e64d5b39f9",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-10-21T16:00",
+      "end": "2026-10-21T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
     },
     {
       "id": "dt-3218fd0563",
@@ -3311,6 +3545,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.1,
       "last_update": "2026-08-13"
+    },
+    {
+      "id": "dt-ce5d4da2f0",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-10-22T16:00",
+      "end": "2026-10-22T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
     },
     {
       "id": "dt-124839ed16",
@@ -3455,6 +3707,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 4.0,
       "last_update": "2026-08-13"
+    },
+    {
+      "id": "dt-f4d138bf4e",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-10-23T16:00",
+      "end": "2026-10-23T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
     },
     {
       "id": "dt-f6f07a2654",
@@ -3637,6 +3907,24 @@
       "last_update": "2026-09-19"
     },
     {
+      "id": "dt-29862811fa",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-10-24T16:00",
+      "end": "2026-10-24T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
+    },
+    {
       "id": "dt-0a96721c5b",
       "series_id": "dt-7dc6c0f5f0",
       "title": "Ciel de Moana",
@@ -3781,6 +4069,24 @@
       "last_update": "2026-09-07"
     },
     {
+      "id": "dt-a8221a581a",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-10-25T16:00",
+      "end": "2026-10-25T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
+    },
+    {
       "id": "dt-049d537232",
       "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
@@ -3833,6 +4139,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-19"
+    },
+    {
+      "id": "dt-bd3f45100e",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-10-26T16:00",
+      "end": "2026-10-26T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
     },
     {
       "id": "dt-1f6c519a1a",
@@ -3941,6 +4265,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 4.4,
       "last_update": "2026-09-07"
+    },
+    {
+      "id": "dt-dc4b7b8b84",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-10-27T16:00",
+      "end": "2026-10-27T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
     },
     {
       "id": "dt-62668a062a",
@@ -4087,6 +4429,24 @@
       "last_update": "2026-08-28"
     },
     {
+      "id": "dt-a704c85907",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-10-28T16:00",
+      "end": "2026-10-28T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
+    },
+    {
       "id": "dt-86f475cdff",
       "series_id": "dt-1a40ea5590",
       "title": "La fabuleuse histoire de BasarKus",
@@ -4231,6 +4591,24 @@
       "last_update": "2026-09-19"
     },
     {
+      "id": "dt-890164c8e9",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-10-29T16:00",
+      "end": "2026-10-29T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
+    },
+    {
       "id": "dt-6d8a26d2dd",
       "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
@@ -4319,6 +4697,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 4.0,
       "last_update": "2026-08-13"
+    },
+    {
+      "id": "dt-8901e2e060",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-10-30T16:00",
+      "end": "2026-10-30T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
     },
     {
       "id": "dt-647112e5a4",
@@ -4483,6 +4879,24 @@
       "last_update": "2026-09-03"
     },
     {
+      "id": "dt-9ee0f79ac3",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-10-31T16:00",
+      "end": "2026-10-31T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
+    },
+    {
       "id": "dt-da477ecb4a",
       "series_id": "dt-bfb2390b81",
       "title": "Théâtre : Hold up & bras cassés",
@@ -4607,6 +5021,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-19"
+    },
+    {
+      "id": "dt-c234a366c6",
+      "series_id": "dt-bc785e088f",
+      "title": "Le chantier des collections",
+      "start": "2026-11-01T16:00",
+      "end": "2026-11-01T16:30",
+      "location": "Musée de la Préhistoire",
+      "city": "Carnac",
+      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "url": "https://www.museedecarnac.com/actualites/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-21"
     },
     {
       "id": "dt-ffea2570d1",
