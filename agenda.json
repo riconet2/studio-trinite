@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-23T09:21:01Z",
-  "data_updated_at": "2026-09-21",
+  "generated_at": "2026-09-24T09:20:59Z",
+  "data_updated_at": "2026-09-22",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -10,9 +10,9 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 400,
+    "total": 411,
     "by_proximity": {
-      "near": 333,
+      "near": 344,
       "immediate": 65,
       "daytrip": 2
     }
@@ -71,24 +71,6 @@
       "source_name": "ADT 56",
       "distance_km": 13.4,
       "last_update": "2026-07-20"
-    },
-    {
-      "id": "dt-6c2b5724dd",
-      "series_id": "dt-f0098811e6",
-      "title": "Lecture offerte aux enfants",
-      "start": "2026-05-27T10:00",
-      "end": "2026-09-23T11:00",
-      "location": "5 Rue des Menhirs",
-      "city": "Erdeven",
-      "description": "Les enfants sont les bienvenus pour écouter des histoires issues de la collection de la librairie.",
-      "url": null,
-      "category": "culture",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 11.4,
-      "last_update": "2026-07-30"
     },
     {
       "id": "dt-3a37f34fc7",
@@ -505,96 +487,6 @@
       "last_update": "2026-09-07"
     },
     {
-      "id": "dt-944e1cc158",
-      "series_id": "dt-23a5704fbf",
-      "title": "Expérience Fitness",
-      "start": "2026-09-23T10:00",
-      "end": "2026-09-23T11:00",
-      "location": "Grande Plage",
-      "city": "Carnac",
-      "description": "A 10h tous les mercredis de Juin à Septembre. Allier plaisir et forme pendant vos vacances, et venez vivre l'expérience Fitness cet été. L'Office de Tourisme de Carnac vous offre une séance mêlant tonus, fun et endurance.",
-      "url": "https://www.ot-carnac.fr/evenement/experience-fitness",
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 3.9,
-      "last_update": "2026-06-25"
-    },
-    {
-      "id": "dt-fff141db7e",
-      "series_id": "dt-fa57efa204",
-      "title": "Terra Initia - Exposition TR'ÂMES",
-      "start": "2026-09-23T10:00",
-      "end": "2026-09-23T12:30",
-      "location": "Galerie Terra Initia",
-      "city": "Carnac",
-      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.0,
-      "last_update": "2026-08-13"
-    },
-    {
-      "id": "dt-7e55925791",
-      "series_id": "dt-ffe07092ee",
-      "title": "Visite guidée \"À la découverte de la Ria d'Etel\"",
-      "start": "2026-09-23T10:00",
-      "end": "2026-09-23T12:00",
-      "location": "Office de tourisme d'Etel",
-      "city": "Étel",
-      "description": "10h - 12h, chaque mercredi : Petite promenade sur les hauteurs de la \"falaise\" d'Etel afin de faire connaissance avec la Ria : sa nature, sa barre, ses courants, ses activités ancestrales ... Durée : 2 heures. Distance : environ 2 km.",
-      "url": null,
-      "category": "patrimoine",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.6,
-      "last_update": "2026-08-25"
-    },
-    {
-      "id": "dt-8970a882db",
-      "series_id": "dt-050bb8cc61",
-      "title": "Conférence : \"Entre terre et mer, un nouveau regard sur Er Lannic\"",
-      "start": "2026-09-23T20:30",
-      "end": null,
-      "location": "auditorium Terraqué",
-      "city": "Carnac",
-      "description": "Conférence de Cyrille Chaigneau, archéologue, médiateur scientifique au Musée de préhistoire de Carnac. La conférence organisée par l’association Les amis du Musée de Carnac, présentera le Tumulus Saint-Michel de Carnac, érigé dès le 5e millénaire avant notre ère.",
-      "url": "http://www.museedecarnac.com/",
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 3.6,
-      "last_update": "2026-09-07"
-    },
-    {
-      "id": "dt-271c68300b",
-      "series_id": "dt-bee8816ec5",
-      "title": "Sur les épaules du géant : le tumulus Saint-Michel à Carnac",
-      "start": "2026-09-23T20:30",
-      "end": null,
-      "location": "auditorium Terraqué",
-      "city": "Carnac",
-      "description": "Conférence animée par Cyrille Chaigneau Les tumulus carnacéens, emblèmes du Néolithique morbihannais, témoignent dès le 5e millénaire avant notre ère de l’émergence d’une puissante aristocratie religieuse ou politique par leur gigantisme et la richesse de leur mobilier…",
-      "url": "https://www.museedecarnac.com/event-item/le-tumulus-saint-michel-a-carnac-sur-les-epaules-du-geant/",
-      "category": "patrimoine",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.1,
-      "last_update": "2026-09-17"
-    },
-    {
       "id": "dt-2ba9532760",
       "series_id": "dt-01656b3159",
       "title": "Marché hebdomadaire à Crac'h",
@@ -647,6 +539,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 14.4,
       "last_update": "2026-05-29"
+    },
+    {
+      "id": "dt-5f2091d9b8",
+      "series_id": "dt-06b317abbf",
+      "title": "Cinéma - Au son des sabots",
+      "start": "2026-09-24T20:30",
+      "end": null,
+      "location": "Rond-Point de la Porte Océane",
+      "city": "Auray",
+      "description": "Tournée en Bretagne",
+      "url": null,
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 8.9,
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-5cb8d70f80",
@@ -827,6 +737,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.0,
       "last_update": "2026-09-07"
+    },
+    {
+      "id": "dt-a958771434",
+      "series_id": "dt-ef5993eeca",
+      "title": "Ciné Pop",
+      "start": "2026-09-25T19:00",
+      "end": null,
+      "location": "10 Rue du Général Auguste la Houlle",
+      "city": "Auray",
+      "description": "Rendez-vous au centre de loisirs Arlequin pour un Ciné Pop’ organisé par un groupe de jeunes, en partenariat avec La Cabanatous. Au programme : 19h — Repas partagé avec le Cap des Possibles 20h30 — Projection d’une programmation de 5 courts-métrages autour des thématiques de la…",
+      "url": null,
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.6,
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-3c039dc7fd",
@@ -1402,7 +1330,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-07"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-c1f2a6a786",
@@ -1600,7 +1528,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-18"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-35823f6d84",
@@ -1618,7 +1546,25 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-18"
+      "last_update": "2026-09-22"
+    },
+    {
+      "id": "dt-660ac13bac",
+      "series_id": "dt-866ef9f3fc",
+      "title": "Ciné Sonique",
+      "start": "2026-10-03T15:00",
+      "end": null,
+      "location": "Salle de la Kevrenn Alré",
+      "city": "Auray",
+      "description": "Rendez-vous à la salle de la Kevrenn Alré pour un Ciné Pop’ organisé en partenariat avec Garatoi!, dans le cadre du festival Les Nuits Soniques 2026.",
+      "url": null,
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.5,
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-b4d47c882f",
@@ -1708,7 +1654,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-18"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-e6a6741df9",
@@ -1762,7 +1708,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-18"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-bfdc53be1e",
@@ -1909,6 +1855,24 @@
       "last_update": "2026-05-30"
     },
     {
+      "id": "dt-cff6c7f03c",
+      "series_id": "dt-050c4840a0",
+      "title": "Ciné docs de voyage et d’aventure : ÉQUATEUR « Terre de Diversité »",
+      "start": "2026-10-07T18:30",
+      "end": null,
+      "location": "Espace culturel Terraqué",
+      "city": "Carnac",
+      "description": "Ciné docs de voyage et d’aventure : ÉQUATEUR « Terre de Diversité » - Film de Lynda PAQUETTE et Martin PARENT. L’Équateur est une terre d’exception, renfermant une des plus grandes biodiversités du globe.",
+      "url": "http://www.artetculture-carnac.com/",
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.1,
+      "last_update": "2026-09-22"
+    },
+    {
       "id": "dt-2ef566cf2d",
       "series_id": "dt-01656b3159",
       "title": "Marché hebdomadaire à Crac'h",
@@ -2053,6 +2017,24 @@
       "last_update": "2026-04-30"
     },
     {
+      "id": "dt-160900a90c",
+      "series_id": "dt-cea5f6fa30",
+      "title": "Tournoi de poker",
+      "start": "2026-10-09T20:00",
+      "end": null,
+      "location": "41 Avenue des salines",
+      "city": "Carnac",
+      "description": "Le Casino Circus de Carnac vous propose un tournoi de poker. Les jeux d’argent et de hasard peuvent être dangereux : Pertes d’argent, conflits familiaux, addiction… retrouvez nos conseils sur joueurs-info-service.fr (09 74 75 13 13 – appel non surtaxé)",
+      "url": "https://www.circuscasino.fr/fr/casinos/carnac/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.1,
+      "last_update": "2026-09-22"
+    },
+    {
       "id": "dt-3e9ef4df93",
       "series_id": "dt-93c0905a62",
       "title": "Spectacle : cowboy ou indien ?",
@@ -2086,7 +2068,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.7,
-      "last_update": "2026-09-21"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-edf694d897",
@@ -2158,7 +2140,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-18"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-182a418809",
@@ -2179,6 +2161,24 @@
       "last_update": "2026-09-11"
     },
     {
+      "id": "dt-199c5216ae",
+      "series_id": "dt-cea5f6fa30",
+      "title": "Tournoi de poker",
+      "start": "2026-10-10T13:00",
+      "end": null,
+      "location": "41 Avenue des salines",
+      "city": "Carnac",
+      "description": "Le Casino Circus de Carnac vous propose un tournoi de poker. Les jeux d’argent et de hasard peuvent être dangereux : Pertes d’argent, conflits familiaux, addiction… retrouvez nos conseils sur joueurs-info-service.fr (09 74 75 13 13 – appel non surtaxé)",
+      "url": "https://www.circuscasino.fr/fr/casinos/carnac/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.1,
+      "last_update": "2026-09-22"
+    },
+    {
       "id": "dt-560e1b6b2f",
       "series_id": "dt-79c7817d3e",
       "title": "Picto Néo !",
@@ -2194,7 +2194,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-18"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-be01f3958b",
@@ -2231,6 +2231,42 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.0,
       "last_update": "2026-09-17"
+    },
+    {
+      "id": "dt-c82cb468cf",
+      "series_id": "dt-cea5f6fa30",
+      "title": "Tournoi de poker",
+      "start": "2026-10-10T20:00",
+      "end": null,
+      "location": "41 Avenue des salines",
+      "city": "Carnac",
+      "description": "Le Casino Circus de Carnac vous propose un tournoi de poker. Les jeux d’argent et de hasard peuvent être dangereux : Pertes d’argent, conflits familiaux, addiction… retrouvez nos conseils sur joueurs-info-service.fr (09 74 75 13 13 – appel non surtaxé)",
+      "url": "https://www.circuscasino.fr/fr/casinos/carnac/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.1,
+      "last_update": "2026-09-22"
+    },
+    {
+      "id": "dt-9ffc2c6772",
+      "series_id": "dt-cea5f6fa30",
+      "title": "Tournoi de poker",
+      "start": "2026-10-10T22:00",
+      "end": null,
+      "location": "41 Avenue des salines",
+      "city": "Carnac",
+      "description": "Le Casino Circus de Carnac vous propose un tournoi de poker. Les jeux d’argent et de hasard peuvent être dangereux : Pertes d’argent, conflits familiaux, addiction… retrouvez nos conseils sur joueurs-info-service.fr (09 74 75 13 13 – appel non surtaxé)",
+      "url": "https://www.circuscasino.fr/fr/casinos/carnac/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.1,
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-c9f64b159c",
@@ -2320,7 +2356,25 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-18"
+      "last_update": "2026-09-22"
+    },
+    {
+      "id": "dt-3a1cae1734",
+      "series_id": "dt-cea5f6fa30",
+      "title": "Tournoi de poker",
+      "start": "2026-10-11T14:00",
+      "end": null,
+      "location": "41 Avenue des salines",
+      "city": "Carnac",
+      "description": "Le Casino Circus de Carnac vous propose un tournoi de poker. Les jeux d’argent et de hasard peuvent être dangereux : Pertes d’argent, conflits familiaux, addiction… retrouvez nos conseils sur joueurs-info-service.fr (09 74 75 13 13 – appel non surtaxé)",
+      "url": "https://www.circuscasino.fr/fr/casinos/carnac/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.1,
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-4c25d29061",
@@ -2356,7 +2410,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-18"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-25d425e577",
@@ -2375,6 +2429,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-21"
+    },
+    {
+      "id": "dt-108490de06",
+      "series_id": "dt-cea5f6fa30",
+      "title": "Tournoi de poker",
+      "start": "2026-10-11T20:00",
+      "end": null,
+      "location": "41 Avenue des salines",
+      "city": "Carnac",
+      "description": "Le Casino Circus de Carnac vous propose un tournoi de poker. Les jeux d’argent et de hasard peuvent être dangereux : Pertes d’argent, conflits familiaux, addiction… retrouvez nos conseils sur joueurs-info-service.fr (09 74 75 13 13 – appel non surtaxé)",
+      "url": "https://www.circuscasino.fr/fr/casinos/carnac/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.1,
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-7b418659dc",
@@ -2482,7 +2554,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.6,
-      "last_update": "2026-09-18"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-2826d3d4cd",
@@ -2716,7 +2788,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-18"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-5d4ba5a020",
@@ -2788,7 +2860,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-18"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-55a2bd5dee",
@@ -2809,6 +2881,24 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-2bfa223e2a",
+      "series_id": "dt-08437f5f38",
+      "title": "Sortie commentée : Histoire de Carnac Plage",
+      "start": "2026-10-17T14:00",
+      "end": null,
+      "location": "Parking de la pointe Churchill",
+      "city": "Carnac",
+      "description": "Histoire de la naissance de Carnac plage à la rencontre des premières villas et l'évolution de la station balnéaire de 1900 à nos jours. Environ 4 km. Durée environ 3h RDV au parking de la pointe Churchill, face à l’hôtel Churchill. Annulation en cas d’intempéries.",
+      "url": null,
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 2.7,
+      "last_update": "2026-09-22"
+    },
+    {
       "id": "dt-5809e8ad2f",
       "series_id": "dt-611e55b02a",
       "title": "Pierres de légende",
@@ -2824,7 +2914,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-9902ca9b3c",
@@ -2968,7 +3058,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-02e10d266f",
@@ -3022,7 +3112,25 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
+    },
+    {
+      "id": "dt-c248c998eb",
+      "series_id": "dt-5ec66e1406",
+      "title": "Conférence : L'univers de Madame de Sévigné",
+      "start": "2026-10-18T15:00",
+      "end": null,
+      "location": "Espace culturel Terraqué",
+      "city": "Carnac",
+      "description": "Fine chroniqueuse de son époque, Madame de Sévigné écrivait à ses proches des lettres si vivantes et « stylées » que leur lecteur d’aujourd’hui est littéralement happé dans le XVIIème siècle … Agnès Anquetin Dias, conférencière.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.7,
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-1577585240",
@@ -3130,7 +3238,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-ec242d0a5f",
@@ -3220,7 +3328,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-107f6188ef",
@@ -3292,7 +3400,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-ad1070dcda",
@@ -3526,7 +3634,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-83733228a1",
@@ -3563,6 +3671,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-21"
+    },
+    {
+      "id": "dt-ea9eb81139",
+      "series_id": "dt-46c6d0385d",
+      "title": "Conférence Musique et Littérature",
+      "start": "2026-10-22T17:30",
+      "end": null,
+      "location": "Espace Culturel Terraqué - Auditorium",
+      "city": "Carnac",
+      "description": "Conférence Musique et Littérature : « Entre les mots et le sacré : Francis POULENC, moine et voyou » d’Emilie De Fautereau Emilie De Fautereau, agrégée et docteur ès-lettres, est également musicienne.",
+      "url": "http://www.artetculture-carnac.com/",
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.6,
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-124839ed16",
@@ -3634,7 +3760,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-058f0a6acc",
@@ -3670,7 +3796,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-b4de17d69a",
@@ -3868,7 +3994,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-38d32d7e23",
@@ -3889,6 +4015,24 @@
       "last_update": "2026-09-07"
     },
     {
+      "id": "dt-0b7289d42b",
+      "series_id": "dt-dd0968546b",
+      "title": "Les ateliers flaneurs",
+      "start": "2026-10-24T14:00",
+      "end": "2026-10-25T18:00",
+      "location": "Dans une 20ène de lieux",
+      "city": "Carnac",
+      "description": "L'association des ateliers flâneurs vous donne rendez-vous le week-end du 24/25 octobre 2026 principalement dans les ateliers. Un moment privilégié de partage entre les visiteurs, les artistes, les créateurs, à la rencontre des savoir-faire.",
+      "url": "https://www.facebook.com/lesateliersflaneurs",
+      "category": "marche",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.7,
+      "last_update": "2026-09-22"
+    },
+    {
       "id": "dt-f3acc06167",
       "series_id": "dt-2193289823",
       "title": "Visite flash \"Les bretons face aux géants de pierre\"",
@@ -3904,7 +4048,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-29862811fa",
@@ -3979,6 +4123,24 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-d291b432c1",
+      "series_id": "dt-7ca4035650",
+      "title": "Broc'land Geek",
+      "start": "2026-10-25T09:00",
+      "end": "2026-10-25T17:00",
+      "location": "Salle Omnisports Roger Le Manach",
+      "city": "Sainte-Anne-d'Auray",
+      "description": "La Pop Culture s'installe à Ste Anne d’Auray pour une journée exceptionnelle ! 1ère édition de BROC' LAND GEEK, un événement entièrement consacré à la Pop Culture, au rétrogaming, aux mangas, aux Pokémon, aux univers Fantasy et aux jouets vintage.",
+      "url": "https://www.tandemevents.fr/",
+      "category": "fete",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 14.6,
+      "last_update": "2026-09-22"
+    },
+    {
       "id": "dt-3bf45411af",
       "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
@@ -4012,7 +4174,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-d6932607e3",
@@ -4048,7 +4210,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-e53a376272",
@@ -4138,7 +4300,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-bd3f45100e",
@@ -4192,7 +4354,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-9768a1f570",
@@ -4211,6 +4373,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 4.1,
       "last_update": "2026-09-02"
+    },
+    {
+      "id": "dt-57317039ef",
+      "series_id": "dt-15f869a0c8",
+      "title": "Balade commentée Histoire du centre-bourg",
+      "start": "2026-10-27T14:00",
+      "end": null,
+      "location": "Place de l'Église",
+      "city": "Carnac",
+      "description": "Sortie commentée «Histoire du centre-bourg du 19ème siècle à nos jours et du Tumulus saint Michel». Durée 3h, environ 4 km. L'inscription se fait obligatoirement à l'avance par téléphone : 02 97 52 13 52.",
+      "url": null,
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-7069401326",
@@ -4246,7 +4426,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-dc3459becf",
@@ -4354,7 +4534,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-425f5361c9",
@@ -4573,6 +4753,24 @@
       "last_update": "2026-04-23"
     },
     {
+      "id": "dt-60201cb2b6",
+      "series_id": "dt-d553e46112",
+      "title": "Randonnée : Promenade à la découverte des monuments mégalithiques méconnus",
+      "start": "2026-10-29T14:15",
+      "end": "2026-10-29T17:30",
+      "location": "Tumulus de Crucuny",
+      "city": "Carnac",
+      "description": "À 14h15. Promenade à la découverte des monuments mégalithiques méconnus. Trajet de 7 kms d'une durée de 3H30'. Prévoir de bonnes chaussures. Gratuit sur inscription à l'Office du Tourisme de Carnac. Attention groupe limité à 20 personnes.",
+      "url": null,
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 5.1,
+      "last_update": "2026-09-22"
+    },
+    {
       "id": "dt-01ca387710",
       "series_id": "dt-2193289823",
       "title": "Visite flash \"Les bretons face aux géants de pierre\"",
@@ -4588,7 +4786,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-890164c8e9",
@@ -4642,7 +4840,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-b061b74f6a",
@@ -4678,7 +4876,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-8396eee239",
@@ -4822,7 +5020,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-674bb31b47",
@@ -4840,7 +5038,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-2f2de37b5b",
@@ -5020,7 +5218,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-c234a366c6",
@@ -5833,14 +6031,14 @@
       "last_update": "2026-01-05"
     },
     {
-      "id": "dt-c30eb8cd29",
-      "series_id": "dt-ddcae7423e",
+      "id": "dt-6dc72e85bd",
+      "series_id": "dt-4aba2f5320",
       "title": "Ciné-docs La Route de la Soie « Sur les traces de Marco Polo »",
-      "start": "2026-11-28T16:50",
+      "start": "2026-11-28T16:00",
       "end": "2026-11-28T18:00",
       "location": "Espace culturel Le Roëlan -",
       "city": "Erdeven",
-      "description": "Dimanche 28 novembre découvrez le ciné-docs de voyage et d’aventure : La Route de la Soie « Sur les traces de Marco Polo ». Un Film de Patrick Mathé. Synopsis « Qui n’a rêvé de parcourir la Route de la Soie dans les pas de Marco Polo ?",
+      "description": "« Qui n’a rêvé de parcourir la Route de la Soie dans les pas de Marco Polo ? Pendant plus de 2000 ans, des hommes de tous horizons ont parcouru les pistes caravanières de Chine qui, au départ de la ville impériale de Xi’an, traversaient les déserts hostiles du Gobi et du…",
       "url": null,
       "category": "spectacle",
       "priority": 2,
@@ -5848,7 +6046,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.5,
-      "last_update": "2026-09-07"
+      "last_update": "2026-09-22"
     },
     {
       "id": "dt-ca6d47145b",
