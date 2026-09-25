@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-24T09:20:59Z",
-  "data_updated_at": "2026-09-22",
+  "generated_at": "2026-09-25T09:38:54Z",
+  "data_updated_at": "2026-09-23",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -10,9 +10,9 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 411,
+    "total": 439,
     "by_proximity": {
-      "near": 344,
+      "near": 372,
       "immediate": 65,
       "daytrip": 2
     }
@@ -142,7 +142,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.9,
-      "last_update": "2026-06-03"
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-0584fc2a3d",
@@ -487,42 +487,6 @@
       "last_update": "2026-09-07"
     },
     {
-      "id": "dt-2ba9532760",
-      "series_id": "dt-01656b3159",
-      "title": "Marché hebdomadaire à Crac'h",
-      "start": "2026-09-24T09:00",
-      "end": "2026-09-24T13:00",
-      "location": "Place de l'Eglise",
-      "city": "Crach",
-      "description": "Il se déroule tous les jeudis matin, autour de l'église de 9h à 13h.",
-      "url": null,
-      "category": "marche",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 4.0,
-      "last_update": "2026-01-05"
-    },
-    {
-      "id": "dt-3e09f38ceb",
-      "series_id": "dt-cb204aed8a",
-      "title": "Sophrologie et Relaxation",
-      "start": "2026-09-24T10:00",
-      "end": "2026-09-24T11:00",
-      "location": "Plage du Conguel",
-      "city": "Quiberon",
-      "description": "Avec Sophie Colombo de So'Phrologie, venez participer à des séances sophrologie relaxation de groupe sur la plage du Conguel ! le Jeudi de 10h à 11h et le vendredi de 18h à 19h Prévoir une serviette et de l'eau Renseignements et inscription : Sophie Colombo, Sophrologue…",
-      "url": null,
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.3,
-      "last_update": "2026-07-25"
-    },
-    {
       "id": "dt-36ee0b870e",
       "series_id": "dt-081e48b34f",
       "title": "Exposition Sacrés Trésors !",
@@ -539,42 +503,6 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 14.4,
       "last_update": "2026-05-29"
-    },
-    {
-      "id": "dt-5f2091d9b8",
-      "series_id": "dt-06b317abbf",
-      "title": "Cinéma - Au son des sabots",
-      "start": "2026-09-24T20:30",
-      "end": null,
-      "location": "Rond-Point de la Porte Océane",
-      "city": "Auray",
-      "description": "Tournée en Bretagne",
-      "url": null,
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.9,
-      "last_update": "2026-09-22"
-    },
-    {
-      "id": "dt-5cb8d70f80",
-      "series_id": "dt-317d368c8b",
-      "title": "Diffusion en différé : Artus",
-      "start": "2026-09-24T20:30",
-      "end": null,
-      "location": "Cinéma Le Paradis",
-      "city": "Quiberon",
-      "description": "Le cinéma Le Paradis propose la diffusion en différé du « Show XXL », réalisé par Artus et Julien Faustino. Une soirée placée sous le signe de l’humour pour découvrir ou redécouvrir ce spectacle au cinéma.",
-      "url": null,
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.7,
-      "last_update": "2026-08-19"
     },
     {
       "id": "dt-2ddc705104",
@@ -988,7 +916,7 @@
       "source": "DATAtourisme",
       "source_name": "ADT 56",
       "distance_km": 3.9,
-      "last_update": "2026-08-28"
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-7a24ce219f",
@@ -1297,6 +1225,42 @@
       "last_update": "2026-09-04"
     },
     {
+      "id": "dt-e175847a44",
+      "series_id": "dt-b8a4814e76",
+      "title": "Exposition \" Observons les oiseaux\"",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "location": "Rue Michelet",
+      "city": "Quiberon",
+      "description": "Du 1er au 31 octobre 2026, la médiathèque de Quiberon accueille une exposition photographique consacrée aux oiseaux marins. À travers des photographies et des textes explicatifs, les visiteurs pourront découvrir ou redécouvrir les espèces présentes sur le territoire.",
+      "url": null,
+      "category": "culture",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.2,
+      "last_update": "2026-09-23"
+    },
+    {
+      "id": "dt-7c51c89c3e",
+      "series_id": "dt-ee23c5186c",
+      "title": "Fête de la science : Exposition Bivouac des Sciences",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "location": "4 Pl. de la République",
+      "city": "Étel",
+      "description": "Exposition « Bivouac des Sciences, aventure et océan » à la médiathèque (du 1er au 12 octobre), pour naviguer au rythme des découvertes des marins-reporters. Escale du Passe-Partout",
+      "url": null,
+      "category": "culture",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-09-23"
+    },
+    {
       "id": "dt-7a93e990e4",
       "series_id": "dt-01656b3159",
       "title": "Marché hebdomadaire à Crac'h",
@@ -1513,6 +1477,24 @@
       "last_update": "2026-08-13"
     },
     {
+      "id": "dt-71ec1aa775",
+      "series_id": "dt-0aa8aab6cb",
+      "title": "Biblis en folie : braderie de la médiathèque ludothèque",
+      "start": "2026-10-03T10:00",
+      "end": "2026-10-03T13:00",
+      "location": "Espace culturel Terraqué",
+      "city": "Carnac",
+      "description": "À l’occasion de la 3e journée nationale dédiée aux bibliothèques, la médiathèque organise une grande braderie. Chaque année, après une opération appelée « désherbage », toutes sortes de documents en bon état doivent quitter les rayonnages pour laisser la place aux nouveautés.",
+      "url": "https://mediatheques-terre-atlantique.fr/",
+      "category": "marche",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.1,
+      "last_update": "2026-09-23"
+    },
+    {
       "id": "dt-e9427b2636",
       "series_id": "dt-79c7817d3e",
       "title": "Picto Néo !",
@@ -1529,6 +1511,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-22"
+    },
+    {
+      "id": "dt-81c6f7e1c8",
+      "series_id": "dt-0aa8aab6cb",
+      "title": "Biblis en folie : braderie de la médiathèque ludothèque",
+      "start": "2026-10-03T14:00",
+      "end": "2026-10-03T17:00",
+      "location": "Espace culturel Terraqué",
+      "city": "Carnac",
+      "description": "À l’occasion de la 3e journée nationale dédiée aux bibliothèques, la médiathèque organise une grande braderie. Chaque année, après une opération appelée « désherbage », toutes sortes de documents en bon état doivent quitter les rayonnages pour laisser la place aux nouveautés.",
+      "url": "https://mediatheques-terre-atlantique.fr/",
+      "category": "marche",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.1,
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-35823f6d84",
@@ -1567,6 +1567,24 @@
       "last_update": "2026-09-22"
     },
     {
+      "id": "dt-4c8342fe65",
+      "series_id": "dt-6b7b3fac49",
+      "title": "Cinéma : La barre d'Etel 1958",
+      "start": "2026-10-03T15:30",
+      "end": null,
+      "location": "Cinéma La Rivière",
+      "city": "Étel",
+      "description": "Le film relate l’expérience dramatique du Docteur Alain Bombard, célèbre pour ses traversées de l’atlantique comme naufragé volontaire. Ce jour-là, Bombard souhaite tester l’efficacité et la fiabilité d’un nouveau type de canot pneumatique de survie (de type Bombard) en…",
+      "url": null,
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-09-23"
+    },
+    {
       "id": "dt-b4d47c882f",
       "series_id": "dt-bc785e088f",
       "title": "Le chantier des collections",
@@ -1583,6 +1601,60 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-21"
+    },
+    {
+      "id": "dt-96708701d7",
+      "series_id": "dt-d0a23668b7",
+      "title": "Concert au Restaurant du Casino Circus",
+      "start": "2026-10-03T19:00",
+      "end": "2026-10-03T23:59",
+      "location": "41 avenue des Salines",
+      "city": "Carnac",
+      "description": "Venez profiter d’une soirée musicale exceptionnelle au restaurant du Casino. Dans une ambiance conviviale et chaleureuse, laissez-vous emporter par des morceaux choisis pour ravir tous les amateurs de musique.",
+      "url": null,
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 3.9,
+      "last_update": "2026-09-23"
+    },
+    {
+      "id": "dt-d3b59be290",
+      "series_id": "dt-d2f84d2005",
+      "title": "Roméo et Juliette, de Shakespeare",
+      "start": "2026-10-03T20:30",
+      "end": "2026-10-03T22:00",
+      "location": "rue du Lenno",
+      "city": "Ploemel",
+      "description": "La comédie dramatique « Roméo et Juliette », interprétée par la compagnie Clairs-Obscurs, mise en scène par Claire Giacometti. Dans cette histoire, on retrouve les familles Capulet et Montaigu qui se vouent une haine ancestrale.",
+      "url": null,
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 8.2,
+      "last_update": "2026-09-23"
+    },
+    {
+      "id": "dt-80fb0b764b",
+      "series_id": "dt-fea937d792",
+      "title": "Fête de la Science : Exposition",
+      "start": "2026-10-04",
+      "end": "2026-10-10",
+      "location": "Salle des fêtes -",
+      "city": "Étel",
+      "description": "La fête de la science à Etel montre les dessous de la ria : Un film : Sepia, l'odysée d'une seiche, des conférences, sur le climat, sur les mégalithes immergés...",
+      "url": "https://www.cinemalariviere.org/",
+      "category": "culture",
+      "priority": 1,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-3f3ef9df3e",
@@ -1729,6 +1801,24 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-75d36ba985",
+      "series_id": "dt-f51dc51853",
+      "title": "Objectif Plume au Paradis : Fabrice Amedeo",
+      "start": "2026-10-04T15:00",
+      "end": null,
+      "location": "Cinéma Le Paradis",
+      "city": "Quiberon",
+      "description": "Le cinéma Le Paradis accueille Fabrice Amedeo, journaliste et navigateur, pour un temps d’échange avec le public autour de son parcours et de son ouvrage La Mer de Dieu. Une librairie éphémère sera proposée à cette occasion.",
+      "url": null,
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.7,
+      "last_update": "2026-09-23"
+    },
+    {
       "id": "dt-e43988aae5",
       "series_id": "dt-bc785e088f",
       "title": "Le chantier des collections",
@@ -1871,6 +1961,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 4.1,
       "last_update": "2026-09-22"
+    },
+    {
+      "id": "dt-0c6f645b09",
+      "series_id": "dt-c256bce921",
+      "title": "Film documentaire : Sepia, l'odyssée d'une seiche",
+      "start": "2026-10-07T20:30",
+      "end": null,
+      "location": "Cinéma La Rivière",
+      "city": "Étel",
+      "description": "A l'occasion de la Fête de la science du 4 au 10 octobre, venez découvrir les Dessous de la Ria. Dans les eaux changeantes de l'Atlantique et de la Manche, la seiche commune (Sepia officinalis) mène une existence aussi brève qu'intense.",
+      "url": null,
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-2ef566cf2d",
@@ -2017,6 +2125,24 @@
       "last_update": "2026-04-30"
     },
     {
+      "id": "dt-d96e6add9e",
+      "series_id": "dt-ebf7caf90a",
+      "title": "Soirée jeux de société",
+      "start": "2026-10-09T20:00",
+      "end": "2026-10-09T22:00",
+      "location": "Médiathèque Terraqué",
+      "city": "Carnac",
+      "description": "Public: ado, adulte, sénior pour partager un moment ludique et convivial ! Gratuit – en accès libre",
+      "url": "https://mediatheques-terre-atlantique.fr/node/content/nid/545463",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.1,
+      "last_update": "2026-09-23"
+    },
+    {
       "id": "dt-160900a90c",
       "series_id": "dt-cea5f6fa30",
       "title": "Tournoi de poker",
@@ -2024,7 +2150,7 @@
       "end": null,
       "location": "41 Avenue des salines",
       "city": "Carnac",
-      "description": "Le Casino Circus de Carnac vous propose un tournoi de poker. Les jeux d’argent et de hasard peuvent être dangereux : Pertes d’argent, conflits familiaux, addiction… retrouvez nos conseils sur joueurs-info-service.fr (09 74 75 13 13 – appel non surtaxé)",
+      "description": "Le Casino Circus de Carnac vous propose un tournoi de poker. Réservation par téléphone au 02 97 52 64 64. Les jeux d’argent et de hasard peuvent être dangereux : Pertes d’argent, conflits familiaux, addiction… retrouvez nos conseils sur joueurs-info-service.fr (09 74 75 13 13 –…",
       "url": "https://www.circuscasino.fr/fr/casinos/carnac/",
       "category": "plein_air",
       "priority": 2,
@@ -2032,7 +2158,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-3e9ef4df93",
@@ -2051,6 +2177,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
       "last_update": "2026-09-04"
+    },
+    {
+      "id": "dt-7dbcd8342e",
+      "series_id": "dt-27c6f69338",
+      "title": "Conférence : Les mégalithes immergés de la Ria",
+      "start": "2026-10-09T20:30",
+      "end": null,
+      "location": "Cinéma La Rivière",
+      "city": "Étel",
+      "description": "\"Au début du néolithique, soit environ 7000 ans avant notre époque, le niveau des océans était de 8 à 10 mètres sous le niveau des plus hautes mers actuelles.",
+      "url": "https://www.cinemalariviere.org/events/80197-les-megalithes-immerges-de-la-ria/",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-b8804371e1",
@@ -2107,6 +2251,24 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-af2fc05f3f",
+      "series_id": "dt-a39695f4b5",
+      "title": "Fête de la Science",
+      "start": "2026-10-10T10:00",
+      "end": null,
+      "location": "Salle des fêtes -",
+      "city": "Étel",
+      "description": "10h : Découverte de la faune marine du port d'Etel par l'Association Graine d'océan 11h00 : Science et biodiversité en Ria d'Etel - Conférence par Pierre Sauleau (chercheur et enseignant à l'UBS) 15h30 : Architectures sentinelles - rencontre et atelier par un artiste Designer…",
+      "url": "https://www.cinemalariviere.org/",
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-09-23"
+    },
+    {
       "id": "dt-3d2e7135b0",
       "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
@@ -2123,6 +2285,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 4.0,
       "last_update": "2026-08-13"
+    },
+    {
+      "id": "dt-b075c3b18c",
+      "series_id": "dt-71ff6d2332",
+      "title": "Rencontre musicale",
+      "start": "2026-10-10T10:30",
+      "end": "2026-10-10T11:30",
+      "location": "Espace culturel Terraqué",
+      "city": "Carnac",
+      "description": "Découverte et initiation au didgeridoo Venez à la rencontre de Karl, musicien et conteur. Il vous fera découvrir l'histoire de cet instrument aborigène et vous initiera à sa technique. Réservation conseillée avant le samedi 10 octobre Tout public",
+      "url": null,
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.1,
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-9ea0c943ee",
@@ -2168,7 +2348,7 @@
       "end": null,
       "location": "41 Avenue des salines",
       "city": "Carnac",
-      "description": "Le Casino Circus de Carnac vous propose un tournoi de poker. Les jeux d’argent et de hasard peuvent être dangereux : Pertes d’argent, conflits familiaux, addiction… retrouvez nos conseils sur joueurs-info-service.fr (09 74 75 13 13 – appel non surtaxé)",
+      "description": "Le Casino Circus de Carnac vous propose un tournoi de poker. Réservation par téléphone au 02 97 52 64 64. Les jeux d’argent et de hasard peuvent être dangereux : Pertes d’argent, conflits familiaux, addiction… retrouvez nos conseils sur joueurs-info-service.fr (09 74 75 13 13 –…",
       "url": "https://www.circuscasino.fr/fr/casinos/carnac/",
       "category": "plein_air",
       "priority": 2,
@@ -2176,7 +2356,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-560e1b6b2f",
@@ -2240,7 +2420,7 @@
       "end": null,
       "location": "41 Avenue des salines",
       "city": "Carnac",
-      "description": "Le Casino Circus de Carnac vous propose un tournoi de poker. Les jeux d’argent et de hasard peuvent être dangereux : Pertes d’argent, conflits familiaux, addiction… retrouvez nos conseils sur joueurs-info-service.fr (09 74 75 13 13 – appel non surtaxé)",
+      "description": "Le Casino Circus de Carnac vous propose un tournoi de poker. Réservation par téléphone au 02 97 52 64 64. Les jeux d’argent et de hasard peuvent être dangereux : Pertes d’argent, conflits familiaux, addiction… retrouvez nos conseils sur joueurs-info-service.fr (09 74 75 13 13 –…",
       "url": "https://www.circuscasino.fr/fr/casinos/carnac/",
       "category": "plein_air",
       "priority": 2,
@@ -2248,7 +2428,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-9ffc2c6772",
@@ -2258,7 +2438,7 @@
       "end": null,
       "location": "41 Avenue des salines",
       "city": "Carnac",
-      "description": "Le Casino Circus de Carnac vous propose un tournoi de poker. Les jeux d’argent et de hasard peuvent être dangereux : Pertes d’argent, conflits familiaux, addiction… retrouvez nos conseils sur joueurs-info-service.fr (09 74 75 13 13 – appel non surtaxé)",
+      "description": "Le Casino Circus de Carnac vous propose un tournoi de poker. Réservation par téléphone au 02 97 52 64 64. Les jeux d’argent et de hasard peuvent être dangereux : Pertes d’argent, conflits familiaux, addiction… retrouvez nos conseils sur joueurs-info-service.fr (09 74 75 13 13 –…",
       "url": "https://www.circuscasino.fr/fr/casinos/carnac/",
       "category": "plein_air",
       "priority": 2,
@@ -2266,7 +2446,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-c9f64b159c",
@@ -2366,7 +2546,7 @@
       "end": null,
       "location": "41 Avenue des salines",
       "city": "Carnac",
-      "description": "Le Casino Circus de Carnac vous propose un tournoi de poker. Les jeux d’argent et de hasard peuvent être dangereux : Pertes d’argent, conflits familiaux, addiction… retrouvez nos conseils sur joueurs-info-service.fr (09 74 75 13 13 – appel non surtaxé)",
+      "description": "Le Casino Circus de Carnac vous propose un tournoi de poker. Réservation par téléphone au 02 97 52 64 64. Les jeux d’argent et de hasard peuvent être dangereux : Pertes d’argent, conflits familiaux, addiction… retrouvez nos conseils sur joueurs-info-service.fr (09 74 75 13 13 –…",
       "url": "https://www.circuscasino.fr/fr/casinos/carnac/",
       "category": "plein_air",
       "priority": 2,
@@ -2374,7 +2554,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-4c25d29061",
@@ -2438,7 +2618,7 @@
       "end": null,
       "location": "41 Avenue des salines",
       "city": "Carnac",
-      "description": "Le Casino Circus de Carnac vous propose un tournoi de poker. Les jeux d’argent et de hasard peuvent être dangereux : Pertes d’argent, conflits familiaux, addiction… retrouvez nos conseils sur joueurs-info-service.fr (09 74 75 13 13 – appel non surtaxé)",
+      "description": "Le Casino Circus de Carnac vous propose un tournoi de poker. Réservation par téléphone au 02 97 52 64 64. Les jeux d’argent et de hasard peuvent être dangereux : Pertes d’argent, conflits familiaux, addiction… retrouvez nos conseils sur joueurs-info-service.fr (09 74 75 13 13 –…",
       "url": "https://www.circuscasino.fr/fr/casinos/carnac/",
       "category": "plein_air",
       "priority": 2,
@@ -2446,7 +2626,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-7b418659dc",
@@ -2539,14 +2719,14 @@
       "last_update": "2026-09-17"
     },
     {
-      "id": "dt-122d391772",
-      "series_id": "dt-bfb7dbdc9f",
-      "title": "Conférence : Néolithique et art contemporain",
+      "id": "dt-be34a402a8",
+      "series_id": "dt-5d80641b76",
+      "title": "Conférence : Néolithique et Art Contemporain",
       "start": "2026-10-14T20:30",
-      "end": null,
-      "location": "26 Rue du Tumulus",
+      "end": "2026-10-14T22:30",
+      "location": "auditorium Terraqué",
       "city": "Carnac",
-      "description": "Conférence en partenariat avec les Amis du Musée Par Rémi Labrusse, professeur d’histoire de l’art à l’Université de Picardie ; Directeur d’études à l’EHESS Public adulte - Sans réservation",
+      "description": "Conférence par Rémi Labrusse, Ecole des Hautes Etudes en Science Sociale, organisée par les Amis du Musée de Carnac. Les inquiétudes écologiques, la remise en cause de l’idéologie du progrès conduisent aujourd’hui, de plus en plus, à envisager, à rêver ou à cauchemarder une…",
       "url": "http://www.museedecarnac.com/",
       "category": "culture",
       "priority": 2,
@@ -2554,7 +2734,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.6,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-2826d3d4cd",
@@ -2788,7 +2968,25 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-23"
+    },
+    {
+      "id": "dt-8cce819ceb",
+      "series_id": "dt-2a1de60d42",
+      "title": "Arsenic et boule de gomme : l'Abominable expo",
+      "start": "2026-10-17",
+      "end": "2026-10-31",
+      "location": "26, rue du Tumulus",
+      "city": "Carnac",
+      "description": "Une exposition fantastique Arsenic & Boule de gomme, 100 % créée à Carnac, à la médiathèque ! Cachés près des menhirs de Carnac, Carine-M et Élian Black’Mor forment un affreux duo d’illustrateurs, d’auteurs et de graphistes.",
+      "url": "https://mediatheques-terre-atlantique.fr/node/content/nid/545371",
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 3.7,
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-5d4ba5a020",
@@ -2845,6 +3043,24 @@
       "last_update": "2026-08-13"
     },
     {
+      "id": "dt-5e2e1be03d",
+      "series_id": "dt-6b1fa4a672",
+      "title": "Cercle de lecture",
+      "start": "2026-10-17T10:30",
+      "end": "2026-10-17T12:00",
+      "location": "Espace culturel Terraqué",
+      "city": "Carnac",
+      "description": "Venez partager vos expériences littéraires et de vos coups de cœur ! Durée 1h30. En accès libre et gratuit",
+      "url": "https://www.terraque.fr/animations",
+      "category": "culture",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.7,
+      "last_update": "2026-09-23"
+    },
+    {
       "id": "dt-b28c2c864b",
       "series_id": "dt-6187f9ab58",
       "title": "Rêvons la Préhistoire en poésie",
@@ -2860,7 +3076,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-55a2bd5dee",
@@ -2953,6 +3169,24 @@
       "last_update": "2026-09-21"
     },
     {
+      "id": "dt-2592e2750e",
+      "series_id": "dt-3e3d6305ed",
+      "title": "Spectacle: Entrez de secours",
+      "start": "2026-10-17T18:30",
+      "end": "2026-10-17T20:00",
+      "location": "Espace culturel Terraqué",
+      "city": "Carnac",
+      "description": "Entrez de secours, par le collectif Lataf, La Tête à la fenêtre Dans le cadre de la semaine d’information sur la santé mentale, spectacle suivi d’échanges et d’un moment convivial Entrez de Secours est un spectacle mêlant théâtre, marionnettes, objets, vidéo et musique…",
+      "url": null,
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.1,
+      "last_update": "2026-09-23"
+    },
+    {
       "id": "dt-34a1746b4f",
       "series_id": "dt-bef6d5b120",
       "title": "Les fous - aux pieds bleus 'EXTRA', performance et rencontre dansée, jouée, parlée",
@@ -2994,7 +3228,7 @@
       "title": "Festival du Livre Jeunesse",
       "start": "2026-10-18T10:00",
       "end": "2026-10-18T18:00",
-      "location": null,
+      "location": "Salle du Ménec",
       "city": "Carnac",
       "description": "5ème édition du festival du Livre Jeunesse : 25 auteurs/trices et illustrateurs/trices présents Animations gratuites toute la journée A destination des tout-petits jusqu'aux ados / adultes Tombola avec nombreux lots à gagner",
       "url": null,
@@ -3004,7 +3238,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-17"
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-8e2dfc3bc5",
@@ -3061,6 +3295,24 @@
       "last_update": "2026-09-22"
     },
     {
+      "id": "dt-47ae191649",
+      "series_id": "dt-6e20c4634a",
+      "title": "Aprèm Ti Ludique",
+      "start": "2026-10-18T14:00",
+      "end": "2026-10-18T18:00",
+      "location": "Salle Kolibri",
+      "city": "Ploemel",
+      "description": "C'est parti pour Ti Ludique Une nouvelle association de jeux de société, de jeux de rôle et d'animations culturelles débarque dans la commune. Pourquoi ?",
+      "url": "https://www.tiludique.fr/pages/evenements.html",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 8.2,
+      "last_update": "2026-09-23"
+    },
+    {
       "id": "dt-02e10d266f",
       "series_id": "dt-ceeb893b0e",
       "title": "Conférence: la voix et ses fréquences",
@@ -3077,24 +3329,6 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.6,
       "last_update": "2026-09-17"
-    },
-    {
-      "id": "dt-81b36a350b",
-      "series_id": "dt-e9e221967b",
-      "title": "Les Aprèms Ludiques !",
-      "start": "2026-10-18T14:00",
-      "end": "2026-10-18T18:00",
-      "location": "derrière la salle de sport du Groëz-Ven",
-      "city": "Ploemel",
-      "description": "Oyez, oyez ! C’est l'heure de faire chauffer les méninges, de tester vos meilleures stratégies et d'échanger quelques beaux fous rires ! Notre mission : faire vivre le jeu sous toutes ses formes : jeux de société, jeux de rôle et animations familiales.",
-      "url": "http://www.tiludique.fr/",
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.2,
-      "last_update": "2026-09-07"
     },
     {
       "id": "dt-83389ed933",
@@ -3346,7 +3580,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-09"
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-cf3b18f881",
@@ -3419,6 +3653,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-21"
+    },
+    {
+      "id": "dt-438405ee9c",
+      "series_id": "dt-bd9d9f4c0d",
+      "title": "Projection : Yohen, l’univers dans un bol",
+      "start": "2026-10-20T20:00",
+      "end": "2026-10-20T22:00",
+      "location": "Espace culturel Terraqué",
+      "city": "Carnac",
+      "description": "Yohen, l'univers dans un bol, un film de Yannick Coutheron Jean Girel, céramiste français incontournable particulièrement reconnu pour son travail inspiré par la céramique Song, décide de se lancer un nouveau défi : percer le mystère encore intact des magnifiques bols « Yohen…",
+      "url": "https://mediatheques-terre-atlantique.fr/carnac",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.1,
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-0274129e1a",
@@ -3691,24 +3943,6 @@
       "last_update": "2026-09-22"
     },
     {
-      "id": "dt-124839ed16",
-      "series_id": "dt-3bfc673c26",
-      "title": "Festival Presqu'île Breizh - 2026",
-      "start": "2026-10-23",
-      "end": "2026-10-25",
-      "location": null,
-      "city": "Quiberon",
-      "description": "Festival de musique & danses bretonnes Le Festival Presqu'île Breizh pour une nouvelle édition pleine de surprises ✨️ Une belle programmation vous attend pour cet événement incontournable de la presqu'île, à ne manquer sous aucun prétexte... On vous attend nombreux !",
-      "url": "https://www.presquilebreizh.bzh/",
-      "category": "fete",
-      "priority": 1,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.6,
-      "last_update": "2026-08-14"
-    },
-    {
       "id": "dt-a6485a3079",
       "series_id": "dt-c12b183773",
       "title": "Action culturelle – création d’un orchestre sonores",
@@ -3835,6 +4069,24 @@
       "last_update": "2026-08-13"
     },
     {
+      "id": "dt-7bd8120e12",
+      "series_id": "dt-a320b907bf",
+      "title": "Atelier jeu : Numéville",
+      "start": "2026-10-23T15:00",
+      "end": "2026-10-23T17:00",
+      "location": "Espace culturel Terraqué",
+      "city": "Carnac",
+      "description": "Vous incarnez les Éclaireurs du Numérique déterminés à libérer leur ville de l'emprise du redoutable Dark Master. Ensemble, vous devrez répondre correctement à des questions afin de propager de bonnes pratiques et ainsi ramener à la raison les complices du Dark Master.",
+      "url": "https://mediatheques-terre-atlantique.fr/carnac",
+      "category": "plein_air",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.1,
+      "last_update": "2026-09-23"
+    },
+    {
       "id": "dt-f4d138bf4e",
       "series_id": "dt-bc785e088f",
       "title": "Le chantier des collections",
@@ -3887,6 +4139,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
       "last_update": "2026-08-21"
+    },
+    {
+      "id": "dt-aa99011f82",
+      "series_id": "dt-636b693e62",
+      "title": "Concert de Sonerien Du - Festival Presqu'ile Breizh",
+      "start": "2026-10-23T20:30",
+      "end": "2026-10-23T22:30",
+      "location": "Boulevard René Cassin",
+      "city": "Quiberon",
+      "description": "Une soirée de fest-noz avec Sonerien Du pour lancer le Festival Presqu’île Breizh au rythme des musiques bretonnes. Une soirée festive et conviviale, ouverte à toutes et tous. Réservez dès à présent vos billets pour le concert du groupe Sonerien Du sur HelloAsso",
+      "url": "https://presquilebreizh.bzh/?fbclid=IwY2xjawUgomBwZG9mAWV4dG4DYWVtAjEwAHNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR7Qgd1ZK7Qk6UF_R_EJJ5X70JRBe83uswx-5LgHwqso0PISN2ibIcAAM1HJKA_aem_hOKgtqgufMKekiU4z7jw3g",
+      "category": "musique",
+      "priority": 1,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.5,
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-3f71131a3b",
@@ -4249,6 +4519,24 @@
       "last_update": "2026-09-21"
     },
     {
+      "id": "dt-f147653630",
+      "series_id": "dt-70280af582",
+      "title": "Concert Festibreizh - Festival Presqu'ile Breizh",
+      "start": "2026-10-25T20:30",
+      "end": "2026-10-25T22:30",
+      "location": "Boulevard René Cassin",
+      "city": "Quiberon",
+      "description": "Une soirée de concert pour célébrer le Festival Presqu’île Breizh, avec en plus un billet de tombola offert pour chaque entrée réservée. Réservez dès à présent vos billets pour le concert sur HelloAsso",
+      "url": "https://presquilebreizh.bzh/?fbclid=IwY2xjawUgomBwZG9mAWV4dG4DYWVtAjEwAHNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR7Qgd1ZK7Qk6UF_R_EJJ5X70JRBe83uswx-5LgHwqso0PISN2ibIcAAM1HJKA_aem_hOKgtqgufMKekiU4z7jw3g",
+      "category": "musique",
+      "priority": 1,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.5,
+      "last_update": "2026-09-23"
+    },
+    {
       "id": "dt-049d537232",
       "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
@@ -4411,6 +4699,24 @@
       "last_update": "2026-08-28"
     },
     {
+      "id": "dt-435a691c92",
+      "series_id": "dt-db586b3117",
+      "title": "Réalité Virtuelle coopérative",
+      "start": "2026-10-27T14:30",
+      "end": "2026-10-27T17:30",
+      "location": "Médiathèque Terraqué",
+      "city": "Carnac",
+      "description": "Réalité Virtuelle coopérative Sur écran géant, découvrez un jeu VR narratif et décidez ensemble de la suite du jeu. Gratuit – en accès libre – à partir de 10 ans",
+      "url": "https://mediatheques-terre-atlantique.fr/evenements",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.7,
+      "last_update": "2026-09-23"
+    },
+    {
       "id": "dt-ff9858f0fa",
       "series_id": "dt-2193289823",
       "title": "Visite flash \"Les bretons face aux géants de pierre\"",
@@ -4499,6 +4805,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 4.0,
       "last_update": "2026-08-13"
+    },
+    {
+      "id": "dt-38c3ebc9ba",
+      "series_id": "dt-f05f993232",
+      "title": "Une journée avec David Balade: atelier et conférence",
+      "start": "2026-10-28T10:30",
+      "end": "2026-10-28T12:30",
+      "location": "Médiathèque Terraqué",
+      "city": "Carnac",
+      "description": "David Balade est artiste, auteur et illustrateur, expert du monde celtique. Il est l’un des spécialistes français du graphisme et de la symbolique celte. Il nous propose de partager ses connaissances avec lui lors de deux rendez-vous : un atelier créatif et une conférence.",
+      "url": null,
+      "category": "culture",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 3.7,
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-b4dabed98d",
@@ -4663,6 +4987,24 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-c561f97d21",
+      "series_id": "dt-f05f993232",
+      "title": "Une journée avec David Balade: atelier et conférence",
+      "start": "2026-10-28T18:30",
+      "end": "2026-10-28T20:00",
+      "location": "Médiathèque Terraqué",
+      "city": "Carnac",
+      "description": "David Balade est artiste, auteur et illustrateur, expert du monde celtique. Il est l’un des spécialistes français du graphisme et de la symbolique celte. Il nous propose de partager ses connaissances avec lui lors de deux rendez-vous : un atelier créatif et une conférence.",
+      "url": null,
+      "category": "culture",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 3.7,
+      "last_update": "2026-09-23"
+    },
+    {
       "id": "dt-06c91a86df",
       "series_id": "dt-01656b3159",
       "title": "Marché hebdomadaire à Crac'h",
@@ -4807,6 +5149,24 @@
       "last_update": "2026-09-21"
     },
     {
+      "id": "dt-ed29bbb65d",
+      "series_id": "dt-cefbdceb41",
+      "title": "Karting de nuit",
+      "start": "2026-10-29T18:00",
+      "end": "2026-10-29T20:00",
+      "location": "Kart 56",
+      "city": "Ploemel",
+      "description": "Le concept : à la tombée de la nuit, profitez d’une ambiance exceptionnelle pour enchaîner les tours de piste sous les éclairages du circuit de Kart 56. Une occasion idéale de découvrir de nouvelles sensations de pilotage dans des conditions inédites.",
+      "url": "https://www.kart56.com/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 9.6,
+      "last_update": "2026-09-23"
+    },
+    {
       "id": "dt-6d8a26d2dd",
       "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
@@ -4841,6 +5201,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-22"
+    },
+    {
+      "id": "dt-1b139b1af3",
+      "series_id": "dt-87ef9d48ca",
+      "title": "Projection petit frisson",
+      "start": "2026-10-30T10:00",
+      "end": "2026-10-30T11:30",
+      "location": "Médiathèque Terraqué",
+      "city": "Carnac",
+      "description": "Projection petit frisson Dans le cadre de nos séances petit frisson, la médiathèque vous propose un film d’animation destiné aux enfants dès l'âge de 8 ans. Le nom du film sera révélé à l’accueil de la médiathèque. Durée 1h30 Gratuit – réservation conseillée",
+      "url": "https://mediatheques-terre-atlantique.fr/node/content/nid/545397",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 3.7,
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-b061b74f6a",
@@ -5185,22 +5563,22 @@
       "last_update": "2026-09-07"
     },
     {
-      "id": "dt-a209a48737",
-      "series_id": "dt-e9e221967b",
-      "title": "Les Aprèms Ludiques !",
+      "id": "dt-564ca0646d",
+      "series_id": "dt-6e20c4634a",
+      "title": "Aprèm Ti Ludique",
       "start": "2026-11-01T14:00",
       "end": "2026-11-01T18:00",
-      "location": "derrière la salle de sport du Groëz-Ven",
+      "location": "Salle Kolibri",
       "city": "Ploemel",
-      "description": "Oyez, oyez ! C’est l'heure de faire chauffer les méninges, de tester vos meilleures stratégies et d'échanger quelques beaux fous rires ! Notre mission : faire vivre le jeu sous toutes ses formes : jeux de société, jeux de rôle et animations familiales.",
-      "url": "http://www.tiludique.fr/",
+      "description": "C'est parti pour Ti Ludique Une nouvelle association de jeux de société, de jeux de rôle et d'animations culturelles débarque dans la commune. Pourquoi ?",
+      "url": "https://www.tiludique.fr/pages/evenements.html",
       "category": "plein_air",
       "priority": 2,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.2,
-      "last_update": "2026-09-07"
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-c87304811b",
@@ -5563,6 +5941,24 @@
       "last_update": "2026-09-03"
     },
     {
+      "id": "dt-face0d72ee",
+      "series_id": "dt-8fe8791ced",
+      "title": "Exposition: Quelques racines affleurent",
+      "start": "2026-11-10",
+      "end": "2026-12-05",
+      "location": "Médiathèque Terraqué",
+      "city": "Carnac",
+      "description": "Le titre de l’exposition, « Quelques racines affleurent », évoque ces éléments qui se situent juste en dessous de la surface, dont on n’aperçoit qu’une trace.",
+      "url": "https://mediatheques-terre-atlantique.fr/node/content/nid/545407",
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 3.7,
+      "last_update": "2026-09-23"
+    },
+    {
       "id": "dt-46f8037442",
       "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
@@ -5671,6 +6067,24 @@
       "last_update": "2026-04-30"
     },
     {
+      "id": "dt-3dfd044b5b",
+      "series_id": "dt-ebf7caf90a",
+      "title": "Soirée jeux de société",
+      "start": "2026-11-13T20:00",
+      "end": "2026-11-13T22:00",
+      "location": "Médiathèque Terraqué",
+      "city": "Carnac",
+      "description": "Public: ado, adulte, sénior pour partager un moment ludique et convivial ! Gratuit – en accès libre",
+      "url": "https://mediatheques-terre-atlantique.fr/node/content/nid/545463",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.1,
+      "last_update": "2026-09-23"
+    },
+    {
       "id": "dt-41387760e2",
       "series_id": "dt-fd5b2ac21d",
       "title": "Marché hebdomadaire de Quiberon",
@@ -5687,6 +6101,24 @@
       "source_name": "ADT 56",
       "distance_km": 13.4,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-4d41cfb227",
+      "series_id": "dt-5786a34f76",
+      "title": "Réexplorée, dans le cadre de l'exposition \"quelques racines affleurent\"",
+      "start": "2026-11-14T14:30",
+      "end": "2026-11-14T16:30",
+      "location": "Médiathèque Terraqué",
+      "city": "Carnac",
+      "description": "Atelier : Réexplorée Yaëlle Hivert-Paulet vous propose de dresser, à plusieurs, un portrait sensible de la médiathèque. Sur cette carte réalisée à plusieurs mains s’entremêleront les mots, les images et les couleurs qui représentent le lieu.",
+      "url": "https://mediatheques-terre-atlantique.fr/node/content/nid/545407",
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 3.7,
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-84a912e9a6",
@@ -5725,22 +6157,22 @@
       "last_update": "2026-09-17"
     },
     {
-      "id": "dt-8e1284510b",
-      "series_id": "dt-e9e221967b",
-      "title": "Les Aprèms Ludiques !",
+      "id": "dt-27c9714a06",
+      "series_id": "dt-6e20c4634a",
+      "title": "Aprèm Ti Ludique",
       "start": "2026-11-15T14:00",
       "end": "2026-11-15T18:00",
-      "location": "derrière la salle de sport du Groëz-Ven",
+      "location": "Salle Kolibri",
       "city": "Ploemel",
-      "description": "Oyez, oyez ! C’est l'heure de faire chauffer les méninges, de tester vos meilleures stratégies et d'échanger quelques beaux fous rires ! Notre mission : faire vivre le jeu sous toutes ses formes : jeux de société, jeux de rôle et animations familiales.",
-      "url": "http://www.tiludique.fr/",
+      "description": "C'est parti pour Ti Ludique Une nouvelle association de jeux de société, de jeux de rôle et d'animations culturelles débarque dans la commune. Pourquoi ?",
+      "url": "https://www.tiludique.fr/pages/evenements.html",
       "category": "plein_air",
       "priority": 2,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.2,
-      "last_update": "2026-09-07"
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-1b96b7f694",
@@ -5923,6 +6355,24 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-71f2027fdd",
+      "series_id": "dt-6b1fa4a672",
+      "title": "Cercle de lecture",
+      "start": "2026-11-21T10:30",
+      "end": "2026-11-21T12:00",
+      "location": "Espace culturel Terraqué",
+      "city": "Carnac",
+      "description": "Venez partager vos expériences littéraires et de vos coups de cœur ! Durée 1h30. En accès libre et gratuit",
+      "url": "https://www.terraque.fr/animations",
+      "category": "culture",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.7,
+      "last_update": "2026-09-23"
+    },
+    {
       "id": "dt-c15dff35f7",
       "series_id": "dt-2479c0ae44",
       "title": "Chevaleresses",
@@ -6065,6 +6515,24 @@
       "source_name": "ADT 56",
       "distance_km": 0.6,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-5e8635acbf",
+      "series_id": "dt-db586b3117",
+      "title": "Réalité Virtuelle coopérative",
+      "start": "2026-12-02T14:30",
+      "end": "2026-12-02T17:30",
+      "location": "Médiathèque Terraqué",
+      "city": "Carnac",
+      "description": "Réalité Virtuelle coopérative Sur écran géant, découvrez un jeu VR narratif et décidez ensemble de la suite du jeu. Gratuit – en accès libre – à partir de 10 ans",
+      "url": "https://mediatheques-terre-atlantique.fr/evenements",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.7,
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-f787ff15a8",
@@ -6281,6 +6749,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.5,
       "last_update": "2026-09-17"
+    },
+    {
+      "id": "dt-2263c9774f",
+      "series_id": "dt-35a6551644",
+      "title": "Exposition: Des plis et des livres de Marie Reneaud",
+      "start": "2026-12-08",
+      "end": "2026-12-19",
+      "location": "Médiathèque Terraqué",
+      "city": "Carnac",
+      "description": "Issue des Arts Décoratifs de Nice, les livres dans les mains de Marie Reneaud deviennent des objets en 3 dimensions. Ces architectures de papier sont une autre lecture que nous vous proposons de découvrir à travers cette exposition.",
+      "url": "https://mediatheques-terre-atlantique.fr/carnac?&page=3&nidPagination=544026&nidPagi=544026",
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 3.7,
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-999a0c038b",
@@ -6533,6 +7019,24 @@
       "source_name": "ADT 56",
       "distance_km": 13.4,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-b130c18b21",
+      "series_id": "dt-5715eebaf0",
+      "title": "Spectacle de Noël",
+      "start": "2026-12-19T11:00",
+      "end": "2026-12-19T12:00",
+      "location": "Médiathèque Terraqué",
+      "city": "Carnac",
+      "description": "Mimo et Tuf, la chasse au Père-Noël Le Père-Noël a disparu ! C'est du moins ce que croient Mimo et Tuf, qui s'improvisent agents secrets et partent à la recherche du gros bonhomme au bonnet rouge.",
+      "url": "https://mediatheques-terre-atlantique.fr/carnac?&page=3&nidPagination=544026&nidPagi=544026",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 3.7,
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-fdc41dfb75",
@@ -7090,7 +7594,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.5,
-      "last_update": "2026-09-17"
+      "last_update": "2026-09-23"
     },
     {
       "id": "dt-e4a3c2f0af",
