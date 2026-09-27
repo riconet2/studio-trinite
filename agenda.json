@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-26T09:23:41Z",
-  "data_updated_at": "2026-09-24",
+  "generated_at": "2026-09-27T10:02:52Z",
+  "data_updated_at": "2026-09-25",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -10,10 +10,10 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 456,
+    "total": 474,
     "by_proximity": {
-      "near": 391,
-      "immediate": 63,
+      "near": 403,
+      "immediate": 69,
       "daytrip": 2
     }
   },
@@ -325,24 +325,6 @@
       "last_update": "2026-07-30"
     },
     {
-      "id": "dt-d1c558b085",
-      "series_id": "dt-d2f4678690",
-      "title": "Visite découverte dans les Alignements",
-      "start": "2026-08-21T15:00",
-      "end": "2026-09-30T16:00",
-      "location": "Maison des Mégalithes",
-      "city": "Carnac",
-      "description": "En famille ou entre amis, venez découvrir l’histoire des Alignements de Carnac accompagnés d’un guide. Partez à la rencontre de ces hommes et de ces femmes qui ont façonné le paysage il y a 6500 ans et imaginé des constructions, qui aujourd’hui encore fascinent et interrogent.",
-      "url": "http://www.menhirs-carnac.fr/",
-      "category": "patrimoine",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.1,
-      "last_update": "2026-09-24"
-    },
-    {
       "id": "dt-556799faae",
       "series_id": "dt-80e39dcfc9",
       "title": "Visite de La Maison d'Armorine",
@@ -395,24 +377,6 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 12.8,
       "last_update": "2026-09-02"
-    },
-    {
-      "id": "dt-3843308ac9",
-      "series_id": "dt-328c09efab",
-      "title": "Exposition « 1795 : L’Affaire de Quiberon »",
-      "start": "2026-09-02",
-      "end": "2026-09-26",
-      "location": "Médiathèque de Quiberon",
-      "city": "Quiberon",
-      "description": "La médiathèque de Quiberon accueille une exposition proposée par l’association KER1856 autour de « L’Affaire de Quiberon ». Cette exposition retrace la chronologie de cet épisode historique qui aurait pu changer le cours de l’histoire de France.",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.2,
-      "last_update": "2026-08-26"
     },
     {
       "id": "dt-aff962900d",
@@ -469,6 +433,24 @@
       "last_update": "2026-08-11"
     },
     {
+      "id": "dt-4c93b2187f",
+      "series_id": "dt-d2f4678690",
+      "title": "Visite découverte dans les Alignements",
+      "start": "2026-09-20T15:00",
+      "end": "2026-10-18",
+      "location": "Maison des Mégalithes",
+      "city": "Carnac",
+      "description": "En famille ou entre amis, venez découvrir l’histoire des Alignements de Carnac accompagnés d’un guide. Partez à la rencontre de ces hommes et de ces femmes qui ont façonné le paysage il y a 6500 ans et imaginé des constructions, qui aujourd’hui encore fascinent et interrogent.",
+      "url": "http://www.menhirs-carnac.fr/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.1,
+      "last_update": "2026-09-25"
+    },
+    {
       "id": "dt-25dfd8dea1",
       "series_id": "dt-34afd6df25",
       "title": "Exposition : le développement durable pour les enfants",
@@ -484,7 +466,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-07"
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-36ee0b870e",
@@ -539,204 +521,6 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 10.0,
       "last_update": "2026-09-17"
-    },
-    {
-      "id": "dt-4102db23e1",
-      "series_id": "dt-fd5b2ac21d",
-      "title": "Marché hebdomadaire de Quiberon",
-      "start": "2026-09-26T08:00",
-      "end": "2026-09-26T13:00",
-      "location": "Place du Varquez",
-      "city": "Quiberon",
-      "description": "Tous les samedis, toute l'année de 8h à 13h. Marché alimentaire.",
-      "url": "http://www.ville-quiberon.fr/",
-      "category": "marche",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 13.4,
-      "last_update": "2026-01-05"
-    },
-    {
-      "id": "dt-bf6c21c68e",
-      "series_id": "dt-e06e68ef84",
-      "title": "Séance photo découverte",
-      "start": "2026-09-26T08:00",
-      "end": null,
-      "location": "lieu communiqué à la réservation",
-      "city": "Carnac",
-      "description": "Mini-séance photo \"aquatique\" au coucher du soleil Faites l'expérience d'une mise en lumière naturelle, sensible et immersive, sur la plage ou dans l’eau, à la lumière douce du coucher de soleil.",
-      "url": null,
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.1,
-      "last_update": "2026-09-17"
-    },
-    {
-      "id": "dt-b0d5146038",
-      "series_id": "dt-069bc63c39",
-      "title": "Venez observer les oiseaux hivernants d’Erdeven",
-      "start": "2026-09-26T09:00",
-      "end": "2026-09-26T10:30",
-      "location": "Lieu communiqué à l'inscription",
-      "city": "Erdeven",
-      "description": "Ouvrez grand les yeux ! À l’automne et en hiver, les plages d’Erdeven accueillent de nombreux oiseaux venus du Nord. Sternes, goélands, bécasseaux, gravelots, pluviers… Que viennent-ils chercher sur nos plages ? D’où arrivent-ils ? Et comment se nourrissent ils ?",
-      "url": "https://gavres-quiberon.fr/",
-      "category": "patrimoine",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 11.4,
-      "last_update": "2026-09-12"
-    },
-    {
-      "id": "dt-0075bbb976",
-      "series_id": "dt-72147faf7b",
-      "title": "Enquête : Code Néolithique",
-      "start": "2026-09-26T09:30",
-      "end": "2026-09-26T17:30",
-      "location": "Musée de Préhistoire",
-      "city": "Carnac",
-      "description": "Soyez attentifs aux moindres détails, réfléchissez en famille et résolvez l’enquête ! Cap ou pas cap de trouver les objets ? Relevez le défi ! Livret disponible sur demande à l’accueil Animation en autonomie sans réservation. Durée 30 min. Prix d'entrée du musée",
-      "url": "http://www.museedecarnac.com/",
-      "category": "patrimoine",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 3.8,
-      "last_update": "2026-08-25"
-    },
-    {
-      "id": "dt-ea92425af8",
-      "series_id": "dt-fa57efa204",
-      "title": "Terra Initia - Exposition TR'ÂMES",
-      "start": "2026-09-26T10:00",
-      "end": "2026-09-26T12:30",
-      "location": "Galerie Terra Initia",
-      "city": "Carnac",
-      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.0,
-      "last_update": "2026-08-13"
-    },
-    {
-      "id": "dt-965363db54",
-      "series_id": "dt-2250687aca",
-      "title": "Braderie aux livres",
-      "start": "2026-09-26T10:00",
-      "end": "2026-09-26T16:00",
-      "location": "Médiathèque -",
-      "city": "Étel",
-      "description": "Le samedi 26 septembre, la médiathèque d'Etel propose à la vente de nombreux documents retirés des collections. A cette occasion, venez découvrir les jeux en bois géants qui animeront ce moment ! 1€ le livre Renseignements au 02 97 55 32 30 ou mediatheque@mairie-etel.fr",
-      "url": null,
-      "category": "marche",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.2,
-      "last_update": "2026-09-07"
-    },
-    {
-      "id": "dt-d0c5f9640b",
-      "series_id": "dt-35ff0aaf95",
-      "title": "Découverte de l'estran et initiation à la pêche à pied",
-      "start": "2026-09-26T10:30",
-      "end": "2026-09-26T12:30",
-      "location": "Lieu communiqué à la réservation",
-      "city": "Carnac",
-      "description": "Découvrir l'estran tout en le respectant. S’initier à la pêche à pied durable. S’ÉMERVEILLER des PETITS TRÉSORS NATURELS à MARÉE BASSE. Des anecdotes sur les animaux et les algues, la vie sur l'estran.",
-      "url": "https://www.billetweb.fr/decouverte-de-lestran-et-initiation-a-la-peche-a-pied",
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.1,
-      "last_update": "2026-09-02"
-    },
-    {
-      "id": "dt-341de77a58",
-      "series_id": "dt-7428b73b4e",
-      "title": "Concours de pétanque",
-      "start": "2026-09-26T13:00",
-      "end": null,
-      "location": "Rue Ker Bourus",
-      "city": "Auray",
-      "description": "Concours en doublette Ouvert à tous Inscription sur place Tirage du bouchon à 14h Venez nombreux passer un bon moment ! Vente de boissons fraîches sur place",
-      "url": null,
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.1,
-      "last_update": "2026-07-24"
-    },
-    {
-      "id": "dt-467f9a4098",
-      "series_id": "dt-6db3868710",
-      "title": "Alré' Rose",
-      "start": "2026-09-26T14:00",
-      "end": null,
-      "location": "Centre Aquatique Alré'O",
-      "city": "Auray",
-      "description": "Le centre aquatique Alre’O accueille la 2e édition de l’Alre’Rose, un rendez-vous sportif et solidaire organisé par Auray Quiberon Terre Atlantique. Nage, aquasport, marche ou course : chacun pourra participer selon ses envies et ses capacités, sans chronomètre.",
-      "url": "https://www.alreo.fr/actualites/2e-edition-dalrerose-un-defi-sportif-et-solidaire-accessible-a-tous/",
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.5,
-      "last_update": "2026-09-16"
-    },
-    {
-      "id": "dt-5e96939800",
-      "series_id": "dt-4701c5eadc",
-      "title": "Ouverture de saison 26 - 27 à Auray",
-      "start": "2026-09-26T15:30",
-      "end": null,
-      "location": "𝗣𝗮𝗿𝗰𝗼 𝗣𝗼𝗶𝗻𝘁𝗲 - Oasis",
-      "city": "Auray",
-      "description": "​Pour lancer la saison culturelle, la Ville d’Auray vous donne rendez‑vous à l’Oasis du Parco Pointer pour un après‑midi festif, gratuit et ouvert à toutes et tous. Un moment simple et joyeux pour se retrouver et partager le plaisir du spectacle vivant.",
-      "url": "https://www.auray.fr/ouverture-de-saison-26-27-auray",
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6,
-      "last_update": "2026-09-17"
-    },
-    {
-      "id": "dt-352bdac0db",
-      "series_id": "dt-d0a23668b7",
-      "title": "Concert au Restaurant du Casino Circus",
-      "start": "2026-09-26T19:00",
-      "end": "2026-09-26T23:59",
-      "location": "41 avenue des Salines",
-      "city": "Carnac",
-      "description": "Venez profiter d’une soirée musicale exceptionnelle au restaurant du Casino. Dans une ambiance conviviale et chaleureuse, laissez-vous emporter par des morceaux choisis pour ravir tous les amateurs de musique.",
-      "url": null,
-      "category": "musique",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 3.9,
-      "last_update": "2026-09-24"
     },
     {
       "id": "dt-7a24ce219f",
@@ -917,6 +701,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 10.0,
       "last_update": "2026-09-07"
+    },
+    {
+      "id": "dt-2f9c6bd3c9",
+      "series_id": "dt-1c848b6dca",
+      "title": "Séance de Bungypump",
+      "start": "2026-09-28T14:30",
+      "end": "2026-09-28T16:00",
+      "location": null,
+      "city": "Ploemel",
+      "description": "Marche dynamique sport-santé avec bâtons adaptés ponctuée d'exercice de renforcement musculaire, d'équilibre, de proprioception, et de coordination proposé par l'association Balawen 10€ la séance découverte - groupe limité à 9 personnes",
+      "url": null,
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 8.2,
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-e6ab0c0c51",
@@ -1366,7 +1168,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-e9427b2636",
@@ -1402,7 +1204,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-35823f6d84",
@@ -1533,20 +1335,20 @@
     {
       "id": "dt-80fb0b764b",
       "series_id": "dt-fea937d792",
-      "title": "Fête de la Science : Exposition",
+      "title": "Fête de la Science à la salle des fêtes",
       "start": "2026-10-04",
       "end": "2026-10-10",
       "location": "Salle des fêtes -",
       "city": "Étel",
-      "description": "La fête de la science à Etel montre les dessous de la ria : Un film : Sepia, l'odysée d'une seiche, des conférences, sur le climat, sur les mégalithes immergés...",
+      "description": "La fête de la science à Etel montre les dessous de la ria : Samedi 10 octobre : 10h : Découverte de la faune marine du port d'Etel par l'Association Graine d'océan 11h00 : Science et biodiversité en Ria d'Etel - Conférence par Pierre Sauleau (chercheur et enseignant à l'UBS)…",
       "url": "https://www.cinemalariviere.org/",
-      "category": "culture",
+      "category": "fete",
       "priority": 1,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-3f3ef9df3e",
@@ -1846,13 +1648,13 @@
       "city": "Carnac",
       "description": "Ciné docs de voyage et d’aventure : ÉQUATEUR « Terre de Diversité » - Film de Lynda PAQUETTE et Martin PARENT. L’Équateur est une terre d’exception, renfermant une des plus grandes biodiversités du globe.",
       "url": "http://www.artetculture-carnac.com/",
-      "category": "culture",
+      "category": "spectacle",
       "priority": 2,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 4.1,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-0c6f645b09",
@@ -2143,22 +1945,22 @@
       "last_update": "2026-01-05"
     },
     {
-      "id": "dt-af2fc05f3f",
-      "series_id": "dt-a39695f4b5",
-      "title": "Fête de la Science",
+      "id": "dt-d7229c922e",
+      "series_id": "dt-b317f610c3",
+      "title": "S.N.T Section modélisme",
       "start": "2026-10-10T10:00",
       "end": null,
-      "location": "Salle des fêtes -",
-      "city": "Étel",
-      "description": "10h : Découverte de la faune marine du port d'Etel par l'Association Graine d'océan 11h00 : Science et biodiversité en Ria d'Etel - Conférence par Pierre Sauleau (chercheur et enseignant à l'UBS) 15h30 : Architectures sentinelles - rencontre et atelier par un artiste Designer…",
-      "url": "https://www.cinemalariviere.org/",
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
+      "location": "2 Môle Eric Tabarly",
+      "city": "La Trinité-sur-Mer",
+      "description": "Que votre idée soit de construire un voilier, bateau à moteur en bois ou en composite, navigant ou non, radiocommandé ou non, ancien ou moderne, que vous ayez envie de créer une demi-coque, que vous ayez au fond de votre grenier ou dans votre salon une maquette à rafraichir ou à…",
+      "url": null,
+      "category": "nautique",
+      "priority": 1,
+      "proximity": "immediate",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.2,
-      "last_update": "2026-09-23"
+      "distance_km": 0.1,
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-3d2e7135b0",
@@ -2791,6 +2593,24 @@
       "last_update": "2026-09-21"
     },
     {
+      "id": "dt-4aee0fa79c",
+      "series_id": "dt-4fafb496c4",
+      "title": "Les Incontournables : une chapelle pour les années 60 - la chapelle Notre-Dame-de-la-Route à Brec'h",
+      "start": "2026-10-16T17:00",
+      "end": "2026-10-16T18:00",
+      "location": "Route de l'École",
+      "city": "Brech",
+      "description": "Accompagné par un des guides-conférenciers du Pays d'art et d'histoire, venez découvrir la chapelle Notre-Dame-de-la-Route, à Mané-Salut en Brec'h, un édifice singulier du patrimoine architectural du XXe siècle.",
+      "url": "http://pah.auray-quiberon.fr/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 12.0,
+      "last_update": "2026-09-25"
+    },
+    {
       "id": "dt-3e19a3ee15",
       "series_id": "dt-e1a5f5bf70",
       "title": "Les voix océanes",
@@ -3133,6 +2953,24 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-69fe7f1485",
+      "series_id": "dt-b4d9c5225b",
+      "title": "Visite itinérante : Dans les pas de Kourtney Roy",
+      "start": "2026-10-18T09:30",
+      "end": "2026-10-18T17:30",
+      "location": "dvt le siège de la Confédération Kenleur",
+      "city": "Auray",
+      "description": "Accompagnés de deux guides-conférenciers des Pays d'Art et d'Histoire d'Auray Quiberon Terre Atlantique et de Golfe Morbihan Vannes Agglomération, nous vous proposons une journée de déambulation en car.",
+      "url": "http://pah.auray-quiberon.fr/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.4,
+      "last_update": "2026-09-25"
+    },
+    {
       "id": "dt-02c94cb597",
       "series_id": "dt-185fe1a13f",
       "title": "Festival du Livre Jeunesse",
@@ -3274,7 +3112,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.7,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-1577585240",
@@ -3313,6 +3151,24 @@
       "last_update": "2026-09-21"
     },
     {
+      "id": "dt-12c38afb9f",
+      "series_id": "dt-f00a28e605",
+      "title": "Stages de voile",
+      "start": "2026-10-19T09:00",
+      "end": "2026-10-23T12:00",
+      "location": "Société Nautique de La Trinité-Sur-Mer",
+      "city": "La Trinité-sur-Mer",
+      "description": "Pour les vacances de la Toussaint, rejoignez-nous sur l'eau à la SNT ! Que ce soit pour découvrir la voile ou se perfectionner, nos stages sont ouverts avec des créneaux disponibles le matin (9h-12h) et l'après-midi (14h-17h) N'attendez plus et réservez votre place dès…",
+      "url": "https://snt-voile.org/ecole-de-voile/stages/stages-hors-saison",
+      "category": "nautique",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.1,
+      "last_update": "2026-09-25"
+    },
+    {
       "id": "dt-305d5862f8",
       "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
@@ -3349,12 +3205,66 @@
       "last_update": "2026-09-19"
     },
     {
+      "id": "dt-9ee1c5d8a9",
+      "series_id": "dt-b71f7468a4",
+      "title": "Atelier \"1, 2, 3 menhirs\"",
+      "start": "2026-10-19T10:30",
+      "end": null,
+      "location": "Maison des mégalithes",
+      "city": "Carnac",
+      "description": "À 10h30 Atelier découverte des Alignements de Carnac destiné aux enfants de 4 à 6 ans en compagnie de leurs parents, à travers une visite adaptée aux tout-petits et des activités manuelles : puzzles, maquettes et dessin. Réservation conseillée durée 1h30.",
+      "url": "http://www.menhirs-carnac.fr/",
+      "category": "patrimoine",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 3.9,
+      "last_update": "2026-09-25"
+    },
+    {
+      "id": "dt-42a5e5049d",
+      "series_id": "dt-36bb8934a9",
+      "title": "Ateliers en familles \"Apprentis bâtisseurs\"",
+      "start": "2026-10-19T10:30",
+      "end": null,
+      "location": "Route des Alignements",
+      "city": "Carnac",
+      "description": "Tous les lundis, mercredis et vendredis jusqu'au 21 août à 14h30 Devenez apprenti bâtisseur du Néolithique pour percer les secrets de construction des menhirs.",
+      "url": "https://www.menhirs-carnac.fr/",
+      "category": "patrimoine",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.1,
+      "last_update": "2026-09-25"
+    },
+    {
+      "id": "dt-7d00b489f5",
+      "series_id": "dt-d2f4678690",
+      "title": "Visite découverte dans les Alignements",
+      "start": "2026-10-19T11:00",
+      "end": "2026-10-30",
+      "location": "Maison des Mégalithes",
+      "city": "Carnac",
+      "description": "En famille ou entre amis, venez découvrir l’histoire des Alignements de Carnac accompagnés d’un guide. Partez à la rencontre de ces hommes et de ces femmes qui ont façonné le paysage il y a 6500 ans et imaginé des constructions, qui aujourd’hui encore fascinent et interrogent.",
+      "url": "http://www.menhirs-carnac.fr/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.1,
+      "last_update": "2026-09-25"
+    },
+    {
       "id": "dt-c9685fd677",
       "series_id": "dt-aee0d9e98d",
       "title": "Visite de l'Atelier sur Mer, entreprise de décoration sur voiles",
       "start": "2026-10-19T13:30",
       "end": "2026-10-19T14:30",
-      "location": "13 Rue des Thermes",
+      "location": "zone de Montauban",
       "city": "Carnac",
       "description": "Venez découvrir les techniques de peinture appliquées directement sur les tissus de voile, les étapes de préparation, marquage et projection guidée assurant une précision millimétrique, ainsi que les procédés de fixation garantissant la tenue face au vent, au sel et au soleil.",
       "url": "https://semaines-tourisme-economique.bzh/youbook_product/visite-de-latelier-sur-mer-atelier-de-peinture-et-de-secoration-de-voiles-fr-aff8977d-4f42-4d17-822a-919183e92371/",
@@ -3364,7 +3274,25 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 2.4,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-25"
+    },
+    {
+      "id": "dt-9534281b3a",
+      "series_id": "dt-f00a28e605",
+      "title": "Stages de voile",
+      "start": "2026-10-19T14:00",
+      "end": "2026-10-23T17:00",
+      "location": "Société Nautique de La Trinité-Sur-Mer",
+      "city": "La Trinité-sur-Mer",
+      "description": "Pour les vacances de la Toussaint, rejoignez-nous sur l'eau à la SNT ! Que ce soit pour découvrir la voile ou se perfectionner, nos stages sont ouverts avec des créneaux disponibles le matin (9h-12h) et l'après-midi (14h-17h) N'attendez plus et réservez votre place dès…",
+      "url": "https://snt-voile.org/ecole-de-voile/stages/stages-hors-saison",
+      "category": "nautique",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.1,
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-4a64cadbd1",
@@ -3401,6 +3329,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-22"
+    },
+    {
+      "id": "dt-c405476861",
+      "series_id": "dt-d2f4678690",
+      "title": "Visite découverte dans les Alignements",
+      "start": "2026-10-19T15:00",
+      "end": "2026-10-30",
+      "location": "Maison des Mégalithes",
+      "city": "Carnac",
+      "description": "En famille ou entre amis, venez découvrir l’histoire des Alignements de Carnac accompagnés d’un guide. Partez à la rencontre de ces hommes et de ces femmes qui ont façonné le paysage il y a 6500 ans et imaginé des constructions, qui aujourd’hui encore fascinent et interrogent.",
+      "url": "http://www.menhirs-carnac.fr/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.1,
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-ec242d0a5f",
@@ -3493,6 +3439,24 @@
       "last_update": "2026-09-22"
     },
     {
+      "id": "dt-9671fc08bf",
+      "series_id": "dt-45cae90f53",
+      "title": "Visite guidée de l'argonaute",
+      "start": "2026-10-20T10:30",
+      "end": "2026-10-20T11:30",
+      "location": "12 Rue Adjudant-Chef Redien",
+      "city": "Auray",
+      "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
+      "url": "https://semaines-tourisme-economique.bzh/retrouvez-vos-visites-dans-le-morbihan/baie-de-quiberon/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-25"
+    },
+    {
       "id": "dt-107f6188ef",
       "series_id": "dt-9a067d7a68",
       "title": "Les Croc'Archi : le yacht-club de Carnac",
@@ -3552,17 +3516,35 @@
       "title": "Visite guidée de AP Sellerie",
       "start": "2026-10-20T14:00",
       "end": "2026-10-20T15:00",
-      "location": null,
+      "location": "6 Rue Georges Guynemer",
       "city": "Auray",
       "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
-      "url": "https://semaines-tourisme-economique.bzh/retrouvez-vos-visites-dans-le-morbihan/",
+      "url": "https://semaines-tourisme-economique.bzh/retrouvez-vos-visites-dans-le-morbihan/baie-de-quiberon/",
       "category": "patrimoine",
       "priority": 2,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6,
-      "last_update": "2026-09-24"
+      "distance_km": 8.7,
+      "last_update": "2026-09-25"
+    },
+    {
+      "id": "dt-3abc8da069",
+      "series_id": "dt-45cae90f53",
+      "title": "Visite guidée de l'argonaute",
+      "start": "2026-10-20T14:00",
+      "end": "2026-10-20T15:00",
+      "location": "12 Rue Adjudant-Chef Redien",
+      "city": "Auray",
+      "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
+      "url": "https://semaines-tourisme-economique.bzh/retrouvez-vos-visites-dans-le-morbihan/baie-de-quiberon/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-306dd4ea64",
@@ -3580,7 +3562,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 4.4,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-79b079491d",
@@ -3637,6 +3619,24 @@
       "last_update": "2026-09-23"
     },
     {
+      "id": "dt-719320a009",
+      "series_id": "dt-aa26f5b638",
+      "title": "Visite de l'entreprise Seve breizh Mobilier",
+      "start": "2026-10-21T09:00",
+      "end": "2026-10-22T10:00",
+      "location": "Seve breizh Mobilier",
+      "city": "Crach",
+      "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
+      "url": "https://semaines-tourisme-economique.bzh/youbook_product/visite-de-lentreprise-seve-breizh-mobilier-a-crach-fr-bf1fbbbc-2266-4afa-a2f9-f5653cca2310/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 7.4,
+      "last_update": "2026-09-25"
+    },
+    {
       "id": "dt-0274129e1a",
       "series_id": "dt-5ad05eea69",
       "title": "Quiberon, le charme d'une station centenaire et d'un ancien port sardinier",
@@ -3691,6 +3691,24 @@
       "last_update": "2026-04-17"
     },
     {
+      "id": "dt-f692a3de32",
+      "series_id": "dt-b71f7468a4",
+      "title": "Atelier \"1, 2, 3 menhirs\"",
+      "start": "2026-10-21T10:30",
+      "end": null,
+      "location": "Maison des mégalithes",
+      "city": "Carnac",
+      "description": "À 10h30 Atelier découverte des Alignements de Carnac destiné aux enfants de 4 à 6 ans en compagnie de leurs parents, à travers une visite adaptée aux tout-petits et des activités manuelles : puzzles, maquettes et dessin. Réservation conseillée durée 1h30.",
+      "url": "http://www.menhirs-carnac.fr/",
+      "category": "patrimoine",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 3.9,
+      "last_update": "2026-09-25"
+    },
+    {
       "id": "dt-3bed3abb05",
       "series_id": "dt-bc5aa3c8ff",
       "title": "Les rives du Loc'h - Nature en musique",
@@ -3714,17 +3732,35 @@
       "title": "Visite guidée de AP Sellerie",
       "start": "2026-10-21T14:00",
       "end": "2026-10-21T15:00",
-      "location": null,
+      "location": "6 Rue Georges Guynemer",
       "city": "Auray",
       "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
-      "url": "https://semaines-tourisme-economique.bzh/retrouvez-vos-visites-dans-le-morbihan/",
+      "url": "https://semaines-tourisme-economique.bzh/retrouvez-vos-visites-dans-le-morbihan/baie-de-quiberon/",
       "category": "patrimoine",
       "priority": 2,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6,
-      "last_update": "2026-09-24"
+      "distance_km": 8.7,
+      "last_update": "2026-09-25"
+    },
+    {
+      "id": "dt-13d1c98cd2",
+      "series_id": "dt-1814864e86",
+      "title": "Ateliers familles \"Gestes de la Préhistoire\"",
+      "start": "2026-10-21T14:30",
+      "end": null,
+      "location": "Alignements de Kermario",
+      "city": "Carnac",
+      "description": "Visite guidée des Alignements et du dolmen de Kermario. Atelier d’initiation aux gestes du Paléolithique et du Néolithique : tir au propulseur, mouture de blé, polissage d’une pierre et fabrication d’une cordelette. Présentation d’objets et d’outils archéo-compatibles.",
+      "url": "http://www.menhirs-carnac.fr/",
+      "category": "patrimoine",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 3.0,
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-3d28a3b92e",
@@ -3842,7 +3878,7 @@
       "end": "2026-10-22T12:00",
       "location": "Musée de la Préhistoire",
       "city": "Carnac",
-      "description": "Depuis le mois de juin et jusqu’à fin 2027, le chantier des collections, opération exceptionnelle par son ampleur et sa durée, est réalisé dans une des salles d’exposition.",
+      "description": "Dans le cadre des semaines du tourisme économique et des savoir-faire, Le musée de Carnac a choisi de le rendre visible pour que les visiteurs puissent voir et comprendre la façon dont sont conservées et gérées les collections. Une façon de rendre visible les coulisses du musée.",
       "url": "https://www.museedecarnac.com/actualites/",
       "category": "patrimoine",
       "priority": 2,
@@ -3850,7 +3886,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-24c8737888",
@@ -3940,7 +3976,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.2,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-ea9eb81139",
@@ -3997,6 +4033,24 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-2915fa8c72",
+      "series_id": "dt-416a9bfefc",
+      "title": "Visite du fournil de Kerbirio",
+      "start": "2026-10-23T09:30",
+      "end": "2026-10-23T10:30",
+      "location": "Le Fournil de Kerbirio",
+      "city": "Crach",
+      "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
+      "url": "https://semaines-tourisme-economique.bzh/youbook_product/visite-du-fournil-de-kerbirio-a-crach-fr-7bfad616-2d65-494a-872b-19425ae3ad3b/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 6.3,
+      "last_update": "2026-09-25"
+    },
+    {
       "id": "dt-3debacf21e",
       "series_id": "dt-b7bdcbc4e5",
       "title": "La Préhistoire à travers les contes",
@@ -4038,7 +4092,7 @@
       "title": "Visite guidée de La Miellerie d'Alré",
       "start": "2026-10-23T10:00",
       "end": "2026-10-23T11:30",
-      "location": "La Miellerie d’Alré -",
+      "location": "13 Boulevard Anne de Bretagne",
       "city": "Auray",
       "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
       "url": "https://semaines-tourisme-economique.bzh/retrouvez-vos-visites-dans-le-morbihan/",
@@ -4048,7 +4102,61 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.9,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-25"
+    },
+    {
+      "id": "dt-c4ab3d50e4",
+      "series_id": "dt-b71f7468a4",
+      "title": "Atelier \"1, 2, 3 menhirs\"",
+      "start": "2026-10-23T10:30",
+      "end": null,
+      "location": "Maison des mégalithes",
+      "city": "Carnac",
+      "description": "À 10h30 Atelier découverte des Alignements de Carnac destiné aux enfants de 4 à 6 ans en compagnie de leurs parents, à travers une visite adaptée aux tout-petits et des activités manuelles : puzzles, maquettes et dessin. Réservation conseillée durée 1h30.",
+      "url": "http://www.menhirs-carnac.fr/",
+      "category": "patrimoine",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 3.9,
+      "last_update": "2026-09-25"
+    },
+    {
+      "id": "dt-99a617840d",
+      "series_id": "dt-36bb8934a9",
+      "title": "Ateliers en familles \"Apprentis bâtisseurs\"",
+      "start": "2026-10-23T10:30",
+      "end": null,
+      "location": "Route des Alignements",
+      "city": "Carnac",
+      "description": "Tous les lundis, mercredis et vendredis jusqu'au 21 août à 14h30 Devenez apprenti bâtisseur du Néolithique pour percer les secrets de construction des menhirs.",
+      "url": "https://www.menhirs-carnac.fr/",
+      "category": "patrimoine",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.1,
+      "last_update": "2026-09-25"
+    },
+    {
+      "id": "dt-e1e49718df",
+      "series_id": "dt-416a9bfefc",
+      "title": "Visite du fournil de Kerbirio",
+      "start": "2026-10-23T11:00",
+      "end": "2026-10-23T12:00",
+      "location": "Le Fournil de Kerbirio",
+      "city": "Crach",
+      "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
+      "url": "https://semaines-tourisme-economique.bzh/youbook_product/visite-du-fournil-de-kerbirio-a-crach-fr-7bfad616-2d65-494a-872b-19425ae3ad3b/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 6.3,
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-f2f45562de",
@@ -4067,6 +4175,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-22"
+    },
+    {
+      "id": "dt-6ca7c2ff08",
+      "series_id": "dt-416a9bfefc",
+      "title": "Visite du fournil de Kerbirio",
+      "start": "2026-10-23T14:30",
+      "end": "2026-10-23T15:30",
+      "location": "Le Fournil de Kerbirio",
+      "city": "Crach",
+      "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
+      "url": "https://semaines-tourisme-economique.bzh/youbook_product/visite-du-fournil-de-kerbirio-a-crach-fr-7bfad616-2d65-494a-872b-19425ae3ad3b/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 6.3,
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-b4de17d69a",
@@ -4213,6 +4339,24 @@
       "last_update": "2026-08-21"
     },
     {
+      "id": "dt-aa84bff643",
+      "series_id": "dt-98b420f8ee",
+      "title": "Festival Presqu'île Breizh - Carnac",
+      "start": "2026-10-24",
+      "end": "2026-10-25",
+      "location": null,
+      "city": "Carnac",
+      "description": "Le Festival Presqu'île Breizh est un évènement musical breton rassemblant tous les cercles et bagads de Bretagne et ailleurs. Programme de Carnac : Samedi 24 octobre À 11h Contes et mystère de Bretagne Par Rémy Cochen. Tarif 5€.",
+      "url": "https://www.presquilebreizh.bzh/",
+      "category": "spectacle",
+      "priority": 1,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.1,
+      "last_update": "2026-09-25"
+    },
+    {
       "id": "dt-ff416f4ebd",
       "series_id": "dt-fd5b2ac21d",
       "title": "Marché hebdomadaire de Quiberon",
@@ -4290,7 +4434,7 @@
       "title": "Visite guidée de La Miellerie d'Alré",
       "start": "2026-10-24T10:00",
       "end": "2026-10-24T11:30",
-      "location": "La Miellerie d’Alré -",
+      "location": "13 Boulevard Anne de Bretagne",
       "city": "Auray",
       "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
       "url": "https://semaines-tourisme-economique.bzh/retrouvez-vos-visites-dans-le-morbihan/",
@@ -4300,7 +4444,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.9,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-3c72a44c81",
@@ -4337,6 +4481,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
       "last_update": "2026-09-07"
+    },
+    {
+      "id": "dt-77c7094c4a",
+      "series_id": "dt-c4c46797d1",
+      "title": "Ateliers d’écriture",
+      "start": "2026-10-24T13:30",
+      "end": "2026-10-24T16:30",
+      "location": null,
+      "city": "La Trinité-sur-Mer",
+      "description": "L’association Côté Cour vous propose des ateliers d’écriture pour ouvrir l’imaginaire et dédramatiser l’écriture. Aucune connaissance ou niveau préalable n’est requis, juste l’envie de passer du temps ensemble à jouer avec les mots.",
+      "url": null,
+      "category": "autre",
+      "priority": 3,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.1,
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-0b7289d42b",
@@ -4627,12 +4789,48 @@
       "last_update": "2026-09-19"
     },
     {
+      "id": "dt-d26ef4e4c6",
+      "series_id": "dt-b71f7468a4",
+      "title": "Atelier \"1, 2, 3 menhirs\"",
+      "start": "2026-10-26T10:30",
+      "end": null,
+      "location": "Maison des mégalithes",
+      "city": "Carnac",
+      "description": "À 10h30 Atelier découverte des Alignements de Carnac destiné aux enfants de 4 à 6 ans en compagnie de leurs parents, à travers une visite adaptée aux tout-petits et des activités manuelles : puzzles, maquettes et dessin. Réservation conseillée durée 1h30.",
+      "url": "http://www.menhirs-carnac.fr/",
+      "category": "patrimoine",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 3.9,
+      "last_update": "2026-09-25"
+    },
+    {
+      "id": "dt-7c2d637270",
+      "series_id": "dt-36bb8934a9",
+      "title": "Ateliers en familles \"Apprentis bâtisseurs\"",
+      "start": "2026-10-26T10:30",
+      "end": null,
+      "location": "Route des Alignements",
+      "city": "Carnac",
+      "description": "Tous les lundis, mercredis et vendredis jusqu'au 21 août à 14h30 Devenez apprenti bâtisseur du Néolithique pour percer les secrets de construction des menhirs.",
+      "url": "https://www.menhirs-carnac.fr/",
+      "category": "patrimoine",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.1,
+      "last_update": "2026-09-25"
+    },
+    {
       "id": "dt-dd41b063ed",
       "series_id": "dt-aee0d9e98d",
       "title": "Visite de l'Atelier sur Mer, entreprise de décoration sur voiles",
       "start": "2026-10-26T13:30",
       "end": "2026-10-26T14:30",
-      "location": "13 Rue des Thermes",
+      "location": "zone de Montauban",
       "city": "Carnac",
       "description": "Venez découvrir les techniques de peinture appliquées directement sur les tissus de voile, les étapes de préparation, marquage et projection guidée assurant une précision millimétrique, ainsi que les procédés de fixation garantissant la tenue face au vent, au sel et au soleil.",
       "url": "https://semaines-tourisme-economique.bzh/youbook_product/visite-de-latelier-sur-mer-atelier-de-peinture-et-de-secoration-de-voiles-fr-aff8977d-4f42-4d17-822a-919183e92371/",
@@ -4642,7 +4840,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 2.4,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-c59734697f",
@@ -4722,7 +4920,7 @@
       "title": "Visite guidée de La Miellerie d'Alré",
       "start": "2026-10-27T10:00",
       "end": "2026-10-27T11:30",
-      "location": "La Miellerie d’Alré -",
+      "location": "13 Boulevard Anne de Bretagne",
       "city": "Auray",
       "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
       "url": "https://semaines-tourisme-economique.bzh/retrouvez-vos-visites-dans-le-morbihan/",
@@ -4732,7 +4930,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.9,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-9768a1f570",
@@ -4750,7 +4948,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 4.1,
-      "last_update": "2026-09-02"
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-57317039ef",
@@ -4789,22 +4987,40 @@
       "last_update": "2026-08-28"
     },
     {
-      "id": "dt-580c7dcfe1",
-      "series_id": "dt-e9b57d31e5",
-      "title": "Visite guidée de AP Sellerie",
+      "id": "dt-026c7edcd5",
+      "series_id": "dt-083b6538c9",
+      "title": "Visite d'entreprise - Casino Circus",
       "start": "2026-10-27T14:00",
       "end": "2026-10-27T15:00",
-      "location": null,
-      "city": "Auray",
-      "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
-      "url": "https://semaines-tourisme-economique.bzh/retrouvez-vos-visites-dans-le-morbihan/",
+      "location": "Casino Circus de Carnac",
+      "city": "Carnac",
+      "description": "Créé en 2002, le Casino circus est l’un des acteurs économiques importants de la station balnéaire. Il participe activement à la vie culturelle, sportive et associative de CARNAC.",
+      "url": "https://stesf.youbook.travel/fr/activite/france/casino-circus-de-carnac/culture-loisirs/decouvrir-l-envers-du-decor-du-fonctionnement-d-un-casino",
       "category": "patrimoine",
       "priority": 2,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6,
-      "last_update": "2026-09-24"
+      "distance_km": 3.9,
+      "last_update": "2026-09-25"
+    },
+    {
+      "id": "dt-580c7dcfe1",
+      "series_id": "dt-e9b57d31e5",
+      "title": "Visite guidée de AP Sellerie",
+      "start": "2026-10-27T14:00",
+      "end": "2026-10-27T15:00",
+      "location": "6 Rue Georges Guynemer",
+      "city": "Auray",
+      "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
+      "url": "https://semaines-tourisme-economique.bzh/retrouvez-vos-visites-dans-le-morbihan/baie-de-quiberon/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 8.7,
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-939636cbe0",
@@ -4822,7 +5038,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 4.4,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-435a691c92",
@@ -4938,7 +5154,7 @@
       "title": "Visite guidée de La Miellerie d'Alré",
       "start": "2026-10-28T10:00",
       "end": "2026-10-28T11:30",
-      "location": "La Miellerie d’Alré -",
+      "location": "13 Boulevard Anne de Bretagne",
       "city": "Auray",
       "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
       "url": "https://semaines-tourisme-economique.bzh/retrouvez-vos-visites-dans-le-morbihan/",
@@ -4948,7 +5164,25 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.9,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-25"
+    },
+    {
+      "id": "dt-e27d1557e5",
+      "series_id": "dt-b71f7468a4",
+      "title": "Atelier \"1, 2, 3 menhirs\"",
+      "start": "2026-10-28T10:30",
+      "end": null,
+      "location": "Maison des mégalithes",
+      "city": "Carnac",
+      "description": "À 10h30 Atelier découverte des Alignements de Carnac destiné aux enfants de 4 à 6 ans en compagnie de leurs parents, à travers une visite adaptée aux tout-petits et des activités manuelles : puzzles, maquettes et dessin. Réservation conseillée durée 1h30.",
+      "url": "http://www.menhirs-carnac.fr/",
+      "category": "patrimoine",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 3.9,
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-38c3ebc9ba",
@@ -4987,6 +5221,24 @@
       "last_update": "2026-05-18"
     },
     {
+      "id": "dt-ab6ebbb7fb",
+      "series_id": "dt-083b6538c9",
+      "title": "Visite d'entreprise - Casino Circus",
+      "start": "2026-10-28T14:00",
+      "end": "2026-10-28T15:00",
+      "location": "Casino Circus de Carnac",
+      "city": "Carnac",
+      "description": "Créé en 2002, le Casino circus est l’un des acteurs économiques importants de la station balnéaire. Il participe activement à la vie culturelle, sportive et associative de CARNAC.",
+      "url": "https://stesf.youbook.travel/fr/activite/france/casino-circus-de-carnac/culture-loisirs/decouvrir-l-envers-du-decor-du-fonctionnement-d-un-casino",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 3.9,
+      "last_update": "2026-09-25"
+    },
+    {
       "id": "dt-4c93387e81",
       "series_id": "dt-2193289823",
       "title": "Visite flash \"Les bretons face aux géants de pierre\"",
@@ -5003,6 +5255,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-22"
+    },
+    {
+      "id": "dt-d2ee37b35f",
+      "series_id": "dt-1814864e86",
+      "title": "Ateliers familles \"Gestes de la Préhistoire\"",
+      "start": "2026-10-28T14:30",
+      "end": null,
+      "location": "Alignements de Kermario",
+      "city": "Carnac",
+      "description": "Visite guidée des Alignements et du dolmen de Kermario. Atelier d’initiation aux gestes du Paléolithique et du Néolithique : tir au propulseur, mouture de blé, polissage d’une pierre et fabrication d’une cordelette. Présentation d’objets et d’outils archéo-compatibles.",
+      "url": "http://www.menhirs-carnac.fr/",
+      "category": "patrimoine",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 3.0,
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-425f5361c9",
@@ -5228,7 +5498,7 @@
       "end": "2026-10-29T12:00",
       "location": "Musée de la Préhistoire",
       "city": "Carnac",
-      "description": "Depuis le mois de juin et jusqu’à fin 2027, le chantier des collections, opération exceptionnelle par son ampleur et sa durée, est réalisé dans une des salles d’exposition.",
+      "description": "Dans le cadre des semaines du tourisme économique et des savoir-faire, Le musée de Carnac a choisi de le rendre visible pour que les visiteurs puissent voir et comprendre la façon dont sont conservées et gérées les collections. Une façon de rendre visible les coulisses du musée.",
       "url": "https://www.museedecarnac.com/actualites/",
       "category": "patrimoine",
       "priority": 2,
@@ -5236,7 +5506,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-2c2b57331f",
@@ -5326,7 +5596,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.2,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-ed29bbb65d",
@@ -5417,6 +5687,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 4.0,
       "last_update": "2026-08-13"
+    },
+    {
+      "id": "dt-02250b9e3a",
+      "series_id": "dt-36bb8934a9",
+      "title": "Ateliers en familles \"Apprentis bâtisseurs\"",
+      "start": "2026-10-30T10:30",
+      "end": null,
+      "location": "Route des Alignements",
+      "city": "Carnac",
+      "description": "Tous les lundis, mercredis et vendredis jusqu'au 21 août à 14h30 Devenez apprenti bâtisseur du Néolithique pour percer les secrets de construction des menhirs.",
+      "url": "https://www.menhirs-carnac.fr/",
+      "category": "patrimoine",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.1,
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-ecb8b626a5",
@@ -5524,7 +5812,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
-      "last_update": "2026-09-17"
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-640b310e5f",
@@ -6082,7 +6370,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 4.1,
-      "last_update": "2026-09-02"
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-d2dfe23b11",
@@ -6661,6 +6949,24 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-9425ac515c",
+      "series_id": "dt-c4c46797d1",
+      "title": "Ateliers d’écriture",
+      "start": "2026-11-28T13:30",
+      "end": "2026-11-28T16:30",
+      "location": null,
+      "city": "La Trinité-sur-Mer",
+      "description": "L’association Côté Cour vous propose des ateliers d’écriture pour ouvrir l’imaginaire et dédramatiser l’écriture. Aucune connaissance ou niveau préalable n’est requis, juste l’envie de passer du temps ensemble à jouer avec les mots.",
+      "url": null,
+      "category": "autre",
+      "priority": 3,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.1,
+      "last_update": "2026-09-25"
+    },
+    {
       "id": "dt-6dc72e85bd",
       "series_id": "dt-4aba2f5320",
       "title": "Ciné-docs La Route de la Soie « Sur les traces de Marco Polo »",
@@ -6677,6 +6983,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.5,
       "last_update": "2026-09-22"
+    },
+    {
+      "id": "dt-1a76a02c09",
+      "series_id": "dt-6c5ed62bac",
+      "title": "Marché de Noël de l’école des Crevettes bleues",
+      "start": "2026-11-29T09:00",
+      "end": "2026-11-29T18:00",
+      "location": "Esplanade de la capitainerie",
+      "city": "La Trinité-sur-Mer",
+      "description": "Un moment agréable à partager en famille ou entre amis lors du marché de Noël. De nombreux exposants proposent des idées cadeaux, des créations artisanales et des gourmandises de Noël. Malgré un planning chargé, le père Noël devrait être présent vers 16 h.",
+      "url": null,
+      "category": "marche",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-09-25"
     },
     {
       "id": "dt-ca6d47145b",
