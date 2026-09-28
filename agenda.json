@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-27T10:02:52Z",
-  "data_updated_at": "2026-09-25",
+  "generated_at": "2026-09-28T10:59:13Z",
+  "data_updated_at": "2026-09-26",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -10,9 +10,9 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 474,
+    "total": 471,
     "by_proximity": {
-      "near": 403,
+      "near": 400,
       "immediate": 69,
       "daytrip": 2
     }
@@ -487,24 +487,6 @@
       "last_update": "2026-05-29"
     },
     {
-      "id": "dt-2ddc705104",
-      "series_id": "dt-fdaf51bc00",
-      "title": "Festival \"Les Musicales de Quiberon \"",
-      "start": "2026-09-25",
-      "end": "2026-09-27",
-      "location": "Palais des Congrès",
-      "city": "Quiberon",
-      "description": "En 2026, la 12ᵉ édition des Musicales de Quiberon sera dédiée aux compositeurs français. ​L'événement s'ouvrira dans un écrin d'exception : le Palais des Congrès Louison Bobet, fraîchement rénové et enfin prêt à accueillir ces instants privilégiés.",
-      "url": "http://www.lesmusicalesdequiberon.fr/",
-      "category": "musique",
-      "priority": 1,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "CRT Bretagne_",
-      "distance_km": 13.5,
-      "last_update": "2026-08-19"
-    },
-    {
       "id": "dt-f0e70bdc30",
       "series_id": "dt-f8a7b23ee4",
       "title": "Mad in Finland, cirque sous chapiteau",
@@ -520,150 +502,6 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 10.0,
-      "last_update": "2026-09-17"
-    },
-    {
-      "id": "dt-7a24ce219f",
-      "series_id": "dt-17e9a78722",
-      "title": "Pardon Saint Antoine et Saint Eloi",
-      "start": "2026-09-27",
-      "end": null,
-      "location": "4 route St Antoine",
-      "city": "Plouharnel",
-      "description": "Pardon de la chapelle Saint Antoine et Saint Eloi, organisé par l'association des Amis de la Chapelle Saint Antoine. La messe, à 10h, sera suivie de la procession et de la bénédiction des chevaux à la fontaine.",
-      "url": null,
-      "category": "fete",
-      "priority": 1,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.2,
-      "last_update": "2026-07-25"
-    },
-    {
-      "id": "dt-7588d6c44f",
-      "series_id": "dt-5e8814b643",
-      "title": "Brocante des focales",
-      "start": "2026-09-27T08:00",
-      "end": "2026-09-27T18:00",
-      "location": "Criée -",
-      "city": "Étel",
-      "description": "L'association \"Les Focales photos festival \" organise une brocante et un vide grenier sous la criée d'Etel. Entrée 1€ (gratuit -12 ans)",
-      "url": "https://www.lesfocalesbretagnesud.com/",
-      "category": "marche",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.6,
-      "last_update": "2026-09-19"
-    },
-    {
-      "id": "dt-5a58f28f52",
-      "series_id": "dt-c703f48171",
-      "title": "La Ploemeloise, randonnées contre les cancers",
-      "start": "2026-09-27T09:15",
-      "end": "2026-09-27T12:00",
-      "location": "Salle polyvalente du Groez Ven",
-      "city": "Ploemel",
-      "description": "Le CCAS de Ploemel en partenariat avec La Ligue vous donne rendez-vous pour marcher au profit de la lutte contre tous les cancers. Au programme : 3 parcours de 8km; 5km et une marche adaptée de 3.25 kms.",
-      "url": null,
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.2,
-      "last_update": "2026-09-17"
-    },
-    {
-      "id": "dt-dd8ef61417",
-      "series_id": "dt-72147faf7b",
-      "title": "Enquête : Code Néolithique",
-      "start": "2026-09-27T09:30",
-      "end": "2026-09-27T17:30",
-      "location": "Musée de Préhistoire",
-      "city": "Carnac",
-      "description": "Soyez attentifs aux moindres détails, réfléchissez en famille et résolvez l’enquête ! Cap ou pas cap de trouver les objets ? Relevez le défi ! Livret disponible sur demande à l’accueil Animation en autonomie sans réservation. Durée 30 min. Prix d'entrée du musée",
-      "url": "http://www.museedecarnac.com/",
-      "category": "patrimoine",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 3.8,
-      "last_update": "2026-08-25"
-    },
-    {
-      "id": "dt-2f04b6155e",
-      "series_id": "dt-fa57efa204",
-      "title": "Terra Initia - Exposition TR'ÂMES",
-      "start": "2026-09-27T10:00",
-      "end": "2026-09-27T12:30",
-      "location": "Galerie Terra Initia",
-      "city": "Carnac",
-      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.0,
-      "last_update": "2026-08-13"
-    },
-    {
-      "id": "dt-d50dffcdf7",
-      "series_id": "dt-e3524b93c9",
-      "title": "Brunch du Sofitel aux saveurs de la French Riviera",
-      "start": "2026-09-27T11:30",
-      "end": "2026-09-27T14:00",
-      "location": "Sofitel Quiberon Thalassa sea & spa",
-      "city": "Quiberon",
-      "description": "Venez vivre un dimanche gourmand face à la plus belle des vues sur l'Océan avec le Brunch du Sofitel Quiberon. Rendez-vous incontournable dès le printemps à Quiberon, notre Brunch proposes ses délicieux buffets iodés, plats cuisinés, gourmandises locales, fruits frais…",
-      "url": "https://www.sofitel-quiberon-thalassa.com/offers/brunch-dimanche/",
-      "category": "gastronomie",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.6,
-      "last_update": "2026-09-07"
-    },
-    {
-      "id": "dt-19e2c5643f",
-      "series_id": "dt-70fa7ed692",
-      "title": "Festival de chorales",
-      "start": "2026-09-27T17:00",
-      "end": null,
-      "location": "Espace \"Les Chênes\"",
-      "city": "Crach",
-      "description": "Concert du Festival des chorales Gilles DEMURGER à l’Espace \"Les Chênes\".",
-      "url": null,
-      "category": "musique",
-      "priority": 1,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.0,
-      "last_update": "2026-09-17"
-    },
-    {
-      "id": "dt-d15a179d33",
-      "series_id": "dt-e06e68ef84",
-      "title": "Séance photo découverte",
-      "start": "2026-09-27T19:30",
-      "end": null,
-      "location": "lieu communiqué à la réservation",
-      "city": "Carnac",
-      "description": "Mini-séance photo \"aquatique\" au coucher du soleil Faites l'expérience d'une mise en lumière naturelle, sensible et immersive, sur la plage ou dans l’eau, à la lumière douce du coucher de soleil.",
-      "url": null,
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.1,
       "last_update": "2026-09-17"
     },
     {
@@ -2863,6 +2701,24 @@
       "last_update": "2026-09-22"
     },
     {
+      "id": "dt-b2268f0991",
+      "series_id": "dt-0fe34586f3",
+      "title": "Visite guidée de l'exposition part l'artiste Olga KATAEVA-ROCHFORD",
+      "start": "2026-10-17T14:30",
+      "end": null,
+      "location": "3, Impasse Jean Bart",
+      "city": "Étel",
+      "description": "Visite guidée de l'exposition de peinture d'Olga Kataeva-Rochford par l'artiste! Olga vous fera entrer dans son univers, entre paysages maritimes, lumière, mouvement et émotions. N'hésitez pas à réserver, jauge limitée.",
+      "url": null,
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.8,
+      "last_update": "2026-09-26"
+    },
+    {
       "id": "dt-9902ca9b3c",
       "series_id": "dt-bef6d5b120",
       "title": "Les fous - aux pieds bleus 'EXTRA', performance et rencontre dansée, jouée, parlée",
@@ -3005,6 +2861,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 14.3,
       "last_update": "2026-09-17"
+    },
+    {
+      "id": "dt-6189844dbf",
+      "series_id": "dt-b165a6fe91",
+      "title": "Rendez-vous des écrivains de la mer #12",
+      "start": "2026-10-18T10:00",
+      "end": "2026-10-18T18:00",
+      "location": "Musée des thoniers -",
+      "city": "Étel",
+      "description": "Le Musée des Thoniers d’Étel vous donne rendez-vous pour une nouvelle édition de son Rendez-vous des Écrivains de la Mer. Pour cette 12ème édition, une vingtaine d’auteurs venus de différents horizons maritimes seront réunis au cœur du musée.",
+      "url": "http://www.museedesthoniers.fr/",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.8,
+      "last_update": "2026-09-26"
     },
     {
       "id": "dt-a945014a59",
@@ -3441,7 +3315,7 @@
     {
       "id": "dt-9671fc08bf",
       "series_id": "dt-45cae90f53",
-      "title": "Visite guidée de l'argonaute",
+      "title": "Visite d'entreprise - L'argonaute",
       "start": "2026-10-20T10:30",
       "end": "2026-10-20T11:30",
       "location": "12 Rue Adjudant-Chef Redien",
@@ -3454,7 +3328,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 10.2,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-26"
     },
     {
       "id": "dt-107f6188ef",
@@ -3513,7 +3387,7 @@
     {
       "id": "dt-2d7af93a44",
       "series_id": "dt-e9b57d31e5",
-      "title": "Visite guidée de AP Sellerie",
+      "title": "Visite d'entreprise -  AP Sellerie",
       "start": "2026-10-20T14:00",
       "end": "2026-10-20T15:00",
       "location": "6 Rue Georges Guynemer",
@@ -3526,12 +3400,12 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.7,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-26"
     },
     {
       "id": "dt-3abc8da069",
       "series_id": "dt-45cae90f53",
-      "title": "Visite guidée de l'argonaute",
+      "title": "Visite d'entreprise - L'argonaute",
       "start": "2026-10-20T14:00",
       "end": "2026-10-20T15:00",
       "location": "12 Rue Adjudant-Chef Redien",
@@ -3544,7 +3418,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 10.2,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-26"
     },
     {
       "id": "dt-306dd4ea64",
@@ -3634,7 +3508,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 7.4,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-26"
     },
     {
       "id": "dt-0274129e1a",
@@ -3729,7 +3603,7 @@
     {
       "id": "dt-20be0d14ef",
       "series_id": "dt-e9b57d31e5",
-      "title": "Visite guidée de AP Sellerie",
+      "title": "Visite d'entreprise -  AP Sellerie",
       "start": "2026-10-21T14:00",
       "end": "2026-10-21T15:00",
       "location": "6 Rue Georges Guynemer",
@@ -3742,7 +3616,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.7,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-26"
     },
     {
       "id": "dt-13d1c98cd2",
@@ -3869,6 +3743,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.8,
       "last_update": "2026-09-19"
+    },
+    {
+      "id": "dt-ea7aa99386",
+      "series_id": "dt-869e1e0423",
+      "title": "Visite contée : Le tapis magique de la Rivière d'Etel",
+      "start": "2026-10-22T10:30",
+      "end": "2026-10-22T11:30",
+      "location": "Musée des thoniers  -",
+      "city": "Étel",
+      "description": "À travers notre tapis à histoires, embarquez pour une aventure où la rivière d’Étel dévoile ses secrets. Venez écouter l'histoire de Youn, gardien des huîtres sur l'île du Nohic, Firmin le pêcheur qui affronte les tourbillons du Pont Lorois ou le Dr Griffon qui soigne des…",
+      "url": null,
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.8,
+      "last_update": "2026-09-26"
     },
     {
       "id": "dt-9afa1aa1b4",
@@ -4089,7 +3981,7 @@
     {
       "id": "dt-c791a8f5ba",
       "series_id": "dt-8b1a29db00",
-      "title": "Visite guidée de La Miellerie d'Alré",
+      "title": "Visite d'entreprise - La Miellerie d'Alré",
       "start": "2026-10-23T10:00",
       "end": "2026-10-23T11:30",
       "location": "13 Boulevard Anne de Bretagne",
@@ -4102,7 +3994,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.9,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-26"
     },
     {
       "id": "dt-c4ab3d50e4",
@@ -4431,7 +4323,7 @@
     {
       "id": "dt-0612263287",
       "series_id": "dt-8b1a29db00",
-      "title": "Visite guidée de La Miellerie d'Alré",
+      "title": "Visite d'entreprise - La Miellerie d'Alré",
       "start": "2026-10-24T10:00",
       "end": "2026-10-24T11:30",
       "location": "13 Boulevard Anne de Bretagne",
@@ -4444,7 +4336,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.9,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-26"
     },
     {
       "id": "dt-3c72a44c81",
@@ -4643,6 +4535,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 4.0,
       "last_update": "2026-08-13"
+    },
+    {
+      "id": "dt-5dc4fc4d50",
+      "series_id": "dt-1a32be4e73",
+      "title": "Bourse aux jouets et livres",
+      "start": "2026-10-25T10:00",
+      "end": "2026-10-25T17:00",
+      "location": "Salle annexe de la Mairie",
+      "city": "Brech",
+      "description": "Dans sa démarche de protection de l'environnement, MATER'RE vous propose une seconde vie aux jouets, livres et jeux qui ne servent plus tout en faisant plaisir à d'autres familles ! Buvette et petite restauration sur place",
+      "url": null,
+      "category": "marche",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.3,
+      "last_update": "2026-09-26"
     },
     {
       "id": "dt-09080a2793",
@@ -4917,7 +4827,7 @@
     {
       "id": "dt-1d1403ab11",
       "series_id": "dt-8b1a29db00",
-      "title": "Visite guidée de La Miellerie d'Alré",
+      "title": "Visite d'entreprise - La Miellerie d'Alré",
       "start": "2026-10-27T10:00",
       "end": "2026-10-27T11:30",
       "location": "13 Boulevard Anne de Bretagne",
@@ -4930,7 +4840,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.9,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-26"
     },
     {
       "id": "dt-9768a1f570",
@@ -4987,6 +4897,24 @@
       "last_update": "2026-08-28"
     },
     {
+      "id": "dt-580c7dcfe1",
+      "series_id": "dt-e9b57d31e5",
+      "title": "Visite d'entreprise -  AP Sellerie",
+      "start": "2026-10-27T14:00",
+      "end": "2026-10-27T15:00",
+      "location": "6 Rue Georges Guynemer",
+      "city": "Auray",
+      "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
+      "url": "https://semaines-tourisme-economique.bzh/retrouvez-vos-visites-dans-le-morbihan/baie-de-quiberon/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 8.7,
+      "last_update": "2026-09-26"
+    },
+    {
       "id": "dt-026c7edcd5",
       "series_id": "dt-083b6538c9",
       "title": "Visite d'entreprise - Casino Circus",
@@ -5002,24 +4930,6 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.9,
-      "last_update": "2026-09-25"
-    },
-    {
-      "id": "dt-580c7dcfe1",
-      "series_id": "dt-e9b57d31e5",
-      "title": "Visite guidée de AP Sellerie",
-      "start": "2026-10-27T14:00",
-      "end": "2026-10-27T15:00",
-      "location": "6 Rue Georges Guynemer",
-      "city": "Auray",
-      "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
-      "url": "https://semaines-tourisme-economique.bzh/retrouvez-vos-visites-dans-le-morbihan/baie-de-quiberon/",
-      "category": "patrimoine",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.7,
       "last_update": "2026-09-25"
     },
     {
@@ -5151,7 +5061,7 @@
     {
       "id": "dt-4747c8747a",
       "series_id": "dt-8b1a29db00",
-      "title": "Visite guidée de La Miellerie d'Alré",
+      "title": "Visite d'entreprise - La Miellerie d'Alré",
       "start": "2026-10-28T10:00",
       "end": "2026-10-28T11:30",
       "location": "13 Boulevard Anne de Bretagne",
@@ -5164,7 +5074,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.9,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-26"
     },
     {
       "id": "dt-e27d1557e5",
@@ -5489,6 +5399,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.6,
       "last_update": "2026-09-01"
+    },
+    {
+      "id": "dt-52ae42be2f",
+      "series_id": "dt-869e1e0423",
+      "title": "Visite contée : Le tapis magique de la Rivière d'Etel",
+      "start": "2026-10-29T10:30",
+      "end": "2026-10-29T11:30",
+      "location": "Musée des thoniers  -",
+      "city": "Étel",
+      "description": "À travers notre tapis à histoires, embarquez pour une aventure où la rivière d’Étel dévoile ses secrets. Venez écouter l'histoire de Youn, gardien des huîtres sur l'île du Nohic, Firmin le pêcheur qui affronte les tourbillons du Pont Lorois ou le Dr Griffon qui soigne des…",
+      "url": null,
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.8,
+      "last_update": "2026-09-26"
     },
     {
       "id": "dt-caaa3177a9",
@@ -8541,6 +8469,24 @@
       "location": "Cinéma La Rivière",
       "city": "Étel",
       "description": "Vendredi 4 juin 2027 à 20h : \"Le Lac des Cygnes\"",
+      "url": null,
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-09-24"
+    },
+    {
+      "id": "dt-e3f55bda3a",
+      "series_id": "dt-5f1d2c3ce3",
+      "title": "Cycle ballets & opéra : \"Tosca\"",
+      "start": "2027-06-25T20:00",
+      "end": null,
+      "location": "Cinéma La Rivière",
+      "city": "Étel",
+      "description": "Vendredi 25 juin 2027 à 20h : \"Tosca\"",
       "url": null,
       "category": "spectacle",
       "priority": 2,
