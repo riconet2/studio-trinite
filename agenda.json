@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-28T10:59:13Z",
+  "generated_at": "2026-09-29T10:44:13Z",
   "data_updated_at": "2026-09-26",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
@@ -10,9 +10,9 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 471,
+    "total": 468,
     "by_proximity": {
-      "near": 400,
+      "near": 397,
       "immediate": 69,
       "daytrip": 2
     }
@@ -503,60 +503,6 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 10.0,
       "last_update": "2026-09-17"
-    },
-    {
-      "id": "dt-f2da30c96b",
-      "series_id": "dt-fa57efa204",
-      "title": "Terra Initia - Exposition TR'ÂMES",
-      "start": "2026-09-28T10:00",
-      "end": "2026-09-28T12:30",
-      "location": "Galerie Terra Initia",
-      "city": "Carnac",
-      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.0,
-      "last_update": "2026-08-13"
-    },
-    {
-      "id": "dt-57e609cffb",
-      "series_id": "dt-25191fc9c8",
-      "title": "Chantier participatif : construction d'une guinguette",
-      "start": "2026-09-28T14:00",
-      "end": "2026-09-28T18:00",
-      "location": "Stade du Bel Air",
-      "city": "Auray",
-      "description": "Construction de bacs végétalisés et de décorations sur la guinguette du Bel Air",
-      "url": null,
-      "category": "musique",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.0,
-      "last_update": "2026-09-07"
-    },
-    {
-      "id": "dt-2f9c6bd3c9",
-      "series_id": "dt-1c848b6dca",
-      "title": "Séance de Bungypump",
-      "start": "2026-09-28T14:30",
-      "end": "2026-09-28T16:00",
-      "location": null,
-      "city": "Ploemel",
-      "description": "Marche dynamique sport-santé avec bâtons adaptés ponctuée d'exercice de renforcement musculaire, d'équilibre, de proprioception, et de coordination proposé par l'association Balawen 10€ la séance découverte - groupe limité à 9 personnes",
-      "url": null,
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.2,
-      "last_update": "2026-09-25"
     },
     {
       "id": "dt-e6ab0c0c51",
