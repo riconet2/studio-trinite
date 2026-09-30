@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-29T10:44:13Z",
+  "generated_at": "2026-09-30T10:32:17Z",
   "data_updated_at": "2026-09-26",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
@@ -10,10 +10,10 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 468,
+    "total": 466,
     "by_proximity": {
-      "near": 397,
-      "immediate": 69,
+      "near": 396,
+      "immediate": 68,
       "daytrip": 2
     }
   },
@@ -503,42 +503,6 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 10.0,
       "last_update": "2026-09-17"
-    },
-    {
-      "id": "dt-e6ab0c0c51",
-      "series_id": "dt-09b966ff66",
-      "title": "Marché hebdomadaire à La Trinité-sur-Mer",
-      "start": "2026-09-29T08:00",
-      "end": "2026-09-29T13:00",
-      "location": "Place du Voulien",
-      "city": "La Trinité-sur-Mer",
-      "description": "Le marché hebdomadaire se tient le mardi et le vendredi matin de 8h à 13h sur la place du Voulien.",
-      "url": null,
-      "category": "marche",
-      "priority": 1,
-      "proximity": "immediate",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 0.6,
-      "last_update": "2026-01-05"
-    },
-    {
-      "id": "dt-3400c91ce7",
-      "series_id": "dt-83db915db2",
-      "title": "Cercles de femmes",
-      "start": "2026-09-29T20:00",
-      "end": "2026-09-29T22:00",
-      "location": "Maison Saget",
-      "city": "Carnac",
-      "description": "Être pleinement soi demande parfois de traverser le doute et la peur. Et si, dans cet espace bienveillant, on venait partager ce qui fragilise notre confiance ?",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 3.8,
-      "last_update": "2026-09-15"
     },
     {
       "id": "dt-45dcb14afa",
