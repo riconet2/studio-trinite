@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T10:32:17Z",
-  "data_updated_at": "2026-09-26",
+  "generated_at": "2026-10-01T10:59:55Z",
+  "data_updated_at": "2026-09-29",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -10,10 +10,10 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 466,
+    "total": 478,
     "by_proximity": {
-      "near": 396,
-      "immediate": 68,
+      "near": 410,
+      "immediate": 66,
       "daytrip": 2
     }
   },
@@ -37,11 +37,11 @@
       "last_update": "2026-02-12"
     },
     {
-      "id": "dt-45671331cd",
+      "id": "dt-24368f10f1",
       "series_id": "dt-ebd4ef0ea4",
-      "title": "Exposition autour des tableaux de Lucien Pouëdras",
-      "start": "2026-05-18",
-      "end": "2026-11-29",
+      "title": "Exposition - Paysages, mémoires",
+      "start": "2026-05-18T10:00",
+      "end": "2026-11-08T17:00",
       "location": "Ecomusée du Pays d'Auray",
       "city": "Brech",
       "description": "Dans la société paysanne d’avant 1950, les habitant·es avaient conscience de leur dépendance à un territoire nourricier. Les tableaux de Lucien Pouëdras témoignent de ces liens étroits.",
@@ -52,7 +52,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 14.2,
-      "last_update": "2026-06-28"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-de8c541edd",
@@ -71,60 +71,6 @@
       "source_name": "ADT 56",
       "distance_km": 13.4,
       "last_update": "2026-07-20"
-    },
-    {
-      "id": "dt-3a37f34fc7",
-      "series_id": "dt-cc876f8d95",
-      "title": "Exposition - Au rythme du vivant",
-      "start": "2026-06-01",
-      "end": "2026-09-30",
-      "location": "Jardin de l'église Saint-André",
-      "city": "Brech",
-      "description": "Cet été, découvrez l’exposition « Au rythme du vivant » de Tom Le Moing dans le jardin de l’église St-André. Originaire de Brec’h, Tom Le Moing débute la photographie il y a 15 ans. La pratique du surf était son sujet de prédilection initial.",
-      "url": "https://www.brech.fr/agenda/au-rythme-du-vivant/",
-      "category": "culture",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.3,
-      "last_update": "2026-06-22"
-    },
-    {
-      "id": "dt-5c87fca246",
-      "series_id": "dt-0f6a881b6a",
-      "title": "Les Insol!tes",
-      "start": "2026-06-01T08:00",
-      "end": "2026-09-30T23:00",
-      "location": null,
-      "city": "Quiberon",
-      "description": "7ème édition des Insol!tes - exposition collective 13 sculptures monumentales à voir sur Quiberon et Saint-Pierre Quiberon. Elles sont installées sur des lieux publics donc visible à toute heure.",
-      "url": null,
-      "category": "culture",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.0,
-      "last_update": "2026-07-10"
-    },
-    {
-      "id": "dt-b619227f8e",
-      "series_id": "dt-f0098811e6",
-      "title": "Lecture offerte aux enfants",
-      "start": "2026-06-03T10:00",
-      "end": "2026-09-30T11:00",
-      "location": "5 Rue des Menhirs",
-      "city": "Erdeven",
-      "description": "Les enfants sont les bienvenus pour écouter des histoires issues de la collection de la librairie.",
-      "url": null,
-      "category": "culture",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 11.4,
-      "last_update": "2026-07-30"
     },
     {
       "id": "dt-228c5c4b25",
@@ -181,24 +127,6 @@
       "last_update": "2026-08-27"
     },
     {
-      "id": "dt-517022a2cb",
-      "series_id": "dt-d884a081b5",
-      "title": "Exposition « 20 ans de passion maritime »",
-      "start": "2026-06-15",
-      "end": "2026-09-30",
-      "location": "Parc de La Chartreuse",
-      "city": "Brech",
-      "description": "Cet été, le Parc de la Chartreuse accueille l’exposition « 20 ans de passion maritime » qui retrace les 10 dernières éditions de la Semaine du Golfe.",
-      "url": null,
-      "category": "culture",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 11.1,
-      "last_update": "2026-07-21"
-    },
-    {
       "id": "dt-94419f522d",
       "series_id": "dt-f0098811e6",
       "title": "Lecture offerte aux enfants",
@@ -217,24 +145,6 @@
       "last_update": "2026-07-30"
     },
     {
-      "id": "dt-36036d66b2",
-      "series_id": "dt-b8fcc0fb88",
-      "title": "Exposition photos à la Pointe de Kerbihan",
-      "start": "2026-06-20",
-      "end": "2026-09-30",
-      "location": null,
-      "city": "La Trinité-sur-Mer",
-      "description": "L'Association pour la sauvegarde de la Pointe de Kerbihan à 20 ans Pour concrétiser cet événement, une exposition de photos est proposée, avec le soutien de la commune de la Trinité-sur-Mer.",
-      "url": "http://aspkerbihan.fr/",
-      "category": "culture",
-      "priority": 2,
-      "proximity": "immediate",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1,
-      "last_update": "2026-06-23"
-    },
-    {
       "id": "dt-c28797104e",
       "series_id": "dt-f0098811e6",
       "title": "Lecture offerte aux enfants",
@@ -250,42 +160,6 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.4,
-      "last_update": "2026-07-30"
-    },
-    {
-      "id": "dt-84f99a0636",
-      "series_id": "dt-053218d09a",
-      "title": "Les Focales Bretagne Sud",
-      "start": "2026-06-30",
-      "end": "2026-09-30",
-      "location": "Parc de Mané Bogad",
-      "city": "Ploemel",
-      "description": "Les Focales ne feront pas escale à Etel cette année mais l'exposition poursuit sa route grâce à l'accueil chaleureux de trois communes de la Ria : Erdeven, Ploemel et Locoal-Mendon.",
-      "url": "https://www.lesfocalesbretagnesud.com/",
-      "category": "culture",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.4,
-      "last_update": "2026-08-11"
-    },
-    {
-      "id": "dt-0963cdb2d7",
-      "series_id": "dt-fbc00d61d7",
-      "title": "Les Focales Bretagne Sud",
-      "start": "2026-06-30",
-      "end": "2026-09-30",
-      "location": null,
-      "city": "Erdeven",
-      "description": "Les Focales ne feront pas escale à Etel cette année mais l'exposition poursuit sa route grâce à l'accueil chaleureux de trois communes de la Ria : Erdeven, Ploemel et Locoal-Mendon.",
-      "url": "https://www.lesfocalesbretagnesud.com/",
-      "category": "culture",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 11.5,
       "last_update": "2026-07-30"
     },
     {
@@ -505,96 +379,6 @@
       "last_update": "2026-09-17"
     },
     {
-      "id": "dt-45dcb14afa",
-      "series_id": "dt-fa57efa204",
-      "title": "Terra Initia - Exposition TR'ÂMES",
-      "start": "2026-09-30T10:00",
-      "end": "2026-09-30T12:30",
-      "location": "Galerie Terra Initia",
-      "city": "Carnac",
-      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.0,
-      "last_update": "2026-08-13"
-    },
-    {
-      "id": "dt-d64faa7b2e",
-      "series_id": "dt-ffe07092ee",
-      "title": "Visite guidée \"À la découverte de la Ria d'Etel\"",
-      "start": "2026-09-30T10:00",
-      "end": "2026-09-30T12:00",
-      "location": "Office de tourisme d'Etel",
-      "city": "Étel",
-      "description": "10h - 12h, chaque mercredi : Petite promenade sur les hauteurs de la \"falaise\" d'Etel afin de faire connaissance avec la Ria : sa nature, sa barre, ses courants, ses activités ancestrales ... Durée : 2 heures. Distance : environ 2 km.",
-      "url": null,
-      "category": "patrimoine",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.6,
-      "last_update": "2026-08-25"
-    },
-    {
-      "id": "dt-b2b2765c79",
-      "series_id": "dt-e58480b034",
-      "title": "Atelier Cuisinons dans les rues",
-      "start": "2026-09-30T10:00",
-      "end": "2026-09-30T14:00",
-      "location": "Guinguette du Bel Air",
-      "city": "Auray",
-      "description": "Atelier de cuisine autour de produits locaux et de saison. Venez y rencontrer une diététicienne",
-      "url": null,
-      "category": "gastronomie",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.0,
-      "last_update": "2026-09-07"
-    },
-    {
-      "id": "dt-bd78b7296e",
-      "series_id": "dt-e06e68ef84",
-      "title": "Séance photo découverte",
-      "start": "2026-09-30T19:30",
-      "end": null,
-      "location": "lieu communiqué à la réservation",
-      "city": "Carnac",
-      "description": "Mini-séance photo \"aquatique\" au coucher du soleil Faites l'expérience d'une mise en lumière naturelle, sensible et immersive, sur la plage ou dans l’eau, à la lumière douce du coucher de soleil.",
-      "url": null,
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.1,
-      "last_update": "2026-09-17"
-    },
-    {
-      "id": "dt-b27f5d8e7e",
-      "series_id": "dt-c2b378c5ff",
-      "title": "Kevin, avec Arnaud Hoedt et Jérôme Piron / Cie Chantal & Bernadette",
-      "start": "2026-09-30T20:30",
-      "end": "2026-09-30T22:00",
-      "location": "La Vigie",
-      "city": "La Trinité-sur-Mer",
-      "description": "Pourquoi Diane a-t-elle plus de chances d’avoir le bac que Kevin ? Avec un peu d’Histoire, beaucoup de sociologie et énormément d’humour, deux anciens enseignants, dynamitent les idées reçues sur l’école et les inégalités sociales.",
-      "url": "https://www.auray.fr/culture-loisirs/centre-culturel-athena/saison-2026-2027/les-spectacles-de-la-saison-26-27/kevin",
-      "category": "musique",
-      "priority": 1,
-      "proximity": "immediate",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1,
-      "last_update": "2026-09-04"
-    },
-    {
       "id": "dt-7c51c89c3e",
       "series_id": "dt-ee23c5186c",
       "title": "Fête de la science : Exposition Bivouac des Sciences",
@@ -610,7 +394,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-e175847a44",
@@ -628,7 +412,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.2,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-7a93e990e4",
@@ -790,7 +574,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.9,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-1714797d8d",
@@ -844,7 +628,7 @@
       "source": "DATAtourisme",
       "source_name": "CRT Bretagne_",
       "distance_km": 4.1,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-9b144ee324",
@@ -880,7 +664,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.2,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-91bacceacd",
@@ -916,7 +700,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-e9427b2636",
@@ -934,7 +718,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-81c6f7e1c8",
@@ -952,7 +736,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-35823f6d84",
@@ -970,7 +754,25 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-90ac0e1e10",
+      "series_id": "dt-a7c6396d76",
+      "title": "Au fil des chemins creux",
+      "start": "2026-10-03T15:00",
+      "end": null,
+      "location": "Marais et landes de Brahen",
+      "city": "Ploemel",
+      "description": "Programme Morbihan Grandeur Nature : Venez découvrir le patrimoine naturel du Morbihan en participant aux animations nature gratuites pour tous, enfants, familles, petits et grands ! A Ploemel, chemins creux, vieux arbres, plantes oubliées et histoires de paysans d’autrefois.",
+      "url": null,
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 8.2,
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-660ac13bac",
@@ -988,7 +790,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.5,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-4c8342fe65",
@@ -1006,7 +808,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-b4d47c882f",
@@ -1060,7 +862,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.9,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-d3b59be290",
@@ -1078,7 +880,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.2,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-80fb0b764b",
@@ -1168,7 +970,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-e6a6741df9",
@@ -1189,22 +991,40 @@
       "last_update": "2026-05-30"
     },
     {
-      "id": "dt-9e4a87e24e",
-      "series_id": "dt-e9e221967b",
-      "title": "Les Aprèms Ludiques !",
+      "id": "dt-f527a230b8",
+      "series_id": "dt-6e20c4634a",
+      "title": "Aprèm Ti Ludique",
       "start": "2026-10-04T14:00",
       "end": "2026-10-04T18:00",
-      "location": "derrière la salle de sport du Groëz-Ven",
+      "location": "Salle Kolibri",
       "city": "Ploemel",
-      "description": "Oyez, oyez ! C’est l'heure de faire chauffer les méninges, de tester vos meilleures stratégies et d'échanger quelques beaux fous rires ! Notre mission : faire vivre le jeu sous toutes ses formes : jeux de société, jeux de rôle et animations familiales.",
-      "url": "http://www.tiludique.fr/",
+      "description": "C'est parti pour Ti Ludique Une nouvelle association de jeux de société, de jeux de rôle et d'animations culturelles débarque dans la commune. Pourquoi ?",
+      "url": "https://www.tiludique.fr/pages/evenements.html",
       "category": "plein_air",
       "priority": 2,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.2,
-      "last_update": "2026-09-07"
+      "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-92fb7f48db",
+      "series_id": "dt-1d94dda354",
+      "title": "Marche énergétique Qi Gong",
+      "start": "2026-10-04T14:00",
+      "end": "2026-10-04T16:00",
+      "location": "Lieu de rdv communiqué à l'inscription",
+      "city": "Erdeven",
+      "description": "Marches XI XI Fu, sur-oxygénation et phytoncides des arbres boostent l'immunité dans la fôret du Varquès / chaise de César et le site de Kerzerho Inscription auprès d'Isabelle Leblond au : 06 38 42 09 82",
+      "url": null,
+      "category": "marche",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 11.5,
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-dd5f2ffb05",
@@ -1222,7 +1042,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-bfdc53be1e",
@@ -1258,7 +1078,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.7,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-e43988aae5",
@@ -1402,7 +1222,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 4.1,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-0c6f645b09",
@@ -1412,7 +1232,7 @@
       "end": null,
       "location": "Cinéma La Rivière",
       "city": "Étel",
-      "description": "A l'occasion de la Fête de la science du 4 au 10 octobre, venez découvrir les Dessous de la Ria. Dans les eaux changeantes de l'Atlantique et de la Manche, la seiche commune (Sepia officinalis) mène une existence aussi brève qu'intense.",
+      "description": "A l'occasion de la Fête de la science du 4 au 10 octobre, venez découvrir les Dessous de la Ria. Suivez Sépia dans son odyssée ! “Au fil de son exploration de l'océan, Sépia se retrouve plongée au cœur d'une grande migration d'animaux marins dans un voyage haut en couleur qui…",
       "url": null,
       "category": "spectacle",
       "priority": 2,
@@ -1420,7 +1240,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-2ef566cf2d",
@@ -1510,7 +1330,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.2,
-      "last_update": "2026-09-21"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-eb7b27af04",
@@ -1528,7 +1348,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.2,
-      "last_update": "2026-09-21"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-cb73c10482",
@@ -1567,22 +1387,22 @@
       "last_update": "2026-04-30"
     },
     {
-      "id": "dt-d96e6add9e",
-      "series_id": "dt-ebf7caf90a",
+      "id": "dt-0715140539",
+      "series_id": "dt-da68610b4e",
       "title": "Soirée jeux de société",
       "start": "2026-10-09T20:00",
-      "end": "2026-10-09T22:00",
-      "location": "Médiathèque Terraqué",
+      "end": "2026-10-09T22:30",
+      "location": "Espace Culturel Terraqué",
       "city": "Carnac",
-      "description": "Public: ado, adulte, sénior pour partager un moment ludique et convivial ! Gratuit – en accès libre",
-      "url": "https://mediatheques-terre-atlantique.fr/node/content/nid/545463",
+      "description": "Pour partager un moment ludique et convivial ! Gratuit – en accès libre Public ado/adulte : à partir de 12 ans",
+      "url": "http://www.terraque.fr/",
       "category": "plein_air",
       "priority": 2,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.1,
-      "last_update": "2026-09-23"
+      "distance_km": 3.7,
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-160900a90c",
@@ -1600,7 +1420,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-3e9ef4df93",
@@ -1636,7 +1456,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-b8804371e1",
@@ -1654,7 +1474,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.7,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-edf694d897",
@@ -1708,7 +1528,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-3d2e7135b0",
@@ -1729,24 +1549,6 @@
       "last_update": "2026-08-13"
     },
     {
-      "id": "dt-b075c3b18c",
-      "series_id": "dt-71ff6d2332",
-      "title": "Rencontre musicale",
-      "start": "2026-10-10T10:30",
-      "end": "2026-10-10T11:30",
-      "location": "Espace culturel Terraqué",
-      "city": "Carnac",
-      "description": "Découverte et initiation au didgeridoo Venez à la rencontre de Karl, musicien et conteur. Il vous fera découvrir l'histoire de cet instrument aborigène et vous initiera à sa technique. Réservation conseillée avant le samedi 10 octobre Tout public",
-      "url": null,
-      "category": "musique",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.1,
-      "last_update": "2026-09-23"
-    },
-    {
       "id": "dt-9ea0c943ee",
       "series_id": "dt-79c7817d3e",
       "title": "Picto Néo !",
@@ -1762,7 +1564,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-182a418809",
@@ -1798,7 +1600,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-560e1b6b2f",
@@ -1816,7 +1618,25 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-073947a65e",
+      "series_id": "dt-71ff6d2332",
+      "title": "Rencontre musicale",
+      "start": "2026-10-10T15:00",
+      "end": null,
+      "location": "Espace culturel Terraqué",
+      "city": "Carnac",
+      "description": "À 15h Découverte et initiation au didgeridoo Venez à la rencontre de Karl, musicien et conteur. Il vous fera découvrir l'histoire de cet instrument aborigène et vous initiera à sa technique. Réservation conseillée avant le samedi 10 octobre Tout public",
+      "url": null,
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.1,
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-be01f3958b",
@@ -1870,7 +1690,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-9ffc2c6772",
@@ -1888,7 +1708,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-c9f64b159c",
@@ -1906,7 +1726,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.2,
-      "last_update": "2026-09-21"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-2e86893498",
@@ -1942,7 +1762,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.2,
-      "last_update": "2026-09-21"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-03a9699520",
@@ -1978,7 +1798,25 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-c4d8991a5e",
+      "series_id": "dt-1d94dda354",
+      "title": "Marche énergétique Qi Gong",
+      "start": "2026-10-11T14:00",
+      "end": "2026-10-11T16:00",
+      "location": "Lieu de rdv communiqué à l'inscription",
+      "city": "Erdeven",
+      "description": "Marches XI XI Fu, sur-oxygénation et phytoncides des arbres boostent l'immunité dans la fôret du Varquès / chaise de César et le site de Kerzerho Inscription auprès d'Isabelle Leblond au : 06 38 42 09 82",
+      "url": null,
+      "category": "marche",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 11.5,
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-3a1cae1734",
@@ -1996,7 +1834,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-4c25d29061",
@@ -2032,7 +1870,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-25d425e577",
@@ -2068,7 +1906,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-7b418659dc",
@@ -2104,7 +1942,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.7,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-a56335b271",
@@ -2143,6 +1981,24 @@
       "last_update": "2026-08-13"
     },
     {
+      "id": "dt-7de847b439",
+      "series_id": "dt-e2cfe2ac5e",
+      "title": "Balade contée au bord du Loch",
+      "start": "2026-10-14T15:00",
+      "end": "2026-10-14T17:00",
+      "location": "Chapelle Saint-Jacques",
+      "city": "Brech",
+      "description": "Partez pour une balade contée entre rives, landes et sentiers boisés, à la découverte des paysages de la vallée du Loc’h. Laissez-vous emporter par des histoires d’arbres, les murmures de l’eau et d’autres secrets. Sur réservation Rendez-vous à la Chapelle Saint Jacques à BREC’H",
+      "url": null,
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-09-29"
+    },
+    {
       "id": "dt-d32179004c",
       "series_id": "dt-bc785e088f",
       "title": "Le chantier des collections",
@@ -2176,7 +2032,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.6,
-      "last_update": "2026-09-17"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-be34a402a8",
@@ -2213,6 +2069,24 @@
       "source_name": "ADT 56",
       "distance_km": 4.0,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-eab46ee68b",
+      "series_id": "dt-88f312e507",
+      "title": "Jouons avec les livres !",
+      "start": "2026-10-15T10:30",
+      "end": null,
+      "location": "6 Rue d'Aboville",
+      "city": "Crach",
+      "description": "Reprenons le chemin des livres et jeux de lecture avec les plus jeunes enfants. Ces séances sont dédiées au enfants de 3 mois à 2 ans, avec parents, grands-parents et assistantes maternelles. Gratuit sur inscription",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.0,
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-2ba9f725f0",
@@ -2356,7 +2230,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 12.0,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-3e19a3ee15",
@@ -2446,7 +2320,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-8cce819ceb",
@@ -2464,7 +2338,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-5d4ba5a020",
@@ -2554,7 +2428,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-55a2bd5dee",
@@ -2572,7 +2446,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 14.3,
-      "last_update": "2026-09-17"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-2bfa223e2a",
@@ -2608,7 +2482,25 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-482bcae131",
+      "series_id": "dt-50bd3d9eed",
+      "title": "Visite guidée de l'exposition de peinture d'Olga KATAEVA-ROCHFORD par l'artiste !",
+      "start": "2026-10-17T14:30",
+      "end": "2026-10-17T16:00",
+      "location": "3 impasse Jean Bart",
+      "city": "Étel",
+      "description": "Visite guidée de l'exposition de peinture d'Olga Kataeva-Rochford par l'artiste! Olga vous fera entrer dans son univers, entre paysages maritimes, lumière, mouvement et émotions.",
+      "url": null,
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 15.8,
+      "last_update": "2026-09-28"
     },
     {
       "id": "dt-b2268f0991",
@@ -2626,7 +2518,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.8,
-      "last_update": "2026-09-26"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-9902ca9b3c",
@@ -2680,7 +2572,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-34a1746b4f",
@@ -2734,7 +2626,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.4,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-02c94cb597",
@@ -2770,7 +2662,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 14.3,
-      "last_update": "2026-09-17"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-6189844dbf",
@@ -2788,7 +2680,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.8,
-      "last_update": "2026-09-26"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-a945014a59",
@@ -2824,7 +2716,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-47ae191649",
@@ -2842,7 +2734,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.2,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-02e10d266f",
@@ -2860,7 +2752,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.6,
-      "last_update": "2026-09-17"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-83389ed933",
@@ -2878,7 +2770,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-c248c998eb",
@@ -2950,7 +2842,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-305d5862f8",
@@ -3014,7 +2906,7 @@
       "end": null,
       "location": "Route des Alignements",
       "city": "Carnac",
-      "description": "Tous les lundis, mercredis et vendredis jusqu'au 21 août à 14h30 Devenez apprenti bâtisseur du Néolithique pour percer les secrets de construction des menhirs.",
+      "description": "Devenez apprenti bâtisseur du Néolithique pour percer les secrets de construction des menhirs. Après la visite guidée des Alignements et du dolmen de Kermario, expérimentez plusieurs techniques archéo-compatibles de déplacement et de levage de mégalithes.",
       "url": "https://www.menhirs-carnac.fr/",
       "category": "patrimoine",
       "priority": 3,
@@ -3022,7 +2914,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-28"
     },
     {
       "id": "dt-7d00b489f5",
@@ -3058,7 +2950,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 2.4,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-9534281b3a",
@@ -3076,7 +2968,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-4a64cadbd1",
@@ -3112,7 +3004,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-c405476861",
@@ -3173,10 +3065,10 @@
       "series_id": "dt-0bf3311ea1",
       "title": "De la pomme au jus",
       "start": "2026-10-20T10:00",
-      "end": "2026-10-27",
+      "end": "2026-10-20T12:00",
       "location": "Verger conservatoire de Saint-Dégan",
       "city": "Brech",
-      "description": "Animation proposée par Morbihan Grandeur Nature - Observer la Nature de plus près - Venez vivre un moment convivial au verger : ramassage des pommes, pressage traditionnel et dégustation d’un jus frais, fait ensemble. Réservation par téléphone",
+      "description": "Animation proposée par Morbihan Grandeur Nature - Initiation au breton du pressage de pommes - Venez vivre un moment convivial au verger : ramassage des pommes, pressage traditionnel et dégustation d’un jus frais, fait ensemble. Réservation par téléphone",
       "url": "https://www.morbihan.fr/nos-actions/environnement-le-departement-un-acteur-engage/le-patrimoine-naturel-morbihannais/le-programme-morbihan-grandeur-nature",
       "category": "plein_air",
       "priority": 2,
@@ -3184,7 +3076,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 14.1,
-      "last_update": "2026-04-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-6bf3fd5caf",
@@ -3220,7 +3112,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-9671fc08bf",
@@ -3238,7 +3130,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 10.2,
-      "last_update": "2026-09-26"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-107f6188ef",
@@ -3257,6 +3149,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
       "last_update": "2026-09-23"
+    },
+    {
+      "id": "dt-8622b9ee39",
+      "series_id": "dt-0bf3311ea1",
+      "title": "De la pomme au jus",
+      "start": "2026-10-20T14:00",
+      "end": "2026-10-20T16:00",
+      "location": "Verger conservatoire de Saint-Dégan",
+      "city": "Brech",
+      "description": "Animation proposée par Morbihan Grandeur Nature - Initiation au breton du pressage de pommes - Venez vivre un moment convivial au verger : ramassage des pommes, pressage traditionnel et dégustation d’un jus frais, fait ensemble. Réservation par téléphone",
+      "url": "https://www.morbihan.fr/nos-actions/environnement-le-departement-un-acteur-engage/le-patrimoine-naturel-morbihannais/le-programme-morbihan-grandeur-nature",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 14.1,
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-cf3b18f881",
@@ -3310,7 +3220,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.7,
-      "last_update": "2026-09-26"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-3abc8da069",
@@ -3328,7 +3238,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 10.2,
-      "last_update": "2026-09-26"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-306dd4ea64",
@@ -3346,7 +3256,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 4.4,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-79b079491d",
@@ -3364,7 +3274,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-ad1070dcda",
@@ -3400,7 +3310,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-719320a009",
@@ -3418,7 +3328,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 7.4,
-      "last_update": "2026-09-26"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-0274129e1a",
@@ -3526,7 +3436,43 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.7,
-      "last_update": "2026-09-26"
+      "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-2f7bb6df5a",
+      "series_id": "dt-7fc35b4599",
+      "title": "Animation jeux de société thématique maritime",
+      "start": "2026-10-21T14:30",
+      "end": "2026-10-21T17:30",
+      "location": "3 impasse Jean Bart",
+      "city": "Étel",
+      "description": "Embarquez pour une aventure maritime ludique au Musée des Thoniers d’Etel ! Notre collection de jeux de société à thématique maritime attend les petits moussaillons dès 3 ans et leurs familles. Naviguez d’un jeu à l’autre, entourés de l’histoire fascinante des thoniers.",
+      "url": null,
+      "category": "nautique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 15.8,
+      "last_update": "2026-09-28"
+    },
+    {
+      "id": "dt-7206e53adb",
+      "series_id": "dt-a826ee35e5",
+      "title": "Jeux de société thématique marine",
+      "start": "2026-10-21T14:30",
+      "end": "2026-10-21T17:30",
+      "location": "Musée des Thonniers -",
+      "city": "Étel",
+      "description": "Animation jeux de société au Musée des Thoniers. 14h30 - 17h30 : Après-midi ludo-éducative avec jeux de société, cherche et trouve, coloriages et autres amusements à la découverte des océans et de nos côtes. Entre copains ou en famille, il y en aura pour tous les goûts !",
+      "url": "http://www.museedesthoniers.fr/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.8,
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-13d1c98cd2",
@@ -3562,7 +3508,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-17"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-e64d5b39f9",
@@ -3670,7 +3616,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.8,
-      "last_update": "2026-09-26"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-9afa1aa1b4",
@@ -3688,7 +3634,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-24c8737888",
@@ -3724,7 +3670,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-83733228a1",
@@ -3796,7 +3742,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.6,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-a6485a3079",
@@ -3815,6 +3761,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.5,
       "last_update": "2026-09-07"
+    },
+    {
+      "id": "dt-dd64ad7578",
+      "series_id": "dt-fe8e3c53a8",
+      "title": "Halloween au parc Forêt Adrénaline",
+      "start": "2026-10-23",
+      "end": null,
+      "location": "Impasse du Hahon",
+      "city": "Carnac",
+      "description": "Pendant les vacances de la Toussaint, le parc est ouvert tous les jours ! Et cette année, on revient avec encore plus de surprises… 🌙 5 Nocturnes Halloween vous attendent les 23, 24, 29, 30 et 31 octobre.",
+      "url": "https://www.foretadrenaline.com/carnac",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 7.4,
+      "last_update": "2026-09-28"
     },
     {
       "id": "dt-dd0c058722",
@@ -3850,7 +3814,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 6.3,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-3debacf21e",
@@ -3868,7 +3832,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-058f0a6acc",
@@ -3932,7 +3896,7 @@
       "end": null,
       "location": "Route des Alignements",
       "city": "Carnac",
-      "description": "Tous les lundis, mercredis et vendredis jusqu'au 21 août à 14h30 Devenez apprenti bâtisseur du Néolithique pour percer les secrets de construction des menhirs.",
+      "description": "Devenez apprenti bâtisseur du Néolithique pour percer les secrets de construction des menhirs. Après la visite guidée des Alignements et du dolmen de Kermario, expérimentez plusieurs techniques archéo-compatibles de déplacement et de levage de mégalithes.",
       "url": "https://www.menhirs-carnac.fr/",
       "category": "patrimoine",
       "priority": 3,
@@ -3940,7 +3904,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-28"
     },
     {
       "id": "dt-e1e49718df",
@@ -3958,7 +3922,25 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 6.3,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-082028ae32",
+      "series_id": "dt-069bc63c39",
+      "title": "Entre ciel et dune : les oiseaux de la roche sèche",
+      "start": "2026-10-23T14:00",
+      "end": null,
+      "location": "La Roche sèche -",
+      "city": "Erdeven",
+      "description": "Ouvrez grand les yeux ! À l’automne et en hiver, les plages d’Erdeven accueillent de nombreux oiseaux venus du Nord. Sternes, goélands, bécasseaux, gravelots, pluviers… Que viennent-ils chercher sur nos plages ? D’où arrivent-ils ? Et comment se nourrissent ils ?",
+      "url": "https://gavres-quiberon.fr/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 11.4,
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-f2f45562de",
@@ -3976,7 +3958,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-6ca7c2ff08",
@@ -3994,7 +3976,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 6.3,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-b4de17d69a",
@@ -4048,7 +4030,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-f4d138bf4e",
@@ -4120,7 +4102,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.5,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-3f71131a3b",
@@ -4156,7 +4138,25 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-d7125a5125",
+      "series_id": "dt-fe8e3c53a8",
+      "title": "Halloween au parc Forêt Adrénaline",
+      "start": "2026-10-24",
+      "end": null,
+      "location": "Impasse du Hahon",
+      "city": "Carnac",
+      "description": "Pendant les vacances de la Toussaint, le parc est ouvert tous les jours ! Et cette année, on revient avec encore plus de surprises… 🌙 5 Nocturnes Halloween vous attendent les 23, 24, 29, 30 et 31 octobre.",
+      "url": "https://www.foretadrenaline.com/carnac",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 7.4,
+      "last_update": "2026-09-28"
     },
     {
       "id": "dt-ff416f4ebd",
@@ -4192,7 +4192,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-17"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-d6de9303ae",
@@ -4264,7 +4264,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-38d32d7e23",
@@ -4300,7 +4300,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-0b7289d42b",
@@ -4336,7 +4336,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-29862811fa",
@@ -4426,7 +4426,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 14.6,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-3bf45411af",
@@ -4462,7 +4462,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.3,
-      "last_update": "2026-09-26"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-09080a2793",
@@ -4480,7 +4480,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-d6932607e3",
@@ -4516,7 +4516,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-e53a376272",
@@ -4570,7 +4570,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.5,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-049d537232",
@@ -4634,7 +4634,7 @@
       "end": null,
       "location": "Route des Alignements",
       "city": "Carnac",
-      "description": "Tous les lundis, mercredis et vendredis jusqu'au 21 août à 14h30 Devenez apprenti bâtisseur du Néolithique pour percer les secrets de construction des menhirs.",
+      "description": "Devenez apprenti bâtisseur du Néolithique pour percer les secrets de construction des menhirs. Après la visite guidée des Alignements et du dolmen de Kermario, expérimentez plusieurs techniques archéo-compatibles de déplacement et de levage de mégalithes.",
       "url": "https://www.menhirs-carnac.fr/",
       "category": "patrimoine",
       "priority": 3,
@@ -4642,7 +4642,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-28"
     },
     {
       "id": "dt-dd41b063ed",
@@ -4660,7 +4660,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 2.4,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-c59734697f",
@@ -4678,7 +4678,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-bd3f45100e",
@@ -4732,7 +4732,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-1d1403ab11",
@@ -4822,7 +4822,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.7,
-      "last_update": "2026-09-26"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-026c7edcd5",
@@ -4858,7 +4858,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 4.4,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-435a691c92",
@@ -4894,7 +4894,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-dc3459becf",
@@ -5020,7 +5020,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-b4dabed98d",
@@ -5059,6 +5059,24 @@
       "last_update": "2026-09-25"
     },
     {
+      "id": "dt-10455824c8",
+      "series_id": "dt-a826ee35e5",
+      "title": "Jeux de société thématique marine",
+      "start": "2026-10-28T14:30",
+      "end": "2026-10-28T17:30",
+      "location": "Musée des Thonniers -",
+      "city": "Étel",
+      "description": "Animation jeux de société au Musée des Thoniers. 14h30 - 17h30 : Après-midi ludo-éducative avec jeux de société, cherche et trouve, coloriages et autres amusements à la découverte des océans et de nos côtes. Entre copains ou en famille, il y en aura pour tous les goûts !",
+      "url": "http://www.museedesthoniers.fr/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.8,
+      "last_update": "2026-09-29"
+    },
+    {
       "id": "dt-4c93387e81",
       "series_id": "dt-2193289823",
       "title": "Visite flash \"Les bretons face aux géants de pierre\"",
@@ -5074,7 +5092,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-d2ee37b35f",
@@ -5236,7 +5254,25 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-7d2c628b9b",
+      "series_id": "dt-fe8e3c53a8",
+      "title": "Halloween au parc Forêt Adrénaline",
+      "start": "2026-10-29",
+      "end": null,
+      "location": "Impasse du Hahon",
+      "city": "Carnac",
+      "description": "Pendant les vacances de la Toussaint, le parc est ouvert tous les jours ! Et cette année, on revient avec encore plus de surprises… 🌙 5 Nocturnes Halloween vous attendent les 23, 24, 29, 30 et 31 octobre.",
+      "url": "https://www.foretadrenaline.com/carnac",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 7.4,
+      "last_update": "2026-09-28"
     },
     {
       "id": "dt-06c91a86df",
@@ -5326,7 +5362,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.8,
-      "last_update": "2026-09-26"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-caaa3177a9",
@@ -5344,7 +5380,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-2c2b57331f",
@@ -5383,6 +5419,24 @@
       "last_update": "2026-09-22"
     },
     {
+      "id": "dt-f4a79cd6c4",
+      "series_id": "dt-0b3730688c",
+      "title": "Animation jeux de société thématique maritime",
+      "start": "2026-10-29T14:30",
+      "end": "2026-10-29T17:30",
+      "location": "3 impasse Jean Bart",
+      "city": "Étel",
+      "description": "Embarquez pour une aventure maritime ludique au Musée des Thoniers d’Etel ! Notre collection de jeux de société à thématique maritime attend les petits moussaillons dès 3 ans et leurs familles. Naviguez d’un jeu à l’autre, entourés de l’histoire fascinante des thoniers.",
+      "url": null,
+      "category": "nautique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 15.8,
+      "last_update": "2026-09-28"
+    },
+    {
       "id": "dt-01ca387710",
       "series_id": "dt-2193289823",
       "title": "Visite flash \"Les bretons face aux géants de pierre\"",
@@ -5398,7 +5452,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-890164c8e9",
@@ -5455,6 +5509,24 @@
       "last_update": "2026-09-23"
     },
     {
+      "id": "dt-d4bddc453b",
+      "series_id": "dt-fe8e3c53a8",
+      "title": "Halloween au parc Forêt Adrénaline",
+      "start": "2026-10-30",
+      "end": null,
+      "location": "Impasse du Hahon",
+      "city": "Carnac",
+      "description": "Pendant les vacances de la Toussaint, le parc est ouvert tous les jours ! Et cette année, on revient avec encore plus de surprises… 🌙 5 Nocturnes Halloween vous attendent les 23, 24, 29, 30 et 31 octobre.",
+      "url": "https://www.foretadrenaline.com/carnac",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 7.4,
+      "last_update": "2026-09-28"
+    },
+    {
       "id": "dt-6d8a26d2dd",
       "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
@@ -5488,7 +5560,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-1b139b1af3",
@@ -5506,7 +5578,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-b061b74f6a",
@@ -5534,7 +5606,7 @@
       "end": null,
       "location": "Route des Alignements",
       "city": "Carnac",
-      "description": "Tous les lundis, mercredis et vendredis jusqu'au 21 août à 14h30 Devenez apprenti bâtisseur du Néolithique pour percer les secrets de construction des menhirs.",
+      "description": "Devenez apprenti bâtisseur du Néolithique pour percer les secrets de construction des menhirs. Après la visite guidée des Alignements et du dolmen de Kermario, expérimentez plusieurs techniques archéo-compatibles de déplacement et de levage de mégalithes.",
       "url": "https://www.menhirs-carnac.fr/",
       "category": "patrimoine",
       "priority": 3,
@@ -5542,7 +5614,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-28"
     },
     {
       "id": "dt-ecb8b626a5",
@@ -5560,7 +5632,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-8396eee239",
@@ -5653,6 +5725,24 @@
       "last_update": "2026-09-25"
     },
     {
+      "id": "dt-19940377ff",
+      "series_id": "dt-fe8e3c53a8",
+      "title": "Halloween au parc Forêt Adrénaline",
+      "start": "2026-10-31",
+      "end": null,
+      "location": "Impasse du Hahon",
+      "city": "Carnac",
+      "description": "Pendant les vacances de la Toussaint, le parc est ouvert tous les jours ! Et cette année, on revient avec encore plus de surprises… 🌙 5 Nocturnes Halloween vous attendent les 23, 24, 29, 30 et 31 octobre.",
+      "url": "https://www.foretadrenaline.com/carnac",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 7.4,
+      "last_update": "2026-09-28"
+    },
+    {
       "id": "dt-640b310e5f",
       "series_id": "dt-fd5b2ac21d",
       "title": "Marché hebdomadaire de Quiberon",
@@ -5704,7 +5794,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-674bb31b47",
@@ -5722,7 +5812,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-2f2de37b5b",
@@ -5804,7 +5894,7 @@
       "end": null,
       "location": "Cours des Quais",
       "city": "La Trinité-sur-Mer",
-      "description": "Initialement prévu le 15 août dernier, le feu d'artifice est finalement reporté au : 📅 Samedi 31 octobre, dans le cadre du Festival Trini'Kids 🕢 à 19h00 📍 Sur les quais de La Trinité-sur-Mer Le programme des animations du Festival Trini'Kids (du 19 au 31 octobre), destiné aux…",
+      "description": "Initialement prévu le 15 août dernier, le feu d'artifice est finalement reporté au 31 octobre, dans le cadre du Festival Trini'Kids, sur les quais de La Trinité-sur-Mer Le programme des animations du Festival Trini'Kids (du 19 au 31 octobre), destiné aux enfants de 4 à 15 ans…",
       "url": "https://www.latrinitesurmer.fr/agenda/%E2%97%BE-feu-dartifice-du-festival-trinikids/",
       "category": "spectacle",
       "priority": 1,
@@ -5812,7 +5902,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
-      "last_update": "2026-09-07"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-d54f710dc2",
@@ -5884,7 +5974,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.2,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-c87304811b",
@@ -5902,7 +5992,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-c234a366c6",
@@ -6154,7 +6244,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
-      "last_update": "2026-09-17"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-49f031c1c4",
@@ -6262,7 +6352,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-46f8037442",
@@ -6317,6 +6407,24 @@
       "source_name": "ADT 56",
       "distance_km": 4.0,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-5c1c1e13a8",
+      "series_id": "dt-88f312e507",
+      "title": "Jouons avec les livres !",
+      "start": "2026-11-12T10:30",
+      "end": null,
+      "location": "6 Rue d'Aboville",
+      "city": "Crach",
+      "description": "Reprenons le chemin des livres et jeux de lecture avec les plus jeunes enfants. Ces séances sont dédiées au enfants de 3 mois à 2 ans, avec parents, grands-parents et assistantes maternelles. Gratuit sur inscription",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.0,
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-25972b1c53",
@@ -6388,7 +6496,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-41387760e2",
@@ -6424,7 +6532,25 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-85a2cb8418",
+      "series_id": "dt-304d85032d",
+      "title": "Yoga : Stabiliser, ancrer nos fondations dans la terre",
+      "start": "2026-11-14T15:00",
+      "end": "2026-11-14T16:15",
+      "location": "12 rue des Menhirs",
+      "city": "Erdeven",
+      "description": "Dans un quotidien rythmé par la course, la performance et le « toujours plus », accordez-vous une pause pour ralentir, respirer et vous reconnecter à vous-même. À travers cinq séances de Hatha Yoga, partez à la recherche de votre juste équilibre.",
+      "url": null,
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 11.3,
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-84a912e9a6",
@@ -6478,7 +6604,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.2,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-1b96b7f694",
@@ -6802,7 +6928,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-6dc72e85bd",
@@ -6964,7 +7090,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-7dc2ec92fd",
@@ -7126,7 +7252,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-999a0c038b",
@@ -7273,6 +7399,24 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-d720d1e54e",
+      "series_id": "dt-fad74bd9d4",
+      "title": "Yoga : Equilibrer les forces et les polarités",
+      "start": "2026-12-12T15:00",
+      "end": "2026-12-12T16:15",
+      "location": "12 rue des Menhirs",
+      "city": "Erdeven",
+      "description": "Dans un quotidien rythmé par la course, la performance et le « toujours plus », accordez-vous une pause pour ralentir, respirer et vous reconnecter à vous-même. À travers cinq séances de Hatha Yoga, partez à la recherche de votre juste équilibre.",
+      "url": null,
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 11.2,
+      "last_update": "2026-09-29"
+    },
+    {
       "id": "dt-0eaae7d55f",
       "series_id": "dt-3ac4924e73",
       "title": "Fest Deiz",
@@ -7325,6 +7469,24 @@
       "source_name": "ADT 56",
       "distance_km": 4.0,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-d55d49d635",
+      "series_id": "dt-88f312e507",
+      "title": "Jouons avec les livres !",
+      "start": "2026-12-17T10:30",
+      "end": null,
+      "location": "6 Rue d'Aboville",
+      "city": "Crach",
+      "description": "Reprenons le chemin des livres et jeux de lecture avec les plus jeunes enfants. Ces séances sont dédiées au enfants de 3 mois à 2 ans, avec parents, grands-parents et assistantes maternelles. Gratuit sur inscription",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.0,
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-08faff9379",
@@ -7396,7 +7558,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
-      "last_update": "2026-09-23"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-fdc41dfb75",
@@ -7504,7 +7666,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-fa413e801e",
@@ -7684,7 +7846,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-01a550bcaa",
@@ -7703,6 +7865,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 10.0,
       "last_update": "2026-09-17"
+    },
+    {
+      "id": "dt-c5ed7e5f9d",
+      "series_id": "dt-5f7411dc82",
+      "title": "Yoga : Habiter les pleins et les vides",
+      "start": "2027-01-30T15:00",
+      "end": "2027-01-30T16:15",
+      "location": "Office de tourisme d'Erdeven -",
+      "city": "Erdeven",
+      "description": "Dans un quotidien rythmé par la course, la performance et le « toujours plus », accordez-vous une pause pour ralentir, respirer et vous reconnecter à vous-même. À travers cinq séances de Hatha Yoga, partez à la recherche de votre juste équilibre.",
+      "url": null,
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 11.3,
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-13ac095f1a",
@@ -8047,6 +8227,24 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-093c585f55",
+      "series_id": "dt-56c4017ffc",
+      "title": "Yoga : Trouver l’immobilité dans le mouvement",
+      "start": "2027-02-27T15:00",
+      "end": "2027-02-27T16:15",
+      "location": "Office de tourisme d'Erdeven -",
+      "city": "Erdeven",
+      "description": "Dans un quotidien rythmé par la course, la performance et le « toujours plus », accordez-vous une pause pour ralentir, respirer et vous reconnecter à vous-même. À travers cinq séances de Hatha Yoga, partez à la recherche de votre juste équilibre.",
+      "url": null,
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 11.3,
+      "last_update": "2026-09-29"
+    },
+    {
       "id": "dt-d95a516252",
       "series_id": "dt-f487c88f00",
       "title": "Concert jazz Caloé et Le Voyageur",
@@ -8083,6 +8281,24 @@
       "last_update": "2026-09-07"
     },
     {
+      "id": "dt-67f1a1f759",
+      "series_id": "dt-1faf697200",
+      "title": "Yoga : A la veille de l’équinoxe, se recentrer",
+      "start": "2027-03-20T15:00",
+      "end": "2027-03-20T16:15",
+      "location": "Office de tourisme d'Erdeven -",
+      "city": "Erdeven",
+      "description": "Dans un quotidien rythmé par la course, la performance et le « toujours plus », accordez-vous une pause pour ralentir, respirer et vous reconnecter à vous-même. À travers cinq séances de Hatha Yoga, partez à la recherche de votre juste équilibre.",
+      "url": null,
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 11.3,
+      "last_update": "2026-09-29"
+    },
+    {
       "id": "dt-1e99f02def",
       "series_id": "dt-3c1325e383",
       "title": "Cycle ballets & opéra : \"Le Crépuscule des dieux\"",
@@ -8098,7 +8314,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-23f20760d0",
@@ -8260,7 +8476,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-f5a74b5480",
@@ -8314,7 +8530,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-1c3efe9608",
@@ -8386,7 +8602,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-e3f55bda3a",
@@ -8404,7 +8620,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-29"
     }
   ]
 }
