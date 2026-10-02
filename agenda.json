@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T10:59:55Z",
-  "data_updated_at": "2026-09-29",
+  "generated_at": "2026-10-02T10:33:05Z",
+  "data_updated_at": "2026-09-30",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -10,11 +10,11 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 478,
+    "total": 535,
     "by_proximity": {
-      "near": 410,
-      "immediate": 66,
-      "daytrip": 2
+      "near": 468,
+      "daytrip": 2,
+      "immediate": 65
     }
   },
   "events": [
@@ -415,60 +415,6 @@
       "last_update": "2026-09-29"
     },
     {
-      "id": "dt-7a93e990e4",
-      "series_id": "dt-01656b3159",
-      "title": "Marché hebdomadaire à Crac'h",
-      "start": "2026-10-01T09:00",
-      "end": "2026-10-01T13:00",
-      "location": "Place de l'Eglise",
-      "city": "Crach",
-      "description": "Il se déroule tous les jeudis matin, autour de l'église de 9h à 13h.",
-      "url": null,
-      "category": "marche",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 4.0,
-      "last_update": "2026-01-05"
-    },
-    {
-      "id": "dt-3c98365760",
-      "series_id": "dt-1d964ff2be",
-      "title": "L'Ayurvéda, science de la vie",
-      "start": "2026-10-01T18:00",
-      "end": null,
-      "location": "Espace culturel Terraqué",
-      "city": "Carnac",
-      "description": "Conférence de Geneviève Martin Art & Culture a pour but la promotion, à Carnac, d'activités culturelles et artistiques sous toutes leurs formes.",
-      "url": "http://www.artetculture-carnac.com/",
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.1,
-      "last_update": "2026-09-22"
-    },
-    {
-      "id": "dt-c1f2a6a786",
-      "series_id": "dt-c2b378c5ff",
-      "title": "Kevin, avec Arnaud Hoedt et Jérôme Piron / Cie Chantal & Bernadette",
-      "start": "2026-10-01T20:30",
-      "end": "2026-10-01T22:00",
-      "location": "La Vigie",
-      "city": "La Trinité-sur-Mer",
-      "description": "Pourquoi Diane a-t-elle plus de chances d’avoir le bac que Kevin ? Avec un peu d’Histoire, beaucoup de sociologie et énormément d’humour, deux anciens enseignants, dynamitent les idées reçues sur l’école et les inégalités sociales.",
-      "url": "https://www.auray.fr/culture-loisirs/centre-culturel-athena/saison-2026-2027/les-spectacles-de-la-saison-26-27/kevin",
-      "category": "musique",
-      "priority": 1,
-      "proximity": "immediate",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1,
-      "last_update": "2026-09-04"
-    },
-    {
       "id": "dt-809550199f",
       "series_id": "dt-f9aae310c2",
       "title": "Journées Nationales des Artistes",
@@ -649,6 +595,24 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-2ee1fbb1a3",
+      "series_id": "dt-06bfad79bb",
+      "title": "Sortie découverte des champignons",
+      "start": "2026-10-03T09:00",
+      "end": "2026-10-03T11:45",
+      "location": "Parking er Varquez",
+      "city": "Erdeven",
+      "description": "L’association Amicolog de Ploemel organise des sorties les week-ends d’automne dans le pays d’Auray, pour apprendre à identifier les champignons.",
+      "url": null,
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 8.5,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-997b69fac1",
       "series_id": "dt-f51c8bc9dd",
       "title": "Concours Départemental du cheval breton",
@@ -703,6 +667,42 @@
       "last_update": "2026-09-29"
     },
     {
+      "id": "dt-9e0d48b374",
+      "series_id": "dt-2e09ffed5f",
+      "title": "Portes ouvertes des ateliers d'artistes de la Presqu'île de Quiberon",
+      "start": "2026-10-03T10:00",
+      "end": "2026-10-04T18:00",
+      "location": "Sur Quiberon et Saint-Pierre Quiberon",
+      "city": "Quiberon",
+      "description": "A l’occasion des Journées Nationales des Artistes, évènement organisé par la Maison des Artistes avec le soutien du Ministère de la Culture et de l’AMF (Association des Maires de France), des milliers d’ateliers d’artistes ouvrent leurs portes ce week-end du 3 et 4 octobre…",
+      "url": "http://www.apiq-quiberon.fr/",
+      "category": "marche",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.4,
+      "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-a7d1ea42c5",
+      "series_id": "dt-4176ca1fc0",
+      "title": "Biblis en folie",
+      "start": "2026-10-03T11:00",
+      "end": null,
+      "location": "Médiathèque de Ste Anne d'Auray",
+      "city": "Sainte-Anne-d'Auray",
+      "description": "Dans le cadre d'un Automne autrement 2026 Petites histoires, grands trésors La médiathèque vous invite à un voyage au coeur des histoires, avec des lectures adaptées aux enfants, ponctuées par la découverte d'objets précieux et insolites issus du Trésor et d'oeuvres du Musée…",
+      "url": null,
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 14.4,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-e9427b2636",
       "series_id": "dt-79c7817d3e",
       "title": "Picto Néo !",
@@ -710,7 +710,7 @@
       "end": null,
       "location": "Musée de la Préhistoire",
       "city": "Carnac",
-      "description": "A 11h et 14h30 - inclus dans le billet d'entrée au musée Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation",
+      "description": "A 11h et 14h30 - inclus dans le billet d'entrée au musée Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation durée: de 20 à 30 minutes",
       "url": "https://www.museedecarnac.com/actualites/",
       "category": "patrimoine",
       "priority": 2,
@@ -718,7 +718,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-81c6f7e1c8",
@@ -746,7 +746,7 @@
       "end": null,
       "location": "Musée de la Préhistoire",
       "city": "Carnac",
-      "description": "A 11h et 14h30 - inclus dans le billet d'entrée au musée Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation",
+      "description": "A 11h et 14h30 - inclus dans le billet d'entrée au musée Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation durée: de 20 à 30 minutes",
       "url": "https://www.museedecarnac.com/actualites/",
       "category": "patrimoine",
       "priority": 2,
@@ -754,7 +754,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-90ac0e1e10",
@@ -962,7 +962,7 @@
       "end": null,
       "location": "Musée de la Préhistoire",
       "city": "Carnac",
-      "description": "A 11h et 14h30 - inclus dans le billet d'entrée au musée Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation",
+      "description": "A 11h et 14h30 - inclus dans le billet d'entrée au musée Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation durée: de 20 à 30 minutes",
       "url": "https://www.museedecarnac.com/actualites/",
       "category": "patrimoine",
       "priority": 2,
@@ -970,7 +970,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-e6a6741df9",
@@ -1034,7 +1034,7 @@
       "end": null,
       "location": "Musée de la Préhistoire",
       "city": "Carnac",
-      "description": "A 11h et 14h30 - inclus dans le billet d'entrée au musée Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation",
+      "description": "A 11h et 14h30 - inclus dans le billet d'entrée au musée Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation durée: de 20 à 30 minutes",
       "url": "https://www.museedecarnac.com/actualites/",
       "category": "patrimoine",
       "priority": 2,
@@ -1042,7 +1042,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-bfdc53be1e",
@@ -1117,6 +1117,24 @@
       "last_update": "2026-08-13"
     },
     {
+      "id": "dt-ed56b4507c",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2026-10-06T05:00",
+      "end": "2026-10-07",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-417a8a3a9c",
       "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
@@ -1189,22 +1207,22 @@
       "last_update": "2026-03-02"
     },
     {
-      "id": "dt-5b6f5145b6",
-      "series_id": "dt-1ef11f4430",
+      "id": "dt-061d21d00f",
+      "series_id": "dt-e2cfe2ac5e",
       "title": "Balade contée au bord du Loch",
       "start": "2026-10-07T15:00",
       "end": "2026-10-07T17:00",
       "location": "Chapelle Saint-Jacques",
       "city": "Brech",
-      "description": "Partez pour une balade contée entre rives, landes et sentiers boisés, à la découverte des paysages de la vallée du Loc’h. Laissez-vous emporter par des histoires d’arbres, les murmures de l’eau et d’autres secrets. A partir de 8 ans.",
-      "url": "https://www.tidouaralre.com/balade-contee-au-bord-du-loc-h-brech-octobre-2025/e4941.html",
+      "description": "Partez pour une balade contée entre rives, landes et sentiers boisés, à la découverte des paysages de la vallée du Loc’h. Laissez-vous emporter par des histoires d’arbres, les murmures de l’eau et d’autres secrets. Sur réservation Rendez-vous à la Chapelle Saint Jacques à BREC’H",
+      "url": null,
       "category": "plein_air",
       "priority": 2,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-05-30"
+      "last_update": "2026-09-29"
     },
     {
       "id": "dt-cff6c7f03c",
@@ -1464,7 +1482,7 @@
       "title": "Fête de la Science : rencontre avec Pascal Picq, Paléoanthropologue",
       "start": "2026-10-09T20:30",
       "end": null,
-      "location": "26 Rue du Tumulus",
+      "location": "Espace Terraqué",
       "city": "Carnac",
       "description": "Conférence et dédicace de son nouvel essai « L’Armorique avant les Bretons » aux éditions Ouest France. En partenariat avec la médiathèque Terraqué et la librairie « Sur le rivage » Conférence et dédicace | Vendredi 9 octobre | 20 h 30 | Adulte | Espace Terraqué | réservation…",
       "url": "https://www.museedecarnac.com/actualites/",
@@ -1474,7 +1492,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.7,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-edf694d897",
@@ -1556,7 +1574,7 @@
       "end": null,
       "location": "Musée de la Préhistoire",
       "city": "Carnac",
-      "description": "A 11h et 14h30 - inclus dans le billet d'entrée au musée Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation",
+      "description": "A 11h et 14h30 - inclus dans le billet d'entrée au musée Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation durée: de 20 à 30 minutes",
       "url": "https://www.museedecarnac.com/actualites/",
       "category": "patrimoine",
       "priority": 2,
@@ -1564,7 +1582,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-182a418809",
@@ -1583,6 +1601,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.6,
       "last_update": "2026-09-11"
+    },
+    {
+      "id": "dt-9adbd782b5",
+      "series_id": "dt-5fd96d2a13",
+      "title": "Asamb'en Alré",
+      "start": "2026-10-10T12:00",
+      "end": null,
+      "location": "Rue du Docteur Alexandre Jardin",
+      "city": "Auray",
+      "description": "Dans le cadre d'Un automne autrement 2026 6ème édition d'Asamb' En Alré Asamb' en Alré : stage, concours de chant, musique et danses du pays d'Auray, fest-deiz, apéro-concert La culture bretonne est notre bien commun, elle se doit d’être partagée et accessible pour toutes et…",
+      "url": null,
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.5,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-199c5216ae",
@@ -1610,7 +1646,7 @@
       "end": null,
       "location": "Musée de la Préhistoire",
       "city": "Carnac",
-      "description": "A 11h et 14h30 - inclus dans le billet d'entrée au musée Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation",
+      "description": "A 11h et 14h30 - inclus dans le billet d'entrée au musée Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation durée: de 20 à 30 minutes",
       "url": "https://www.museedecarnac.com/actualites/",
       "category": "patrimoine",
       "priority": 2,
@@ -1618,7 +1654,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-073947a65e",
@@ -1636,7 +1672,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-be01f3958b",
@@ -1790,7 +1826,7 @@
       "end": null,
       "location": "Musée de la Préhistoire",
       "city": "Carnac",
-      "description": "A 11h et 14h30 - inclus dans le billet d'entrée au musée Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation",
+      "description": "A 11h et 14h30 - inclus dans le billet d'entrée au musée Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation durée: de 20 à 30 minutes",
       "url": "https://www.museedecarnac.com/actualites/",
       "category": "patrimoine",
       "priority": 2,
@@ -1798,7 +1834,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-c4d8991a5e",
@@ -1844,7 +1880,7 @@
       "end": "2026-10-11T18:00",
       "location": "Salle du Groez Ven",
       "city": "Ploemel",
-      "description": "L'association Dalc'h Atau vous propose un fest-deiz avec le groupe Gouelan Du, le dimanche 11 octobre dans la salle du Groëz Ven Entrée 5 €",
+      "description": "L'association Dalc'h Atau vous propose un fest-deiz avec le groupe Gouelan Du, le dimanche 11 octobre dans la salle du Groëz Ven Buvette sur place Entrée 6 €",
       "url": "https://dalchatau.tolpin.bzh/",
       "category": "fete",
       "priority": 2,
@@ -1852,7 +1888,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.2,
-      "last_update": "2026-09-14"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-ff00b30d3b",
@@ -1862,7 +1898,7 @@
       "end": null,
       "location": "Musée de la Préhistoire",
       "city": "Carnac",
-      "description": "A 11h et 14h30 - inclus dans le billet d'entrée au musée Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation",
+      "description": "A 11h et 14h30 - inclus dans le billet d'entrée au musée Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation durée: de 20 à 30 minutes",
       "url": "https://www.museedecarnac.com/actualites/",
       "category": "patrimoine",
       "priority": 2,
@@ -1870,7 +1906,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-25d425e577",
@@ -1942,7 +1978,25 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.7,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-b4121b7f4a",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2026-10-13T05:00",
+      "end": "2026-10-14",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-a56335b271",
@@ -2276,7 +2330,7 @@
       "end": null,
       "location": "Espace les Chênes",
       "city": "Crach",
-      "description": "Dans le cadre \" d'un Automne Autrement\" , le cercle celtique de Crac'h, Yaouankiz er Ster, vous propose un Fest Noz à l'espace des chênes avec les groupes Ruz tan et Spontailloù Ruz Tan est un groupe de musique traditionnelle qui a pour objet de promouvoir et se soutenir la…",
+      "description": "Dans le cadre \" d'un Automne Autrement\", le cercle celtique de Crac'h, Yaouankiz er Ster, vous propose un Fest Noz à l'espace des chênes avec les groupes Ruz tan et Spontailloù Ruz Tan est un groupe de musique traditionnelle qui a pour objet de promouvoir et se soutenir la…",
       "url": "https://www.tamm-kreiz.bzh/ensemble/28/Cercle+celtique+Yaouankiz+er+Ster.html",
       "category": "musique",
       "priority": 1,
@@ -2284,7 +2338,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.0,
-      "last_update": "2026-09-07"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-9e7158f302",
@@ -2320,7 +2374,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-8cce819ceb",
@@ -2338,7 +2392,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-5d4ba5a020",
@@ -2428,7 +2482,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-55a2bd5dee",
@@ -2482,7 +2536,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-482bcae131",
@@ -2611,6 +2665,24 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-c48ca71810",
+      "series_id": "dt-c843e98277",
+      "title": "Karaoké géant",
+      "start": "2026-10-17T20:30",
+      "end": null,
+      "location": "rue du Lenno",
+      "city": "Ploemel",
+      "description": "Vous aimez chanter... Vous aimez Céline Dion...Vous n'avez eu de place pour le concert ? Alors, réservez votre soirée du 17 octobre.! La mairie de Ploemel, en partenariat avec les écoles, organise un karaoké géant spécial Céline Dion: Les plus grands tubes de Céline Dion.",
+      "url": null,
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 8.2,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-69fe7f1485",
       "series_id": "dt-b4d9c5225b",
       "title": "Visite itinérante : Dans les pas de Kourtney Roy",
@@ -2644,7 +2716,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-24"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-8e2dfc3bc5",
@@ -2701,14 +2773,14 @@
       "last_update": "2026-08-13"
     },
     {
-      "id": "dt-19a52cef90",
-      "series_id": "dt-2193289823",
-      "title": "Visite flash \"Les bretons face aux géants de pierre\"",
+      "id": "dt-cbf1c790ce",
+      "series_id": "dt-611e55b02a",
+      "title": "Pierres de légende",
       "start": "2026-10-18T11:00",
-      "end": "2026-10-18T11:20",
+      "end": "2026-10-18T12:00",
       "location": "Place Christian Bonnet",
       "city": "Carnac",
-      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "description": "Les pierres de Carnac recèlent bien des énigmes… À travers le musée suivez votre guide en costume breton. Elle vous racontera à sa manière l’histoire de ces vieilles pierres. Visite guidée | Dès 6 ans | durée 1h | sur réservation sur www.museedecarnac.fr",
       "url": "http://www.museedecarnac.com/",
       "category": "patrimoine",
       "priority": 2,
@@ -2716,7 +2788,25 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-19a52cef90",
+      "series_id": "dt-2193289823",
+      "title": "Visite flash \"Les bretons face aux géants de pierre\"",
+      "start": "2026-10-18T11:00",
+      "end": "2026-10-18T11:20",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash : durée 20 min à 11h et à 14h30 sans réservation Inclus dans la prix du billet d'entrée",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-47ae191649",
@@ -2770,7 +2860,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-c248c998eb",
@@ -2798,7 +2888,7 @@
       "end": "2026-10-18T17:00",
       "location": "Lieu communiqué à la réservation",
       "city": "Carnac",
-      "description": "Atelier en forêt pour les tout-petits à 10h Découvrez la nature avec Soline et construisez un village pour les petits animaux. Les enfants jouent et participent à diverses activités au cœur de la nature : exploration, observation des petits animaux à la loupe, construction de…",
+      "description": "Atelier en forêt pour les tout-petits, de 3 à 8 ans Découvrez la nature avec Soline et construisez un village pour les petits animaux. Les enfants jouent et participent à diverses activités au cœur de la nature : exploration, observation des petits animaux à la loupe…",
       "url": null,
       "category": "plein_air",
       "priority": 3,
@@ -2806,7 +2896,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 4.1,
-      "last_update": "2026-09-03"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-0b1ad7102b",
@@ -2868,9 +2958,9 @@
       "title": "Atelier \"Poterie néolithique\"",
       "start": "2026-10-19T10:00",
       "end": "2026-10-19T12:00",
-      "location": "10 Place de la Chapelle",
+      "location": "Place Christian Bonnet",
       "city": "Carnac",
-      "description": "Repérez les vestiges en terre cuite parmi les collections. Identifiez le travail du restaurateur. Puis testez différentes techniques pour monter un pot en argile comme au Néolithique ! Atelier dès 6 ans | durée 2h | sur réservation sur www.museedecarnac.com",
+      "description": "Repérez les vestiges en terre cuite parmi les collections. Identifiez le travail du restaurateur. Puis testez différentes techniques pour monter un pot en argile comme au Néolithique ! Atelier dès 6 ans -| durée 2h sur réservation sur www.museedecarnac.com",
       "url": "http://www.museedecarnac.com/",
       "category": "patrimoine",
       "priority": 3,
@@ -2878,7 +2968,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-9ee1c5d8a9",
@@ -3004,7 +3094,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-c405476861",
@@ -3041,6 +3131,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-21"
+    },
+    {
+      "id": "dt-7669fd5c74",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2026-10-20T05:00",
+      "end": "2026-10-21",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-edeb4d06a4",
@@ -3111,8 +3219,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "distance_km": 3.7,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-9671fc08bf",
@@ -3274,7 +3382,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-ad1070dcda",
@@ -3310,7 +3418,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-719320a009",
@@ -3329,6 +3437,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 7.4,
       "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-bbb7a0b964",
+      "series_id": "dt-63823fc85c",
+      "title": "Le Labo des Doudous",
+      "start": "2026-10-21T10:00",
+      "end": "2026-10-21T10:45",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Ton doudou est un trésor ! Apporte-le au musée et étudie-le comme un objet de collection. Atelier pour petites mains, dès 3 ans | durée 45 min Réservation sur www.museedecarnac.com",
+      "url": "https://www.museedecarnac.com/activites-des-vacances/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.7,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-0274129e1a",
@@ -3588,9 +3714,9 @@
       "title": "Atelier \"Poterie néolithique\"",
       "start": "2026-10-22T10:00",
       "end": "2026-10-22T12:00",
-      "location": "10 Place de la Chapelle",
+      "location": "Place Christian Bonnet",
       "city": "Carnac",
-      "description": "Repérez les vestiges en terre cuite parmi les collections. Identifiez le travail du restaurateur. Puis testez différentes techniques pour monter un pot en argile comme au Néolithique ! Atelier dès 6 ans | durée 2h | sur réservation sur www.museedecarnac.com",
+      "description": "Repérez les vestiges en terre cuite parmi les collections. Identifiez le travail du restaurateur. Puis testez différentes techniques pour monter un pot en argile comme au Néolithique ! Atelier dès 6 ans -| durée 2h sur réservation sur www.museedecarnac.com",
       "url": "http://www.museedecarnac.com/",
       "category": "patrimoine",
       "priority": 3,
@@ -3598,7 +3724,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-ea7aa99386",
@@ -3670,7 +3796,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-83733228a1",
@@ -3763,24 +3889,6 @@
       "last_update": "2026-09-07"
     },
     {
-      "id": "dt-dd64ad7578",
-      "series_id": "dt-fe8e3c53a8",
-      "title": "Halloween au parc Forêt Adrénaline",
-      "start": "2026-10-23",
-      "end": null,
-      "location": "Impasse du Hahon",
-      "city": "Carnac",
-      "description": "Pendant les vacances de la Toussaint, le parc est ouvert tous les jours ! Et cette année, on revient avec encore plus de surprises… 🌙 5 Nocturnes Halloween vous attendent les 23, 24, 29, 30 et 31 octobre.",
-      "url": "https://www.foretadrenaline.com/carnac",
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 7.4,
-      "last_update": "2026-09-28"
-    },
-    {
       "id": "dt-dd0c058722",
       "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
@@ -3831,8 +3939,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "distance_km": 3.7,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-058f0a6acc",
@@ -3958,7 +4066,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-6ca7c2ff08",
@@ -4030,7 +4138,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-f4d138bf4e",
@@ -4049,6 +4157,42 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-21"
+    },
+    {
+      "id": "dt-d9179416df",
+      "series_id": "dt-fe8e3c53a8",
+      "title": "Halloween au parc Forêt Adrénaline",
+      "start": "2026-10-23T18:00",
+      "end": "2026-10-23T20:00",
+      "location": "Impasse du Hahon",
+      "city": "Carnac",
+      "description": "Pendant les vacances de la Toussaint, le parc est ouvert tous les jours ! Et cette année, on revient avec encore plus de surprises… 5 Nocturnes Halloween vous attendent les 23, 24, 29, 30 et 31 octobre.",
+      "url": "https://www.foretadrenaline.com/carnac",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 7.4,
+      "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-88e109f6fa",
+      "series_id": "dt-fe8e3c53a8",
+      "title": "Halloween au parc Forêt Adrénaline",
+      "start": "2026-10-23T19:30",
+      "end": "2026-10-23T21:30",
+      "location": "Impasse du Hahon",
+      "city": "Carnac",
+      "description": "Pendant les vacances de la Toussaint, le parc est ouvert tous les jours ! Et cette année, on revient avec encore plus de surprises… 5 Nocturnes Halloween vous attendent les 23, 24, 29, 30 et 31 octobre.",
+      "url": "https://www.foretadrenaline.com/carnac",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 7.4,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-f6f07a2654",
@@ -4141,24 +4285,6 @@
       "last_update": "2026-09-29"
     },
     {
-      "id": "dt-d7125a5125",
-      "series_id": "dt-fe8e3c53a8",
-      "title": "Halloween au parc Forêt Adrénaline",
-      "start": "2026-10-24",
-      "end": null,
-      "location": "Impasse du Hahon",
-      "city": "Carnac",
-      "description": "Pendant les vacances de la Toussaint, le parc est ouvert tous les jours ! Et cette année, on revient avec encore plus de surprises… 🌙 5 Nocturnes Halloween vous attendent les 23, 24, 29, 30 et 31 octobre.",
-      "url": "https://www.foretadrenaline.com/carnac",
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 7.4,
-      "last_update": "2026-09-28"
-    },
-    {
       "id": "dt-ff416f4ebd",
       "series_id": "dt-fd5b2ac21d",
       "title": "Marché hebdomadaire de Quiberon",
@@ -4192,7 +4318,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-d6de9303ae",
@@ -4210,7 +4336,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 4.1,
-      "last_update": "2026-09-02"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-e33561cd28",
@@ -4249,14 +4375,14 @@
       "last_update": "2026-09-26"
     },
     {
-      "id": "dt-3c72a44c81",
-      "series_id": "dt-2193289823",
-      "title": "Visite flash \"Les bretons face aux géants de pierre\"",
+      "id": "dt-c52fab9632",
+      "series_id": "dt-611e55b02a",
+      "title": "Pierres de légende",
       "start": "2026-10-24T11:00",
-      "end": "2026-10-24T11:20",
+      "end": "2026-10-24T12:00",
       "location": "Place Christian Bonnet",
       "city": "Carnac",
-      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "description": "Les pierres de Carnac recèlent bien des énigmes… À travers le musée suivez votre guide en costume breton. Elle vous racontera à sa manière l’histoire de ces vieilles pierres. Visite guidée | Dès 6 ans | durée 1h | sur réservation sur www.museedecarnac.fr",
       "url": "http://www.museedecarnac.com/",
       "category": "patrimoine",
       "priority": 2,
@@ -4264,7 +4390,25 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-3c72a44c81",
+      "series_id": "dt-2193289823",
+      "title": "Visite flash \"Les bretons face aux géants de pierre\"",
+      "start": "2026-10-24T11:00",
+      "end": "2026-10-24T11:20",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash : durée 20 min à 11h et à 14h30 sans réservation Inclus dans la prix du billet d'entrée",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-38d32d7e23",
@@ -4318,7 +4462,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.7,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-f3acc06167",
@@ -4328,7 +4472,7 @@
       "end": "2026-10-24T14:50",
       "location": "Place Christian Bonnet",
       "city": "Carnac",
-      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash : durée 20 min à 11h et à 14h30 sans réservation Inclus dans la prix du billet d'entrée",
       "url": "http://www.museedecarnac.com/",
       "category": "patrimoine",
       "priority": 2,
@@ -4336,7 +4480,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-29862811fa",
@@ -4375,6 +4519,24 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-17a7318406",
+      "series_id": "dt-fe8e3c53a8",
+      "title": "Halloween au parc Forêt Adrénaline",
+      "start": "2026-10-24T18:00",
+      "end": "2026-10-24T20:00",
+      "location": "Impasse du Hahon",
+      "city": "Carnac",
+      "description": "Pendant les vacances de la Toussaint, le parc est ouvert tous les jours ! Et cette année, on revient avec encore plus de surprises… 5 Nocturnes Halloween vous attendent les 23, 24, 29, 30 et 31 octobre.",
+      "url": "https://www.foretadrenaline.com/carnac",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 7.4,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-4fdbdb3f7c",
       "series_id": "dt-f8a7b23ee4",
       "title": "Mad in Finland, cirque sous chapiteau",
@@ -4391,6 +4553,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 10.0,
       "last_update": "2026-09-17"
+    },
+    {
+      "id": "dt-0ac61859f5",
+      "series_id": "dt-fe8e3c53a8",
+      "title": "Halloween au parc Forêt Adrénaline",
+      "start": "2026-10-24T19:30",
+      "end": "2026-10-24T21:30",
+      "location": "Impasse du Hahon",
+      "city": "Carnac",
+      "description": "Pendant les vacances de la Toussaint, le parc est ouvert tous les jours ! Et cette année, on revient avec encore plus de surprises… 5 Nocturnes Halloween vous attendent les 23, 24, 29, 30 et 31 octobre.",
+      "url": "https://www.foretadrenaline.com/carnac",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 7.4,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-951bcdfaa7",
@@ -4429,6 +4609,24 @@
       "last_update": "2026-09-29"
     },
     {
+      "id": "dt-3cc802354b",
+      "series_id": "dt-d48cf48501",
+      "title": "Stage de danses irlandaises",
+      "start": "2026-10-25T09:00",
+      "end": "2026-10-25T13:00",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Organisé par Ti Douar alré Venez découvrir les danses traditionnelles irlandaises : Ceili et Set Dancing ! Au programme : Initiation aux différents rythmes et pas de danse, du Jig au Reel, en passant par la Polka.",
+      "url": null,
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-3bf45411af",
       "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
@@ -4465,14 +4663,14 @@
       "last_update": "2026-09-29"
     },
     {
-      "id": "dt-09080a2793",
-      "series_id": "dt-2193289823",
-      "title": "Visite flash \"Les bretons face aux géants de pierre\"",
+      "id": "dt-a461d8355a",
+      "series_id": "dt-611e55b02a",
+      "title": "Pierres de légende",
       "start": "2026-10-25T11:00",
-      "end": "2026-10-25T11:20",
+      "end": "2026-10-25T12:00",
       "location": "Place Christian Bonnet",
       "city": "Carnac",
-      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "description": "Les pierres de Carnac recèlent bien des énigmes… À travers le musée suivez votre guide en costume breton. Elle vous racontera à sa manière l’histoire de ces vieilles pierres. Visite guidée | Dès 6 ans | durée 1h | sur réservation sur www.museedecarnac.fr",
       "url": "http://www.museedecarnac.com/",
       "category": "patrimoine",
       "priority": 2,
@@ -4480,7 +4678,25 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-09080a2793",
+      "series_id": "dt-2193289823",
+      "title": "Visite flash \"Les bretons face aux géants de pierre\"",
+      "start": "2026-10-25T11:00",
+      "end": "2026-10-25T11:20",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash : durée 20 min à 11h et à 14h30 sans réservation Inclus dans la prix du billet d'entrée",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-d6932607e3",
@@ -4501,6 +4717,24 @@
       "last_update": "2026-09-07"
     },
     {
+      "id": "dt-6973061f05",
+      "series_id": "dt-7d92163057",
+      "title": "Balade ornithologique - Les randoiseaux de Saint-Dégan",
+      "start": "2026-10-25T14:00",
+      "end": "2026-10-25T17:00",
+      "location": "Ecomusée du Pays d'Auray",
+      "city": "Brech",
+      "description": "Jean Annézo, ornithologue passionné, propose des sorties nature à la découverte des oiseaux au départ de l'écomusée du pays d'Auray, pour les initiés ou les néophytes.",
+      "url": "https://ecomusee-pays-auray.fr/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 14.2,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-ad2bcd677f",
       "series_id": "dt-2193289823",
       "title": "Visite flash \"Les bretons face aux géants de pierre\"",
@@ -4508,7 +4742,7 @@
       "end": "2026-10-25T14:50",
       "location": "Place Christian Bonnet",
       "city": "Carnac",
-      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash : durée 20 min à 11h et à 14h30 sans réservation Inclus dans la prix du billet d'entrée",
       "url": "http://www.museedecarnac.com/",
       "category": "patrimoine",
       "priority": 2,
@@ -4516,7 +4750,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-e53a376272",
@@ -4573,6 +4807,24 @@
       "last_update": "2026-09-29"
     },
     {
+      "id": "dt-7ceb2c2206",
+      "series_id": "dt-61357e6bf3",
+      "title": "Escape Game d'Halloween \"Panique chez les Adams\"",
+      "start": "2026-10-26T10:00",
+      "end": "2026-11-01T20:00",
+      "location": "Chapelle de la congrégation",
+      "city": "Carnac",
+      "description": "Venez en aide à Mercredi Adams pour sauver la plus étrange des réceptions d'Halloween. Mercredi Adams organise la grande réception annuelle d’Halloween à la Chapelle. Toute la famille doit arriver dans la soirée.",
+      "url": "https://www.ot-carnac.fr/agenda/escape-game-dhalloween-panique-chez-les-adams-fmabre056v50ctwo/",
+      "category": "plein_air",
+      "priority": 1,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-049d537232",
       "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
@@ -4596,9 +4848,9 @@
       "title": "Atelier \"Poterie néolithique\"",
       "start": "2026-10-26T10:00",
       "end": "2026-10-26T12:00",
-      "location": "10 Place de la Chapelle",
+      "location": "Place Christian Bonnet",
       "city": "Carnac",
-      "description": "Repérez les vestiges en terre cuite parmi les collections. Identifiez le travail du restaurateur. Puis testez différentes techniques pour monter un pot en argile comme au Néolithique ! Atelier dès 6 ans | durée 2h | sur réservation sur www.museedecarnac.com",
+      "description": "Repérez les vestiges en terre cuite parmi les collections. Identifiez le travail du restaurateur. Puis testez différentes techniques pour monter un pot en argile comme au Néolithique ! Atelier dès 6 ans -| durée 2h sur réservation sur www.museedecarnac.com",
       "url": "http://www.museedecarnac.com/",
       "category": "patrimoine",
       "priority": 3,
@@ -4606,7 +4858,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-d26ef4e4c6",
@@ -4670,7 +4922,7 @@
       "end": "2026-10-26T14:50",
       "location": "Place Christian Bonnet",
       "city": "Carnac",
-      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash : durée 20 min à 11h et à 14h30 sans réservation Inclus dans la prix du billet d'entrée",
       "url": "http://www.museedecarnac.com/",
       "category": "patrimoine",
       "priority": 2,
@@ -4678,7 +4930,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-bd3f45100e",
@@ -4697,6 +4949,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-21"
+    },
+    {
+      "id": "dt-159b97752c",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2026-10-27T05:00",
+      "end": "2026-10-28",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-1f6c519a1a",
@@ -4731,8 +5001,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "distance_km": 3.7,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-1d1403ab11",
@@ -4768,7 +5038,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 4.1,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-57317039ef",
@@ -4886,7 +5156,7 @@
       "end": "2026-10-27T14:50",
       "location": "Place Christian Bonnet",
       "city": "Carnac",
-      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash : durée 20 min à 11h et à 14h30 sans réservation Inclus dans la prix du billet d'entrée",
       "url": "http://www.museedecarnac.com/",
       "category": "patrimoine",
       "priority": 2,
@@ -4894,7 +5164,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-dc3459becf",
@@ -4912,7 +5182,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 4.4,
-      "last_update": "2026-09-07"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-dc4b7b8b84",
@@ -4931,6 +5201,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-21"
+    },
+    {
+      "id": "dt-65f6994294",
+      "series_id": "dt-63823fc85c",
+      "title": "Le Labo des Doudous",
+      "start": "2026-10-28T10:00",
+      "end": "2026-10-28T10:45",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Ton doudou est un trésor ! Apporte-le au musée et étudie-le comme un objet de collection. Atelier pour petites mains, dès 3 ans | durée 45 min Réservation sur www.museedecarnac.com",
+      "url": "https://www.museedecarnac.com/activites-des-vacances/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.7,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-62668a062a",
@@ -5020,7 +5308,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-b4dabed98d",
@@ -5084,7 +5372,7 @@
       "end": "2026-10-28T14:50",
       "location": "Place Christian Bonnet",
       "city": "Carnac",
-      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash : durée 20 min à 11h et à 14h30 sans réservation Inclus dans la prix du billet d'entrée",
       "url": "http://www.museedecarnac.com/",
       "category": "patrimoine",
       "priority": 2,
@@ -5092,7 +5380,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-d2ee37b35f",
@@ -5254,25 +5542,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
-      "last_update": "2026-09-29"
-    },
-    {
-      "id": "dt-7d2c628b9b",
-      "series_id": "dt-fe8e3c53a8",
-      "title": "Halloween au parc Forêt Adrénaline",
-      "start": "2026-10-29",
-      "end": null,
-      "location": "Impasse du Hahon",
-      "city": "Carnac",
-      "description": "Pendant les vacances de la Toussaint, le parc est ouvert tous les jours ! Et cette année, on revient avec encore plus de surprises… 🌙 5 Nocturnes Halloween vous attendent les 23, 24, 29, 30 et 31 octobre.",
-      "url": "https://www.foretadrenaline.com/carnac",
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 7.4,
-      "last_update": "2026-09-28"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-06c91a86df",
@@ -5316,9 +5586,9 @@
       "title": "Atelier \"Poterie néolithique\"",
       "start": "2026-10-29T10:00",
       "end": "2026-10-29T12:00",
-      "location": "10 Place de la Chapelle",
+      "location": "Place Christian Bonnet",
       "city": "Carnac",
-      "description": "Repérez les vestiges en terre cuite parmi les collections. Identifiez le travail du restaurateur. Puis testez différentes techniques pour monter un pot en argile comme au Néolithique ! Atelier dès 6 ans | durée 2h | sur réservation sur www.museedecarnac.com",
+      "description": "Repérez les vestiges en terre cuite parmi les collections. Identifiez le travail du restaurateur. Puis testez différentes techniques pour monter un pot en argile comme au Néolithique ! Atelier dès 6 ans -| durée 2h sur réservation sur www.museedecarnac.com",
       "url": "http://www.museedecarnac.com/",
       "category": "patrimoine",
       "priority": 3,
@@ -5326,7 +5596,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.8,
-      "last_update": "2026-09-19"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-1b7e29c4cf",
@@ -5408,15 +5678,15 @@
       "end": "2026-10-29T17:30",
       "location": "Tumulus de Crucuny",
       "city": "Carnac",
-      "description": "À 14h15. Promenade à la découverte des monuments mégalithiques méconnus. Trajet de 7 kms d'une durée de 3H30'. Prévoir de bonnes chaussures. Gratuit sur inscription à l'Office du Tourisme de Carnac. Attention groupe limité à 20 personnes.",
-      "url": null,
+      "description": "Promenade à la découverte des monuments mégalithiques méconnus. Trajet de 7 kms d'une durée de 3H30. Prévoir de bonnes chaussures. Sur inscription à l'Office du Tourisme de Carnac. Attention groupe limité à 20 personnes.",
+      "url": "https://www.lesamisdecarnac.fr/accueil",
       "category": "plein_air",
       "priority": 2,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 5.1,
-      "last_update": "2026-09-22"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-f4a79cd6c4",
@@ -5444,7 +5714,7 @@
       "end": "2026-10-29T14:50",
       "location": "Place Christian Bonnet",
       "city": "Carnac",
-      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash : durée 20 min à 11h et à 14h30 sans réservation Inclus dans la prix du billet d'entrée",
       "url": "http://www.museedecarnac.com/",
       "category": "patrimoine",
       "priority": 2,
@@ -5452,7 +5722,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-890164c8e9",
@@ -5491,6 +5761,24 @@
       "last_update": "2026-09-25"
     },
     {
+      "id": "dt-aa36fd4845",
+      "series_id": "dt-fe8e3c53a8",
+      "title": "Halloween au parc Forêt Adrénaline",
+      "start": "2026-10-29T18:00",
+      "end": "2026-10-29T20:00",
+      "location": "Impasse du Hahon",
+      "city": "Carnac",
+      "description": "Pendant les vacances de la Toussaint, le parc est ouvert tous les jours ! Et cette année, on revient avec encore plus de surprises… 5 Nocturnes Halloween vous attendent les 23, 24, 29, 30 et 31 octobre.",
+      "url": "https://www.foretadrenaline.com/carnac",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 7.4,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-ed29bbb65d",
       "series_id": "dt-cefbdceb41",
       "title": "Karting de nuit",
@@ -5509,14 +5797,14 @@
       "last_update": "2026-09-23"
     },
     {
-      "id": "dt-d4bddc453b",
+      "id": "dt-8fcbea89d5",
       "series_id": "dt-fe8e3c53a8",
       "title": "Halloween au parc Forêt Adrénaline",
-      "start": "2026-10-30",
-      "end": null,
+      "start": "2026-10-29T19:30",
+      "end": "2026-10-29T21:30",
       "location": "Impasse du Hahon",
       "city": "Carnac",
-      "description": "Pendant les vacances de la Toussaint, le parc est ouvert tous les jours ! Et cette année, on revient avec encore plus de surprises… 🌙 5 Nocturnes Halloween vous attendent les 23, 24, 29, 30 et 31 octobre.",
+      "description": "Pendant les vacances de la Toussaint, le parc est ouvert tous les jours ! Et cette année, on revient avec encore plus de surprises… 5 Nocturnes Halloween vous attendent les 23, 24, 29, 30 et 31 octobre.",
       "url": "https://www.foretadrenaline.com/carnac",
       "category": "plein_air",
       "priority": 2,
@@ -5524,7 +5812,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 7.4,
-      "last_update": "2026-09-28"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-6d8a26d2dd",
@@ -5559,8 +5847,8 @@
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
-      "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "distance_km": 3.7,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-1b139b1af3",
@@ -5578,7 +5866,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-b061b74f6a",
@@ -5624,7 +5912,7 @@
       "end": "2026-10-30T14:50",
       "location": "Place Christian Bonnet",
       "city": "Carnac",
-      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash : durée 20 min à 11h et à 14h30 sans réservation Inclus dans la prix du billet d'entrée",
       "url": "http://www.museedecarnac.com/",
       "category": "patrimoine",
       "priority": 2,
@@ -5632,7 +5920,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-8396eee239",
@@ -5669,6 +5957,42 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-21"
+    },
+    {
+      "id": "dt-98eaba33b7",
+      "series_id": "dt-fe8e3c53a8",
+      "title": "Halloween au parc Forêt Adrénaline",
+      "start": "2026-10-30T18:00",
+      "end": "2026-10-30T20:00",
+      "location": "Impasse du Hahon",
+      "city": "Carnac",
+      "description": "Pendant les vacances de la Toussaint, le parc est ouvert tous les jours ! Et cette année, on revient avec encore plus de surprises… 5 Nocturnes Halloween vous attendent les 23, 24, 29, 30 et 31 octobre.",
+      "url": "https://www.foretadrenaline.com/carnac",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 7.4,
+      "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-3aadef3790",
+      "series_id": "dt-fe8e3c53a8",
+      "title": "Halloween au parc Forêt Adrénaline",
+      "start": "2026-10-30T19:30",
+      "end": "2026-10-30T21:30",
+      "location": "Impasse du Hahon",
+      "city": "Carnac",
+      "description": "Pendant les vacances de la Toussaint, le parc est ouvert tous les jours ! Et cette année, on revient avec encore plus de surprises… 5 Nocturnes Halloween vous attendent les 23, 24, 29, 30 et 31 octobre.",
+      "url": "https://www.foretadrenaline.com/carnac",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 7.4,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-647112e5a4",
@@ -5725,24 +6049,6 @@
       "last_update": "2026-09-25"
     },
     {
-      "id": "dt-19940377ff",
-      "series_id": "dt-fe8e3c53a8",
-      "title": "Halloween au parc Forêt Adrénaline",
-      "start": "2026-10-31",
-      "end": null,
-      "location": "Impasse du Hahon",
-      "city": "Carnac",
-      "description": "Pendant les vacances de la Toussaint, le parc est ouvert tous les jours ! Et cette année, on revient avec encore plus de surprises… 🌙 5 Nocturnes Halloween vous attendent les 23, 24, 29, 30 et 31 octobre.",
-      "url": "https://www.foretadrenaline.com/carnac",
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 7.4,
-      "last_update": "2026-09-28"
-    },
-    {
       "id": "dt-640b310e5f",
       "series_id": "dt-fd5b2ac21d",
       "title": "Marché hebdomadaire de Quiberon",
@@ -5779,14 +6085,14 @@
       "last_update": "2026-08-13"
     },
     {
-      "id": "dt-1035b4022e",
-      "series_id": "dt-2193289823",
-      "title": "Visite flash \"Les bretons face aux géants de pierre\"",
+      "id": "dt-50ad72dbba",
+      "series_id": "dt-611e55b02a",
+      "title": "Pierres de légende",
       "start": "2026-10-31T11:00",
-      "end": "2026-10-31T11:20",
+      "end": "2026-10-31T12:00",
       "location": "Place Christian Bonnet",
       "city": "Carnac",
-      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "description": "Les pierres de Carnac recèlent bien des énigmes… À travers le musée suivez votre guide en costume breton. Elle vous racontera à sa manière l’histoire de ces vieilles pierres. Visite guidée | Dès 6 ans | durée 1h | sur réservation sur www.museedecarnac.fr",
       "url": "http://www.museedecarnac.com/",
       "category": "patrimoine",
       "priority": 2,
@@ -5794,7 +6100,25 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-1035b4022e",
+      "series_id": "dt-2193289823",
+      "title": "Visite flash \"Les bretons face aux géants de pierre\"",
+      "start": "2026-10-31T11:00",
+      "end": "2026-10-31T11:20",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash : durée 20 min à 11h et à 14h30 sans réservation Inclus dans la prix du billet d'entrée",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-674bb31b47",
@@ -5804,7 +6128,7 @@
       "end": "2026-10-31T14:50",
       "location": "Place Christian Bonnet",
       "city": "Carnac",
-      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash : durée 20 min à 11h et à 14h30 sans réservation Inclus dans la prix du billet d'entrée",
       "url": "http://www.museedecarnac.com/",
       "category": "patrimoine",
       "priority": 2,
@@ -5812,7 +6136,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-2f2de37b5b",
@@ -5840,7 +6164,7 @@
       "end": "2026-10-31T17:00",
       "location": "Lieu communiqué à la réservation",
       "city": "Carnac",
-      "description": "Atelier en forêt pour les tout-petits à 10h Découvrez la nature avec Soline et construisez un village pour les petits animaux. Les enfants jouent et participent à diverses activités au cœur de la nature : exploration, observation des petits animaux à la loupe, construction de…",
+      "description": "Atelier en forêt pour les tout-petits, de 3 à 8 ans Découvrez la nature avec Soline et construisez un village pour les petits animaux. Les enfants jouent et participent à diverses activités au cœur de la nature : exploration, observation des petits animaux à la loupe…",
       "url": null,
       "category": "plein_air",
       "priority": 3,
@@ -5848,7 +6172,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 4.1,
-      "last_update": "2026-09-03"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-9ee0f79ac3",
@@ -5867,6 +6191,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-21"
+    },
+    {
+      "id": "dt-5660116cc2",
+      "series_id": "dt-fe8e3c53a8",
+      "title": "Halloween au parc Forêt Adrénaline",
+      "start": "2026-10-31T18:00",
+      "end": "2026-10-31T20:00",
+      "location": "Impasse du Hahon",
+      "city": "Carnac",
+      "description": "Pendant les vacances de la Toussaint, le parc est ouvert tous les jours ! Et cette année, on revient avec encore plus de surprises… 5 Nocturnes Halloween vous attendent les 23, 24, 29, 30 et 31 octobre.",
+      "url": "https://www.foretadrenaline.com/carnac",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 7.4,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-da477ecb4a",
@@ -5903,6 +6245,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
       "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-d9f8c6630f",
+      "series_id": "dt-fe8e3c53a8",
+      "title": "Halloween au parc Forêt Adrénaline",
+      "start": "2026-10-31T19:30",
+      "end": "2026-10-31T21:30",
+      "location": "Impasse du Hahon",
+      "city": "Carnac",
+      "description": "Pendant les vacances de la Toussaint, le parc est ouvert tous les jours ! Et cette année, on revient avec encore plus de surprises… 5 Nocturnes Halloween vous attendent les 23, 24, 29, 30 et 31 octobre.",
+      "url": "https://www.foretadrenaline.com/carnac",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 7.4,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-d54f710dc2",
@@ -5984,7 +6344,7 @@
       "end": "2026-11-01T14:50",
       "location": "Place Christian Bonnet",
       "city": "Carnac",
-      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash | durée 20 min | sans réservation Inclus dans la prix du billet d'entrée",
+      "description": "Entre réalité et imaginaire, découvrez comment les Bretons et les mégalithes ont inspiré artistes et publicitaires. Visite flash : durée 20 min à 11h et à 14h30 sans réservation Inclus dans la prix du billet d'entrée",
       "url": "http://www.museedecarnac.com/",
       "category": "patrimoine",
       "priority": 2,
@@ -5992,7 +6352,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-c234a366c6",
@@ -6029,6 +6389,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 4.0,
       "last_update": "2026-08-13"
+    },
+    {
+      "id": "dt-01a9d9814a",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2026-11-03T05:00",
+      "end": "2026-11-04",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-f703ba54bc",
@@ -6193,6 +6571,24 @@
       "last_update": "2026-04-30"
     },
     {
+      "id": "dt-ff65af0e39",
+      "series_id": "dt-8d0cf992f9",
+      "title": "Au fil du bocage",
+      "start": "2026-11-06T20:30",
+      "end": null,
+      "location": "26 rue du tumulus",
+      "city": "Carnac",
+      "description": "Une histoire du remembrement en Bretagne contée par Michel Corrignan Entre contes et récits de vie, rêve et réalité, se déroule l'histoire d'un village bouleversé par le remembrement.",
+      "url": "https://www.calameo.com/read/0046368566d55c4deb482?utm_id=97758_v0_s00_e0_tv2_a1demo0ed4g20i",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 3.7,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-8b7183b474",
       "series_id": "dt-b25a4d548a",
       "title": "Challenge d’automne",
@@ -6298,7 +6694,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 4.1,
-      "last_update": "2026-09-25"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-d2dfe23b11",
@@ -6326,7 +6722,7 @@
       "end": "2026-11-08T17:00",
       "location": "Lieu communiqué à la réservation",
       "city": "Carnac",
-      "description": "Atelier en forêt pour les tout-petits à 10h Découvrez la nature avec Soline et construisez un village pour les petits animaux. Les enfants jouent et participent à diverses activités au cœur de la nature : exploration, observation des petits animaux à la loupe, construction de…",
+      "description": "Atelier en forêt pour les tout-petits, de 3 à 8 ans Découvrez la nature avec Soline et construisez un village pour les petits animaux. Les enfants jouent et participent à diverses activités au cœur de la nature : exploration, observation des petits animaux à la loupe…",
       "url": null,
       "category": "plein_air",
       "priority": 3,
@@ -6334,7 +6730,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 4.1,
-      "last_update": "2026-09-03"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-face0d72ee",
@@ -6353,6 +6749,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
       "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-ab618ee195",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2026-11-10T05:00",
+      "end": "2026-11-11",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-46f8037442",
@@ -6540,7 +6954,7 @@
       "title": "Yoga : Stabiliser, ancrer nos fondations dans la terre",
       "start": "2026-11-14T15:00",
       "end": "2026-11-14T16:15",
-      "location": "12 rue des Menhirs",
+      "location": "Office de tourisme d'Erdeven -",
       "city": "Erdeven",
       "description": "Dans un quotidien rythmé par la course, la performance et le « toujours plus », accordez-vous une pause pour ralentir, respirer et vous reconnecter à vous-même. À travers cinq séances de Hatha Yoga, partez à la recherche de votre juste équilibre.",
       "url": null,
@@ -6550,7 +6964,25 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.3,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-c97c213bdc",
+      "series_id": "dt-3809edb2b7",
+      "title": "Concert Les Intranquilles",
+      "start": "2026-11-14T18:00",
+      "end": null,
+      "location": null,
+      "city": "Crach",
+      "description": "Avec leur groupe, Les Intranquilles, Stéphane (percussions-chant) et Christian (chant-clarinette), de Crac’h, et Pierre (guitare-chant), de Riantec, chantent la vie, les sentiments et les travers de notre monde.",
+      "url": "https://www.calameo.com/read/0046368566d55c4deb482?utm_id=97758_v0_s00_e0_tv2_a1demo0ed4g20i",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.0,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-84a912e9a6",
@@ -6641,6 +7073,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.3,
       "last_update": "2026-09-17"
+    },
+    {
+      "id": "dt-941ae9ace2",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2026-11-17T05:00",
+      "end": "2026-11-18",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-fd848d8147",
@@ -6823,6 +7273,24 @@
       "last_update": "2026-09-07"
     },
     {
+      "id": "dt-47751cd0eb",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2026-11-24T05:00",
+      "end": "2026-11-25",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-b6a4757ab2",
       "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
@@ -6965,6 +7433,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.3,
       "last_update": "2026-09-25"
+    },
+    {
+      "id": "dt-8fbf73563a",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2026-12-01T05:00",
+      "end": "2026-12-02",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-ca6d47145b",
@@ -7255,6 +7741,24 @@
       "last_update": "2026-09-29"
     },
     {
+      "id": "dt-9dbceff64a",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2026-12-08T05:00",
+      "end": "2026-12-09",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-999a0c038b",
       "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
@@ -7404,7 +7908,7 @@
       "title": "Yoga : Equilibrer les forces et les polarités",
       "start": "2026-12-12T15:00",
       "end": "2026-12-12T16:15",
-      "location": "12 rue des Menhirs",
+      "location": "Office de tourisme d'Erdeven -",
       "city": "Erdeven",
       "description": "Dans un quotidien rythmé par la course, la performance et le « toujours plus », accordez-vous une pause pour ralentir, respirer et vous reconnecter à vous-même. À travers cinq séances de Hatha Yoga, partez à la recherche de votre juste équilibre.",
       "url": null,
@@ -7414,7 +7918,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.2,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-0eaae7d55f",
@@ -7433,6 +7937,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.2,
       "last_update": "2026-09-07"
+    },
+    {
+      "id": "dt-394702e9e1",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2026-12-15T05:00",
+      "end": "2026-12-16",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-00564b33c9",
@@ -7561,6 +8083,24 @@
       "last_update": "2026-09-29"
     },
     {
+      "id": "dt-be57ecd5c1",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2026-12-22T05:00",
+      "end": "2026-12-23",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-fdc41dfb75",
       "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
@@ -7631,6 +8171,24 @@
       "source_name": "ADT 56",
       "distance_km": 13.4,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-ae2d633aea",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2026-12-29T05:00",
+      "end": "2026-12-30",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-de2fc1f851",
@@ -7741,6 +8299,24 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-bce52845ea",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-01-05T05:00",
+      "end": "2027-01-06",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-dd69905bda",
       "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
@@ -7777,6 +8353,24 @@
       "last_update": "2026-09-07"
     },
     {
+      "id": "dt-077e7120cd",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-01-12T05:00",
+      "end": "2027-01-13",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-6253671ebd",
       "series_id": "dt-eeeefdcb45",
       "title": "Concert de jazz Antonio Lizana",
@@ -7793,6 +8387,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
       "last_update": "2026-09-07"
+    },
+    {
+      "id": "dt-c5206a81b3",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-01-19T05:00",
+      "end": "2027-01-20",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-ce6abd159c",
@@ -7829,6 +8441,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.5,
       "last_update": "2026-09-07"
+    },
+    {
+      "id": "dt-b0f532b7cc",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-01-26T05:00",
+      "end": "2027-01-27",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-4db8b257ff",
@@ -7882,7 +8512,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.3,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-13ac095f1a",
@@ -7937,6 +8567,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 10.0,
       "last_update": "2026-09-17"
+    },
+    {
+      "id": "dt-923d9f4e3a",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-02-02T05:00",
+      "end": "2027-02-03",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-2dccae70a5",
@@ -8137,6 +8785,24 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-cc1a84ec61",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-02-09T05:00",
+      "end": "2027-02-10",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-a117895db5",
       "series_id": "dt-cb7909193f",
       "title": "Fast, ou peut-on se réapproprier nos désirs dans une société de consommation ?",
@@ -8196,7 +8862,7 @@
       "title": "Ciné-docs : Australie Du grand Ouest à la Tasmanie",
       "start": "2027-02-14T16:00",
       "end": "2027-02-14T18:00",
-      "location": "Espace culturel Le Roëlan -",
+      "location": "9 Rue Abbé Le Barh",
       "city": "Erdeven",
       "description": "Dimanche 14 février, découvrez le Ciné-docs de voyage et d’aventure : Australie « Du grand Ouest à la Tasmanie ». Un Film de Dong Wei et Jean Charbonneau.",
       "url": null,
@@ -8207,6 +8873,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.5,
       "last_update": "2026-09-07"
+    },
+    {
+      "id": "dt-00e488b2fe",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-02-16T05:00",
+      "end": "2027-02-17",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-75e4952d02",
@@ -8227,6 +8911,24 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-28b16fc408",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-02-23T05:00",
+      "end": "2027-02-24",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-093c585f55",
       "series_id": "dt-56c4017ffc",
       "title": "Yoga : Trouver l’immobilité dans le mouvement",
@@ -8242,7 +8944,25 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.3,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-36230a9751",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-03-02T05:00",
+      "end": "2027-03-03",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-d95a516252",
@@ -8263,12 +8983,30 @@
       "last_update": "2026-09-07"
     },
     {
+      "id": "dt-3621a2da22",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-03-09T05:00",
+      "end": "2027-03-10",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-702138bebe",
       "series_id": "dt-8e293a06e0",
       "title": "Ciné-docs : Eurovélo 6",
       "start": "2027-03-13T16:00",
       "end": "2027-03-13T18:00",
-      "location": "Espace culturel Le Roëlan -",
+      "location": "9 Rue Abbé Le Barh",
       "city": "Erdeven",
       "description": "Samedi 13 mars, découvrez le ciné-docs de voyage et d’aventure : Eurovélo 6 : De l’embouchure de la Loire au Delta du Danube. Un film de Olivier Bourguet Synopsis De mai à octobre, la famille Bourguet est partie durant 5 mois traverser l’Europe à vélo le long de l’Eurovélo route…",
       "url": null,
@@ -8279,6 +9017,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.5,
       "last_update": "2026-09-07"
+    },
+    {
+      "id": "dt-7ee00188e6",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-03-16T05:00",
+      "end": "2027-03-17",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-67f1a1f759",
@@ -8296,7 +9052,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.3,
-      "last_update": "2026-09-29"
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-1e99f02def",
@@ -8315,6 +9071,42 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
       "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-1a53f74083",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-03-23T05:00",
+      "end": "2027-03-24",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-c867bdfd03",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-03-30T05:00",
+      "end": "2027-03-31",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-23f20760d0",
@@ -8351,6 +9143,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
       "last_update": "2026-09-07"
+    },
+    {
+      "id": "dt-84646592b1",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-04-06T05:00",
+      "end": "2027-04-07",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-379d35f3c5",
@@ -8443,6 +9253,24 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-4dd51aa02a",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-04-13T05:00",
+      "end": "2027-04-14",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-21c14ff48b",
       "series_id": "dt-3e65366b3f",
       "title": "Théâtre: Elle pas princesse, Lui pas héros",
@@ -8459,6 +9287,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.4,
       "last_update": "2026-09-17"
+    },
+    {
+      "id": "dt-11682050d9",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-04-20T05:00",
+      "end": "2027-04-21",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-ddba931219",
@@ -8479,6 +9325,42 @@
       "last_update": "2026-09-29"
     },
     {
+      "id": "dt-23c501eee9",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-04-27T05:00",
+      "end": "2027-04-28",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-d0d2172ebe",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-05-04T05:00",
+      "end": "2027-05-05",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-f5a74b5480",
       "series_id": "dt-a7cb289fb4",
       "title": "Exposition: Pourtant on peut l'ouvrir",
@@ -8495,6 +9377,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
       "last_update": "2026-09-17"
+    },
+    {
+      "id": "dt-a7f44e1d57",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-05-11T05:00",
+      "end": "2027-05-12",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-d56fe33a80",
@@ -8533,6 +9433,24 @@
       "last_update": "2026-09-29"
     },
     {
+      "id": "dt-38025f19c4",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-05-18T05:00",
+      "end": "2027-05-19",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-1c3efe9608",
       "series_id": "dt-12864d9c90",
       "title": "Théâtre: Pourtant on peut l’ouvrir",
@@ -8569,6 +9487,24 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-4b38e726c7",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-05-25T05:00",
+      "end": "2027-05-26",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-023721f635",
       "series_id": "dt-2d111c9392",
       "title": "Spectacles, concerts, ateliers: Athéna en fête",
@@ -8585,6 +9521,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.4,
       "last_update": "2026-09-17"
+    },
+    {
+      "id": "dt-503a7b8b7a",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-06-01T05:00",
+      "end": "2027-06-02",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
     },
     {
       "id": "dt-f5bfd178de",
@@ -8605,6 +9559,60 @@
       "last_update": "2026-09-29"
     },
     {
+      "id": "dt-3381f11737",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-06-08T05:00",
+      "end": "2027-06-09",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-284194a597",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-06-15T05:00",
+      "end": "2027-06-16",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-7fd41a214f",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-06-22T05:00",
+      "end": "2027-06-23",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
+    },
+    {
       "id": "dt-e3f55bda3a",
       "series_id": "dt-5f1d2c3ce3",
       "title": "Cycle ballets & opéra : \"Tosca\"",
@@ -8621,6 +9629,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
       "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-f24ba98f83",
+      "series_id": "dt-2ad11373df",
+      "title": "Atelier danse bretonne - Dañs Alre",
+      "start": "2027-06-29T05:00",
+      "end": "2027-06-30",
+      "location": "Salle Jean et Marcelle Péron",
+      "city": "Auray",
+      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-09-30"
     }
   ]
 }
