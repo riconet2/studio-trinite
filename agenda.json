@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-02T10:33:05Z",
-  "data_updated_at": "2026-09-30",
+  "generated_at": "2026-10-03T09:54:42Z",
+  "data_updated_at": "2026-10-01",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -10,11 +10,11 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 535,
+    "total": 536,
     "by_proximity": {
       "near": 468,
-      "daytrip": 2,
-      "immediate": 65
+      "daytrip": 4,
+      "immediate": 64
     }
   },
   "events": [
@@ -431,132 +431,6 @@
       "source_name": "ADT 56",
       "distance_km": 21.7,
       "last_update": "2026-09-16"
-    },
-    {
-      "id": "dt-fcd46f2a81",
-      "series_id": "dt-09b966ff66",
-      "title": "Marché hebdomadaire à La Trinité-sur-Mer",
-      "start": "2026-10-02T08:00",
-      "end": "2026-10-02T13:00",
-      "location": "Place du Voulien",
-      "city": "La Trinité-sur-Mer",
-      "description": "Le marché hebdomadaire se tient le mardi et le vendredi matin de 8h à 13h sur la place du Voulien.",
-      "url": null,
-      "category": "marche",
-      "priority": 1,
-      "proximity": "immediate",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 0.6,
-      "last_update": "2026-01-05"
-    },
-    {
-      "id": "dt-af97b26316",
-      "series_id": "dt-fa57efa204",
-      "title": "Terra Initia - Exposition TR'ÂMES",
-      "start": "2026-10-02T10:00",
-      "end": "2026-10-02T12:30",
-      "location": "Galerie Terra Initia",
-      "city": "Carnac",
-      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.0,
-      "last_update": "2026-08-13"
-    },
-    {
-      "id": "dt-75aa11e704",
-      "series_id": "dt-ba571670b0",
-      "title": "Visite guidée \"La seconde guerre mondiale dans la Ria d'Etel\"",
-      "start": "2026-10-02T10:00",
-      "end": "2026-10-02T12:00",
-      "location": "Office de tourisme d'Etel",
-      "city": "Étel",
-      "description": "10h - 12h, chaque vendredi : Du fait de sa proximité de Lorient et de sa base sous-marine, la ria fut un enjeu important de la seconde guerre mondiale. Une petite promenade sur les dunes vous en fera découvrir les vestiges et vous permettra de les comprendre. Durée : 2 heures.",
-      "url": null,
-      "category": "patrimoine",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.6,
-      "last_update": "2026-08-25"
-    },
-    {
-      "id": "dt-de54c05f19",
-      "series_id": "dt-fa57efa204",
-      "title": "Terra Initia - Exposition TR'ÂMES",
-      "start": "2026-10-02T15:00",
-      "end": "2026-10-02T18:30",
-      "location": "Galerie Terra Initia",
-      "city": "Carnac",
-      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.0,
-      "last_update": "2026-08-13"
-    },
-    {
-      "id": "dt-a43ff239c8",
-      "series_id": "dt-4715c8c3b8",
-      "title": "Les Nuits Soniques",
-      "start": "2026-10-02T19:00",
-      "end": null,
-      "location": "Chapelle Saint Esprit",
-      "city": "Auray",
-      "description": "Les Nuits Soniques sont de retour ! Demat à nos petits petits fruits de mer en sortie de canicule ! Alors ? bien remis·es de cet été caniculaire ? Vous en avez assez de chercher les îlots de fraicheur ?",
-      "url": "https://lesnuitssoniques.com/",
-      "category": "musique",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.9,
-      "last_update": "2026-09-29"
-    },
-    {
-      "id": "dt-1714797d8d",
-      "series_id": "dt-e06e68ef84",
-      "title": "Séance photo découverte",
-      "start": "2026-10-02T19:00",
-      "end": null,
-      "location": "lieu communiqué à la réservation",
-      "city": "Carnac",
-      "description": "Mini-séance photo \"aquatique\" au coucher du soleil Faites l'expérience d'une mise en lumière naturelle, sensible et immersive, sur la plage ou dans l’eau, à la lumière douce du coucher de soleil.",
-      "url": null,
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.1,
-      "last_update": "2026-09-17"
-    },
-    {
-      "id": "dt-48649a7d46",
-      "series_id": "dt-e1b4d4a6f7",
-      "title": "Dîners Music Live",
-      "start": "2026-10-02T20:00",
-      "end": "2026-10-02T20:30",
-      "location": "1 Boulevard René Cassin",
-      "city": "Quiberon",
-      "description": "Tous les vendredis soirs, ambiance musicale en Live au restaurant du Kasino. Formule à 30 € (Plat + Dessert) + 7€ offerts en ticket de jeu. Découvrez le groupe du jour sur le site du Kasino : https://quiberon.kasino.bzh/diners-music-live-n768.html Les jeux d'argent sont…",
-      "url": "https://quiberon.kasino.bzh/diners-music-live-n446.html",
-      "category": "musique",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 13.7,
-      "last_update": "2026-04-30"
     },
     {
       "id": "dt-aebc04f5c6",
@@ -1099,6 +973,24 @@
       "last_update": "2026-09-21"
     },
     {
+      "id": "dt-9503108dba",
+      "series_id": "dt-b7058858dc",
+      "title": "Concert à La grange de Kerivin",
+      "start": "2026-10-04T18:00",
+      "end": "2026-10-04T19:15",
+      "location": "La grange de Kerivin",
+      "city": "Ploemel",
+      "description": "Pique-nique des Marquises, concert avec la pianiste Asuka Ito Ancienne élève de la Schola Cantorum de Paris, Asuka Ito est lauréate de plusieurs concours internationaux, dont le 3e prix au IX concours \"Albert Roussel\".",
+      "url": null,
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 7.2,
+      "last_update": "2026-10-01"
+    },
+    {
       "id": "dt-7a24825054",
       "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
@@ -1261,6 +1153,24 @@
       "last_update": "2026-09-29"
     },
     {
+      "id": "dt-4de78a8a13",
+      "series_id": "dt-1f65b89c3c",
+      "title": "Temps fort de l’automne, le festival \"Les Aventuriers de la Mer\" est de retour à la Cité de la Voile pour sa 10ème édition !",
+      "start": "2026-10-08",
+      "end": "2026-10-11",
+      "location": "Cité de la Voile Eric Tabarly",
+      "city": "Lorient",
+      "description": "Pendant quatre jours, vous êtes invités à partir à la découverte des océans et à rencontrer celles et ceux qui les explorent, les parcourent et s’engagent pour leur préservation.",
+      "url": "https://www.citevoile-tabarly.com/fr/festival-les-aventuriers-de-la-mer",
+      "category": "culture",
+      "priority": 2,
+      "proximity": "daytrip",
+      "source": "DATAtourisme",
+      "source_name": "CRT Bretagne_",
+      "distance_km": 30.6,
+      "last_update": "2026-10-01"
+    },
+    {
       "id": "dt-2ef566cf2d",
       "series_id": "dt-01656b3159",
       "title": "Marché hebdomadaire à Crac'h",
@@ -1385,6 +1295,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.2,
       "last_update": "2026-09-07"
+    },
+    {
+      "id": "dt-a22574afdf",
+      "series_id": "dt-25acb61004",
+      "title": "Nuit de la Science à la Cité de la Voile",
+      "start": "2026-10-09T19:00",
+      "end": "2026-10-09T23:00",
+      "location": "Cité de la Voile",
+      "city": "Lorient",
+      "description": "Pour la première fois, l'UBS université vous donne rendez-vous vendredi 9 octobre 2026, de 19h à 23h, à la Cité de la Voile Éric Tabarly pour une soirée gratuite, ludique et ouverte à toute la famille ! 🧪🌊 👩‍🔬 Expérimentez, testez, manipulez et échangez avec des scientifiques !",
+      "url": "https://www.citevoile-tabarly.com/fr",
+      "category": "nautique",
+      "priority": 2,
+      "proximity": "daytrip",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 30.5,
+      "last_update": "2026-10-01"
     },
     {
       "id": "dt-97035bd088",
@@ -2377,6 +2305,24 @@
       "last_update": "2026-09-30"
     },
     {
+      "id": "dt-7e66a73d76",
+      "series_id": "dt-2ecf34e85a",
+      "title": "Théâtre d'improvisation \"TandeM Cie\"",
+      "start": "2026-10-16T21:00",
+      "end": null,
+      "location": "Boulevard Charles de Gaulle",
+      "city": "Étel",
+      "description": "Pour la deuxième année et pour le bonheur de toutes et tous, la troupe de théâtre d’improvisation « TandeM Cie » revient à Etel le 16 octobre prochain. Deux équipes sur scène s'affrontent et se rendent coup pour coup en improvisant sur des thèmes choisis par le public.",
+      "url": "https://www.collegelariviere.fr/vie-au-college/alce/",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-10-01"
+    },
+    {
       "id": "dt-8cce819ceb",
       "series_id": "dt-2a1de60d42",
       "title": "Arsenic et boule de gomme : l'Abominable expo",
@@ -2392,7 +2338,25 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
-      "last_update": "2026-09-30"
+      "last_update": "2026-10-01"
+    },
+    {
+      "id": "dt-64c011b4ae",
+      "series_id": "dt-69d5f0008c",
+      "title": "Rando jeu d'Halloween",
+      "start": "2026-10-17",
+      "end": "2026-11-04",
+      "location": "74 Avenue des Druides",
+      "city": "Carnac",
+      "description": "Du 17 octobre au 4 novembre Jeu de piste \"Le Laboratoire de Franck\" Partez à la recherche des 7 affiches cachées dans le bourg de Carnac et créez votre propre créature en téléchargeant l’application Baludik. Gratuit ! plus d'info sur www.ot-carnac.fr/halloween",
+      "url": "https://www.ot-carnac.fr/infos-pratiques/agenda/halloween/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.6,
+      "last_update": "2026-10-01"
     },
     {
       "id": "dt-5d4ba5a020",
@@ -2683,6 +2647,24 @@
       "last_update": "2026-09-30"
     },
     {
+      "id": "dt-4ed2d28ef8",
+      "series_id": "dt-86b481b486",
+      "title": "Rendez-vous des Ecrivains de la Mer",
+      "start": "2026-10-18",
+      "end": "2026-10-18T18:00",
+      "location": "Musée des thoniers",
+      "city": "Étel",
+      "description": "Pour la 12è édition du Rendez-vous des Ecrivains de la Mer, le musée des thoniers aura l'honneur de recevoir une vingtaine d'auteur.e.s. Ce sera l'occasion de rencontrer et partager avec des écrivains, des illustrateurs et des auteurs jeunesse.",
+      "url": "http://www.museedesthoniers.fr/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 15.2,
+      "last_update": "2026-09-26"
+    },
+    {
       "id": "dt-69fe7f1485",
       "series_id": "dt-b4d9c5225b",
       "title": "Visite itinérante : Dans les pas de Kourtney Roy",
@@ -2734,24 +2716,6 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 14.3,
-      "last_update": "2026-09-29"
-    },
-    {
-      "id": "dt-6189844dbf",
-      "series_id": "dt-b165a6fe91",
-      "title": "Rendez-vous des écrivains de la mer #12",
-      "start": "2026-10-18T10:00",
-      "end": "2026-10-18T18:00",
-      "location": "Musée des thoniers -",
-      "city": "Étel",
-      "description": "Le Musée des Thoniers d’Étel vous donne rendez-vous pour une nouvelle édition de son Rendez-vous des Écrivains de la Mer. Pour cette 12ème édition, une vingtaine d’auteurs venus de différents horizons maritimes seront réunis au cœur du musée.",
-      "url": "http://www.museedesthoniers.fr/",
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.8,
       "last_update": "2026-09-29"
     },
     {
@@ -3191,7 +3155,7 @@
       "series_id": "dt-a6e579623c",
       "title": "Initiation au breton et pressage à l'ancienne",
       "start": "2026-10-20T10:00",
-      "end": null,
+      "end": "2026-10-20T12:00",
       "location": "Verger conservatoire de Saint-Dégan",
       "city": "Brech",
       "description": "Animation proposée par Morbihan Grandeur Nature - Observer la Nature de plus près - Et si vous découvriez la langue bretonne les mains dans les pommes ?",
@@ -3202,7 +3166,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 14.1,
-      "last_update": "2026-04-22"
+      "last_update": "2026-10-01"
     },
     {
       "id": "dt-02e6e7c420",
@@ -3277,6 +3241,24 @@
       "last_update": "2026-09-29"
     },
     {
+      "id": "dt-8c1c3c889d",
+      "series_id": "dt-a6e579623c",
+      "title": "Initiation au breton et pressage à l'ancienne",
+      "start": "2026-10-20T14:00",
+      "end": "2026-10-20T16:00",
+      "location": "Verger conservatoire de Saint-Dégan",
+      "city": "Brech",
+      "description": "Animation proposée par Morbihan Grandeur Nature - Observer la Nature de plus près - Et si vous découvriez la langue bretonne les mains dans les pommes ?",
+      "url": "https://www.morbihan.fr/nos-actions/environnement-le-departement-un-acteur-engage/le-patrimoine-naturel-morbihannais/le-programme-morbihan-grandeur-nature",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 14.1,
+      "last_update": "2026-10-01"
+    },
+    {
       "id": "dt-cf3b18f881",
       "series_id": "dt-08c3fd7884",
       "title": "Mario Kart Live Home",
@@ -3293,24 +3275,6 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
       "last_update": "2026-08-28"
-    },
-    {
-      "id": "dt-7a61547dd1",
-      "series_id": "dt-c72edb2017",
-      "title": "Parler breton au rythme du verger",
-      "start": "2026-10-20T14:00",
-      "end": null,
-      "location": "Verger conservatoire de Saint-Dégan",
-      "city": "Brech",
-      "description": "Animation proposée par Morbihan Grandeur Nature - Observer la Nature de plus près - Au cœur du verger, initiez-vous au breton à travers les gestes, les objets et les moments de partage. Une expérience simple, sensorielle et conviviale, accessible à tous. Réservation par téléphone",
-      "url": "https://www.morbihan.fr/nos-actions/environnement-le-departement-un-acteur-engage/le-patrimoine-naturel-morbihannais/le-programme-morbihan-grandeur-nature",
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.1,
-      "last_update": "2026-04-22"
     },
     {
       "id": "dt-2d7af93a44",
@@ -3436,7 +3400,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 7.4,
-      "last_update": "2026-09-29"
+      "last_update": "2026-10-01"
     },
     {
       "id": "dt-bbb7a0b964",
@@ -3599,6 +3563,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.8,
       "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-4c413ef8d6",
+      "series_id": "dt-c910b391de",
+      "title": "Mercredi, on joue !",
+      "start": "2026-10-21T14:30",
+      "end": "2026-10-21T16:30",
+      "location": "Médiathèque Espace du Tilleul",
+      "city": "Erdeven",
+      "description": "Atelier Jeux de Société à la Médiathèque ! Envie de passer un moment convivial en famille ou entre amis ? Rejoignez-nous pour un après-midi jeux de société à la médiathèque !",
+      "url": "https://www.erdeven.fr/decouvrir-erdeven/les-evenements/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 11.5,
+      "last_update": "2026-10-01"
     },
     {
       "id": "dt-13d1c98cd2",
@@ -3850,7 +3832,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.2,
-      "last_update": "2026-09-25"
+      "last_update": "2026-10-01"
     },
     {
       "id": "dt-ea9eb81139",
@@ -3922,7 +3904,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 6.3,
-      "last_update": "2026-09-29"
+      "last_update": "2026-10-01"
     },
     {
       "id": "dt-3debacf21e",
@@ -4030,7 +4012,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 6.3,
-      "last_update": "2026-09-29"
+      "last_update": "2026-10-01"
     },
     {
       "id": "dt-082028ae32",
@@ -4084,7 +4066,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 6.3,
-      "last_update": "2026-09-29"
+      "last_update": "2026-10-01"
     },
     {
       "id": "dt-b4de17d69a",
@@ -4987,6 +4969,24 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-4606d61a0d",
+      "series_id": "dt-c72edb2017",
+      "title": "Autour du pressage de pommes",
+      "start": "2026-10-27T10:00",
+      "end": "2026-10-27T12:00",
+      "location": "Verger conservatoire de Saint-Dégan",
+      "city": "Brech",
+      "description": "Animation proposée par Morbihan Grandeur Nature - Observer la Nature de plus près - Découverte des variétés de pommes du verger et de la fabrication du jus de pommes. Réservation par téléphone ou par mail",
+      "url": "https://www.morbihan.fr/nos-actions/environnement-le-departement-un-acteur-engage/le-patrimoine-naturel-morbihannais/le-programme-morbihan-grandeur-nature",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 14.1,
+      "last_update": "2026-10-01"
+    },
+    {
       "id": "dt-133fdbfd1c",
       "series_id": "dt-b7bdcbc4e5",
       "title": "La Préhistoire à travers les contes",
@@ -5308,7 +5308,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
-      "last_update": "2026-09-30"
+      "last_update": "2026-10-01"
     },
     {
       "id": "dt-b4dabed98d",
@@ -5445,7 +5445,7 @@
       "location": "Le p'tit Monde de Zabelle",
       "city": "Carnac",
       "description": "Heure du conte : Histoires de sorcières et autres créatures Pour enfants à partir de 4 ans",
-      "url": null,
+      "url": "https://le-ptitmonde-de-zabelle.bzh/",
       "category": "spectacle",
       "priority": 2,
       "proximity": "near",
@@ -5542,7 +5542,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
-      "last_update": "2026-09-30"
+      "last_update": "2026-10-01"
     },
     {
       "id": "dt-06c91a86df",
@@ -5758,7 +5758,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.2,
-      "last_update": "2026-09-25"
+      "last_update": "2026-10-01"
     },
     {
       "id": "dt-aa36fd4845",
@@ -5866,7 +5866,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
-      "last_update": "2026-09-30"
+      "last_update": "2026-10-01"
     },
     {
       "id": "dt-b061b74f6a",
@@ -6191,6 +6191,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-21"
+    },
+    {
+      "id": "dt-b4d4120357",
+      "series_id": "dt-c5b037ca86",
+      "title": "Halloween, Sorcières et Korrigans et autres au bourg de Brec'h",
+      "start": "2026-10-31T17:00",
+      "end": null,
+      "location": "Bourg",
+      "city": "Brech",
+      "description": "Dans le cadre d'Un Automne autrement 2026 Animation Venez découvrir le bourg de Brec'h, à la nuit tombante, en compagnie des sorcières, des korrigans et autres personnages merveilleux.",
+      "url": null,
+      "category": "fete",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.3,
+      "last_update": "2026-10-01"
     },
     {
       "id": "dt-5660116cc2",
@@ -8862,7 +8880,7 @@
       "title": "Ciné-docs : Australie Du grand Ouest à la Tasmanie",
       "start": "2027-02-14T16:00",
       "end": "2027-02-14T18:00",
-      "location": "9 Rue Abbé Le Barh",
+      "location": "Espace culturel Le Roëlan -",
       "city": "Erdeven",
       "description": "Dimanche 14 février, découvrez le Ciné-docs de voyage et d’aventure : Australie « Du grand Ouest à la Tasmanie ». Un Film de Dong Wei et Jean Charbonneau.",
       "url": null,
@@ -9006,7 +9024,7 @@
       "title": "Ciné-docs : Eurovélo 6",
       "start": "2027-03-13T16:00",
       "end": "2027-03-13T18:00",
-      "location": "9 Rue Abbé Le Barh",
+      "location": "Espace culturel Le Roëlan -",
       "city": "Erdeven",
       "description": "Samedi 13 mars, découvrez le ciné-docs de voyage et d’aventure : Eurovélo 6 : De l’embouchure de la Loire au Delta du Danube. Un film de Olivier Bourguet Synopsis De mai à octobre, la famille Bourguet est partie durant 5 mois traverser l’Europe à vélo le long de l’Eurovélo route…",
       "url": null,
