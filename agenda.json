@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-05T11:34:29Z",
+  "generated_at": "2026-10-06T11:19:45Z",
   "data_updated_at": "2026-10-03",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
@@ -10,9 +10,9 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 508,
+    "total": 507,
     "by_proximity": {
-      "near": 441,
+      "near": 440,
       "immediate": 64,
       "daytrip": 3
     }
@@ -431,24 +431,6 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
       "last_update": "2026-09-25"
-    },
-    {
-      "id": "dt-7a24825054",
-      "series_id": "dt-fa57efa204",
-      "title": "Terra Initia - Exposition TR'ÂMES",
-      "start": "2026-10-05T10:00",
-      "end": "2026-10-05T12:30",
-      "location": "Galerie Terra Initia",
-      "city": "Carnac",
-      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.0,
-      "last_update": "2026-08-13"
     },
     {
       "id": "dt-ed56b4507c",
