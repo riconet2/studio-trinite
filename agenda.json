@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-06T11:19:45Z",
-  "data_updated_at": "2026-10-03",
+  "generated_at": "2026-10-07T11:07:37Z",
+  "data_updated_at": "2026-10-05",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -12,9 +12,9 @@
   "counts": {
     "total": 507,
     "by_proximity": {
-      "near": 440,
-      "immediate": 64,
-      "daytrip": 3
+      "near": 441,
+      "daytrip": 3,
+      "immediate": 63
     }
   },
   "events": [
@@ -451,42 +451,6 @@
       "last_update": "2026-09-30"
     },
     {
-      "id": "dt-417a8a3a9c",
-      "series_id": "dt-09b966ff66",
-      "title": "Marché hebdomadaire à La Trinité-sur-Mer",
-      "start": "2026-10-06T08:00",
-      "end": "2026-10-06T13:00",
-      "location": "Place du Voulien",
-      "city": "La Trinité-sur-Mer",
-      "description": "Le marché hebdomadaire se tient le mardi et le vendredi matin de 8h à 13h sur la place du Voulien.",
-      "url": null,
-      "category": "marche",
-      "priority": 1,
-      "proximity": "immediate",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 0.6,
-      "last_update": "2026-01-05"
-    },
-    {
-      "id": "dt-34f21642ad",
-      "series_id": "dt-f280ae722f",
-      "title": "Forum des aidants: film débat \"Mon Vieux\"",
-      "start": "2026-10-06T14:00",
-      "end": "2026-10-06T17:30",
-      "location": "Complexe Sports et Loisirs Salle Kolibri",
-      "city": "Ploemel",
-      "description": "A l'occasion de la journée mondiale des aidants, le C.C.A.S. de Ploemel vous invite à la projection du Film \"Mon Vieux\" avec Élie et Paul Semoun (le père d’Élie). Ce film met en avant le riche et difficile rôle des aidants de personnes atteintes de maladie ou d'un handicap.",
-      "url": null,
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.2,
-      "last_update": "2026-09-17"
-    },
-    {
       "id": "dt-28074ea5ed",
       "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
@@ -579,12 +543,12 @@
     {
       "id": "dt-4de78a8a13",
       "series_id": "dt-1f65b89c3c",
-      "title": "Temps fort de l’automne, le festival \"Les Aventuriers de la Mer\" est de retour à la Cité de la Voile pour sa 10ème édition !",
+      "title": "Festival \"Les Aventuriers de la Mer\" à la Cité de la Voile",
       "start": "2026-10-08",
       "end": "2026-10-11",
       "location": "Cité de la Voile Eric Tabarly",
       "city": "Lorient",
-      "description": "Pendant quatre jours, vous êtes invités à partir à la découverte des océans et à rencontrer celles et ceux qui les explorent, les parcourent et s’engagent pour leur préservation.",
+      "description": "Temps fort de l’automne, le festival \"Les Aventuriers de la Mer\" est de retour à la Cité de la Voile pour sa 10ème édition ! Pendant quatre jours, vous êtes invités à partir à la découverte des océans et à rencontrer celles et ceux qui les explorent, les parcourent et s’engagent…",
       "url": "https://www.citevoile-tabarly.com/fr/festival-les-aventuriers-de-la-mer",
       "category": "culture",
       "priority": 2,
@@ -592,7 +556,7 @@
       "source": "DATAtourisme",
       "source_name": "CRT Bretagne_",
       "distance_km": 30.6,
-      "last_update": "2026-10-01"
+      "last_update": "2026-10-05"
     },
     {
       "id": "dt-2ef566cf2d",
@@ -2122,7 +2086,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-30"
+      "last_update": "2026-10-05"
     },
     {
       "id": "dt-8e2dfc3bc5",
@@ -3961,6 +3925,24 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-7dfc40dd09",
+      "series_id": "dt-f472ca120c",
+      "title": "Soirée années 80/90",
+      "start": "2026-10-24T19:00",
+      "end": null,
+      "location": "Rue Park Ar Fetan",
+      "city": "Brech",
+      "description": "Venez nombreux danser et vous amuser ! Foodtruck Galettes et Crêpes tout au long de la soirée avec MaTy’s Crêpes",
+      "url": null,
+      "category": "fete",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.1,
+      "last_update": "2026-10-05"
+    },
+    {
       "id": "dt-0ac61859f5",
       "series_id": "dt-fe8e3c53a8",
       "title": "Halloween au parc Forêt Adrénaline",
@@ -5561,6 +5543,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-69c8a38aca",
+      "series_id": "dt-057c3d2be5",
+      "title": "Halloween au Cinéma Ti Hanok",
+      "start": "2026-10-31T15:00",
+      "end": null,
+      "location": "Cinéma Ti Hanok",
+      "city": "Auray",
+      "description": "Revêtez votre plus beau déguisement effrayant et venez fêter Halloween au cinéma pour frissonner sur grand écran en famille et profiter d’animations variées ! Faites vos choix: 3 séances familiales sont proposées à l’occasion d’Halloween !",
+      "url": "https://cinematihanok.bzh/Tous-les-evenements",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.5,
+      "last_update": "2026-10-05"
     },
     {
       "id": "dt-2f2de37b5b",
