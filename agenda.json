@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-07T11:07:37Z",
-  "data_updated_at": "2026-10-05",
+  "generated_at": "2026-10-08T11:25:27Z",
+  "data_updated_at": "2026-10-06",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -10,11 +10,11 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 507,
+    "total": 515,
     "by_proximity": {
-      "near": 441,
+      "near": 442,
       "daytrip": 3,
-      "immediate": 63
+      "immediate": 70
     }
   },
   "events": [
@@ -89,24 +89,6 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.9,
       "last_update": "2026-09-23"
-    },
-    {
-      "id": "dt-0584fc2a3d",
-      "series_id": "dt-f0098811e6",
-      "title": "Lecture offerte aux enfants",
-      "start": "2026-06-10T10:00",
-      "end": "2026-10-07T11:00",
-      "location": "5 Rue des Menhirs",
-      "city": "Erdeven",
-      "description": "Les enfants sont les bienvenus pour écouter des histoires issues de la collection de la librairie.",
-      "url": null,
-      "category": "culture",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 11.4,
-      "last_update": "2026-07-30"
     },
     {
       "id": "dt-bfe4ac99cd",
@@ -433,42 +415,6 @@
       "last_update": "2026-09-25"
     },
     {
-      "id": "dt-ed56b4507c",
-      "series_id": "dt-2ad11373df",
-      "title": "Atelier danse bretonne - Dañs Alre",
-      "start": "2026-10-06T05:00",
-      "end": "2026-10-07",
-      "location": "Salle Jean et Marcelle Péron",
-      "city": "Auray",
-      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
-      "url": null,
-      "category": "spectacle",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.2,
-      "last_update": "2026-09-30"
-    },
-    {
-      "id": "dt-28074ea5ed",
-      "series_id": "dt-fa57efa204",
-      "title": "Terra Initia - Exposition TR'ÂMES",
-      "start": "2026-10-07T10:00",
-      "end": "2026-10-07T12:30",
-      "location": "Galerie Terra Initia",
-      "city": "Carnac",
-      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.0,
-      "last_update": "2026-08-13"
-    },
-    {
       "id": "dt-02d32e85c4",
       "series_id": "dt-0e21bcec18",
       "title": "Grand Prix de Quiberon ETF26",
@@ -485,60 +431,6 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 12.5,
       "last_update": "2026-03-02"
-    },
-    {
-      "id": "dt-061d21d00f",
-      "series_id": "dt-e2cfe2ac5e",
-      "title": "Balade contée au bord du Loch",
-      "start": "2026-10-07T15:00",
-      "end": "2026-10-07T17:00",
-      "location": "Chapelle Saint-Jacques",
-      "city": "Brech",
-      "description": "Partez pour une balade contée entre rives, landes et sentiers boisés, à la découverte des paysages de la vallée du Loc’h. Laissez-vous emporter par des histoires d’arbres, les murmures de l’eau et d’autres secrets. Sur réservation Rendez-vous à la Chapelle Saint Jacques à BREC’H",
-      "url": null,
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.2,
-      "last_update": "2026-09-29"
-    },
-    {
-      "id": "dt-cff6c7f03c",
-      "series_id": "dt-050c4840a0",
-      "title": "Ciné docs de voyage et d’aventure : ÉQUATEUR « Terre de Diversité »",
-      "start": "2026-10-07T18:30",
-      "end": null,
-      "location": "Espace culturel Terraqué",
-      "city": "Carnac",
-      "description": "Ciné docs de voyage et d’aventure : ÉQUATEUR « Terre de Diversité » - Film de Lynda PAQUETTE et Martin PARENT. L’Équateur est une terre d’exception, renfermant une des plus grandes biodiversités du globe.",
-      "url": "http://www.artetculture-carnac.com/",
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.1,
-      "last_update": "2026-09-29"
-    },
-    {
-      "id": "dt-0c6f645b09",
-      "series_id": "dt-c256bce921",
-      "title": "Film documentaire : Sepia, l'odyssée d'une seiche",
-      "start": "2026-10-07T20:30",
-      "end": null,
-      "location": "Cinéma La Rivière",
-      "city": "Étel",
-      "description": "A l'occasion de la Fête de la science du 4 au 10 octobre, venez découvrir les Dessous de la Ria. Suivez Sépia dans son odyssée ! “Au fil de son exploration de l'océan, Sépia se retrouve plongée au cœur d'une grande migration d'animaux marins dans un voyage haut en couleur qui…",
-      "url": null,
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.2,
-      "last_update": "2026-09-29"
     },
     {
       "id": "dt-4de78a8a13",
@@ -669,7 +561,7 @@
     {
       "id": "dt-cb73c10482",
       "series_id": "dt-c310bdb42c",
-      "title": "Spactacle : Entrez de Secours !",
+      "title": "Spectacle : Entrez de Secours !",
       "start": "2026-10-09T18:30",
       "end": null,
       "location": "Rue Jules Ferry",
@@ -682,7 +574,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.2,
-      "last_update": "2026-09-07"
+      "last_update": "2026-10-06"
     },
     {
       "id": "dt-a22574afdf",
@@ -1061,6 +953,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
       "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-81c99cfa89",
+      "series_id": "dt-dc08698bb1",
+      "title": "Vide grenier - APEL de l'école Sainte-Anne",
+      "start": "2026-10-11T08:00",
+      "end": "2026-10-11T17:00",
+      "location": "Place des Thoniers",
+      "city": "Étel",
+      "description": "Venez chiner au vide grenier sous la criée, organisé par l’apel de l’école Ste Anne. Petite restauration sur place. L’entrée est à 1 euro pour les + 18 ans. La recette de l’entrée et de la restauration/buvette serviront à financer des activités pour les enfants.",
+      "url": null,
+      "category": "marche",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.7,
+      "last_update": "2026-10-06"
     },
     {
       "id": "dt-c9f64b159c",
@@ -1643,7 +1553,7 @@
       "series_id": "dt-68f75aba3a",
       "title": "Fest Noz",
       "start": "2026-10-16T20:30",
-      "end": null,
+      "end": "2026-10-16T23:59",
       "location": "Espace les Chênes",
       "city": "Crach",
       "description": "Dans le cadre \" d'un Automne Autrement\", le cercle celtique de Crac'h, Yaouankiz er Ster, vous propose un Fest Noz à l'espace des chênes avec les groupes Ruz tan et Spontailloù Ruz Tan est un groupe de musique traditionnelle qui a pour objet de promouvoir et se soutenir la…",
@@ -1654,7 +1564,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.0,
-      "last_update": "2026-09-30"
+      "last_update": "2026-10-06"
     },
     {
       "id": "dt-9e7158f302",
@@ -1744,7 +1654,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.6,
-      "last_update": "2026-10-01"
+      "last_update": "2026-10-06"
     },
     {
       "id": "dt-5d4ba5a020",
@@ -2053,6 +1963,24 @@
       "last_update": "2026-09-26"
     },
     {
+      "id": "dt-3096ffa884",
+      "series_id": "dt-5232af3609",
+      "title": "Octobre rose, marche solidaire",
+      "start": "2026-10-18T09:30",
+      "end": null,
+      "location": null,
+      "city": "Étel",
+      "description": "Octobre Rose: Vague de solidarité à Étel Le 18 octobre, la ville se mobilise pour la prévention et le dépistage du cancer du sein. Cet évènement de prévention Octobre Rose est organisé par l’association Matipolo et la MSP d’Etel.",
+      "url": "https://www.maison-sante-etel.fr/letelloise-octobre-rose-a-etel/",
+      "category": "marche",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-10-06"
+    },
+    {
       "id": "dt-69fe7f1485",
       "series_id": "dt-b4d9c5225b",
       "title": "Visite itinérante : Dans les pas de Kourtney Roy",
@@ -2197,6 +2125,24 @@
       "last_update": "2026-09-29"
     },
     {
+      "id": "dt-d15b2722d1",
+      "series_id": "dt-fdff1678c8",
+      "title": "Nettoyage de plage à Carnac",
+      "start": "2026-10-18T14:00",
+      "end": "2026-10-18T17:00",
+      "location": "Plage de Kerivor",
+      "city": "Carnac",
+      "description": "Nettoyage de la plage de Kerivor. Opération de sensibilisation aux déchets littoraux ouverte à tous. Sacs et pinces fournis, prévoir des gants.",
+      "url": "https://lesmainsdanslesable.com/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 5.9,
+      "last_update": "2026-10-06"
+    },
+    {
       "id": "dt-83389ed933",
       "series_id": "dt-611e55b02a",
       "title": "Pierres de légende",
@@ -2285,6 +2231,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
       "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-69e2d0a59c",
+      "series_id": "dt-fbe628eb22",
+      "title": "Stages de golf vacances d'automne",
+      "start": "2026-10-19T09:00",
+      "end": "2026-10-30T11:00",
+      "location": "Golf de Saint-Laurent",
+      "city": "Ploemel",
+      "description": "Les vacances d’automne seront là ! C’est le moment idéal pour progresser, découvrir le golf ou tout simplement se faire plaisir sur les greens.",
+      "url": "https://bluegreen.fr/saint-laurent/stages/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.8,
+      "last_update": "2026-10-06"
     },
     {
       "id": "dt-305d5862f8",
@@ -2429,6 +2393,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 14.1,
       "last_update": "2026-06-16"
+    },
+    {
+      "id": "dt-f165b7c3f6",
+      "series_id": "dt-fbe628eb22",
+      "title": "Stages de golf vacances d'automne",
+      "start": "2026-10-19T14:00",
+      "end": "2026-10-30T16:00",
+      "location": "Golf de Saint-Laurent",
+      "city": "Ploemel",
+      "description": "Les vacances d’automne seront là ! C’est le moment idéal pour progresser, découvrir le golf ou tout simplement se faire plaisir sur les greens.",
+      "url": "https://bluegreen.fr/saint-laurent/stages/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.8,
+      "last_update": "2026-10-06"
     },
     {
       "id": "dt-751b259374",
@@ -3043,24 +3025,6 @@
       "last_update": "2026-01-05"
     },
     {
-      "id": "dt-dfde64a04f",
-      "series_id": "dt-f0362586bd",
-      "title": "Découverte du joli monde des champignons",
-      "start": "2026-10-22T10:00",
-      "end": "2026-10-22T12:30",
-      "location": "Parking du Poulbert",
-      "city": "La Trinité-sur-Mer",
-      "description": "Que l'on soit débutant ou confirmé, les champignons restent toujours une énigme. Apprenez à bien les observer et à regarder les détails permettant l'identification, en compagnie de Franck, un spécialiste passionné par la nature.",
-      "url": "https://www.eco-nature.org/experience/decouverte-du-joli-monde-des-champignons-5144",
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "immediate",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 1.2,
-      "last_update": "2026-09-05"
-    },
-    {
       "id": "dt-554809361a",
       "series_id": "dt-e7ee5518dd",
       "title": "Chasse au trésor en famille \"Le secret du trésor de Saint-Clément\"",
@@ -3277,6 +3241,24 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-b0c1ec9fc3",
+      "series_id": "dt-d3cf73fd74",
+      "title": "Découverte de l'estran : les petits animaux du bord de mer, sensibilisation à la pêche à pied",
+      "start": "2026-10-23T09:30",
+      "end": "2026-10-23T12:00",
+      "location": "Parking du Poulbert",
+      "city": "La Trinité-sur-Mer",
+      "description": "Les petits animaux du bord de mer, quel monde fascinant et fragile. Pour apprendre à les pêcher, il faut connaître leurs mœurs et leurs lieux de vie. Le but étant de préserver ces milieux, on peut prélever, mais juste ce qu'il faut.",
+      "url": "http://www.baiedequiberon.bzh/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 1.2,
+      "last_update": "2026-10-06"
+    },
+    {
       "id": "dt-2915fa8c72",
       "series_id": "dt-416a9bfefc",
       "title": "Visite du fournil de Kerbirio",
@@ -3401,6 +3383,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 6.3,
       "last_update": "2026-10-01"
+    },
+    {
+      "id": "dt-213ff6ba6e",
+      "series_id": "dt-f0362586bd",
+      "title": "Découverte du joli monde des champignons",
+      "start": "2026-10-23T13:30",
+      "end": "2026-10-23T16:00",
+      "location": "Parking du Poulbert",
+      "city": "La Trinité-sur-Mer",
+      "description": "Que l'on soit débutant ou confirmé, les champignons restent toujours une énigme. Apprenez à bien les observer et à regarder les détails permettant l'identification, en compagnie de Franck, un spécialiste passionné par la nature.",
+      "url": "https://www.baiedequiberon.bzh/a-voir-a-faire/agenda/decouverte-du-joli-monde-des-champignons",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 1.2,
+      "last_update": "2026-10-06"
     },
     {
       "id": "dt-082028ae32",
@@ -3529,6 +3529,24 @@
       "last_update": "2026-09-21"
     },
     {
+      "id": "dt-350a682534",
+      "series_id": "dt-d88b42c2f1",
+      "title": "Sortie nature \"découverte des délicieuses plantes sauvages et comestibles\"",
+      "start": "2026-10-23T16:30",
+      "end": "2026-10-23T19:00",
+      "location": "Pointe de Kerbihan",
+      "city": "La Trinité-sur-Mer",
+      "description": "Elles nous entourent, il suffit de les regarder ! Nombreuses sont les plantes sauvages que l'on peut cueillir pour un usage quotidien. Venez les découvrir et apprenez à les identifier. Depuis la nuit des temps, l'Homme s'est nourri avec les plantes sauvages.",
+      "url": "http://www.baiedequiberon.bzh/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.1,
+      "last_update": "2026-10-06"
+    },
+    {
       "id": "dt-d9179416df",
       "series_id": "dt-fe8e3c53a8",
       "title": "Halloween au parc Forêt Adrénaline",
@@ -3545,6 +3563,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 7.4,
       "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-60038af778",
+      "series_id": "dt-5d73aff7d1",
+      "title": "Soirée astronomie et observation de la nature au coucher du soleil",
+      "start": "2026-10-23T19:30",
+      "end": "2026-10-23T22:00",
+      "location": "Parking de la pointe de Kerbihan",
+      "city": "La Trinité-sur-Mer",
+      "description": "Partons à la découverte des étoiles et constellations Quelques planètes seront observées, ainsi que l'écoute des cris et chants des oiseaux. Activité maintenue même en cas de ciel couvert (balade nature dans les deux cas).",
+      "url": "http://www.baiedequiberon.bzh/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 1.0,
+      "last_update": "2026-10-06"
     },
     {
       "id": "dt-88e109f6fa",
@@ -3652,7 +3688,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-29"
+      "last_update": "2026-10-06"
     },
     {
       "id": "dt-ff416f4ebd",
@@ -3796,7 +3832,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
-      "last_update": "2026-09-07"
+      "last_update": "2026-10-06"
     },
     {
       "id": "dt-77c7094c4a",
@@ -4156,7 +4192,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
-      "last_update": "2026-09-07"
+      "last_update": "2026-10-06"
     },
     {
       "id": "dt-a8221a581a",
@@ -4175,6 +4211,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-21"
+    },
+    {
+      "id": "dt-c65e5d994e",
+      "series_id": "dt-7f571e128e",
+      "title": "Les itinérantes « Terra mater »",
+      "start": "2026-10-25T17:00",
+      "end": null,
+      "location": "Eglise St Cornély",
+      "city": "Carnac",
+      "description": "Les itinérantes, trio vocal féminin unique en son genre, puise sa force dans la diversité de son répertoire. Portées par des arrangements originaux, les trois chanteuses interprètent a cappella des chants de toutes époques en plus de cinquante langues différentes, dans une…",
+      "url": "https://www.lesmillesmusicaux.com/automne.html",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.1,
+      "last_update": "2026-10-06"
     },
     {
       "id": "dt-f147653630",
@@ -4843,22 +4897,22 @@
       "last_update": "2026-07-28"
     },
     {
-      "id": "dt-3ed5016400",
-      "series_id": "dt-6bb254e5ac",
-      "title": "Heure du conte",
+      "id": "dt-e20057db55",
+      "series_id": "dt-499d9af349",
+      "title": "Heure du Conte \"Halloween\" - Le P'tit Monde de Zabelle",
       "start": "2026-10-28T15:00",
-      "end": "2026-10-28T15:40",
-      "location": "Le p'tit Monde de Zabelle",
+      "end": null,
+      "location": "Le P'tit Monde de Zabelle",
       "city": "Carnac",
-      "description": "Heure du conte : Histoires de sorcières et autres créatures Pour enfants à partir de 4 ans",
+      "description": "À 15h : Heure du conte. Sorcières, fantômes et autres créatures . Possibilité de venir déguisé. Pour enfants à partir de 4 ans. Sur inscription",
       "url": "https://le-ptitmonde-de-zabelle.bzh/",
       "category": "spectacle",
       "priority": 2,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.1,
-      "last_update": "2026-09-17"
+      "distance_km": 4.0,
+      "last_update": "2026-10-06"
     },
     {
       "id": "dt-8bb6378b4b",
@@ -4895,6 +4949,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-21"
+    },
+    {
+      "id": "dt-44598cd692",
+      "series_id": "dt-4115971bbb",
+      "title": "Contes d'Halloween",
+      "start": "2026-10-28T17:00",
+      "end": "2026-10-28T20:00",
+      "location": "Tchou Tchou",
+      "city": "Quiberon",
+      "description": "Mercredi 28 octobre à 17H, venez découvrir les Contes d’Halloween à Tchou Tchou Une petite dose d’histoires, de mots et de frissons pour commencer la soirée",
+      "url": "https://tchoutchou-quiberon.fr/",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.0,
+      "last_update": "2026-10-06"
     },
     {
       "id": "dt-86f475cdff",
@@ -4967,6 +5039,24 @@
       "source_name": "ADT 56",
       "distance_km": 4.0,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-e6412db462",
+      "series_id": "dt-d3cf73fd74",
+      "title": "Découverte de l'estran : les petits animaux du bord de mer, sensibilisation à la pêche à pied",
+      "start": "2026-10-29T10:00",
+      "end": "2026-10-29T12:30",
+      "location": "Parking du Poulbert",
+      "city": "La Trinité-sur-Mer",
+      "description": "Les petits animaux du bord de mer, quel monde fascinant et fragile. Pour apprendre à les pêcher, il faut connaître leurs mœurs et leurs lieux de vie. Le but étant de préserver ces milieux, on peut prélever, mais juste ce qu'il faut.",
+      "url": "http://www.baiedequiberon.bzh/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 1.2,
+      "last_update": "2026-10-06"
     },
     {
       "id": "dt-1f013a6345",
@@ -5059,6 +5149,24 @@
       "last_update": "2026-09-29"
     },
     {
+      "id": "dt-b69a1b095f",
+      "series_id": "dt-f0362586bd",
+      "title": "Découverte du joli monde des champignons",
+      "start": "2026-10-29T13:30",
+      "end": "2026-10-29T16:00",
+      "location": "Parking du Poulbert",
+      "city": "La Trinité-sur-Mer",
+      "description": "Que l'on soit débutant ou confirmé, les champignons restent toujours une énigme. Apprenez à bien les observer et à regarder les détails permettant l'identification, en compagnie de Franck, un spécialiste passionné par la nature.",
+      "url": "https://www.baiedequiberon.bzh/a-voir-a-faire/agenda/decouverte-du-joli-monde-des-champignons",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 1.2,
+      "last_update": "2026-10-06"
+    },
+    {
       "id": "dt-2c2b57331f",
       "series_id": "dt-e7ee5518dd",
       "title": "Chasse au trésor en famille \"Le secret du trésor de Saint-Clément\"",
@@ -5149,6 +5257,24 @@
       "last_update": "2026-09-21"
     },
     {
+      "id": "dt-b580f59489",
+      "series_id": "dt-d88b42c2f1",
+      "title": "Sortie nature \"découverte des délicieuses plantes sauvages et comestibles\"",
+      "start": "2026-10-29T16:30",
+      "end": "2026-10-29T19:00",
+      "location": "Pointe de Kerbihan",
+      "city": "La Trinité-sur-Mer",
+      "description": "Elles nous entourent, il suffit de les regarder ! Nombreuses sont les plantes sauvages que l'on peut cueillir pour un usage quotidien. Venez les découvrir et apprenez à les identifier. Depuis la nuit des temps, l'Homme s'est nourri avec les plantes sauvages.",
+      "url": "http://www.baiedequiberon.bzh/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.1,
+      "last_update": "2026-10-06"
+    },
+    {
       "id": "dt-e3f021e883",
       "series_id": "dt-98c207a66b",
       "title": "Visite et atelier participatif chez Ty Carton",
@@ -5201,6 +5327,24 @@
       "source_name": "ADT 56",
       "distance_km": 9.6,
       "last_update": "2026-09-23"
+    },
+    {
+      "id": "dt-7301e5fd4d",
+      "series_id": "dt-5d73aff7d1",
+      "title": "Soirée astronomie et observation de la nature au coucher du soleil",
+      "start": "2026-10-29T19:30",
+      "end": "2026-10-29T22:00",
+      "location": "Parking de la pointe de Kerbihan",
+      "city": "La Trinité-sur-Mer",
+      "description": "Partons à la découverte des étoiles et constellations Quelques planètes seront observées, ainsi que l'écoute des cris et chants des oiseaux. Activité maintenue même en cas de ciel couvert (balade nature dans les deux cas).",
+      "url": "http://www.baiedequiberon.bzh/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 1.0,
+      "last_update": "2026-10-06"
     },
     {
       "id": "dt-8fcbea89d5",
@@ -5686,7 +5830,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
-      "last_update": "2026-09-29"
+      "last_update": "2026-10-06"
     },
     {
       "id": "dt-d9f8c6630f",
@@ -5869,22 +6013,22 @@
       "last_update": "2026-01-05"
     },
     {
-      "id": "dt-058ef45bf3",
-      "series_id": "dt-cf77ee1356",
-      "title": "Les IndisciplinéEs Festival",
+      "id": "dt-125bcc6a89",
+      "series_id": "dt-c8cca90070",
+      "title": "Festival Les Indisciplinées",
       "start": "2026-11-04",
       "end": "2026-11-14",
-      "location": "Rue Honoré d'Estienne d'Orves",
+      "location": "HYDROPHONE Lorient la Base",
       "city": "Lorient",
-      "description": "Créé en 2006, le festival Les Indisciplinées est un rendez-vous majeur des musiques actuelles en Bretagne. Organisé chaque année en novembre par Hydrophone, équipement de Lorient Agglomération, le festival propose une programmation audacieuse et pluridisciplinaire mêlant…",
-      "url": "http://hydrophone.fr/-Les-Indisciplinees-.html",
+      "description": "Créé en 2006, le festival Les Indisciplinées contribue au développement des musiques émergentes dans le Pays de Lorient. Neuf jours de concerts pour découvrir des groupes émergents de la scène européenne et française, dont certains programmés à l’Hydrophone.",
+      "url": "https://www.hydrophone.fr/-Les-Indisciplinees-.html",
       "category": "musique",
       "priority": 2,
       "proximity": "daytrip",
       "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 30.5,
-      "last_update": "2026-07-10"
+      "source_name": "CRT Bretagne_",
+      "distance_km": 31.6,
+      "last_update": "2026-10-06"
     },
     {
       "id": "dt-871c365d09",
@@ -6108,7 +6252,7 @@
       "title": "Colloque annuel - Mythes et mégalithes",
       "start": "2026-11-07T09:30",
       "end": "2026-11-07T17:30",
-      "location": "Salle Kenleur",
+      "location": "1 Rue de Suède",
       "city": "Auray",
       "description": "Dans le cadre d'Un automne autrement 2026 Menhirs, légendes, croyances et découvertes archéologiques : les mégalithes n’ont pas fini de nous raconter des histoires !",
       "url": null,
