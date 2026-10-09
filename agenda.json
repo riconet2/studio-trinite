@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-08T11:25:27Z",
-  "data_updated_at": "2026-10-06",
+  "generated_at": "2026-10-09T11:22:02Z",
+  "data_updated_at": "2026-10-07",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -10,11 +10,11 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 515,
+    "total": 561,
     "by_proximity": {
-      "near": 442,
+      "near": 459,
       "daytrip": 3,
-      "immediate": 70
+      "immediate": 99
     }
   },
   "events": [
@@ -449,24 +449,6 @@
       "source_name": "CRT Bretagne_",
       "distance_km": 30.6,
       "last_update": "2026-10-05"
-    },
-    {
-      "id": "dt-2ef566cf2d",
-      "series_id": "dt-01656b3159",
-      "title": "Marché hebdomadaire à Crac'h",
-      "start": "2026-10-08T09:00",
-      "end": "2026-10-08T13:00",
-      "location": "Place de l'Eglise",
-      "city": "Crach",
-      "description": "Il se déroule tous les jeudis matin, autour de l'église de 9h à 13h.",
-      "url": null,
-      "category": "marche",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 4.0,
-      "last_update": "2026-01-05"
     },
     {
       "id": "dt-e5d48e1f22",
@@ -1243,6 +1225,24 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-39e1a33a72",
+      "series_id": "dt-77509ef207",
+      "title": "Atelier de Cuisine Colorée avec l'Atelier V",
+      "start": "2026-10-13T14:00",
+      "end": "2026-10-13T16:00",
+      "location": "8 Rue de l'Irlande",
+      "city": "Auray",
+      "description": "L’atelier V est une marque vannetaise qui explore la diversité des légumineuses dans des recettes 100% naturelles, gourmandes, colorées et créatives !",
+      "url": "https://www.alrebio.fr/d-tails-et-inscription/la-phytotherapie-lalliee-precieuse-des-femmes-pour-mieux-vivre-la-pre-menopause-et-la-menopause-au-naturel",
+      "category": "gastronomie",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.0,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-31f67856d0",
       "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
@@ -1637,6 +1637,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
       "last_update": "2026-10-01"
+    },
+    {
+      "id": "dt-074c569f90",
+      "series_id": "dt-70eddce481",
+      "title": "Festival Cinéloustics",
+      "start": "2026-10-17",
+      "end": "2026-11-01",
+      "location": "Cinéma La Rivière",
+      "city": "Étel",
+      "description": "Du 18 octobre au 1er novembre, Quai des Dunes, avec l'aide de la mairie d'Étel, propose des films pour les petits et les plus grands dans le cadre du festival Cinéloustics Une à deux séances tous les jours au tarif unique de 4,50€ et des ateliers. Venez nombreux et en famille !",
+      "url": "https://www.cinemalariviere.org/events/82308-festival-cineloustics/",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-64c011b4ae",
@@ -2215,6 +2233,24 @@
       "last_update": "2026-09-21"
     },
     {
+      "id": "dt-8a0cf5494b",
+      "series_id": "dt-797931c89d",
+      "title": "Jeu de l’objet insolite",
+      "start": "2026-10-19",
+      "end": "2026-10-31",
+      "location": null,
+      "city": "La Trinité-sur-Mer",
+      "description": "L’Union des Commerçants Trinitains invite petits et grands à participer au Jeu de l’objet insolite ! Le principe est simple : retrouver l’objet caché dans les vitrines de certains commerces de la commune. De nombreux lots sont à gagner par tirage au sort parmi les participants.",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 1.7,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-12c38afb9f",
       "series_id": "dt-f00a28e605",
       "title": "Stages de voile",
@@ -2249,6 +2285,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.8,
       "last_update": "2026-10-06"
+    },
+    {
+      "id": "dt-a871ff6f8b",
+      "series_id": "dt-63d679f06d",
+      "title": "Festival Trini-Kids : Atelier Musique et Chant",
+      "start": "2026-10-19T10:00",
+      "end": "2026-10-19T10:45",
+      "location": "1406 Place du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Viens t'éclater et partager la musique! Prévoir une bouteille d'eau. de 10h à 10h45 pour les enfants de 4 à 7 ans de 10h45 à 11h30 pour les enfants de 8 à 12 ans Engagement obligatoire pour les 3 séances: 19,20 et 21 octobre Inscription: auprès d' Isabelle Mercury par mail…",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-305d5862f8",
@@ -2413,6 +2467,24 @@
       "last_update": "2026-10-06"
     },
     {
+      "id": "dt-6bf8892f62",
+      "series_id": "dt-fc4f15a93f",
+      "title": "Festival Trini'Kids: Jeux en pagaille",
+      "start": "2026-10-19T14:30",
+      "end": "2026-10-19T17:30",
+      "location": "1406 Place du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Jeux en bois et jeux de société surdimensionnés, animés par Ty Game Truck. Gratuit sans inscription",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "plein_air",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-751b259374",
       "series_id": "dt-611e55b02a",
       "title": "Pierres de légende",
@@ -2467,6 +2539,24 @@
       "last_update": "2026-09-21"
     },
     {
+      "id": "dt-495a262f5b",
+      "series_id": "dt-d3fd30b8f7",
+      "title": "Automne numérique : Le Loup-Garou de Sombreval",
+      "start": "2026-10-20",
+      "end": null,
+      "location": "2 allée Abbé Martin Kercret",
+      "city": "Ploemel",
+      "description": "Redécouvrez le célèbre jeu du Loup-Garou dans une version immersive et spectaculaire ! Musiques, lumières et ambiance théâtrale transforment chaque partie en une expérience captivante, dans laquelle chaque joueur dispose d’un pouvoir et reste impliqué jusqu’au bout.",
+      "url": "https://mediatheques-terre-atlantique.fr/node/content/nid/518516",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 8.0,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-7669fd5c74",
       "series_id": "dt-2ad11373df",
       "title": "Atelier danse bretonne - Dañs Alre",
@@ -2501,6 +2591,24 @@
       "source_name": "ADT 56",
       "distance_km": 0.6,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-5b10705c38",
+      "series_id": "dt-63d679f06d",
+      "title": "Festival Trini-Kids : Atelier Musique et Chant",
+      "start": "2026-10-20T10:00",
+      "end": "2026-10-20T10:45",
+      "location": "1406 Place du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Viens t'éclater et partager la musique! Prévoir une bouteille d'eau. de 10h à 10h45 pour les enfants de 4 à 7 ans de 10h45 à 11h30 pour les enfants de 8 à 12 ans Engagement obligatoire pour les 3 séances: 19,20 et 21 octobre Inscription: auprès d' Isabelle Mercury par mail…",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-53d5f71865",
@@ -2590,7 +2698,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-23"
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-8622b9ee39",
@@ -2637,7 +2745,7 @@
       "location": "4 Pl. de la République",
       "city": "Étel",
       "description": "Viens découvrir les courses de kart dans la médiathèque grâce à la caméra embarquée du kart de Mario et de sa bande de potes. A partir de 8 ans, gratuit sur inscription au 02 97 55 32 30 ou mediatheque@mairie-etel.fr",
-      "url": null,
+      "url": "https://mediatheques-terre-atlantique.fr/",
       "category": "plein_air",
       "priority": 2,
       "proximity": "near",
@@ -2719,6 +2827,24 @@
       "last_update": "2026-09-30"
     },
     {
+      "id": "dt-8d2ea39cf0",
+      "series_id": "dt-a69f259390",
+      "title": "Festival Trini'Kids : Stage de danse",
+      "start": "2026-10-20T15:20",
+      "end": "2026-10-20T16:20",
+      "location": "Place du Voullien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Stage de danse urbaine Avec Nandini, venez apprendre à danser le Hip Hop, la House dance, le popping et Ia street dance Sessions réservées au 7- 12 ans et au 4-6 ans Une session spéciale parent/enfant : le dimanche 25 octobre à 14h30 sur réservation par mail…",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "spectacle",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-ad1070dcda",
       "series_id": "dt-bc785e088f",
       "title": "Le chantier des collections",
@@ -2773,6 +2899,24 @@
       "last_update": "2026-10-01"
     },
     {
+      "id": "dt-ffb7abfae4",
+      "series_id": "dt-63d679f06d",
+      "title": "Festival Trini-Kids : Atelier Musique et Chant",
+      "start": "2026-10-21T10:00",
+      "end": "2026-10-21T10:45",
+      "location": "1406 Place du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Viens t'éclater et partager la musique! Prévoir une bouteille d'eau. de 10h à 10h45 pour les enfants de 4 à 7 ans de 10h45 à 11h30 pour les enfants de 8 à 12 ans Engagement obligatoire pour les 3 séances: 19,20 et 21 octobre Inscription: auprès d' Isabelle Mercury par mail…",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-bbb7a0b964",
       "series_id": "dt-63823fc85c",
       "title": "Le Labo des Doudous",
@@ -2825,6 +2969,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 4.0,
       "last_update": "2026-08-13"
+    },
+    {
+      "id": "dt-9d5c85f287",
+      "series_id": "dt-b22b15e8ea",
+      "title": "Le temps d'une histoire",
+      "start": "2026-10-21T10:30",
+      "end": "2026-10-21T12:00",
+      "location": "Médiathèque de Brec'h",
+      "city": "Brech",
+      "description": "Lecture et arts plastiques, dès 4 ans. Animation ouverte à tous (abonnés et non abonnés au réseau des médiathèques Terre Atlantique). Nombre de places limité – Inscription auprès de la médiathèque. Animation proposée et organisée par la médiathèque de Brec'h. Animation gratuite.",
+      "url": null,
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.1,
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-75492a0d98",
@@ -2989,6 +3151,24 @@
       "last_update": "2026-09-29"
     },
     {
+      "id": "dt-fdf083d58b",
+      "series_id": "dt-b7b7c5537e",
+      "title": "Festival Trini'Kids: Spectacle Nanacrylik",
+      "start": "2026-10-21T16:00",
+      "end": null,
+      "location": "Salle de la Vigie",
+      "city": "La Trinité-sur-Mer",
+      "description": "Panique au NanoCircus : une enquête policière mimée et peinte en musique Pour tout public, de 4 à 97 ans sans inscription",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "spectacle",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 1.7,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-e64d5b39f9",
       "series_id": "dt-bc785e088f",
       "title": "Le chantier des collections",
@@ -3061,6 +3241,24 @@
       "last_update": "2026-09-30"
     },
     {
+      "id": "dt-46ee8529e1",
+      "series_id": "dt-76712e6ee4",
+      "title": "Festival Trini'Kids : Atelier cupcake",
+      "start": "2026-10-22T10:20",
+      "end": "2026-10-22T10:45",
+      "location": "Place du Voullien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Atelier décoration de 2 cupcakes par enfant avec Alexandra. à 9h30 pour les enfant de 5 à 6 ans à 11h, pour les enfants de 9 à 12 ans Gratuit - Inscription obligatoire.",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "autre",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-ea7aa99386",
       "series_id": "dt-869e1e0423",
       "title": "Visite contée : Le tapis magique de la Rivière d'Etel",
@@ -3095,6 +3293,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-a1fc794aa1",
+      "series_id": "dt-9b5947c065",
+      "title": "Festival Trini'Kids: Apprendre le vélo",
+      "start": "2026-10-22T14:00",
+      "end": "2026-10-22T15:30",
+      "location": "Place du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Apprenez à maîtriser votre vélo sur un parcours routier sécurisé avec des professionnels. Vélos et casques prêtés. à 14h, pour les enfants de 10 à 13 ans à 15h45, pour les enfants de 7 à 9 ans Gratuit - sur inscription Annulation si mauvaises condition météo.",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "plein_air",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 1.7,
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-24c8737888",
@@ -3148,7 +3364,43 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.1,
-      "last_update": "2026-08-13"
+      "last_update": "2026-10-07"
+    },
+    {
+      "id": "dt-697d1ce0b1",
+      "series_id": "dt-9b5947c065",
+      "title": "Festival Trini'Kids: Apprendre le vélo",
+      "start": "2026-10-22T15:45",
+      "end": "2026-10-22T17:15",
+      "location": "Place du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Apprenez à maîtriser votre vélo sur un parcours routier sécurisé avec des professionnels. Vélos et casques prêtés. à 14h, pour les enfants de 10 à 13 ans à 15h45, pour les enfants de 7 à 9 ans Gratuit - sur inscription Annulation si mauvaises condition météo.",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "plein_air",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 1.7,
+      "last_update": "2026-10-07"
+    },
+    {
+      "id": "dt-3a20107754",
+      "series_id": "dt-a70ac77381",
+      "title": "Festival Trini'Kids : Ateliers loisirs créatifs",
+      "start": "2026-10-22T15:50",
+      "end": "2026-10-22T16:50",
+      "location": "Salle du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Le jeudi 22 octobre: -atelier NanaCrylik : recyclage artistique pour les 8 -12 ans le samedi 24 octobre: -atelier cartonnage avec Armelle pour les 4-12 ans le mardi 27 octobre: -atelier décoration de table en coquillages avec Sophie pour les 7-12 ans, -atelier décoration de…",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "autre",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-ce5d4da2f0",
@@ -3277,6 +3529,24 @@
       "last_update": "2026-10-01"
     },
     {
+      "id": "dt-d6bdcc85fc",
+      "series_id": "dt-a69f259390",
+      "title": "Festival Trini'Kids : Stage de danse",
+      "start": "2026-10-23T10:00",
+      "end": "2026-10-23T11:00",
+      "location": "Place du Voullien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Stage de danse urbaine Avec Nandini, venez apprendre à danser le Hip Hop, la House dance, le popping et Ia street dance Sessions réservées au 7- 12 ans et au 4-6 ans Une session spéciale parent/enfant : le dimanche 25 octobre à 14h30 sur réservation par mail…",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "spectacle",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-3debacf21e",
       "series_id": "dt-b7bdcbc4e5",
       "title": "La Préhistoire à travers les contes",
@@ -3365,6 +3635,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
       "last_update": "2026-09-28"
+    },
+    {
+      "id": "dt-d7e05ba8b1",
+      "series_id": "dt-84c308b25e",
+      "title": "Automne numérique : Création d’un orchestre d’automates sonores",
+      "start": "2026-10-23T10:50",
+      "end": "2026-10-23T12:50",
+      "location": "9 Rue Abbé Le Barh",
+      "city": "Erdeven",
+      "description": "Découvrez la musique et le numérique en fabriquant des objets sonores à l’aide de composants électroniques et de briques LEGO. Programmez ensuite vos créations pour les faire jouer ensemble au même rythme ! Sur inscription, à partir de 8 ans.",
+      "url": "https://mediatheques-terre-atlantique.fr/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 11.5,
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-e1e49718df",
@@ -3508,7 +3796,25 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
-      "last_update": "2026-09-30"
+      "last_update": "2026-10-07"
+    },
+    {
+      "id": "dt-46aefff89c",
+      "series_id": "dt-11dc776df9",
+      "title": "Festival Trini'Kids: Jeux de société",
+      "start": "2026-10-23T15:30",
+      "end": "2026-10-23T17:30",
+      "location": "Salle du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Venez nombreux avec vos amis pour jouer aux jeux de société. Vous pouvez apporter vos propres jeux De 8 à 12 ans sans inscription",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "plein_air",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-f4d138bf4e",
@@ -3563,6 +3869,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 7.4,
       "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-288bad9a08",
+      "series_id": "dt-d84299e0db",
+      "title": "Les Vendredis de l'Inventaire:\"La Baie de Quiberon, territoire de vacances",
+      "start": "2026-10-23T18:00",
+      "end": "2026-10-23T19:30",
+      "location": "6 Rue Jules Ferry",
+      "city": "Quiberon",
+      "description": "Les Vendredis de l'Inventaire: \"La Baie de Quiberon, territoire de vacances : architecture, aménagement et tourisme local\" une conférence de Mathilde Robin Cette conférence retrace les grandes étapes de l'aménagement touristique du littoral de la Baie de Quiberon et de sa…",
+      "url": "http://baiedequiberon.bzh/",
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.1,
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-60038af778",
@@ -3727,6 +4051,24 @@
       "last_update": "2026-09-30"
     },
     {
+      "id": "dt-cb50a86cad",
+      "series_id": "dt-56f34e75d1",
+      "title": "Automne numérique : Journées Jeux numériques",
+      "start": "2026-10-24T10:00",
+      "end": "2026-10-24T12:00",
+      "location": "2 Rue Georges Cadoudal",
+      "city": "Brech",
+      "description": "Un Automne numérique : le fantastique s’invite dans les médiathèques ! Du cinéma d’animation à la réalité virtuelle, des jeux vidéo à la programmation, de la création artistique aux robots, petits et grands sont invités à expérimenter, créer, jouer et laisser libre cours à leur…",
+      "url": "https://mediatheques-terre-atlantique.fr/node/content/nid/518516",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.3,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-d6de9303ae",
       "series_id": "dt-bf674c6850",
       "title": "Sortie découverte botanique et sensorielle",
@@ -3821,7 +4163,7 @@
       "series_id": "dt-a4fb9ac290",
       "title": "Festival Presqu’île Breizh",
       "start": "2026-10-24T11:30",
-      "end": null,
+      "end": "2026-10-24T12:30",
       "location": "Cours des Quais",
       "city": "La Trinité-sur-Mer",
       "description": "Festival Presqu'Île Breizh 11ème édition ! Du 23 au 25 octobre 2026, la presqu'île vibrera au rythme de la musique bretonne et internationale !",
@@ -3832,7 +4174,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
-      "last_update": "2026-10-06"
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-77c7094c4a",
@@ -3851,6 +4193,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
       "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-0a2fc3ad1b",
+      "series_id": "dt-56f34e75d1",
+      "title": "Automne numérique : Journées Jeux numériques",
+      "start": "2026-10-24T14:00",
+      "end": "2026-10-24T16:00",
+      "location": "2 Rue Georges Cadoudal",
+      "city": "Brech",
+      "description": "Un Automne numérique : le fantastique s’invite dans les médiathèques ! Du cinéma d’animation à la réalité virtuelle, des jeux vidéo à la programmation, de la création artistique aux robots, petits et grands sont invités à expérimenter, créer, jouer et laisser libre cours à leur…",
+      "url": "https://mediatheques-terre-atlantique.fr/node/content/nid/518516",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.3,
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-0b7289d42b",
@@ -3887,6 +4247,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-97bd062450",
+      "series_id": "dt-a70ac77381",
+      "title": "Festival Trini'Kids : Ateliers loisirs créatifs",
+      "start": "2026-10-24T15:50",
+      "end": "2026-10-24T17:50",
+      "location": "Salle du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Le jeudi 22 octobre: -atelier NanaCrylik : recyclage artistique pour les 8 -12 ans le samedi 24 octobre: -atelier cartonnage avec Armelle pour les 4-12 ans le mardi 27 octobre: -atelier décoration de table en coquillages avec Sophie pour les 7-12 ans, -atelier décoration de…",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "autre",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-29862811fa",
@@ -4020,7 +4398,7 @@
       "title": "Broc'land Geek",
       "start": "2026-10-25T09:00",
       "end": "2026-10-25T17:00",
-      "location": "Salle Omnisports Roger Le Manach",
+      "location": "Rue de Locmaria",
       "city": "Sainte-Anne-d'Auray",
       "description": "La Pop Culture s'installe à Ste Anne d’Auray pour une journée exceptionnelle ! 1ère édition de BROC' LAND GEEK, un événement entièrement consacré à la Pop Culture, au rétrogaming, aux mangas, aux Pokémon, aux univers Fantasy et aux jouets vintage.",
       "url": "https://www.tandemevents.fr/",
@@ -4159,6 +4537,24 @@
       "last_update": "2026-09-30"
     },
     {
+      "id": "dt-007e0755ba",
+      "series_id": "dt-a69f259390",
+      "title": "Festival Trini'Kids : Stage de danse",
+      "start": "2026-10-25T14:30",
+      "end": "2026-10-25T15:45",
+      "location": "Place du Voullien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Stage de danse urbaine Avec Nandini, venez apprendre à danser le Hip Hop, la House dance, le popping et Ia street dance Sessions réservées au 7- 12 ans et au 4-6 ans Une session spéciale parent/enfant : le dimanche 25 octobre à 14h30 sur réservation par mail…",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "spectacle",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-ad2bcd677f",
       "series_id": "dt-2193289823",
       "title": "Visite flash \"Les bretons face aux géants de pierre\"",
@@ -4181,7 +4577,7 @@
       "series_id": "dt-a4fb9ac290",
       "title": "Festival Presqu’île Breizh",
       "start": "2026-10-25T15:00",
-      "end": null,
+      "end": "2026-10-25T16:00",
       "location": "Cours des Quais",
       "city": "La Trinité-sur-Mer",
       "description": "Festival Presqu'Île Breizh 11ème édition ! Du 23 au 25 octobre 2026, la presqu'île vibrera au rythme de la musique bretonne et internationale !",
@@ -4192,7 +4588,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
-      "last_update": "2026-10-06"
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-a8221a581a",
@@ -4249,6 +4645,24 @@
       "last_update": "2026-09-29"
     },
     {
+      "id": "dt-12ca291c19",
+      "series_id": "dt-aa66b3d9d1",
+      "title": "Festival Trini'Kids: Trinijazz Kids",
+      "start": "2026-10-26T09:00",
+      "end": "2026-10-26T10:30",
+      "location": "Salle du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "S'initier au jazz avec Jazz Salé Engagement pour les 2 séances: 26 et 28 octobre 9h à 10h30 (5 à 8 ans) -> Concert de restitution le 28 Octobre à 10h20 10h30 à 12h (9 à 12 ans) -> Concert de restitution le 28 Octobre à 11h50 sur Inscription",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "musique",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-7ceb2c2206",
       "series_id": "dt-61357e6bf3",
       "title": "Escape Game d'Halloween \"Panique chez les Adams\"",
@@ -4303,6 +4717,24 @@
       "last_update": "2026-09-30"
     },
     {
+      "id": "dt-eed337e592",
+      "series_id": "dt-aa66b3d9d1",
+      "title": "Festival Trini'Kids: Trinijazz Kids",
+      "start": "2026-10-26T10:30",
+      "end": "2026-10-26T12:00",
+      "location": "Salle du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "S'initier au jazz avec Jazz Salé Engagement pour les 2 séances: 26 et 28 octobre 9h à 10h30 (5 à 8 ans) -> Concert de restitution le 28 Octobre à 10h20 10h30 à 12h (9 à 12 ans) -> Concert de restitution le 28 Octobre à 11h50 sur Inscription",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "musique",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-d26ef4e4c6",
       "series_id": "dt-b71f7468a4",
       "title": "Atelier \"1, 2, 3 menhirs\"",
@@ -4355,6 +4787,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 2.4,
       "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-7f1f7c4764",
+      "series_id": "dt-fc4f15a93f",
+      "title": "Festival Trini'Kids: Jeux en pagaille",
+      "start": "2026-10-26T14:30",
+      "end": "2026-10-26T17:30",
+      "location": "1406 Place du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Jeux en bois et jeux de société surdimensionnés, animés par Ty Game Truck. Gratuit sans inscription",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "plein_air",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-c59734697f",
@@ -4501,6 +4951,78 @@
       "last_update": "2026-09-30"
     },
     {
+      "id": "dt-e2940d5ce0",
+      "series_id": "dt-a70ac77381",
+      "title": "Festival Trini'Kids : Ateliers loisirs créatifs",
+      "start": "2026-10-27T10:50",
+      "end": "2026-10-27T12:20",
+      "location": "Salle du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Le jeudi 22 octobre: -atelier NanaCrylik : recyclage artistique pour les 8 -12 ans le samedi 24 octobre: -atelier cartonnage avec Armelle pour les 4-12 ans le mardi 27 octobre: -atelier décoration de table en coquillages avec Sophie pour les 7-12 ans, -atelier décoration de…",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "autre",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
+    },
+    {
+      "id": "dt-7292363e8e",
+      "series_id": "dt-d9851d42a9",
+      "title": "Automne numérique : Stop motion fantastique",
+      "start": "2026-10-27T13:45",
+      "end": "2026-10-27T17:00",
+      "location": "18 Rue du Penher",
+      "city": "Auray",
+      "description": "Un Automne numérique : le fantastique s’invite dans les médiathèques ! Du cinéma d’animation à la réalité virtuelle, des jeux vidéo à la programmation, de la création artistique aux robots, petits et grands sont invités à expérimenter, créer, jouer et laisser libre cours à leur…",
+      "url": "https://mediatheques-terre-atlantique.fr/node/content/nid/518516",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.0,
+      "last_update": "2026-10-07"
+    },
+    {
+      "id": "dt-3cd502c125",
+      "series_id": "dt-15903a4169",
+      "title": "Automne numérique : Mario Kart Live Home Circuit",
+      "start": "2026-10-27T14:00",
+      "end": "2026-10-27T16:00",
+      "location": "4 Pl. de la République",
+      "city": "Étel",
+      "description": "Découvrez des courses de kart au cœur de la médiathèque grâce à la caméra embarquée de Mario et de ses amis ! Gratuit, sur inscription, à partir de 6 ans. Renseignements et inscriptions : 02 97 55 32 30 - mediatheque@mairie-etel.fr",
+      "url": "https://mediatheques-terre-atlantique.fr/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-10-07"
+    },
+    {
+      "id": "dt-75bfecf7d1",
+      "series_id": "dt-08782b102c",
+      "title": "Automne numérique : Réalise ton film fantastique",
+      "start": "2026-10-27T14:00",
+      "end": "2026-10-27T16:00",
+      "location": "11 Rue de Vannes",
+      "city": "Sainte-Anne-d'Auray",
+      "description": "Un Automne numérique : le fantastique s’invite dans les médiathèques ! Du cinéma d’animation à la réalité virtuelle, des jeux vidéo à la programmation, de la création artistique aux robots, petits et grands sont invités à expérimenter, créer, jouer et laisser libre cours à leur…",
+      "url": "https://mediatheques-terre-atlantique.fr/node/content/nid/518516",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 14.4,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-57317039ef",
       "series_id": "dt-15f869a0c8",
       "title": "Balade commentée Histoire du centre-bourg",
@@ -4517,24 +5039,6 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-22"
-    },
-    {
-      "id": "dt-7069401326",
-      "series_id": "dt-08c3fd7884",
-      "title": "Mario Kart Live Home",
-      "start": "2026-10-27T14:00",
-      "end": "2026-10-27T16:00",
-      "location": "4 Pl. de la République",
-      "city": "Étel",
-      "description": "Viens découvrir les courses de kart dans la médiathèque grâce à la caméra embarquée du kart de Mario et de sa bande de potes. A partir de 8 ans, gratuit sur inscription au 02 97 55 32 30 ou mediatheque@mairie-etel.fr",
-      "url": null,
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.2,
-      "last_update": "2026-08-28"
     },
     {
       "id": "dt-580c7dcfe1",
@@ -4591,6 +5095,24 @@
       "last_update": "2026-09-29"
     },
     {
+      "id": "dt-7a27837c63",
+      "series_id": "dt-a70ac77381",
+      "title": "Festival Trini'Kids : Ateliers loisirs créatifs",
+      "start": "2026-10-27T14:30",
+      "end": "2026-10-27T17:00",
+      "location": "Salle du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Le jeudi 22 octobre: -atelier NanaCrylik : recyclage artistique pour les 8 -12 ans le samedi 24 octobre: -atelier cartonnage avec Armelle pour les 4-12 ans le mardi 27 octobre: -atelier décoration de table en coquillages avec Sophie pour les 7-12 ans, -atelier décoration de…",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "autre",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-435a691c92",
       "series_id": "dt-db586b3117",
       "title": "Réalité Virtuelle coopérative",
@@ -4598,7 +5120,7 @@
       "end": "2026-10-27T17:30",
       "location": "Médiathèque Terraqué",
       "city": "Carnac",
-      "description": "Réalité Virtuelle coopérative Sur écran géant, découvrez un jeu VR narratif et décidez ensemble de la suite du jeu. Gratuit – en accès libre – à partir de 10 ans",
+      "description": "Réalité Virtuelle coopérative Sur écran géant, découvrez un jeu VR narratif et décidez ensemble de la suite du jeu. Gratuit – en accès libre – à partir de 10 ans Renseignements et inscriptions : 02 97 52 50 50 - contact@terraque.fr",
       "url": "https://mediatheques-terre-atlantique.fr/evenements",
       "category": "plein_air",
       "priority": 2,
@@ -4606,7 +5128,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.7,
-      "last_update": "2026-09-23"
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-ff9858f0fa",
@@ -4661,6 +5183,42 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-21"
+    },
+    {
+      "id": "dt-db9aad616c",
+      "series_id": "dt-aa66b3d9d1",
+      "title": "Festival Trini'Kids: Trinijazz Kids",
+      "start": "2026-10-28T09:00",
+      "end": "2026-10-28T10:30",
+      "location": "Salle du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "S'initier au jazz avec Jazz Salé Engagement pour les 2 séances: 26 et 28 octobre 9h à 10h30 (5 à 8 ans) -> Concert de restitution le 28 Octobre à 10h20 10h30 à 12h (9 à 12 ans) -> Concert de restitution le 28 Octobre à 11h50 sur Inscription",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "musique",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
+    },
+    {
+      "id": "dt-5d0a404988",
+      "series_id": "dt-0b42a3a400",
+      "title": "Automne numérique : Crée ton animal fantastique",
+      "start": "2026-10-28T10:00",
+      "end": "2026-10-28T16:00",
+      "location": "11 Rue de Vannes",
+      "city": "Sainte-Anne-d'Auray",
+      "description": "Un Automne numérique : le fantastique s’invite dans les médiathèques ! Du cinéma d’animation à la réalité virtuelle, des jeux vidéo à la programmation, de la création artistique aux robots, petits et grands sont invités à expérimenter, créer, jouer et laisser libre cours à leur…",
+      "url": "https://mediatheques-terre-atlantique.fr/node/content/nid/518516",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 14.4,
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-65f6994294",
@@ -4735,6 +5293,24 @@
       "last_update": "2026-09-26"
     },
     {
+      "id": "dt-c66157003f",
+      "series_id": "dt-aa66b3d9d1",
+      "title": "Festival Trini'Kids: Trinijazz Kids",
+      "start": "2026-10-28T10:30",
+      "end": null,
+      "location": "Salle du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "S'initier au jazz avec Jazz Salé Engagement pour les 2 séances: 26 et 28 octobre 9h à 10h30 (5 à 8 ans) -> Concert de restitution le 28 Octobre à 10h20 10h30 à 12h (9 à 12 ans) -> Concert de restitution le 28 Octobre à 11h50 sur Inscription",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "musique",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-e27d1557e5",
       "series_id": "dt-b71f7468a4",
       "title": "Atelier \"1, 2, 3 menhirs\"",
@@ -4769,6 +5345,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
       "last_update": "2026-10-01"
+    },
+    {
+      "id": "dt-74aefd88fb",
+      "series_id": "dt-d9851d42a9",
+      "title": "Automne numérique : Stop motion fantastique",
+      "start": "2026-10-28T13:45",
+      "end": "2026-10-28T17:00",
+      "location": "18 Rue du Penher",
+      "city": "Auray",
+      "description": "Un Automne numérique : le fantastique s’invite dans les médiathèques ! Du cinéma d’animation à la réalité virtuelle, des jeux vidéo à la programmation, de la création artistique aux robots, petits et grands sont invités à expérimenter, créer, jouer et laisser libre cours à leur…",
+      "url": "https://mediatheques-terre-atlantique.fr/node/content/nid/518516",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.0,
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-b4dabed98d",
@@ -4876,7 +5470,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
-      "last_update": "2026-09-17"
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-6f0f6ed415",
@@ -4984,7 +5578,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
-      "last_update": "2026-09-17"
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-42fbcb044e",
@@ -5039,6 +5633,24 @@
       "source_name": "ADT 56",
       "distance_km": 4.0,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-623e0889c8",
+      "series_id": "dt-a69f259390",
+      "title": "Festival Trini'Kids : Stage de danse",
+      "start": "2026-10-29T10:00",
+      "end": "2026-10-29T11:00",
+      "location": "Place du Voullien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Stage de danse urbaine Avec Nandini, venez apprendre à danser le Hip Hop, la House dance, le popping et Ia street dance Sessions réservées au 7- 12 ans et au 4-6 ans Une session spéciale parent/enfant : le dimanche 25 octobre à 14h30 sur réservation par mail…",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "spectacle",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-e6412db462",
@@ -5185,6 +5797,24 @@
       "last_update": "2026-04-23"
     },
     {
+      "id": "dt-6e4c151ee3",
+      "series_id": "dt-8ee20c7d60",
+      "title": "Atelier de cuisine en Famille spécial Halloween !",
+      "start": "2026-10-29T14:00",
+      "end": "2026-10-29T16:00",
+      "location": "8 Rue de l'Irlande",
+      "city": "Auray",
+      "description": "Petites mains et gros chaudrons s'invitent en cuisine ! Venez concocter avec vos enfants des recettes aussi effrayantes que délicieuses : Au programme doigts de sorcières ensanglantés, tartines momifiées et potions de sorcières… Un moment complice entre parents et enfants, plein…",
+      "url": "https://www.alrebio.fr/d-tails-et-inscription/atelier-de-cuisine-en-famille-special-halloween",
+      "category": "gastronomie",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.0,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-60201cb2b6",
       "series_id": "dt-d553e46112",
       "title": "Randonnée : Promenade à la découverte des monuments mégalithiques méconnus",
@@ -5239,6 +5869,24 @@
       "last_update": "2026-09-30"
     },
     {
+      "id": "dt-a8ba6fada9",
+      "series_id": "dt-a70ac77381",
+      "title": "Festival Trini'Kids : Ateliers loisirs créatifs",
+      "start": "2026-10-29T14:50",
+      "end": "2026-10-29T15:50",
+      "location": "Salle du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Le jeudi 22 octobre: -atelier NanaCrylik : recyclage artistique pour les 8 -12 ans le samedi 24 octobre: -atelier cartonnage avec Armelle pour les 4-12 ans le mardi 27 octobre: -atelier décoration de table en coquillages avec Sophie pour les 7-12 ans, -atelier décoration de…",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "autre",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-890164c8e9",
       "series_id": "dt-bc785e088f",
       "title": "Le chantier des collections",
@@ -5273,6 +5921,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
       "last_update": "2026-10-06"
+    },
+    {
+      "id": "dt-edb2b8f5be",
+      "series_id": "dt-a70ac77381",
+      "title": "Festival Trini'Kids : Ateliers loisirs créatifs",
+      "start": "2026-10-29T16:50",
+      "end": "2026-10-29T17:50",
+      "location": "Salle du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Le jeudi 22 octobre: -atelier NanaCrylik : recyclage artistique pour les 8 -12 ans le samedi 24 octobre: -atelier cartonnage avec Armelle pour les 4-12 ans le mardi 27 octobre: -atelier décoration de table en coquillages avec Sophie pour les 7-12 ans, -atelier décoration de…",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "autre",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-e3f021e883",
@@ -5383,6 +6049,24 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-122d429aa6",
+      "series_id": "dt-8e17210df4",
+      "title": "Festival Trini'Kids: Atelier lecture",
+      "start": "2026-10-30T10:00",
+      "end": "2026-10-30T10:30",
+      "location": "1406 Place du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "La Bibliothèque pour tous propose une lecture sur le thème d'Halloween. de10h à 10h30 pour les 4 à 7 ans, puis de 10h45 à 11h30 pour les 7 à 10 ans. sur inscription",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "culture",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-9d184d4a45",
       "series_id": "dt-b7bdcbc4e5",
       "title": "La Préhistoire à travers les contes",
@@ -5471,6 +6155,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-6af05d0de7",
+      "series_id": "dt-144cedc71b",
+      "title": "Festival Trini'Kids: Le bingo des ados",
+      "start": "2026-10-30T15:00",
+      "end": "2026-10-30T18:00",
+      "location": "Salle du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Le bingo des ados débarque au Festival Trini'Kids : Tente ta chance, relève les défis et repars (peut-être) avec de super cadeaux ! Un moment fun, convivial et plein de surprises à partager entre copains De 10 à 15 ans sans inscription",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "plein_air",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-8396eee239",
@@ -5671,6 +6373,60 @@
       "last_update": "2026-09-30"
     },
     {
+      "id": "dt-d475417146",
+      "series_id": "dt-a70ac77381",
+      "title": "Festival Trini'Kids : Ateliers loisirs créatifs",
+      "start": "2026-10-31T11:20",
+      "end": "2026-10-31T12:20",
+      "location": "Salle du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Le jeudi 22 octobre: -atelier NanaCrylik : recyclage artistique pour les 8 -12 ans le samedi 24 octobre: -atelier cartonnage avec Armelle pour les 4-12 ans le mardi 27 octobre: -atelier décoration de table en coquillages avec Sophie pour les 7-12 ans, -atelier décoration de…",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "autre",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
+    },
+    {
+      "id": "dt-e5ab3344a5",
+      "series_id": "dt-73b172d7ba",
+      "title": "Projection « Mon oncle »",
+      "start": "2026-10-31T14:00",
+      "end": "2026-10-31T15:30",
+      "location": "Centre culturel Maison blanche",
+      "city": "Brech",
+      "description": "Projection du film « Mon oncle » de Jacques Tati, proposée par le CAUE 56 à l’occasion de la clôture de l’exposition « ExtraOrdinaire » de Kourtney Roy. Le petit Gérard aime passer du temps avec son oncle, Mr Hulot, un personnage rêveur et bohème.",
+      "url": null,
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.3,
+      "last_update": "2026-10-07"
+    },
+    {
+      "id": "dt-eda15282ed",
+      "series_id": "dt-a70ac77381",
+      "title": "Festival Trini'Kids : Ateliers loisirs créatifs",
+      "start": "2026-10-31T14:30",
+      "end": "2026-10-31T15:30",
+      "location": "Salle du Voulien",
+      "city": "La Trinité-sur-Mer",
+      "description": "Le jeudi 22 octobre: -atelier NanaCrylik : recyclage artistique pour les 8 -12 ans le samedi 24 octobre: -atelier cartonnage avec Armelle pour les 4-12 ans le mardi 27 octobre: -atelier décoration de table en coquillages avec Sophie pour les 7-12 ans, -atelier décoration de…",
+      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
+      "category": "autre",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.3,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-674bb31b47",
       "series_id": "dt-2193289823",
       "title": "Visite flash \"Les bretons face aux géants de pierre\"",
@@ -5761,6 +6517,24 @@
       "last_update": "2026-09-21"
     },
     {
+      "id": "dt-4cdfc69da1",
+      "series_id": "dt-4d46838b3a",
+      "title": "Feu d'artifice du festival Trini'Kids",
+      "start": "2026-10-31T16:30",
+      "end": "2026-10-31T19:30",
+      "location": "Cours des Quais",
+      "city": "La Trinité-sur-Mer",
+      "description": "Dans le cadre du Festival Trini'Kids, sur les quais de La Trinité-sur-Mer, le feu d'artifice sera tiré sur l'eau à 19h00 Concours de citrouille: de 14h à 15h déposez votre citrouille d'Halloween sur le stand, rue du voulien de 15h à 16h votez pour la plus belle des citrouille !",
+      "url": "https://www.latrinitesurmer.fr/agenda/%E2%97%BE-feu-dartifice-du-festival-trinikids/",
+      "category": "spectacle",
+      "priority": 1,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.1,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-b4d4120357",
       "series_id": "dt-c5b037ca86",
       "title": "Halloween, Sorcières et Korrigans et autres au bourg de Brec'h",
@@ -5813,24 +6587,6 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
       "last_update": "2026-09-07"
-    },
-    {
-      "id": "dt-4ad66e487d",
-      "series_id": "dt-4d46838b3a",
-      "title": "Feu d'artifice du festival Trini'Kids",
-      "start": "2026-10-31T19:00",
-      "end": null,
-      "location": "Cours des Quais",
-      "city": "La Trinité-sur-Mer",
-      "description": "Initialement prévu le 15 août dernier, le feu d'artifice est finalement reporté au 31 octobre, dans le cadre du Festival Trini'Kids, sur les quais de La Trinité-sur-Mer Le programme des animations du Festival Trini'Kids (du 19 au 31 octobre), destiné aux enfants de 4 à 15 ans…",
-      "url": "https://www.latrinitesurmer.fr/agenda/%E2%97%BE-feu-dartifice-du-festival-trinikids/",
-      "category": "spectacle",
-      "priority": 1,
-      "proximity": "immediate",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1,
-      "last_update": "2026-10-06"
     },
     {
       "id": "dt-d9f8c6630f",
@@ -6252,7 +7008,7 @@
       "title": "Colloque annuel - Mythes et mégalithes",
       "start": "2026-11-07T09:30",
       "end": "2026-11-07T17:30",
-      "location": "1 Rue de Suède",
+      "location": "Salle Kenleur",
       "city": "Auray",
       "description": "Dans le cadre d'Un automne autrement 2026 Menhirs, légendes, croyances et découvertes archéologiques : les mégalithes n’ont pas fini de nous raconter des histoires !",
       "url": null,
@@ -6589,6 +7345,24 @@
       "last_update": "2026-09-30"
     },
     {
+      "id": "dt-ae8f1e9ddc",
+      "series_id": "dt-f3b795030e",
+      "title": "Festival d’humour",
+      "start": "2026-11-14T20:30",
+      "end": null,
+      "location": "38 rue du Stade",
+      "city": "Crach",
+      "description": "Après une première édition qui a fait mouche, le Festival d’Humour de Crac’h revient pour sa 2e édition… et ça promet du très, très lourd ! 5 humoristes vont se succéder sur scène : - Yann Ricordel - Tim Solac - Quentin Ferjou - Stéphane Resche - Chris Baranzelli Et cette année…",
+      "url": "https://www.ville-crach.fr/festival-dhumour-2/",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.5,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-84a912e9a6",
       "series_id": "dt-2aa00afcca",
       "title": "Théâtre et musique: Quatre mains",
@@ -6913,6 +7687,24 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-4155c37031",
+      "series_id": "dt-b22b15e8ea",
+      "title": "Le temps d'une histoire",
+      "start": "2026-11-25T10:30",
+      "end": "2026-11-25T12:00",
+      "location": "Médiathèque de Brec'h",
+      "city": "Brech",
+      "description": "Lecture et arts plastiques, dès 4 ans. Animation ouverte à tous (abonnés et non abonnés au réseau des médiathèques Terre Atlantique). Nombre de places limité – Inscription auprès de la médiathèque. Animation proposée et organisée par la médiathèque de Brec'h. Animation gratuite.",
+      "url": null,
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.1,
+      "last_update": "2026-10-07"
+    },
+    {
       "id": "dt-995ee8b8fe",
       "series_id": "dt-01656b3159",
       "title": "Marché hebdomadaire à Crac'h",
@@ -7082,7 +7874,7 @@
       "end": "2026-12-02T17:30",
       "location": "Médiathèque Terraqué",
       "city": "Carnac",
-      "description": "Réalité Virtuelle coopérative Sur écran géant, découvrez un jeu VR narratif et décidez ensemble de la suite du jeu. Gratuit – en accès libre – à partir de 10 ans",
+      "description": "Réalité Virtuelle coopérative Sur écran géant, découvrez un jeu VR narratif et décidez ensemble de la suite du jeu. Gratuit – en accès libre – à partir de 10 ans Renseignements et inscriptions : 02 97 52 50 50 - contact@terraque.fr",
       "url": "https://mediatheques-terre-atlantique.fr/evenements",
       "category": "plein_air",
       "priority": 2,
@@ -7090,7 +7882,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.7,
-      "last_update": "2026-09-23"
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-f787ff15a8",
@@ -7595,6 +8387,24 @@
       "source_name": "ADT 56",
       "distance_km": 0.6,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-554d73daa2",
+      "series_id": "dt-13e5142fb6",
+      "title": "En attendant Noël",
+      "start": "2026-12-16T10:30",
+      "end": null,
+      "location": "2 Rue Georges Cadoudal",
+      "city": "Brech",
+      "description": "En attendant l’arrivée du Père Noël, la médiathèque propose une journée d’animation. Au programme : 10h30h-12h : Le temps d’une histoire - lecture et arts plastiques.",
+      "url": null,
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.3,
+      "last_update": "2026-10-07"
     },
     {
       "id": "dt-2f7160eb78",
@@ -9287,6 +10097,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 10.2,
       "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-bc253654cb",
+      "series_id": "dt-079e760521",
+      "title": "Cycle ballets & opéra : \"Roméo et Juliette\"",
+      "start": "2027-07-06T20:00",
+      "end": null,
+      "location": "Cinéma La Rivière",
+      "city": "Étel",
+      "description": "Mardi 6 juillet 2027 à 20h : \"Roméo et Juliette\"",
+      "url": null,
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-09-29"
     }
   ]
 }
