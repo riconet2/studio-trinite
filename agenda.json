@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-09T11:22:02Z",
-  "data_updated_at": "2026-10-07",
+  "generated_at": "2026-10-10T10:39:26Z",
+  "data_updated_at": "2026-10-08",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -10,11 +10,11 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 561,
+    "total": 564,
     "by_proximity": {
-      "near": 459,
-      "daytrip": 3,
-      "immediate": 99
+      "near": 465,
+      "daytrip": 2,
+      "immediate": 97
     }
   },
   "events": [
@@ -449,240 +449,6 @@
       "source_name": "CRT Bretagne_",
       "distance_km": 30.6,
       "last_update": "2026-10-05"
-    },
-    {
-      "id": "dt-e5d48e1f22",
-      "series_id": "dt-09b966ff66",
-      "title": "Marché hebdomadaire à La Trinité-sur-Mer",
-      "start": "2026-10-09T08:00",
-      "end": "2026-10-09T13:00",
-      "location": "Place du Voulien",
-      "city": "La Trinité-sur-Mer",
-      "description": "Le marché hebdomadaire se tient le mardi et le vendredi matin de 8h à 13h sur la place du Voulien.",
-      "url": null,
-      "category": "marche",
-      "priority": 1,
-      "proximity": "immediate",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 0.6,
-      "last_update": "2026-01-05"
-    },
-    {
-      "id": "dt-7deeea2f9f",
-      "series_id": "dt-fa57efa204",
-      "title": "Terra Initia - Exposition TR'ÂMES",
-      "start": "2026-10-09T10:00",
-      "end": "2026-10-09T12:30",
-      "location": "Galerie Terra Initia",
-      "city": "Carnac",
-      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.0,
-      "last_update": "2026-08-13"
-    },
-    {
-      "id": "dt-81b8ce6a9a",
-      "series_id": "dt-fa57efa204",
-      "title": "Terra Initia - Exposition TR'ÂMES",
-      "start": "2026-10-09T15:00",
-      "end": "2026-10-09T18:30",
-      "location": "Galerie Terra Initia",
-      "city": "Carnac",
-      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.0,
-      "last_update": "2026-08-13"
-    },
-    {
-      "id": "dt-525c67d739",
-      "series_id": "dt-8543ade63c",
-      "title": "Marché de l’automne et bal des petits monstres",
-      "start": "2026-10-09T16:15",
-      "end": null,
-      "location": "Salle du Groez Ven",
-      "city": "Ploemel",
-      "description": "Venez profiter d’une vente en direct de produits du terroir à l'occasion du Marché de l'automne organisé par l' Amicale laïque du Groez Ven. Un bal des petits monstres débutera à 18h00 :Venez nombreux et déguisés pour danser au rythme du DJ.",
-      "url": null,
-      "category": "marche",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.2,
-      "last_update": "2026-09-29"
-    },
-    {
-      "id": "dt-eb7b27af04",
-      "series_id": "dt-8543ade63c",
-      "title": "Marché de l’automne et bal des petits monstres",
-      "start": "2026-10-09T18:00",
-      "end": null,
-      "location": "Salle du Groez Ven",
-      "city": "Ploemel",
-      "description": "Venez profiter d’une vente en direct de produits du terroir à l'occasion du Marché de l'automne organisé par l' Amicale laïque du Groez Ven. Un bal des petits monstres débutera à 18h00 :Venez nombreux et déguisés pour danser au rythme du DJ.",
-      "url": null,
-      "category": "marche",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.2,
-      "last_update": "2026-09-29"
-    },
-    {
-      "id": "dt-cb73c10482",
-      "series_id": "dt-c310bdb42c",
-      "title": "Spectacle : Entrez de Secours !",
-      "start": "2026-10-09T18:30",
-      "end": null,
-      "location": "Rue Jules Ferry",
-      "city": "Quiberon",
-      "description": "Le Collectif LATAF, La Tête à la Fenêtre, présente Entrez de Secours, un spectacle mêlant théâtre, marionnettes, objets, vidéo et musique originale.",
-      "url": null,
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.2,
-      "last_update": "2026-10-06"
-    },
-    {
-      "id": "dt-a22574afdf",
-      "series_id": "dt-25acb61004",
-      "title": "Nuit de la Science à la Cité de la Voile",
-      "start": "2026-10-09T19:00",
-      "end": "2026-10-09T23:00",
-      "location": "Cité de la Voile",
-      "city": "Lorient",
-      "description": "Pour la première fois, l'UBS université vous donne rendez-vous vendredi 9 octobre 2026, de 19h à 23h, à la Cité de la Voile Éric Tabarly pour une soirée gratuite, ludique et ouverte à toute la famille ! 🧪🌊 👩‍🔬 Expérimentez, testez, manipulez et échangez avec des scientifiques !",
-      "url": "https://www.citevoile-tabarly.com/fr",
-      "category": "nautique",
-      "priority": 2,
-      "proximity": "daytrip",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 30.5,
-      "last_update": "2026-10-01"
-    },
-    {
-      "id": "dt-97035bd088",
-      "series_id": "dt-e1b4d4a6f7",
-      "title": "Dîners Music Live",
-      "start": "2026-10-09T20:00",
-      "end": "2026-10-09T20:30",
-      "location": "1 Boulevard René Cassin",
-      "city": "Quiberon",
-      "description": "Tous les vendredis soirs, ambiance musicale en Live au restaurant du Kasino. Formule à 30 € (Plat + Dessert) + 7€ offerts en ticket de jeu. Découvrez le groupe du jour sur le site du Kasino : https://quiberon.kasino.bzh/diners-music-live-n768.html Les jeux d'argent sont…",
-      "url": "https://quiberon.kasino.bzh/diners-music-live-n446.html",
-      "category": "musique",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 13.7,
-      "last_update": "2026-04-30"
-    },
-    {
-      "id": "dt-0715140539",
-      "series_id": "dt-da68610b4e",
-      "title": "Soirée jeux de société",
-      "start": "2026-10-09T20:00",
-      "end": "2026-10-09T22:30",
-      "location": "Espace Culturel Terraqué",
-      "city": "Carnac",
-      "description": "Pour partager un moment ludique et convivial ! Gratuit – en accès libre Public ado/adulte : à partir de 12 ans",
-      "url": "http://www.terraque.fr/",
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 3.7,
-      "last_update": "2026-09-29"
-    },
-    {
-      "id": "dt-160900a90c",
-      "series_id": "dt-cea5f6fa30",
-      "title": "Tournoi de poker",
-      "start": "2026-10-09T20:00",
-      "end": null,
-      "location": "41 Avenue des salines",
-      "city": "Carnac",
-      "description": "Le Casino Circus de Carnac vous propose un tournoi de poker. Réservation par téléphone au 02 97 52 64 64. Les jeux d’argent et de hasard peuvent être dangereux : Pertes d’argent, conflits familiaux, addiction… retrouvez nos conseils sur joueurs-info-service.fr (09 74 75 13 13 –…",
-      "url": "https://www.circuscasino.fr/fr/casinos/carnac/",
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.1,
-      "last_update": "2026-09-29"
-    },
-    {
-      "id": "dt-3e9ef4df93",
-      "series_id": "dt-93c0905a62",
-      "title": "Spectacle : cowboy ou indien ?",
-      "start": "2026-10-09T20:30",
-      "end": "2026-10-09T22:00",
-      "location": "Espace culturel La Vigie",
-      "city": "La Trinité-sur-Mer",
-      "description": "Aujourd’hui, qu’est-ce qui réunit Martin et Benoit Fournier ? Ils sont frères, c’est tout, et c’est déjà trop ! Devenus adultes, ils trainent avec eux les traces indélébiles de l’enfance et les promesses qu’elle n’a pas tenues.",
-      "url": "https://www.auray.fr/culture-loisirs/centre-culturel-athena/saison-2026-2027/les-spectacles-de-la-saison-26-27/cowboy-ou-indien",
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "immediate",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1,
-      "last_update": "2026-09-04"
-    },
-    {
-      "id": "dt-7dbcd8342e",
-      "series_id": "dt-27c6f69338",
-      "title": "Conférence : Les mégalithes immergés de la Ria",
-      "start": "2026-10-09T20:30",
-      "end": null,
-      "location": "Cinéma La Rivière",
-      "city": "Étel",
-      "description": "\"Au début du néolithique, soit environ 7000 ans avant notre époque, le niveau des océans était de 8 à 10 mètres sous le niveau des plus hautes mers actuelles.",
-      "url": "https://www.cinemalariviere.org/events/80197-les-megalithes-immerges-de-la-ria/",
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.2,
-      "last_update": "2026-09-29"
-    },
-    {
-      "id": "dt-b8804371e1",
-      "series_id": "dt-1b1b4b1e36",
-      "title": "Fête de la Science : rencontre avec Pascal Picq, Paléoanthropologue",
-      "start": "2026-10-09T20:30",
-      "end": null,
-      "location": "Espace Terraqué",
-      "city": "Carnac",
-      "description": "Conférence et dédicace de son nouvel essai « L’Armorique avant les Bretons » aux éditions Ouest France. En partenariat avec la médiathèque Terraqué et la librairie « Sur le rivage » Conférence et dédicace | Vendredi 9 octobre | 20 h 30 | Adulte | Espace Terraqué | réservation…",
-      "url": "https://www.museedecarnac.com/actualites/",
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 3.7,
-      "last_update": "2026-09-30"
     },
     {
       "id": "dt-edf694d897",
@@ -1423,6 +1189,24 @@
       "last_update": "2026-09-07"
     },
     {
+      "id": "dt-c5017dddb7",
+      "series_id": "dt-1292666c75",
+      "title": "Spectacle « Miscellanées »",
+      "start": "2026-10-15T20:30",
+      "end": null,
+      "location": "Salle La Rivière",
+      "city": "Étel",
+      "description": "L’atelier théâtre de Carnac, dirigé par la comédienne et metteuse en scène Maryse Meiche, vous propose «Miscellanées», un voyage théâtral à travers plusieurs siècles de littérature.",
+      "url": "https://www.mairie-etel.fr/agenda-des-evenements/spectacle-miscellanees",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-10-08"
+    },
+    {
       "id": "dt-ce3876ac5b",
       "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
@@ -1636,7 +1420,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
-      "last_update": "2026-10-01"
+      "last_update": "2026-10-08"
     },
     {
       "id": "dt-074c569f90",
@@ -1889,6 +1673,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-21"
+    },
+    {
+      "id": "dt-ec6e2a7f04",
+      "series_id": "dt-05537a0bbc",
+      "title": "Apero Concert",
+      "start": "2026-10-17T17:30",
+      "end": "2026-10-17T23:59",
+      "location": "Rue du grand large",
+      "city": "Erdeven",
+      "description": "L'Apéro-Concert de l'école du Grand Large est un évènement incontournable ! Sur scène, notamment Y Closer et Les Embrasseurs de maman Et cette année, le petit plus c'est le repas composé d'un assortiment de délicieux wraps préparés par les parents d'élèves.",
+      "url": "https://www.helloasso.com/associations/amicale-laique-d-erdeven",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 11.7,
+      "last_update": "2026-10-08"
     },
     {
       "id": "dt-2592e2750e",
@@ -2292,7 +2094,7 @@
       "title": "Festival Trini-Kids : Atelier Musique et Chant",
       "start": "2026-10-19T10:00",
       "end": "2026-10-19T10:45",
-      "location": "1406 Place du Voulien",
+      "location": "Salle du Voulien",
       "city": "La Trinité-sur-Mer",
       "description": "Viens t'éclater et partager la musique! Prévoir une bouteille d'eau. de 10h à 10h45 pour les enfants de 4 à 7 ans de 10h45 à 11h30 pour les enfants de 8 à 12 ans Engagement obligatoire pour les 3 séances: 19,20 et 21 octobre Inscription: auprès d' Isabelle Mercury par mail…",
       "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
@@ -2472,7 +2274,7 @@
       "title": "Festival Trini'Kids: Jeux en pagaille",
       "start": "2026-10-19T14:30",
       "end": "2026-10-19T17:30",
-      "location": "1406 Place du Voulien",
+      "location": "Salle du Voulien",
       "city": "La Trinité-sur-Mer",
       "description": "Jeux en bois et jeux de société surdimensionnés, animés par Ty Game Truck. Gratuit sans inscription",
       "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
@@ -2539,24 +2341,6 @@
       "last_update": "2026-09-21"
     },
     {
-      "id": "dt-495a262f5b",
-      "series_id": "dt-d3fd30b8f7",
-      "title": "Automne numérique : Le Loup-Garou de Sombreval",
-      "start": "2026-10-20",
-      "end": null,
-      "location": "2 allée Abbé Martin Kercret",
-      "city": "Ploemel",
-      "description": "Redécouvrez le célèbre jeu du Loup-Garou dans une version immersive et spectaculaire ! Musiques, lumières et ambiance théâtrale transforment chaque partie en une expérience captivante, dans laquelle chaque joueur dispose d’un pouvoir et reste impliqué jusqu’au bout.",
-      "url": "https://mediatheques-terre-atlantique.fr/node/content/nid/518516",
-      "category": "musique",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 8.0,
-      "last_update": "2026-10-07"
-    },
-    {
       "id": "dt-7669fd5c74",
       "series_id": "dt-2ad11373df",
       "title": "Atelier danse bretonne - Dañs Alre",
@@ -2593,12 +2377,30 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-60770a7e50",
+      "series_id": "dt-f0612535c1",
+      "title": "Visite d'entreprise - La fromagerie Le champ du trèfle",
+      "start": "2026-10-20T09:30",
+      "end": null,
+      "location": "Le champ du trèfle",
+      "city": "Erdeven",
+      "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
+      "url": "https://semaines-tourisme-economique.bzh/visite/viste-de-la-fromagerie-le-champ-du-trefle-a-erdeven-fr-74ea8d82-de8b-4def-b499-7e375fba9e74/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.4,
+      "last_update": "2026-10-08"
+    },
+    {
       "id": "dt-5b10705c38",
       "series_id": "dt-63d679f06d",
       "title": "Festival Trini-Kids : Atelier Musique et Chant",
       "start": "2026-10-20T10:00",
       "end": "2026-10-20T10:45",
-      "location": "1406 Place du Voulien",
+      "location": "Salle du Voulien",
       "city": "La Trinité-sur-Mer",
       "description": "Viens t'éclater et partager la musique! Prévoir une bouteille d'eau. de 10h à 10h45 pour les enfants de 4 à 7 ans de 10h45 à 11h30 pour les enfants de 8 à 12 ans Engagement obligatoire pour les 3 séances: 19,20 et 21 octobre Inscription: auprès d' Isabelle Mercury par mail…",
       "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
@@ -2699,6 +2501,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
       "last_update": "2026-10-07"
+    },
+    {
+      "id": "dt-90927fac0a",
+      "series_id": "dt-d3fd30b8f7",
+      "title": "Automne numérique : Le Loup-Garou de Sombreval",
+      "start": "2026-10-20T14:00",
+      "end": "2026-10-20T16:30",
+      "location": "Complexe Sports et Loisirs",
+      "city": "Ploemel",
+      "description": "Redécouvrez le célèbre jeu du Loup-Garou dans une version immersive et spectaculaire ! Musiques, lumières et ambiance théâtrale transforment chaque partie en une expérience captivante, dans laquelle chaque joueur dispose d’un pouvoir et reste impliqué jusqu’au bout.",
+      "url": "https://mediatheques-terre-atlantique.fr/node/content/nid/518516",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 8.0,
+      "last_update": "2026-10-08"
     },
     {
       "id": "dt-8622b9ee39",
@@ -2863,6 +2683,24 @@
       "last_update": "2026-09-21"
     },
     {
+      "id": "dt-97e09837db",
+      "series_id": "dt-d3fd30b8f7",
+      "title": "Automne numérique : Le Loup-Garou de Sombreval",
+      "start": "2026-10-20T18:30",
+      "end": "2026-10-20T22:30",
+      "location": "Complexe Sports et Loisirs",
+      "city": "Ploemel",
+      "description": "Redécouvrez le célèbre jeu du Loup-Garou dans une version immersive et spectaculaire ! Musiques, lumières et ambiance théâtrale transforment chaque partie en une expérience captivante, dans laquelle chaque joueur dispose d’un pouvoir et reste impliqué jusqu’au bout.",
+      "url": "https://mediatheques-terre-atlantique.fr/node/content/nid/518516",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 8.0,
+      "last_update": "2026-10-08"
+    },
+    {
       "id": "dt-438405ee9c",
       "series_id": "dt-bd9d9f4c0d",
       "title": "Projection : Yohen, l’univers dans un bol",
@@ -2899,12 +2737,30 @@
       "last_update": "2026-10-01"
     },
     {
+      "id": "dt-9d5f3c3e67",
+      "series_id": "dt-f0612535c1",
+      "title": "Visite d'entreprise - La fromagerie Le champ du trèfle",
+      "start": "2026-10-21T09:30",
+      "end": null,
+      "location": "Le champ du trèfle",
+      "city": "Erdeven",
+      "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
+      "url": "https://semaines-tourisme-economique.bzh/visite/viste-de-la-fromagerie-le-champ-du-trefle-a-erdeven-fr-74ea8d82-de8b-4def-b499-7e375fba9e74/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.4,
+      "last_update": "2026-10-08"
+    },
+    {
       "id": "dt-ffb7abfae4",
       "series_id": "dt-63d679f06d",
       "title": "Festival Trini-Kids : Atelier Musique et Chant",
       "start": "2026-10-21T10:00",
       "end": "2026-10-21T10:45",
-      "location": "1406 Place du Voulien",
+      "location": "Salle du Voulien",
       "city": "La Trinité-sur-Mer",
       "description": "Viens t'éclater et partager la musique! Prévoir une bouteille d'eau. de 10h à 10h45 pour les enfants de 4 à 7 ans de 10h45 à 11h30 pour les enfants de 8 à 12 ans Engagement obligatoire pour les 3 séances: 19,20 et 21 octobre Inscription: auprès d' Isabelle Mercury par mail…",
       "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
@@ -3061,12 +2917,12 @@
       "last_update": "2026-09-29"
     },
     {
-      "id": "dt-2f7bb6df5a",
-      "series_id": "dt-7fc35b4599",
+      "id": "dt-4a8a4543d6",
+      "series_id": "dt-0b3730688c",
       "title": "Animation jeux de société thématique maritime",
       "start": "2026-10-21T14:30",
       "end": "2026-10-21T17:30",
-      "location": "3 impasse Jean Bart",
+      "location": "Musée des Thoniers",
       "city": "Étel",
       "description": "Embarquez pour une aventure maritime ludique au Musée des Thoniers d’Etel ! Notre collection de jeux de société à thématique maritime attend les petits moussaillons dès 3 ans et leurs familles. Naviguez d’un jeu à l’autre, entourés de l’histoire fascinante des thoniers.",
       "url": null,
@@ -3094,7 +2950,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-10-08"
     },
     {
       "id": "dt-4c413ef8d6",
@@ -3274,7 +3130,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-10-08"
     },
     {
       "id": "dt-9afa1aa1b4",
@@ -3364,7 +3220,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.1,
-      "last_update": "2026-10-07"
+      "last_update": "2026-10-08"
     },
     {
       "id": "dt-697d1ce0b1",
@@ -3455,24 +3311,6 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.6,
       "last_update": "2026-09-29"
-    },
-    {
-      "id": "dt-a6485a3079",
-      "series_id": "dt-c12b183773",
-      "title": "Action culturelle – création d’un orchestre sonores",
-      "start": "2026-10-23",
-      "end": null,
-      "location": "Espace culturel Le Roëlan -",
-      "city": "Erdeven",
-      "description": "L’espace culturel du Roëlan et la Médiathèque d’Erdeven vous proposent une action culturelle le vendredi 23 octobre 2026 : la création d’un orchestre d’automates sonores !",
-      "url": null,
-      "category": "musique",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 11.5,
-      "last_update": "2026-09-07"
     },
     {
       "id": "dt-dd0c058722",
@@ -3652,7 +3490,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.5,
-      "last_update": "2026-10-07"
+      "last_update": "2026-10-08"
     },
     {
       "id": "dt-e1e49718df",
@@ -4228,7 +4066,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.7,
-      "last_update": "2026-10-02"
+      "last_update": "2026-10-08"
     },
     {
       "id": "dt-f3acc06167",
@@ -4398,7 +4236,7 @@
       "title": "Broc'land Geek",
       "start": "2026-10-25T09:00",
       "end": "2026-10-25T17:00",
-      "location": "Rue de Locmaria",
+      "location": "Salle Omnisports Roger Le Manach",
       "city": "Sainte-Anne-d'Auray",
       "description": "La Pop Culture s'installe à Ste Anne d’Auray pour une journée exceptionnelle ! 1ère édition de BROC' LAND GEEK, un événement entièrement consacré à la Pop Culture, au rétrogaming, aux mangas, aux Pokémon, aux univers Fantasy et aux jouets vintage.",
       "url": "https://www.tandemevents.fr/",
@@ -4555,6 +4393,24 @@
       "last_update": "2026-10-07"
     },
     {
+      "id": "dt-63d688c7a0",
+      "series_id": "dt-ae461dd068",
+      "title": "L’automne s'invite à la chapelle Saint-Sauveur",
+      "start": "2026-10-25T14:30",
+      "end": null,
+      "location": "Chapelle de Saint-Sauveur",
+      "city": "Erdeven",
+      "description": "Rendez-vous à la Chapelle Saint-Sauveur à Erdeven pour un bel après-midi placé sous le signe de l’automne, du partage et de la gourmandise ! Au programme : - Activité citrouille ( 6 €, places limitées) - À partir de 16h : contes par Rémy Cochen - Vente de soupe de citrouille et…",
+      "url": "https://www.facebook.com/associationlachapellestsauveur?locale=fr_FR",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.2,
+      "last_update": "2026-10-08"
+    },
+    {
       "id": "dt-ad2bcd677f",
       "series_id": "dt-2193289823",
       "title": "Visite flash \"Les bretons face aux géants de pierre\"",
@@ -4591,6 +4447,24 @@
       "last_update": "2026-10-07"
     },
     {
+      "id": "dt-fc7526a3e7",
+      "series_id": "dt-be17e8ac5b",
+      "title": "Les mercredis de la philosophie : \"L'IA, un remède ou un poison\"",
+      "start": "2026-10-25T15:00",
+      "end": null,
+      "location": "Espace culturel Terraqué",
+      "city": "Carnac",
+      "description": "Conférence : Anastasie Crol (Philosophe) et Romijn Basters (Ingénieur en électronique) Interrogations sur le rôle de l'Intelligence Artificielle dans notre quotidien, son utilité et ses conséquences.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.7,
+      "last_update": "2026-10-08"
+    },
+    {
       "id": "dt-a8221a581a",
       "series_id": "dt-bc785e088f",
       "title": "Le chantier des collections",
@@ -4607,6 +4481,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-21"
+    },
+    {
+      "id": "dt-41ad0612a9",
+      "series_id": "dt-ae461dd068",
+      "title": "L’automne s'invite à la chapelle Saint-Sauveur",
+      "start": "2026-10-25T16:00",
+      "end": null,
+      "location": "Chapelle de Saint-Sauveur",
+      "city": "Erdeven",
+      "description": "Rendez-vous à la Chapelle Saint-Sauveur à Erdeven pour un bel après-midi placé sous le signe de l’automne, du partage et de la gourmandise ! Au programme : - Activité citrouille ( 6 €, places limitées) - À partir de 16h : contes par Rémy Cochen - Vente de soupe de citrouille et…",
+      "url": "https://www.facebook.com/associationlachapellestsauveur?locale=fr_FR",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.2,
+      "last_update": "2026-10-08"
     },
     {
       "id": "dt-c65e5d994e",
@@ -4678,7 +4570,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-30"
+      "last_update": "2026-10-08"
     },
     {
       "id": "dt-049d537232",
@@ -4794,7 +4686,7 @@
       "title": "Festival Trini'Kids: Jeux en pagaille",
       "start": "2026-10-26T14:30",
       "end": "2026-10-26T17:30",
-      "location": "1406 Place du Voulien",
+      "location": "Salle du Voulien",
       "city": "La Trinité-sur-Mer",
       "description": "Jeux en bois et jeux de société surdimensionnés, animés par Ty Game Truck. Gratuit sans inscription",
       "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
@@ -4877,6 +4769,24 @@
       "source_name": "ADT 56",
       "distance_km": 0.6,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-3f415e3811",
+      "series_id": "dt-f0612535c1",
+      "title": "Visite d'entreprise - La fromagerie Le champ du trèfle",
+      "start": "2026-10-27T09:30",
+      "end": null,
+      "location": "Le champ du trèfle",
+      "city": "Erdeven",
+      "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
+      "url": "https://semaines-tourisme-economique.bzh/visite/viste-de-la-fromagerie-le-champ-du-trefle-a-erdeven-fr-74ea8d82-de8b-4def-b499-7e375fba9e74/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.4,
+      "last_update": "2026-10-08"
     },
     {
       "id": "dt-4606d61a0d",
@@ -5203,6 +5113,24 @@
       "last_update": "2026-10-07"
     },
     {
+      "id": "dt-a2ce8cafb0",
+      "series_id": "dt-f0612535c1",
+      "title": "Visite d'entreprise - La fromagerie Le champ du trèfle",
+      "start": "2026-10-28T09:30",
+      "end": null,
+      "location": "Le champ du trèfle",
+      "city": "Erdeven",
+      "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
+      "url": "https://semaines-tourisme-economique.bzh/visite/viste-de-la-fromagerie-le-champ-du-trefle-a-erdeven-fr-74ea8d82-de8b-4def-b499-7e375fba9e74/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.4,
+      "last_update": "2026-10-08"
+    },
+    {
       "id": "dt-5d0a404988",
       "series_id": "dt-0b42a3a400",
       "title": "Automne numérique : Crée ton animal fantastique",
@@ -5416,7 +5344,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-10-08"
     },
     {
       "id": "dt-4c93387e81",
@@ -5506,7 +5434,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.0,
-      "last_update": "2026-10-06"
+      "last_update": "2026-10-08"
     },
     {
       "id": "dt-8bb6378b4b",
@@ -5635,6 +5563,24 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-57766a9879",
+      "series_id": "dt-f0612535c1",
+      "title": "Visite d'entreprise - La fromagerie Le champ du trèfle",
+      "start": "2026-10-29T09:30",
+      "end": null,
+      "location": "Le champ du trèfle",
+      "city": "Erdeven",
+      "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
+      "url": "https://semaines-tourisme-economique.bzh/visite/viste-de-la-fromagerie-le-champ-du-trefle-a-erdeven-fr-74ea8d82-de8b-4def-b499-7e375fba9e74/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.4,
+      "last_update": "2026-10-08"
+    },
+    {
       "id": "dt-623e0889c8",
       "series_id": "dt-a69f259390",
       "title": "Festival Trini'Kids : Stage de danse",
@@ -5740,7 +5686,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.8,
-      "last_update": "2026-09-29"
+      "last_update": "2026-10-08"
     },
     {
       "id": "dt-caaa3177a9",
@@ -5838,7 +5784,7 @@
       "title": "Animation jeux de société thématique maritime",
       "start": "2026-10-29T14:30",
       "end": "2026-10-29T17:30",
-      "location": "3 impasse Jean Bart",
+      "location": "Musée des Thoniers",
       "city": "Étel",
       "description": "Embarquez pour une aventure maritime ludique au Musée des Thoniers d’Etel ! Notre collection de jeux de société à thématique maritime attend les petits moussaillons dès 3 ans et leurs familles. Naviguez d’un jeu à l’autre, entourés de l’histoire fascinante des thoniers.",
       "url": null,
@@ -6049,12 +5995,30 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-71808cb105",
+      "series_id": "dt-f0612535c1",
+      "title": "Visite d'entreprise - La fromagerie Le champ du trèfle",
+      "start": "2026-10-30T09:30",
+      "end": null,
+      "location": "Le champ du trèfle",
+      "city": "Erdeven",
+      "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
+      "url": "https://semaines-tourisme-economique.bzh/visite/viste-de-la-fromagerie-le-champ-du-trefle-a-erdeven-fr-74ea8d82-de8b-4def-b499-7e375fba9e74/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.4,
+      "last_update": "2026-10-08"
+    },
+    {
       "id": "dt-122d429aa6",
       "series_id": "dt-8e17210df4",
       "title": "Festival Trini'Kids: Atelier lecture",
       "start": "2026-10-30T10:00",
       "end": "2026-10-30T10:30",
-      "location": "1406 Place du Voulien",
+      "location": "Salle du Voulien",
       "city": "La Trinité-sur-Mer",
       "description": "La Bibliothèque pour tous propose une lecture sur le thème d'Halloween. de10h à 10h30 pour les 4 à 7 ans, puis de 10h45 à 11h30 pour les 7 à 10 ans. sur inscription",
       "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
@@ -6092,7 +6056,7 @@
       "end": "2026-10-30T11:30",
       "location": "Médiathèque Terraqué",
       "city": "Carnac",
-      "description": "Projection petit frisson Dans le cadre de nos séances petit frisson, la médiathèque vous propose un film d’animation destiné aux enfants dès l'âge de 8 ans. Le nom du film sera révélé à l’accueil de la médiathèque. Durée 1h30 Gratuit – réservation conseillée",
+      "description": "À 10H Projection petit frisson Dans le cadre de nos séances petit frisson, la médiathèque vous propose un film d’animation destiné aux enfants dès l'âge de 8 ans. Le nom du film sera révélé à l’accueil de la médiathèque. Durée 1h30 Gratuit – réservation conseillée",
       "url": "https://mediatheques-terre-atlantique.fr/node/content/nid/545397",
       "category": "spectacle",
       "priority": 2,
@@ -6100,7 +6064,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
-      "last_update": "2026-10-01"
+      "last_update": "2026-10-08"
     },
     {
       "id": "dt-b061b74f6a",
@@ -6553,6 +6517,24 @@
       "last_update": "2026-10-01"
     },
     {
+      "id": "dt-e967c0846a",
+      "series_id": "dt-c6315380c4",
+      "title": "Conférence histoire de l’art « Miroir mon beau miroir »",
+      "start": "2026-10-31T17:30",
+      "end": null,
+      "location": "9 Rue Abbé le Barh",
+      "city": "Erdeven",
+      "description": "Par l’association « Expression Centre d’Art pour Tous » ! Cette année, l’association propose d’explorer l’histoire de l’art à travers les objets. Une conférence, un objet décliné à travers différents courants artistiques, époques jusqu’au artistes contemporains.",
+      "url": "https://www.erdeven.fr/decouvrir-erdeven/les-evenements/",
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 11.5,
+      "last_update": "2026-10-08"
+    },
+    {
       "id": "dt-5660116cc2",
       "series_id": "dt-fe8e3c53a8",
       "title": "Halloween au parc Forêt Adrénaline",
@@ -6823,6 +6805,24 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-af31565ccf",
+      "series_id": "dt-e1a79657f2",
+      "title": "Le CROSS Etel ouvre ses portes",
+      "start": "2026-11-04T14:00",
+      "end": "2026-11-04T16:00",
+      "location": "Cross Etel",
+      "city": "Étel",
+      "description": "Vous souhaitez découvrir les missions de surveillance et de sauvetage en mer ? Le Cross Etel ouvre ses portes pour 3 dates : les mercredis 4 novembre, 2 décembre 2026 et le 6 janvier 2027 Visites de 14h à 16h — Groupes de 20 Inscriptions : pocrossetel@mer.gouv.fr",
+      "url": null,
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.6,
+      "last_update": "2026-10-08"
+    },
+    {
       "id": "dt-fd10a5beda",
       "series_id": "dt-ea2768c7fa",
       "title": "Théâtre Bulle de poésie: Parce que les vers n'ont pas besoin de pieds pour s'envoler",
@@ -7037,6 +7037,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.4,
       "last_update": "2026-09-11"
+    },
+    {
+      "id": "dt-b6922da6fc",
+      "series_id": "dt-423fea85a2",
+      "title": "La Musique dans l'Antiquité celtique",
+      "start": "2026-11-07T20:00",
+      "end": null,
+      "location": "9 rue Abbé le Barh",
+      "city": "Erdeven",
+      "description": "\"La musique dans l'Antiquité celtique \", par Julian Cuvilliez, archéomusicologue, directeur du Pôle de Recherche, d’Interprétation et d’Archéologie Expérimentale. Que sait-on de la musique des Celtes ? Quels instruments résonnaient chez les Gaulois ?",
+      "url": null,
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 11.5,
+      "last_update": "2026-10-08"
     },
     {
       "id": "dt-db744ce433",
@@ -7865,6 +7883,24 @@
       "source_name": "ADT 56",
       "distance_km": 0.6,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-f4fbf83118",
+      "series_id": "dt-e1a79657f2",
+      "title": "Le CROSS Etel ouvre ses portes",
+      "start": "2026-12-02T14:00",
+      "end": "2026-12-02T16:00",
+      "location": "Cross Etel",
+      "city": "Étel",
+      "description": "Vous souhaitez découvrir les missions de surveillance et de sauvetage en mer ? Le Cross Etel ouvre ses portes pour 3 dates : les mercredis 4 novembre, 2 décembre 2026 et le 6 janvier 2027 Visites de 14h à 16h — Groupes de 20 Inscriptions : pocrossetel@mer.gouv.fr",
+      "url": null,
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.6,
+      "last_update": "2026-10-08"
     },
     {
       "id": "dt-5e8635acbf",
@@ -8783,6 +8819,24 @@
       "source_name": "ADT 56",
       "distance_km": 0.6,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-0eabd68289",
+      "series_id": "dt-e1a79657f2",
+      "title": "Le CROSS Etel ouvre ses portes",
+      "start": "2027-01-06T14:00",
+      "end": "2027-01-06T16:00",
+      "location": "Cross Etel",
+      "city": "Étel",
+      "description": "Vous souhaitez découvrir les missions de surveillance et de sauvetage en mer ? Le Cross Etel ouvre ses portes pour 3 dates : les mercredis 4 novembre, 2 décembre 2026 et le 6 janvier 2027 Visites de 14h à 16h — Groupes de 20 Inscriptions : pocrossetel@mer.gouv.fr",
+      "url": null,
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.6,
+      "last_update": "2026-10-08"
     },
     {
       "id": "dt-e8676ba0e5",
