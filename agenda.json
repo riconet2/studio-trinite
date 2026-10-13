@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-12T12:06:25Z",
+  "generated_at": "2026-10-13T11:52:21Z",
   "data_updated_at": "2026-10-10",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
@@ -10,9 +10,9 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 545,
+    "total": 542,
     "by_proximity": {
-      "near": 449,
+      "near": 446,
       "immediate": 95,
       "daytrip": 1
     }
@@ -361,24 +361,6 @@
       "last_update": "2026-09-17"
     },
     {
-      "id": "dt-7c51c89c3e",
-      "series_id": "dt-ee23c5186c",
-      "title": "Fête de la science : Exposition Bivouac des Sciences",
-      "start": "2026-10-01",
-      "end": "2026-10-12",
-      "location": "4 Pl. de la République",
-      "city": "Étel",
-      "description": "Exposition « Bivouac des Sciences, aventure et océan » à la médiathèque (du 1er au 12 octobre), pour naviguer au rythme des découvertes des marins-reporters. Escale du Passe-Partout",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.2,
-      "last_update": "2026-09-29"
-    },
-    {
       "id": "dt-e175847a44",
       "series_id": "dt-b8a4814e76",
       "title": "Exposition \" Observons les oiseaux\"",
@@ -395,42 +377,6 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.2,
       "last_update": "2026-09-29"
-    },
-    {
-      "id": "dt-7b418659dc",
-      "series_id": "dt-fa57efa204",
-      "title": "Terra Initia - Exposition TR'ÂMES",
-      "start": "2026-10-12T10:00",
-      "end": "2026-10-12T12:30",
-      "location": "Galerie Terra Initia",
-      "city": "Carnac",
-      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.0,
-      "last_update": "2026-08-13"
-    },
-    {
-      "id": "dt-53d21464bd",
-      "series_id": "dt-1ed51fa645",
-      "title": "Nationalisme ? Démocratie ? Conférence par Ronan Le Coadic",
-      "start": "2026-10-12T18:30",
-      "end": null,
-      "location": "26 Rue du Tumulus",
-      "city": "Carnac",
-      "description": "Le nationalisme progresse, la démocratie régresse. Mais ni l’un ni l’autre ne sont exactement ce que l’on croit : il existe des nationalismes qui écrasent les peuples et d’autres qui les libèrent, et ce que nos gouvernements appellent « démocratie » est en réalité une…",
-      "url": "https://www.tidouaralre.com/",
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 3.7,
-      "last_update": "2026-09-30"
     },
     {
       "id": "dt-b4121b7f4a",
@@ -2094,7 +2040,7 @@
       "title": "Visite de la caserne de Carnac",
       "start": "2026-10-20T14:15",
       "end": "2026-10-20T15:45",
-      "location": "Chemin du Nilestrec",
+      "location": "Centre de secours",
       "city": "Carnac",
       "description": "Le Centre d’Incendie et de Secours de Carnac contribue à la protection de tout ou partie des communes de Carnac, Locmariaquer, Plouharnel, Saint-Philibert et La Trinité-sur-Mer. L'effectif est composé de 7 sapeurs-pompiers professionnels et 63 sapeurs-pompiers volontaires.",
       "url": "https://stesf.youbook.travel/fr/activite/france/sdis-56-centre-de-secours-de-carnac/services/visite-du-centre-de-secours-de-carnac",
@@ -4560,7 +4506,7 @@
       "title": "Visite de la caserne de Carnac",
       "start": "2026-10-27T14:15",
       "end": "2026-10-27T15:45",
-      "location": "Chemin du Nilestrec",
+      "location": "Centre de secours",
       "city": "Carnac",
       "description": "Le Centre d’Incendie et de Secours de Carnac contribue à la protection de tout ou partie des communes de Carnac, Locmariaquer, Plouharnel, Saint-Philibert et La Trinité-sur-Mer. L'effectif est composé de 7 sapeurs-pompiers professionnels et 63 sapeurs-pompiers volontaires.",
       "url": "https://stesf.youbook.travel/fr/activite/france/sdis-56-centre-de-secours-de-carnac/services/visite-du-centre-de-secours-de-carnac",
