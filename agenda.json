@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-14T09:34:11Z",
-  "data_updated_at": "2026-10-10",
+  "generated_at": "2026-10-15T09:12:10Z",
+  "data_updated_at": "2026-10-13",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -10,11 +10,11 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 540,
+    "total": 566,
     "by_proximity": {
-      "near": 445,
+      "near": 470,
       "immediate": 94,
-      "daytrip": 1
+      "daytrip": 2
     }
   },
   "events": [
@@ -107,24 +107,6 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.8,
       "last_update": "2026-08-27"
-    },
-    {
-      "id": "dt-94419f522d",
-      "series_id": "dt-f0098811e6",
-      "title": "Lecture offerte aux enfants",
-      "start": "2026-06-17T10:00",
-      "end": "2026-10-14T11:00",
-      "location": "5 Rue des Menhirs",
-      "city": "Erdeven",
-      "description": "Les enfants sont les bienvenus pour écouter des histoires issues de la collection de la librairie.",
-      "url": null,
-      "category": "culture",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 11.4,
-      "last_update": "2026-07-30"
     },
     {
       "id": "dt-c28797104e",
@@ -377,114 +359,6 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.2,
       "last_update": "2026-09-29"
-    },
-    {
-      "id": "dt-b4121b7f4a",
-      "series_id": "dt-2ad11373df",
-      "title": "Atelier danse bretonne - Dañs Alre",
-      "start": "2026-10-13T05:00",
-      "end": "2026-10-14",
-      "location": "Salle Jean et Marcelle Péron",
-      "city": "Auray",
-      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
-      "url": null,
-      "category": "spectacle",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.2,
-      "last_update": "2026-09-30"
-    },
-    {
-      "id": "dt-31f67856d0",
-      "series_id": "dt-fa57efa204",
-      "title": "Terra Initia - Exposition TR'ÂMES",
-      "start": "2026-10-14T10:00",
-      "end": "2026-10-14T12:30",
-      "location": "Galerie Terra Initia",
-      "city": "Carnac",
-      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.0,
-      "last_update": "2026-08-13"
-    },
-    {
-      "id": "dt-7de847b439",
-      "series_id": "dt-e2cfe2ac5e",
-      "title": "Balade contée au bord du Loch",
-      "start": "2026-10-14T15:00",
-      "end": "2026-10-14T17:00",
-      "location": "Chapelle Saint-Jacques",
-      "city": "Brech",
-      "description": "Partez pour une balade contée entre rives, landes et sentiers boisés, à la découverte des paysages de la vallée du Loc’h. Laissez-vous emporter par des histoires d’arbres, les murmures de l’eau et d’autres secrets. Sur réservation Rendez-vous à la Chapelle Saint Jacques à BREC’H",
-      "url": null,
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.2,
-      "last_update": "2026-09-29"
-    },
-    {
-      "id": "dt-d32179004c",
-      "series_id": "dt-bc785e088f",
-      "title": "Le chantier des collections",
-      "start": "2026-10-14T16:00",
-      "end": "2026-10-14T16:30",
-      "location": "Musée de la Préhistoire",
-      "city": "Carnac",
-      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
-      "url": "https://www.museedecarnac.com/actualites/",
-      "category": "musique",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 3.8,
-      "last_update": "2026-09-21"
-    },
-    {
-      "id": "dt-696c595f53",
-      "series_id": "dt-79ee07596f",
-      "title": "Conférence: Comprendre et agir sur l’image corporelle",
-      "start": "2026-10-14T19:00",
-      "end": "2026-10-14T20:00",
-      "location": "Salle Kenleur",
-      "city": "Auray",
-      "description": "Comment se construit notre regard sur notre corps ? Entre normes sociales, influence des médias et pression de l’entourage, l’image corporelle peut parfois devenir une source d’insatisfaction et de mal-être.",
-      "url": "https://www.cptspaysauray.fr/",
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6,
-      "last_update": "2026-09-29"
-    },
-    {
-      "id": "dt-be34a402a8",
-      "series_id": "dt-5d80641b76",
-      "title": "Conférence : Néolithique et Art Contemporain",
-      "start": "2026-10-14T20:30",
-      "end": "2026-10-14T22:30",
-      "location": "auditorium Terraqué",
-      "city": "Carnac",
-      "description": "Conférence par Rémi Labrusse, Ecole des Hautes Etudes en Science Sociale, organisée par les Amis du Musée de Carnac. Les inquiétudes écologiques, la remise en cause de l’idéologie du progrès conduisent aujourd’hui, de plus en plus, à envisager, à rêver ou à cauchemarder une…",
-      "url": "http://www.museedecarnac.com/",
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 3.6,
-      "last_update": "2026-09-23"
     },
     {
       "id": "dt-2826d3d4cd",
@@ -772,7 +646,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-30"
+      "last_update": "2026-10-12"
     },
     {
       "id": "dt-7e66a73d76",
@@ -867,12 +741,12 @@
     {
       "id": "dt-fe8790b412",
       "series_id": "dt-f176fdbbb6",
-      "title": "Planche à voile: National Windfoil et Techno 293, Championnat de France Raceboard",
+      "title": "Planche à voile : National Windfoil et Techno 293, Championnat de France Raceboard",
       "start": "2026-10-17T10:00",
       "end": "2026-10-20T17:00",
       "location": "Boulevard des Émigrés",
       "city": "Quiberon",
-      "description": "200 futurs champions de la voile française s'affronteront en planches à voile à Foil et traditionnelles, lors de courses spectaculaires où vitesse et maîtrise technique feront la différence.",
+      "description": "La grande fête du Windsurf revient à ASN Quiberon ! 200 futurs champions de la voile française s'affronteront en planches à voile à Foil et traditionnelles, lors de courses spectaculaires où vitesse et maîtrise technique feront la différence.",
       "url": "http://www.asnquiberon.com/",
       "category": "nautique",
       "priority": 1,
@@ -880,7 +754,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 12.5,
-      "last_update": "2026-03-02"
+      "last_update": "2026-10-13"
     },
     {
       "id": "dt-3c860efbaa",
@@ -934,7 +808,25 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-09-30"
+      "last_update": "2026-10-12"
+    },
+    {
+      "id": "dt-f85c2c5f71",
+      "series_id": "dt-7adeac7ccb",
+      "title": "Stages de Natation",
+      "start": "2026-10-17T13:20",
+      "end": "2026-11-02T14:10",
+      "location": "Piscine Neptilude",
+      "city": "Quiberon",
+      "description": "Profitez de la pause estivale pour inscrire vos enfants (dès 5 ans) à nos stages de natation. Encadrés par des professionnels, les apprentis nageurs évoluent en groupes de niveau pour garantir sécurité et confiance en soi.",
+      "url": "http://www.piscine-quiberon.fr/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.5,
+      "last_update": "2026-10-13"
     },
     {
       "id": "dt-55a2bd5dee",
@@ -1340,7 +1232,7 @@
       "end": "2026-10-18T17:00",
       "location": "Plage de Kerivor",
       "city": "Carnac",
-      "description": "Nettoyage de la plage de Kerivor. Opération de sensibilisation aux déchets littoraux ouverte à tous. Sacs et pinces fournis, prévoir des gants.",
+      "description": "Nettoyage de la plage de Kerivor. Opération de sensibilisation aux déchets littoraux ouverte à tous. Opération organisée par l'association Les Mains dans le Sable. Sacs et pinces fournis, prévoir des gants.",
       "url": "https://lesmainsdanslesable.com/",
       "category": "plein_air",
       "priority": 2,
@@ -1348,7 +1240,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 5.9,
-      "last_update": "2026-10-06"
+      "last_update": "2026-10-13"
     },
     {
       "id": "dt-83389ed933",
@@ -1806,7 +1698,7 @@
       "title": "De la pomme au jus",
       "start": "2026-10-20T10:00",
       "end": "2026-10-20T12:00",
-      "location": "Rue Park Segal",
+      "location": "Verger conservatoire de Saint-Dégan",
       "city": "Brech",
       "description": "Animation proposée par Morbihan Grandeur Nature - Initiation au breton du pressage de pommes - Venez vivre un moment convivial au verger : ramassage des pommes, pressage traditionnel et dégustation d’un jus frais, fait ensemble. Réservation par téléphone",
       "url": "https://www.morbihan.fr/nos-actions/environnement-le-departement-un-acteur-engage/le-patrimoine-naturel-morbihannais/le-programme-morbihan-grandeur-nature",
@@ -1914,7 +1806,7 @@
       "title": "De la pomme au jus",
       "start": "2026-10-20T14:00",
       "end": "2026-10-20T16:00",
-      "location": "Rue Park Segal",
+      "location": "Verger conservatoire de Saint-Dégan",
       "city": "Brech",
       "description": "Animation proposée par Morbihan Grandeur Nature - Initiation au breton du pressage de pommes - Venez vivre un moment convivial au verger : ramassage des pommes, pressage traditionnel et dégustation d’un jus frais, fait ensemble. Réservation par téléphone",
       "url": "https://www.morbihan.fr/nos-actions/environnement-le-departement-un-acteur-engage/le-patrimoine-naturel-morbihannais/le-programme-morbihan-grandeur-nature",
@@ -2033,6 +1925,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-a0362022d1",
+      "series_id": "dt-c8662b8e44",
+      "title": "Parcours gonflable Aquatique géant à Neptilude !",
+      "start": "2026-10-20T15:00",
+      "end": "2026-10-20T17:00",
+      "location": "1 Rue Neptune",
+      "city": "Quiberon",
+      "description": "Plongez dans l'aventure avec le retour des structures gonflables tous les mardis et vendredis à 15h Pendant les vacances de la Toussaint, préparez-vous à des moments d'éclaboussures et de rires pour les petits aventuriers de 5 ans et plus !",
+      "url": "http://www.piscine-quiberon.fr/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.4,
+      "last_update": "2026-10-13"
     },
     {
       "id": "dt-8d2ea39cf0",
@@ -2359,6 +2269,24 @@
       "last_update": "2026-10-08"
     },
     {
+      "id": "dt-7e4c636b20",
+      "series_id": "dt-6022eea081",
+      "title": "Les mégalithes de Quiberon, un univers à découvrir",
+      "start": "2026-10-21T14:30",
+      "end": null,
+      "location": "Le Vivier",
+      "city": "Quiberon",
+      "description": "Visite guidée autour de quelques mégalithes de la côte sauvage jusqu'au cœur du village du Manémeur. Une balade de 3 km pour découvrir la variété des constructions (stèles dressées, allée couverte, dolmen à couloir...), les techniques de construction, leurs rôles, la richesse du…",
+      "url": null,
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 14.2,
+      "last_update": "2026-10-13"
+    },
+    {
       "id": "dt-4c413ef8d6",
       "series_id": "dt-c910b391de",
       "title": "Mercredi, on joue !",
@@ -2447,6 +2375,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-21"
+    },
+    {
+      "id": "dt-358e52d4c1",
+      "series_id": "dt-67404ef265",
+      "title": "Halloween - La piscine hantée : qui osera venir y nager ?",
+      "start": "2026-10-21T16:30",
+      "end": "2026-10-21T18:00",
+      "location": "Piscine Neptilude",
+      "city": "Quiberon",
+      "description": "Venez fêter Halloween à la piscine Neptilude les Mercredis 21 et 28 octobre ! Préparez-vous à vivre une journée terrifiante… mais surtout amusante ! Au programme pour petits et grands : - Structure gonflable – Défiez vos amis sur nos parcours aquatiques endiablés !",
+      "url": null,
+      "category": "fete",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.4,
+      "last_update": "2026-10-13"
     },
     {
       "id": "dt-3218fd0563",
@@ -2593,6 +2539,24 @@
       "last_update": "2026-04-23"
     },
     {
+      "id": "dt-aeeb59a45e",
+      "series_id": "dt-adc3b1e51f",
+      "title": "Moment famille à Neptilude !",
+      "start": "2026-10-22T14:30",
+      "end": "2026-10-22T18:00",
+      "location": "1 Rue Neptune",
+      "city": "Quiberon",
+      "description": "Moment famille : bouée, tapis, jeux aquatiques, ballons les jeudis des vacances de la Toussaint",
+      "url": "http://www.piscine-quiberon.fr/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.4,
+      "last_update": "2026-10-13"
+    },
+    {
       "id": "dt-b274b40e54",
       "series_id": "dt-611e55b02a",
       "title": "Pierres de légende",
@@ -2616,7 +2580,7 @@
       "title": "Les Incontournables : la chapelle Saint-Quirin et son retable (LSF)",
       "start": "2026-10-22T15:00",
       "end": "2026-10-22T16:00",
-      "location": "Chapelle Saint-Quirin",
+      "location": "5 Route de Saint-Guérin",
       "city": "Brech",
       "description": "L’édifice, avec son architecture toute classique, fête cette année ses 350 ans. Cette construction sobre abrite un des plus beaux retables du Morbihan datant de la fin du XVIIe siècle.",
       "url": "http://baiedequiberon.bzh/",
@@ -2735,6 +2699,24 @@
       "source_name": "ADT 56",
       "distance_km": 0.6,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-62ac7b94ee",
+      "series_id": "dt-bb8ce29917",
+      "title": "Découverte des trésors de l'estran à marée basse - Quibtao",
+      "start": "2026-10-23T09:00",
+      "end": "2026-10-23T11:00",
+      "location": "Boulevard du Conguel",
+      "city": "Quiberon",
+      "description": "Devenez explorateur de l'estran le temps d'une sortie à marée basse et découvrez la vie secrète et cachée de l’océan : crabes, pagures, crevettes, anémones étoiles de mer, algues...1001 anecdotes et un monde marin à connaitre pour mieux le protéger !",
+      "url": "http://www.quibtao.fr/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.3,
+      "last_update": "2026-10-13"
     },
     {
       "id": "dt-b0c1ec9fc3",
@@ -3007,6 +2989,24 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-ec587d04a2",
+      "series_id": "dt-c8662b8e44",
+      "title": "Parcours gonflable Aquatique géant à Neptilude !",
+      "start": "2026-10-23T15:00",
+      "end": "2026-10-23T17:00",
+      "location": "1 Rue Neptune",
+      "city": "Quiberon",
+      "description": "Plongez dans l'aventure avec le retour des structures gonflables tous les mardis et vendredis à 15h Pendant les vacances de la Toussaint, préparez-vous à des moments d'éclaboussures et de rires pour les petits aventuriers de 5 ans et plus !",
+      "url": "http://www.piscine-quiberon.fr/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.4,
+      "last_update": "2026-10-13"
+    },
+    {
       "id": "dt-17bc05d058",
       "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
@@ -3220,7 +3220,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.5,
-      "last_update": "2026-10-10"
+      "last_update": "2026-10-13"
     },
     {
       "id": "dt-3f71131a3b",
@@ -3257,6 +3257,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.1,
       "last_update": "2026-10-10"
+    },
+    {
+      "id": "dt-7d13bdc584",
+      "series_id": "dt-3fc251e112",
+      "title": "Festival Insolent",
+      "start": "2026-10-24",
+      "end": null,
+      "location": "Parc des Expositions",
+      "city": "Lorient",
+      "description": "Le Festival Insolent revient ! Une longue soirée de concerts sous le signe des bonnes vibes, entre fête, musique et partage.",
+      "url": "http://festival-insolent.com/",
+      "category": "fete",
+      "priority": 2,
+      "proximity": "daytrip",
+      "source": "DATAtourisme",
+      "source_name": "CRT Bretagne_",
+      "distance_km": 32.4,
+      "last_update": "2026-10-12"
     },
     {
       "id": "dt-ff416f4ebd",
@@ -3599,6 +3617,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 7.4,
       "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-9479e55ce0",
+      "series_id": "dt-2b3b87f556",
+      "title": "Nocturne au Gyroparc",
+      "start": "2026-10-24T18:00",
+      "end": "2026-10-24T21:00",
+      "location": "Gyroparc",
+      "city": "Plouharnel",
+      "description": "Et si vous testiez le Gyroparc à la tombée de la nuit ? 🌙 Les nocturnes, c’est l’occasion de prolonger le plaisir et de profiter de nos circuits dans une ambiance différente ! Quad, moto électrique… il ne reste plus qu’à choisir et à vous lancer sur la piste !",
+      "url": "https://www.mobilboard.com/fr/gyroparc",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 5.7,
+      "last_update": "2026-10-12"
     },
     {
       "id": "dt-4fdbdb3f7c",
@@ -3976,7 +4012,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.2,
-      "last_update": "2026-10-10"
+      "last_update": "2026-10-13"
     },
     {
       "id": "dt-c65e5d994e",
@@ -4049,6 +4085,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-10-08"
+    },
+    {
+      "id": "dt-3eacc92f3b",
+      "series_id": "dt-bb8ce29917",
+      "title": "Découverte des trésors de l'estran à marée basse - Quibtao",
+      "start": "2026-10-26T10:00",
+      "end": "2026-10-26T12:00",
+      "location": "Boulevard du Conguel",
+      "city": "Quiberon",
+      "description": "Devenez explorateur de l'estran le temps d'une sortie à marée basse et découvrez la vie secrète et cachée de l’océan : crabes, pagures, crevettes, anémones étoiles de mer, algues...1001 anecdotes et un monde marin à connaitre pour mieux le protéger !",
+      "url": "http://www.quibtao.fr/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.3,
+      "last_update": "2026-10-13"
     },
     {
       "id": "dt-049d537232",
@@ -4159,6 +4213,24 @@
       "last_update": "2026-09-29"
     },
     {
+      "id": "dt-a0f2b0b0cc",
+      "series_id": "dt-7b8b30a856",
+      "title": "La pointe de Conguel : secret du bout du monde - Dunes Saucages",
+      "start": "2026-10-26T14:00",
+      "end": "2026-10-26T15:00",
+      "location": "Pointe du Conguel",
+      "city": "Quiberon",
+      "description": "Au bout de la presqu'île de Quiberon, la Pointe de Conguel offre un panorama exceptionnel sur la baie de Quiberon, les iles de Houat et Belle-Île-en-Mer. Derrière ces paysages se cache un site où nature, géologie et histoire racontent l'évolution du littoral quiberonnais.",
+      "url": "http://gavres-quiberon.fr/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.3,
+      "last_update": "2026-10-13"
+    },
+    {
       "id": "dt-7f1f7c4764",
       "series_id": "dt-fc4f15a93f",
       "title": "Festival Trini'Kids: Jeux en pagaille",
@@ -4211,6 +4283,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-21"
+    },
+    {
+      "id": "dt-f747090f38",
+      "series_id": "dt-c002be784d",
+      "title": "Objectif Plume au Paradis",
+      "start": "2026-10-26T20:30",
+      "end": null,
+      "location": "Cinéma Le Paradis",
+      "city": "Quiberon",
+      "description": "Le cinéma Le Paradis accueille Claire Marca, auteure, et Reno Marca, dessinateur et photographe, pour un temps d’échange autour de leurs voyages. La rencontre sera accompagnée de la projection de Journal de la mer d’Arabie (2014, 51 min, VF).",
+      "url": null,
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.7,
+      "last_update": "2026-10-13"
     },
     {
       "id": "dt-159b97752c",
@@ -4355,6 +4445,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.3,
       "last_update": "2026-10-07"
+    },
+    {
+      "id": "dt-0141e9eab0",
+      "series_id": "dt-3e50231d50",
+      "title": "Le refuge des oiseaux migrateurs - Dunes Sauvages",
+      "start": "2026-10-27T13:30",
+      "end": "2026-10-27T14:30",
+      "location": "Pointe de Pen Er Lé",
+      "city": "Plouharnel",
+      "description": "La baie de Quiberon n’est pas connue que pour la qualité de ses huîtres. Elle est aussi une zone de quiétude et d’alimentation pour des milliers d’oiseaux migrateurs hivernants.",
+      "url": "https://gavres-quiberon.fr/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 6.2,
+      "last_update": "2026-10-13"
     },
     {
       "id": "dt-7292363e8e",
@@ -4535,6 +4643,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-126dea3bf1",
+      "series_id": "dt-c8662b8e44",
+      "title": "Parcours gonflable Aquatique géant à Neptilude !",
+      "start": "2026-10-27T15:00",
+      "end": "2026-10-27T17:00",
+      "location": "1 Rue Neptune",
+      "city": "Quiberon",
+      "description": "Plongez dans l'aventure avec le retour des structures gonflables tous les mardis et vendredis à 15h Pendant les vacances de la Toussaint, préparez-vous à des moments d'éclaboussures et de rires pour les petits aventuriers de 5 ans et plus !",
+      "url": "http://www.piscine-quiberon.fr/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.4,
+      "last_update": "2026-10-13"
     },
     {
       "id": "dt-dc3459becf",
@@ -4825,6 +4951,24 @@
       "last_update": "2026-10-08"
     },
     {
+      "id": "dt-b21e3c5dce",
+      "series_id": "dt-6022eea081",
+      "title": "Les mégalithes de Quiberon, un univers à découvrir",
+      "start": "2026-10-28T14:30",
+      "end": null,
+      "location": "Le Vivier",
+      "city": "Quiberon",
+      "description": "Visite guidée autour de quelques mégalithes de la côte sauvage jusqu'au cœur du village du Manémeur. Une balade de 3 km pour découvrir la variété des constructions (stèles dressées, allée couverte, dolmen à couloir...), les techniques de construction, leurs rôles, la richesse du…",
+      "url": null,
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 14.2,
+      "last_update": "2026-10-13"
+    },
+    {
       "id": "dt-4c93387e81",
       "series_id": "dt-2193289823",
       "title": "Visite flash \"Les bretons face aux géants de pierre\"",
@@ -4949,6 +5093,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
       "last_update": "2026-09-21"
+    },
+    {
+      "id": "dt-7102742237",
+      "series_id": "dt-67404ef265",
+      "title": "Halloween - La piscine hantée : qui osera venir y nager ?",
+      "start": "2026-10-28T16:30",
+      "end": "2026-10-28T18:00",
+      "location": "Piscine Neptilude",
+      "city": "Quiberon",
+      "description": "Venez fêter Halloween à la piscine Neptilude les Mercredis 21 et 28 octobre ! Préparez-vous à vivre une journée terrifiante… mais surtout amusante ! Au programme pour petits et grands : - Structure gonflable – Défiez vos amis sur nos parcours aquatiques endiablés !",
+      "url": null,
+      "category": "fete",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.4,
+      "last_update": "2026-10-13"
     },
     {
       "id": "dt-44598cd692",
@@ -5275,6 +5437,24 @@
       "last_update": "2026-09-28"
     },
     {
+      "id": "dt-7ce111cd7c",
+      "series_id": "dt-adc3b1e51f",
+      "title": "Moment famille à Neptilude !",
+      "start": "2026-10-29T14:30",
+      "end": "2026-10-29T18:00",
+      "location": "1 Rue Neptune",
+      "city": "Quiberon",
+      "description": "Moment famille : bouée, tapis, jeux aquatiques, ballons les jeudis des vacances de la Toussaint",
+      "url": "http://www.piscine-quiberon.fr/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.4,
+      "last_update": "2026-10-13"
+    },
+    {
       "id": "dt-01ca387710",
       "series_id": "dt-2193289823",
       "title": "Visite flash \"Les bretons face aux géants de pierre\"",
@@ -5455,6 +5635,24 @@
       "last_update": "2026-09-30"
     },
     {
+      "id": "dt-b602713936",
+      "series_id": "dt-a22481d8ef",
+      "title": "Ciné Rencontre : Ernest Renan, chantre de la Nation",
+      "start": "2026-10-29T20:30",
+      "end": null,
+      "location": "Cinéma Le Paradis",
+      "city": "Quiberon",
+      "description": "Le cinéma Le Paradis propose une ciné-rencontre autour du documentaire Ernest Renan, chantre de la Nation, écrit et réalisé par Jean-Michel Djian en 2025.",
+      "url": null,
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.7,
+      "last_update": "2026-10-13"
+    },
+    {
       "id": "dt-6d8a26d2dd",
       "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
@@ -5617,6 +5815,24 @@
       "last_update": "2026-10-07"
     },
     {
+      "id": "dt-78750901d2",
+      "series_id": "dt-c8662b8e44",
+      "title": "Parcours gonflable Aquatique géant à Neptilude !",
+      "start": "2026-10-30T15:00",
+      "end": "2026-10-30T17:00",
+      "location": "1 Rue Neptune",
+      "city": "Quiberon",
+      "description": "Plongez dans l'aventure avec le retour des structures gonflables tous les mardis et vendredis à 15h Pendant les vacances de la Toussaint, préparez-vous à des moments d'éclaboussures et de rires pour les petits aventuriers de 5 ans et plus !",
+      "url": "http://www.piscine-quiberon.fr/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.4,
+      "last_update": "2026-10-13"
+    },
+    {
       "id": "dt-8396eee239",
       "series_id": "dt-fa57efa204",
       "title": "Terra Initia - Exposition TR'ÂMES",
@@ -5741,6 +5957,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
       "last_update": "2026-09-25"
+    },
+    {
+      "id": "dt-caeec55a2c",
+      "series_id": "dt-4b40de13a3",
+      "title": "Soirée contes et légendes à la chapelle du Cosquer",
+      "start": "2026-10-30T20:30",
+      "end": null,
+      "location": "Chapelle Saint-Gilles",
+      "city": "Plouharnel",
+      "description": "Les Amis de la chapelle St Gilles reçoivent M. Rémy Cohen pour une soirée contes et légendes, sur le thème \"En passant par Berlobi\"",
+      "url": null,
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 6.8,
+      "last_update": "2026-10-13"
     },
     {
       "id": "dt-640b310e5f",
@@ -6247,6 +6481,42 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-c3ca4dfd83",
+      "series_id": "dt-1cf91273e4",
+      "title": "Soirée Surprise au Paradis !",
+      "start": "2026-11-03T19:00",
+      "end": null,
+      "location": "Resto BDS à St Pierre Quiberon",
+      "city": "Quiberon",
+      "description": "Le cinéma Le Paradis vous propose une soirée placée sous le signe de la découverte, avec un repas surprise suivi de la projection d’un film mystère en avant-première.",
+      "url": null,
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.7,
+      "last_update": "2026-10-13"
+    },
+    {
+      "id": "dt-ba355ed740",
+      "series_id": "dt-1cf91273e4",
+      "title": "Soirée Surprise au Paradis !",
+      "start": "2026-11-03T21:00",
+      "end": null,
+      "location": "Resto BDS à St Pierre Quiberon",
+      "city": "Quiberon",
+      "description": "Le cinéma Le Paradis vous propose une soirée placée sous le signe de la découverte, avec un repas surprise suivi de la projection d’un film mystère en avant-première.",
+      "url": null,
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.7,
+      "last_update": "2026-10-13"
+    },
+    {
       "id": "dt-125bcc6a89",
       "series_id": "dt-c8cca90070",
       "title": "Festival Les Indisciplinées",
@@ -6262,7 +6532,7 @@
       "source": "DATAtourisme",
       "source_name": "CRT Bretagne_",
       "distance_km": 31.6,
-      "last_update": "2026-10-06"
+      "last_update": "2026-10-12"
     },
     {
       "id": "dt-871c365d09",
@@ -6805,6 +7075,42 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-9b197a7661",
+      "series_id": "dt-2f425fceb1",
+      "title": "Visite Guidée - Sur les pas de Benjamin Franklin",
+      "start": "2026-11-14T11:00",
+      "end": null,
+      "location": "Place Saint-Sauveur",
+      "city": "Auray",
+      "description": "Il y a 250 ans... Benjamin Franklin à Auray Le célèbre homme politique et diplomate américain, Benjamin Franklin, débarque à Auray dans la nuit du 3 au 4 décembre 1776. Il y découvre une ville florissante affirmant son pouvoir commercial et politique.",
+      "url": "https://www.auray.fr/culture-loisirs/archives-et-patrimoine/il-y-250-ans-benjamin-franklin-auray",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 9.7,
+      "last_update": "2026-10-13"
+    },
+    {
+      "id": "dt-a51a29288f",
+      "series_id": "dt-e51d2af438",
+      "title": "Courses d'orientation urbaines : Morbihan O'Tour",
+      "start": "2026-11-14T13:00",
+      "end": "2026-11-14T17:00",
+      "location": "Stade de Foot Claude Riguidel",
+      "city": "Quiberon",
+      "description": "Le Club d'orientation en pays de Vannes (COPV) organisera un sprint d'orientation suivi d'une moyenne distance d'orientation le samedi 14 novembre après-midi dans la ville de Quiberon.",
+      "url": "https://co-vannes.jimdofree.com/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.0,
+      "last_update": "2026-10-13"
+    },
+    {
       "id": "dt-4d41cfb227",
       "series_id": "dt-5786a34f76",
       "title": "Réexplorée, dans le cadre de l'exposition \"quelques racines affleurent\"",
@@ -7057,6 +7363,24 @@
       "last_update": "2026-09-11"
     },
     {
+      "id": "dt-c997de3f7a",
+      "series_id": "dt-e519f80d7e",
+      "title": "Exposition - Le grand ouest de la France et Les Etats-Unis d'Amérique. Regards croisés, 250 d'hitoire(s) et d'amitié",
+      "start": "2026-11-20",
+      "end": "2027-01-22",
+      "location": "Quai Franklin",
+      "city": "Auray",
+      "description": "Il y a 250 ans... Benjamin Franklin à Auray Savez-vous à quel point le destin d'une jeune nation née en 1776 s'est aussi joué sur les côtes bretonnes, dans les ports atlantiques ou encore les campagnes de l'ouest de la France ?",
+      "url": "https://www.auray.fr/culture-loisirs/archives-et-patrimoine/il-y-250-ans-benjamin-franklin-auray",
+      "category": "culture",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.6,
+      "last_update": "2026-10-13"
+    },
+    {
       "id": "dt-d84f9ecda6",
       "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
@@ -7127,6 +7451,24 @@
       "source_name": "ADT 56",
       "distance_km": 13.4,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-da7e47338f",
+      "series_id": "dt-0c0b510e68",
+      "title": "Conférence - Samedi Blabla - L'art cinématographique au service de la mémoire collective",
+      "start": "2026-11-21T10:00",
+      "end": "2026-11-21T12:30",
+      "location": "Place du Golhérez",
+      "city": "Auray",
+      "description": "Il y a 250 ans... Benjamin Franklin à Auray A travers des vidéos d'archives, Adeline Boit vous fera découvrir de quelle façon les habitant.es d'Auray se sont approprié.es leur patrimoine et leur histoire autour de fêtes populaires et collectives.",
+      "url": "https://www.auray.fr/culture-loisirs/archives-et-patrimoine/il-y-250-ans-benjamin-franklin-auray",
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.4,
+      "last_update": "2026-10-13"
     },
     {
       "id": "dt-71f2027fdd",
@@ -7237,6 +7579,24 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-29ab1fde5a",
+      "series_id": "dt-75577b2a15",
+      "title": "Visites guidées - Les coulisses des archives",
+      "start": "2026-11-26T12:30",
+      "end": "2026-11-26T13:00",
+      "location": "Place du Golhérez",
+      "city": "Auray",
+      "description": "Il y a 250 ans... Benjamin Franklin à Auray Au gré d'un parcours au sein de l'Espace Athéna, découvrez l'envers du décor et les missions du service Archives et Patrimoine. Vous aurez l'occasion de découvrir une sélection de documents d'archives liés à Benjamin Franklin.",
+      "url": "https://www.auray.fr/culture-loisirs/archives-et-patrimoine/il-y-250-ans-benjamin-franklin-auray",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.4,
+      "last_update": "2026-10-13"
+    },
+    {
       "id": "dt-b9771bd9f0",
       "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
@@ -7291,6 +7651,24 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-e2fd55d19c",
+      "series_id": "dt-2f425fceb1",
+      "title": "Visite Guidée - Sur les pas de Benjamin Franklin",
+      "start": "2026-11-28T11:00",
+      "end": null,
+      "location": "Place Saint-Sauveur",
+      "city": "Auray",
+      "description": "Il y a 250 ans... Benjamin Franklin à Auray Le célèbre homme politique et diplomate américain, Benjamin Franklin, débarque à Auray dans la nuit du 3 au 4 décembre 1776. Il y découvre une ville florissante affirmant son pouvoir commercial et politique.",
+      "url": "https://www.auray.fr/culture-loisirs/archives-et-patrimoine/il-y-250-ans-benjamin-franklin-auray",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 9.7,
+      "last_update": "2026-10-13"
+    },
+    {
       "id": "dt-9425ac515c",
       "series_id": "dt-c4c46797d1",
       "title": "Ateliers d’écriture",
@@ -7307,6 +7685,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
       "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-2241e45ee4",
+      "series_id": "dt-cf5f7ba2c8",
+      "title": "Balade théâtralisée",
+      "start": "2026-11-28T15:00",
+      "end": null,
+      "location": "Quai Franklin",
+      "city": "Auray",
+      "description": "Il y a 250 ans... Benjamin Franklin à Auray Avec un spectacle original de la Compagnie Mouton Major, revivez comme si vous y étiez le passage de Benjamin Franklin à Auray et, le temps d'une déambulation dans le centre-ville, marchez dans les pas de cette personnalité majeur.",
+      "url": "https://www.auray.fr/culture-loisirs/archives-et-patrimoine/il-y-250-ans-benjamin-franklin-auray",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.6,
+      "last_update": "2026-10-13"
     },
     {
       "id": "dt-6dc72e85bd",
@@ -7345,6 +7741,24 @@
       "last_update": "2026-09-25"
     },
     {
+      "id": "dt-37147d8a61",
+      "series_id": "dt-cf5f7ba2c8",
+      "title": "Balade théâtralisée",
+      "start": "2026-11-29T15:00",
+      "end": null,
+      "location": "Quai Franklin",
+      "city": "Auray",
+      "description": "Il y a 250 ans... Benjamin Franklin à Auray Avec un spectacle original de la Compagnie Mouton Major, revivez comme si vous y étiez le passage de Benjamin Franklin à Auray et, le temps d'une déambulation dans le centre-ville, marchez dans les pas de cette personnalité majeur.",
+      "url": "https://www.auray.fr/culture-loisirs/archives-et-patrimoine/il-y-250-ans-benjamin-franklin-auray",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.6,
+      "last_update": "2026-10-13"
+    },
+    {
       "id": "dt-8fbf73563a",
       "series_id": "dt-2ad11373df",
       "title": "Atelier danse bretonne - Dañs Alre",
@@ -7379,6 +7793,24 @@
       "source_name": "ADT 56",
       "distance_km": 0.6,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-e63afd5f9d",
+      "series_id": "dt-5d43420be9",
+      "title": "Conférence - Les commémorations de Benjamin Franklin de 1926 et 1928",
+      "start": "2026-12-01T18:30",
+      "end": "2026-12-01T20:30",
+      "location": "Salle du conseil",
+      "city": "Auray",
+      "description": "Il y a 250 ans... Benjamin Franklin à Auray Redécouvrez les liens fraternels franco-américains à Auray liés au passage de Benjamin Franklin en 1776 via les commémorations de 1926 et 1928. Sur inscription en ligne",
+      "url": "https://www.auray.fr/culture-loisirs/archives-et-patrimoine/il-y-250-ans-benjamin-franklin-auray",
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.7,
+      "last_update": "2026-10-13"
     },
     {
       "id": "dt-f4fbf83118",
@@ -7793,6 +8225,24 @@
       "source_name": "ADT 56",
       "distance_km": 4.0,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-d823ffc49b",
+      "series_id": "dt-75577b2a15",
+      "title": "Visites guidées - Les coulisses des archives",
+      "start": "2026-12-10T12:30",
+      "end": "2026-12-10T13:00",
+      "location": "Place du Golhérez",
+      "city": "Auray",
+      "description": "Il y a 250 ans... Benjamin Franklin à Auray Au gré d'un parcours au sein de l'Espace Athéna, découvrez l'envers du décor et les missions du service Archives et Patrimoine. Vous aurez l'occasion de découvrir une sélection de documents d'archives liés à Benjamin Franklin.",
+      "url": "https://www.auray.fr/culture-loisirs/archives-et-patrimoine/il-y-250-ans-benjamin-franklin-auray",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.4,
+      "last_update": "2026-10-13"
     },
     {
       "id": "dt-aa2c83cdb6",
@@ -8538,7 +8988,7 @@
       "title": "Yoga : Habiter les pleins et les vides",
       "start": "2027-01-30T15:00",
       "end": "2027-01-30T16:15",
-      "location": "12 rue des Menhirs",
+      "location": "Office de tourisme d'Erdeven -",
       "city": "Erdeven",
       "description": "Dans un quotidien rythmé par la course, la performance et le « toujours plus », accordez-vous une pause pour ralentir, respirer et vous reconnecter à vous-même. À travers cinq séances de Hatha Yoga, partez à la recherche de votre juste équilibre.",
       "url": null,
@@ -9114,7 +9564,7 @@
       "title": "Yoga : A la veille de l’équinoxe, se recentrer",
       "start": "2027-03-20T15:00",
       "end": "2027-03-20T16:15",
-      "location": "12 rue des Menhirs",
+      "location": "Office de tourisme d'Erdeven -",
       "city": "Erdeven",
       "description": "Dans un quotidien rythmé par la course, la performance et le « toujours plus », accordez-vous une pause pour ralentir, respirer et vous reconnecter à vous-même. À travers cinq séances de Hatha Yoga, partez à la recherche de votre juste équilibre.",
       "url": null,
@@ -9665,6 +10115,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 10.2,
       "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-31fedd5ac3",
+      "series_id": "dt-b6c0b3c0b3",
+      "title": "World Triathlon Championship Series",
+      "start": "2027-06-19",
+      "end": "2027-06-20",
+      "location": null,
+      "city": "Quiberon",
+      "description": "Le rendez-vous incontournable de la presqu'île revient les 𝟏𝟗 𝐞𝐭 𝟐𝟎 𝐣𝐮𝐢𝐧 𝟐𝟎𝟐𝟕 Préparez-vous, la course aux dossards approche à grands pas... avec quelques surprises à la clé !",
+      "url": "https://quiberon-triathlon.com/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.6,
+      "last_update": "2026-10-13"
     },
     {
       "id": "dt-7fd41a214f",
