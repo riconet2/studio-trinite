@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-18T08:53:26Z",
-  "data_updated_at": "2026-10-15",
+  "generated_at": "2026-10-19T09:58:59Z",
+  "data_updated_at": "2026-10-16",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -10,10 +10,10 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 534,
+    "total": 526,
     "by_proximity": {
-      "near": 440,
-      "immediate": 92,
+      "near": 434,
+      "immediate": 90,
       "daytrip": 2
     }
   },
@@ -451,96 +451,6 @@
       "last_update": "2026-10-05"
     },
     {
-      "id": "dt-1e8ea1def0",
-      "series_id": "dt-63d679f06d",
-      "title": "Festival Trini-Kids : Atelier Musique et Chant",
-      "start": "2026-10-18T10:00",
-      "end": "2026-10-18T10:45",
-      "location": "1406 Place du Voulien",
-      "city": "La Trinité-sur-Mer",
-      "description": "Viens t'éclater et partager la musique! Prévoir une bouteille d'eau. de 10h à 10h45 pour les enfants de 4 à 7 ans de 10h45 à 11h30 pour les enfants de 8 à 12 ans Engagement obligatoire pour les 3 séances: 19,20 et 21 octobre Inscription: auprès d' Isabelle Mercury par mail…",
-      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
-      "category": "musique",
-      "priority": 2,
-      "proximity": "immediate",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.3,
-      "last_update": "2026-10-06"
-    },
-    {
-      "id": "dt-a945014a59",
-      "series_id": "dt-fa57efa204",
-      "title": "Terra Initia - Exposition TR'ÂMES",
-      "start": "2026-10-18T10:00",
-      "end": "2026-10-18T12:30",
-      "location": "Galerie Terra Initia",
-      "city": "Carnac",
-      "description": "Exposition : Peintures de Béatrice Bescond, peintures et art textile de Lucy Pulvertaft, céramiques de Sylvie Marchand. Galerie ouverte les vendredi, samedis toute la journée. Mercredi et dimanche matin",
-      "url": null,
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.0,
-      "last_update": "2026-08-12"
-    },
-    {
-      "id": "dt-23ada01c02",
-      "series_id": "dt-1e1386b787",
-      "title": "Atelier \"Poterie néolithique\"",
-      "start": "2026-10-18T10:00",
-      "end": "2026-10-18T12:00",
-      "location": "Place Christian Bonnet",
-      "city": "Carnac",
-      "description": "Repérez les vestiges en terre cuite parmi les collections. Identifiez le travail du restaurateur. Puis testez différentes techniques pour monter un pot en argile comme au Néolithique ! Atelier dès 6 ans -| durée 2h sur réservation sur www.museedecarnac.com",
-      "url": "http://www.museedecarnac.com/",
-      "category": "patrimoine",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 3.8,
-      "last_update": "2026-09-29"
-    },
-    {
-      "id": "dt-1154890c94",
-      "series_id": "dt-b71f7468a4",
-      "title": "Atelier \"1, 2, 3 menhirs\"",
-      "start": "2026-10-18T10:30",
-      "end": null,
-      "location": "Maison des mégalithes",
-      "city": "Carnac",
-      "description": "À 10h30 Atelier découverte des Alignements de Carnac destiné aux enfants de 4 à 6 ans en compagnie de leurs parents, à travers une visite adaptée aux tout-petits et des activités manuelles : puzzles, maquettes et dessin. Réservation conseillée durée 1h30.",
-      "url": "http://www.menhirs-carnac.fr/",
-      "category": "patrimoine",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 3.9,
-      "last_update": "2026-09-24"
-    },
-    {
-      "id": "dt-0a904def35",
-      "series_id": "dt-36bb8934a9",
-      "title": "Ateliers en familles \"Apprentis bâtisseurs\"",
-      "start": "2026-10-18T10:30",
-      "end": null,
-      "location": "Route des Alignements",
-      "city": "Carnac",
-      "description": "Devenez apprenti bâtisseur du Néolithique pour percer les secrets de construction des menhirs. Après la visite guidée des Alignements et du dolmen de Kermario, expérimentez plusieurs techniques archéo-compatibles de déplacement et de levage de mégalithes.",
-      "url": "https://www.menhirs-carnac.fr/",
-      "category": "patrimoine",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.1,
-      "last_update": "2026-09-27"
-    },
-    {
       "id": "dt-5e4ba7dafa",
       "series_id": "dt-d2f4678690",
       "title": "Visite découverte dans les Alignements",
@@ -557,24 +467,6 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 4.1,
       "last_update": "2026-09-24"
-    },
-    {
-      "id": "dt-86d32fad61",
-      "series_id": "dt-aee0d9e98d",
-      "title": "Visite de l'Atelier sur Mer, entreprise de décoration sur voiles",
-      "start": "2026-10-18T13:30",
-      "end": "2026-10-18T14:30",
-      "location": "zone de Montauban",
-      "city": "Carnac",
-      "description": "Venez découvrir les techniques de peinture appliquées directement sur les tissus de voile, les étapes de préparation, marquage et projection guidée assurant une précision millimétrique, ainsi que les procédés de fixation garantissant la tenue face au vent, au sel et au soleil.",
-      "url": "https://semaines-tourisme-economique.bzh/youbook_product/visite-de-latelier-sur-mer-atelier-de-peinture-et-de-secoration-de-voiles-fr-aff8977d-4f42-4d17-822a-919183e92371/",
-      "category": "patrimoine",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 2.4,
-      "last_update": "2026-09-28"
     },
     {
       "id": "dt-a346eaf13c",
@@ -595,24 +487,6 @@
       "last_update": "2026-09-28"
     },
     {
-      "id": "dt-cd8fbcda0e",
-      "series_id": "dt-73612999fd",
-      "title": "Des pommes au jus",
-      "start": "2026-10-18T14:00",
-      "end": null,
-      "location": "Ecomusée du Pays d'Auray",
-      "city": "Brech",
-      "description": "Dans le cadre d'Un Automne autrement 2026 Venez découvrir les 200 variétés de pommiers du Verger Conservatoire et participer aux différentes étapes de transformation des pommes en jus : broyage, pressage et dégustation. Bottes et tenue chaude recommandées.",
-      "url": null,
-      "category": "gastronomie",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.1,
-      "last_update": "2026-06-15"
-    },
-    {
       "id": "dt-5600a53d1a",
       "series_id": "dt-fbe628eb22",
       "title": "Stages de golf vacances d'automne",
@@ -631,42 +505,6 @@
       "last_update": "2026-10-05"
     },
     {
-      "id": "dt-4fedad2452",
-      "series_id": "dt-fc4f15a93f",
-      "title": "Festival Trini'Kids: Jeux en pagaille",
-      "start": "2026-10-18T14:30",
-      "end": "2026-10-18T17:30",
-      "location": "1406 Place du Voulien",
-      "city": "La Trinité-sur-Mer",
-      "description": "Jeux en bois et jeux de société surdimensionnés, animés par Ty Game Truck. Gratuit sans inscription",
-      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
-      "category": "plein_air",
-      "priority": 1,
-      "proximity": "immediate",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.3,
-      "last_update": "2026-10-06"
-    },
-    {
-      "id": "dt-83389ed933",
-      "series_id": "dt-611e55b02a",
-      "title": "Pierres de légende",
-      "start": "2026-10-18T14:30",
-      "end": "2026-10-18T15:30",
-      "location": "Place Christian Bonnet",
-      "city": "Carnac",
-      "description": "Les pierres de Carnac recèlent bien des énigmes… À travers le musée suivez votre guide en costume breton. Elle vous racontera à sa manière l’histoire de ces vieilles pierres. Visite guidée | Dès 6 ans | durée 1h | sur réservation sur www.museedecarnac.fr",
-      "url": "http://www.museedecarnac.com/",
-      "category": "patrimoine",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 3.8,
-      "last_update": "2026-09-29"
-    },
-    {
       "id": "dt-5d11726b50",
       "series_id": "dt-d2f4678690",
       "title": "Visite découverte dans les Alignements",
@@ -683,24 +521,6 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 4.1,
       "last_update": "2026-09-24"
-    },
-    {
-      "id": "dt-0b1ad7102b",
-      "series_id": "dt-bc785e088f",
-      "title": "Le chantier des collections",
-      "start": "2026-10-18T16:00",
-      "end": "2026-10-18T16:30",
-      "location": "Musée de la Préhistoire",
-      "city": "Carnac",
-      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
-      "url": "https://www.museedecarnac.com/actualites/",
-      "category": "musique",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 3.8,
-      "last_update": "2026-09-20"
     },
     {
       "id": "dt-a02a15189f",
@@ -780,7 +600,7 @@
       "title": "De la pomme au jus",
       "start": "2026-10-19T10:00",
       "end": "2026-10-19T12:00",
-      "location": "Rue Park Segal",
+      "location": "Verger conservatoire de Saint-Dégan",
       "city": "Brech",
       "description": "Animation proposée par Morbihan Grandeur Nature - Initiation au breton du pressage de pommes - Venez vivre un moment convivial au verger : ramassage des pommes, pressage traditionnel et dégustation d’un jus frais, fait ensemble. Réservation par téléphone",
       "url": "https://www.morbihan.fr/nos-actions/environnement-le-departement-un-acteur-engage/le-patrimoine-naturel-morbihannais/le-programme-morbihan-grandeur-nature",
@@ -906,7 +726,7 @@
       "title": "De la pomme au jus",
       "start": "2026-10-19T14:00",
       "end": "2026-10-19T16:00",
-      "location": "Rue Park Segal",
+      "location": "Verger conservatoire de Saint-Dégan",
       "city": "Brech",
       "description": "Animation proposée par Morbihan Grandeur Nature - Initiation au breton du pressage de pommes - Venez vivre un moment convivial au verger : ramassage des pommes, pressage traditionnel et dégustation d’un jus frais, fait ensemble. Réservation par téléphone",
       "url": "https://www.morbihan.fr/nos-actions/environnement-le-departement-un-acteur-engage/le-patrimoine-naturel-morbihannais/le-programme-morbihan-grandeur-nature",
@@ -2796,7 +2616,7 @@
       "title": "Ciel de Moana",
       "start": "2026-10-23T18:00",
       "end": "2026-10-23T21:00",
-      "location": "Côte Sauvage",
+      "location": "Côte Sauvage - Port Guibello",
       "city": "Quiberon",
       "description": "A la tombée du jour, le ciel s’ouvre progressivement, les premières étoiles apparaissent et le paysage devient silencieux. Le Ciel de Moana vous propose de vivre cet entre-deux dans un lieu préservé de la pollution lumineuse, à la croisée de l’océan, des sciences, des récits de…",
       "url": "http://www.moanahistoiredocean.com/",
@@ -2806,7 +2626,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.0,
-      "last_update": "2026-09-16"
+      "last_update": "2026-10-16"
     },
     {
       "id": "dt-d9179416df",
@@ -3084,7 +2904,7 @@
       "title": "Balade ornithologique - Les randoiseaux de Saint-Dégan",
       "start": "2026-10-24T14:00",
       "end": "2026-10-24T17:00",
-      "location": "Ecomusée du Pays d'Auray",
+      "location": "Saint-Dégan",
       "city": "Brech",
       "description": "Jean Annézo, ornithologue passionné, propose des sorties nature à la découverte des oiseaux au départ de l'écomusée du pays d'Auray, pour les initiés ou les néophytes.",
       "url": "https://ecomusee-pays-auray.fr/",
@@ -3706,7 +3526,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 6.2,
-      "last_update": "2026-10-12"
+      "last_update": "2026-10-16"
     },
     {
       "id": "dt-274a3f3a61",
@@ -4434,7 +4254,7 @@
       "title": "Ciel de Moana",
       "start": "2026-10-27T18:00",
       "end": "2026-10-27T21:00",
-      "location": "Côte Sauvage",
+      "location": "Côte Sauvage - Port Guibello",
       "city": "Quiberon",
       "description": "A la tombée du jour, le ciel s’ouvre progressivement, les premières étoiles apparaissent et le paysage devient silencieux. Le Ciel de Moana vous propose de vivre cet entre-deux dans un lieu préservé de la pollution lumineuse, à la croisée de l’océan, des sciences, des récits de…",
       "url": "http://www.moanahistoiredocean.com/",
@@ -4444,7 +4264,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.0,
-      "last_update": "2026-09-16"
+      "last_update": "2026-10-16"
     },
     {
       "id": "dt-ec5acb6084",
@@ -5470,7 +5290,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 4.1,
-      "last_update": "2026-10-14"
+      "last_update": "2026-10-16"
     },
     {
       "id": "dt-8901e2e060",
@@ -5982,7 +5802,7 @@
       "title": "Au fil du bocage",
       "start": "2026-11-05T20:30",
       "end": null,
-      "location": "26 rue du tumulus",
+      "location": "Espace culturel Terraqué",
       "city": "Carnac",
       "description": "Une histoire du remembrement en Bretagne contée par Michel Corrignan Entre contes et récits de vie, rêve et réalité, se déroule l'histoire d'un village bouleversé par le remembrement.",
       "url": "https://www.calameo.com/read/0046368566d55c4deb482?utm_id=97758_v0_s00_e0_tv2_a1demo0ed4g20i",
@@ -6085,6 +5905,42 @@
       "last_update": "2026-10-01"
     },
     {
+      "id": "dt-9654f4ffef",
+      "series_id": "dt-d251abac61",
+      "title": "L’Argonaute en fête – Salon des créateurs et métiers d’art",
+      "start": "2026-11-06T10:00",
+      "end": "2026-11-07T17:30",
+      "location": "12 Rue Adjudant-Chef Redien",
+      "city": "Auray",
+      "description": "L’Argonaute en fête célèbre sa 10e édition ! À cette occasion, le salon des créateurs et métiers d’art prend de l’ampleur et s’installe sur deux lieux pour vous faire découvrir encore plus de talents et de créations artisanales. Deux lieux, deux fois plus de découvertes !",
+      "url": "https://www.largonaute-co.fr/",
+      "category": "fete",
+      "priority": 1,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.2,
+      "last_update": "2026-10-16"
+    },
+    {
+      "id": "dt-a2da83f832",
+      "series_id": "dt-27c1d7ea27",
+      "title": "L’Argonaute en fête – Salon des créateurs et métiers d’art",
+      "start": "2026-11-06T10:00",
+      "end": "2026-11-07T17:30",
+      "location": "Office de tourisme d'Erdeven",
+      "city": "Erdeven",
+      "description": "L’Argonaute en fête célèbre sa 10e édition ! À cette occasion, le salon des créateurs et métiers d’art prend de l’ampleur et s’installe sur deux lieux pour vous faire découvrir encore plus de talents et de créations artisanales. Deux lieux, deux fois plus de découvertes !",
+      "url": null,
+      "category": "fete",
+      "priority": 1,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 11.3,
+      "last_update": "2026-10-16"
+    },
+    {
       "id": "dt-7f3dc6a5d3",
       "series_id": "dt-63d6975e62",
       "title": "Visite guidée : Le Monument aux Morts",
@@ -6172,7 +6028,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 4.1,
-      "last_update": "2026-10-14"
+      "last_update": "2026-10-16"
     },
     {
       "id": "dt-9478a11c66",
@@ -6306,7 +6162,7 @@
       "title": "Ciel de Moana",
       "start": "2026-11-12T18:00",
       "end": "2026-11-12T21:00",
-      "location": "Côte Sauvage",
+      "location": "Côte Sauvage - Port Guibello",
       "city": "Quiberon",
       "description": "A la tombée du jour, le ciel s’ouvre progressivement, les premières étoiles apparaissent et le paysage devient silencieux. Le Ciel de Moana vous propose de vivre cet entre-deux dans un lieu préservé de la pollution lumineuse, à la croisée de l’océan, des sciences, des récits de…",
       "url": "http://www.moanahistoiredocean.com/",
@@ -6316,7 +6172,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.0,
-      "last_update": "2026-09-16"
+      "last_update": "2026-10-16"
     },
     {
       "id": "dt-b6018b4093",
@@ -7278,7 +7134,7 @@
       "title": "Ciel de Moana",
       "start": "2026-12-03T18:00",
       "end": "2026-12-03T21:00",
-      "location": "Côte Sauvage",
+      "location": "Côte Sauvage - Port Guibello",
       "city": "Quiberon",
       "description": "A la tombée du jour, le ciel s’ouvre progressivement, les premières étoiles apparaissent et le paysage devient silencieux. Le Ciel de Moana vous propose de vivre cet entre-deux dans un lieu préservé de la pollution lumineuse, à la croisée de l’océan, des sciences, des récits de…",
       "url": "http://www.moanahistoiredocean.com/",
@@ -7288,7 +7144,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.0,
-      "last_update": "2026-09-16"
+      "last_update": "2026-10-16"
     },
     {
       "id": "dt-d2651a1a88",
@@ -7764,7 +7620,7 @@
       "title": "Concert d'Avent et de Noël des choeurs de la maîtrise",
       "start": "2026-12-12T17:30",
       "end": null,
-      "location": "Basilique de Ste-Anne-d'Auray",
+      "location": "Rue de Vannes",
       "city": "Sainte-Anne-d'Auray",
       "description": "- Choeurs de la Maîtrise de Sainte-Anne-d'Auray - Gilles Gérard, Cécile Vénien-Gérard et Gérard de Montmarin, Direction - Orgue",
       "url": null,
@@ -7944,7 +7800,7 @@
       "title": "Concert du choeur Nicolazic et de la chorale La Sylvia",
       "start": "2026-12-19T17:30",
       "end": null,
-      "location": "Basilique de Ste-Anne-d'Auray",
+      "location": "Rue de Vannes",
       "city": "Sainte-Anne-d'Auray",
       "description": "-Jérôme Desprez, direction (Choeur Nicolazic) - Gilles Demurger, direction (Chorale La Sylvia) - Orgue",
       "url": null,
