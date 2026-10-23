@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-22T09:27:34Z",
-  "data_updated_at": "2026-10-20",
+  "generated_at": "2026-10-23T09:23:44Z",
+  "data_updated_at": "2026-10-21",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -10,10 +10,10 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 484,
+    "total": 482,
     "by_proximity": {
-      "near": 396,
-      "immediate": 85,
+      "near": 398,
+      "immediate": 81,
       "daytrip": 3
     }
   },
@@ -322,7 +322,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-10-15"
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-64c011b4ae",
@@ -376,7 +376,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 1.7,
-      "last_update": "2026-10-07"
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-12c38afb9f",
@@ -503,366 +503,6 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 4.1,
       "last_update": "2026-09-25"
-    },
-    {
-      "id": "dt-719320a009",
-      "series_id": "dt-aa26f5b638",
-      "title": "Visite de l'entreprise Seve breizh Mobilier",
-      "start": "2026-10-21T09:00",
-      "end": "2026-10-22T10:00",
-      "location": "Seve breizh Mobilier",
-      "city": "Crach",
-      "description": "Les Semaines du Tourisme Économique et des Savoir-Faire, un événement unique pour une expérience inoubliable. C’est l’occasion rêvée de s’immerger dans la culture bretonne, de découvrir des talents exceptionnels et de faire des rencontres authentiques.",
-      "url": "https://semaines-tourisme-economique.bzh/youbook_product/visite-de-lentreprise-seve-breizh-mobilier-a-crach-fr-bf1fbbbc-2266-4afa-a2f9-f5653cca2310/",
-      "category": "patrimoine",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 7.4,
-      "last_update": "2026-10-01"
-    },
-    {
-      "id": "dt-3218fd0563",
-      "series_id": "dt-01656b3159",
-      "title": "Marché hebdomadaire à Crac'h",
-      "start": "2026-10-22T09:00",
-      "end": "2026-10-22T13:00",
-      "location": "Place de l'Eglise",
-      "city": "Crach",
-      "description": "Il se déroule tous les jeudis matin, autour de l'église de 9h à 13h.",
-      "url": null,
-      "category": "marche",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 4.0,
-      "last_update": "2026-01-05"
-    },
-    {
-      "id": "dt-554809361a",
-      "series_id": "dt-e7ee5518dd",
-      "title": "Chasse au trésor en famille \"Le secret du trésor de Saint-Clément\"",
-      "start": "2026-10-22T10:00",
-      "end": "2026-10-22T11:30",
-      "location": "Pointe de Conguel",
-      "city": "Quiberon",
-      "description": "Une histoire de vikings, un trésor perdu au fond de l’océan et un secret partagé par deux enfants de Quiberon… Pour connaître le secret du trésor perdu, vous partirez à la recherche de quelques énigmes à résoudre et vous déchiffrerez un message en partie effacé par le temps…Vous…",
-      "url": "https://lesechappeeslittorales.com/",
-      "category": "patrimoine",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.3,
-      "last_update": "2026-04-23"
-    },
-    {
-      "id": "dt-57f778288f",
-      "series_id": "dt-1e1386b787",
-      "title": "Atelier \"Poterie néolithique\"",
-      "start": "2026-10-22T10:00",
-      "end": "2026-10-22T12:00",
-      "location": "Place Christian Bonnet",
-      "city": "Carnac",
-      "description": "Repérez les vestiges en terre cuite parmi les collections. Identifiez le travail du restaurateur. Puis testez différentes techniques pour monter un pot en argile comme au Néolithique ! Atelier dès 6 ans -| durée 2h sur réservation sur www.museedecarnac.com",
-      "url": "http://www.museedecarnac.com/",
-      "category": "patrimoine",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 3.8,
-      "last_update": "2026-09-30"
-    },
-    {
-      "id": "dt-46ee8529e1",
-      "series_id": "dt-76712e6ee4",
-      "title": "Festival Trini'Kids : Atelier cupcake",
-      "start": "2026-10-22T10:20",
-      "end": "2026-10-22T10:45",
-      "location": "Place du Voullien",
-      "city": "La Trinité-sur-Mer",
-      "description": "Atelier décoration de 2 cupcakes par enfant avec Alexandra. à 9h30 pour les enfant de 5 à 6 ans à 11h, pour les enfants de 9 à 12 ans Gratuit - Inscription obligatoire.",
-      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
-      "category": "autre",
-      "priority": 2,
-      "proximity": "immediate",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.3,
-      "last_update": "2026-10-07"
-    },
-    {
-      "id": "dt-ea7aa99386",
-      "series_id": "dt-869e1e0423",
-      "title": "Visite contée : Le tapis magique de la Rivière d'Etel",
-      "start": "2026-10-22T10:30",
-      "end": "2026-10-22T11:30",
-      "location": "Musée des thoniers  -",
-      "city": "Étel",
-      "description": "À travers notre tapis à histoires, embarquez pour une aventure où la rivière d’Étel dévoile ses secrets. Venez écouter l'histoire de Youn, gardien des huîtres sur l'île du Nohic, Firmin le pêcheur qui affronte les tourbillons du Pont Lorois ou le Dr Griffon qui soigne des…",
-      "url": null,
-      "category": "patrimoine",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.8,
-      "last_update": "2026-10-08"
-    },
-    {
-      "id": "dt-9afa1aa1b4",
-      "series_id": "dt-9fed3b9822",
-      "title": "Visite du Musée : Le chantier des collections",
-      "start": "2026-10-22T11:00",
-      "end": "2026-10-22T12:00",
-      "location": "Musée de la Préhistoire",
-      "city": "Carnac",
-      "description": "Dans le cadre des semaines du tourisme économique et des savoir-faire, Le musée de Carnac a choisi de le rendre visible pour que les visiteurs puissent voir et comprendre la façon dont sont conservées et gérées les collections. Une façon de rendre visible les coulisses du musée.",
-      "url": "https://www.museedecarnac.com/actualites/",
-      "category": "patrimoine",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 3.8,
-      "last_update": "2026-09-29"
-    },
-    {
-      "id": "dt-a1fc794aa1",
-      "series_id": "dt-9b5947c065",
-      "title": "Festival Trini'Kids: Apprendre le vélo",
-      "start": "2026-10-22T14:00",
-      "end": "2026-10-22T15:30",
-      "location": "Place du Voulien",
-      "city": "La Trinité-sur-Mer",
-      "description": "Apprenez à maîtriser votre vélo sur un parcours routier sécurisé avec des professionnels. Vélos et casques prêtés. à 14h, pour les enfants de 10 à 13 ans à 15h45, pour les enfants de 7 à 9 ans Gratuit - sur inscription Annulation si mauvaises condition météo.",
-      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
-      "category": "plein_air",
-      "priority": 1,
-      "proximity": "immediate",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 1.7,
-      "last_update": "2026-10-07"
-    },
-    {
-      "id": "dt-24c8737888",
-      "series_id": "dt-e7ee5518dd",
-      "title": "Chasse au trésor en famille \"Le secret du trésor de Saint-Clément\"",
-      "start": "2026-10-22T14:00",
-      "end": "2026-10-22T15:30",
-      "location": "Pointe de Conguel",
-      "city": "Quiberon",
-      "description": "Une histoire de vikings, un trésor perdu au fond de l’océan et un secret partagé par deux enfants de Quiberon… Pour connaître le secret du trésor perdu, vous partirez à la recherche de quelques énigmes à résoudre et vous déchiffrerez un message en partie effacé par le temps…Vous…",
-      "url": "https://lesechappeeslittorales.com/",
-      "category": "patrimoine",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.3,
-      "last_update": "2026-04-23"
-    },
-    {
-      "id": "dt-aeeb59a45e",
-      "series_id": "dt-adc3b1e51f",
-      "title": "Moment famille à Neptilude !",
-      "start": "2026-10-22T14:30",
-      "end": "2026-10-22T18:00",
-      "location": "1 Rue Neptune",
-      "city": "Quiberon",
-      "description": "Moment famille : bouée, tapis, jeux aquatiques, ballons les jeudis des vacances de la Toussaint",
-      "url": "http://www.piscine-quiberon.fr/",
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.4,
-      "last_update": "2026-10-20"
-    },
-    {
-      "id": "dt-b274b40e54",
-      "series_id": "dt-611e55b02a",
-      "title": "Pierres de légende",
-      "start": "2026-10-22T14:30",
-      "end": "2026-10-22T15:30",
-      "location": "Place Christian Bonnet",
-      "city": "Carnac",
-      "description": "Les pierres de Carnac recèlent bien des énigmes… À travers le musée suivez votre guide en costume breton. Elle vous racontera à sa manière l’histoire de ces vieilles pierres. Visite guidée | Dès 6 ans | durée 1h | sur réservation sur www.museedecarnac.fr",
-      "url": "http://www.museedecarnac.com/",
-      "category": "patrimoine",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 3.8,
-      "last_update": "2026-09-30"
-    },
-    {
-      "id": "dt-83733228a1",
-      "series_id": "dt-f5e779b5f2",
-      "title": "Les Incontournables : la chapelle Saint-Quirin et son retable (LSF)",
-      "start": "2026-10-22T15:00",
-      "end": "2026-10-22T16:00",
-      "location": "5 Route de Saint-Guérin",
-      "city": "Brech",
-      "description": "L’édifice, avec son architecture toute classique, fête cette année ses 350 ans. Cette construction sobre abrite un des plus beaux retables du Morbihan datant de la fin du XVIIe siècle.",
-      "url": "http://baiedequiberon.bzh/",
-      "category": "patrimoine",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.1,
-      "last_update": "2026-10-09"
-    },
-    {
-      "id": "dt-697d1ce0b1",
-      "series_id": "dt-9b5947c065",
-      "title": "Festival Trini'Kids: Apprendre le vélo",
-      "start": "2026-10-22T15:45",
-      "end": "2026-10-22T17:15",
-      "location": "Place du Voulien",
-      "city": "La Trinité-sur-Mer",
-      "description": "Apprenez à maîtriser votre vélo sur un parcours routier sécurisé avec des professionnels. Vélos et casques prêtés. à 14h, pour les enfants de 10 à 13 ans à 15h45, pour les enfants de 7 à 9 ans Gratuit - sur inscription Annulation si mauvaises condition météo.",
-      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
-      "category": "plein_air",
-      "priority": 1,
-      "proximity": "immediate",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 1.7,
-      "last_update": "2026-10-07"
-    },
-    {
-      "id": "dt-3a20107754",
-      "series_id": "dt-a70ac77381",
-      "title": "Festival Trini'Kids : Ateliers loisirs créatifs",
-      "start": "2026-10-22T15:50",
-      "end": "2026-10-22T16:50",
-      "location": "Salle du Voulien",
-      "city": "La Trinité-sur-Mer",
-      "description": "Le jeudi 22 octobre: -atelier NanaCrylik : recyclage artistique pour les 8 -12 ans le samedi 24 octobre: -atelier cartonnage avec Armelle pour les 4-12 ans le mardi 27 octobre: -atelier décoration de table en coquillages avec Sophie pour les 7-12 ans, -atelier décoration de…",
-      "url": "https://www.latrinitesurmer.fr/%F0%9F%8E%83-le-festival-trinikids-revient-pour-les-vacances-de-la-toussaint/",
-      "category": "autre",
-      "priority": 2,
-      "proximity": "immediate",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.3,
-      "last_update": "2026-10-07"
-    },
-    {
-      "id": "dt-ce5d4da2f0",
-      "series_id": "dt-bc785e088f",
-      "title": "Le chantier des collections",
-      "start": "2026-10-22T16:00",
-      "end": "2026-10-22T16:30",
-      "location": "Musée de la Préhistoire",
-      "city": "Carnac",
-      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
-      "url": "https://www.museedecarnac.com/actualites/",
-      "category": "musique",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 3.8,
-      "last_update": "2026-09-21"
-    },
-    {
-      "id": "dt-3c5594ecd1",
-      "series_id": "dt-96e3db8e59",
-      "title": "Atelier de danse bretonne",
-      "start": "2026-10-22T16:00",
-      "end": "2026-10-22T18:00",
-      "location": "Espace Joffredo",
-      "city": "Étel",
-      "description": "Un moment récréatif pendant les vacances : découverte de la danse bretonne pour les uns, révision pour les autres, il y en aura pour tout le monde !",
-      "url": null,
-      "category": "spectacle",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.8,
-      "last_update": "2026-10-19"
-    },
-    {
-      "id": "dt-dcc7695772",
-      "series_id": "dt-98c207a66b",
-      "title": "Visite et atelier participatif chez Ty Carton",
-      "start": "2026-10-22T17:00",
-      "end": "2026-10-22T17:45",
-      "location": "Ty Carton",
-      "city": "Carnac",
-      "description": "Je suis artiste auteure, mes matériaux sont le carton et le papier (récupération dans la mesure du possible). Je réalise toutes sortes d’objets décoratifs et peux faire des projets d’aménagement d’intérieur.",
-      "url": "https://stesf.youbook.travel/fr/activite/france/ty-carton/artisanat-artisanat-d-art/visite-ty-carton-et-atelier-participatif",
-      "category": "patrimoine",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.2,
-      "last_update": "2026-10-01"
-    },
-    {
-      "id": "dt-ea9eb81139",
-      "series_id": "dt-46c6d0385d",
-      "title": "Conférence Musique et Littérature",
-      "start": "2026-10-22T17:30",
-      "end": null,
-      "location": "Espace Culturel Terraqué - Auditorium",
-      "city": "Carnac",
-      "description": "Conférence Musique et Littérature : « Entre les mots et le sacré : Francis POULENC, moine et voyou » d’Emilie De Fautereau Emilie De Fautereau, agrégée et docteur ès-lettres, est également musicienne.",
-      "url": "http://www.artetculture-carnac.com/",
-      "category": "culture",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 3.6,
-      "last_update": "2026-09-29"
-    },
-    {
-      "id": "dt-321627c59f",
-      "series_id": "dt-96e3db8e59",
-      "title": "Atelier de danse bretonne",
-      "start": "2026-10-22T18:00",
-      "end": "2026-10-22T19:30",
-      "location": "Espace Joffredo",
-      "city": "Étel",
-      "description": "Un moment récréatif pendant les vacances : découverte de la danse bretonne pour les uns, révision pour les autres, il y en aura pour tout le monde !",
-      "url": null,
-      "category": "spectacle",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.8,
-      "last_update": "2026-10-19"
-    },
-    {
-      "id": "dt-e334e89c9a",
-      "series_id": "dt-c4b2c2b79a",
-      "title": "Aqua Si Trouille à Alré'O !",
-      "start": "2026-10-22T19:15",
-      "end": null,
-      "location": "Alré' O",
-      "city": "Auray",
-      "description": "Venez participer à un aquafitness pas comme les autres ! 🎶 De la musique 👻 Une ambiance Halloween 🔥 Du fun… tout en travaillant ! Enfilez votre plus beau look d’Halloween et venez vous dépenser dans une ambiance festive et décalée ! 👻 🕷️ Inscription sur notre site internet",
-      "url": "https://www.alreo.fr/",
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.5,
-      "last_update": "2026-10-20"
     },
     {
       "id": "dt-dd0c058722",
@@ -1330,7 +970,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.1,
-      "last_update": "2026-10-20"
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-60038af778",
@@ -1420,7 +1060,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.5,
-      "last_update": "2026-10-13"
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-37751f08aa",
@@ -1481,18 +1121,18 @@
       "series_id": "dt-3bfc673c26",
       "title": "Festival Presqu'île Breizh - Quiberon",
       "start": "2026-10-24",
-      "end": null,
+      "end": "2026-10-25",
       "location": null,
       "city": "Quiberon",
-      "description": "Festival de musique & danses bretonnes Une belle programmation vous attend pour cet événement incontournable de la presqu'île, à ne manquer sous aucun prétexte...",
+      "description": "Manifestations déprogrammées La Grande Parade, le Triomphe des Sonneurs et la Danse des Mille ne pourront pas se tenir. Le feu d’artifice et le fest-noz prévus le vendredi à Portivy sont également déprogrammés.",
       "url": "https://www.presquilebreizh.bzh/",
-      "category": "fete",
+      "category": "musique",
       "priority": 1,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.6,
-      "last_update": "2026-10-16"
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-7d13bdc584",
@@ -1690,7 +1330,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 5.1,
-      "last_update": "2026-10-20"
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-77c7094c4a",
@@ -1762,7 +1402,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 5.1,
-      "last_update": "2026-10-20"
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-f3acc06167",
@@ -1978,7 +1618,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.6,
-      "last_update": "2026-10-20"
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-d291b432c1",
@@ -2266,7 +1906,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.2,
-      "last_update": "2026-10-20"
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-c65e5d994e",
@@ -2302,7 +1942,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.5,
-      "last_update": "2026-10-10"
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-12ca291c19",
@@ -2719,6 +2359,24 @@
       "last_update": "2026-10-07"
     },
     {
+      "id": "dt-b4eff1ce2e",
+      "series_id": "dt-80c30575fd",
+      "title": "Atelier Stop-motion",
+      "start": "2026-10-27T13:00",
+      "end": null,
+      "location": "Cinéma La Rivière",
+      "city": "Étel",
+      "description": "Atelier Stop-motion + Film Shaun le mouton : la bêêête d’halloween À la manière des films Shaun le mouton, les participant.e.s découvrent l’animation image par image, à l’aide de personnages et de décors inventés. A partir de 6 ans.",
+      "url": "https://www.cinemalariviere.org/events/83713-atelier-cinema-pour-les-enfants-stop-motion/",
+      "category": "spectacle",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-10-21"
+    },
+    {
       "id": "dt-0141e9eab0",
       "series_id": "dt-3e50231d50",
       "title": "Le refuge des oiseaux migrateurs - Dunes Sauvages",
@@ -2759,7 +2417,7 @@
       "series_id": "dt-15903a4169",
       "title": "Automne numérique : Mario Kart Live Home Circuit",
       "start": "2026-10-27T14:00",
-      "end": "2026-10-27T16:00",
+      "end": null,
       "location": "4 Pl. de la République",
       "city": "Étel",
       "description": "Découvrez des courses de kart au cœur de la médiathèque grâce à la caméra embarquée de Mario et de ses amis ! Gratuit, sur inscription, à partir de 6 ans. Renseignements et inscriptions : 02 97 55 32 30 - mediatheque@mairie-etel.fr",
@@ -3997,6 +3655,24 @@
       "last_update": "2026-10-13"
     },
     {
+      "id": "dt-0aac856fd7",
+      "series_id": "dt-eb74b92805",
+      "title": "Ciné-échange \"l'énigme du grand menhir\"",
+      "start": "2026-10-29T20:30",
+      "end": "2026-10-29T21:30",
+      "location": "Cinéma la Rivière",
+      "city": "Étel",
+      "description": "Il y a 7000 ans, les hommes qui peuplent les rives de l’Atlantique érigent des milliers de pierres dressées sur lesquelles ils gravent des signes longtemps demeurés mystérieux.",
+      "url": "https://www.cinemalariviere.org/events/84712-lenigme-du-grand-menhir-paysages/",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-10-21"
+    },
+    {
       "id": "dt-6d8a26d2dd",
       "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
@@ -4123,6 +3799,24 @@
       "last_update": "2026-09-28"
     },
     {
+      "id": "dt-451db69f0b",
+      "series_id": "dt-f30d4dd1b8",
+      "title": "Ciné citrouille",
+      "start": "2026-10-30T14:00",
+      "end": null,
+      "location": "Centre culturel Maison blanche - Ti Gwen",
+      "city": "Brech",
+      "description": "Viens fêter Halloween ! Rendez-vous pour un Ciné Citrouille ! Au programme : Projection d’un film (dès 6 ans) Atelier maquillage animé par Activ’Ados (14-17h)… Venez déguisé !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-10-21"
+    },
+    {
       "id": "dt-ecb8b626a5",
       "series_id": "dt-2193289823",
       "title": "Visite flash \"Les bretons face aux géants de pierre\"",
@@ -4231,6 +3925,24 @@
       "last_update": "2026-09-30"
     },
     {
+      "id": "dt-121a87580d",
+      "series_id": "dt-d0c7316d86",
+      "title": "Soirée jeux",
+      "start": "2026-10-30T18:30",
+      "end": "2026-10-30T20:00",
+      "location": "Médiathèque",
+      "city": "Crach",
+      "description": "Soirée-jeux du 30 octobre…alors mystères, fantômes, trahison sur vos tables de jeux ! Un moment pour toutes et tous, à vivre en solo ou famille (dès 6 ans). Gratuit, sans inscription",
+      "url": null,
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.0,
+      "last_update": "2026-10-21"
+    },
+    {
       "id": "dt-3aadef3790",
       "series_id": "dt-fe8e3c53a8",
       "title": "Halloween au parc Forêt Adrénaline",
@@ -4337,6 +4049,24 @@
       "source_name": "ADT 56",
       "distance_km": 13.4,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-3c06e40998",
+      "series_id": "dt-e451b2af6e",
+      "title": "Halloween au Cinéma Le Paradis",
+      "start": "2026-10-31T10:00",
+      "end": null,
+      "location": "Cinéma Le Paradis",
+      "city": "Quiberon",
+      "description": "Le cinéma le Paradis et l’association Vent d’images vous propose 3 séances : - 15h : Wallace et Gromit, la malédiction du Kangourou Pour les plus petits, un gouter sera offert par Vent d’images à l’issue de la projection - 18h : Les Yeux sans visage - 21 h : Resident Evil (…",
+      "url": null,
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.7,
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-4410612ac1",
@@ -4562,15 +4292,15 @@
       "end": null,
       "location": "Bourg",
       "city": "Brech",
-      "description": "Dans le cadre d'Un Automne autrement 2026 Animation Venez découvrir le bourg de Brec'h, à la nuit tombante, en compagnie des sorcières, des korrigans et autres personnages merveilleux.",
-      "url": null,
+      "description": "Dans le cadre d'Un Automne autrement 2026 Animation Halloween au bourg de Brec’h, balade contée et chantée ! Venez découvrir le bourg de Brec’h à la nuit tombante… Au cours d’une balade contée, accompagnés de sorcières, korrigans et autres personnages merveilleux vous…",
+      "url": "https://www.brech.fr/agenda/halloween-sorcieres-korrigans-et-autres-ou-le-bourg-de-brech-la-nuit/",
       "category": "fete",
       "priority": 2,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.3,
-      "last_update": "2026-10-01"
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-e967c0846a",
@@ -4699,6 +4429,24 @@
       "last_update": "2026-09-07"
     },
     {
+      "id": "dt-2a91a59f47",
+      "series_id": "dt-c8fd37980e",
+      "title": "Alerte sorts, bluffs et monstres à Ploemel",
+      "start": "2026-11-01T14:00",
+      "end": "2026-11-01T18:00",
+      "location": "Complexe sports et loisirs du Groëz Ven",
+      "city": "Ploemel",
+      "description": "Amateurs de frissons, de créatures étranges et de coups bas entre amis, préparez vos balais : l'après-midi jeux spéciale Halloween arrive ! Sur nos tables d'incantation (ce qu'on a déjà dans le grimoire) : - Codenames Harry Potter : Pour ceux qui manient la baguette avec brio !",
+      "url": "https://www.tiludique.fr/pages/evenements.html",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 8.2,
+      "last_update": "2026-10-21"
+    },
+    {
       "id": "dt-564ca0646d",
       "series_id": "dt-6e20c4634a",
       "title": "Aprèm Ti Ludique",
@@ -4714,7 +4462,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.2,
-      "last_update": "2026-09-29"
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-c87304811b",
@@ -4841,6 +4589,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.7,
       "last_update": "2026-10-13"
+    },
+    {
+      "id": "dt-d5bb426c37",
+      "series_id": "dt-e8532554ed",
+      "title": "Cinéma : Film surprise Coup de coeur",
+      "start": "2026-11-03T20:30",
+      "end": "2026-11-03T22:45",
+      "location": "Cinéma La Rivière",
+      "city": "Étel",
+      "description": "Le film surprise Coup de Cœur AFCAE, c’est l’occasion de découvrir chaque mois un film, en avant-première, sélectionné avec soin par l’Association Française des Cinémas Art et Essai et par Quai des Dunes. Ce rendez-vous mensuel est une véritable invitation à la découverte.",
+      "url": "https://www.cinemalariviere.org/events/71800-film-surprise-avant-premiere-coup-de-coeur-afcae/",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-ba355ed740",
@@ -5185,6 +4951,24 @@
       "last_update": "2026-09-11"
     },
     {
+      "id": "dt-2293852c53",
+      "series_id": "dt-e400b93227",
+      "title": "Ciné-échange : Les trois vies du patron Emile Daniel & La barre Etel 1958",
+      "start": "2026-11-07T15:50",
+      "end": null,
+      "location": "Cinéma La Rivière",
+      "city": "Étel",
+      "description": "Les trois vies du patron Emile Daniel : Ce film est régulièrement projeté au Musée des Thoniers d’Étel. Il retrace l’histoire du célèbre canot de sauvetage d’Étel et rend hommage à son emblématique patron, Émile Daniel, qui a péri en mer lors du tragique accident de la barre…",
+      "url": "https://www.cinemalariviere.org/events/84713-les-trois-vies-du-patron-emile-daniel-la-barre-etel-1958/",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-10-21"
+    },
+    {
       "id": "dt-b6922da6fc",
       "series_id": "dt-423fea85a2",
       "title": "La Musique dans l'Antiquité celtique",
@@ -5237,6 +5021,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
       "last_update": "2026-08-21"
+    },
+    {
+      "id": "dt-23e1cf83bc",
+      "series_id": "dt-ed42b204c3",
+      "title": "Concert de Clarisse Lavanant",
+      "start": "2026-11-08T15:00",
+      "end": null,
+      "location": "Eglise Saint André",
+      "city": "Brech",
+      "description": "Vous apprécierez la jolie voix de Clarisse LAVANANT, c’est une des plus belles voix de Bretagne, à la fois claire, veloutée, puissante et nuancée. Cette auteure -compositrice – interprète d’origine morlaisienne est aussi une artiste prolifique aux multiples talents.",
+      "url": "https://www.brech.fr/agenda/concert-de-clarisse-lavanant/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.3,
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-43d8163e06",
@@ -5309,6 +5111,24 @@
       "source_name": "ADT 56",
       "distance_km": 0.6,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-ec1c78db05",
+      "series_id": "dt-cf02eab15b",
+      "title": "Ciné-échanges : Avoir 20 ans dans les Aurès",
+      "start": "2026-11-10T21:20",
+      "end": null,
+      "location": "Cinéma La Rivière",
+      "city": "Étel",
+      "description": "Un groupe de Bretons réfractaires et pacifistes est envoyé en Algérie. Ces êtres confrontés aux horreurs de la guerre deviennent peu à peu des machines à tuer.",
+      "url": "https://www.cinemalariviere.org/events/84963-avoir-20-ans-dans-les-aures/",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-926cf48dc8",
@@ -5614,7 +5434,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.2,
-      "last_update": "2026-09-29"
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-1b96b7f694",
@@ -5633,6 +5453,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.2,
       "last_update": "2026-09-07"
+    },
+    {
+      "id": "dt-7bc89356df",
+      "series_id": "dt-58e88e2fb8",
+      "title": "Théâtre : “Sur le lac ”",
+      "start": "2026-11-15T15:30",
+      "end": null,
+      "location": "Place Saint-Armel",
+      "city": "Plouharnel",
+      "description": "Spectacle programmé dans le cadre des Rendez-Vous Théâtre de Plouharnel. La troupe de \"La Forge Campin\" présente la pièce \"Sur le Lac\", de Sandrine Le Mével Hussenet. Synopsis : Cette pièce raconte une échappée sur un lac, à bord d'une barque.",
+      "url": null,
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 6.5,
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-a5b95ebde7",
@@ -5995,6 +5833,24 @@
       "last_update": "2026-10-20"
     },
     {
+      "id": "dt-4d560864e4",
+      "series_id": "dt-8846b41894",
+      "title": "Week end Cinéma, BD, Littérature",
+      "start": "2026-11-27",
+      "end": null,
+      "location": "Cinéma La Rivière",
+      "city": "Étel",
+      "description": "Des films qui sont tirés de BD ou des BD issues de films. Des histoires et des héros sur des planches de dessins et sur la pellicule. Des librairies présenteront des BD célèbres ou moins connues et le cinéma La Rivière projettera des films évoquant ces BD.",
+      "url": "https://www.cinemalariviere.org/events/78421-week-end-cinema-bd-litterature/",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-10-21"
+    },
+    {
       "id": "dt-b9771bd9f0",
       "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
@@ -6047,6 +5903,24 @@
       "source_name": "ADT 56",
       "distance_km": 13.7,
       "last_update": "2026-04-30"
+    },
+    {
+      "id": "dt-3cc54cef61",
+      "series_id": "dt-8846b41894",
+      "title": "Week end Cinéma, BD, Littérature",
+      "start": "2026-11-28",
+      "end": null,
+      "location": "Cinéma La Rivière",
+      "city": "Étel",
+      "description": "Des films qui sont tirés de BD ou des BD issues de films. Des histoires et des héros sur des planches de dessins et sur la pellicule. Des librairies présenteront des BD célèbres ou moins connues et le cinéma La Rivière projettera des films évoquant ces BD.",
+      "url": "https://www.cinemalariviere.org/events/78421-week-end-cinema-bd-litterature/",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-9c236797b3",
@@ -6155,6 +6029,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.7,
       "last_update": "2026-10-20"
+    },
+    {
+      "id": "dt-0de07ea5cb",
+      "series_id": "dt-8846b41894",
+      "title": "Week end Cinéma, BD, Littérature",
+      "start": "2026-11-29",
+      "end": null,
+      "location": "Cinéma La Rivière",
+      "city": "Étel",
+      "description": "Des films qui sont tirés de BD ou des BD issues de films. Des histoires et des héros sur des planches de dessins et sur la pellicule. Des librairies présenteront des BD célèbres ou moins connues et le cinéma La Rivière projettera des films évoquant ces BD.",
+      "url": "https://www.cinemalariviere.org/events/78421-week-end-cinema-bd-litterature/",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-1a76a02c09",
@@ -6416,15 +6308,15 @@
       "end": null,
       "location": "Cinéma La Rivière",
       "city": "Étel",
-      "description": "Vendredi 4 décembre 2026 à 20h : \"L'Histoire de Manon\"",
-      "url": null,
+      "description": "L'Histoire de Manon, œuvre emblématique du Royal Ballet, ouvrira la saison. Cette adaptation poignante du roman de l'Abbé Prévost, chorégraphié par l'un des directeurs de la danse les plus marquants de Covent Garden, Kenneth MacMillan, nous entraine dans les bas-fonds du Paris…",
+      "url": "https://www.cinemalariviere.org/events/78673-operas-et-ballets-au-cinema/",
       "category": "spectacle",
       "priority": 2,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-09-29"
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-7dc2ec92fd",
@@ -6659,6 +6551,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.5,
       "last_update": "2026-09-17"
+    },
+    {
+      "id": "dt-40b79cdb15",
+      "series_id": "dt-5b14c67c05",
+      "title": "Un spectacle de Noël à la médiathèque",
+      "start": "2026-12-09T10:30",
+      "end": null,
+      "location": "16 Rue Michelet",
+      "city": "Quiberon",
+      "description": "La Médiathèque de Quiberon propose un spectacle de Noël aux enfants de 0 à 6 ans. La Compagnie Toutouic présentera Flocons, neige et tourbillon, mercredi 9 décembre à 10h30.",
+      "url": null,
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.2,
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-742523999d",
@@ -7129,6 +7039,24 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-1bb40e5da3",
+      "series_id": "dt-34878a5f6a",
+      "title": "Théâtre au cinéma : Ruy Blas",
+      "start": "2026-12-27T17:30",
+      "end": null,
+      "location": "Cinéma La Rivière",
+      "city": "Étel",
+      "description": "Théâtre au cinéma, cycle de la Comédie Française: Ruy Blas Disgracié par la reine d’Espagne, Don Salluste veut se venger. Pour cela, il force son valet Ruy Blas à se faire passer pour un noble afin d’approcher la jeune reine. Secrètement amoureux d’elle, Ruy Blas accepte.",
+      "url": "https://www.cinemalariviere.org/events/79514-theatre-au-cinema-cycle-de-la-comedie-francaise/",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-10-21"
+    },
+    {
       "id": "dt-ae2d633aea",
       "series_id": "dt-2ad11373df",
       "title": "Atelier danse bretonne - Dañs Alre",
@@ -7172,15 +7100,15 @@
       "end": null,
       "location": "Cinéma La Rivière",
       "city": "Étel",
-      "description": "Mardi 29 décembre 2026 à 20h : \"Carmen\"",
-      "url": null,
+      "description": "\"Carmen\" de Georges Bizet se dévoile dans une mise en scène ambitieuse signée Damiano Michieletto, dont les talents s'étendent aussi au cinéma, avec la réalisation récente de \"Vivaldi et moi\".",
+      "url": "https://www.cinemalariviere.org/events/78673-operas-et-ballets-au-cinema/",
       "category": "spectacle",
       "priority": 2,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-09-29"
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-fa413e801e",
@@ -7460,15 +7388,15 @@
       "end": null,
       "location": "Cinéma La Rivière",
       "city": "Étel",
-      "description": "Vendredi 29 janvier 2027 à 20h : \"Casse-Noisette\"",
-      "url": null,
+      "description": "\"Casse-Noisette\" de Peter Wright, sur une musique de Tchaïkovsky. Toute la féerie et la légèreté de ce ballet vous donnent rendez-vous durant les fêtes pour émerveiller les petits comme les grands.",
+      "url": "https://www.cinemalariviere.org/events/78673-operas-et-ballets-au-cinema/",
       "category": "spectacle",
       "priority": 2,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-09-29"
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-01a550bcaa",
@@ -8047,6 +7975,24 @@
       "last_update": "2026-10-20"
     },
     {
+      "id": "dt-4cf88b446a",
+      "series_id": "dt-7023a6c75a",
+      "title": "Théâtre au cinéma : Le Cid",
+      "start": "2027-03-14T17:30",
+      "end": null,
+      "location": "Cinéma La Rivière",
+      "city": "Étel",
+      "description": "Théâtre au cinéma : cycle de la Comédie Française > Le Cid Chimène, fille de Don Gomès, et Rodrigue, dit Le Cid, s’aiment passionnément. Mais une grave querelle oppose leurs familles, Rodrigue doit alors venger l’honneur de Don Diègue, son père, au cours d’un duel inévitable…",
+      "url": "https://www.cinemalariviere.org/events/79514-theatre-au-cinema-cycle-de-la-comedie-francaise/",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-10-21"
+    },
+    {
       "id": "dt-7ee00188e6",
       "series_id": "dt-2ad11373df",
       "title": "Atelier danse bretonne - Dañs Alre",
@@ -8090,15 +8036,15 @@
       "end": null,
       "location": "Cinéma La Rivière",
       "city": "Étel",
-      "description": "Samedi 20 mars 2027 à 17h : \"Le Crépuscule des dieux\"",
-      "url": null,
+      "description": "\"Le Crépuscule des dieux\" qui se joue sur scène et grand écran. Dernier volet de la mythique tétralogie de Wagner, cet opéra mêlant héroïsme et tragédie promet un moment intense et hors du temps, porté par la voix puissante du ténor autrichien Andreas Schager.",
+      "url": "https://www.cinemalariviere.org/events/78673-operas-et-ballets-au-cinema/",
       "category": "spectacle",
       "priority": 2,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-09-29"
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-1a53f74083",
@@ -8342,15 +8288,15 @@
       "end": null,
       "location": "Cinéma La Rivière",
       "city": "Étel",
-      "description": "Vendredi 23 avril 2027 à 20h : \"Così fan tutte\"",
-      "url": null,
+      "description": "\"Così fan tutte\" nous divertissent, dans une mise en scène signée Netia Jones. La comédie de mœurs de Mozart n’a pas perdu de son mordant depuis ses premières représentations scandaleuses en 1790.",
+      "url": "https://www.cinemalariviere.org/events/78673-operas-et-ballets-au-cinema/",
       "category": "spectacle",
       "priority": 2,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-09-29"
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-23c501eee9",
@@ -8468,15 +8414,15 @@
       "end": null,
       "location": "Cinéma La Rivière",
       "city": "Étel",
-      "description": "Vendredi 14 mai 2027 à 20h : \"Alice au pays des merveille\"",
-      "url": null,
+      "description": "\"Alice au pays des merveille\" Le conte de Lewis Caroll, chorégraphié ici par Christopher Wheeldon, se réinvente dans une explosion de couleur, de magie scénique et de chorégraphies inventives et sophistiquées.",
+      "url": "https://www.cinemalariviere.org/events/78673-operas-et-ballets-au-cinema/",
       "category": "spectacle",
       "priority": 2,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-09-29"
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-38025f19c4",
@@ -8531,6 +8477,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
       "last_update": "2026-09-17"
+    },
+    {
+      "id": "dt-b9e7aeaab0",
+      "series_id": "dt-d8b9a6a341",
+      "title": "Théâtre au cinéma : Les Femmes savantes",
+      "start": "2027-05-23T17:30",
+      "end": null,
+      "location": "Cinéma La Rivière",
+      "city": "Étel",
+      "description": "Théâtre au cinéma, cycle de la Comédie Française> Les Femmes savantes Contrairement à sa sœur Armande, Henriette rêve d’amour et souhaite se marier avec Clitandre.",
+      "url": "https://www.cinemalariviere.org/events/79514-theatre-au-cinema-cycle-de-la-comedie-francaise/",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.2,
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-4b38e726c7",
@@ -8594,15 +8558,15 @@
       "end": null,
       "location": "Cinéma La Rivière",
       "city": "Étel",
-      "description": "Vendredi 4 juin 2027 à 20h : \"Le Lac des Cygnes\"",
-      "url": null,
+      "description": "\"Le Lac des Cygnes\", un monument du ballet classique vient nous transporter dans un monde de sorts et de promesses brisées. La partition imposante de Tchaïkovski et les décors pittoresques de John Macfarlane créent un spectacle de ballet impérissable, mélange d’amour, de…",
+      "url": "https://www.cinemalariviere.org/events/78673-operas-et-ballets-au-cinema/",
       "category": "spectacle",
       "priority": 2,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-09-29"
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-3381f11737",
@@ -8684,15 +8648,15 @@
       "end": null,
       "location": "Cinéma La Rivière",
       "city": "Étel",
-      "description": "Vendredi 25 juin 2027 à 20h : \"Tosca\"",
-      "url": null,
+      "description": "\"Tosca\" d’Oliver Mears, fait son retour. La soprano Aleksandra Kurzak reprend le rôle-titre, accompagnée de Saimir Pirgu dans le rôle de Cavaradossi et Christopher Maltman dans celui du Baron Scarpia pour sublimer la partition virtuose de Puccini.",
+      "url": "https://www.cinemalariviere.org/events/78673-operas-et-ballets-au-cinema/",
       "category": "spectacle",
       "priority": 2,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-09-29"
+      "last_update": "2026-10-21"
     },
     {
       "id": "dt-f24ba98f83",
@@ -8720,15 +8684,15 @@
       "end": null,
       "location": "Cinéma La Rivière",
       "city": "Étel",
-      "description": "Mardi 6 juillet 2027 à 20h : \"Roméo et Juliette\"",
-      "url": null,
+      "description": "\"Roméo et Juliette\" clôture cette saison du Royal Ballet & Opera au cinéma. Le ballet captivant de Kenneth MacMillan retranscrit à merveille la fougue des premières amours, de la rencontre au balcon aux derniers instants tragique du tombeau.",
+      "url": "https://www.cinemalariviere.org/events/78673-operas-et-ballets-au-cinema/",
       "category": "spectacle",
       "priority": 2,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-09-29"
+      "last_update": "2026-10-21"
     }
   ]
 }
