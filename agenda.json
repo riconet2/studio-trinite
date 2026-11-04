@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-03T11:59:29Z",
-  "data_updated_at": "2026-11-01",
+  "generated_at": "2026-11-04T12:13:47Z",
+  "data_updated_at": "2026-11-02",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -12,12 +12,30 @@
   "counts": {
     "total": 302,
     "by_proximity": {
-      "near": 260,
-      "immediate": 40,
-      "daytrip": 2
+      "near": 261,
+      "daytrip": 2,
+      "immediate": 39
     }
   },
   "events": [
+    {
+      "id": "dt-2855569e63",
+      "series_id": "dt-cd0cdc95d4",
+      "title": "Exposition \"Une affaire de familles\"",
+      "start": "2023-07-11",
+      "end": "2027-06-01",
+      "location": "Route des Alignements",
+      "city": "Carnac",
+      "description": "Exposition \"Une affaire de familles\", archives photographiques et menhirs de Carnac. « Vous avez un cliché qui vous met en scène, vous ou quelqu'un de votre famille, dans les Alignements de Carnac ? Vous pouvez dater ce cliché ? ça nous intéresse ! ».",
+      "url": "https://www.menhirs-carnac.fr/",
+      "category": "culture",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 3.9,
+      "last_update": "2026-11-02"
+    },
     {
       "id": "dt-08399ac65d",
       "series_id": "dt-1adf5f4d31",
@@ -197,78 +215,6 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 10.2,
       "last_update": "2026-09-30"
-    },
-    {
-      "id": "dt-f703ba54bc",
-      "series_id": "dt-09b966ff66",
-      "title": "Marché hebdomadaire à La Trinité-sur-Mer",
-      "start": "2026-11-03T08:00",
-      "end": "2026-11-03T13:00",
-      "location": "Place du Voulien",
-      "city": "La Trinité-sur-Mer",
-      "description": "Le marché hebdomadaire se tient le mardi et le vendredi matin de 8h à 13h sur la place du Voulien.",
-      "url": null,
-      "category": "marche",
-      "priority": 1,
-      "proximity": "immediate",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 0.6,
-      "last_update": "2026-01-05"
-    },
-    {
-      "id": "dt-c3ca4dfd83",
-      "series_id": "dt-1cf91273e4",
-      "title": "Soirée Surprise au Paradis !",
-      "start": "2026-11-03T19:00",
-      "end": null,
-      "location": "Resto BDS à St Pierre Quiberon",
-      "city": "Quiberon",
-      "description": "Le cinéma Le Paradis vous propose une soirée placée sous le signe de la découverte, avec un repas surprise suivi de la projection d’un film mystère en avant-première.",
-      "url": null,
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.7,
-      "last_update": "2026-10-13"
-    },
-    {
-      "id": "dt-d5bb426c37",
-      "series_id": "dt-e8532554ed",
-      "title": "Cinéma : Film surprise Coup de coeur",
-      "start": "2026-11-03T20:30",
-      "end": "2026-11-03T22:45",
-      "location": "Cinéma La Rivière",
-      "city": "Étel",
-      "description": "Le film surprise Coup de Cœur AFCAE, c’est l’occasion de découvrir chaque mois un film, en avant-première, sélectionné avec soin par l’Association Française des Cinémas Art et Essai et par Quai des Dunes. Ce rendez-vous mensuel est une véritable invitation à la découverte.",
-      "url": "https://www.cinemalariviere.org/events/71800-film-surprise-avant-premiere-coup-de-coeur-afcae/",
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.2,
-      "last_update": "2026-10-21"
-    },
-    {
-      "id": "dt-ba355ed740",
-      "series_id": "dt-1cf91273e4",
-      "title": "Soirée Surprise au Paradis !",
-      "start": "2026-11-03T21:00",
-      "end": null,
-      "location": "Resto BDS à St Pierre Quiberon",
-      "city": "Quiberon",
-      "description": "Le cinéma Le Paradis vous propose une soirée placée sous le signe de la découverte, avec un repas surprise suivi de la projection d’un film mystère en avant-première.",
-      "url": null,
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.7,
-      "last_update": "2026-10-13"
     },
     {
       "id": "dt-125bcc6a89",
@@ -528,17 +474,17 @@
       "title": "Trail de la Baie de Quiberon",
       "start": "2026-11-07T07:00",
       "end": "2026-11-07T12:00",
-      "location": "30 Chemin du Ménec",
+      "location": "Place de l'Église",
       "city": "Carnac",
-      "description": "Le Trail de la Baie de Quiberon est de retour le 7 Novembre 2026 pour une 3ème édition! Découvrez ce parcours de trail de 50,4 km qui débute à La Trinité-sur-Mer et se termine à Quiberon. Ce parcours emprunte 24,8 km de chemins et 14,3 km de routes.",
+      "description": "Pour sa 3ème édition, découvrez ce parcours de trail de 50,4 km qui débute à La Trinité-sur-Mer et se termine à Quiberon. Ce parcours emprunte 24,8 km de chemins et 14,3 km de routes. Il présente une ascension cumulée de plus de 250m.",
       "url": "https://www.openrunner.com/route-details/24191549",
       "category": "plein_air",
       "priority": 2,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "ADT 56",
-      "distance_km": 4.4,
-      "last_update": "2026-10-27"
+      "distance_km": 3.8,
+      "last_update": "2026-11-02"
     },
     {
       "id": "dt-0c5409479e",
@@ -764,7 +710,7 @@
       "end": "2026-11-08T15:30",
       "location": "Musée de la Préhistoire",
       "city": "Carnac",
-      "description": "A 11h et 14h30 - inclus dans le billet d'entrée au musée Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation durée: de 20 à 30 minutes",
+      "description": "Tous les dimanches à 11h et 14h30 + mercredi 11 novembre Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation. Durée: de 20 à 30 minutes, inclus dans le billet d'entrée au musée",
       "url": "https://www.museedecarnac.com/actualites/",
       "category": "patrimoine",
       "priority": 2,
@@ -772,7 +718,25 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-10-22"
+      "last_update": "2026-11-02"
+    },
+    {
+      "id": "dt-db89c5e9e3",
+      "series_id": "dt-d2f4678690",
+      "title": "Visite découverte dans les Alignements",
+      "start": "2026-11-08T11:00",
+      "end": "2026-11-08T12:00",
+      "location": "Maison des Mégalithes",
+      "city": "Carnac",
+      "description": "Tous les dimanches à 11h En famille ou entre amis, venez découvrir l’histoire des Alignements de Carnac accompagnés d’un guide. Partez à la rencontre de ces hommes et de ces femmes qui ont façonné le paysage il y a 6500 ans et imaginé des constructions, qui aujourd’hui encore…",
+      "url": "http://www.menhirs-carnac.fr/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.1,
+      "last_update": "2026-11-02"
     },
     {
       "id": "dt-d2dfe23b11",
@@ -836,7 +800,7 @@
       "end": "2026-11-08T17:00",
       "location": "Musée de la Préhistoire",
       "city": "Carnac",
-      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "description": "À 16h tous les dimanches et jours fériés Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ».",
       "url": "https://www.museedecarnac.com/actualites/",
       "category": "musique",
       "priority": 2,
@@ -844,7 +808,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-10-22"
+      "last_update": "2026-11-02"
     },
     {
       "id": "dt-face0d72ee",
@@ -862,7 +826,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
-      "last_update": "2026-10-27"
+      "last_update": "2026-11-02"
     },
     {
       "id": "dt-ab618ee195",
@@ -926,7 +890,7 @@
       "end": "2026-11-11T15:30",
       "location": "Musée de la Préhistoire",
       "city": "Carnac",
-      "description": "A 11h et 14h30 - inclus dans le billet d'entrée au musée Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation durée: de 20 à 30 minutes",
+      "description": "Tous les dimanches à 11h et 14h30 + mercredi 11 novembre Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation. Durée: de 20 à 30 minutes, inclus dans le billet d'entrée au musée",
       "url": "https://www.museedecarnac.com/actualites/",
       "category": "patrimoine",
       "priority": 2,
@@ -934,7 +898,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-10-22"
+      "last_update": "2026-11-02"
     },
     {
       "id": "dt-926cf48dc8",
@@ -962,7 +926,7 @@
       "end": "2026-11-11T17:00",
       "location": "Musée de la Préhistoire",
       "city": "Carnac",
-      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "description": "À 16h tous les dimanches et jours fériés Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ».",
       "url": "https://www.museedecarnac.com/actualites/",
       "category": "musique",
       "priority": 2,
@@ -970,7 +934,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-10-22"
+      "last_update": "2026-11-02"
     },
     {
       "id": "dt-b756593be2",
@@ -1121,7 +1085,7 @@
       "series_id": "dt-3cd7b7bfac",
       "title": "Vide atelier",
       "start": "2026-11-14T10:00",
-      "end": "2026-11-14T18:00",
+      "end": "2026-11-15T18:00",
       "location": "Rue du Tumulus",
       "city": "Carnac",
       "description": "A l'approche des fêtes de fin d'année, 5 peintres régionaux proposent à des prix doux dans le cadre d'un vide atelier leurs œuvres : pastels, aquarelles, peintures, d'une grande diversité de thèmes. Entrée gratuite, de 10h à 18h.",
@@ -1132,7 +1096,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.4,
-      "last_update": "2026-10-29"
+      "last_update": "2026-11-02"
     },
     {
       "id": "dt-771f27da45",
@@ -1196,7 +1160,7 @@
       "end": null,
       "location": "Espace culturel Terraqué",
       "city": "Carnac",
-      "description": "Viens participer en duo au tournoi national inter-ludothèque de Moving out ! Vous êtes employés d’une entreprise de déménagement, organisez-vous pour déménager un maximum d’objets en faisant le moins de dégâts possible ! Gratuit – sur inscription – 8-99 ans",
+      "description": "À 14h Viens participer en duo au tournoi national inter-ludothèque de Moving out ! Vous êtes employés d’une entreprise de déménagement, organisez-vous pour déménager un maximum d’objets en faisant le moins de dégâts possible ! Gratuit sur inscription",
       "url": "http://www.terraque.fr/",
       "category": "plein_air",
       "priority": 2,
@@ -1204,7 +1168,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
-      "last_update": "2026-10-28"
+      "last_update": "2026-11-02"
     },
     {
       "id": "dt-4d41cfb227",
@@ -1333,24 +1297,6 @@
       "last_update": "2026-09-17"
     },
     {
-      "id": "dt-2f9235ab39",
-      "series_id": "dt-3cd7b7bfac",
-      "title": "Vide atelier",
-      "start": "2026-11-15T10:00",
-      "end": "2026-11-15T18:00",
-      "location": "Rue du Tumulus",
-      "city": "Carnac",
-      "description": "A l'approche des fêtes de fin d'année, 5 peintres régionaux proposent à des prix doux dans le cadre d'un vide atelier leurs œuvres : pastels, aquarelles, peintures, d'une grande diversité de thèmes. Entrée gratuite, de 10h à 18h.",
-      "url": null,
-      "category": "fete",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 3.4,
-      "last_update": "2026-10-29"
-    },
-    {
       "id": "dt-e4e4806b5e",
       "series_id": "dt-79c7817d3e",
       "title": "Picto Néo !",
@@ -1358,7 +1304,7 @@
       "end": "2026-11-15T15:30",
       "location": "Musée de la Préhistoire",
       "city": "Carnac",
-      "description": "A 11h et 14h30 - inclus dans le billet d'entrée au musée Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation durée: de 20 à 30 minutes",
+      "description": "Tous les dimanches à 11h et 14h30 + mercredi 11 novembre Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation. Durée: de 20 à 30 minutes, inclus dans le billet d'entrée au musée",
       "url": "https://www.museedecarnac.com/actualites/",
       "category": "patrimoine",
       "priority": 2,
@@ -1366,7 +1312,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-10-22"
+      "last_update": "2026-11-02"
     },
     {
       "id": "dt-29c1efe7ef",
@@ -1385,6 +1331,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.3,
       "last_update": "2026-09-17"
+    },
+    {
+      "id": "dt-eb42f3e109",
+      "series_id": "dt-d2f4678690",
+      "title": "Visite découverte dans les Alignements",
+      "start": "2026-11-15T11:00",
+      "end": "2026-11-15T12:00",
+      "location": "Maison des Mégalithes",
+      "city": "Carnac",
+      "description": "Tous les dimanches à 11h En famille ou entre amis, venez découvrir l’histoire des Alignements de Carnac accompagnés d’un guide. Partez à la rencontre de ces hommes et de ces femmes qui ont façonné le paysage il y a 6500 ans et imaginé des constructions, qui aujourd’hui encore…",
+      "url": "http://www.menhirs-carnac.fr/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.1,
+      "last_update": "2026-11-02"
     },
     {
       "id": "dt-27c9714a06",
@@ -1466,7 +1430,7 @@
       "end": "2026-11-15T17:00",
       "location": "Musée de la Préhistoire",
       "city": "Carnac",
-      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "description": "À 16h tous les dimanches et jours fériés Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ».",
       "url": "https://www.museedecarnac.com/actualites/",
       "category": "musique",
       "priority": 2,
@@ -1474,7 +1438,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-10-22"
+      "last_update": "2026-11-02"
     },
     {
       "id": "dt-917d6998fa",
@@ -1808,7 +1772,7 @@
       "end": "2026-11-21T12:00",
       "location": "Espace culturel Terraqué",
       "city": "Carnac",
-      "description": "Venez partager vos expériences littéraires et de vos coups de cœur ! Durée 1h30. En accès libre et gratuit",
+      "description": "À 10h30 Venez partager vos expériences littéraires et de vos coups de cœur ! Durée 1h30. En accès libre et gratuit",
       "url": "https://www.terraque.fr/animations",
       "category": "culture",
       "priority": 3,
@@ -1816,7 +1780,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.7,
-      "last_update": "2026-10-28"
+      "last_update": "2026-11-02"
     },
     {
       "id": "dt-5cc18774e4",
@@ -1880,7 +1844,7 @@
       "end": "2026-11-22T15:30",
       "location": "Musée de la Préhistoire",
       "city": "Carnac",
-      "description": "A 11h et 14h30 - inclus dans le billet d'entrée au musée Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation durée: de 20 à 30 minutes",
+      "description": "Tous les dimanches à 11h et 14h30 + mercredi 11 novembre Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation. Durée: de 20 à 30 minutes, inclus dans le billet d'entrée au musée",
       "url": "https://www.museedecarnac.com/actualites/",
       "category": "patrimoine",
       "priority": 2,
@@ -1888,7 +1852,25 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-10-22"
+      "last_update": "2026-11-02"
+    },
+    {
+      "id": "dt-1de34f09e1",
+      "series_id": "dt-d2f4678690",
+      "title": "Visite découverte dans les Alignements",
+      "start": "2026-11-22T11:00",
+      "end": "2026-11-22T12:00",
+      "location": "Maison des Mégalithes",
+      "city": "Carnac",
+      "description": "Tous les dimanches à 11h En famille ou entre amis, venez découvrir l’histoire des Alignements de Carnac accompagnés d’un guide. Partez à la rencontre de ces hommes et de ces femmes qui ont façonné le paysage il y a 6500 ans et imaginé des constructions, qui aujourd’hui encore…",
+      "url": "http://www.menhirs-carnac.fr/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.1,
+      "last_update": "2026-11-02"
     },
     {
       "id": "dt-ac7958b102",
@@ -1898,7 +1880,7 @@
       "end": "2026-11-22T17:00",
       "location": "Musée de la Préhistoire",
       "city": "Carnac",
-      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "description": "À 16h tous les dimanches et jours fériés Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ».",
       "url": "https://www.museedecarnac.com/actualites/",
       "category": "musique",
       "priority": 2,
@@ -1906,7 +1888,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-10-22"
+      "last_update": "2026-11-02"
     },
     {
       "id": "dt-47751cd0eb",
@@ -1983,12 +1965,12 @@
     {
       "id": "dt-d40fb87742",
       "series_id": "dt-050c4840a0",
-      "title": "CINE-DOCS VOYAGE : Le Mékong - Du Tibet au Vietnam- Film de Patrick MATHE",
+      "title": "CINE-DOCS VOYAGE : Le Mékong",
       "start": "2026-11-25T15:00",
       "end": null,
       "location": "Espace culturel Terraqué",
       "city": "Carnac",
-      "description": "Du Tibet au delta, le Mékong déroule son cours sur 4350 km et traverse six pays. De la Chine, au Laos, du Cambodge, au Vietnam, le film retrace 20 ans d’évolution des villes et des peuples vivant sur ses berges.",
+      "description": "À 15h et 18h30 Du Tibet au delta, le Mékong déroule son cours sur 4350 km et traverse six pays. De la Chine, au Laos, du Cambodge, au Vietnam, le film retrace 20 ans d’évolution des villes et des peuples vivant sur ses berges.",
       "url": "http://www.artetculture-carnac.com/",
       "category": "spectacle",
       "priority": 2,
@@ -1996,17 +1978,17 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 4.1,
-      "last_update": "2026-10-22"
+      "last_update": "2026-11-02"
     },
     {
       "id": "dt-6028c2d0a0",
       "series_id": "dt-050c4840a0",
-      "title": "CINE-DOCS VOYAGE : Le Mékong - Du Tibet au Vietnam- Film de Patrick MATHE",
+      "title": "CINE-DOCS VOYAGE : Le Mékong",
       "start": "2026-11-25T18:30",
       "end": null,
       "location": "Espace culturel Terraqué",
       "city": "Carnac",
-      "description": "Du Tibet au delta, le Mékong déroule son cours sur 4350 km et traverse six pays. De la Chine, au Laos, du Cambodge, au Vietnam, le film retrace 20 ans d’évolution des villes et des peuples vivant sur ses berges.",
+      "description": "À 15h et 18h30 Du Tibet au delta, le Mékong déroule son cours sur 4350 km et traverse six pays. De la Chine, au Laos, du Cambodge, au Vietnam, le film retrace 20 ans d’évolution des villes et des peuples vivant sur ses berges.",
       "url": "http://www.artetculture-carnac.com/",
       "category": "spectacle",
       "priority": 2,
@@ -2014,7 +1996,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 4.1,
-      "last_update": "2026-10-22"
+      "last_update": "2026-11-02"
     },
     {
       "id": "dt-995ee8b8fe",
@@ -2096,7 +2078,7 @@
       "end": "2026-11-27T21:00",
       "location": "Espace Culturel Terraqué",
       "city": "Carnac",
-      "description": "Deux danseuses se retrouvent dans un stage de danse un peu particulier... Un ascenseur magique les entraine d'étage en étage, à travers les pays et les époques sur les traces des danses du monde, de leur naissance à leur évolution au fil du temps.",
+      "description": "Vendredi et samedi à 19h Dimanche à 15h \"Le tour du monde en 80 pas\" Deux danseuses se retrouvent dans un stage de danse un peu particulier...Un ascenseur magique les entraine d'étage en étage, à travers les pays et les époques sur les traces des danses du monde, de leur…",
       "url": null,
       "category": "spectacle",
       "priority": 2,
@@ -2104,7 +2086,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.7,
-      "last_update": "2026-10-29"
+      "last_update": "2026-11-02"
     },
     {
       "id": "dt-8ad693ff7b",
@@ -2114,7 +2096,7 @@
       "end": "2026-11-27T21:00",
       "location": "Médiathèque/ludothèque Terraqué",
       "city": "Carnac",
-      "description": "Mardi 27 novembre - 19h30 à 21h. Venez découvrir une sélection des romans incontournables de cette rentrée littéraire, présentés par nos bibliothécaires et nos partenaires. Échangez autour de vos lectures, et repartez avec plein d'idées pour remplir votre PAL (Pile A Lire) !",
+      "description": "De 19h30 à 21h. Venez découvrir une sélection des romans incontournables de cette rentrée littéraire, présentés par nos bibliothécaires et nos partenaires. Échangez autour de vos lectures, et repartez avec plein d'idées pour remplir votre PAL (Pile A Lire) !",
       "url": "https://mediatheques-terre-atlantique.fr/evenements",
       "category": "culture",
       "priority": 2,
@@ -2122,7 +2104,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.7,
-      "last_update": "2026-10-29"
+      "last_update": "2026-11-02"
     },
     {
       "id": "dt-9493e68e71",
@@ -2312,7 +2294,7 @@
       "end": "2026-11-28T21:00",
       "location": "Espace Culturel Terraqué",
       "city": "Carnac",
-      "description": "Deux danseuses se retrouvent dans un stage de danse un peu particulier... Un ascenseur magique les entraine d'étage en étage, à travers les pays et les époques sur les traces des danses du monde, de leur naissance à leur évolution au fil du temps.",
+      "description": "Vendredi et samedi à 19h Dimanche à 15h \"Le tour du monde en 80 pas\" Deux danseuses se retrouvent dans un stage de danse un peu particulier...Un ascenseur magique les entraine d'étage en étage, à travers les pays et les époques sur les traces des danses du monde, de leur…",
       "url": null,
       "category": "spectacle",
       "priority": 2,
@@ -2320,7 +2302,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.7,
-      "last_update": "2026-10-29"
+      "last_update": "2026-11-02"
     },
     {
       "id": "dt-0de07ea5cb",
@@ -2366,7 +2348,7 @@
       "end": "2026-11-29T15:30",
       "location": "Musée de la Préhistoire",
       "city": "Carnac",
-      "description": "A 11h et 14h30 - inclus dans le billet d'entrée au musée Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation durée: de 20 à 30 minutes",
+      "description": "Tous les dimanches à 11h et 14h30 + mercredi 11 novembre Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation. Durée: de 20 à 30 minutes, inclus dans le billet d'entrée au musée",
       "url": "https://www.museedecarnac.com/actualites/",
       "category": "patrimoine",
       "priority": 2,
@@ -2374,7 +2356,25 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-10-22"
+      "last_update": "2026-11-02"
+    },
+    {
+      "id": "dt-f304dfd0f2",
+      "series_id": "dt-d2f4678690",
+      "title": "Visite découverte dans les Alignements",
+      "start": "2026-11-29T11:00",
+      "end": "2026-11-29T12:00",
+      "location": "Maison des Mégalithes",
+      "city": "Carnac",
+      "description": "Tous les dimanches à 11h En famille ou entre amis, venez découvrir l’histoire des Alignements de Carnac accompagnés d’un guide. Partez à la rencontre de ces hommes et de ces femmes qui ont façonné le paysage il y a 6500 ans et imaginé des constructions, qui aujourd’hui encore…",
+      "url": "http://www.menhirs-carnac.fr/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.1,
+      "last_update": "2026-11-02"
     },
     {
       "id": "dt-37147d8a61",
@@ -2402,7 +2402,7 @@
       "end": "2026-11-29T17:00",
       "location": "Espace Culturel Terraqué",
       "city": "Carnac",
-      "description": "Deux danseuses se retrouvent dans un stage de danse un peu particulier... Un ascenseur magique les entraine d'étage en étage, à travers les pays et les époques sur les traces des danses du monde, de leur naissance à leur évolution au fil du temps.",
+      "description": "Vendredi et samedi à 19h Dimanche à 15h \"Le tour du monde en 80 pas\" Deux danseuses se retrouvent dans un stage de danse un peu particulier...Un ascenseur magique les entraine d'étage en étage, à travers les pays et les époques sur les traces des danses du monde, de leur…",
       "url": null,
       "category": "spectacle",
       "priority": 2,
@@ -2410,7 +2410,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.7,
-      "last_update": "2026-10-29"
+      "last_update": "2026-11-02"
     },
     {
       "id": "dt-a0b734d3ca",
@@ -2420,7 +2420,7 @@
       "end": "2026-11-29T17:00",
       "location": "Musée de la Préhistoire",
       "city": "Carnac",
-      "description": "Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ». Vous découvrirez les gestes essentiels qui préservent les objets et échangerez avec les spécialistes du musée !",
+      "description": "À 16h tous les dimanches et jours fériés Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ».",
       "url": "https://www.museedecarnac.com/actualites/",
       "category": "musique",
       "priority": 2,
@@ -2428,7 +2428,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-10-22"
+      "last_update": "2026-11-02"
     },
     {
       "id": "dt-8fbf73563a",
