@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-04T12:13:47Z",
-  "data_updated_at": "2026-11-02",
+  "generated_at": "2026-11-05T12:27:12Z",
+  "data_updated_at": "2026-11-03",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -145,24 +145,6 @@
       "last_update": "2026-09-07"
     },
     {
-      "id": "dt-64c011b4ae",
-      "series_id": "dt-69d5f0008c",
-      "title": "Rando jeu d'Halloween",
-      "start": "2026-10-17",
-      "end": "2026-11-04",
-      "location": "74 Avenue des Druides",
-      "city": "Carnac",
-      "description": "Du 17 octobre au 4 novembre Jeu de piste \"Le Laboratoire de Franck\" Partez à la recherche des 7 affiches cachées dans le bourg de Carnac et créez votre propre créature en téléchargeant l’application Baludik. Gratuit ! plus d'info sur www.ot-carnac.fr/halloween",
-      "url": "https://www.ot-carnac.fr/infos-pratiques/agenda/halloween/",
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 3.6,
-      "last_update": "2026-10-06"
-    },
-    {
       "id": "dt-cbb6626717",
       "series_id": "dt-09cf5a1f58",
       "title": "Végétalisation cour de l'école St Pierre St Paul Erdeven",
@@ -199,22 +181,40 @@
       "last_update": "2026-10-28"
     },
     {
-      "id": "dt-01a9d9814a",
-      "series_id": "dt-2ad11373df",
-      "title": "Atelier danse bretonne - Dañs Alre",
-      "start": "2026-11-03T05:00",
-      "end": "2026-11-04",
-      "location": "Salle Jean et Marcelle Péron",
-      "city": "Auray",
-      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
+      "id": "dt-f9e26b99db",
+      "series_id": "dt-5b69e3ebf3",
+      "title": "Exposition « Nouons-nous »",
+      "start": "2026-11-03",
+      "end": "2026-11-28",
+      "location": "16 Rue Michelet",
+      "city": "Quiberon",
+      "description": "La médiathèque de Quiberon accueille « Nouons-nous », une exposition photographique d’Auxane Caqueret et de Léandre Bellin. Un vernissage est proposé le vendredi 6 novembre à 18 h.",
       "url": null,
-      "category": "spectacle",
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.2,
+      "last_update": "2026-11-03"
+    },
+    {
+      "id": "dt-08a2ef6677",
+      "series_id": "dt-fc1340e966",
+      "title": "Visite et dégustation gratuite à la Conserverie la belle-iloise",
+      "start": "2026-11-03",
+      "end": "2027-03-31",
+      "location": "Zone Artisanale de Plein-Ouest",
+      "city": "Quiberon",
+      "description": "Découvrez l'usine de la belle-Iloise à Quiberon. Une visite gratuite et guidée de 45 minutes qui allie la découverte d'une conserverie moderne, l'observation d'un savoir-faire hors du commun, l'émotion en son et lumière d'un voyage à travers le temps et une dégustation de nos…",
+      "url": "https://www.labelleiloise.fr/fr/",
+      "category": "patrimoine",
       "priority": 3,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.2,
-      "last_update": "2026-09-30"
+      "distance_km": 12.8,
+      "last_update": "2026-11-03"
     },
     {
       "id": "dt-125bcc6a89",
@@ -233,114 +233,6 @@
       "source_name": "CRT Bretagne_",
       "distance_km": 31.6,
       "last_update": "2026-10-12"
-    },
-    {
-      "id": "dt-871c365d09",
-      "series_id": "dt-ea2768c7fa",
-      "title": "Théâtre Bulle de poésie: Parce que les vers n'ont pas besoin de pieds pour s'envoler",
-      "start": "2026-11-04T10:00",
-      "end": "2026-11-04T10:30",
-      "location": "Salle J. Marca",
-      "city": "Auray",
-      "description": "Enfant, il détestait la lecture et la poésie. Aujourd’hui, il s’en fait le passeur. Le comédien Jean Quiclet propose un voyage intime et littéraire, une épopée au cœur d’une bulle, un refuge, sous un drôle d’igloo tout chaud, pour jouer avec les livres, dire les mots, les mots…",
-      "url": "https://athena-auray.mapado.com/event/793019-parce-que-les-vers-nont-pas-besoin-de-pieds-pour-senvoler-salle-marca",
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.5,
-      "last_update": "2026-09-17"
-    },
-    {
-      "id": "dt-13d582bb6d",
-      "series_id": "dt-ea2768c7fa",
-      "title": "Théâtre Bulle de poésie: Parce que les vers n'ont pas besoin de pieds pour s'envoler",
-      "start": "2026-11-04T11:30",
-      "end": "2026-11-04T12:00",
-      "location": "Salle J. Marca",
-      "city": "Auray",
-      "description": "Enfant, il détestait la lecture et la poésie. Aujourd’hui, il s’en fait le passeur. Le comédien Jean Quiclet propose un voyage intime et littéraire, une épopée au cœur d’une bulle, un refuge, sous un drôle d’igloo tout chaud, pour jouer avec les livres, dire les mots, les mots…",
-      "url": "https://athena-auray.mapado.com/event/793019-parce-que-les-vers-nont-pas-besoin-de-pieds-pour-senvoler-salle-marca",
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.5,
-      "last_update": "2026-09-17"
-    },
-    {
-      "id": "dt-af31565ccf",
-      "series_id": "dt-e1a79657f2",
-      "title": "Le CROSS Etel ouvre ses portes",
-      "start": "2026-11-04T14:00",
-      "end": "2026-11-04T16:00",
-      "location": "Cross Etel",
-      "city": "Étel",
-      "description": "Vous souhaitez découvrir les missions de surveillance et de sauvetage en mer ? Le Cross Etel ouvre ses portes pour 3 dates : les mercredis 4 novembre, 2 décembre 2026 et le 6 janvier 2027 Visites de 14h à 16h — Groupes de 20 Inscriptions : pocrossetel@mer.gouv.fr > 04 novembre…",
-      "url": null,
-      "category": "patrimoine",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.6,
-      "last_update": "2026-10-29"
-    },
-    {
-      "id": "dt-fd10a5beda",
-      "series_id": "dt-ea2768c7fa",
-      "title": "Théâtre Bulle de poésie: Parce que les vers n'ont pas besoin de pieds pour s'envoler",
-      "start": "2026-11-04T15:00",
-      "end": "2026-11-04T15:30",
-      "location": "Salle J. Marca",
-      "city": "Auray",
-      "description": "Enfant, il détestait la lecture et la poésie. Aujourd’hui, il s’en fait le passeur. Le comédien Jean Quiclet propose un voyage intime et littéraire, une épopée au cœur d’une bulle, un refuge, sous un drôle d’igloo tout chaud, pour jouer avec les livres, dire les mots, les mots…",
-      "url": "https://athena-auray.mapado.com/event/793019-parce-que-les-vers-nont-pas-besoin-de-pieds-pour-senvoler-salle-marca",
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.5,
-      "last_update": "2026-09-17"
-    },
-    {
-      "id": "dt-011f57290f",
-      "series_id": "dt-ea2768c7fa",
-      "title": "Théâtre Bulle de poésie: Parce que les vers n'ont pas besoin de pieds pour s'envoler",
-      "start": "2026-11-04T16:30",
-      "end": "2026-11-04T17:00",
-      "location": "Salle J. Marca",
-      "city": "Auray",
-      "description": "Enfant, il détestait la lecture et la poésie. Aujourd’hui, il s’en fait le passeur. Le comédien Jean Quiclet propose un voyage intime et littéraire, une épopée au cœur d’une bulle, un refuge, sous un drôle d’igloo tout chaud, pour jouer avec les livres, dire les mots, les mots…",
-      "url": "https://athena-auray.mapado.com/event/793019-parce-que-les-vers-nont-pas-besoin-de-pieds-pour-senvoler-salle-marca",
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.5,
-      "last_update": "2026-09-17"
-    },
-    {
-      "id": "dt-220346c214",
-      "series_id": "dt-9fecffe0af",
-      "title": "Théâtre: Elle pas princesse, Lui pas héros",
-      "start": "2026-11-04T18:00",
-      "end": "2026-11-04T19:00",
-      "location": "Boulevard Charles de Gaulle",
-      "city": "Étel",
-      "description": "Retrouvez le spectacle « Elle pas princesse, lui pas héros » de Magali Mougel et Julie Guichard, proposé en itinérance par le Théâtre de Lorient ! Chacun nous raconte son histoire, chacun à sa manière.",
-      "url": "https://www.mairie-etel.fr/agenda-des-evenements/theatre-elle-pas-princesse-lui-pas-heros-la-salle-des-fetes",
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.2,
-      "last_update": "2026-10-27"
     },
     {
       "id": "dt-55e70f30b0",
@@ -395,6 +287,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.5,
       "last_update": "2026-10-27"
+    },
+    {
+      "id": "dt-f33ad6a1cb",
+      "series_id": "dt-e1782ff0d4",
+      "title": "Vernissage de l’exposition « Nouons-nous »",
+      "start": "2026-11-06T18:00",
+      "end": null,
+      "location": "16 Rue Michelet",
+      "city": "Quiberon",
+      "description": "La médiathèque de Quiberon vous invite au vernissage de l’exposition photographique « Nouons-nous », vendredi 6 novembre 2026 à 18 h. Découvrez à cette occasion les photographies d’Auxane Caqueret et de Léandre Bellin.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.2,
+      "last_update": "2026-11-03"
     },
     {
       "id": "dt-8b4c219cf8",
@@ -757,6 +667,24 @@
       "last_update": "2026-08-21"
     },
     {
+      "id": "dt-5c8c3c424d",
+      "series_id": "dt-30674460f6",
+      "title": "Ciné Surprise : film surprise Jeune Public",
+      "start": "2026-11-08T15:00",
+      "end": null,
+      "location": "Cinéma Le Paradis",
+      "city": "Quiberon",
+      "description": "Installez-vous en salle et découvrez le film surprise que l'on vous a sélectionné ! Un gouter, offert par Vent d'Images, sera distribué à l'issue de la projection !",
+      "url": null,
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.7,
+      "last_update": "2026-11-03"
+    },
+    {
       "id": "dt-23e1cf83bc",
       "series_id": "dt-ed42b204c3",
       "title": "Concert de Clarisse Lavanant",
@@ -790,7 +718,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 4.1,
-      "last_update": "2026-10-23"
+      "last_update": "2026-11-03"
     },
     {
       "id": "dt-4d3364a1a6",
@@ -808,7 +736,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-11-02"
+      "last_update": "2026-11-03"
     },
     {
       "id": "dt-face0d72ee",
@@ -826,7 +754,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
-      "last_update": "2026-11-02"
+      "last_update": "2026-11-03"
     },
     {
       "id": "dt-ab618ee195",
@@ -934,7 +862,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-11-02"
+      "last_update": "2026-11-03"
     },
     {
       "id": "dt-b756593be2",
@@ -1207,6 +1135,24 @@
       "last_update": "2026-10-03"
     },
     {
+      "id": "dt-29c5f7568c",
+      "series_id": "dt-f518b9027f",
+      "title": "Atelier photo pour adultes",
+      "start": "2026-11-14T15:00",
+      "end": null,
+      "location": "16 Rue Michelet",
+      "city": "Quiberon",
+      "description": "Le récit par le nous Comment une photographie raconte-t-elle une histoire, seule ou au sein d’une série ? Samedi 14 novembre 2026 à 15 h, Léandre Bellin propose aux adultes de tous âges un atelier pour explorer le récit en images.",
+      "url": null,
+      "category": "patrimoine",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.2,
+      "last_update": "2026-11-03"
+    },
+    {
       "id": "dt-c88bab336b",
       "series_id": "dt-51cad3a3f2",
       "title": "Les Soirées Etoilées",
@@ -1438,7 +1384,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-11-02"
+      "last_update": "2026-11-03"
     },
     {
       "id": "dt-917d6998fa",
@@ -1565,6 +1511,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 14.4,
       "last_update": "2026-10-28"
+    },
+    {
+      "id": "dt-8b67376192",
+      "series_id": "dt-b98ffac1b2",
+      "title": "Atelier photo et dessin pour enfants",
+      "start": "2026-11-18T15:00",
+      "end": null,
+      "location": "16 Rue Michelet",
+      "city": "Quiberon",
+      "description": "Au-delà de l’image Que montre une photographie ? Que peut-on imaginer au-delà du cadre ? Mercredi 18 novembre 2026 à 15 h, Auxane Caqueret invite les enfants de 7 à 12 ans à explorer ces questions lors de l’atelier « Au-delà de l’image ».",
+      "url": null,
+      "category": "culture",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.2,
+      "last_update": "2026-11-03"
     },
     {
       "id": "dt-ae46139dbd",
@@ -1708,7 +1672,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 10.3,
-      "last_update": "2026-10-29"
+      "last_update": "2026-11-03"
     },
     {
       "id": "dt-5f20a7b62c",
@@ -1888,7 +1852,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-11-02"
+      "last_update": "2026-11-03"
     },
     {
       "id": "dt-47751cd0eb",
@@ -2248,7 +2212,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.3,
-      "last_update": "2026-10-31"
+      "last_update": "2026-11-03"
     },
     {
       "id": "dt-2241e45ee4",
@@ -2413,6 +2377,24 @@
       "last_update": "2026-11-02"
     },
     {
+      "id": "dt-20c942e0ae",
+      "series_id": "dt-7ff7fbed43",
+      "title": "Concert \"Harpe classique rencontre la harpe celtique \"",
+      "start": "2026-11-29T16:00",
+      "end": null,
+      "location": "Chapelle de Saint-Clément",
+      "city": "Quiberon",
+      "description": "La rencontre des harpes, avec Anne Armelle HARNAY, harpiste",
+      "url": "http://www.lesmusicalesdequiberon.fr/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "ADT 56",
+      "distance_km": 13.3,
+      "last_update": "2026-11-03"
+    },
+    {
       "id": "dt-a0b734d3ca",
       "series_id": "dt-bc785e088f",
       "title": "Le chantier des collections",
@@ -2428,7 +2410,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.8,
-      "last_update": "2026-11-02"
+      "last_update": "2026-11-03"
     },
     {
       "id": "dt-8fbf73563a",
@@ -3347,6 +3329,24 @@
       "source_name": "ADT 56",
       "distance_km": 0.6,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-2f7ebb7573",
+      "series_id": "dt-1109542872",
+      "title": "Vernissage à la Galerie Les Belles vues",
+      "start": "2026-12-18T17:30",
+      "end": null,
+      "location": "Galerie Les Belles vues",
+      "city": "Auray",
+      "description": "Nous avons le plaisir de vous inviter au Vernissage de Catherine Seznec à la Galerie les Belles Vues.",
+      "url": "https://galerielesbellesvues.com/",
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.6,
+      "last_update": "2026-11-03"
     },
     {
       "id": "dt-c3e359d2fe",
