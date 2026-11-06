@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-05T12:27:12Z",
-  "data_updated_at": "2026-11-03",
+  "generated_at": "2026-11-06T12:11:00Z",
+  "data_updated_at": "2026-11-04",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -10,9 +10,9 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 302,
+    "total": 301,
     "by_proximity": {
-      "near": 261,
+      "near": 260,
       "daytrip": 2,
       "immediate": 39
     }
@@ -233,24 +233,6 @@
       "source_name": "CRT Bretagne_",
       "distance_km": 31.6,
       "last_update": "2026-10-12"
-    },
-    {
-      "id": "dt-55e70f30b0",
-      "series_id": "dt-01656b3159",
-      "title": "Marché hebdomadaire à Crac'h",
-      "start": "2026-11-05T09:00",
-      "end": "2026-11-05T13:00",
-      "location": "Place de l'Eglise",
-      "city": "Crach",
-      "description": "Il se déroule tous les jeudis matin, autour de l'église de 9h à 13h.",
-      "url": null,
-      "category": "marche",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 4.0,
-      "last_update": "2026-01-05"
     },
     {
       "id": "dt-3ed9d4b506",
@@ -2824,7 +2806,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.3,
-      "last_update": "2026-10-23"
+      "last_update": "2026-11-04"
     },
     {
       "id": "dt-097776e7a6",
