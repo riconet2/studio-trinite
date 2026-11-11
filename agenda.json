@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-09T12:57:33Z",
+  "generated_at": "2026-11-11T11:55:29Z",
   "data_updated_at": "2026-11-04",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
@@ -10,11 +10,11 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 273,
+    "total": 271,
     "by_proximity": {
-      "near": 236,
+      "near": 235,
       "daytrip": 2,
-      "immediate": 35
+      "immediate": 34
     }
   },
   "events": [
@@ -251,42 +251,6 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 10.2,
       "last_update": "2026-09-30"
-    },
-    {
-      "id": "dt-46f8037442",
-      "series_id": "dt-09b966ff66",
-      "title": "Marché hebdomadaire à La Trinité-sur-Mer",
-      "start": "2026-11-10T08:00",
-      "end": "2026-11-10T13:00",
-      "location": "Place du Voulien",
-      "city": "La Trinité-sur-Mer",
-      "description": "Le marché hebdomadaire se tient le mardi et le vendredi matin de 8h à 13h sur la place du Voulien.",
-      "url": null,
-      "category": "marche",
-      "priority": 1,
-      "proximity": "immediate",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 0.6,
-      "last_update": "2026-01-05"
-    },
-    {
-      "id": "dt-ec1c78db05",
-      "series_id": "dt-cf02eab15b",
-      "title": "Ciné-échanges : Avoir 20 ans dans les Aurès",
-      "start": "2026-11-10T21:20",
-      "end": null,
-      "location": "Cinéma La Rivière",
-      "city": "Étel",
-      "description": "Un groupe de Bretons réfractaires et pacifistes est envoyé en Algérie. Ces êtres confrontés aux horreurs de la guerre deviennent peu à peu des machines à tuer.",
-      "url": "https://www.cinemalariviere.org/events/84963-avoir-20-ans-dans-les-aures/",
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.2,
-      "last_update": "2026-10-21"
     },
     {
       "id": "dt-52199a3684",
