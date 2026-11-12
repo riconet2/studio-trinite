@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-11T11:55:29Z",
-  "data_updated_at": "2026-11-04",
+  "generated_at": "2026-11-12T12:50:08Z",
+  "data_updated_at": "2026-11-07",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -10,11 +10,11 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 271,
+    "total": 281,
     "by_proximity": {
-      "near": 235,
-      "daytrip": 2,
-      "immediate": 34
+      "near": 243,
+      "daytrip": 3,
+      "immediate": 35
     }
   },
   "events": [
@@ -127,6 +127,24 @@
       "last_update": "2026-09-07"
     },
     {
+      "id": "dt-64c011b4ae",
+      "series_id": "dt-69d5f0008c",
+      "title": "Rando jeu - Le Labo de Franck",
+      "start": "2026-10-17",
+      "end": "2026-11-15",
+      "location": "74 Avenue des Druides",
+      "city": "Carnac",
+      "description": "Jusqu'au dimanche 15 novembre Jeu de piste \"Le Laboratoire de Franck\" Partez à la recherche des 7 affiches cachées dans le bourg de Carnac et créez votre propre créature en téléchargeant l’application Baludik. Gratuit ! plus d'info sur www.ot-carnac.fr/halloween",
+      "url": "https://www.ot-carnac.fr/infos-pratiques/agenda/halloween/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.6,
+      "last_update": "2026-11-06"
+    },
+    {
       "id": "dt-cbb6626717",
       "series_id": "dt-09cf5a1f58",
       "title": "Végétalisation cour de l'école St Pierre St Paul Erdeven",
@@ -143,6 +161,42 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.5,
       "last_update": "2026-10-20"
+    },
+    {
+      "id": "dt-c6cb4fbc9d",
+      "series_id": "dt-d8c7de08c4",
+      "title": "Apprendre à faire du vélo ou reprendre confiance, c’est possible à tout âge !",
+      "start": "2026-11-01",
+      "end": "2026-11-30",
+      "location": "Place Hoche",
+      "city": "Quiberon",
+      "description": "Apprendre à faire du vélo ou reprendre confiance, c’est possible à tout âge ! L’association Lok An Holl lance une vélo-école pour adultes à Quiberon dès novembre 2026.",
+      "url": "https://lokanholl.org/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.6,
+      "last_update": "2026-11-07"
+    },
+    {
+      "id": "dt-2a07badd4c",
+      "series_id": "dt-4b5e8a7aa4",
+      "title": "Concerts au Coota",
+      "start": "2026-11-01T22:00",
+      "end": "2026-11-30",
+      "location": "Bar Le Coota",
+      "city": "Erdeven",
+      "description": "Le Coota organise environs 120 concerts par an. C’est aussi comme tout bistrot, un lieu d’échanges et de rencontres... Le Coota met à votre disposition l'essentiel des instruments pour improviser ensemble et faire groover Kerhillio ! Programmation de Novembre",
+      "url": "http://www.lecoota.fr/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 10.3,
+      "last_update": "2026-11-07"
     },
     {
       "id": "dt-cd6fa2f7a5",
@@ -235,76 +289,22 @@
       "last_update": "2026-11-03"
     },
     {
-      "id": "dt-ab618ee195",
-      "series_id": "dt-2ad11373df",
-      "title": "Atelier danse bretonne - Dañs Alre",
-      "start": "2026-11-10T05:00",
-      "end": "2026-11-11",
-      "location": "Salle Jean et Marcelle Péron",
+      "id": "dt-fc52cb8172",
+      "series_id": "dt-a98bf213d6",
+      "title": "La table en fête",
+      "start": "2026-11-12",
+      "end": "2027-01-07",
+      "location": "La Galerie 21",
       "city": "Auray",
-      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
-      "url": null,
-      "category": "spectacle",
+      "description": "Pour célébrer l’art de la table et l’art de recevoir, la Galerie 21 vous attend pour créer avec elle la plus belle des tables de fêtes ! C'est l'occasion de découvrir de magnifiques curiosités artistiques, de se laisser séduire par des pièces uniques et d'aller à la rencontre de…",
+      "url": "https://galerie21-eld.fr/",
+      "category": "fete",
       "priority": 3,
       "proximity": "near",
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.2,
-      "last_update": "2026-09-30"
-    },
-    {
-      "id": "dt-52199a3684",
-      "series_id": "dt-79c7817d3e",
-      "title": "Picto Néo !",
-      "start": "2026-11-11T10:00",
-      "end": "2026-11-11T15:30",
-      "location": "Musée de la Préhistoire",
-      "city": "Carnac",
-      "description": "Tous les dimanches à 11h et 14h30 + mercredi 11 novembre Une façon originale de découvrir la vie des hommes et des femmes du Néolithique grâce à un jeu collaboratif. Sans réservation. Durée: de 20 à 30 minutes, inclus dans le billet d'entrée au musée",
-      "url": "https://www.museedecarnac.com/actualites/",
-      "category": "patrimoine",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 3.8,
-      "last_update": "2026-11-02"
-    },
-    {
-      "id": "dt-926cf48dc8",
-      "series_id": "dt-9cb2440d79",
-      "title": "Les Tréteaux Trinitains présentent \"Le noir te va si bien\"",
-      "start": "2026-11-11T15:00",
-      "end": null,
-      "location": "Espace culturel de la Vigie",
-      "city": "La Trinité-sur-Mer",
-      "description": "Une comédie policière de Jean Marsan, d'après Saül O'Hara Dans un vieux manoir hanté, un commissaire de Scotland Yard cherche à piéger un couple de tueurs en série.",
-      "url": "https://billetterie.festik.net/treteauxtrinitains/",
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "immediate",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 0.1,
-      "last_update": "2026-08-21"
-    },
-    {
-      "id": "dt-f241197600",
-      "series_id": "dt-bc785e088f",
-      "title": "Le chantier des collections",
-      "start": "2026-11-11T16:00",
-      "end": "2026-11-11T17:00",
-      "location": "Musée de la Préhistoire",
-      "city": "Carnac",
-      "description": "À 16h tous les dimanches et jours fériés Plongez au cœur des coulisses du musée ! Inédit : entre précision scientifique et savoir-faire, observez en direct le « chantier des collections ».",
-      "url": "https://www.museedecarnac.com/actualites/",
-      "category": "musique",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 3.8,
-      "last_update": "2026-11-03"
+      "distance_km": 9.6,
+      "last_update": "2026-11-06"
     },
     {
       "id": "dt-b756593be2",
@@ -685,6 +685,24 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-98cc4e39b0",
+      "series_id": "dt-c756b7be53",
+      "title": "KORF",
+      "start": "2026-11-15",
+      "end": null,
+      "location": "Boulevard René Cassin",
+      "city": "Quiberon",
+      "description": "Le 15 novembre, KORF prend ses quartiers à Quiberon ! Le matin, un workshop pour danseurs amateurs : on traverse ensemble une partie de Time’s up et on comprend comment naît une création. À 16h, place au spectacle Time’s up / Draft au Palais des congrès pour le public.",
+      "url": "http://www.isabellepayet.fr/",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.7,
+      "last_update": "2026-11-07"
+    },
+    {
       "id": "dt-e4e4806b5e",
       "series_id": "dt-79c7817d3e",
       "title": "Picto Néo !",
@@ -739,6 +757,24 @@
       "last_update": "2026-11-02"
     },
     {
+      "id": "dt-e5ede48244",
+      "series_id": "dt-f0429084a3",
+      "title": "Nettoyage de la plage du Men Du",
+      "start": "2026-11-15T14:00",
+      "end": "2026-11-15T17:00",
+      "location": "Allée de Stuhan",
+      "city": "La Trinité-sur-Mer",
+      "description": "Opération de sensibilisation aux déchets littoraux ouverte à tous.tes, dans le cadre du mois de l'Economie sociale et solidaire. Sacs et pinces fournis, prévoir des gants. Inscription sur place.",
+      "url": "http://lesmainsdanslesable.com/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 1.7,
+      "last_update": "2026-11-06"
+    },
+    {
       "id": "dt-27c9714a06",
       "series_id": "dt-6e20c4634a",
       "title": "Aprèm Ti Ludique",
@@ -773,6 +809,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.2,
       "last_update": "2026-10-29"
+    },
+    {
+      "id": "dt-36bb3c2667",
+      "series_id": "dt-aae7103c72",
+      "title": "Chœur de l’ensemble Vox Campus",
+      "start": "2026-11-15T15:00",
+      "end": "2026-11-15T16:30",
+      "location": "Eglise ND de Locmaria",
+      "city": "Quiberon",
+      "description": "Comme chaque année, le chœur et piano de l’association Vox Campus de l’Université d’Angers, offrira une aubade gratuite (libre participation). Elle clôturera un weekend studieux et musical de répétition à Quiberon.",
+      "url": null,
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 13.2,
+      "last_update": "2026-11-07"
     },
     {
       "id": "dt-f9e4c91b52",
@@ -863,6 +917,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.3,
       "last_update": "2026-09-17"
+    },
+    {
+      "id": "dt-a7ea580ff1",
+      "series_id": "dt-c1752970dd",
+      "title": "Atelier - Le Pouvoir Créateur des mots : Conférence Interactive et atelier d'écriture",
+      "start": "2026-11-16T14:30",
+      "end": "2026-11-16T16:00",
+      "location": "8 Rue de l'Irlande",
+      "city": "Auray",
+      "description": "Au cours de cette séance vous pourrez expérimenter la magie créatrice des mots, parce que changer ses paroles, c’est parfois changer son regard, ses pensées… et ouvrir de nouvelles possibilités. Et si vos mots pouvaient contribuer à créer un monde meilleur ?",
+      "url": "https://www.alrebio.fr/",
+      "category": "culture",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.0,
+      "last_update": "2026-11-06"
     },
     {
       "id": "dt-941ae9ace2",
@@ -1009,6 +1081,24 @@
       "last_update": "2026-09-11"
     },
     {
+      "id": "dt-65d1dfb7c3",
+      "series_id": "dt-4ae4c8a914",
+      "title": "Atelier de cuisine : Voyage gourmand en Afrique",
+      "start": "2026-11-19T14:00",
+      "end": "2026-11-19T16:00",
+      "location": "8 Rue de l'Irlande",
+      "city": "Auray",
+      "description": "Embarquez avec Carole originaire du Bénin et traiteur chez Miwadou pour faire voyager vos papilles ! Apprenez à cuisiner un savoureux mafé de poulet et ses légumes mijotés dans une sauce généreuse, servi avec un riz blanc pour en profiter pleinement...",
+      "url": "https://www.alrebio.fr/",
+      "category": "gastronomie",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.0,
+      "last_update": "2026-11-06"
+    },
+    {
       "id": "dt-31824f2d0c",
       "series_id": "dt-4997de22c7",
       "title": "Théâtre à Étel : « L’Autre » de Florian Zeller",
@@ -1097,24 +1187,6 @@
       "source_name": "ADT 56",
       "distance_km": 13.7,
       "last_update": "2026-04-30"
-    },
-    {
-      "id": "dt-8cfd473e1f",
-      "series_id": "dt-4b5e8a7aa4",
-      "title": "Concerts au Coota",
-      "start": "2026-11-20T22:00",
-      "end": null,
-      "location": "Bar Le Coota",
-      "city": "Erdeven",
-      "description": "Le Coota organise environs 120 concerts par an. C’est aussi comme tout bistrot, un lieu d’échanges et de rencontres... Le Coota met à votre disposition l'essentiel des instruments pour improviser ensemble et faire groover Kerhillio ! A venir...",
-      "url": "http://www.lecoota.fr/",
-      "category": "musique",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.3,
-      "last_update": "2026-11-03"
     },
     {
       "id": "dt-5f20a7b62c",
@@ -1639,6 +1711,24 @@
       "last_update": "2026-09-29"
     },
     {
+      "id": "dt-0957dc2790",
+      "series_id": "dt-5b6dd26e30",
+      "title": "Marché des belles créations",
+      "start": "2026-11-28T14:00",
+      "end": "2026-11-28T18:00",
+      "location": "11B Rue du Parc",
+      "city": "Sainte-Anne-d'Auray",
+      "description": "L’association Quent et moi (au profit d’une personne handicapée) vous attend nombreux pour le Marché des belles créations. Des créateurs amateurs vous proposeront leurs diverses créations. Venez vous faire plaisir !",
+      "url": null,
+      "category": "marche",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 14.1,
+      "last_update": "2026-11-06"
+    },
+    {
       "id": "dt-33c38d2126",
       "series_id": "dt-845cbcd07e",
       "title": "Noël au naturel ! Des cadeaux gourmands avec des plantes",
@@ -1745,6 +1835,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.3,
       "last_update": "2026-09-25"
+    },
+    {
+      "id": "dt-d5a81c317e",
+      "series_id": "dt-5b6dd26e30",
+      "title": "Marché des belles créations",
+      "start": "2026-11-29T10:00",
+      "end": "2026-11-29T17:00",
+      "location": "11B Rue du Parc",
+      "city": "Sainte-Anne-d'Auray",
+      "description": "L’association Quent et moi (au profit d’une personne handicapée) vous attend nombreux pour le Marché des belles créations. Des créateurs amateurs vous proposeront leurs diverses créations. Venez vous faire plaisir !",
+      "url": null,
+      "category": "marche",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 14.1,
+      "last_update": "2026-11-06"
     },
     {
       "id": "dt-808f21d523",
@@ -2017,6 +2125,24 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-30a0cf185e",
+      "series_id": "dt-bd96e3f7e8",
+      "title": "Forum des entreprises",
+      "start": "2026-12-04T09:00",
+      "end": "2026-12-04T14:00",
+      "location": "Lab'Océan",
+      "city": "La Trinité-sur-Mer",
+      "description": "Une matinée pour faire avancer vos projet ! Entreprise, profitez de ce forum pour rencontrer les acteurs du développement économique et obtenir des réponses concrètes à vos questions, découvrir les dispositifs d’accompagnement disponibles et échanger autour des enjeux qui…",
+      "url": null,
+      "category": "autre",
+      "priority": 3,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 0.7,
+      "last_update": "2026-11-05"
+    },
+    {
       "id": "dt-8b1a64cbd5",
       "series_id": "dt-7dc6c0f5f0",
       "title": "Ciel de Moana",
@@ -2266,7 +2392,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.3,
-      "last_update": "2026-11-04"
+      "last_update": "2026-11-06"
     },
     {
       "id": "dt-097776e7a6",
@@ -2611,6 +2737,24 @@
       "last_update": "2026-10-03"
     },
     {
+      "id": "dt-c71741343d",
+      "series_id": "dt-0db76cbdc3",
+      "title": "Concert - Est en Ouest – « Noël de la Bretagne à la Slovaquie »",
+      "start": "2026-12-12T16:00",
+      "end": null,
+      "location": "Place Gabriel Deshayes",
+      "city": "Auray",
+      "description": "Est en Ouest vous invite à une rencontre musicale inédite, pensée comme un véritable pont culturel entre les traditions celtiques et l'Europe centrale – et plus particulièrement la Slovaquie dont est originaire la chanteuse.",
+      "url": null,
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.7,
+      "last_update": "2026-11-07"
+    },
+    {
       "id": "dt-4a97c6ccbe",
       "series_id": "dt-f51dc51853",
       "title": "Objectif Plume au Paradis : Fabrice Amedeo",
@@ -2861,6 +3005,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
       "last_update": "2026-09-29"
+    },
+    {
+      "id": "dt-6381ca9a37",
+      "series_id": "dt-a7c34eb882",
+      "title": "Concert - Trio Per Vari Kervarec – « Pellgent - Un Noël breton »",
+      "start": "2026-12-19T16:00",
+      "end": null,
+      "location": "Place Gabriel Deshayes",
+      "city": "Auray",
+      "description": "Pellgent offre un voyage intime et poétique au cœur de la mémoire bretonne. Entre musique, parole et spiritualité, le trio célèbre une Bretagne du partage, où la langue, les chants et la foi tissent un lien vibrant entre terre et ciel.",
+      "url": null,
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.7,
+      "last_update": "2026-11-07"
     },
     {
       "id": "dt-2d05ea5fda",
@@ -4895,6 +5057,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
       "last_update": "2026-10-21"
+    },
+    {
+      "id": "dt-6ca17dcddd",
+      "series_id": "dt-baa499e18d",
+      "title": "Festival Interceltique Lorient",
+      "start": "2027-07-30",
+      "end": "2027-08-08",
+      "location": "Rue Pierre Guergadic",
+      "city": "Lorient",
+      "description": "Ils sont plus de 750 000 chaque année, à monter à bord du Lorient Express. Pas d'affaires à résoudre ici, mais la crème des musiques celtiques à déguster dans la joie et la bonne humeur. Terminus, tout le monde descend au plus grand festival de musique celtique de Bretagne.",
+      "url": "http://www.festival-interceltique.bzh/",
+      "category": "fete",
+      "priority": 2,
+      "proximity": "daytrip",
+      "source": "DATAtourisme",
+      "source_name": "CRT Bretagne_",
+      "distance_km": 31.4,
+      "last_update": "2026-11-05"
     }
   ]
 }
