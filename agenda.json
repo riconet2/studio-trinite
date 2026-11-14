@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-13T12:18:16Z",
+  "generated_at": "2026-11-14T11:33:52Z",
   "data_updated_at": "2026-11-07",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
@@ -10,11 +10,11 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 279,
+    "total": 275,
     "by_proximity": {
-      "near": 241,
+      "near": 238,
       "daytrip": 3,
-      "immediate": 35
+      "immediate": 34
     }
   },
   "events": [
@@ -305,78 +305,6 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.6,
       "last_update": "2026-11-06"
-    },
-    {
-      "id": "dt-25972b1c53",
-      "series_id": "dt-09b966ff66",
-      "title": "Marché hebdomadaire à La Trinité-sur-Mer",
-      "start": "2026-11-13T08:00",
-      "end": "2026-11-13T13:00",
-      "location": "Place du Voulien",
-      "city": "La Trinité-sur-Mer",
-      "description": "Le marché hebdomadaire se tient le mardi et le vendredi matin de 8h à 13h sur la place du Voulien.",
-      "url": null,
-      "category": "marche",
-      "priority": 1,
-      "proximity": "immediate",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 0.6,
-      "last_update": "2026-01-05"
-    },
-    {
-      "id": "dt-afb1176022",
-      "series_id": "dt-7dc6c0f5f0",
-      "title": "Ciel de Moana",
-      "start": "2026-11-13T18:00",
-      "end": "2026-11-13T21:00",
-      "location": "Côte Sauvage - Port Guibello",
-      "city": "Quiberon",
-      "description": "A la tombée du jour, le ciel s’ouvre progressivement, les premières étoiles apparaissent et le paysage devient silencieux. Le Ciel de Moana vous propose de vivre cet entre-deux dans un lieu préservé de la pollution lumineuse, à la croisée de l’océan, des sciences, des récits de…",
-      "url": "http://www.moanahistoiredocean.com/",
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 13.0,
-      "last_update": "2026-10-17"
-    },
-    {
-      "id": "dt-4a7e4f4383",
-      "series_id": "dt-e1b4d4a6f7",
-      "title": "Dîners Music Live",
-      "start": "2026-11-13T20:00",
-      "end": "2026-11-13T20:30",
-      "location": "1 Boulevard René Cassin",
-      "city": "Quiberon",
-      "description": "Tous les vendredis soirs, ambiance musicale en Live au restaurant du Kasino. Formule à 30 € (Plat + Dessert) + 7€ offerts en ticket de jeu. Découvrez le groupe du jour sur le site du Kasino : https://quiberon.kasino.bzh/diners-music-live-n768.html Les jeux d'argent sont…",
-      "url": "https://quiberon.kasino.bzh/diners-music-live-n446.html",
-      "category": "musique",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 13.7,
-      "last_update": "2026-04-30"
-    },
-    {
-      "id": "dt-3dfd044b5b",
-      "series_id": "dt-ebf7caf90a",
-      "title": "Soirée jeux de société",
-      "start": "2026-11-13T20:00",
-      "end": "2026-11-13T22:00",
-      "location": "Médiathèque Terraqué",
-      "city": "Carnac",
-      "description": "Public: ado, adulte, sénior pour partager un moment ludique et convivial ! Gratuit – en accès libre",
-      "url": "https://mediatheques-terre-atlantique.fr/node/content/nid/545463",
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 4.1,
-      "last_update": "2026-10-28"
     },
     {
       "id": "dt-41387760e2",
