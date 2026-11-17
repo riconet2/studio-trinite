@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-16T12:50:58Z",
-  "data_updated_at": "2026-11-07",
+  "generated_at": "2026-11-17T13:32:50Z",
+  "data_updated_at": "2026-11-14",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -10,10 +10,10 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 244,
+    "total": 246,
     "by_proximity": {
-      "near": 209,
-      "immediate": 33,
+      "near": 210,
+      "immediate": 34,
       "daytrip": 2
     }
   },
@@ -240,7 +240,7 @@
       "title": "La table en fête",
       "start": "2026-11-12",
       "end": "2027-01-07",
-      "location": "21 Rue Pontorson",
+      "location": "La Galerie 21",
       "city": "Auray",
       "description": "Pour célébrer l’art de la table et l’art de recevoir, la Galerie 21 vous attend pour créer avec elle la plus belle des tables de fêtes ! C'est l'occasion de découvrir de magnifiques curiosités artistiques, de se laisser séduire par des pièces uniques et d'aller à la rencontre de…",
       "url": "https://galerie21-eld.fr/",
@@ -250,24 +250,6 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.6,
-      "last_update": "2026-11-06"
-    },
-    {
-      "id": "dt-a7ea580ff1",
-      "series_id": "dt-c1752970dd",
-      "title": "Atelier - Le Pouvoir Créateur des mots : Conférence Interactive et atelier d'écriture",
-      "start": "2026-11-16T14:30",
-      "end": "2026-11-16T16:00",
-      "location": "8 Rue de l'Irlande",
-      "city": "Auray",
-      "description": "Au cours de cette séance vous pourrez expérimenter la magie créatrice des mots, parce que changer ses paroles, c’est parfois changer son regard, ses pensées… et ouvrir de nouvelles possibilités. Et si vos mots pouvaient contribuer à créer un monde meilleur ?",
-      "url": "https://www.alrebio.fr/",
-      "category": "culture",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.0,
       "last_update": "2026-11-06"
     },
     {
@@ -503,6 +485,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 14.4,
       "last_update": "2026-10-28"
+    },
+    {
+      "id": "dt-e332b80d01",
+      "series_id": "dt-ef5993eeca",
+      "title": "Ciné Pop",
+      "start": "2026-11-20T19:00",
+      "end": null,
+      "location": "10 Rue du Général Auguste la Houlle",
+      "city": "Auray",
+      "description": "Rendez-vous au centre de loisirs Arlequin pour un Ciné Pop’ organisé par un groupe de jeunes, en partenariat avec le Fab Lab d'Auray, la FABrique du Loch'.",
+      "url": null,
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 9.6,
+      "last_update": "2026-11-13"
     },
     {
       "id": "dt-b582d522fc",
@@ -881,6 +881,24 @@
       "source_name": "ADT 56",
       "distance_km": 0.6,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-9843592902",
+      "series_id": "dt-5d73aff7d1",
+      "title": "Soirée astronomie et observation de la nature au coucher du soleil",
+      "start": "2026-11-27T19:00",
+      "end": null,
+      "location": "Parking de la pointe de Kerbihan",
+      "city": "La Trinité-sur-Mer",
+      "description": "Partons à la découverte des étoiles et constellations Quelques planètes seront observées, ainsi que l'écoute des cris et chants des oiseaux. Activité maintenue même en cas de ciel couvert (balade nature dans les deux cas).",
+      "url": "http://www.baiedequiberon.bzh/",
+      "category": "plein_air",
+      "priority": 2,
+      "proximity": "immediate",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 1.0,
+      "last_update": "2026-11-13"
     },
     {
       "id": "dt-541ababeef",
@@ -1603,6 +1621,24 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-315370f286",
+      "series_id": "dt-f5715a0bce",
+      "title": "Une étoile au sapin : atelier de broderie sur feutrine",
+      "start": "2026-12-05T10:00",
+      "end": "2026-12-05T12:30",
+      "location": "Office de tourisme d'Erdeven",
+      "city": "Erdeven",
+      "description": "Et si Noël prenait un petit air marin ? À l’approche des fêtes, laissez parler votre créativité lors d’un atelier de broderie sur feutrine animé par Claudine Orsini Le Coq.",
+      "url": null,
+      "category": "fete",
+      "priority": 3,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 11.3,
+      "last_update": "2026-11-14"
+    },
+    {
       "id": "dt-13a5da2a27",
       "series_id": "dt-8d6fc8551b",
       "title": "Cirque - théâtre sous yourte - Si c'est sûr c'est pas peut-être",
@@ -1770,7 +1806,7 @@
       "title": "Cycle d’ateliers cuisine végétarienne",
       "start": "2026-12-07T18:30",
       "end": "2026-12-07T21:00",
-      "location": "GAEC Graines de Saint Germain",
+      "location": "Saint Germain",
       "city": "Erdeven",
       "description": "Un cycle de 5 ateliers/cours de cuisine en soirée le lundi pour une assiette saine, savoureuse et économique! En tant que maraîchers, l'alimentation est au coeur de notre métier.",
       "url": "http://www.saintgermainetcompagnie.fr/formations/",
@@ -2706,7 +2742,7 @@
       "title": "Cycle d’ateliers cuisine végétarienne",
       "start": "2027-01-11T18:30",
       "end": "2027-01-11T21:00",
-      "location": "GAEC Graines de Saint Germain",
+      "location": "Saint Germain",
       "city": "Erdeven",
       "description": "Un cycle de 5 ateliers/cours de cuisine en soirée le lundi pour une assiette saine, savoureuse et économique! En tant que maraîchers, l'alimentation est au coeur de notre métier.",
       "url": "http://www.saintgermainetcompagnie.fr/formations/",
@@ -3210,7 +3246,7 @@
       "title": "Cycle d’ateliers cuisine végétarienne",
       "start": "2027-02-08T18:30",
       "end": "2027-02-08T21:00",
-      "location": "GAEC Graines de Saint Germain",
+      "location": "Saint Germain",
       "city": "Erdeven",
       "description": "Un cycle de 5 ateliers/cours de cuisine en soirée le lundi pour une assiette saine, savoureuse et économique! En tant que maraîchers, l'alimentation est au coeur de notre métier.",
       "url": "http://www.saintgermainetcompagnie.fr/formations/",
@@ -3444,7 +3480,7 @@
       "title": "Cycle d’ateliers cuisine végétarienne",
       "start": "2027-03-08T18:30",
       "end": "2027-03-08T21:00",
-      "location": "GAEC Graines de Saint Germain",
+      "location": "Saint Germain",
       "city": "Erdeven",
       "description": "Un cycle de 5 ateliers/cours de cuisine en soirée le lundi pour une assiette saine, savoureuse et économique! En tant que maraîchers, l'alimentation est au coeur de notre métier.",
       "url": "http://www.saintgermainetcompagnie.fr/formations/",
