@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-20T13:01:45Z",
-  "data_updated_at": "2026-11-18",
+  "generated_at": "2026-11-21T12:44:18Z",
+  "data_updated_at": "2026-11-19",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -10,10 +10,10 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 243,
+    "total": 316,
     "by_proximity": {
-      "near": 208,
-      "immediate": 33,
+      "near": 282,
+      "immediate": 32,
       "daytrip": 2
     }
   },
@@ -142,7 +142,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.5,
-      "last_update": "2026-10-20"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-c6cb4fbc9d",
@@ -160,7 +160,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.6,
-      "last_update": "2026-11-07"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-2a07badd4c",
@@ -178,7 +178,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 10.3,
-      "last_update": "2026-11-07"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-f9e26b99db",
@@ -250,7 +250,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.6,
-      "last_update": "2026-11-06"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-511a20a6fc",
@@ -287,78 +287,6 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.6,
       "last_update": "2026-10-20"
-    },
-    {
-      "id": "dt-d84f9ecda6",
-      "series_id": "dt-09b966ff66",
-      "title": "Marché hebdomadaire à La Trinité-sur-Mer",
-      "start": "2026-11-20T08:00",
-      "end": "2026-11-20T13:00",
-      "location": "Place du Voulien",
-      "city": "La Trinité-sur-Mer",
-      "description": "Le marché hebdomadaire se tient le mardi et le vendredi matin de 8h à 13h sur la place du Voulien.",
-      "url": null,
-      "category": "marche",
-      "priority": 1,
-      "proximity": "immediate",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 0.6,
-      "last_update": "2026-01-05"
-    },
-    {
-      "id": "dt-5ba9b6847c",
-      "series_id": "dt-dc53f433e0",
-      "title": "Soirée jeux",
-      "start": "2026-11-20T18:00",
-      "end": "2026-11-20T21:00",
-      "location": "11 Rue de Vannes",
-      "city": "Sainte-Anne-d'Auray",
-      "description": "En partenariat avec l'espace jeunes de Sainte-Anne-d'Auray Jeux de société, Gibao, Switch, loups-garous seront au programme pour une soirée ludique familiale. Pensez à apporter quelques gourmandises salées ou sucrées à partager pour accompagner la soirée.",
-      "url": null,
-      "category": "plein_air",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.4,
-      "last_update": "2026-10-28"
-    },
-    {
-      "id": "dt-e332b80d01",
-      "series_id": "dt-ef5993eeca",
-      "title": "Ciné Pop",
-      "start": "2026-11-20T19:00",
-      "end": null,
-      "location": "10 Rue du Général Auguste la Houlle",
-      "city": "Auray",
-      "description": "Rendez-vous au centre de loisirs Arlequin pour un Ciné Pop’ organisé par un groupe de jeunes, en partenariat avec le Fab Lab d'Auray, la FABrique du Loch'.",
-      "url": null,
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 9.6,
-      "last_update": "2026-11-13"
-    },
-    {
-      "id": "dt-b582d522fc",
-      "series_id": "dt-e1b4d4a6f7",
-      "title": "Dîners Music Live",
-      "start": "2026-11-20T20:00",
-      "end": "2026-11-20T20:30",
-      "location": "1 Boulevard René Cassin",
-      "city": "Quiberon",
-      "description": "Tous les vendredis soirs, ambiance musicale en Live au restaurant du Kasino. Formule à 30 € (Plat + Dessert) + 7€ offerts en ticket de jeu. Découvrez le groupe du jour sur le site du Kasino : https://quiberon.kasino.bzh/diners-music-live-n768.html Les jeux d'argent sont…",
-      "url": "https://quiberon.kasino.bzh/diners-music-live-n446.html",
-      "category": "musique",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "ADT 56",
-      "distance_km": 13.7,
-      "last_update": "2026-04-30"
     },
     {
       "id": "dt-5f20a7b62c",
@@ -448,7 +376,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.3,
-      "last_update": "2026-10-31"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-c15dff35f7",
@@ -484,7 +412,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.7,
-      "last_update": "2026-10-31"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-fb763a5ff4",
@@ -610,7 +538,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 14.4,
-      "last_update": "2026-10-28"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-d40fb87742",
@@ -739,6 +667,24 @@
       "last_update": "2026-11-13"
     },
     {
+      "id": "dt-5f1303bda1",
+      "series_id": "dt-f60e36ce63",
+      "title": "Raconter en image : romans, BD et cinéma !",
+      "start": "2026-11-27T19:00",
+      "end": "2026-11-27T20:45",
+      "location": "11 boulevard Charles De Gaulle",
+      "city": "Étel",
+      "description": "Dans le cadre du weekend Littérature, bande dessinée et cinéma, le vendredi 27 novembre à 19h, Quai des Dunes vous propose une \"causerie\" au cours de laquelle nous vous inviterons à cheminer sur les liens tissés entre ces modes d'expression.",
+      "url": "http://www.cinemalariviere.org/",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 15.1,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-541ababeef",
       "series_id": "dt-78e2c034db",
       "title": "Spectacle de danse \"le tour du monde en 80 pas\"",
@@ -772,7 +718,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-11-18"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-8ad693ff7b",
@@ -790,7 +736,7 @@
       "source": "DATAtourisme",
       "source_name": "OT DE CARNAC",
       "distance_km": 3.7,
-      "last_update": "2026-11-02"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-9493e68e71",
@@ -826,7 +772,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 10.3,
-      "last_update": "2026-10-29"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-3cc54cef61",
@@ -865,6 +811,24 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-211ec4db30",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2026-11-28T10:00",
+      "end": "2026-11-28T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-4cee778502",
       "series_id": "dt-8e7e211c82",
       "title": "Spectacle: Au bonheur de lire",
@@ -880,7 +844,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.5,
-      "last_update": "2026-10-27"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-e2fd55d19c",
@@ -952,7 +916,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.3,
-      "last_update": "2026-11-03"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-2241e45ee4",
@@ -971,6 +935,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.6,
       "last_update": "2026-10-20"
+    },
+    {
+      "id": "dt-6790414b02",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2026-11-28T15:00",
+      "end": "2026-11-28T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-6dc72e85bd",
@@ -1024,7 +1006,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-11-18"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-0de07ea5cb",
@@ -1081,6 +1063,24 @@
       "last_update": "2026-11-06"
     },
     {
+      "id": "dt-fed59e7c14",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2026-11-29T10:00",
+      "end": "2026-11-29T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-d6d09df4bc",
       "series_id": "dt-45b90672f5",
       "title": "Ciné conte : Le Noel d'Ernest et Célestine",
@@ -1096,7 +1096,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.1,
-      "last_update": "2026-11-18"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-808f21d523",
@@ -1186,7 +1186,7 @@
       "source": "DATAtourisme",
       "source_name": "ADT 56",
       "distance_km": 13.3,
-      "last_update": "2026-11-03"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-a0b734d3ca",
@@ -1276,7 +1276,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 14.4,
-      "last_update": "2026-10-28"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-f4fbf83118",
@@ -1366,7 +1366,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.7,
-      "last_update": "2026-11-18"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-75bbf6a185",
@@ -1402,7 +1402,25 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.7,
-      "last_update": "2026-11-05"
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-c61fa71246",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2026-12-04T15:00",
+      "end": "2026-12-04T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-8b1a64cbd5",
@@ -1531,6 +1549,24 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-8343de5125",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2026-12-05T10:00",
+      "end": "2026-12-05T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-315370f286",
       "series_id": "dt-f5715a0bce",
       "title": "Une étoile au sapin : atelier de broderie sur feutrine",
@@ -1546,7 +1582,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.3,
-      "last_update": "2026-11-14"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-13a5da2a27",
@@ -1618,7 +1654,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.7,
-      "last_update": "2026-10-31"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-1d267a1111",
@@ -1636,7 +1672,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.0,
-      "last_update": "2026-10-31"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-531e7fe718",
@@ -1690,7 +1726,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.3,
-      "last_update": "2026-11-17"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-370002f9c9",
@@ -1816,7 +1852,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.2,
-      "last_update": "2026-10-21"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-95af2bdc76",
@@ -1834,7 +1870,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 14.4,
-      "last_update": "2026-10-28"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-d3b6c5f5d3",
@@ -1852,7 +1888,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 14.4,
-      "last_update": "2026-10-28"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-742523999d",
@@ -1945,6 +1981,24 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-8e63e3e704",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2026-12-11T15:00",
+      "end": "2026-12-11T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-0f2570aca2",
       "series_id": "dt-5487a287a4",
       "title": "Diffusion de l'opéra \" Platée\" - Soirée d'exception Micro-Folie Sainte-Anne-d'Auray",
@@ -1960,7 +2014,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 14.4,
-      "last_update": "2026-10-28"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-1b742cd833",
@@ -2032,7 +2086,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.7,
-      "last_update": "2026-11-07"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-4a97c6ccbe",
@@ -2051,6 +2105,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 13.7,
       "last_update": "2026-10-16"
+    },
+    {
+      "id": "dt-e173ad8038",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2026-12-13T10:00",
+      "end": "2026-12-13T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-0eaae7d55f",
@@ -2076,7 +2148,7 @@
       "title": "Concert d'Avent et de Noël des choeurs de la maîtrise",
       "start": "2026-12-13T17:30",
       "end": null,
-      "location": "Basilique de Ste-Anne-d'Auray",
+      "location": "Rue de Vannes",
       "city": "Sainte-Anne-d'Auray",
       "description": "- Choeurs de la Maîtrise de Sainte-Anne-d'Auray - Gilles Gérard, Cécile Vénien-Gérard et Gérard de Montmarin, Direction - Orgue",
       "url": null,
@@ -2143,6 +2215,42 @@
       "last_update": "2026-10-20"
     },
     {
+      "id": "dt-072908de69",
+      "series_id": "dt-ebdf90a95e",
+      "title": "Ciné-docs Voyage : AMSTERDAM et PAYS BAS : « des jardins sur l’eau » - film de Christian VEROT",
+      "start": "2026-12-16T15:00",
+      "end": null,
+      "location": "Espace culturel Terraqué - Auditorium",
+      "city": "Carnac",
+      "description": "Le réalisateur, présent dans la salle, nous fera découvrir un pays que se disputent la terre et l’eau, un jardin de tulipes et de jacinthes. C’est l’autre pays du fromage et les villes se nomment Édam ou Gouda.",
+      "url": "http://www.artetculture-carnac.com/",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 3.7,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-e2661c8370",
+      "series_id": "dt-ebdf90a95e",
+      "title": "Ciné-docs Voyage : AMSTERDAM et PAYS BAS : « des jardins sur l’eau » - film de Christian VEROT",
+      "start": "2026-12-16T18:30",
+      "end": null,
+      "location": "Espace culturel Terraqué - Auditorium",
+      "city": "Carnac",
+      "description": "Le réalisateur, présent dans la salle, nous fera découvrir un pays que se disputent la terre et l’eau, un jardin de tulipes et de jacinthes. C’est l’autre pays du fromage et les villes se nomment Édam ou Gouda.",
+      "url": "http://www.artetculture-carnac.com/",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 3.7,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-2f7160eb78",
       "series_id": "dt-01656b3159",
       "title": "Marché hebdomadaire à Crac'h",
@@ -2197,6 +2305,24 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-0aa9c680d7",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2026-12-18T15:00",
+      "end": "2026-12-18T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-2f7ebb7573",
       "series_id": "dt-1109542872",
       "title": "Vernissage à la Galerie Les Belles vues",
@@ -2212,7 +2338,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.6,
-      "last_update": "2026-11-03"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-c3e359d2fe",
@@ -2266,7 +2392,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 14.4,
-      "last_update": "2026-10-28"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-b130c18b21",
@@ -2276,7 +2402,7 @@
       "end": "2026-12-19T12:00",
       "location": "Médiathèque Terraqué",
       "city": "Carnac",
-      "description": "Mimo et Tuf, la chasse au Père-Noël Le Père-Noël a disparu ! C'est du moins ce que croient Mimo et Tuf, qui s'improvisent agents secrets et partent à la recherche du gros bonhomme au bonnet rouge.",
+      "description": "À 11h Spectacle de Noël \"Mimo et Tuf, la chasse au Père-Noël\" Le Père-Noël a disparu ! C'est du moins ce que croient Mimo et Tuf, qui s'improvisent agents secrets et partent à la recherche du gros bonhomme au bonnet rouge.",
       "url": "https://mediatheques-terre-atlantique.fr/carnac?&page=3&nidPagination=544026&nidPagi=544026",
       "category": "spectacle",
       "priority": 2,
@@ -2284,7 +2410,43 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 3.7,
-      "last_update": "2026-11-17"
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-9290ad5924",
+      "series_id": "dt-a63b1a3deb",
+      "title": "Visite flash : Et le feu inventa l'Homme",
+      "start": "2026-12-19T14:30",
+      "end": "2026-12-19T15:30",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Que s'est-il passé lorsque les humains ont appris à maîtriser le feu ? Venez découvrir, lors d'une visite flash, les transformations qui ont marqué la vie à la Préhistoire. Visite flash de 20 min, sans réservation.",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-a3e6e9fd0e",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2026-12-19T15:00",
+      "end": "2026-12-19T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-6381ca9a37",
@@ -2302,7 +2464,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.7,
-      "last_update": "2026-11-07"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-2d05ea5fda",
@@ -2320,7 +2482,43 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 14.4,
-      "last_update": "2026-10-28"
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-f70c923a93",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2026-12-20T10:00",
+      "end": "2026-12-20T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-436da99a9d",
+      "series_id": "dt-a63b1a3deb",
+      "title": "Visite flash : Et le feu inventa l'Homme",
+      "start": "2026-12-20T14:30",
+      "end": "2026-12-20T15:30",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Que s'est-il passé lorsque les humains ont appris à maîtriser le feu ? Venez découvrir, lors d'une visite flash, les transformations qui ont marqué la vie à la Préhistoire. Visite flash de 20 min, sans réservation.",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-e558c7273e",
@@ -2328,7 +2526,7 @@
       "title": "Concert du choeur Nicolazic et de la chorale La Sylvia",
       "start": "2026-12-20T17:30",
       "end": null,
-      "location": "Basilique de Ste-Anne-d'Auray",
+      "location": "Rue de Vannes",
       "city": "Sainte-Anne-d'Auray",
       "description": "-Jérôme Desprez, direction (Choeur Nicolazic) - Gilles Demurger, direction (Chorale La Sylvia) - Orgue",
       "url": null,
@@ -2339,6 +2537,42 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 14.5,
       "last_update": "2026-10-20"
+    },
+    {
+      "id": "dt-3a534f7b3e",
+      "series_id": "dt-a63b1a3deb",
+      "title": "Visite flash : Et le feu inventa l'Homme",
+      "start": "2026-12-21T14:30",
+      "end": "2026-12-21T15:30",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Que s'est-il passé lorsque les humains ont appris à maîtriser le feu ? Venez découvrir, lors d'une visite flash, les transformations qui ont marqué la vie à la Préhistoire. Visite flash de 20 min, sans réservation.",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-759cdf9925",
+      "series_id": "dt-b73fada864",
+      "title": "Heure du conte",
+      "start": "2026-12-21T15:00",
+      "end": null,
+      "location": "Librairie Le P'tit Monde de Zabelle",
+      "city": "Carnac",
+      "description": "À 15h \"En attendant Noël\". Pour les enfants à partir de 4 ans. 4€ remboursés sur achat le jour même. Sur inscription.",
+      "url": "https://le-ptitmonde-de-zabelle.bzh/",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-be57ecd5c1",
@@ -2377,6 +2611,96 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-f26dd9be0c",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2026-12-22T10:10",
+      "end": "2026-12-22T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-e0891cb766",
+      "series_id": "dt-a63b1a3deb",
+      "title": "Visite flash : Et le feu inventa l'Homme",
+      "start": "2026-12-22T14:30",
+      "end": "2026-12-22T15:30",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Que s'est-il passé lorsque les humains ont appris à maîtriser le feu ? Venez découvrir, lors d'une visite flash, les transformations qui ont marqué la vie à la Préhistoire. Visite flash de 20 min, sans réservation.",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-3a88624e30",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2026-12-22T15:00",
+      "end": "2026-12-22T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-31e41f1ecb",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2026-12-23T10:10",
+      "end": "2026-12-23T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-a0b77d3f0d",
+      "series_id": "dt-a63b1a3deb",
+      "title": "Visite flash : Et le feu inventa l'Homme",
+      "start": "2026-12-23T14:30",
+      "end": "2026-12-23T15:30",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Que s'est-il passé lorsque les humains ont appris à maîtriser le feu ? Venez découvrir, lors d'une visite flash, les transformations qui ont marqué la vie à la Préhistoire. Visite flash de 20 min, sans réservation.",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-9fbb386811",
       "series_id": "dt-1bdeedf5ed",
       "title": "Bal breton des enfants",
@@ -2393,6 +2717,24 @@
       "source_name": "OT DE CARNAC",
       "distance_km": 3.7,
       "last_update": "2026-11-17"
+    },
+    {
+      "id": "dt-6485fa8556",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2026-12-23T15:00",
+      "end": "2026-12-23T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-42f388a8a8",
@@ -2431,6 +2773,60 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-7a03a236ac",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2026-12-24T10:10",
+      "end": "2026-12-24T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-f60a116546",
+      "series_id": "dt-a63b1a3deb",
+      "title": "Visite flash : Et le feu inventa l'Homme",
+      "start": "2026-12-24T14:30",
+      "end": "2026-12-24T15:30",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Que s'est-il passé lorsque les humains ont appris à maîtriser le feu ? Venez découvrir, lors d'une visite flash, les transformations qui ont marqué la vie à la Préhistoire. Visite flash de 20 min, sans réservation.",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-f691900c51",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2026-12-24T15:00",
+      "end": "2026-12-24T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-2eb681982f",
       "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
@@ -2447,6 +2843,24 @@
       "source_name": "ADT 56",
       "distance_km": 0.6,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-8c31064261",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2026-12-25T15:00",
+      "end": "2026-12-25T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-b8f48e58bc",
@@ -2467,6 +2881,60 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-771ff7556d",
+      "series_id": "dt-a63b1a3deb",
+      "title": "Visite flash : Et le feu inventa l'Homme",
+      "start": "2026-12-26T14:30",
+      "end": "2026-12-26T15:30",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Que s'est-il passé lorsque les humains ont appris à maîtriser le feu ? Venez découvrir, lors d'une visite flash, les transformations qui ont marqué la vie à la Préhistoire. Visite flash de 20 min, sans réservation.",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-f4a970d288",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2026-12-26T15:00",
+      "end": "2026-12-26T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-41361ef45a",
+      "series_id": "dt-a63b1a3deb",
+      "title": "Visite flash : Et le feu inventa l'Homme",
+      "start": "2026-12-27T14:30",
+      "end": "2026-12-27T15:30",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Que s'est-il passé lorsque les humains ont appris à maîtriser le feu ? Venez découvrir, lors d'une visite flash, les transformations qui ont marqué la vie à la Préhistoire. Visite flash de 20 min, sans réservation.",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-1bb40e5da3",
       "series_id": "dt-34878a5f6a",
       "title": "Théâtre au cinéma : Ruy Blas",
@@ -2482,7 +2950,25 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-10-21"
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-fd6244855c",
+      "series_id": "dt-a63b1a3deb",
+      "title": "Visite flash : Et le feu inventa l'Homme",
+      "start": "2026-12-28T14:30",
+      "end": "2026-12-28T15:30",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Que s'est-il passé lorsque les humains ont appris à maîtriser le feu ? Venez découvrir, lors d'une visite flash, les transformations qui ont marqué la vie à la Préhistoire. Visite flash de 20 min, sans réservation.",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-ae2d633aea",
@@ -2521,6 +3007,42 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-7360dc7bed",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2026-12-29T10:10",
+      "end": "2026-12-29T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-cbf1accad9",
+      "series_id": "dt-a63b1a3deb",
+      "title": "Visite flash : Et le feu inventa l'Homme",
+      "start": "2026-12-29T14:30",
+      "end": "2026-12-29T15:30",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Que s'est-il passé lorsque les humains ont appris à maîtriser le feu ? Venez découvrir, lors d'une visite flash, les transformations qui ont marqué la vie à la Préhistoire. Visite flash de 20 min, sans réservation.",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-2bcc2d1044",
       "series_id": "dt-878971cf58",
       "title": "Cycle ballets & opéra : \"Carmen\"",
@@ -2537,6 +3059,42 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
       "last_update": "2026-10-21"
+    },
+    {
+      "id": "dt-6070f0e6b1",
+      "series_id": "dt-a63b1a3deb",
+      "title": "Visite flash : Et le feu inventa l'Homme",
+      "start": "2026-12-30T14:30",
+      "end": "2026-12-30T15:30",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Que s'est-il passé lorsque les humains ont appris à maîtriser le feu ? Venez découvrir, lors d'une visite flash, les transformations qui ont marqué la vie à la Préhistoire. Visite flash de 20 min, sans réservation.",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-599b57b8cb",
+      "series_id": "dt-dbeb96cdc4",
+      "title": "Heure du conte",
+      "start": "2026-12-30T15:00",
+      "end": null,
+      "location": "Le p'tit Monde de Zabelle",
+      "city": "Carnac",
+      "description": "À 15h « L'hiver est là » Enfants à partir de 4 ans. Sur inscription. Tarif : 4 € (remboursés sur achat le jour même)",
+      "url": "https://le-ptitmonde-de-zabelle.bzh/",
+      "category": "spectacle",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-fa413e801e",
@@ -2575,6 +3133,42 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-9ef5c7b6e8",
+      "series_id": "dt-a63b1a3deb",
+      "title": "Visite flash : Et le feu inventa l'Homme",
+      "start": "2026-12-31T14:30",
+      "end": "2026-12-31T15:30",
+      "location": "Place Christian Bonnet",
+      "city": "Carnac",
+      "description": "Que s'est-il passé lorsque les humains ont appris à maîtriser le feu ? Venez découvrir, lors d'une visite flash, les transformations qui ont marqué la vie à la Préhistoire. Visite flash de 20 min, sans réservation.",
+      "url": "http://www.museedecarnac.com/",
+      "category": "patrimoine",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 3.8,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-3a98e12504",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2026-12-31T15:00",
+      "end": "2026-12-31T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-eeb2161778",
       "series_id": "dt-09b966ff66",
       "title": "Marché hebdomadaire à La Trinité-sur-Mer",
@@ -2593,6 +3187,42 @@
       "last_update": "2026-01-05"
     },
     {
+      "id": "dt-0738acd170",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-01-01T10:00",
+      "end": "2027-01-01T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-62b1224666",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-01-01T15:00",
+      "end": "2027-01-01T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-30fabc4392",
       "series_id": "dt-fd5b2ac21d",
       "title": "Marché hebdomadaire de Quiberon",
@@ -2609,6 +3239,42 @@
       "source_name": "ADT 56",
       "distance_km": 13.4,
       "last_update": "2026-01-05"
+    },
+    {
+      "id": "dt-91b1b0153d",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-01-02T15:00",
+      "end": "2027-01-02T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-66e1699d91",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-01-03T10:00",
+      "end": "2027-01-03T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-bce52845ea",
@@ -2665,6 +3331,42 @@
       "last_update": "2026-10-29"
     },
     {
+      "id": "dt-4dc6fc5a1a",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-01-09T10:00",
+      "end": "2027-01-09T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-50e5b113ba",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-01-09T15:00",
+      "end": "2027-01-09T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-e8676ba0e5",
       "series_id": "dt-97efff94e1",
       "title": "Fest Deiz : Fa2uo",
@@ -2719,6 +3421,42 @@
       "last_update": "2026-09-30"
     },
     {
+      "id": "dt-d92ec68f7c",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-01-15T10:00",
+      "end": "2027-01-15T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-19da5fac96",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-01-16T10:00",
+      "end": "2027-01-16T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-e06ff474de",
       "series_id": "dt-27be0a800f",
       "title": "Éveil musical: animation dédiée aux parents et enfants",
@@ -2734,7 +3472,43 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.5,
-      "last_update": "2026-10-29"
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-82ed49a9be",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-01-16T15:00",
+      "end": "2027-01-16T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-ec70afd045",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-01-17T10:00",
+      "end": "2027-01-17T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-6253671ebd",
@@ -2791,6 +3565,60 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-0d91fdc919",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-01-22T15:00",
+      "end": "2027-01-22T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-8e9e3db1e8",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-01-23T15:00",
+      "end": "2027-01-23T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-444d459aba",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-01-24T10:00",
+      "end": "2027-01-24T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-5394caa5bd",
       "series_id": "dt-922ce8de11",
       "title": "Ciné-doc: La Bretagne par le sentier des Douaniers",
@@ -2827,6 +3655,42 @@
       "last_update": "2026-09-30"
     },
     {
+      "id": "dt-4697305002",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-01-29T10:00",
+      "end": "2027-01-29T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-b8763b60a4",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-01-29T15:00",
+      "end": "2027-01-29T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-4db8b257ff",
       "series_id": "dt-823aa38a53",
       "title": "Cycle ballets & opéra : \"Casse-Noisette\"",
@@ -2845,6 +3709,24 @@
       "last_update": "2026-10-21"
     },
     {
+      "id": "dt-41a91c300f",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-01-30T10:00",
+      "end": "2027-01-30T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-1609bf0988",
       "series_id": "dt-27be0a800f",
       "title": "Éveil musical: animation dédiée aux parents et enfants",
@@ -2860,7 +3742,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.5,
-      "last_update": "2026-10-29"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-01a550bcaa",
@@ -2879,6 +3761,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 10.0,
       "last_update": "2026-09-17"
+    },
+    {
+      "id": "dt-85e6989bf7",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-01-30T15:00",
+      "end": "2027-01-30T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-c5ed7e5f9d",
@@ -3061,6 +3961,24 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-9cb10f49be",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-02-05T15:00",
+      "end": "2027-02-05T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-f34d2328bc",
       "series_id": "dt-e6189320ba",
       "title": "Cirque et théâtre musical: Ballroom -au Loch",
@@ -3133,6 +4051,24 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-e330e2ede1",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-02-06T10:00",
+      "end": "2027-02-06T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-7e89124a68",
       "series_id": "dt-e6189320ba",
       "title": "Cirque et théâtre musical: Ballroom -au Loch",
@@ -3169,6 +4105,24 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-8d853b0c8b",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-02-06T15:00",
+      "end": "2027-02-06T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-797d20301f",
       "series_id": "dt-e6189320ba",
       "title": "Cirque et théâtre musical: Ballroom -au Loch",
@@ -3185,6 +4139,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.4,
       "last_update": "2026-09-17"
+    },
+    {
+      "id": "dt-31e031302d",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-02-07T10:00",
+      "end": "2027-02-07T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-f543ae8939",
@@ -3239,6 +4211,42 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
       "last_update": "2026-09-07"
+    },
+    {
+      "id": "dt-abaa651e99",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-02-12T15:00",
+      "end": "2027-02-12T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-7d2077679f",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-02-13T10:00",
+      "end": "2027-02-13T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-89d539592f",
@@ -3331,6 +4339,42 @@
       "last_update": "2026-09-17"
     },
     {
+      "id": "dt-ca2fc5becf",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-02-19T15:00",
+      "end": "2027-02-19T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-dd00e963ec",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-02-20T10:00",
+      "end": "2027-02-20T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-ec367d4169",
       "series_id": "dt-27be0a800f",
       "title": "Éveil musical: animation dédiée aux parents et enfants",
@@ -3346,7 +4390,43 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.5,
-      "last_update": "2026-10-29"
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-f43596e2dd",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-02-20T15:00",
+      "end": "2027-02-20T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-f466db1cd0",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-02-21T10:00",
+      "end": "2027-02-21T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-28b16fc408",
@@ -3367,6 +4447,24 @@
       "last_update": "2026-09-30"
     },
     {
+      "id": "dt-37c5826282",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-02-27T15:00",
+      "end": "2027-02-27T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-093c585f55",
       "series_id": "dt-56c4017ffc",
       "title": "Yoga : Trouver l’immobilité dans le mouvement",
@@ -3383,6 +4481,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.3,
       "last_update": "2026-10-03"
+    },
+    {
+      "id": "dt-1ebd7dcb8c",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-02-28T10:00",
+      "end": "2027-02-28T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-36230a9751",
@@ -3403,6 +4519,42 @@
       "last_update": "2026-09-30"
     },
     {
+      "id": "dt-d88b96cf00",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-03-05T10:00",
+      "end": "2027-03-05T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-eeef0c126a",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-03-05T15:00",
+      "end": "2027-03-05T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-d95a516252",
       "series_id": "dt-f487c88f00",
       "title": "Concert jazz Caloé et Le Voyageur",
@@ -3419,6 +4571,24 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
       "last_update": "2026-09-07"
+    },
+    {
+      "id": "dt-254365f554",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-03-07T10:00",
+      "end": "2027-03-07T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-d3c2b75da3",
@@ -3457,6 +4627,24 @@
       "last_update": "2026-09-30"
     },
     {
+      "id": "dt-64ce02b58b",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-03-12T10:00",
+      "end": "2027-03-12T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-a791cb0c0f",
       "series_id": "dt-27be0a800f",
       "title": "Éveil musical: animation dédiée aux parents et enfants",
@@ -3472,7 +4660,25 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.5,
-      "last_update": "2026-10-29"
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-f4385600a1",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-03-13T15:00",
+      "end": "2027-03-13T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-24339327ed",
@@ -3493,6 +4699,24 @@
       "last_update": "2026-10-20"
     },
     {
+      "id": "dt-35369267cd",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-03-14T10:00",
+      "end": "2027-03-14T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-372caaf648",
       "series_id": "dt-d1b8e6d302",
       "title": "Fest Deiz: Les Pemp",
@@ -3508,7 +4732,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.2,
-      "last_update": "2026-10-29"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-4cf88b446a",
@@ -3526,7 +4750,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-10-21"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-7ee00188e6",
@@ -3545,6 +4769,60 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 10.2,
       "last_update": "2026-09-30"
+    },
+    {
+      "id": "dt-aa24e904ed",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-03-19T10:00",
+      "end": "2027-03-19T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-c15b65fc9e",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-03-20T10:00",
+      "end": "2027-03-20T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-52cb2e7468",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-03-20T15:00",
+      "end": "2027-03-20T18:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-67f1a1f759",
@@ -3601,6 +4879,42 @@
       "last_update": "2026-09-30"
     },
     {
+      "id": "dt-80ef750960",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-03-26T10:00",
+      "end": "2027-03-26T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
+      "id": "dt-8bd4215a77",
+      "series_id": "dt-fa57efa204",
+      "title": "Terra Initia - Exposition \"En Filigrane\"",
+      "start": "2027-03-28T10:00",
+      "end": "2027-03-28T12:30",
+      "location": "Galerie Terra Initia",
+      "city": "Carnac",
+      "description": "En filigrane. Exposition de Peintures de l'artiste Philippe Gentils et céramiques de Sylvie Marchand. Fasciné depuis des années par le thème du végétal et amoureux de la Vie sous toutes ses formes, Philippe Gentils lui rend hommage dans toute son œuvre.",
+      "url": null,
+      "category": "culture",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "OT DE CARNAC",
+      "distance_km": 4.0,
+      "last_update": "2026-11-19"
+    },
+    {
       "id": "dt-c867bdfd03",
       "series_id": "dt-2ad11373df",
       "title": "Atelier danse bretonne - Dañs Alre",
@@ -3634,7 +4948,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.5,
-      "last_update": "2026-10-28"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-922e208d5a",
@@ -3652,7 +4966,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.5,
-      "last_update": "2026-10-28"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-7c907282d5",
@@ -3814,7 +5128,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 8.2,
-      "last_update": "2026-10-29"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-59bc536940",
@@ -3886,7 +5200,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.5,
-      "last_update": "2026-10-29"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-11682050d9",
@@ -4120,7 +5434,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-10-21"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-4b38e726c7",
@@ -4228,7 +5542,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.5,
-      "last_update": "2026-10-29"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-284194a597",
@@ -4336,7 +5650,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.5,
-      "last_update": "2026-10-29"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-bc253654cb",
@@ -4372,7 +5686,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 15.2,
-      "last_update": "2026-10-21"
+      "last_update": "2026-11-19"
     },
     {
       "id": "dt-6ca17dcddd",
