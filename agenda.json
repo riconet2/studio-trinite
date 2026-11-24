@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-23T14:47:49Z",
-  "data_updated_at": "2026-11-21",
+  "generated_at": "2026-11-24T14:56:15Z",
+  "data_updated_at": "2026-11-22",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -10,9 +10,9 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 385,
+    "total": 387,
     "by_proximity": {
-      "near": 353,
+      "near": 355,
       "immediate": 30,
       "daytrip": 2
     }
@@ -1348,7 +1348,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.7,
-      "last_update": "2026-10-20"
+      "last_update": "2026-11-22"
     },
     {
       "id": "dt-d710eac2bc",
@@ -1403,6 +1403,42 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 0.1,
       "last_update": "2026-09-07"
+    },
+    {
+      "id": "dt-fcc5f152ff",
+      "series_id": "dt-0531a3cb28",
+      "title": "Fest Noz",
+      "start": "2026-12-04T20:30",
+      "end": null,
+      "location": "Espace Les Chênes",
+      "city": "Crach",
+      "description": "Fest noz organisé par le cercle celtique de Crac'h Buvette et restauration sur place.",
+      "url": "https://www.ville-crach.fr/fest-noz-3/",
+      "category": "musique",
+      "priority": 1,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.0,
+      "last_update": "2026-11-22"
+    },
+    {
+      "id": "dt-3841aee9d5",
+      "series_id": "dt-397e2640a0",
+      "title": "Illuminations de Noël",
+      "start": "2026-12-05",
+      "end": null,
+      "location": "Place de l'Église",
+      "city": "Crach",
+      "description": "Le Père Noël distribuera des papillotes au petits et aux grands. Il y aura des chamallows grillés. Les élus et les membres du Conseil Municipal des Enfants vous offrirons vin et chocolat chaud. Une animation musicale enchantera la matinée avec des chants de Noël et d’hiver",
+      "url": "https://www.ville-crach.fr/matinee-de-noel/",
+      "category": "musique",
+      "priority": 2,
+      "proximity": "near",
+      "source": "DATAtourisme",
+      "source_name": "Office de Tourisme de la Baie de Quiberon",
+      "distance_km": 4.0,
+      "last_update": "2026-11-22"
     },
     {
       "id": "dt-7bb28ac457",
@@ -1870,7 +1906,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 14.4,
-      "last_update": "2026-11-19"
+      "last_update": "2026-11-22"
     },
     {
       "id": "dt-d3b6c5f5d3",
@@ -2706,7 +2742,7 @@
       "title": "Cercle de lecture",
       "start": "2026-12-19T10:30",
       "end": "2026-12-19T12:00",
-      "location": "Espace culturel Terraqué",
+      "location": "26 Rue du Tumulus",
       "city": "Carnac",
       "description": "À 10h30 Venez partager vos expériences littéraires et de vos coups de cœur ! Durée 1h30. En accès libre et gratuit",
       "url": "https://www.terraque.fr/animations",
