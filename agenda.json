@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-25T14:30:25Z",
-  "data_updated_at": "2026-11-22",
+  "generated_at": "2026-11-26T13:58:01Z",
+  "data_updated_at": "2026-11-24",
   "studio": {
     "name": "Studio La Trinité-sur-Mer",
     "lat": 47.585,
@@ -10,9 +10,9 @@
   "horizon_days": 270,
   "attribution": "Données : DATAtourisme et ses producteurs (offices de tourisme, communes, etc.)",
   "counts": {
-    "total": 386,
+    "total": 380,
     "by_proximity": {
-      "near": 355,
+      "near": 349,
       "immediate": 29,
       "daytrip": 2
     }
@@ -287,96 +287,6 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 9.6,
       "last_update": "2026-10-20"
-    },
-    {
-      "id": "dt-47751cd0eb",
-      "series_id": "dt-2ad11373df",
-      "title": "Atelier danse bretonne - Dañs Alre",
-      "start": "2026-11-24T05:00",
-      "end": "2026-11-25",
-      "location": "Salle Jean et Marcelle Péron",
-      "city": "Auray",
-      "description": "Entrez dans la danse avec l’animateur Kevin Guillo ! Ces cours sont ouverts à toutes et à tous, que vous soyez débutant ou déjà initié. Venez découvrir les danses bretonnes ou approfondir votre pratique, dans une ambiance conviviale et chaleureuse !",
-      "url": null,
-      "category": "spectacle",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 10.2,
-      "last_update": "2026-09-30"
-    },
-    {
-      "id": "dt-4155c37031",
-      "series_id": "dt-b22b15e8ea",
-      "title": "Le temps d'une histoire",
-      "start": "2026-11-25T10:30",
-      "end": "2026-11-25T12:00",
-      "location": "Médiathèque de Brec'h",
-      "city": "Brech",
-      "description": "Lecture et arts plastiques, dès 4 ans. Animation ouverte à tous (abonnés et non abonnés au réseau des médiathèques Terre Atlantique). Nombre de places limité – Inscription auprès de la médiathèque. Animation proposée et organisée par la médiathèque de Brec'h. Animation gratuite.",
-      "url": null,
-      "category": "patrimoine",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.1,
-      "last_update": "2026-10-07"
-    },
-    {
-      "id": "dt-7ef92f00f9",
-      "series_id": "dt-658e83c112",
-      "title": "\"A la manière de Monet\" - découverte du travail du peintre Claude Monet et atelier artistique",
-      "start": "2026-11-25T14:00",
-      "end": null,
-      "location": "Salle Hillion",
-      "city": "Sainte-Anne-d'Auray",
-      "description": "Le 5 décembre 2026 marquera les 100 ans de la disparition du peintre. Plusieurs grandes expositions se déroulent, à cette occasion, partout en France.",
-      "url": null,
-      "category": "culture",
-      "priority": 3,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 14.4,
-      "last_update": "2026-11-19"
-    },
-    {
-      "id": "dt-d40fb87742",
-      "series_id": "dt-050c4840a0",
-      "title": "CINE-DOCS VOYAGE : Le Mékong",
-      "start": "2026-11-25T15:00",
-      "end": null,
-      "location": "Espace culturel Terraqué",
-      "city": "Carnac",
-      "description": "À 15h et 18h30 Du Tibet au delta, le Mékong déroule son cours sur 4350 km et traverse six pays. De la Chine, au Laos, du Cambodge, au Vietnam, le film retrace 20 ans d’évolution des villes et des peuples vivant sur ses berges.",
-      "url": "http://www.artetculture-carnac.com/",
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.1,
-      "last_update": "2026-11-02"
-    },
-    {
-      "id": "dt-6028c2d0a0",
-      "series_id": "dt-050c4840a0",
-      "title": "CINE-DOCS VOYAGE : Le Mékong",
-      "start": "2026-11-25T18:30",
-      "end": null,
-      "location": "Espace culturel Terraqué",
-      "city": "Carnac",
-      "description": "À 15h et 18h30 Du Tibet au delta, le Mékong déroule son cours sur 4350 km et traverse six pays. De la Chine, au Laos, du Cambodge, au Vietnam, le film retrace 20 ans d’évolution des villes et des peuples vivant sur ses berges.",
-      "url": "http://www.artetculture-carnac.com/",
-      "category": "spectacle",
-      "priority": 2,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "OT DE CARNAC",
-      "distance_km": 4.1,
-      "last_update": "2026-11-02"
     },
     {
       "id": "dt-995ee8b8fe",
@@ -1492,7 +1402,7 @@
       "source": "DATAtourisme",
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 11.3,
-      "last_update": "2026-11-19"
+      "last_update": "2026-11-24"
     },
     {
       "id": "dt-13a5da2a27",
@@ -4319,24 +4229,6 @@
       "source_name": "Office de Tourisme de la Baie de Quiberon",
       "distance_km": 4.0,
       "last_update": "2026-11-19"
-    },
-    {
-      "id": "dt-fa413e801e",
-      "series_id": "dt-244f10b7c6",
-      "title": "Réveillon de la Saint-Sylvestre",
-      "start": "2026-12-31",
-      "end": null,
-      "location": "Salle des fetes -",
-      "city": "Étel",
-      "description": "ET SI ON PASSAIT LE 31 DÉCEMBRE ENSEMBLE ? Le Comité des fêtes d’Étel vous donne rendez-vous pour une grande soirée de réveillon. Une soirée pour se retrouver, dîner, danser et faire la fête avec Arpège Événements.",
-      "url": null,
-      "category": "fete",
-      "priority": 1,
-      "proximity": "near",
-      "source": "DATAtourisme",
-      "source_name": "Office de Tourisme de la Baie de Quiberon",
-      "distance_km": 15.2,
-      "last_update": "2026-09-12"
     },
     {
       "id": "dt-8ae1c1e25c",
